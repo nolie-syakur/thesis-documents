@@ -1,0 +1,5105 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass classicthesis
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Background & Literature review
+\end_layout
+
+\begin_layout Standard
+While the Internet has brought convenience to many people for exchanging
+ information, it also provides opportunities to carry malicious behavior
+ such as online fraud on massive scale with a little cost to the attackers.
+ The attackers can manipulate the Internet users instead of computer system
+ (hardware or software) that significantly increase the barriers of technologica
+l crime impact.
+ Such human centered attacks could be done by social engineering.
+ Phishing is a form of social engineering that aim
+\size small
+s
+\size default
+ to retrieve credential from online users by mimicking trustworthy and legitimat
+e institutions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ These fraudulent attacks are most frequently done by electronic communication
+ such as emails to direct users to fake websites and prompt for sensitive
+ information.
+\end_layout
+
+\begin_layout Standard
+This chapter provides an overview to phishing modus operandi and its current
+ countermeasures such as detection and prevention techniques along with
+ a brief exploration of direct and indirect cost of phishing attacks.
+\end_layout
+
+\begin_layout Section
+What is phishing?
+\end_layout
+
+\begin_layout Standard
+Phishing has a similar basic principle as ‘fishing’ in the physical world.
+ Instead of fish, online users are lured by authentic looking communication
+ and hooked by authentic looking websites.
+ Not only that, online users also may be lured by respond to a phishing
+ email, either replying or clicking an obfuscated link within its content.
+ Accoding to Oxford dictionary, the definition of phishing is
+\end_layout
+
+\begin_layout Quote
+a fraudulent practice of sending emails purporting to be from reputable
+ companies in order to induce individuals to reveal personal information,
+ such as passwords and credit card numbers, online 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "oxford"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Phishing attack also is a form of online criminal activity by using social
+ engineering techniques 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ An individual or a group who uses this technique is called 
+\emph on
+Phisher(s
+\emph default
+).
+ After successfully gaining a sensitive information from the victim, phishers
+ use this information to access victim’s financial accounts or committing
+ credit card frauds.
+ The technique of phishing may vary, but the most common technique of phishing
+ attacks done by using fraudulent emails and websites 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "james:2005"
+
+\end_inset
+
+.
+ A fraudulent website is designed in such a way that it may be identical
+ to its legitimate target.
+ While it may be true, phishing website also could be completely different
+ with its target as there is no level of identicalness.
+ However, Preliminary analysis on what changed or added in phishing website
+ would be conducted in the later section.
+\end_layout
+
+\begin_layout Subsection
+History of phishing
+\end_layout
+
+\begin_layout Standard
+The first time the term "phishing" was published by the 
+\begin_inset Flex CT - acronym
+status open
+
+\begin_layout Plain Layout
+
+AOL
+\end_layout
+
+\end_inset
+
+ UseNet Newsgroup on January 2, 1996 and was started to expand in 2004 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phishorg"
+
+\end_inset
+
+.
+ Since then, we considered phishing development in cyberspace has been flourishi
+ng by phishers to make profit.
+ Total losses due to phishing in 2004 reached more than U.S.
+ $ 2 billion, it was involving more than 15,000 sites that become victims
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "fellman:2004"
+
+\end_inset
+
+.
+ We will try to discuss about direct and indirect cost at present days in
+ the later section.
+ Evidently, Jakobsson, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+ mentioned that in the early years of 90’s (according to 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phishorg"
+
+\end_inset
+
+ it was around 1995) many hackers would create bogus AOL user accounts with
+ automatically generated fraudulent credit card information.
+ Their intention to give this fake credit card information was to simply
+ pass the validity tests performed by AOL.
+ By the time the tests were passed, AOL was thinking that these accounts
+ were legitimate and resulted to activate them.
+ Consequently, these hackers could freely access AOL resources until AOL
+ tried to actually bill the credit card.
+ AOL realized that these accounts were using invalid billing information,
+ thus deactivated the account.
+ 
+\end_layout
+
+\begin_layout Standard
+While creating false AOL user accounts with fake credit card information
+ was not exactly phishing attacks, but AOL’s effort to counter against the
+ attacks was leading to development of phishing.
+ This countermeasure includes directly verifying the legitimacy of credit
+ card information and the associated billing identity, forced hackers to
+ pursue alternative way 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ Hackers were masquerading as AOL’s employees asking to other users for
+ credit card information through AOL instant messenger and email system
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phishorg"
+
+\end_inset
+
+.
+ Jakobsson et al.
+ suggest that phishing attacks were originating from this incident 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ Since such attack has not been done before, many of users have been victimized
+ by then.
+ Eventually, AOL enforced warning system to the most of its customers to
+ be vigilant when it comes to sensitive information 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phishorg"
+
+\end_inset
+
+.
+ At the present day, phishing attacks might not only being motivated by
+ financial gain but also political reason, and they have been emerging not
+ only aim to AOL users, but also any online users.
+ Consequently, large number of legitimate institutions such as PayPal and
+ eBay are being spoofed.
+\end_layout
+
+\begin_layout Subsection
+Formal definition of phishing
+\end_layout
+
+\begin_layout Standard
+Before we begin to understand deeper about how and why phishing attack works,
+ we will briefly explore common phishing definition.
+ Currently, there is no consensus definition, since almost in every research
+ papers, academic textbook or journals has its own definition of phishing
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006,james:2005,tally:2004,clayton:2005,parno:2006,jakobsson:2005,dhamija2006phishing"
+
+\end_inset
+
+.
+ Phishing is also constantly evolving, so it might be very challenging to
+ define its universal terminology.
+ There is not so much study that specifically addresses the standard of
+ phishing definition.
+ However, one research conducted by Lastdrager 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lastdrager:2014"
+
+\end_inset
+
+ addressed to achieve consensual definition of phishing.
+ Before we comply with one consensual phishing terminology, we will take
+ a look at various phishing definitions from other sources:
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Phishing is the act of sending a forged e-mail (using a bulk mailer) to
+ a recipient, falsely mimicking a legitimate establishment in an attempt
+ to scam the recipient into divulging private information such as credit
+ card numbers or bank account passwords
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "james:2005"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Phishing is a form of Internet scam in which the attackers try to trick
+ consumers into divulging sensitive personal information.
+ The techniques usually involve fraudulent E-mail and web sites that impersonate
+ both legitimate E-mail and web sites
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "tally:2004"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Phishing is an attack in which victims are lured by official looking email
+ to a fraudulent website that appears to be that of a legitimate service
+ provider
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "clayton:2005"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+In phishing, an automated form of social engineering, criminals use the
+ internet to fraudulently extract sensitive information from businesses
+ and individuals, often by impersonating legitimate web sites
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "parno:2006"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is noteworthy that the definition described by James, et al, Tally, et
+ al, and Clayton, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "james:2005,tally:2004,clayton:2005"
+
+\end_inset
+
+ specifies that the phishers only use email as a communication channel to
+ trick potential victims.
+ While it might be true because using email would greatly cost effective,
+ but we believe that phishing is not only characterized by one particular
+ technological mean, as phishers can also use any other electronic communication
+ to trick potential victims (i.e private message on online social network).
+ This definition is also similar to dictionary libraries 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "oxford,collins,merriam"
+
+\end_inset
+
+ that mention email as a medium communication between phishers and users.
+\end_layout
+
+\begin_layout Standard
+We believe that standard definition of phishing should be applicable in
+ most of phishing concept that are presently defined.
+ Consequently, the high level of abstraction and is required to build common
+ definition on phishing.
+ We also argued that the definition of phishing should not focus on the
+ technology being used but rather on the methodology how the deception being
+ conducted, an 
+\begin_inset Quotes eld
+\end_inset
+
+act
+\begin_inset Quotes erd
+\end_inset
+
+ if you will.
+ Therefore, We follow the definition of phishing by Lastdrager 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lastdrager:2014"
+
+\end_inset
+
+ which stated: 
+\end_layout
+
+\begin_layout Quote
+
+\shape italic
+\begin_inset Quotes eld
+\end_inset
+
+Phishing is a scalable act of deception whereby impersonation is used to
+ obtain information from a target
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+According to Lastdrager 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lastdrager:2014"
+
+\end_inset
+
+, to achieve this universal definition, a systematic review of literature
+ up to August 2013 was conducted along with manual peer review, which resulted
+ in 113 distinct definitions to be analyzed.
+ We thereby agree with Lastdrager 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lastdrager:2014"
+
+\end_inset
+
+ that this definition addresses all the essential elements of phishing and
+ we will adopt it as universally accepted terminology throughout our research.
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:cost-of-phishing"
+
+\end_inset
+
+The costs of phishing attacks
+\end_layout
+
+\begin_layout Standard
+It is non-trivial task to find a real cost from phishing attacks in term
+ of money or direct cost.
+ This due to financial damage for bank is only known by banks and most instituti
+ons do not share this information with the public.
+ Evidently, Jakobsson et al.
+ argue that phishing economy is consistent with black market economy and
+ does not advertise its successes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ On this section, a brief explanation of direct and indirect cost on phishing
+ attack will be illustrated based on literature reviews.
+\end_layout
+
+\begin_layout Standard
+According to Jakobsson et al., direct cost is depicted by the value of money
+ or goods that are directly stolen through phishing attack 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ While indirect cost is the costs that do not represent the money nor goods
+ that are actually stolen, but it is the costs has to be paid by the people
+ who handle these attacks 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+ (i.e.
+ time, money and resources spent to reset people password).
+\end_layout
+
+\begin_layout Standard
+As we mentioned earlier, the difficulty of assessing the damage on phishing
+ attacks is caused by banks and institutions that keep this information
+ themselves and the unwillingness of many users to share to acknowledge
+ that they have been victimized by phishing attacks.
+ This happens because of fear of humiliation, financial loses, or legal
+ liability 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ Evidently, studies estimate the damage ranging from $61 million 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "herley:2009"
+
+\end_inset
+
+ to $3 billion per year 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mccall2007gartner"
+
+\end_inset
+
+ of direct losses to victims in the US only 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hong:2012"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moura2009scalable"
+
+\end_inset
+
+.
+ In addition, the Gartner Group claimed to estimate of $1.2 billion direct
+ losses of phishing attack to US banks and credit card companies for the
+ year 2004 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "litan2:2004"
+
+\end_inset
+
+.
+ By the 2007, it escalated to more than $3 billion loss 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mccall:2007"
+
+\end_inset
+
+.
+ The estimation also performed by TRUSTe and Ponemon Institute that stated
+ the cost of phishing attack was up to $500 millions losses in the US for
+ the same year 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://www.theregister.co.uk/2004/09/29/phishing_survey/
+\end_layout
+
+\end_inset
+
+.
+ Recently, RSA FraudAction gives monthly reports of how much the global
+ phishing cost and we compiled them together to make a line graph in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+fig:global-phishing-cost
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "RSA:2014"
+
+\end_inset
+
+.
+ However, they do not specify whether this damage is direct cost or indirect
+ cost.
+ In their study, we can see that there are fluctuation of losses in term
+ of money.
+ Furthermore, this total cost is indeed in accordance with the total cost
+ ranging from $61 million to $3billion per year 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "herley:2009,mccall2007gartner,hong:2012,moura2009scalable"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/phishing_cost1.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:global-phishing-cost"
+
+\end_inset
+
+Global phishing cost from January 2014 until June 2014 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "RSA:2014"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Modus operandi
+\end_layout
+
+\begin_layout Standard
+As we mentioned earlier, Phishing attack is a form of cybercrime.
+ The technique of the attack usually carried out firstly by creating a fake
+ website that spoofs legitimate website such as financial website, either
+ identical or not identical as long as the phishers get responds from unsuspecte
+d victims.
+ After that, the phishers will try to trick the potential victim to submit
+ important information such as usernames, passwords, PINs, etc.
+ through a fake website that they have created or through email reply from
+ victims.
+ With the information obtained, they will try to steal money from their
+ victims if target institution is a bank.
+ Phishers employ variety of techniques to trick potential victims to access
+ their fraudulent website.
+ One of the typical ways is by sending illicit email in a large scale claiming
+ to be from legitimate institution.
+ In the email content, they usually imitate an official-looking logo, using
+ good business language style and often also forge the email headers to
+ make it look like originating from legitimate institution.
+ For example, the content of the email is to inform the user that the bank
+ is changing its IT infrastructure, and request urgently that the customer
+ should update their data with the consequence of loosing their money if
+ the action does not take place.
+ When the user click the link that was on the email message, they will be
+ redirected to a fraudulent website, which will prompt the victim to fill
+ in the details of their information.
+ While there are various techniques of phishing attack, we will address
+ the common phases of phishing that we analyzed by literature survey by
+ several studies and also we will address our own phishing phases.
+ These phases are compiled in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:compilation-phases
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="1">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="12cm">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+J.
+ Hong 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hong:2012"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+\size small
+Potential victims receive a phish.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The victim may take a suggested action in the message 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The phisher monetizes the stolen information
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frauenstein, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "frauenstein:2013"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+\size small
+Planning
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Email Design
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Fabricated story
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Threatening tone/Consequences
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Spoofed website
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wetzel 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wetzel:2005"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+\size small
+Planning
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Setup
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Attack
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Collection
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Fraud
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Post-attack
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tally, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "tally:2004"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+\size small
+The attacker obtains E-mail addresses for the intended victims.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The attacker generates an E-mail that appears legitimate.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The attacker sends the E-mail to the intended victims in a way that appears
+ legitimate and obscures the true source.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The recipient opens a malicious attachment, completes a form, or visits
+ a web site.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Harvest and exploitation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Emigh 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "emigh:2005"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+\size small
+A malicious payload arrives through some propagation vector.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The user takes an action that makes him or her vulnerable to an information
+ compromise.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The user is prompted for confidential information, either by a remote web
+ site or locally by a Web Trojan.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The user compromises confidential information.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The confidential information is transmitted from a phishing server to the
+ phisher.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The confidential information is used to impersonate the user.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The phisher engages in fraud using the compromised information.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nero et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nero:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+\size small
+Preparation 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Delivery of the Lure 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Taking the Bait 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Request for Confidential Information 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Submission of Information 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Collection of Data 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Impersonation 
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Financial Gain
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row caption="true">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:compilation-phases"
+
+\end_inset
+
+Compilation of phishing phases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Based on the example scenario explained earlier, phishing attacks may consist
+ of several phases.
+ J.
+ Hong 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hong:2012"
+
+\end_inset
+
+ argued that there are three major phases.
+ while Frauenstein, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "frauenstein:2013"
+
+\end_inset
+
+ suggested that there are five main processes are used to perform phishing
+ attacks based on the perpective of the attacker.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/phishing processes.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:frauenstein"
+
+\end_inset
+
+Phishing processes based on Frauenstein
+\begin_inset CommandInset citation
+LatexCommand citep
+key "frauenstein:2013"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As we illustrated in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:frauenstein
+\end_layout
+
+\end_inset
+
+, on the first process is called 
+\shape italic
+Planning
+\shape default
+, a phisher usually would do some reconnaissance on how would the attack
+ is executed and what information would be obtained from the victim.
+ On the second process, the phisher would think about the design of the
+ email.
+ This email is desired by the phisher to look as legit as possible to potential
+ victim.
+ For this purpose, target institutions logo, trademark, symbol, etc.
+ are used to make the content look official to the victim.
+ The author called this process as 
+\shape italic
+Email Design
+\shape default
+.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:ing
+\end_layout
+
+\end_inset
+
+ illustrates the example of fake ING bank logo in a phishing email to create
+ 
+\begin_inset Quotes eld
+\end_inset
+
+legitimate
+\begin_inset Quotes erd
+\end_inset
+
+ feel
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://www.martijn-onderwater.nl/wp-content/uploads/2010/03/ing-phishing.jpg
+\end_layout
+
+\end_inset
+
+.
+ On the third process, the phisher 
+\shape italic
+fabricates
+\shape default
+ a story to make potential victim think that email is important.
+ To achieve users attention, phisher might build up a story about system
+ upgrade, account hijacked or security enhancement so that the victim would
+ feel obliged to be informed.
+ Evidently, this technique corresponds with Cialdini 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+ that suggests there are six principles to persuade people to comply with
+ a request.
+ On the fourth process, a phisher usually include 
+\shape italic
+threatening tone
+\shape default
+ or explain the urgency and consequences if the potential victim chooses
+ not to take action desired by the phisher (for example; account removal,
+ account blocked, etc.).
+ Consequently, users may fear of their account being deleted.
+ The last process involved with fraudulent website that has been created
+ by the phisher.
+ Users may falsely believe to the message given in the email and may click
+ a 
+\begin_inset Flex CT - acronym
+status collapsed
+
+\begin_layout Plain Layout
+
+URL
+\end_layout
+
+\end_inset
+
+ that is embedded in the email.
+ Subsequently, the URL would redirect users to a 
+\shape italic
+spoofed website
+\shape default
+ which may prompt users’ sensitive information.
+ Furthermore, the website might be created to be as similar as possible
+ to the target institution’s website, so that potential victim may still
+ believe that it is authentic.
+ We will explain more on Cialdini’s six basic tendencies of human behavior
+ in generating positive response to persuasion 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+ in a later section.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/ing-phishing.jpg
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ing"
+
+\end_inset
+
+Example of fake ING logo in phishing email
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considering that phishing attack is a process, Wetzel 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wetzel:2005"
+
+\end_inset
+
+ suggested a taxonomy to make sense of the complex nature of the problem
+ by mapping out a common attacks lifecycle, and a possible set of activities
+ attackers engage in within each phase.
+ The taxonomy is illustrated in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:wetzel
+\end_layout
+
+\end_inset
+
+.
+ We speculated that Wetzel's taxonomy is not analogous with Frauenstein's
+ main phishing processes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "frauenstein:2013"
+
+\end_inset
+
+.
+ The difference is that Frauenstein et al.
+ only focus in the design of the attack while Wetzel has added several phases
+ like 
+\shape italic
+Collection
+\shape default
+, 
+\shape italic
+Fraud
+\shape default
+ and 
+\shape italic
+Post-attack
+\shape default
+, therefore, Wetzel taxonomy is more holistic in term of phishing.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/wetzel.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:wetzel"
+
+\end_inset
+
+Phishing attack taxonomy and lifecycle
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wetzel:2005"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As we listed Wetzel's taxonomy in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:compilation-phases
+\end_layout
+
+\end_inset
+
+, we explain more of the taxonomy as follows:
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Planning
+\shape default
+: Preparation carried out by the phisher before continue to the next phase.
+ Example activities include identifying targets and victims, determine the
+ method of the attack, etc.
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Setup
+\shape default
+: After the target, victim and the method are known, the phisher would craft
+ a platform where the victim's information could be transmitted and stored,
+ for example: fraudulent website/email.
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Attack
+\shape default
+: Phisher distributes their fraudulent platform so that it can be delivered
+ to the potential victims with fabricated stories.
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Collection
+\shape default
+: Phisher collects valuable information via response from the victims
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Fraud
+\shape default
+: Phiser abuses victim's information by impersonates the identity of the
+ victim to the target.
+ For example, A has gained B's personal information to access C so that
+ A can pose as B to access C.
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Post-attack
+\shape default
+: After the phisher gained profit from the attack and abuse phases, a phisher
+ would not want to be noticed or detected by authority.
+ Thus, phisher might need to destroy evidence of the activities that he/she
+ previously were executed.
+\end_layout
+
+\begin_layout Standard
+Tally, et al.
+ suggest that there are several phases involved in phishing attack based
+ on the attacker's point of view 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "tally:2004"
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+1.
+ The attacker obtains E-mail addresses for the intended victims.
+ These could be guessed or obtained from a variety of sources
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+ this fits with planning phase.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+2.
+ The attacker generates an E-mail that appears legitimate and requests the
+ recipient to perform some action
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+ - fits with design phase.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+3.
+ The attacker sends the E-mail to the intended victims in a way that appears
+ legitimate and obscures the true source
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+ - fits with delivery and attack phase.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+4.
+ Depending on the content of the E-mail, the recipient opens a malicious
+ attachment, completes a form, or visits a web site
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+ - fits with attack phase.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+5.
+ The attacker harvests the victim’s sensitive information and may exploit
+ it in the future
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+ - fits with fraud phase.
+\end_layout
+
+\begin_layout Standard
+Aditionally, the phases described by Tally, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "tally:2004"
+
+\end_inset
+
+ are comparable with the information flow explained by Emigh
+\begin_inset CommandInset citation
+LatexCommand citep
+key "emigh:2005"
+
+\end_inset
+
+ represented in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:emigh
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/emigh.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:emigh"
+
+\end_inset
+
+Flow of information in phishing attack 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "emigh:2005"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Emigh 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "emigh:2005"
+
+\end_inset
+
+ suggests the information flow of phishing attacks has seven phases.
+ These phases is explained as follow:
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+1.
+ A malicious payload arrives through some propagation vector.
+ 
+\end_layout
+
+\begin_layout Quote
+2.
+ The user takes an action that makes him or her vulnerable to an information
+ compromise.
+ 
+\end_layout
+
+\begin_layout Quote
+3.
+ The user is prompted for confidential information, either by a remote web
+ site or locally by a Web Trojan.
+ 
+\end_layout
+
+\begin_layout Quote
+4.
+ The user compromises confidential information.
+ 
+\end_layout
+
+\begin_layout Quote
+5.
+ The confidential information is transmitted from a phishing server to the
+ phisher.
+ 
+\end_layout
+
+\begin_layout Quote
+6.
+ The confidential information is used to impersonate the user.
+ 
+\end_layout
+
+\begin_layout Quote
+7.
+ The phisher engages in fraud using the compromised information.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "emigh:2005"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Phishing attack steps performed by the phisher are also addressed by Nero,
+ et al 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nero:2011"
+
+\end_inset
+
+.
+ In their study, a successful phishing attack involves several phases: 
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+1.
+ Preparation 
+\end_layout
+
+\begin_layout Quote
+2.
+ Delivery of the Lure 
+\end_layout
+
+\begin_layout Quote
+3.
+ Taking the Bait 
+\end_layout
+
+\begin_layout Quote
+4.
+ Request for Confidential Information 
+\end_layout
+
+\begin_layout Quote
+5.
+ Submission of Information 
+\end_layout
+
+\begin_layout Quote
+6.
+ Collection of Data 
+\end_layout
+
+\begin_layout Quote
+7.
+ Impersonation 
+\end_layout
+
+\begin_layout Quote
+8.
+ Financial Gain
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nero:2011"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Based on our analysis by looking at other phases from various sources, there
+ is a major similarity between them.
+ Therefore, we would like to define and design our own phase that are integrated
+ with three key components suggested by Jakobsson, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ These key components are include 
+\shape italic
+the lure
+\shape default
+,
+\shape italic
+ the hook
+\shape default
+ and 
+\shape italic
+the catch
+\shape default
+.
+ As we designed in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:Information-flow-phishing
+\end_layout
+
+\end_inset
+
+, we synthesized these three components with our phases based on the attacked
+ point of view as follows:
+\end_layout
+
+\begin_layout Itemize
+The lure 
+\end_layout
+
+\begin_layout Enumerate
+Phishers prepare the attack 
+\end_layout
+
+\begin_layout Enumerate
+Deliver initial payload to potential victim 
+\end_layout
+
+\begin_layout Enumerate
+Victim taking the bait
+\end_layout
+
+\begin_layout Itemize
+The hook 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Prompt for confidential information
+\end_layout
+
+\begin_layout Enumerate-Resume
+Disclosed confidential information 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Collect stolen information 
+\end_layout
+
+\begin_layout Itemize
+The catch
+\end_layout
+
+\begin_layout Enumerate-Resume
+Impersonates victim 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Received pay out from the bank 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+Collect stolen information 
+\begin_inset Graphics
+	filename gfx/info-flow-nolie.png
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Information-flow-phishing"
+
+\end_inset
+
+Information flow phishing attack
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is important to know that on phase 3 which says victim taking the bait,
+ it might be directed to spoofed website, comply to reply the email, comply
+ to open an attachment(s) or comply to call by phone.
+ However, in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+fig:Information-flow-phishing
+\end_layout
+
+\end_inset
+
+, we only illustrate the phases if the bait was using spoofed website.
+ 
+\end_layout
+
+\begin_layout Section
+Types of phishing
+\end_layout
+
+\begin_layout Standard
+In January 2014, 8300 patients data are being compromised in medical company
+ in the US 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "adam:2014"
+
+\end_inset
+
+.
+ The data includes names, addresses, date of birth and phone numbers were
+ being stolen.
+ Other than demographic information, clinical information associated with
+ this data was also stolen, including social security numbers.
+ In the April 2014, phishers have successfully stolen US$163,000 from US
+ public school based on Michigan 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ashley:2014"
+
+\end_inset
+
+.
+ It has been said that the email prompted to transfer money is coming from
+ the finance director of the school.
+ In March 2014, Symantec has discovered phishing attack aimed at Google
+ drive users 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "teri:2014"
+
+\end_inset
+
+.
+ The attack was carried firstly with incoming email asking for opening document
+ hosted at Google docs.
+ Users that have clicked on the link are taken to fraudulent Google login
+ page prompted Google users credentials.
+ Interestingly, the URL seems very convincing because it hosted on Google
+ secure servers.
+ We hypothesized that even more phishing incidents on financial area as
+ well, but sometimes the news is kept hidden due to creditability reason.
+\end_layout
+
+\begin_layout Standard
+One may ask, what type of phishing are these? What type of phishing commonly
+ used nowadays? Evidently, based on the cost of phishing attacks in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sec:cost-of-phishing
+\end_layout
+
+\end_inset
+
+, the threat of phishing attacks is still alarming and might be evolving
+ in the future with more sophisticated technique of attacks.
+ For this reason, it might be useful to provide a brief insight on popular
+ variants of phishing that currently exist.
+ We will briefly explain the types of phishing which are the most relevant
+ to our research based on Jakobsson, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ These types of phishing is strongly related to the phishing defintion that
+ we used, because all phishing based act of deception by the phishers.
+\end_layout
+
+\begin_layout Subsection
+Deceptive phishing
+\end_layout
+
+\begin_layout Standard
+There are many variations based on deceptive phishing schemes.
+ Typical scenario of deceptive phishing schemes is to send a large amount
+ of illicit emails containing call to action asking recipients to click
+ embedded links 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ These variations include cousin domain attack.
+ For example, legitimate PayPal website addressed as www.paypal.com, this
+ cousin domain attacks confuse potential victims to believe that www.paypal-secur
+ity.com is a subdivision of the legitimate website due to identical looking
+ addresses.
+ Similarly, homograph attacks create a confusion using similar characters
+ to its addresses.
+ For example, www.paypal.com and www.paypa1.com, both addresses look the same
+ but on the second link, it uses “1” instead of “l”.
+ 
+\end_layout
+
+\begin_layout Standard
+Moreover, phishers may embed a login page directly to the email content.
+ This suggests the elimination of the need of end-users to click on a link
+ and phishers do not have to manage an active fraudulent website.
+ IP addresses are often used instead of human readable hostname to redirect
+ potential victim to phishing website and JavaScript is used to take over
+ address bar of a browser to make potential victims believe that they are
+ communicating with the legitimate institution.
+ We will also see few examples of malicious JavaScript on our preliminary
+ analysis section.
+ 
+\end_layout
+
+\begin_layout Standard
+Another type of deceptive phishing scheme is rock-phish attacks.
+ They held responsible for half a number of reported incidents worldwide
+ in 2005 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moore:2007"
+
+\end_inset
+
+.
+ These attacks evade email filters by utilizes random text and GIF images
+ which contain the actual message.
+ Rock phish attacks also utilize a toolkit that capable to manage several
+ fraudulent websites in a single domain.
+ Sometimes, deceptive phishing schemes lead to installation of malware when
+ users visit fraudulent website and we will describe malware based phishing
+ scheme in the next section.
+ 
+\end_layout
+
+\begin_layout Subsection
+Malware-based phishing
+\end_layout
+
+\begin_layout Standard
+Generally, malware based phishing refers to any type of phishing which involves
+ installing malicious piece of software onto users' personal computer 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ Subsequently, this malware is used to gather confidential information from
+ victims instead of spoofing legitimate websites.
+ This type of phishing incorporates malwares such as keyloggers/screenloggers,
+ web Trojans and hosts file poisoning.
+\end_layout
+
+\begin_layout Section
+Bad neighborhoods on phishing
+\end_layout
+
+\begin_layout Standard
+In the physical world, there are parts of certain area that have higher
+ crime rates than others (eg.
+ Bronx in the US) which called hotspots.
+ Evidently, it is statistically more likely that a crime will occur compared
+ to other locations 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moura:2013"
+
+\end_inset
+
+.
+ To better illustrate this analogy, the police department in Belgium 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "belgiumpolice:2014"
+
+\end_inset
+
+ has put up statistical information regarding crime rates in the country.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:car-incidents
+\end_layout
+
+\end_inset
+
+ shows an example in 2013; there were up to 5525 car theft incidents recorded
+ and we can see there are certain areas that have higher probability that
+ a car got stolen.
+ For example, Antwerp had 415 incidents whereas Berlare had only 1 car theft
+ incident 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "belgiumpolice2:2014"
+
+\end_inset
+
+.
+ The data is not necessarily based on cities, it can be based on the residential
+ area within a city.
+ This holds true that much higher crime rates in a concentrated location
+ compared to any other locations.
+ It is called bad neighborhood.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/bad neighborhoods.png
+	scale 80
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:car-incidents"
+
+\end_inset
+
+Belgium police record on car theft incidents in 2013
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To reduce the crime rates in a bad neighborhood, it makes sense that the
+ authority should put more enforcement in this location.
+ Moreover, the citizen should avoid this location as much as they can if
+ they want to feel much safer.
+ Evidently, Moura, et al.
+ suggest that the existence of bad neighborhood phenomenon also occurs in
+ the Internet world called 
+\begin_inset Quotes eld
+\end_inset
+
+Internet bad neighborhoods
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moura:2013"
+
+\end_inset
+
+.
+ There are certain networks of Internet infrastructure that contain more
+ malicious activities that other networks.
+ For our preliminary analysis, we will adopt formal definition of Internet
+ bad neighborhoods or Internet Badhoods by 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moura:2013"
+
+\end_inset
+
+ which states: 
+\end_layout
+
+\begin_layout Quote
+
+\shape italic
+\begin_inset Quotes eld
+\end_inset
+
+Internet bad neighborhood is a set of IP addresses clustered according to
+ an aggregation criterion in which a number of IP addresses perform a certain
+ malicious activity over a specified period of time
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Several studies have suggested that the source of the Internet Badhoods
+ tend to be concentrated in certain portions of 
+\begin_inset Flex CT - acronym
+status open
+
+\begin_layout Plain Layout
+
+IP
+\end_layout
+
+\end_inset
+
+ address space 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ramachandran:2006,collins:2007,chen:2007"
+
+\end_inset
+
+.
+ Moura, et al.
+ suggest that Internet Badhoods do not always only based on network prefixes
+ level (e.g.
+ /24, /32, etc..) but it can be aggregated into several levels (ISPs, Countries)
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moura:2013"
+
+\end_inset
+
+.
+ Moreover, Internet Badhoods may vary depending on which application exploited.
+ While spam is most likely distributed all around the world, however, phishing
+ Badhoods are most likely concentrated in developed countries (e.g.
+ US) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moura:2013"
+
+\end_inset
+
+.
+ This suggests that phishing sites are required to have more reliable hosts
+ in term of availability, while spams are not.
+ We will see on 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+chap:preliminary
+\end_layout
+
+\end_inset
+
+ that consists of our preliminary analysis on phishing Badhoods.
+\end_layout
+
+\begin_layout Section
+Current countermeasures of phishing attacks
+\end_layout
+
+\begin_layout Standard
+There are various types of phishing countermeasures that implemented in
+ different levels.
+ Purkait has conducted an extensive research in reviewing these countermeasures
+ which are available up until 2012 and their effectiveness 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "purkait"
+
+\end_inset
+
+.
+ He suggests that there is a classification of phishing countermeasures
+ in separate groups and according to Purkait 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "purkait"
+
+\end_inset
+
+, these groups are listed as follow:
+\end_layout
+
+\begin_layout Itemize
+Stop phishing at the email level
+\end_layout
+
+\begin_layout Itemize
+Security and password management toolbars
+\end_layout
+
+\begin_layout Itemize
+Restriction list
+\end_layout
+
+\begin_layout Itemize
+Visually differentiate the phishing site
+\end_layout
+
+\begin_layout Itemize
+Two facto and multi channel authentication
+\end_layout
+
+\begin_layout Itemize
+Takedown, transaction anomaly detection, log files
+\end_layout
+
+\begin_layout Itemize
+Anti phishing training
+\end_layout
+
+\begin_layout Itemize
+Legal solution
+\end_layout
+
+\begin_layout Standard
+In addition, Parmar, et al.
+ suggests that phishing detection can be classified into two types; user
+ training approach and software classification approach 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "parmar:2014"
+
+\end_inset
+
+.
+ He illustrated a diagram and a table that summarizes phishing detection
+ as countermeasures in a broad view 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "parmar:2014"
+
+\end_inset
+
+.
+ They also argued the advantages and disadavantages of each category 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "parmar:2014"
+
+\end_inset
+
+.
+ However, as our research mainly focuses in synthesizing phishing email
+ with cialdini's six principles of persuasion 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+, we will only briefly discuss phishing countermeasures at 
+\shape italic
+restriction list
+\shape default
+ group (i.e.
+ Phishtank), 
+\shape italic
+email level
+\shape default
+ (i.e.
+ machine learning) and 
+\shape italic
+anti phishing training
+\shape default
+ group (i.e PhishGuru).
+ 
+\end_layout
+
+\begin_layout Subsection
+Phishing detection
+\end_layout
+
+\begin_layout Subsubsection
+Phishtank
+\end_layout
+
+\begin_layout Standard
+One of the common approaches to detect phishing attacks is the implementation
+ of restriction list.
+ As the name suggest, it prevents users to visit fraudulent websites.
+ One of the efforts to achieve restriction list, is to derive phishing URLs
+ from Phishtank.
+ Phishtank is a blacklisting company specifically for phishing URLs and
+ it is a free community web based where users can report, verify and track
+ phishing URLs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phishtank"
+
+\end_inset
+
+.
+ Phishtank stores phishing URLs in its database and the data is widely available
+ for use by other companies.
+ Some of the big companies that are using Phishtank’s data includes; Yahoo
+ Mail, McAfee, APWG, Web Of Trust, Kaspersky, Opera and Avira.
+ In this section, we will discuss how the current literatures have to do
+ with the data provided by Phishtank.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:phishtank
+\end_layout
+
+\end_inset
+
+ summarizes the papers selected and its relevancy with Phishtank.
+ It is noteworthy that literatures selected do not represent all studies
+ available that relevant with phishtank, we aim to only analyzed how crowd-sourc
+ed phishing detection such as phishtank works with the help of these literatures.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="4">
+<features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="3cm">
+<column alignment="left" valignment="top" width="2cm">
+<column alignment="left" valignment="top" width="2cm">
+<column alignment="left" valignment="top" width="5cm">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Paper title
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+First author
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Country
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Relevancy with phishtank
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Evaluating the wisdom of crowds in assessing phishing website 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moore:2008"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Tyler Moore
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+United Kingdom
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Examine the structure and outcomes of user participation in Phishtank.
+ The authors find that Phishtank is dominated by the most active users,
+ and that participation follows a power law distribution and this makes
+ it particularly susceptible to manipulation.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Re-evaluating the wisdom of crowds in assessing web Security 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chia:2012"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Pern Hui Chia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Norway
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Examine the wisdom of crowds on web of trust that has similarity with Phishtank
+ as a user based system.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Automatic detection of phishing target from phishing webpage 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu:2010"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Gang Liu
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+China
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Phishtank database is used to test the phishing target identification accuracy
+ of their method.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+A method for the automated detection of phishing websites through both site
+ characteristics and image analysis 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "white:2012"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Joshua S.
+ White
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+New york, US.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Phishtank database is used to perform additional validation of their method.
+ They also collect data from twitter using twitter’s API to find malicious
+ tweets containing phishing URLs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Intelligent phishing detection and protection scheme for online transaction
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "barraclough:2013"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+P.A.
+ Barraclough
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Newcastle, United Kingdom
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Phishtank features is used as one of the input of neuro fuzzy technique
+ to detect phishing website.
+ The study suggested 72 features from Phishtank by exploring journal papers
+ and 200 phishing website.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Towards preventing QR code based attacks on android phone using security
+ warning 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "yao:2013"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Huiping Yao
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+New Mexico, US.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Phishtank API is used for lookup whether the given QR containing phishing
+ URL in the Phishtank database.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+A SVM based technique to detect phishing URLs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "huang:2012"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Huajun Huang
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+China
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Phishtank database is used as validation resulting 99% accuracy by SVM method,
+ plus the top ten brand names in Phishtank archive is used as features in
+ SVM method.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Socio technological phishing prevention 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gupta:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Gaurav Gupta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Australia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Analyze the Phishtank verifiers (individual/organization) to be used as
+ anti phishing model.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+An evaluation of lightweight classification methods for identifying malicious
+ URLs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "egan:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Shaun Egan
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Grahamstown, South Africa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Indicating that lightweight classification methods achieves an accuracy
+ of 93% to 96% when trained data from Phishtank.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Phi.sh/$oCiaL: The phishing landscape through short URLs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chhabra:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Sidharth Chhabra
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Delhi, India
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Phishtank database is used to analyze suspected phish that is done through
+ short URLs.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Discovering phishing target based on semantic link network 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wenyin:2010"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Liu Wenyin
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Hong Kong
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Phishtank database is used as test dataset to verify their proposed method
+ (Semantic Link Network) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row caption="true">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:phishtank"
+
+\end_inset
+
+Summary phishtank studies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From our literature survey, we know that Phishtank is crowd-sourced platform
+ to manage phishing URL, for that reason a study aims to evaluate the wisdom
+ of crowd provided by Phishtank 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moore:2008"
+
+\end_inset
+
+.
+ The study finds that the user participation is distributed according to
+ power law.
+ It uses to model data which frequency of an event varies as a power of
+ some attribute of that event 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lai"
+
+\end_inset
+
+.
+ Power law also applies to a system when large is rare and small is common
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://kottke.org/03/02/weblogs-and-power-laws
+\end_layout
+
+\end_inset
+
+.
+ For example in the case of individual weatlh in a country, 80% of the all
+ wealth is controlled by 20% of population in a country.
+ It makes sense that in Phishtank’s verification system, a single highly
+ active user’s action can greatly impact the system’s overall accuracy.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Comparison-summary
+\end_layout
+
+\end_inset
+
+ summarizes the comparison performed by 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moore:2008"
+
+\end_inset
+
+ between Phishtank and closed proprietary anti-phishing feeds
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The author did not specify the identity of the closed proprietary company
+\end_layout
+
+\end_inset
+
+.
+ Moreover, there are some ways to disrupt Phishtank verification system;
+ submitting invalid reports accusing legitimate website, voting legitimate
+ website as phish, and voting illegitimate website as not phish.
+ While all the scenarios described are for the phishers' benefit, the last
+ scenario is more direct and the first two actions rather subtle intention
+ to undermine Phishtank credibility.
+\end_layout
+
+\begin_layout Standard
+To put it briefly, the lesson of crowd sourced anti-phishing technology
+ like Phishtank is that the distribution of user participation matters.
+ It means that if a few high value participants do something wrong, it can
+ greatly impact overall system.
+ Also, there is a high probability that bad users could also extensively
+ participate in submitting or verifying URLs in Phishtank.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Phishtank
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Proprietary
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+10924 URLs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+13318 URLs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+8296 URLs after removing duplication
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+8730 URLs after removing duplication
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Shares 5711 URLs in common 3019 Unique to the company feeds while 2585 only
+ appeared in Phishtank
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+586 rock-phish domains
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+1003 rock phish domains
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+459 rock phish domains found in Phishtank
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+544 rock phish domains not found in Phishtank
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Saw the submission first
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+11 minutes later appear on the feed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+16 hours later after its submission for verification (voting based)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+8 second to verified after it appears
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Rock phish appear after 12 hours appeared in the proprietary feed and were
+ not verified for another 12 hours
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Comparison-summary"
+
+\end_inset
+
+Comparison summary 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moore:2008"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Machine learning approach
+\end_layout
+
+\begin_layout Standard
+The fundamental of phishing detection system would be to distinguish between
+ phishing websites and the legitimate ones.
+ As we previously discussed, the aim of phishing attack is to gather confidentia
+l information from potential victims.
+ To do this, phishers often prompt for this information through fraudulent
+ websites and masquerade as legitimate institutions.
+ It does not make sense if phishers created them in a way very distinctive
+ with its target.
+ It may raise suspicions with result of unsuccessful attack.
+ To put it another way, while it might be true, we speculated that most
+ of the phishing websites are mostly identical with its legitimate websites
+ as target to reduce suspiciousness from potential victim.
+ 
+\end_layout
+
+\begin_layout Standard
+In contrast of one of blacklisting technique we saw in Phishtank that heavily
+ depend on human verification, researchers make use of machine learning
+ based technique to automatically distinguish between phishing and legitimate
+ either websites or email.
+ Basically, machine-learning system is a platform that can learn from previous
+ data and predict future data with its classification, in this case, phishing
+ and legitimate.
+ In order for this machine to learn from data, there should be some kind
+ of inputs to classify the data, it is called features or characteristics.
+ 
+\end_layout
+
+\begin_layout Standard
+Furthermore, there are also several learning algorithms to classify the
+ data, such as, logistic regression, random forest, neural networks, support
+ vector machine, etc..
+ However, for the sake of simplicit of our research, we will not discuss
+ about the learning algorithm that is currently implemented.
+ We will only introduce three features that are used in machine learning
+ based detection.
+ 
+\end_layout
+
+\begin_layout Standard
+There are vast amount of features to utilize machine learning to detect
+ phishing attack.
+ We analyze three features: lexical feature, host-based feature and site
+ popularity feature.
+ Each of these features will be introduced briefly as follows.
+\end_layout
+
+\begin_layout Enumerate
+Lexical features
+\end_layout
+
+\begin_layout Standard
+Lexical features (URL based features) are based on the analysis of URL structure
+ without any external information.
+ A study suggest that the structure URL of phishing may “looks” different
+ to experts 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ma:2009"
+
+\end_inset
+
+.
+ These features include how many dots exist, the length, how deep the path
+ traversal do the URL has, if there any sensitive words present in a URL,
+ etc..
+ For example the URLs https://www.paypal.com and http://www.paypal.com.example.com/
+ or http://login.example.com/ www.paypal.com/, we can see that the domain paypal.com
+ positioned differently, with the first one being the benign URL.
+ 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+fig:ex-lex
+\end_layout
+
+\end_inset
+
+ shows the example analysis of lexical features in a phishing URL 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "le:2011"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/lexical.png
+	scale 80
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ex-lex"
+
+\end_inset
+
+Example lexical features 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "le:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We believe lexical features analysis has a performance advantage and reduces
+ overhead in term of processing and latency, since it only tells the machine
+ to learn URL structure.
+ 90% accuracy is achieved when utilizing lexical features combined with
+ external features such as WHOIS data 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "le:2011"
+
+\end_inset
+
+.
+ A study also performed evaluation of lightweight classification that includes
+ lexical features and host based features in its model 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "egan:2011"
+
+\end_inset
+
+.
+ The study found that the classification based on these features resulted
+ in extremely high accuracy and low overhead.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:exist-lex
+\end_layout
+
+\end_inset
+
+ lists the existing lexical features that are currently implemented by two
+ different studies 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011,liu"
+
+\end_inset
+
+.
+ However, 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+ pointed out that URLs structure could be manipulated with little cost,
+ causing the features to fail.
+ For example, attackers could simply remove embedded domain and sensitive
+ words to make their phishing URLs look legitimate.
+ Embedded domain feature examines whether a domain or a hostname is present
+ in the path segment 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+, for example, http://www.example.net/pathto/www.paypal.com.
+ Suspicious URL feature examine whether the URL has 
+\begin_inset Quotes eld
+\end_inset
+
+@
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+-
+\begin_inset Quotes erd
+\end_inset
+
+, the present of 
+\begin_inset Quotes eld
+\end_inset
+
+@
+\begin_inset Quotes erd
+\end_inset
+
+ is examined in a URL because when the symbol 
+\begin_inset Quotes eld
+\end_inset
+
+@
+\begin_inset Quotes erd
+\end_inset
+
+ is used, the string to the left will be discarded.
+ Furthermore, according to 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+, not many legitimate websites use 
+\begin_inset Quotes eld
+\end_inset
+
+-
+\begin_inset Quotes erd
+\end_inset
+
+ in their URLs.
+ There are also plenty of legitimate domains presented only with IP address
+ and contains more dots.
+ Nevertheless, lexical analysis would be suitable features to use for first
+ phase analysis in a large data 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "egan:2011"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="5cm">
+<column alignment="left" valignment="top" width="4cm">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Haotian Liu, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Guang Xiang, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size scriptsize
+Length of hostname Length of entire URL
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Number of dots 
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Top-level domain
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Domain token count
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Path token count
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Average domain token length of all dataset
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Average path token length of dataset
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Longest domain token length of dataset
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Longest path token length of dataset
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Brand name presence 
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+IP address presence
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Security sensitive word presence 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size scriptsize
+Embedded domain
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+IP address presence
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Number of dots
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Suspicious URL 
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Number of sensitive words
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Out of position top level domain (TLD) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:exist-lex"
+
+\end_inset
+
+Existing lexical features 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu,xiang:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Host based features
+\end_layout
+
+\begin_layout Standard
+Since phishers often hosted phishing websites in less reputable hosting
+ services and registrars, host-based features are needed to observe on the
+ external sources (WHOIS information, domain information, etc.).
+ A study suggests host-based features have the ability to describe where
+ phishing websites are hosted, who owns them and how they are managed 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ma:2009"
+
+\end_inset
+
+.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:host-based
+\end_layout
+
+\end_inset
+
+ shows the host-based features from two studies that are currently used
+ in machine learning phishing detection.
+ The two studies are selected only for example comparison.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="3cm">
+<column alignment="left" valignment="top" width="5cm">
+<column alignment="left" valignment="top" width="3cm">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Justin Ma, et al.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ma:2009,ma2:2009"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Haotian Liu, et al.
+ [46]
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Guang Xiang, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size scriptsize
+WHOIS data
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+IP address information
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Connection speed
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Domain name properties 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size scriptsize
+Autonomous system number 
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+IP country
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Number of registration information
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Number of resolved IPs
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Domain contains valid PTR record
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Redirect to new site
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+All IPs are consistent
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size scriptsize
+Age of Domain
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:host-based"
+
+\end_inset
+
+Host-based features 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ma:2009,ma2:2009,liu,xiang:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Each of these features does matter for phishing detection.
+ However, we will not describe each of these features in detail.
+ It is noteworthy that some of the features are subset of another feature,
+ for instance, autonomous system number (ASN), IP country and number of
+ registration information are derived from WHOIS information.
+ Nevertheless, we will only explain few of them that we assume the most
+ crucial.
+ 
+\end_layout
+
+\begin_layout Enumerate
+WHOIS information: Since phishing websites are often created at relatively
+ young age, this information could provide the registration date, update
+ date and expiration date.
+ Domain ownership would also be included; therefore, a set of malicious
+ websites with the same individual could be identified.
+ 
+\end_layout
+
+\begin_layout Enumerate
+IP address information: Justin Ma, et al.
+ used this information for identify whether or not an IP address is in blacklist
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ma2:2009,ma:2009"
+
+\end_inset
+
+.
+ Besides the corresponding IP address, it provides records like nameservers
+ and mail exchange servers.
+ This allows the classifier to be able to flag other IP addresses within
+ the same IP prefix and ASN.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Domain name properties: these include time to live (TTL) of DNS associated
+ with a hostname.
+ PTR record (reverse DNS lookup) of a domain could also be derived whether
+ it is valid or not.
+\end_layout
+
+\begin_layout Standard
+During our preliminary analysis, we will show that we could add reverse
+ IP address lookup to find bad neighborhoods within the same IP address
+ or domain.
+ 
+\end_layout
+
+\begin_layout Enumerate-Resume
+Site popularity features
+\end_layout
+
+\begin_layout Standard
+Site popularity could be an indicator whether a website is phishy or not.
+ It makes sense if a phishing website has much less traffic or popularity
+ than a legitimate website.
+ According to 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+, some of the features indicated in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:popular-features
+\end_layout
+
+\end_inset
+
+ are well performed when incorporated with machine learning system.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="5cm">
+<column alignment="left" valignment="top" width="3cm">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Guang Xiang, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size footnotesize
+Haotian Liu, et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size scriptsize
+Page in top search results 
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+PageRank
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Page in top results when searching copyright company name and domain
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Page in top results when searching copyright company name and hostname 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\size scriptsize
+Number of external links
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Real traffic rank
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Domain in reputable sites list
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:popular-features"
+
+\end_inset
+
+Site popularity features 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011,liu"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Page in top search results: this feature originally used by 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "zhang:2007"
+
+\end_inset
+
+ to find whether or not a website shows up on the top N search result.
+ If it is not the case, the website could be flagged as phishy since phishing
+ websites have less chance of being crawled 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+.
+ We believe this feature is similar to Number of external links feature
+ since both of them are implying the same technique.
+\end_layout
+
+\begin_layout Enumerate
+PageRank: this technique is originally introduced by Google to map which
+ websites are popular and which are not, based on the value from 0 to 10.
+ According to 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+, the intuitive rationale of this feature is that phishing websites are
+ often have very low PageRank due to their ephemeral nature and very low
+ incoming links that are redirected to them.
+ This feature similar to Real traffic rank feature employed by 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu"
+
+\end_inset
+
+ where such feature can be acquired from alexa.com.
+\end_layout
+
+\begin_layout Enumerate
+Page in top results when searching copyright company name and domain/hostname
+ features are complement features of Page in top search results feature
+ with just different queries.
+ Moreover, we believe they are also similar to Domain in reputable sites
+ list feature since they are determining the reputation of a website.
+ The first two features can be identified by querying google.com 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xiang:2011"
+
+\end_inset
+
+ and the latter feature can be obtained from amazon.com 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Phishing prevention
+\end_layout
+
+\begin_layout Standard
+Phishing attacks aim to by-pass technological countermeasures by manipulating
+ users’ trust and can lead to monetary losses.
+ Therefore, human factors take a big part on the phishing taxonomy, especially
+ in the organizational environment.
+ Human factor in phishing taxonomy comprised of education, training and
+ awareness 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "frauenstein:2013"
+
+\end_inset
+
+.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:holistic
+\end_layout
+
+\end_inset
+
+ illustrates where human factor takes part on phishing threats 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "frauenstein:2013"
+
+\end_inset
+
+.
+ User’s awareness of phishing has been explored by several studies 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "james:2005,frauenstein:2013,emigh:2005,kumaraguru:2008,jansson:2013,dodge:2007"
+
+\end_inset
+
+ as preventive measure against phishing attack.
+ According to ISO/IEC 27002 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "organization:2005"
+
+\end_inset
+
+, it has been shown that information security awareness is important and
+ it has been critical success factors to mitigate security vulnerabilities
+ that attack user’s trust.
+ One approach to hopefully prevent phishing attack was by implementing anti
+ phishing warning/indicator.
+ A study suggests that users often ignore security indicators thus makes
+ them ineffective 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "dhamija2006phishing"
+
+\end_inset
+
+.
+ Even if users notice the security indicators, they often do not understand
+ what they represent.
+ 
+\end_layout
+
+\begin_layout Standard
+Moreover, the inconsistency of positioning on different browsers makes them
+ much difficult to identify phishing 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kirlappos:2012"
+
+\end_inset
+
+.
+ Evidently, another study also argued that 53% of their study participants
+ were still attempting to provide their confidential information, even after
+ their task was interrupted by strong security warning 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "schechter:2007"
+
+\end_inset
+
+.
+ Therefore, these suggest that an effective phishing education must be added
+ as a complementary strategy to complete technical anti-phishing measure
+ as a strong remedy to detect phishing websites or emails.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/human factor.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:holistic"
+
+\end_inset
+
+Holistic anti-phishing framework 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "frauenstein:2013"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Phishing education for online users often by instructing not to click links
+ in an email, ensure that SSL is present and to verify that the domain name
+ is correct before giving information, and other similar education.
+ This traditional practice evidently has not always effective 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "emigh:2005"
+
+\end_inset
+
+.
+ One may ask what makes phishing education effective? A study suggests that
+ in order online users to be aware of phishing threats, is to really engage
+ them to so that they understand how vulnerable they are 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mansfield:2013"
+
+\end_inset
+
+.
+ To do this, simulated phishing attacks often performed internally in an
+ organization.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:simulated
+\end_layout
+
+\end_inset
+
+ shows a simulated phishing email and website carried out by Kumaraguru,
+ et al.
+ from PhishGuru 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+.
+ As a result, this scenario puts them in the ultimate teachable moment if
+ they fall for these attacks, which is arguable an effective education.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/kumaraguru-a.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+simulated phishing email 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/kumaraguru-b.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+simulated phishing website 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/kumaraguru-c.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+simulated phishing message 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:simulated"
+
+\end_inset
+
+Simulated phishing attack 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Phishguru is one of the leading providers of cyber security training that
+ educate online users to have some sort of security awareness .
+ They argued that they provide more effective training than traditional
+ training as it is designed to be more engaging.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:em-training
+\end_layout
+
+\end_inset
+
+ illustrates how embedded phishing training was presented by PhishGuru.
+\end_layout
+
+\begin_layout Standard
+A study investigates the effectiveness of embedded training methodology
+ in a real world situation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+.
+ They find that even after 28 days after training, users trained by PhishGuru
+ were less likely to click the link presented in the simulated phishing
+ email than those who were not trained.
+ They also find that users who trained twice were less likely to give informatio
+n to simulated fraudulent website than users who were trained once.
+ Moreover, they argue that the training does not decrease the users’ willingness
+ to click on the links from legitimate emails; it means that less likely
+ a trained user did a false positive when he or she requested to give informatio
+n from true legitimate emails 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+.
+ This suggests that user training strategy as an effective phishing education
+ in order to improve phishing awareness especially in organizational environment.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/phishing training.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:em-training"
+
+\end_inset
+
+Embedded phishing training 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

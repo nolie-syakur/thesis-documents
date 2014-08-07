@@ -1,0 +1,241 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass classicthesis
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Data analysis
+\end_layout
+
+\begin_layout Section*
+Decision making consideration based on Cialdini's principles
+\end_layout
+
+\begin_layout Standard
+Part of our analysis, we tried to characterized phishing emails based on
+ Cialdini’s principles titled “The science of persuasion”.
+ The decision making in this phase is achieved based our perspective of
+ Cialdini’s principles that we later will explain in this short description.
+\end_layout
+
+\begin_layout Enumerate
+Reciprocation: The norm that obligates individuals to repay in kind what
+ they have received.
+ Return the favor.
+ Adjustment to smaller request [1].
+ 
+\end_layout
+
+\begin_layout Enumerate
+Consistency: Public commitment.
+ Where people become psychologically become vested in a decision they have
+ made [2].
+ 
+\end_layout
+
+\begin_layout Enumerate
+Social proof: where people model the behavior of their peer group, role
+ models, important others or because it is generally "fashionable" [2].
+ 
+\end_layout
+
+\begin_layout Enumerate
+Likeability: where people trust and comply with requests from others who
+ they find attractive or are perceived as credible and having special expertise
+ or abilities such as sports figures or actors they like [2].
+ 
+\end_layout
+
+\begin_layout Enumerate
+Authority: it can be used to engender fear, where people obey commands to
+ avoid negative consequences such as losing a privilege or something of
+ value, punishment, humiliation or condemnation [2].
+ 
+\end_layout
+
+\begin_layout Enumerate
+Scarcity: based on the principle of reactance, where people respond to perceived
+ shortages by placing greater psychological value on perceived scarce items
+ [2].
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Reciprocation
+\emph default
+: When a phisher sends an email containing a message that perceived as a
+ request or obligation towards the recipient to “return the favor”.
+ It might be normal for an individual to feel “obligated” to return the
+ favor for things or information that he/she deemed to be valuable.
+ For example in the phishing email context, when PayPal has detected there
+ are suspicious activities on our account, we sometimes believe that PayPal
+ has done a good job in detecting security risk on their system and we feel
+ “obligated” to return the favor of that valuable information.
+ Another example, if the sender gave the information that they have added
+ “extra security” on their system so that we also feel obligated to grant
+ their request.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Consistency
+\emph default
+: When a phishing email contains a message that perceived to request recipient’s
+ “consistency” on a decision they have made.
+ For example in the phishing email context, when a hotel agent asks us to
+ review the payment details of our reservation that we have previously made,
+ we might feel committed or agreed to review the payment details that has
+ been given.
+ Another example, if Facebook gave a link to change your password that you
+ requested previously to change it.
+ It might be not applicable to those who are not requesting password previously,
+ but we believe it will impact to those who are committed to change the
+ password previously.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Social proof
+\emph default
+: When a phishing email contains an affiliation of other people that they
+ deemed to be “fashionable”.
+ For example, when someone tells us that there are a hundreds of other people
+ who use particular system, so we might want to agree to use it as well
+ just because a lot of other people use it as well.
+ Another example, when Facebook give information that someone wants to be
+ our friend, and we knew who that someone is.
+ We might tend to follow that request and click the link to accept the request.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Likeability
+\emph default
+: When a phishing email contains a message that attracts recipient to comply
+ the sender’s request based the reference on something or someone that likeable
+ for the recipient.
+ Cialdini [1] identified that people usually “trust those they like”.
+ For example, if someone is asking us to download and listen to a music
+ that Michael Jackson made, we might be attracted to download and listen
+ to it just because we happen to love Michael Jackson music.
+ It is like someone is asking us to watch a concert and he/she said, “Coldplay
+ will be there”, if we are devoted fan of Coldplay, we might find it very
+ interesting.
+ Another example, when a sender gives compliments to us or committed to
+ help us to safeguard our account from the hackers, we tend to think that
+ the sender cares about our safety, which is good for us, and consequently
+ it might attract us to comply with the sender’s request.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Authority
+\emph default
+: When a phishing email contains logo or image or signature or anything
+ that looks like legitimate institutions.
+ It can be used to makes it look trustworthy so that the recipient might
+ accept and obey the sender’s request.
+ For example, when an email is presenting somehow authentic looking signature
+ like “Copyright 2013 PayPal, Inc.
+ All rights reserved” or PayPal logo.
+ Cialdini [1] stated authoritative persuasion could be achieved by only
+ presenting “aura of legitimacy”.
+ Another example, when the content of the email stated that it is from “System
+ Administrator” asking for password update.
+ It would be not authoritative if only random people asking us to change
+ our password.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Scarcity
+\emph default
+: When a phishing email contains a message that tells a recipient to react
+ or respond to scarce/turns-into scarce items or things or privileges.
+ For example in the phishing email context, if a sender tells us that he/she
+ will suspend/deactivate/limit our account if not respond to his/her request,
+ we might want to respond to their request because we are worried we will
+ not able to access our account again or in other words our account become
+ scarce or limited.
+\end_layout
+
+\end_body
+\end_document
