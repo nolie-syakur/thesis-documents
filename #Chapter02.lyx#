@@ -2409,12 +2409,64 @@ Current countermeasures of phishing attacks
 \end_layout
 
 \begin_layout Standard
-There are various types of phishing countermeasures.
- However, since all the approaches reviewed so far all are preventive in
- nature, we believe phishing detection also aims to prevent user’s confidential
- information to be successfully transmitted onto the wrong hands.
- A study suggests that phishing detection can be classified into two types;
- user training approach and software classification approach 
+There are various types of phishing countermeasures that implemented in
+ different levels.
+ Purkait has conducted an extensive research in reviewing these countermeasures
+ which are available up until 2012 and their effectiveness 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "purkait"
+
+\end_inset
+
+.
+ He suggests that there is a classification of phishing countermeasures
+ in separate groups and according to Purkait 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "purkait"
+
+\end_inset
+
+, these groups are listed as follow:
+\end_layout
+
+\begin_layout Itemize
+Stop phishing at the email level
+\end_layout
+
+\begin_layout Itemize
+Security and password management toolbars
+\end_layout
+
+\begin_layout Itemize
+Restriction list
+\end_layout
+
+\begin_layout Itemize
+Visually differentiate the phishing site
+\end_layout
+
+\begin_layout Itemize
+Two facto and multi channel authentication
+\end_layout
+
+\begin_layout Itemize
+Takedown, transaction anomaly detection, log files
+\end_layout
+
+\begin_layout Itemize
+Anti phishing training
+\end_layout
+
+\begin_layout Itemize
+Legal solution
+\end_layout
+
+\begin_layout Standard
+In addition, Parmar, et al.
+ suggests that phishing detection can be classified into two types; user
+ training approach and software classification approach 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "parmar:2014"
@@ -2422,34 +2474,8 @@ key "parmar:2014"
 \end_inset
 
 .
- Parmar, et al.
- suggested a diagram and a table that summarize phishing detection as countermea
-sures in a broad view.
- In their study, 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-fig:Phishing-detection
-\end_layout
-
-\end_inset
-
- categorizes the current countermeasures that presently developed.
- They also argued the advantages and disadavantages of each category in
- 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-tab:adv-dis
-\end_layout
-
-\end_inset
-
- 
+ He illustrated a diagram and a table that summarizes phishing detection
+ as countermeasures in a broad view 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "parmar:2014"
@@ -2457,287 +2483,38 @@ key "parmar:2014"
 \end_inset
 
 .
- However, as our research is specifically analyze the phishing attacks'
- method via emails, we will not give a complete wide range literature survey
- on all available phishing countermeasures.
- We will only discuss our result of literature reviews on Phishtank as a
- blacklist and machine learning classification, and anti-phishing training
- as prevention.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/countermeasures.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Phishing-detection"
-
-\end_inset
-
-Phishing detection
+ They also argued the advantages and disadavantages of each category 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "parmar:2014"
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align left
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="1.5cm">
-<column alignment="left" valignment="middle" width="5cm">
-<column alignment="left" valignment="top" width="5cm">
-<row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size tiny
-Detection techniques
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size tiny
-Advantages
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size tiny
-Disadvantages
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size tiny
-Blacklist
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" mroffset="2cm" alignment="left" valignment="middle" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
-
-\size tiny
-Requiring low resources on host machine 
-\end_layout
-
-\begin_layout Itemize
-
-\size tiny
-Effective when minimal FP rates are required 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
-
-\size tiny
-Mitigation of zero hour phishing attack 
-\end_layout
-
-\begin_layout Itemize
-
-\size tiny
-Can result in excessive queries with heavily loaded servers 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size tiny
-Heuristics and visual similarity
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
-
-\size tiny
-Mitigate zero hour attacks
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
-
-\size tiny
-Higher FP rate than blacklists
-\end_layout
-
-\begin_layout Itemize
-
-\size tiny
-High computational cost 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size tiny
-Machine Learning
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
-
-\size tiny
-Mitigate zero hour attacks
-\end_layout
-
-\begin_layout Itemize
-
-\size tiny
-Construct own classification model 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
-
-\size tiny
-Time consuming
-\end_layout
-
-\begin_layout Itemize
-
-\size tiny
-Costly
-\end_layout
-
-\begin_layout Itemize
-
-\size tiny
-Huge number of rules 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:adv-dis"
-
-\end_inset
-
-Advantages-disadvantages detection technique
+.
+ However, as our research mainly focuses in synthesizing phishing email
+ with cialdini's six principles of persuasion 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "parmar:2014"
+key "cialdini:2001"
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+, we will only briefly discuss phishing countermeasures at 
+\shape italic
+restriction list
+\shape default
+ group (i.e.
+ Phishtank), 
+\shape italic
+email level
+\shape default
+ (i.e.
+ machine learning) and 
+\shape italic
+anti phishing training
+\shape default
+ group (i.e PhishGuru).
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -2749,10 +2526,21 @@ Phishtank
 \end_layout
 
 \begin_layout Standard
-One of the common approaches to detect phishing attack is blacklisting.
+One of the common approaches to detect phishing attacks is the implementation
+ of restriction list.
+ As the name suggest, it prevents users to visit fraudulent websites.
+ One of the efforts to achieve restriction list, is to derive phishing URLs
+ from Phishtank.
  Phishtank is a blacklisting company specifically for phishing URLs and
  it is a free community web based where users can report, verify and track
- phishing URLs.
+ phishing URLs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phishtank"
+
+\end_inset
+
+.
  Phishtank stores phishing URLs in its database and the data is widely available
  for use by other companies.
  Some of the big companies that are using Phishtank’s data includes; Yahoo

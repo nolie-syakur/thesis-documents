@@ -2421,14 +2421,8 @@ key "purkait"
 
 .
  He suggests that there is a classification of phishing countermeasures
- in separate groups and according to Purkait 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "purkait"
-
-\end_inset
-
-, these groups are listed as follow:
+ in separate groups and according to Purkait, these groups are listed as
+ follow:
 \end_layout
 
 \begin_layout Itemize

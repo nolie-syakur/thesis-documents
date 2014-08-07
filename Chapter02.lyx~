@@ -2412,23 +2412,10 @@ Current countermeasures of phishing attacks
 There are various types of phishing countermeasures that implemented in
  different levels.
  Purkait has conducted an extensive research in reviewing these countermeasures
- which are available up until 2012 and their effectiveness 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "purkait"
-
-\end_inset
-
-.
+ which are available up until 2012 and their effectiveness .
  He suggests that there is a classification of phishing countermeasures
- in separate groups and according to Purkait 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "purkait"
-
-\end_inset
-
-, these groups are listed as follow:
+ in separate groups and according to Purkait, these groups are listed as
+ follow:
 \end_layout
 
 \begin_layout Itemize
@@ -2533,7 +2520,14 @@ One of the common approaches to detect phishing attacks is the implementation
  from Phishtank.
  Phishtank is a blacklisting company specifically for phishing URLs and
  it is a free community web based where users can report, verify and track
- phishing URLs.
+ phishing URLs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phishtank"
+
+\end_inset
+
+.
  Phishtank stores phishing URLs in its database and the data is widely available
  for use by other companies.
  Some of the big companies that are using Phishtank’s data includes; Yahoo
