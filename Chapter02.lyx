@@ -791,25 +791,24 @@ key "hong:2012"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
-Potential victims receive a phish.
- 
+\size scriptsize
+Potential victims receive a phish
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The victim may take a suggested action in the message 
+\size scriptsize
+The victim may take a suggested action in the message
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The phisher monetizes the stolen information
 \end_layout
 
@@ -836,36 +835,36 @@ key "frauenstein:2013"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Planning
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Email Design
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Fabricated story
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Threatening tone/Consequences
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Spoofed website
 \end_layout
 
@@ -891,42 +890,42 @@ key "wetzel:2005"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Planning
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Setup
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Attack
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Collection
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Fraud
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Post-attack
 \end_layout
 
@@ -953,39 +952,38 @@ key "tally:2004"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
-The attacker obtains E-mail addresses for the intended victims.
+\size scriptsize
+The attacker obtains E-mail addresses for the intended victims
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The attacker generates an E-mail that appears legitimate.
+\size scriptsize
+The attacker generates an E-mail that appears legitimate
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The attacker sends the E-mail to the intended victims in a way that appears
- legitimate and obscures the true source.
+ legitimate and obscures the true source
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The recipient opens a malicious attachment, completes a form, or visits
- a web site.
- 
+ a web site
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Harvest and exploitation
 \end_layout
 
@@ -1011,58 +1009,52 @@ key "emigh:2005"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
-A malicious payload arrives through some propagation vector.
- 
+\size scriptsize
+A malicious payload arrives through some propagation vector
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The user takes an action that makes him or her vulnerable to an information
- compromise.
- 
+ compromise
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The user is prompted for confidential information, either by a remote web
- site or locally by a Web Trojan.
- 
+ site or locally by a Web Trojan
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The user compromises confidential information.
- 
+\size scriptsize
+The user compromises confidential information
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The confidential information is transmitted from a phishing server to the
- phisher.
- 
+ phisher
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The confidential information is used to impersonate the user.
- 
+\size scriptsize
+The confidential information is used to impersonate the user
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The phisher engages in fraud using the compromised information.
+\size scriptsize
+The phisher engages in fraud using the compromised information
 \end_layout
 
 \end_inset
@@ -1088,54 +1080,54 @@ key "nero:2011"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Preparation 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Delivery of the Lure 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Taking the Bait 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Request for Confidential Information 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Submission of Information 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Collection of Data 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Impersonation 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Financial Gain
 \end_layout
 
@@ -2421,8 +2413,14 @@ key "purkait"
 
 .
  He suggests that there is a classification of phishing countermeasures
- in separate groups and according to Purkait, these groups are listed as
- follow:
+ in separate groups and according to Purkait 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "purkait"
+
+\end_inset
+
+, these groups are listed as follow:
 \end_layout
 
 \begin_layout Itemize
@@ -2535,13 +2533,26 @@ key "phishtank"
 \end_inset
 
 .
- Phishtank stores phishing URLs in its database and the data is widely available
- for use by other companies.
+ Phishtank stores phishing URLs in its database and is widely available
+ for use by other companies for creating resriction list.
  Some of the big companies that are using Phishtank’s data includes; Yahoo
  Mail, McAfee, APWG, Web Of Trust, Kaspersky, Opera and Avira.
  In this section, we will discuss how the current literatures have to do
- with the data provided by Phishtank.
- 
+ with phish data provided by Phishtank.
+ The first step to achieve the list of relevant literatures regarding phishtank
+ is by keyword search in Scopus online library.
+ By putting 
+\begin_inset Quotes eld
+\end_inset
+
+Phishtank
+\begin_inset Quotes erd
+\end_inset
+
+ as a keyword search, it results in 12 literatures.
+ The next step, we read the all the abstracts and conclusions of the resulting
+ keyword search and we decided 11 literatures that are relevant to our research.
+ Lastly, 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -2552,11 +2563,7 @@ tab:phishtank
 
 \end_inset
 
- summarizes the papers selected and its relevancy with Phishtank.
- It is noteworthy that literatures selected do not represent all studies
- available that relevant with phishtank, we aim to only analyzed how crowd-sourc
-ed phishing detection such as phishtank works with the help of these literatures.
- 
+ summarizes the papers selected and its relevancy with Phishtank
 \end_layout
 
 \begin_layout Standard
@@ -3284,8 +3291,10 @@ Summary phishtank studies
 
 \begin_layout Standard
 From our literature survey, we know that Phishtank is crowd-sourced platform
- to manage phishing URL, for that reason a study aims to evaluate the wisdom
- of crowd provided by Phishtank 
+ to manage phishing URLs.
+ For that reason Moore, et al.
+ aims to evaluate the wisdom of crowds platform accomodated by Phishtank
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "moore:2008"
@@ -3293,8 +3302,8 @@ key "moore:2008"
 \end_inset
 
 .
- The study finds that the user participation is distributed according to
- power law.
+ Moore, et al.
+ suggest that the user participation is distributed according to power law.
  It uses to model data which frequency of an event varies as a power of
  some attribute of that event 
 \begin_inset CommandInset citation
@@ -3316,8 +3325,8 @@ http://kottke.org/03/02/weblogs-and-power-laws
 \end_inset
 
 .
- For example in the case of individual weatlh in a country, 80% of the all
- wealth is controlled by 20% of population in a country.
+ For example, in the case of individual weatlh in a country, 80% of the
+ all wealth is controlled by 20% of population in a country.
  It makes sense that in Phishtank’s verification system, a single highly
  active user’s action can greatly impact the system’s overall accuracy.
  
@@ -3343,7 +3352,7 @@ key "moore:2008"
 status collapsed
 
 \begin_layout Plain Layout
-The author did not specify the identity of the closed proprietary company
+The author conceals the identity of the closed proprietary company
 \end_layout
 
 \end_inset
@@ -3359,9 +3368,16 @@ The author did not specify the identity of the closed proprietary company
 
 \begin_layout Standard
 To put it briefly, the lesson of crowd sourced anti-phishing technology
- like Phishtank is that the distribution of user participation matters.
+ such as Phishtank is that the distribution of user participation matters.
  It means that if a few high value participants do something wrong, it can
- greatly impact overall system.
+ greatly impact overall system 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moore:2008"
+
+\end_inset
+
+.
  Also, there is a high probability that bad users could also extensively
  participate in submitting or verifying URLs in Phishtank.
 \end_layout
@@ -3373,35 +3389,31 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="2">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
+<features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top" width="4cm">
 <column alignment="center" valignment="top" width="3cm">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \series bold
-\size footnotesize
+\size scriptsize
 Phishtank
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \series bold
-\size footnotesize
+\size scriptsize
 Proprietary
 \end_layout
 
@@ -3444,7 +3456,7 @@ Proprietary
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3671,8 +3683,8 @@ In contrast of one of blacklisting technique we saw in Phishtank that heavily
 
 \begin_layout Standard
 Furthermore, there are also several learning algorithms to classify the
- data, such as, logistic regression, random forest, neural networks, support
- vector machine, etc..
+ data, such as, logistic regression, random forest, neural networks and
+ support vector machine.
  However, for the sake of simplicit of our research, we will not discuss
  about the learning algorithm that is currently implemented.
  We will only introduce three features that are used in machine learning
@@ -3683,6 +3695,15 @@ Furthermore, there are also several learning algorithms to classify the
 \begin_layout Standard
 There are vast amount of features to utilize machine learning to detect
  phishing attack.
+ Literatures are selected by keyword search such as 
+\begin_inset Quotes eld
+\end_inset
+
+phishing + detection + machine learning
+\begin_inset Quotes erd
+\end_inset
+
+.
  We analyze three features: lexical feature, host-based feature and site
  popularity feature.
  Each of these features will be introduced briefly as follows.
@@ -3695,8 +3716,9 @@ Lexical features
 \begin_layout Standard
 Lexical features (URL based features) are based on the analysis of URL structure
  without any external information.
- A study suggest that the structure URL of phishing may “looks” different
- to experts 
+ Ma, et al.
+ suggest that the structure URL of phishing may “look” different to experts
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ma:2009"
@@ -3705,14 +3727,13 @@ key "ma:2009"
 
 .
  These features include how many dots exist, the length, how deep the path
- traversal do the URL has, if there any sensitive words present in a URL,
- etc..
+ traversal do the URL has or if there any sensitive words present in a URL.
  For example the URLs https://www.paypal.com and http://www.paypal.com.example.com/
  or http://login.example.com/ www.paypal.com/, we can see that the domain paypal.com
  positioned differently, with the first one being the benign URL.
  
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -3721,7 +3742,7 @@ fig:ex-lex
 
 \end_inset
 
- shows the example analysis of lexical features in a phishing URL 
+ shows an example analysis of lexical features in a phishing URL 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "le:2011"
@@ -3776,9 +3797,9 @@ key "le:2011"
 \end_layout
 
 \begin_layout Standard
-We believe lexical features analysis has a performance advantage and reduces
- overhead in term of processing and latency, since it only tells the machine
- to learn URL structure.
+Lexical features analysis may have performance advantage and reduces overhead
+ in term of processing and latency, since it only tells the machine to learn
+ URL structure.
  90% accuracy is achieved when utilizing lexical features combined with
  external features such as WHOIS data 
 \begin_inset CommandInset citation
@@ -3788,8 +3809,9 @@ key "le:2011"
 \end_inset
 
 .
- A study also performed evaluation of lightweight classification that includes
- lexical features and host based features in its model 
+ Egan, et al.
+ conducted an evaluation of lightweight classification that includes lexical
+ features and host based features in its model 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "egan:2011"
@@ -3819,7 +3841,7 @@ key "xiang:2011,liu"
 \end_inset
 
 .
- However, 
+ However, Xiang, et al.
 \begin_inset CommandInset citation
 LatexCommand citep
 key "xiang:2011"
@@ -3908,11 +3930,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
-<features rotate="0" booktabs="true" tabularvalignment="middle">
+<features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="5cm">
-<column alignment="left" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="3.5cm">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -3920,7 +3943,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-\size footnotesize
+\size tiny
 Haotian Liu, et al.
  
 \begin_inset CommandInset citation
@@ -3940,7 +3963,7 @@ key "liu"
 \begin_layout Plain Layout
 
 \series bold
-\size footnotesize
+\size tiny
 Guang Xiang, et al.
  
 \begin_inset CommandInset citation
@@ -3956,78 +3979,78 @@ key "xiang:2011"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Length of hostname Length of entire URL
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Number of dots 
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Top-level domain
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Domain token count
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Path token count
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Average domain token length of all dataset
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Average path token length of dataset
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Longest domain token length of dataset
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Longest path token length of dataset
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Brand name presence 
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 IP address presence
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Security sensitive word presence 
 \end_layout
 
@@ -4038,37 +4061,37 @@ Security sensitive word presence
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Embedded domain
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 IP address presence
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Number of dots
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Suspicious URL 
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Number of sensitive words
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Out of position top level domain (TLD) 
 \end_layout
 
@@ -4137,9 +4160,9 @@ tab:host-based
 
 \end_inset
 
- shows the host-based features from two studies that are currently used
+ shows the host-based features from three studies that are currently used
  in machine learning phishing detection.
- The two studies are selected only for example comparison.
+ These studies are selected only for example comparison.
 \end_layout
 
 \begin_layout Standard
@@ -4149,12 +4172,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="3">
 <features rotate="0" booktabs="true" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="3cm">
-<column alignment="left" valignment="top" width="5cm">
-<column alignment="left" valignment="top" width="3cm">
+<column alignment="left" valignment="top" width="2cm">
+<column alignment="left" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="2cm">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -4162,7 +4186,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-\size footnotesize
+\size tiny
 Justin Ma, et al.
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4175,13 +4199,13 @@ key "ma:2009,ma2:2009"
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \series bold
-\size footnotesize
+\size tiny
 Haotian Liu, et al.
  [46]
 \begin_inset CommandInset citation
@@ -4195,13 +4219,13 @@ key "liu"
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \series bold
-\size footnotesize
+\size tiny
 Guang Xiang, et al.
  
 \begin_inset CommandInset citation
@@ -4217,30 +4241,30 @@ key "xiang:2011"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 WHOIS data
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 IP address information
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Connection speed
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Domain name properties 
 \end_layout
 
@@ -4251,43 +4275,43 @@ Domain name properties
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Autonomous system number 
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 IP country
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Number of registration information
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Number of resolved IPs
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Domain contains valid PTR record
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Redirect to new site
 \end_layout
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 All IPs are consistent
 \end_layout
 
@@ -4298,7 +4322,7 @@ All IPs are consistent
 
 \begin_layout Itemize
 
-\size scriptsize
+\size tiny
 Age of Domain
 \end_layout
 
@@ -4341,7 +4365,8 @@ key "ma:2009,ma2:2009,liu,xiang:2011"
 
 \begin_layout Standard
 Each of these features does matter for phishing detection.
- However, we will not describe each of these features in detail.
+ However, as our main objective is synthesizing cialdini's principle with
+ phishing emails, we will not describe each of these features in detail.
  It is noteworthy that some of the features are subset of another feature,
  for instance, autonomous system number (ASN), IP country and number of
  registration information are derived from WHOIS information.
@@ -4351,9 +4376,9 @@ Each of these features does matter for phishing detection.
 \end_layout
 
 \begin_layout Enumerate
-WHOIS information: Since phishing websites are often created at relatively
- young age, this information could provide the registration date, update
- date and expiration date.
+WHOIS information: Since phishing websites and hacked domains are often
+ created at relatively young age, this information could provide the registratio
+n date, update date and expiration date.
  Domain ownership would also be included; therefore, a set of malicious
  websites with the same individual could be identified.
  
@@ -4382,13 +4407,6 @@ Domain name properties: these include time to live (TTL) of DNS associated
  with a hostname.
  PTR record (reverse DNS lookup) of a domain could also be derived whether
  it is valid or not.
-\end_layout
-
-\begin_layout Standard
-During our preliminary analysis, we will show that we could add reverse
- IP address lookup to find bad neighborhoods within the same IP address
- or domain.
- 
 \end_layout
 
 \begin_layout Enumerate-Resume
@@ -4428,11 +4446,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
 <features rotate="0" booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="5cm">
-<column alignment="left" valignment="top" width="3cm">
+<column alignment="left" valignment="top" width="3.5cm">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -4505,7 +4524,7 @@ Page in top results when searching copyright company name and hostname
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Itemize
@@ -4684,6 +4703,13 @@ key "james:2005,frauenstein:2013,emigh:2005,kumaraguru:2008,jansson:2013,dodge:2
  According to ISO/IEC 27002 
 \begin_inset CommandInset citation
 LatexCommand citep
+key "frauenstein:2013"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
 key "organization:2005"
 
 \end_inset
@@ -4693,8 +4719,8 @@ key "organization:2005"
  that attack user’s trust.
  One approach to hopefully prevent phishing attack was by implementing anti
  phishing warning/indicator.
- A study suggests that users often ignore security indicators thus makes
- them ineffective 
+ Dhamija, et al suggest that users often ignore security indicators thus
+ makes them ineffective 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "dhamija2006phishing"
@@ -4717,9 +4743,10 @@ key "kirlappos:2012"
 \end_inset
 
 .
- Evidently, another study also argued that 53% of their study participants
- were still attempting to provide their confidential information, even after
- their task was interrupted by strong security warning 
+ Evidently, Schechter, et al.
+ pointed out that 53% of their study participants were still attempting
+ to provide their confidential information, even after their task was interrupte
+d by strong security warning 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "schechter:2007"
@@ -4830,8 +4857,7 @@ key "kumaraguru:2009"
 
 .
  As a result, this scenario puts them in the ultimate teachable moment if
- they fall for these attacks, which is arguable an effective education.
- 
+ they fall for these attacks.
 \end_layout
 
 \begin_layout Standard
@@ -4999,9 +5025,17 @@ key "kumaraguru:2009"
 \end_layout
 
 \begin_layout Standard
-Phishguru is one of the leading providers of cyber security training that
- educate online users to have some sort of security awareness .
- They argued that they provide more effective training than traditional
+Phishguru is a security training system operated by Wombat security technology
+ that teaches users not to be decieved by phishing attempts by simulation
+ of phishing attacks
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phishguru"
+
+\end_inset
+
+.
+ They claimed Phishguru provides more effective training than traditional
  training as it is designed to be more engaging.
  
 \begin_inset Flex CT - auto cross-reference
@@ -5018,8 +5052,9 @@ fig:em-training
 \end_layout
 
 \begin_layout Standard
-A study investigates the effectiveness of embedded training methodology
- in a real world situation 
+Kumaraguru, et al.
+ investigates the effectiveness of embedded training methodology in a real
+ world situation 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kumaraguru:2009"
@@ -5027,9 +5062,9 @@ key "kumaraguru:2009"
 \end_inset
 
 .
- They find that even after 28 days after training, users trained by PhishGuru
- were less likely to click the link presented in the simulated phishing
- email than those who were not trained.
+ Evidently, they indicated that even after 28 days after training, users
+ trained by PhishGuru were less likely to click the link presented in the
+ simulated phishing email than those who were not trained.
  They also find that users who trained twice were less likely to give informatio
 n to simulated fraudulent website than users who were trained once.
  Moreover, they argue that the training does not decrease the users’ willingness

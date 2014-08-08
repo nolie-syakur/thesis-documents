@@ -74,6 +74,12 @@ Appendix Test
 \end_layout
 
 \begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:appendix-preliminary"
+
+\end_inset
+
 Appendix preliminary analysis
 \end_layout
 

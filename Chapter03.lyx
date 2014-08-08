@@ -2800,13 +2800,6 @@ Phishtank URL analysis
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \space{}
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Based on our analysis we know that we have 31 phish URLs.
  3 of them are hacked domain (10%) while 11 domains (35%) have the possibilities
  of harmful instances.

@@ -24,6 +24,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement h
 \paperfontsize default
 \spacing single
 \use_hyperref false
@@ -720,22 +721,6 @@ Scarcity
 \end_layout
 
 \begin_layout Standard
-High level flowchart in 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-fig:Flowchart-cialdini
-\end_layout
-
-\end_inset
-
- is made to illustrate our integration of cialdini's principles with the
- dataset.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -762,7 +747,7 @@ name "fig:Flowchart-cialdini"
 
 \end_inset
 
-Integration flowchart of cialdini's principles
+Integration pseudo-code of cialdini's principles
 \end_layout
 
 \end_inset
@@ -773,10 +758,30 @@ Integration flowchart of cialdini's principles
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+High level pseudo-code in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:Flowchart-cialdini
+\end_layout
+
+\end_inset
+
+ is made to illustrate our integration of cialdini's principles with the
+ dataset.
 \end_layout
 
 \begin_layout Section
 Results
+\end_layout
+
+\begin_layout Standard
+<in progress>
 \end_layout
 
 \end_body
