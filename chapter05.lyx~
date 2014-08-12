@@ -721,22 +721,6 @@ Scarcity
 \end_layout
 
 \begin_layout Standard
-High level pseudo-code in 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-fig:Flowchart-cialdini
-\end_layout
-
-\end_inset
-
- is made to illustrate our integration of cialdini's principles with the
- dataset.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -774,6 +758,22 @@ Integration pseudo-code of cialdini's principles
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+High level pseudo-code in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:Flowchart-cialdini
+\end_layout
+
+\end_inset
+
+ is made to illustrate our integration of cialdini's principles with the
+ dataset.
 \end_layout
 
 \begin_layout Section

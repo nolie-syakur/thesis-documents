@@ -118,13 +118,22 @@ Phishing has a similar basic principle as ‘fishing’ in the physical world.
  and hooked by authentic looking websites.
  Not only that, online users also may be lured by respond to a phishing
  email, either replying or clicking an obfuscated link within its content.
- Accoding to Oxford dictionary, the definition of phishing is
+ There are diverse definitions of phishing in our literature reviews, therefore,
+ we would like to discuss about its universal definition in later section.
+ However, one of phishing definitions accoding to Oxford dictionary:
 \end_layout
 
 \begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
 a fraudulent practice of sending emails purporting to be from reputable
  companies in order to induce individuals to reveal personal information,
- such as passwords and credit card numbers, online 
+ such as passwords and credit card numbers, online
+\begin_inset Quotes erd
+\end_inset
+
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "oxford"
@@ -136,11 +145,32 @@ key "oxford"
 \end_layout
 
 \begin_layout Standard
-Phishing attack also is a form of online criminal activity by using social
- engineering techniques 
+Several studies suggest that phishing is form of online criminal activity
+ by using social engineering techniques 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "workman:2008"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jagatic2007social"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chandrasekaran:2006"
 
 \end_inset
 
@@ -171,7 +201,7 @@ key "james:2005"
 \end_layout
 
 \begin_layout Subsection
-History of phishing
+The History 
 \end_layout
 
 \begin_layout Standard
@@ -288,7 +318,7 @@ key "phishorg"
 \end_layout
 
 \begin_layout Subsection
-Formal definition of phishing
+The universal definition 
 \end_layout
 
 \begin_layout Standard
@@ -709,13 +739,43 @@ key "RSA:2014"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Human element
+\end_layout
+
+\begin_layout Standard
+Phishing attacks generally aim to manipulate end users to comply phisher's
+ request.
+ Such manipulation in phishing attacks is achieved by social engineering.
+ It means that human element is tightly associated with phishing.
+ But how do phishers compose such deception? How come online users are gullible
+ to these attacks? 
+\end_layout
+
+\begin_layout Standard
+Cialdini suggests that there are six basic principles of persuasion 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+, that is, the technique of making people grant to one's request.
+ These principles include;
+\shape italic
+ reciprocation, consistency, social proof, likeability, authority and scarcity
+\shape default
+.
+ Reciprocation is 
+\lang english
+the norm that obligates individuals to repay in kind what they have received.
+ Return the favor.
+ Adjustment to smaller request 
 \end_layout
 
 \begin_layout Section
@@ -791,25 +851,24 @@ key "hong:2012"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
-Potential victims receive a phish.
- 
+\size scriptsize
+Potential victims receive a phish
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The victim may take a suggested action in the message 
+\size scriptsize
+The victim may take a suggested action in the message
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The phisher monetizes the stolen information
 \end_layout
 
@@ -836,36 +895,36 @@ key "frauenstein:2013"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Planning
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Email Design
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Fabricated story
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Threatening tone/Consequences
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Spoofed website
 \end_layout
 
@@ -891,42 +950,42 @@ key "wetzel:2005"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Planning
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Setup
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Attack
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Collection
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Fraud
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Post-attack
 \end_layout
 
@@ -953,39 +1012,38 @@ key "tally:2004"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
-The attacker obtains E-mail addresses for the intended victims.
+\size scriptsize
+The attacker obtains E-mail addresses for the intended victims
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The attacker generates an E-mail that appears legitimate.
+\size scriptsize
+The attacker generates an E-mail that appears legitimate
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The attacker sends the E-mail to the intended victims in a way that appears
- legitimate and obscures the true source.
+ legitimate and obscures the true source
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The recipient opens a malicious attachment, completes a form, or visits
- a web site.
- 
+ a web site
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Harvest and exploitation
 \end_layout
 
@@ -1011,58 +1069,52 @@ key "emigh:2005"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
-A malicious payload arrives through some propagation vector.
- 
+\size scriptsize
+A malicious payload arrives through some propagation vector
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The user takes an action that makes him or her vulnerable to an information
- compromise.
- 
+ compromise
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The user is prompted for confidential information, either by a remote web
- site or locally by a Web Trojan.
- 
+ site or locally by a Web Trojan
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The user compromises confidential information.
- 
+\size scriptsize
+The user compromises confidential information
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 The confidential information is transmitted from a phishing server to the
- phisher.
- 
+ phisher
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The confidential information is used to impersonate the user.
- 
+\size scriptsize
+The confidential information is used to impersonate the user
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
-The phisher engages in fraud using the compromised information.
+\size scriptsize
+The phisher engages in fraud using the compromised information
 \end_layout
 
 \end_inset
@@ -1088,54 +1140,54 @@ key "nero:2011"
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Preparation 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Delivery of the Lure 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Taking the Bait 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Request for Confidential Information 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Submission of Information 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Collection of Data 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Impersonation 
 \end_layout
 
 \begin_layout Enumerate
 
-\size small
+\size scriptsize
 Financial Gain
 \end_layout
 
@@ -4865,8 +4917,7 @@ key "kumaraguru:2009"
 
 .
  As a result, this scenario puts them in the ultimate teachable moment if
- they fall for these attacks, which is arguable an effective education.
- 
+ they fall for these attacks.
 \end_layout
 
 \begin_layout Standard
@@ -5034,9 +5085,18 @@ key "kumaraguru:2009"
 \end_layout
 
 \begin_layout Standard
-Phishguru is a security training system that teaches users not to be decieved
- by phishing They argued that they provide more effective training than
- traditional training as it is designed to be more engaging.
+Phishguru is a security training system operated by Wombat security technology
+ that teaches users not to be decieved by phishing attempts by simulation
+ of phishing attacks
+\begin_inset CommandInset citation
+LatexCommand citep
+key "phishguru"
+
+\end_inset
+
+.
+ They claimed Phishguru provides more effective training than traditional
+ training as it is designed to be more engaging.
  
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -5052,8 +5112,9 @@ fig:em-training
 \end_layout
 
 \begin_layout Standard
-A study investigates the effectiveness of embedded training methodology
- in a real world situation 
+Kumaraguru, et al.
+ investigates the effectiveness of embedded training methodology in a real
+ world situation 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kumaraguru:2009"
@@ -5061,9 +5122,9 @@ key "kumaraguru:2009"
 \end_inset
 
 .
- They find that even after 28 days after training, users trained by PhishGuru
- were less likely to click the link presented in the simulated phishing
- email than those who were not trained.
+ Evidently, they indicated that even after 28 days after training, users
+ trained by PhishGuru were less likely to click the link presented in the
+ simulated phishing email than those who were not trained.
  They also find that users who trained twice were less likely to give informatio
 n to simulated fraudulent website than users who were trained once.
  Moreover, they argue that the training does not decrease the users’ willingness

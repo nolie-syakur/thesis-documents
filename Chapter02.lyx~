@@ -118,13 +118,22 @@ Phishing has a similar basic principle as ‘fishing’ in the physical world.
  and hooked by authentic looking websites.
  Not only that, online users also may be lured by respond to a phishing
  email, either replying or clicking an obfuscated link within its content.
- Accoding to Oxford dictionary, the definition of phishing is
+ There are diverse definitions of phishing in our literature reviews, therefore,
+ we would like to discuss about its universal definition in later section.
+ However, one of phishing definitions accoding to Oxford dictionary:
 \end_layout
 
 \begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
 a fraudulent practice of sending emails purporting to be from reputable
  companies in order to induce individuals to reveal personal information,
- such as passwords and credit card numbers, online 
+ such as passwords and credit card numbers, online
+\begin_inset Quotes erd
+\end_inset
+
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "oxford"
@@ -136,11 +145,32 @@ key "oxford"
 \end_layout
 
 \begin_layout Standard
-Phishing attack also is a form of online criminal activity by using social
- engineering techniques 
+Several studies suggest that phishing is form of online criminal activity
+ by using social engineering techniques 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "workman:2008"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jagatic2007social"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chandrasekaran:2006"
 
 \end_inset
 
@@ -171,7 +201,7 @@ key "james:2005"
 \end_layout
 
 \begin_layout Subsection
-History of phishing
+The History 
 \end_layout
 
 \begin_layout Standard
@@ -288,7 +318,7 @@ key "phishorg"
 \end_layout
 
 \begin_layout Subsection
-Formal definition of phishing
+The universal definition 
 \end_layout
 
 \begin_layout Standard
@@ -709,13 +739,165 @@ key "RSA:2014"
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
+
+\begin_layout Section
+Human factor
+\end_layout
+
+\begin_layout Standard
+Phishing attacks generally aim to manipulate end users to comply phisher's
+ request.
+ Such manipulation in phishing attacks is achieved by social engineering.
+ It means that human element is tightly associated with phishing.
+ But how do phishers compose such deception? How come online users are gullible
+ to these attacks? 
+\end_layout
+
+\begin_layout Standard
+Cialdini suggests that there are six basic principles of persuasion 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+, that is, the technique of making people grant to one's request.
+ These principles include;
+\shape italic
+ reciprocation, consistency, social proof, likeability, authority and scarcity
+\shape default
+.
+ Reciprocation is 
+\lang english
+the norm that obligates individuals to repay in kind what they have received,
+ return the favor or adjustment to smaller request 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+.
+ Consistency is a public commitment where people become psychologically
+ become vested in a decision they have made 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "workman:2008"
 
 \end_inset
 
 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+.
+ Social proof is when people model the behavior of their peer group, role
+ models, important others or because it is generally "fashionable" 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "workman:2008"
+
+\end_inset
+
+.
+ Stajano, et al.
+ suggest people will let their guard down when everybody around them appears
+ to share the same risk 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "stajano2011understanding"
+
+\end_inset
+
+.
+ Likeability is when people trust and comply with requests from others who
+ they find attractive or having credibility 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "workman:2008,cialdini:2001"
+
+\end_inset
+
+.
+ While it is our human nature not to question authority, it can be used
+ to engender fear, where people obey commands to avoid negative consequences
+ such as losing a privilege or something of value, punishment, humiliation
+ or condemnation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001,workman:2008"
+
+\end_inset
+
+.
+ Stajano, et al suggest that scarcity is related to time principle, that
+ is, when we are under time pressure to make important choice, we tend to
+ have less reasoning to make decision 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "stajano2011understanding"
+
+\end_inset
+
+.
+ We will use these principles as our foundation in synthesizing phishing
+ email corpus with human factor.
+ 
+\end_layout
+
+\begin_layout Standard
+Human as the 
+\begin_inset Quotes eld
+\end_inset
+
+weakest link
+\begin_inset Quotes erd
+\end_inset
+
+ in computer security has been exists and exploited for ages.
+ And yet, security experts blame on users and whine 
+\begin_inset Quotes eld
+\end_inset
+
+the system I designed would be secure, if only users were less gullible
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "stajano2011understanding"
+
+\end_inset
+
+.
+ Stajano, et al.
+ stated 
+\begin_inset Quotes eld
+\end_inset
+
+a wise security designer would seek a robust solution which acknowledge
+ the existence of these vulnerabilities as unavoidable consequence of human
+ nature and actively build countermeasures that prevent this exploitation
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "stajano2011understanding"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Section
@@ -797,14 +979,13 @@ key "hong:2012"
 \begin_layout Enumerate
 
 \size scriptsize
-Potential victims receive a phish.
- 
+Potential victims receive a phish
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
-The victim may take a suggested action in the message 
+The victim may take a suggested action in the message
 \end_layout
 
 \begin_layout Enumerate
@@ -959,28 +1140,27 @@ key "tally:2004"
 \begin_layout Enumerate
 
 \size scriptsize
-The attacker obtains E-mail addresses for the intended victims.
+The attacker obtains E-mail addresses for the intended victims
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
-The attacker generates an E-mail that appears legitimate.
+The attacker generates an E-mail that appears legitimate
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
 The attacker sends the E-mail to the intended victims in a way that appears
- legitimate and obscures the true source.
+ legitimate and obscures the true source
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
 The recipient opens a malicious attachment, completes a form, or visits
- a web site.
- 
+ a web site
 \end_layout
 
 \begin_layout Enumerate
@@ -1017,52 +1197,46 @@ key "emigh:2005"
 \begin_layout Enumerate
 
 \size scriptsize
-A malicious payload arrives through some propagation vector.
- 
+A malicious payload arrives through some propagation vector
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
 The user takes an action that makes him or her vulnerable to an information
- compromise.
- 
+ compromise
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
 The user is prompted for confidential information, either by a remote web
- site or locally by a Web Trojan.
- 
+ site or locally by a Web Trojan
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
-The user compromises confidential information.
- 
+The user compromises confidential information
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
 The confidential information is transmitted from a phishing server to the
- phisher.
- 
+ phisher
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
-The confidential information is used to impersonate the user.
- 
+The confidential information is used to impersonate the user
 \end_layout
 
 \begin_layout Enumerate
 
 \size scriptsize
-The phisher engages in fraud using the compromised information.
+The phisher engages in fraud using the compromised information
 \end_layout
 
 \end_inset
