@@ -70,12 +70,14 @@
 \begin_body
 
 \begin_layout Chapter
-Research Question
+Research Questions
 \end_layout
 
 \begin_layout Standard
-We begin our research question by presenting frequency table that characterizes
- the properties of phishing emails in our dataset.
+First off, we wanted to know the trends of phishing email properties in
+ our dataset.
+ The first research question mainly will be answered by frequency table
+ and charts.
 \end_layout
 
 \begin_layout Standard
@@ -122,42 +124,64 @@ What are the methods used?
 
 \begin_deeper
 \begin_layout Enumerate
-How many emails that contain and do not contain hyperlink?
+URL presence 
 \end_layout
 
 \begin_layout Enumerate
-How many emails that contain hyperlink AND/OR obfuscated link?
+URL presence and obfuscated
 \end_layout
 
 \begin_layout Enumerate
-How many emails that contain and do not contain attachment ( PDF attachment
- OR ZIP attachment OR HTML attachment OR Unknown attachment)?
+Includes and not include attachment ( PDF attachment OR ZIP attachment OR
+ HTML attachment OR Unknown attachment)
 \end_layout
 
 \begin_layout Enumerate
-How many emails that contain hyperlink AND/OR attachment?
+URL presence and include attachment 
 \end_layout
 
 \begin_layout Enumerate
-How many emails that contain hyperlink AND NOT request to click link?
+Image presence
 \end_layout
 
 \begin_layout Enumerate
-How many emails that contain attachment AND NOT request to open attachment?
+Request to click URL 
 \end_layout
 
 \begin_layout Enumerate
-How many emails that request to click link OR request to open attachment
- OR request email reply OR request to call by phone?
+Request to open attachment 
 \end_layout
 
 \begin_layout Enumerate
-How many emails that request to click link also request to open attachment?
+Request email reply 
 \end_layout
 
 \begin_layout Enumerate
-How many emails that request to click link AND request to open attachment
- AND request to email reply AND request to call by phone?
+Request to call by phone
+\end_layout
+
+\begin_layout Enumerate
+Request to click URL also request to open attachment
+\end_layout
+
+\begin_layout Enumerate
+Request to click URL AND request email reply
+\end_layout
+
+\begin_layout Enumerate
+Request to click URL also request to call by phone
+\end_layout
+
+\begin_layout Enumerate
+Request open attachment and request email reply
+\end_layout
+
+\begin_layout Enumerate
+Request open attachment and request to call by phone
+\end_layout
+
+\begin_layout Enumerate
+Request email reply and request to call by phone
 \end_layout
 
 \end_deeper
@@ -323,7 +347,7 @@ key "pennebaker1976american"
  us that we have not been logged into our online banking account for a quite
  some time, as a security measure, they must suspend our online account
  and if we would like to continue to use the online banking facility, we
- have been asked to click the link provided.
+ have been asked to click the URL provided.
  Potential victim may perceives their online banking account as their valuable
  matter to access facility and information about their savings.
  Consequently, potential vicim may react to the request because of their
@@ -512,7 +536,7 @@ System Administrator
 \end_inset
 
  may tell us that we exceeded our mailbox quota, so the administrator must
- freeze our email account and we could re-activate it by clicking the link
+ freeze our email account and we could re-activate it by clicking the URL
  provided in the email.
  Based on this scenario, we know that it has authority principle and also
  has scarcity principle.
@@ -604,8 +628,8 @@ We think it make sense if a fraudster tries to make his fake product as
  genuine as possible and hide the fabricated element of his product.
  There are also fraudster that did not make his product as identical as
  the legitimate product.
- In the phishing email context, we perceives fake product as hyperlink in
- the email, phishers do not necessarily obfuscates the real URL with something
+ In the phishing email context, we perceives fake product as URL in the
+ email, phishers do not necessarily obfuscates the real URL with something
  else.
  Logically, such phishers do not aim to make a high quality of bogus email,
  rather they aim to take chances in getting potential victims that are very
@@ -628,7 +652,7 @@ height "1pt"
 \begin_layout Standard
 
 \series bold
-H8: Phishing emails that include hyperlink will likely to be obfuscated
+H8: Phishing emails that include URL will likely to be obfuscated
 \end_layout
 
 \begin_layout Standard
@@ -651,9 +675,9 @@ It is conspicuous from our knowledge if a sales agent tries to sell us a
  requests to buy another company's product.
  In other words, if we have something to sell, we do not just display our
  product without asking people's attention to look at our product.
- For example in phishing email context, phishers may include hyperlink or
- attachment in the body of the email and also they may request unsuspecting
- victim to click the hyperlink or to open the attachment.
+ For example in phishing email context, phishers may include URL or attachment
+ in the body of the email and also they may request unsuspecting victim
+ to click the URL or to open the attachment.
  This leads us to two hypotheses which state
 \end_layout
 
@@ -672,8 +696,8 @@ height "1pt"
 \begin_layout Standard
 
 \series bold
-H9: Phishing emails that include hyperlink will likely to request to click
- the hyperlink
+H9: Phishing emails that include URL will likely to request to click the
+ URL
 \end_layout
 
 \begin_layout Standard
@@ -805,13 +829,13 @@ height "1pt"
 \begin_layout Standard
 Similar from the hypothesis H14, it is sensible if a phishing email which
  contains account related reason such as reset password or security update,
- may tend to have a hyperlink for the potential victim to be redirected
- towards phisher's bogus website or malware.
+ may tend to have a URL for the potential victim to be redirected towards
+ phisher's bogus website or malware.
  Regardless of the target, based on our initial coding of the dataset we
  found that account related phishing emails need immediate action greater
  than other reasons.
- Therefore, phishers may likely to include a hyperlink to have immediate
- response from the potential victim.
+ Therefore, phishers may likely to include a URL to have immediate response
+ from the potential victim.
  This leads to our hypothesis that say
 \end_layout
 
@@ -831,7 +855,7 @@ height "1pt"
 
 \series bold
 H13: Phishing emails which have account related reason will likely to have
- hyperlinks 
+ URL 
 \end_layout
 
 \begin_layout Standard
