@@ -70,14 +70,19 @@
 \begin_body
 
 \begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:research-questions"
+
+\end_inset
+
 Research Questions
 \end_layout
 
 \begin_layout Standard
 First off, we wanted to know the trends of phishing email properties in
- our dataset.
- The first research question mainly will be answered by frequency table
- and charts.
+ our corpus.
+ The first research question mainly will be answered by descriptive analysis.
 \end_layout
 
 \begin_layout Standard
@@ -95,7 +100,7 @@ height "1pt"
 \begin_layout Standard
 
 \series bold
-RQ1: What are the characteristics of the reported phishing emails?
+RQ: What are the characteristics of the reported phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -110,81 +115,38 @@ height "1pt"
 
 \end_layout
 
-\begin_layout Enumerate
-What are the most targeted sectors?
+\begin_layout Standard
+The characteristics of the reported phishing emails includes:
 \end_layout
 
-\begin_layout Enumerate
-What are the reasons frequently used?
+\begin_layout Itemize
+Whether they include attachments
 \end_layout
 
-\begin_layout Enumerate
-What are the methods used?
+\begin_layout Itemize
+Prevalent methods
 \end_layout
 
-\begin_deeper
-\begin_layout Enumerate
-URL presence 
+\begin_layout Itemize
+Content characteristics
 \end_layout
 
-\begin_layout Enumerate
-URL presence and obfuscated
+\begin_layout Itemize
+Obfuscated URL presence
 \end_layout
 
-\begin_layout Enumerate
-Includes and not include attachment ( PDF attachment OR ZIP attachment OR
- HTML attachment OR Unknown attachment)
+\begin_layout Itemize
+The most targeted institutions
 \end_layout
 
-\begin_layout Enumerate
-URL presence and include attachment 
+\begin_layout Itemize
+The reason that are being used
 \end_layout
 
-\begin_layout Enumerate
-Image presence
+\begin_layout Itemize
+Cialdini's principle trends
 \end_layout
 
-\begin_layout Enumerate
-Request to click URL 
-\end_layout
-
-\begin_layout Enumerate
-Request to open attachment 
-\end_layout
-
-\begin_layout Enumerate
-Request email reply 
-\end_layout
-
-\begin_layout Enumerate
-Request to call by phone
-\end_layout
-
-\begin_layout Enumerate
-Request to click URL also request to open attachment
-\end_layout
-
-\begin_layout Enumerate
-Request to click URL and request email reply
-\end_layout
-
-\begin_layout Enumerate
-Request to click URL also request to call by phone
-\end_layout
-
-\begin_layout Enumerate
-Request open attachment and request email reply
-\end_layout
-
-\begin_layout Enumerate
-Request open attachment and request to call by phone
-\end_layout
-
-\begin_layout Enumerate
-Request email reply and request to call by phone
-\end_layout
-
-\end_deeper
 \begin_layout Standard
 In our coding of cialdini's principles and phishing email dataset, we identified
  phishing emails with fake logos and signatures that may mistakenly regard
@@ -236,48 +198,6 @@ key "npdn:2013"
 \end_inset
 
 .
- Based on this conception, phishers may also have applied the same principle
- and as a dominance principle of all other principles.
- This leads to our second research question below.
- Therefore, hypotheses are established accordingly to answer 
-\series bold
-RQ1
-\series default
- (
-\series bold
-H1, H2, H6, H11
-\series default
-).
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-RQ2: How dominance authoritative principle in the dataset?
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -607,8 +527,8 @@ height "1pt"
 \begin_layout Standard
 
 \series bold
-H7: Phishing emails that have likeability principle will likely to have
- consistency principle
+H7: There will be positive correlation between likeability principle and
+ consistency principle 
 \end_layout
 
 \begin_layout Standard

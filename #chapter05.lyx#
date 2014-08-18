@@ -244,8 +244,8 @@ Interestingly, we have 18 legitimate emails that were mistakenly reported
  From this point we would only code 440 phishing emails to an excel sheet
  with necessary variables so that we could convert it into SPSS readable
  file.
- From 440 phishing emails, we perform query search which email which has
- duplicated content.
+ From 440 phishing emails, we perform query search which email that has
+ a duplicated content.
  Query search resulted in 207 unique phishing emails.
  At the end, we will only analyze 207 unique phishing emails in our corpus.
 \end_layout
@@ -786,11 +786,20 @@ Results
 \end_layout
 
 \begin_layout Standard
-What are the most targeted sectors?
+
+\series bold
+RQ1: What are the characteristics of the reported phishing emails
 \end_layout
 
 \begin_layout Standard
-To answer the first req
+When we look at the statistics, we find that 36.2% of the reported phishing
+ emails have an attachment(s) included within its content, while 63.8% does
+ not have attachment.
+ In addition, we also look at what types of attachment does one has.
+ We find that 1% have PDF attachment, 28.6% have ZIP attachment, 4.3% have
+ HTML attachment and 1.9% of them we are not sure what type of attachments
+ they have, but we determined that the attachment element is still there
+ if the request to open attachment within its content is presence.
 \end_layout
 
 \begin_layout Standard
@@ -798,7 +807,190 @@ To answer the first req
 placement H
 wide false
 sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/hasAttachment_14august2014.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Attachment(s) analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When we look at the methods used in the statistics, we find that 37.2% of
+ the reported phishing emails are requesting to open attachment, 52.7% requesting
+ to click URL(s), 16.9% are requesting for email reply and 4.3% are requesting
+ to call by phone.
+ It is noteworthy that one email can have more than one attachment with
+ different types.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/request_frequency.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Methods analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As we discussed before, we have also analyzed the content of phishing emails
+ in our corpus.
+ We look at whether it has URL(s), using HTML code or include image within
+ its content.
+ We find that 60.4% have URL(s) while 39.6% do not have URL.
+ 66.2% of the emails used HTML code while 33.8% do not use HTML code within
+ its content.
+ We find 35.3% of them includes image(s) while 64.7% do not include image.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/content.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Content analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We look at obfuscated URL presence in our corpus.
+ We find that 45.9% of the phishing emails have obfuscated URL(s) while 54.1%
+ do not have obfuscated URL.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/obfuscatedURL.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Obfuscated URL analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When we look at target statistics in 
+\begin_inset Flex CT - auto cross-reference
 status collapsed
+
+\begin_layout Plain Layout
+
+fig:target-analysis
+\end_layout
+
+\end_inset
+
+, we find that 37.7% are targeting financial institutions, 19.3% are targetting
+ e-commerce or retails, 14.5% are impersonating administrator while 28.5%
+ of them consist of social networks, postal services, government, travel
+ agencies, ISP, industrials and non-existence/individuals impersonation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -819,7 +1011,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Target frequency
+Target analysis
 \end_layout
 
 \end_inset
@@ -844,9 +1036,10 @@ Target frequency
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename gfx/targets_14august2014_barchart.png
 	scale 30
@@ -875,6 +1068,12 @@ Target bar chart
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:target-analysis"
+
+\end_inset
+
 Target classification frequency and chart
 \end_layout
 
@@ -889,7 +1088,21 @@ Target classification frequency and chart
 \end_layout
 
 \begin_layout Standard
-What are the reasons frequently used?
+When we look at what reasons are used in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+fig:reason-analysis
+\end_layout
+
+\end_inset
+
+, we find that 48.8% are account related, 25% are financial reason and 11.1%
+ are document related reason.
+ In addition, only 9.7% are product and services reason and only 4.8% are
+ social reason.
 \end_layout
 
 \begin_layout Standard
@@ -897,7 +1110,7 @@ What are the reasons frequently used?
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -971,6 +1184,12 @@ Reason classification bar chart
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:reason-analysis"
+
+\end_inset
+
 Reason classification frequency and chart
 \end_layout
 
@@ -985,428 +1204,24 @@ Reason classification frequency and chart
 \end_layout
 
 \begin_layout Standard
-How are the methods used?
-\end_layout
-
-\begin_layout Standard
-URL presence
+We look at the result of cialdini's principle synthesis with our corpus.
+ We find that 96.1% of the corpus have authority principle which holds the
+ most prevalent principle followed by scarcity principle at 41.1%.
+ While 21.7% of the phishing emails have likeability principle, only 17.4%
+ of the emails have consistency principle.
+ We find 9.7% have reciprocation principle and 5.3% have social proof principle.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-\align center
 \begin_inset Graphics
-	filename gfx/containURL_14august2014.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-URL frequency in phishing emails
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/ContainURL_14august2014_pie chart1.jpg
-	scale 30
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Pie chart of URL frequency 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-URL(s) analysis
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-URL presence and obfuscated
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/containURLandObfuscated_14august2014.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-URL and obfuscated URL
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Includes and not include attachment ( PDF attachment OR ZIP attachment OR
- HTML attachment OR Unknown attachment)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/hasAttachment_14august2014.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Attachment(s) analysis
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-URL presence and include attachment
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/ContainURLandAttachment_14August2014.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/ContainURLandAttachment_bargraph_14August2014.png
-	scale 30
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-URL and attachment analysis
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Image presence
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/image_presence.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-request to click URL
-\end_layout
-
-\begin_layout Standard
-request to open attachment
-\end_layout
-
-\begin_layout Standard
-request email reply
-\end_layout
-
-\begin_layout Standard
-request to call by phone
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/request_frequency.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Request analysis
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Request to click URL and request to open attachment
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/ReqclickURLandReqOpenAttachment_14August2014.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename gfx/ReqclickURLandReqOpenAttachment_14August2014_bargraph.png
-	scale 30
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Request click URL and attachment(s)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Request to click URL and request email reply
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/ReqclickURLandReqReply.png
+	filename gfx/cialdini1.png
 	scale 50
 
 \end_inset
@@ -1415,39 +1230,8 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Request click URL and email reply
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Request to click URL and request to call by phone
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
 \begin_inset Graphics
-	filename gfx/reqClikURLandreqCallPhone.png
+	filename gfx/cialdini2.png
 	scale 50
 
 \end_inset
@@ -1456,11 +1240,15 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Request click URL and call by phone
+Cialdini's principles analysis
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1470,9 +1258,34 @@ Request click URL and call by phone
 \end_layout
 
 \begin_layout Standard
+Now we know that authority principle is the dominant principle in our corpus.
+ Moreover, we have presented our rationale of our hypotheses in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
 
-\series bold
-Request to open attachment and request email reply
+\begin_layout Plain Layout
+
+chap:research-questions
+\end_layout
+
+\end_inset
+
+.
+ When we look at the association between government and authority principle,
+ we find that 89.4% which do not impersonate government institutions and
+ have authority principle and 3.9% of them do not impersonate government
+ nor having authority principle.
+ We find that only 6.8% of the emails which impersonate government and having
+ authority principle.
+ While there is no phishing emails that have authority principle which impersona
+te government.
+ A chi-square test was performed and we find that there is no statistically
+ significant association between government sector and authority principle,
+ 
+\begin_inset Formula $X(1)=0.604,p=0.473$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1481,142 +1294,6 @@ placement H
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/ReqAttachandReqEmailReply.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Request to open attachment and email reply
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Request to open attachment and request to call by phone
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/ReqAttachandReqPhone.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Request to open attachment and call by phone
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Request email reply and request to call by phone
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/ReqEmailReplyandReqPhone.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Request email reply and call by phone
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-RQ2: How dominance authoritative principles in the dataset?
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-H1: There will be a significant association between government sector and
- authority principles
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1648,6 +1325,10 @@ Government sector and authority
 \end_layout
 
 \begin_layout Standard
+When we look at the relationship between phishing emails that 
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 H2: Phishing emails which targeting administrator will likely to have authority
@@ -1659,7 +1340,7 @@ H2: Phishing emails which targeting administrator will likely to have authority
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2030,7 +1711,7 @@ H9: Phishing emails that include URL will likely to request to click the
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2084,7 +1765,7 @@ H10: Phishing emails that include attachment will likely to request to open
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2138,7 +1819,7 @@ H11: Phishing emails that have authority principle will likely to include
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2188,7 +1869,7 @@ H12: There will be a significant association between account related reason
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2246,7 +1927,7 @@ H13: Phishing emails which have account related reason will likely to have
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2303,7 +1984,7 @@ H14: Phishing emails which have document related reason will likely targeting
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2357,7 +2038,7 @@ H15: Phishing emails which have document related reason will likely to include
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2411,11 +2092,7 @@ H16: Phishing emails which use HTML will have a significant association
 placement H
 wide false
 sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
+status collapsed
 
 \begin_layout Plain Layout
 \align center
