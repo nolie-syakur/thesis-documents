@@ -76,7 +76,7 @@ name "chap:research-questions"
 
 \end_inset
 
-Research Questions
+Research Question and Hypotheses
 \end_layout
 
 \begin_layout Standard
@@ -99,7 +99,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 RQ: What are the characteristics of the reported phishing emails?
 \end_layout
 
@@ -226,14 +226,14 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H1: There will be a significant association between Government sector and
  authority principle
 \end_layout
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H2: Phishing emails which targeting Administrator will likely to have authority
  principle 
 \end_layout
@@ -300,7 +300,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H3: There will be a significant correlation between Financial sector and
  scarcity principle
 \end_layout
@@ -355,7 +355,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H4: Phishing emails which targeting E-Commerce/Retails will likely to have
  a significant association with likeability principle
 \end_layout
@@ -413,7 +413,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H5: Phishing emails which targeting Social networks will likely to have
  signification association with social proof principle 
 \end_layout
@@ -477,7 +477,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H6: There will be a significant relationship between authority principle
  and scarcity principle
 \end_layout
@@ -526,7 +526,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H7: There will be positive correlation between likeability principle and
  consistency principle 
 \end_layout
@@ -571,7 +571,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H8: Phishing emails that include URL will likely to be obfuscated
 \end_layout
 
@@ -615,14 +615,14 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H9: Phishing emails that include URL will likely to request to click the
  URL
 \end_layout
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H10: Phishing emails that include attachment will likely to request to open
  the attachment
 \end_layout
@@ -689,7 +689,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H11: Phishing emails that have authority principle will likely to include
  an image to its content
 \end_layout
@@ -729,7 +729,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H12: There will be a significant association between account related reason
  and scarcity principle 
 \end_layout
@@ -773,7 +773,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H13: Phishing emails which have account related reason will likely to have
  URL 
 \end_layout
@@ -812,7 +812,7 @@ height "1pt"
 
 \begin_layout Standard
 
-\series bold
+\shape italic
 H14: Phishing emails which have document related reason will likely targeting
  government sector
 \end_layout
@@ -831,10 +831,10 @@ height "1pt"
 
 \begin_layout Standard
 Analogous with the hypothesis 
-\series bold
-H1
-\series default
-5, it is make sense if a phishing email which has document related reason
+\shape italic
+H14
+\shape default
+, it is make sense if a phishing email which has document related reason
  such as reviewing contract agreement or reviewing resolution case, would
  tend to have a file to be attached.
  We therefore hypothesize that

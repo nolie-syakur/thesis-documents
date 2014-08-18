@@ -1,0 +1,45 @@
+\select@language {american}
+\vspace {-\cftbeforepartskip }
+\select@language {ngerman}
+\select@language {american}
+\select@language {ngerman}
+\select@language {american}
+\contentsline {part}{i\hspace {1em}\spacedlowsmallcaps {Some Kind of Manual}}{1}{part.1}
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Organization}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Style Options}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Customization}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Issues}{6}{section.1.4}
+\contentsline {section}{\numberline {1.5}Future Work}{7}{section.1.5}
+\contentsline {section}{\numberline {1.6}Beyond a thesis}{7}{section.1.6}
+\contentsline {section}{\numberline {1.7}License}{9}{section.1.7}
+\contentsline {paragraph}{GNU General Public License:}{9}{section.1.7}
+\contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {The Showcase}}{11}{part.2}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Introduction of Phishing}}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}What is phishing?}{13}{section.2.1}
+\contentsline {section}{\numberline {2.2}History of phishing}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}Formal definition of phishing}{14}{section.2.3}
+\contentsline {section}{\numberline {2.4}Economics impact caused by phishing}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}Phishing modus operandi}{15}{section.2.5}
+\contentsline {section}{\numberline {2.6}Common type of phishing}{20}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Deceptive phishing}{20}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Malware-based phishing}{21}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Man in the middle phishing}{21}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Bad neighborhoods on phishing}{21}{section.2.7}
+\contentsline {section}{\numberline {2.8}Current countermeasures of phishing attacks}{22}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Phishing detection}{22}{subsection.2.8.1}
+\contentsline {subsubsection}{\numberline {2.8.1.1}Phishtank}{22}{subsubsection.2.8.1.1}
+\contentsline {subsubsection}{\numberline {2.8.1.2}Machine learning approach}{25}{subsubsection.2.8.1.2}
+\contentsline {subsubsection}{\numberline {2.8.1.3}Lexical features}{27}{subsubsection.2.8.1.3}
+\contentsline {subsubsection}{\numberline {2.8.1.4}Host based features}{27}{subsubsection.2.8.1.4}
+\contentsline {subsubsection}{\numberline {2.8.1.5}Site popularity features}{29}{subsubsection.2.8.1.5}
+\contentsline {subsection}{\numberline {2.8.2}Phishing prevention}{29}{subsection.2.8.2}
+\contentsline {section}{\numberline {2.9}Preliminary analysis}{31}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Personas Initialment}{31}{subsection.2.9.1}
+\contentsline {subsubsection}{\numberline {2.9.1.1}A Subsubsection}{32}{subsubsection.2.9.1.1}
+\contentsline {paragraph}{A Paragraph Example}{32}{subsubsection.2.9.1.1}
+\contentsline {subsection}{\numberline {2.9.2}Linguistic Registrate}{32}{subsection.2.9.2}
+\contentsline {part}{iii\hspace {1em}\spacedlowsmallcaps {The Lyx Port}}{35}{part.3}
+\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Appendix}}{37}{part.4}
+\vspace {\beforebibskip }
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{39}{dummy.7}

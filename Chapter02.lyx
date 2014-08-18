@@ -547,7 +547,7 @@ The costs of phishing attacks
 \end_layout
 
 \begin_layout Standard
-It is non-trivial task to find a real cost from phishing attacks in term
+It is a challenging task to find a real cost from phishing attacks in term
  of money or direct cost.
  This due to financial damage for bank is only known by banks and most instituti
 ons do not share this information with the public.
@@ -976,22 +976,25 @@ key "hong:2012"
 <cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Potential victims receive a phish
+1.
+ Potential victims receive a phish
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The victim may take a suggested action in the message
+2.
+ The victim may take a suggested action in the message
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The phisher monetizes the stolen information
+3.
+ The phisher monetizes the stolen information
 \end_layout
 
 \end_inset
@@ -1020,34 +1023,39 @@ key "frauenstein:2013"
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Planning
+1.
+ Planning
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Email Design
+2.
+ Email Design
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Fabricated story
+3.
+ Fabricated story
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Threatening tone/Consequences
+4.
+ Threatening tone/Consequences
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Spoofed website
+5.
+ Spoofed website
 \end_layout
 
 \end_inset
@@ -1075,40 +1083,46 @@ key "wetzel:2005"
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Planning
+1.
+ Planning
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Setup
+2.
+ Setup
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Attack
+3.
+ Attack
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Collection
+4.
+ Collection
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Fraud
+5.
+ Fraud
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Post-attack
+6.
+ Post-attack
 \end_layout
 
 \end_inset
@@ -1137,36 +1151,41 @@ key "tally:2004"
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The attacker obtains E-mail addresses for the intended victims
+1.
+ The attacker obtains E-mail addresses for the intended victims
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The attacker generates an E-mail that appears legitimate
+2.
+ The attacker generates an E-mail that appears legitimate
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The attacker sends the E-mail to the intended victims in a way that appears
+3.
+ The attacker sends the E-mail to the intended victims in a way that appears
  legitimate and obscures the true source
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The recipient opens a malicious attachment, completes a form, or visits
+4.
+ The recipient opens a malicious attachment, completes a form, or visits
  a web site
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Harvest and exploitation
+5.
+ Harvest and exploitation
 \end_layout
 
 \end_inset
@@ -1194,49 +1213,56 @@ key "emigh:2005"
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-A malicious payload arrives through some propagation vector
+1.
+ A malicious payload arrives through some propagation vector
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The user takes an action that makes him or her vulnerable to an information
+2.
+ The user takes an action that makes him or her vulnerable to an information
  compromise
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The user is prompted for confidential information, either by a remote web
+3.
+ The user is prompted for confidential information, either by a remote web
  site or locally by a Web Trojan
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The user compromises confidential information
+4.
+ The user compromises confidential information
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The confidential information is transmitted from a phishing server to the
+5.
+ The confidential information is transmitted from a phishing server to the
  phisher
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The confidential information is used to impersonate the user
+6.
+ The confidential information is used to impersonate the user
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-The phisher engages in fraud using the compromised information
+7.
+ The phisher engages in fraud using the compromised information
 \end_layout
 
 \end_inset
@@ -1265,52 +1291,60 @@ key "nero:2011"
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Preparation 
+1.
+ Preparation 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Delivery of the Lure 
+2.
+ Delivery of the Lure 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Taking the Bait 
+3.
+ Taking the Bait 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Request for Confidential Information 
+4.
+ Request for Confidential Information 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Submission of Information 
+5.
+ Submission of Information 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Collection of Data 
+6.
+ Collection of Data 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Impersonation 
+7.
+ Impersonation 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 
 \size scriptsize
-Financial Gain
+8.
+ Financial Gain
 \end_layout
 
 \end_inset
@@ -2187,9 +2221,10 @@ Information flow phishing attack
 \end_layout
 
 \begin_layout Standard
-It is important to know that on phase 3 which says victim taking the bait,
- it might be directed to spoofed website, comply to reply the email, comply
- to open an attachment(s) or comply to call by phone.
+It is important to know that in the phase 3, there are different scenarios
+ such as; victim might be redirected to a spoofed website, victim may comply
+ to reply the email, victim may comply to open an attachment(s) or victim
+ may comply to call by phone.
  However, in 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -2201,7 +2236,7 @@ fig:Information-flow-phishing
 
 \end_inset
 
-, we only illustrate the phases if the bait was using spoofed website.
+, we have only illustrated the phases if the bait was using spoofed website.
  
 \end_layout
 
@@ -3891,7 +3926,7 @@ phishing + detection + machine learning
  Each of these features will be introduced briefly as follows.
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Itemize
 Lexical features
 \end_layout
 
@@ -4125,7 +4160,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-\size tiny
+\size scriptsize
 Haotian Liu, et al.
  
 \begin_inset CommandInset citation
@@ -4145,7 +4180,7 @@ key "liu"
 \begin_layout Plain Layout
 
 \series bold
-\size tiny
+\size scriptsize
 Guang Xiang, et al.
  
 \begin_inset CommandInset citation
@@ -4164,76 +4199,76 @@ key "xiang:2011"
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Length of hostname Length of entire URL
+\size scriptsize
+- Length of hostname Length of entire URL
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Number of dots 
+\size scriptsize
+- Number of dots 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Top-level domain
+\size scriptsize
+- Top-level domain
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Domain token count
+\size scriptsize
+- Domain token count
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Path token count
+\size scriptsize
+- Path token count
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Average domain token length of all dataset
+\size scriptsize
+- Average domain token length of all dataset
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Average path token length of dataset
+\size scriptsize
+- Average path token length of dataset
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Longest domain token length of dataset
+\size scriptsize
+- Longest domain token length of dataset
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Longest path token length of dataset
+\size scriptsize
+- Longest path token length of dataset
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Brand name presence 
+\size scriptsize
+- Brand name presence 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-IP address presence
+\size scriptsize
+- IP address presence
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Security sensitive word presence 
+\size scriptsize
+- Security sensitive word presence 
 \end_layout
 
 \end_inset
@@ -4241,40 +4276,40 @@ Security sensitive word presence
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Embedded domain
+\size scriptsize
+- Embedded domain
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-IP address presence
+\size scriptsize
+- IP address presence
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Number of dots
+\size scriptsize
+- Number of dots
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Suspicious URL 
+\size scriptsize
+- Suspicious URL 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Number of sensitive words
+\size scriptsize
+- Number of sensitive words
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Out of position top level domain (TLD) 
+\size scriptsize
+- Out of position top level domain (TLD) 
 \end_layout
 
 \end_inset
@@ -4314,7 +4349,7 @@ key "liu,xiang:2011"
 
 \end_layout
 
-\begin_layout Enumerate-Resume
+\begin_layout Itemize
 Host based features
 \end_layout
 
@@ -4368,7 +4403,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-\size tiny
+\size scriptsize
 Justin Ma, et al.
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4387,7 +4422,7 @@ key "ma:2009,ma2:2009"
 \begin_layout Plain Layout
 
 \series bold
-\size tiny
+\size scriptsize
 Haotian Liu, et al.
  [46]
 \begin_inset CommandInset citation
@@ -4407,7 +4442,7 @@ key "liu"
 \begin_layout Plain Layout
 
 \series bold
-\size tiny
+\size scriptsize
 Guang Xiang, et al.
  
 \begin_inset CommandInset citation
@@ -4426,28 +4461,28 @@ key "xiang:2011"
 <cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-WHOIS data
+\size scriptsize
+- WHOIS data
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-IP address information
+\size scriptsize
+- IP address information
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Connection speed
+\size scriptsize
+- Connection speed
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Domain name properties 
+\size scriptsize
+- Domain name properties 
 \end_layout
 
 \end_inset
@@ -4455,46 +4490,46 @@ Domain name properties
 <cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Autonomous system number 
+\size scriptsize
+- Autonomous system number 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-IP country
+\size scriptsize
+- IP country
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Number of registration information
+\size scriptsize
+- Number of registration information
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Number of resolved IPs
+\size scriptsize
+- Number of resolved IPs
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Domain contains valid PTR record
+\size scriptsize
+- Domain contains valid PTR record
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Redirect to new site
+\size scriptsize
+- Redirect to new site
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-All IPs are consistent
+\size scriptsize
+- All IPs are consistent
 \end_layout
 
 \end_inset
@@ -4502,10 +4537,10 @@ All IPs are consistent
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
-\size tiny
-Age of Domain
+\size scriptsize
+- Age of Domain
 \end_layout
 
 \end_inset
@@ -4591,7 +4626,7 @@ Domain name properties: these include time to live (TTL) of DNS associated
  it is valid or not.
 \end_layout
 
-\begin_layout Enumerate-Resume
+\begin_layout Itemize
 Site popularity features
 \end_layout
 
@@ -4680,28 +4715,29 @@ key "liu"
 <cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Page in top search results 
+- Page in top search results 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-PageRank
+- PageRank
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Page in top results when searching copyright company name and domain
+- Page in top results when searching copyright company name and domain
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Page in top results when searching copyright company name and hostname 
+- Page in top results when searching copyright company name and hostname
+ 
 \end_layout
 
 \end_inset
@@ -4709,22 +4745,22 @@ Page in top results when searching copyright company name and hostname
 <cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Number of external links
+- Number of external links
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Real traffic rank
+- Real traffic rank
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Domain in reputable sites list
+- Domain in reputable sites list
 \end_layout
 
 \end_inset

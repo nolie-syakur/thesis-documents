@@ -1318,25 +1318,25 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Creation of function zzz() contains variables that holds input value from
+- Creation of function zzz() contains variables that holds input value from
  a form <form onsubmit="return zzzz()" class=" edit" action="getinfo.php"
  method="post" name="fox">.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-There are 17 script tag in the original paypal, whereas there are only 5
- script tags
+- There are 17 script tag in the original paypal, whereas there are only
+ 5 script tags
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-If… else..
+- If… else..
  logic is added to manage how a user inputs his information
 \end_layout
 
@@ -1367,19 +1367,19 @@ Irregular link tag
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-We are not sure whether the link tag is added by the phisher or it refers
+- We are not sure whether the link tag is added by the phisher or it refers
  to the original paypal with the different source (PayPal has changed its
  web page from time to time, it means that the source also change periodically)
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Most of the links are redirected to pass.php 
+- Most of the links are redirected to pass.php 
 \end_layout
 
 \end_inset
@@ -1512,31 +1512,31 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Script to measure anticlickjack is not present.
+- Script to measure anticlickjack is not present.
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Script addition clearly stating that it is a hack script at line 91
+- Script addition clearly stating that it is a hack script at line 91
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-s.prop1="p/gen/login-processing”; s.pageName="p/gen/login-processing::_login-proce
-ssing"; whereas the original has s.prop1="xpt/Marketing_CommandDriven/homepage/Ma
-inHome"; and no s.pageName variable
+- s.prop1="p/gen/login-processing”; s.pageName="p/gen/login-processing::_login-pro
+cessing"; whereas the original has s.prop1="xpt/Marketing_CommandDriven/homepage/
+MainHome"; and no s.pageName variable
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-function scOnload() is present in the original whereas it is not present
+- Function scOnload() is present in the original whereas it is not present
 \end_layout
 
 \end_inset
@@ -1633,30 +1633,30 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Anticlickjack script is not present
+- Anticlickjack script is not present
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-New script addition is present which hide from JavaScript-challenged browsers.
+- New script addition is present which hide from JavaScript-challenged browsers.
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-More new script addition is present to manage PayPal login flow <script
+- More new script addition is present to manage PayPal login flow <script
  type="text/javascript">PAYPAL.common.loginflow = 'p/gen/login';….
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-s.prop1="p/gen/login"; 
+- s.prop1="p/gen/login"; 
 \end_layout
 
 \end_inset
@@ -1822,30 +1822,30 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-It has script to hide from javascript challenge browser.
+- It has script to hide from javascript challenge browser.
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-It has script <script type="text/javascript">PAYPAL.common.loginflow = 'p/gen/logi
-n'; contains malicious operation 
+- It has script <script type="text/javascript">PAYPAL.common.loginflow = 'p/gen/lo
+gin'; contains malicious operation 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-s.prop1="p/gen/login"; 
+- s.prop1="p/gen/login"; 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-It does not have the function scOnload() 
+- It does not have the function scOnload() 
 \end_layout
 
 \end_inset
@@ -1990,31 +1990,31 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Script to hide from javascript challenged browser 
+- Script to hide from javascript challenged browser 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-The script that contains YAHOO.util.Event.addListener also quite different
+- The script that contains YAHOO.util.Event.addListener also quite different
  from the original, yet it exists again at the end 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-The tag <noscript>&lt;img src="//paypal.112.2O7.net/b/ss/paypalglobal/1/H.6--NS/0?pa
-geName=NonJavaScript" height="1" width="1" border="0" alt="" /&gt;</noscript>
+- The tag <noscript>&lt;img src="//paypal.112.2O7.net/b/ss/paypalglobal/1/H.6--NS/0?
+pageName=NonJavaScript" height="1" width="1" border="0" alt="" /&gt;</noscript>
  is removed
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-There is no function scOnload() 
+- There is no function scOnload() 
 \end_layout
 
 \end_inset
@@ -2114,16 +2114,16 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Script to hide from javascript challenged browser
+- Script to hide from javascript challenged browser
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Suspicious script YAHOO.util.Event.addListener
+- Suspicious script YAHOO.util.Event.addListener
 \end_layout
 
 \end_inset
@@ -2397,26 +2397,26 @@ Irregular input tag
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<input type="submit" class="button primary" value="Log In" name="submit.x"
+- <input type="submit" class="button primary" value="Log In" name="submit.x"
  /> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<input type="hidden" name="operating_system" value="Windows" /><input type="hidd
-en" id="flow_name" name="flow_name" value="p/gen/login" />
+- <input type="hidden" name="operating_system" value="Windows" /><input
+ type="hidden" id="flow_name" name="flow_name" value="p/gen/login" />
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<input type="hidden" id="bp_ks2" name="bp_ks2" /><input type="hidden" id="bp_ks3
-" name="bp_ks3" /><input type="hidden" name="flow_name" value="p/gen/login"
- /> 
+- <input type="hidden" id="bp_ks2" name="bp_ks2" /><input type="hidden"
+ id="bp_ks3" name="bp_ks3" /><input type="hidden" name="flow_name" value="p/gen/
+login" /> 
 \end_layout
 
 \end_inset
@@ -2446,17 +2446,22 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Script to hide from javascript challenged browser • s.prop1="p/gen/login";
- 
+- Script to hide from javascript challenged browser
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-no function scOnload() 
+- s.prop1="p/gen/login"; 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+- no function scOnload() 
 \end_layout
 
 \end_inset
@@ -2521,53 +2526,53 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-src="/js/lib/yui/animation.js 
+- src="/js/lib/yui/animation.js 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-script anticlickjack removed 
+- Script anticlickjack removed 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-script PAYPAL.util.lazyLoadRoot removed
+- Script PAYPAL.util.lazyLoadRoot removed
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-great amount of scripts are removed
+- Great amount of scripts are removed
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-suspicious script <script type="text/javascript">if(typeof PAYPAL != 'undefined'
-){ PAYPAL.core.Navigation.init(); }</script> </div> 
+- Suspicious script <script type="text/javascript">if(typeof PAYPAL != 'undefine
+d'){ PAYPAL.core.Navigation.init(); }</script> </div> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-suspicious script s.prop1="p/gen/login-processing";
+- Suspicious script s.prop1="p/gen/login-processing";
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-function scOnload removed
+- Function scOnload removed
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-suspicious script setTimeout("location.href =… at the bottom
+- Suspicious script setTimeout("location.href =… at the bottom
 \end_layout
 
 \end_inset
@@ -2599,22 +2604,22 @@ Irregular input
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<input type="hidden" name="flow_name" value="p/gen/login" /> 
+- <input type="hidden" name="flow_name" value="p/gen/login" /> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<input type="hidden" value="ok" name="login_cmd" /> 
+- <input type="hidden" value="ok" name="login_cmd" /> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<input type="hidden" value="" name="login_params" /> 
+- <input type="hidden" value="" name="login_params" /> 
 \end_layout
 
 \end_inset
@@ -2644,34 +2649,34 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<script src="files/global00.js" type="text/javascript"> 
+- <script src="files/global00.js" type="text/javascript"> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-script that hides from javacscript challenged browser 
+- script that hides from javacscript challenged browser 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-anticlickjack script is removed 
+- anticlickjack script is removed 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<script src="files/pp_jscod.js" type="text/javascript"></script> 
+- <script src="files/pp_jscod.js" type="text/javascript"></script> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-s.prop1="p/gen/login"; • function scOnload removed 
+- s.prop1="p/gen/login"; • function scOnload removed 
 \end_layout
 
 \end_inset
@@ -2873,42 +2878,42 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-script that hides from javascript challenged browser 
+- script that hides from javascript challenged browser 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-anticlickjack script is removed
+- anticlickjack script is removed
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-suspicious script <script type="text/javascript">if(typeof PAYPAL != 'undefined'
-){ PAYPAL.core.Navigation.init(); }</script> 
+- suspicious script <script type="text/javascript">if(typeof PAYPAL != 'undefine
+d'){ PAYPAL.core.Navigation.init(); }</script> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-suspicious script <script type="text/javascript">PAYPAL.common.loginflow =
- 'p/gen/login'; 
+- suspicious script <script type="text/javascript">PAYPAL.common.loginflow
+ = 'p/gen/login'; 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-s.prop1="p/gen/login"; 
+- s.prop1="p/gen/login"; 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-function scOnload is removed 
+- function scOnload is removed 
 \end_layout
 
 \end_inset
@@ -3007,34 +3012,34 @@ Irregular scripts
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-script that hides from javascript challenge browser 
+- script that hides from javascript challenge browser 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-YAHOO.util.Event.addListener script 
+- YAHOO.util.Event.addListener script 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-s.prop1="xpt/Marketing_CommandDriven/homepage/IndividualsHome"; 
+- s.prop1="xpt/Marketing_CommandDriven/ homepage/IndividualsHome"; 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-function scOnload() is removed 
+- function scOnload() is removed 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-YUE.addListener script at the bottom 
+- YUE.addListener script at the bottom 
 \end_layout
 
 \end_inset
@@ -3206,22 +3211,22 @@ Irregular input
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<input type="hidden" name="flow_name" value="p/gen/login" /> 
+- <input type="hidden" name="flow_name" value="p/gen/login" /> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<input type="hidden" value="" name="login_cmd" /> 
+- <input type="hidden" value="" name="login_cmd" /> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<input type="hidden" value="" name="login_params" /> 
+- <input type="hidden" value="" name="login_params" /> 
 \end_layout
 
 \end_inset
@@ -3284,40 +3289,40 @@ Irregular script
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-script that hides from javascript challenge browsers 
+- script that hides from javascript challenge browsers 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-anticlickjack script removed
+- anticlickjack script removed
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-PAYPAL.tns.loginflow script 
+- PAYPAL.tns.loginflow script 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-PAYPAL.common.loginflow = 'p/gen/login' added 
+- PAYPAL.common.loginflow = 'p/gen/login' added 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-s.prop1="p/gen/login"; 
+- s.prop1="p/gen/login"; 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-function scOnload is removed 
+- function scOnload is removed 
 \end_layout
 
 \end_inset
@@ -3382,35 +3387,36 @@ Irregular script
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<script type="text/javascript"> if (parent.frames.length &gt; 0) {top.location.repla
-ce(document.location); }</script> 
+- <script type="text/javascript"> if (parent.frames.length &gt; 0) {top.location.rep
+lace(document.location); }</script> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Script that hides from javascript challenge browsers 
+- Script that hides from javascript challenge browsers 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<script type="text/javascript">PAYPAL.common.loginflow = 'p/gen/login'; 
+- <script type="text/javascript">PAYPAL.common.loginflow = 'p/gen/login';
+ 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-s.prop1="p/gen/login"; 
+- s.prop1="p/gen/login"; 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-function scOnload is removed 
+- function scOnload is removed 
 \end_layout
 
 \end_inset
