@@ -98,18 +98,30 @@ thispagestyle{empty}
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 begin{addmargin}[-10mm]{-30mm}  %%%%% symmetrical margins
 \end_layout
 
 \begin_layout Plain Layout
 
+%
+\backslash
+thiswatermark{				
+\end_layout
 
+\begin_layout Plain Layout
+
+%Put watermark on this page only     		
+\end_layout
+
+\begin_layout Plain Layout
+
+%
 \backslash
 put(-170,-760){
 \backslash
-includegraphics[]{gfx/UTNL}
+includegraphics[]{gfx/UTNL}}    	}
 \end_layout
 
 \end_inset
@@ -270,11 +282,11 @@ ch:LyxPortInfo
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 end{addmargin}
 \end_layout

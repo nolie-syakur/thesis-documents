@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.23)  4 AUG 2014 14:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.23)  18 AUG 2014 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1350,18 +1350,6 @@ Type  H <return>  for immediate help.
                                                   
 l.255 \usepackage{
                   classicthesis}
-\usepackage may only appear in the document preamble, i.e.,
-between \documentclass and \begin{document}.
-
-
-! LaTeX Error: \usepackage before \documentclass.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256 \usepackage{
-                  watermark}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 

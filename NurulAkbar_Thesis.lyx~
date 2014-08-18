@@ -117,9 +117,6 @@ filename "DirtyTitlepage.lyx"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "Titlepage.lyx"
@@ -303,7 +300,7 @@ filename "chapter04.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "chapter06.lyx"
+filename "chapter05.lyx"
 
 \end_inset
 

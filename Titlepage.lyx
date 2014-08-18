@@ -82,7 +82,7 @@ begin{titlepage}
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 begin{addmargin}[-10mm]{-30mm}  %%%%% symmetrical margins
 \end_layout
@@ -173,7 +173,7 @@ myName}
 \align center
 \begin_inset Graphics
 	filename gfx/UT_Logo_Black_EN.jpg
-	width 10cm
+	width 6cm
 
 \end_inset
 
@@ -190,6 +190,28 @@ myName}
 
 \begin_layout Standard
 \align center
+Supervisors:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+mySubtitle
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -197,9 +219,30 @@ status open
 
 
 \backslash
-mySubtitle
+myProf
 \end_layout
 
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mySupervisor
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
 \end_inset
 
 
@@ -219,7 +262,7 @@ status open
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 myDepartment
 \end_layout
@@ -236,7 +279,7 @@ status open
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 myFaculty
 \end_layout
@@ -253,7 +296,7 @@ status open
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 myUni
 \end_layout
@@ -314,7 +357,7 @@ status open
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 end{addmargin} 
 \end_layout

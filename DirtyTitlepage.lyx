@@ -98,7 +98,7 @@ thispagestyle{empty}
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 begin{addmargin}[-10mm]{-30mm}  %%%%% symmetrical margins
 \end_layout
@@ -282,11 +282,11 @@ ch:LyxPortInfo
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 end{addmargin}
 \end_layout

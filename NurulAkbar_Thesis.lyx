@@ -117,9 +117,6 @@ filename "DirtyTitlepage.lyx"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "Titlepage.lyx"
@@ -167,23 +164,6 @@ filename "Dedication.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "Abstract.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Publication.lyx"
 
 \end_inset
 
