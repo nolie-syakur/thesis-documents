@@ -231,14 +231,56 @@ Research goal
 \begin_layout Standard
 
 \lang english
-This main goal of the research is to find out the trends of various phishing
- email properties and phishing email characterization based on cialdini's
- principles.
- More specifically, it aims to correlate statistically between phishing
- email properties and cialdini's six techniques of persuasion.
- The integration of these principles can be used to generate a new method
- of detecting phishing emails as one of the primary delivery techniques
+The main goal of this research is to synthesize persuasive principle and
+ characterize phishing email properties.
+ These properties can be divided into several parts.
+ Each of these parts and persuasive principle will be introduced as a variable
+ in our main analysis.
+ We will look for relationship and correlation between these variables.
+ The integration of persuasive principles can be used to generate a new
+ method of detecting phishing email as one of the primary delivery techniques
  of phishing attacks.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Research Questions
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+To be able to meet the goal, we formulated main research questions as follows:
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+RQ1: What are the characteristics of reported phishing emails?
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+RQ2: How relevant are the persuasive principles to the associated phishing
+ email properties?
+\end_layout
+
+\begin_layout Standard
+To answer our research questions, several aspects of phishing email characterist
+ics and hypotheses will be established in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+chap:research-questions
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -255,7 +297,8 @@ This research project is structured as follows.
  Background and literature reviews will be discussed in chapter 2.
  Preliminary analyses will be conducted in chapter 3 along with preliminary
  methods and results.
- In chapter 4, we will explain our main research questions.
+ In chapter 4, we will explain more about our main research question and
+ hypotheses.
  In chapter 5, we will discuss our main data analysis and results.
  Lastly, in chapter 6 we will present our discussion and conclusion of the
  research project.

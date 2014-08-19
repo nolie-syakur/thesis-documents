@@ -80,9 +80,9 @@ Research Question and Hypotheses
 \end_layout
 
 \begin_layout Standard
-First off, we wanted to know the trends of phishing email properties in
- our corpus.
- The first research question mainly will be answered by descriptive analysis.
+First off, we wanted to know the characteristics of phishing email properties
+ in our corpus.
+ The first research question mainly will be answered by frequency analysis.
 \end_layout
 
 \begin_layout Standard
@@ -100,7 +100,7 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-RQ: What are the characteristics of the reported phishing emails?
+RQ1: What are the characteristics of the reported phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -145,6 +145,66 @@ The reason that are being used
 
 \begin_layout Itemize
 Cialdini's principle trends
+\end_layout
+
+\begin_layout Standard
+Secondy, we wanted to know how relevant are the persuasive principles to
+ the associated phishing eamil properties.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+RQ2: How relevant are the persuasive principles to the associated phishing
+ email properties?
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To answer the second research question, we established 16 hypotheses to
+ indicate the relationship between phishing email properties.
+ We synthesize cialdini's principles with our dataset.
+ In order to conduct synthesization, we established our decision making
+ to classify which persuasive elements that are exist in a phishing email.
+ This process will be explained in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:cialdini-decision
+\end_layout
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard

@@ -146,10 +146,14 @@ Raw data collection
 \end_layout
 
 \begin_layout Standard
-The data gathered from fraudehelpdesk.nl by my supervisor, Elmer Lastdrager
- MSc.
+The data is obtained from 
+\shape italic
+fraudehelpdesk.nl
+\shape default
  in the form of phishing emails which were reported between august 2013
  and december 2013.
+ Fraudehelpdesk is a national institution based in Netherlands that handles
+ reports on online crime and fraud including phishing.
  The data consists of 8444 suspected phishing emails in total that we categorize
 d based on the language, whether the reported phishing email is in Dutch
  or English language.
@@ -787,7 +791,9 @@ Results
 \end_layout
 
 \begin_layout Standard
-When we look at the statistics, we find that 36.2% of the reported phishing
+To answer the research question, desriptive statistics were conducted and
+ will be explained in this section.
+ When we look at the statistics, we find that 36.2% of the reported phishing
  emails have an attachment(s) included within its content, while 63.8% of
  them do not have attachment.
  In addition, we also look at what types of attachment does one has.
