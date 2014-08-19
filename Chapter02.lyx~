@@ -3926,7 +3926,7 @@ phishing + detection + machine learning
  Each of these features will be introduced briefly as follows.
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Itemize
 Lexical features
 \end_layout
 
@@ -4349,7 +4349,7 @@ key "liu,xiang:2011"
 
 \end_layout
 
-\begin_layout Enumerate-Resume
+\begin_layout Itemize
 Host based features
 \end_layout
 
@@ -4626,7 +4626,7 @@ Domain name properties: these include time to live (TTL) of DNS associated
  it is valid or not.
 \end_layout
 
-\begin_layout Enumerate-Resume
+\begin_layout Itemize
 Site popularity features
 \end_layout
 

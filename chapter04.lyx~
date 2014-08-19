@@ -76,13 +76,14 @@ name "chap:research-questions"
 
 \end_inset
 
-Research Question and Hypotheses
+Research Questions and Hypotheses
 \end_layout
 
 \begin_layout Standard
-First off, we wanted to know the trends of phishing email properties in
- our corpus.
- The first research question mainly will be answered by frequency analysis.
+This chapter addresses the explanation of our main research questions and
+ hypotheses to meet our goal.
+ First off, we wanted to know the characteristics of phishing email based
+ on structural properties in our corpus.
 \end_layout
 
 \begin_layout Standard
@@ -145,6 +146,22 @@ The reason that are being used
 
 \begin_layout Itemize
 Cialdini's principle trends
+\end_layout
+
+\begin_layout Standard
+To find out the characteristics, variable establishment of structural properties
+ will be addressed in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+sub:Variables-establishment
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard

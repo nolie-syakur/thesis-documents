@@ -82,7 +82,17 @@ Preliminary analysis
 \begin_layout Standard
 Before we go into our main analysis on phishing email dataset, we would
  like to conduct preliminary analyses on phishtank and phishload datasets.
- Basic investigation on both datasets were conducted prior 
+ Basic investigation on both datasets will be conducted as initial experiments
+ prior our main analysis to address the existence of phishing bad neighbourhood
+ and finding how many phishing webpages that maintains the 
+\begin_inset Quotes eld
+\end_inset
+
+look
+\begin_inset Quotes erd
+\end_inset
+
+ of legitimacy 
 \end_layout
 
 \begin_layout Section
@@ -161,7 +171,7 @@ Preliminay results
 
 \begin_layout Standard
 To fit the table onto the page and avoid a very huge and long table, we
- put the phishing URLs separately in 
+ put phishing URLs separately in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
