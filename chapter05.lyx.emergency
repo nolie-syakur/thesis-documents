@@ -9042,7 +9042,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="9" columns="5">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
@@ -9404,18 +9404,16 @@ N
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Pearson chi-square
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9424,12 +9422,10 @@ Pearson chi-square
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 26.216**
 \end_layout
 
@@ -9445,6 +9441,53 @@ Pearson chi-square
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pearson correlation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.356
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9565,7 +9608,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="9" columns="5">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
@@ -9577,8 +9620,6 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 ReasonType
 \end_layout
 
@@ -9597,8 +9638,6 @@ ReasonType
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Non-government
 \end_layout
 
@@ -9608,8 +9647,6 @@ Non-government
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Government
 \end_layout
 
@@ -9619,8 +9656,6 @@ Government
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 N
 \end_layout
 
@@ -9632,8 +9667,6 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Not document related
 \end_layout
 
@@ -9643,15 +9676,13 @@ Not document related
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 A
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size normal
 within document related reason
 \end_layout
 
@@ -9666,8 +9697,6 @@ within document related reason
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 95.1
 \end_layout
 
@@ -9677,8 +9706,6 @@ within document related reason
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 4.9
 \end_layout
 
@@ -9688,8 +9715,6 @@ within document related reason
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 184
 \end_layout
 
@@ -9710,15 +9735,13 @@ within document related reason
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 B
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size normal
 within government
 \end_layout
 
@@ -9733,8 +9756,6 @@ within government
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 90.7
 \end_layout
 
@@ -9744,8 +9765,6 @@ within government
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 64.3
 \end_layout
 
@@ -9766,8 +9785,6 @@ within government
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Document related
 \end_layout
 
@@ -9777,8 +9794,6 @@ Document related
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 A
 \end_layout
 
@@ -9788,8 +9803,6 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 78.3
 \end_layout
 
@@ -9799,8 +9812,6 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 21.7
 \end_layout
 
@@ -9810,8 +9821,6 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 23
 \end_layout
 
@@ -9832,8 +9841,6 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 B
 \end_layout
 
@@ -9843,8 +9850,6 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 9.3
 \end_layout
 
@@ -9854,8 +9859,6 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 35.7
 \end_layout
 
@@ -9876,8 +9879,6 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 N
 \end_layout
 
@@ -9896,8 +9897,6 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 193
 \end_layout
 
@@ -9907,8 +9906,6 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 14
 \end_layout
 
@@ -9918,8 +9915,6 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 207
 \end_layout
 
@@ -9927,18 +9922,16 @@ N
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Pearson chi-square
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9947,12 +9940,10 @@ Pearson chi-square
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 9.203**
 \end_layout
 
@@ -9968,6 +9959,53 @@ Pearson chi-square
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pearson correlation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.211
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10088,7 +10126,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="9" columns="5">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
@@ -10100,8 +10138,6 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 ReasonType
 \end_layout
 
@@ -10120,8 +10156,6 @@ ReasonType
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Does not include attachment
 \end_layout
 
@@ -10131,8 +10165,6 @@ Does not include attachment
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 includes attachment
 \end_layout
 
@@ -10142,8 +10174,6 @@ includes attachment
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 N
 \end_layout
 
@@ -10155,8 +10185,6 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Not document related
 \end_layout
 
@@ -10166,15 +10194,13 @@ Not document related
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 A
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size normal
 within document related reason
 \end_layout
 
@@ -10189,8 +10215,6 @@ within document related reason
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 69
 \end_layout
 
@@ -10200,8 +10224,6 @@ within document related reason
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 31
 \end_layout
 
@@ -10211,8 +10233,6 @@ within document related reason
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 184
 \end_layout
 
@@ -10233,15 +10253,13 @@ within document related reason
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 B
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size normal
 within attachment variable
 \end_layout
 
@@ -10256,8 +10274,6 @@ within attachment variable
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 96.2
 \end_layout
 
@@ -10267,8 +10283,6 @@ within attachment variable
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 76
 \end_layout
 
@@ -10289,8 +10303,6 @@ within attachment variable
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Document related
 \end_layout
 
@@ -10300,8 +10312,6 @@ Document related
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 A
 \end_layout
 
@@ -10311,8 +10321,6 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 21.7
 \end_layout
 
@@ -10322,8 +10330,6 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 78.3
 \end_layout
 
@@ -10333,8 +10339,6 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 23
 \end_layout
 
@@ -10355,8 +10359,6 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 B
 \end_layout
 
@@ -10366,8 +10368,6 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 3.8
 \end_layout
 
@@ -10377,8 +10377,6 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 24
 \end_layout
 
@@ -10399,8 +10397,6 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 N
 \end_layout
 
@@ -10419,8 +10415,6 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 132
 \end_layout
 
@@ -10430,8 +10424,6 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 75
 \end_layout
 
@@ -10441,8 +10433,6 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 207
 \end_layout
 
@@ -10450,18 +10440,16 @@ N
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 Pearson chi-square
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10470,12 +10458,10 @@ Pearson chi-square
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
 19.783***
 \end_layout
 
@@ -10491,6 +10477,53 @@ Pearson chi-square
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pearson correlation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.309
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
