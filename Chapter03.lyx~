@@ -92,7 +92,7 @@ look
 \begin_inset Quotes erd
 \end_inset
 
- of legitimacy 
+ of legitimacy on their target.
 \end_layout
 
 \begin_layout Section
@@ -219,7 +219,7 @@ URL ID
 \size tiny
 TLD
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -243,7 +243,7 @@ Top Level Domain
 \size tiny
 TL-IP 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -267,7 +267,7 @@ Top Level IP address
 \size tiny
 N
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
