@@ -74,6 +74,25 @@
 Data and analysis
 \end_layout
 
+\begin_layout Standard
+This chapter explain our research methodology and results in detail.
+ We begin by explain the framework of our method, that consists of steps
+ taken in order to get our results.
+ By the end of this chapter, we present the results of our analyses to answer
+ the research questions that we explained in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+chap:research-questions
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 Research Methodology
 \end_layout
@@ -747,7 +766,7 @@ Scarcity
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -799,6 +818,29 @@ fig:Flowchart-cialdini
  dataset.
 \end_layout
 
+\begin_layout Subsection
+Data entry and analyses
+\end_layout
+
+\begin_layout Standard
+In the previous section, we described the framework of our methodology in
+ some detail.
+ Until data classification, we have used Microsoft Excel to code our data.
+ To perform the analyses, we transform the data into SPSS readable file.
+ We record our data in 27 variables which could be expanded depending on
+ our analyses.
+ 
+\end_layout
+
+\begin_layout Standard
+The data has been analyzed from mainly three different viewpoints; properties
+ characteristics, persuasion principles characteristics and their relationship.
+ We have used cross-tabulations for our analysis and our findings are presented
+ in the next section in detail.
+ As we mentioned in the previous section, our data classification resulted
+ in 207 unique phishing emails.
+\end_layout
+
 \begin_layout Section
 Results
 \end_layout
@@ -810,10 +852,12 @@ To answer the first research question, frequency analyses were conducted
  emails have an attachment(s) included within its content, while 63.8% of
  them do not have attachment.
  In addition, we also look at what types of attachment does one has.
- We find that 1% have PDF attachment, 28.6% have ZIP attachment, 4.3% have
- HTML attachment and 1.9% of them we are not sure what type of attachments
- they have, but we determined that the attachment element is still there
- if the request to open attachment within its content is presence.
+ Of the total emails having attachment, we find that 4% are having PDF attachmen
+t, 78.7% are having ZIP attachment, 12% are having HTML attachment and 5.3%
+ of them are having unknown attachment.
+ We are not sure what type of attachments they have, but we determined that
+ the attachment element is still there if the request to open attachment
+ within its content is presence.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -904,9 +948,7 @@ PDF Attachment
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size footnotesize
-1.4
+4
 \end_layout
 
 \end_inset
@@ -941,7 +983,7 @@ Zip attachment
 \begin_layout Plain Layout
 
 \size footnotesize
-28.5
+78.7
 \end_layout
 
 \end_inset
@@ -976,7 +1018,7 @@ HTML attachment
 \begin_layout Plain Layout
 
 \size footnotesize
-4.3
+12
 \end_layout
 
 \end_inset
@@ -1011,7 +1053,7 @@ Unknown attachment
 \begin_layout Plain Layout
 
 \size footnotesize
-1.9
+5.3
 \end_layout
 
 \end_inset
@@ -1047,7 +1089,7 @@ Total
 \begin_layout Plain Layout
 
 \size footnotesize
-36.2
+100
 \end_layout
 
 \end_inset
@@ -1085,12 +1127,31 @@ Attachment analysis
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 When we look at the methods used in the statistics, we find that 37.2% of
  the reported phishing emails were requesting to open attachment, 52.7% requestin
 g to click URL(s), 16.9% were requesting for email reply and 4.3% were requesting
  to call by phone.
  Moreover.
- oßßne single email can request multiple methods.
+ One single email can request multiple methods.
+ 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Methods-analysis
+\end_layout
+
+\end_inset
+
+ illustrates our findings in respect of methods are used.
 \end_layout
 
 \begin_layout Standard
@@ -1317,6 +1378,13 @@ Method analysis
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 As we discussed before, we have also analyzed the content of phishing emails
  in our corpus.
  We look at whether it has URL(s), using HTML code or include image within
@@ -1325,6 +1393,18 @@ As we discussed before, we have also analyzed the content of phishing emails
  66.2% of the emails used HTML code while 33.8% do not use HTML code within
  its content.
  We find 35.3% of them includes image(s) while 64.7% do not include image.
+ 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Content-analysis
+\end_layout
+
+\end_inset
+
+ highlights our findings in respect of content analysis.
 \end_layout
 
 \begin_layout Standard
@@ -1336,7 +1416,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
+<lyxtabular version="3" rows="4" columns="3">
 <features rotate="0" booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1446,7 +1526,7 @@ utilizing HTML
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1457,7 +1537,7 @@ include Image
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1468,42 +1548,13 @@ include Image
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size small
 35.3
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-obfuscated URL
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-45.9
 \end_layout
 
 \end_inset
@@ -1537,9 +1588,10 @@ Content analysis
 \end_layout
 
 \begin_layout Standard
-We look at obfuscated URL presence in our corpus.
- We find that 45.9% of the phishing emails have obfuscated URL(s) while 54.1%
- do not have obfuscated URL.
+\begin_inset space \space{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2082,7 +2134,7 @@ Target classification pie chart
 \end_layout
 
 \begin_layout Standard
-When we look at what reasons were used in 
+When we look at what reasons are used in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -2093,9 +2145,9 @@ tab:Reason-classification
 
 \end_inset
 
-, we find that 48.8% were account related, 25% were financial reason and
- 11.1% were document related reason.
- In addition, only 9.7% were product and services reason and only 4.8% were
+, we find that 48.8% of the total emails are account related, 25% are financial
+ reason and 11.1% are document related reason.
+ In addition, only 9.7% are product and services reason and only 4.8% are
  social reason.
  
 \begin_inset Flex CT - auto cross-reference
@@ -2108,7 +2160,7 @@ fig:reason-analysis
 
 \end_inset
 
- illustrate the bar chart of reason classification.
+ illustrates the bar chart of the reason classification.
 \end_layout
 
 \begin_layout Standard
@@ -2432,12 +2484,14 @@ tab:Persuasion-principle-analysis
 
 \end_inset
 
-, we find that 96.1% of the corpus were having authority principle which
- holds the most prevalent principle followed by scarcity principle at 41.1%.
- While 21.7% of the total were having likeability principle, only 17.4% of
- them were having consistency principle.
- We find 9.7% were having reciprocation principle and 5.3% of them were having
+, we find that 96.1% of the total phishing emails are having authority principle,
+ which holds the most prevalent principle.
+ Followed by scarcity principle at 41.1%.
+ While 21.7% of the total are having likeability principle, only 17.4% of
+ them are having consistency principle.
+ We find 9.7% are having reciprocation principle and 5.3% of them are having
  social proof principle.
+ It is important to know that one email can have multiple principles.
 \end_layout
 
 \begin_layout Standard
@@ -2709,7 +2763,7 @@ Persuasion principle analysis
 
 \begin_layout Standard
 Now we know that authority principle is the dominant principle in our corpus.
- Moreover, we have presented our rationale of our hypotheses in 
+ As we discussed in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -2720,13 +2774,12 @@ chap:research-questions
 
 \end_inset
 
-.
+, we have presented the rationale behind our hypotheses and we would test
+ .
  When we look at the association between government and authority principle,
- we find that 95.9% of 193 which do not impersonate government institutions
- and have authority principle and 4.1% of them do not impersonate government
- nor having authority principle.
- We find 100% of the target which impersonate government were having authority
- principle.
+ we find that 95.9% of non government targeted emails have authority principle
+ and 4.1% of them do not impersonate government nor having authority principle.
+ We find 100% of government targeted emials are having authority principle.
  A chi-square test was performed and we find that there is no statistically
  significant association between government sector and authority principle,
  
@@ -2734,7 +2787,6 @@ chap:research-questions
 \end_inset
 
 .
- So that we reject our hypothesis 1.
 \end_layout
 
 \begin_layout Standard
@@ -3234,19 +3286,10 @@ Government and authority in %
 \end_layout
 
 \begin_layout Standard
-When we look at the relationship between phishing emails which
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-test
-\end_layout
-
-\end_inset
-
- were impersonating administrator and authority principle, we find that
- 96.7% that impersonate administrator also have authority principle and only
- 3.3% of them do not have authority principle.
+When we look at the relationship between phishing emails which were impersonatin
+g administrator and authority principle, we find that 96.7% of adminstrator
+ targeted emails are having authority principle and only 3.3% of them do
+ not have authority principle.
  A chi-square test was performed and we find that there is no significant
  relationship between adminstrator target and authority principle, 
 \family roman
@@ -3264,20 +3307,7 @@ test
 \begin_inset Formula $X^{2}(1)=0.027,p=0.870$
 \end_inset
 
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
- .
- Therefore, we reject our hypothesis 2.
+.
 \end_layout
 
 \begin_layout Standard
@@ -3798,7 +3828,6 @@ n between financial sector and scarcity principle,
 \end_inset
 
 .
- So that we reject hypothesis 3.
 \end_layout
 
 \begin_layout Standard
@@ -4319,7 +4348,6 @@ y principle,
 \end_inset
 
 .
- Thus, we reject hypothesis 4.
 \end_layout
 
 \begin_layout Standard
@@ -4841,7 +4869,6 @@ Now we look at the association between phishing emails targeting social
 \end_inset
 
 .
- Therefore, we reject hypothesis 5.
 \end_layout
 
 \begin_layout Standard
@@ -5887,7 +5914,7 @@ We look at the relationship beween likeability principle and consistency
 .
  Pearson correlation suggests a negative correlation at -0.149 that indicate
  as one variable increases, the other variable decrease.
- Therefore, we reject hypothesis 7.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -6384,6 +6411,17 @@ Likeability and consistency in %
 \end_layout
 
 \begin_layout Standard
+*p < 0.5 (significant).
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Now we move on to find out the correlation between URL presence and obfuscated
  URL in our corpus.
  Based on our result, 76% of URL(s) were obfuscated while 24% were not.
@@ -6407,7 +6445,6 @@ Now we move on to find out the correlation between URL presence and obfuscated
 .
  Moreover, pearson correlation suggests a positive correlation at 0.756.
  This indicates a strong correlation between them.
- Therefore, we could conclude that we accept hypothesis 8.
 \end_layout
 
 \begin_layout Standard
@@ -6814,7 +6851,7 @@ Pearson chi-square
 \begin_layout Plain Layout
 
 \size footnotesize
-115.191**
+115.191***
 \end_layout
 
 \end_inset
@@ -6906,6 +6943,17 @@ URL presence and obfuscated URL in %
 \end_layout
 
 \begin_layout Standard
+*** p < 0.001 (significant).
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 We look at the relationship between URL presence and the emails which were
  requesting to click URL.
  We find 87.2% of phishing emails which have URL also requested to click
@@ -6930,7 +6978,7 @@ We look at the relationship between URL presence and the emails which were
 .
  A pearson correlation suggests that they have strong positive correlation
  at 0.854.
- Thus, we could conclude to accept hypothesis 9.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -7429,6 +7477,17 @@ URL presence and Request to click URL in %
 \end_layout
 
 \begin_layout Standard
+*** p < 0.001 (significant).
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Similarly, We look at the association between the email that includes attachment
  and the emails which were requesting to open attachment.
  We find 96% of phishing emails which include attachment also requested
@@ -7453,7 +7512,7 @@ Similarly, We look at the association between the email that includes attachment
 .
  A pearson correlation suggests that they have strong positive correlation
  at 0.917.
- Thus, we could conclude to accept hypothesis 10.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -7952,6 +8011,17 @@ Include attachment and request to open attachment in %
 \end_layout
 
 \begin_layout Standard
+*** p < 0.001 (significant).
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 We look at the relationship between authority principle and the emails which
  include an image(s).
  We find 35.7% of authoritative emails have image, while 64.3% of them do
@@ -7976,7 +8046,6 @@ We look at the relationship between authority principle and the emails which
 .
  A pearson correlation suggests that they were not strongly correlated at
  0.043.
- Thus, we could conclude to reject our hypothesis 11.
 \end_layout
 
 \begin_layout Standard
@@ -8500,7 +8569,7 @@ Now we look at the association between account related reason and scarcity
 
 .
  A pearson correlation suggests that they are positively correlated at 0.541.
- Thus, we could conclude to accept hypothesis 12.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -8999,6 +9068,17 @@ Accont related reason and scarcity in %
 \end_layout
 
 \begin_layout Standard
+*** p < 0.001 (significant).
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Furthermore, we look at the relationship between account related reason
  and URL presence.
  We find 78.2% of account related phishing emails which have URL(s), while
@@ -9023,7 +9103,7 @@ Furthermore, we look at the relationship between account related reason
 .
  A pearson correlation suggests that they have a positive correlation at
  0.356.
- Therefore, we could conclude to accept hypothesis 13.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -9430,7 +9510,7 @@ Pearson chi-square
 \begin_layout Plain Layout
 
 \size footnotesize
-26.216**
+26.216***
 \end_layout
 
 \end_inset
@@ -9522,6 +9602,17 @@ Accont related reason and URL presence in %
 \end_layout
 
 \begin_layout Standard
+*** p < 0.001 (significant).
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Now we look at the relationship between document related reason and government
  sector.
  We find only 21.7% of document related reason phish emails were targeting
@@ -9546,7 +9637,7 @@ Now we look at the relationship between document related reason and government
 .
  A pearson correlation indicates that they were not strongly correlated
  at 0.211.
- Thus, we could conclude to accept hypothesis 14
+ 
 \end_layout
 
 \begin_layout Standard
@@ -10045,6 +10136,17 @@ Document related reason and government sector in %
 \end_layout
 
 \begin_layout Standard
+** p < 0.001 (significant).
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Now we look at the relationship between document related reason and attachment
  variables.
  We find 78.3% of document related reason phish emails have attachment included,
@@ -10069,7 +10171,7 @@ Now we look at the relationship between document related reason and attachment
 .
  a pearson correlation indicates that they were not strongly correlated
  at 0.309.
- Thus, we could conclude to accept hypothesis 15.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -10568,6 +10670,17 @@ Document related reason and includes attachment in %
 \end_layout
 
 \begin_layout Standard
+*** p < 0.001 (significant).
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Lastly, we look at the association between HTML usage variable and likeability
  principle.
  Based on our statistics, we find 80% of likeability phish emails were using
@@ -10592,7 +10705,6 @@ Lastly, we look at the association between HTML usage variable and likeability
 .
  A pearson correlation suggests that they are not strongly correlated at
  0.154.
- Thus, we could conclude to accept hypothesis 16.
 \end_layout
 
 \begin_layout Standard
@@ -11088,6 +11200,10 @@ use HTML and likeability in %
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+** p < 0.001 (significant).
 \end_layout
 
 \end_body

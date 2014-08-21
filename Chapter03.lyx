@@ -81,7 +81,8 @@ Preliminary analysis
 
 \begin_layout Standard
 Before we go into our main analysis on phishing email dataset, we would
- like to conduct preliminary analyses on phishtank and phishload datasets.
+ like to conduct preliminary analyses on phishtank and phishload datasets
+ to know more about phishing bad neighborhood and phishing vs original websites.
  Basic investigation on both datasets will be conducted as initial experiments
  prior our main analysis to address the existence of phishing bad neighbourhood
  and finding how many phishing webpages that maintains the 

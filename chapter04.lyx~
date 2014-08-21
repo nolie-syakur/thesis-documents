@@ -82,6 +82,8 @@ Research Questions and Hypotheses
 \begin_layout Standard
 This chapter addresses the explanation of our main research questions and
  hypotheses to meet our goal.
+ We aim answer these research questions by the data collected from fraudehelpdes
+k.nl.
  First off, we wanted to know the characteristics of phishing email based
  on structural properties in our corpus.
 \end_layout
@@ -121,7 +123,8 @@ The characteristics of the reported phishing emails includes:
 \end_layout
 
 \begin_layout Itemize
-Whether they include attachments
+How often phishing email include an attachment(s) and what specific attachment
+ is the most frequent.
 \end_layout
 
 \begin_layout Itemize
@@ -133,15 +136,11 @@ Content characteristics
 \end_layout
 
 \begin_layout Itemize
-Obfuscated URL presence
-\end_layout
-
-\begin_layout Itemize
 The most targeted institutions
 \end_layout
 
 \begin_layout Itemize
-The reason that are being used
+The reasons that are frequently being used.
 \end_layout
 
 \begin_layout Itemize
@@ -149,8 +148,8 @@ Cialdini's principle trends
 \end_layout
 
 \begin_layout Standard
-To find out the characteristics, variable establishment of structural properties
- will be addressed in 
+To find out these characteristics, variable establishment of structural
+ properties will be addressed in 
 \begin_inset Flex CT - auto cross-reference
 status open
 

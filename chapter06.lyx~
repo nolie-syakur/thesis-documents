@@ -70,7 +70,7 @@
 \begin_body
 
 \begin_layout Chapter
-Discussion
+Conclusion, limitation and suggestions for future research
 \end_layout
 
 \begin_layout Standard
@@ -79,6 +79,84 @@ In the previous chapter , we have addressed the results of our study in
  Now in this chapter, we look at how our findings answer our research questions
  and whether the findings are consistent with the hypotheses we described
  in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+chap:research-questions
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Our research was aimed to synthesize persuasive principles and characterize
+ phishing email properties.
+ We looked at what are the properties of phishing emails and how relevant
+ are the persuasive principles to its associated properties.
+ The data was obtained from fraudehelpdesk as national institution based
+ in Netherlands that handles reports on fraud including phishing.
+\end_layout
+
+\begin_layout Standard
+It was a challenging task to manually code individual phishing email to
+ fit onto our dataset.
+ Our experience tells us that any researcher who wishes to work with phishing
+ email and persuasion principles as related to human psychology, should
+ devote a lot of time in preparing adequately for the project.
+\end_layout
+
+\begin_layout Standard
+Another aspect of our research was that persuasive principle has variety
+ of strength in respect of influence depending on the individual person.
+ Thus we addressed our rationale in synthesizing persuasive principles on
+ phishing emails.
+ In addition, persuasion technique as a social engineering has been and
+ remains successful in exploiting human factor vulnerability in order to
+ influence people to have a positive response in favor of the person who
+ requested it.
+ Yet, it is almost absent from the computing literature perspective
+\begin_inset CommandInset citation
+LatexCommand cite
+key "blythe2011f"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Looking at our results on the characteristics of reported phishing emails,
+ we found that 36.2% of total phish include attachment while 63.8% of them
+ do not include attachment(s).
+ From chi-square tests result, we conclude that both ZIP attachment and
+ HTML attachment have a highly significant association when a phish email
+ includes attachment(s).
+ From the total amount of 207 unique phishing emails, we found that requesting
+ to click URL is the most prevalent method at more than half of the total
+ phish as oppose to request to call by phone at less than 5% of the total.
+ When we look at the content characteristics of the phish, most of it utilizes
+ HTML code as modern email clients are able to read HTML based content email.
+ Similarly, URL presence in our analysis also significantly higher at more
+ than half of the total phish.
+ It is notable that content variables may overlap with each other.
+ 
+\end_layout
+
+\begin_layout Standard
+When we look at the target sector statistics of phishing mails, we find
+ that financial as the most targeted sector to be impersonated by phishers
+ at 37.7% of the total phish.
+ In addition, E-commerce/retails took the second place of the most targeted
+ sector at 19.3% of the total phish.
+ This finding congruent with our expectation that phishers tend to impersonate
+ financial institutions.
+ Furthermore, when we look at the characteristic of the reasons being used
+ in phishing emails, account related reason contributes the most frequent
+ than others at 
 \end_layout
 
 \end_body
