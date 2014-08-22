@@ -2882,7 +2882,7 @@ zed to have less possibilities.
  (35%) have the possibilities of harmful instances.
  It makes 17 domains (55%) have less possibilties of bad neighborhoods.
  In conclusion, while there are some possibilities of bad neighborhood,
- there are much more legitimate domains attributed from a phishing domain
+ there are much more of legitimate domains attributed from a phishing domain
  as well.
 \end_layout
 
@@ -3209,20 +3209,9 @@ ion.init(); }</script>
 
 \begin_layout Standard
 A detailed of differences table of 20 phishing webpages vs original webpage
- will be shown in the 
+ will be shown in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
-
-\begin_layout Plain Layout
-
-sec:appendix-preliminary
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Flex CT - auto cross-reference
-status open
 
 \begin_layout Plain Layout
 

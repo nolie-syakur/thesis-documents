@@ -492,6 +492,11 @@ CounterSameContents
  contents
 \end_layout
 
+\begin_layout Enumerate
+It is noteworthy that apart from cialdini's principles, they are generic
+ properties or features of a phishing email.
+\end_layout
+
 \begin_layout Subsection
 Data Classification
 \end_layout
@@ -5896,8 +5901,8 @@ Authority and scarcity in %
 \begin_layout Standard
 We look at the relationship beween likeability principle and consistency
  principle.
- Based on our result, we find that 6.7% of likeability emails have consistency
- principle while 93.3% of them do not have consistency principle.
+ Based on our result, we find that only 6.7% of likeability emails have consisten
+cy principle while 93.3% of them do not have consistency principle.
  In addition, we find that 20.4% of non likeability emails have consistency
  principle while 79.6% of them do not have likeability principle.
  A chi-square test suggests that there is a significant relationship between
@@ -5923,7 +5928,7 @@ We look at the relationship beween likeability principle and consistency
  This suggests, that higher likeability principle, the less chance of consistenc
 y principle in a phishing email.
  Although there is an association between these principle, however, it does
- not support our hypothesis 7.
+ not support hypothesis 7.
 \end_layout
 
 \begin_layout Standard

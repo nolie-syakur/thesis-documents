@@ -147,6 +147,10 @@ The reasons that are frequently being used
 Persuasion principles characteristics
 \end_layout
 
+\begin_layout Itemize
+Relationship between generic properties
+\end_layout
+
 \begin_layout Standard
 To find out these characteristics, variable establishment of structural
  properties will be addressed in 
@@ -186,7 +190,7 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-RQ2: How relevant are the persuasive principles to the associated phishing
+RQ2: How relevant are the persuasive principles to the generic phishing
  email properties?
 \end_layout
 
@@ -203,8 +207,10 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-To answer the second research question, we established 16 hypotheses to
- indicate the relationship between phishing email properties.
+We established 16 hypotheses to indicate the relationship between generic
+ properties and relevancy of persuasive principle to these properties.
+ H8, H9, H10, H13, H14, H15 will partly answer RQ1 in respect to the relationshi
+p between generic properties and the rest will answer RQ2.
  We synthesize cialdini's principles with our dataset.
  In order to conduct synthesization, we established our decision making
  to classify which persuasive elements that are exist in a phishing email.
@@ -823,13 +829,13 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-Similar from the hypothesis H14, it is sensible if a phishing email which
+Similar from the hypothesis H12, it is sensible if a phishing email which
  contains account related reason such as reset password or security update,
  may tend to have a URL for the potential victim to be redirected towards
  phisher's bogus website or malware.
  Regardless of the target, based on our initial coding of the dataset we
- found that account related phishing emails need immediate action greater
- than other reasons.
+ found that account related reason in a phishing email needs an immediate
+ action greater than other reasons.
  Therefore, phishers may likely to include a URL to have immediate response
  from the potential victim.
  This leads to our hypothesis that say
@@ -889,8 +895,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H14: Phishing emails which have document related reason will likely targeting
- government sector
+H14: Phishing emails which targeting government sector will likely to have
+ document related reason 
 \end_layout
 
 \begin_layout Standard

@@ -70,7 +70,7 @@
 \begin_body
 
 \begin_layout Chapter
-Appendix Test
+Preliminary analyses appendix
 \end_layout
 
 \begin_layout Section
@@ -80,7 +80,7 @@ name "sec:appendix-preliminary"
 
 \end_inset
 
-Appendix preliminary analysis
+Phishing URLs from Phishtank
 \end_layout
 
 \begin_layout Standard
@@ -3387,35 +3387,36 @@ Irregular script
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<script type="text/javascript"> if (parent.frames.length &gt; 0) {top.location.repla
-ce(document.location); }</script> 
+- <script type="text/javascript"> if (parent.frames.length &gt; 0) {top.location.rep
+lace(document.location); }</script> 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-Script that hides from javascript challenge browsers 
+- Script that hides from javascript challenge browsers 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-<script type="text/javascript">PAYPAL.common.loginflow = 'p/gen/login'; 
+- <script type="text/javascript">PAYPAL.common.loginflow = 'p/gen/login';
+ 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-s.prop1="p/gen/login"; 
+- s.prop1="p/gen/login"; 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 
 \size scriptsize
-function scOnload is removed 
+- function scOnload is removed 
 \end_layout
 
 \end_inset

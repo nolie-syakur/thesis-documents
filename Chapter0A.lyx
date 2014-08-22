@@ -70,7 +70,7 @@
 \begin_body
 
 \begin_layout Chapter
-Appendix Test
+Preliminary analyses appendix
 \end_layout
 
 \begin_layout Section
@@ -80,7 +80,7 @@ name "sec:appendix-preliminary"
 
 \end_inset
 
-Appendix preliminary analysis
+Phishing URLs from Phishtank
 \end_layout
 
 \begin_layout Standard
@@ -1245,6 +1245,10 @@ Phistank URL list
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+HTML code analysis of phishing vs original in phishload
 \end_layout
 
 \begin_layout Standard
@@ -3735,10 +3739,6 @@ Differences phishing webpage vs legitimate website; target: PayPal
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Another Appendix Section Test
 \end_layout
 
 \end_body
