@@ -25,7 +25,7 @@ EndPreamble
 
 # predefined class options (the class is scrreprt from KOMA Script), all can be overridden
 ClassOptions
-  Other		"fontsize=11pt,paper=a4,oneside,openright,titlepage,numbers=noenddot,headinclude,BCOR=5mm,footinclude=true,cleardoublepage=empty"
+  Other		"fontsize=11pt,paper=a4,twoside,openright,titlepage,numbers=noenddot,headinclude,BCOR=5mm,footinclude=true,cleardoublepage=empty"
   PageStyle	""
   FontSize	""
 End

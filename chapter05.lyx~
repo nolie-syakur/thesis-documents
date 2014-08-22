@@ -1416,7 +1416,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
+<lyxtabular version="3" rows="4" columns="3">
 <features rotate="0" booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1526,7 +1526,7 @@ utilizing HTML
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1537,7 +1537,7 @@ include Image
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1548,42 +1548,13 @@ include Image
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size small
 35.3
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-obfuscated URL
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-45.9
 \end_layout
 
 \end_inset
@@ -2501,7 +2472,8 @@ Reason classification bar chart
 \end_layout
 
 \begin_layout Standard
-We look at the result of cialdini's principle synthesis with our corpus.
+We look at the result of persuasion theory synthesis based on Cialdini's
+ principles with our corpus.
  As we can see from 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -2806,16 +2778,16 @@ chap:research-questions
 , we have presented the rationale behind our hypotheses and we would test
  .
  When we look at the association between government and authority principle,
- we find that 95.9% of non government targeted emails have authority principle
+ we find that 95.9% of non-government targeted emails have authority principle
  and 4.1% of them do not impersonate government nor having authority principle.
- We find 100% of government targeted emials are having authority principle.
- A chi-square test was performed and we find that there is no statistically
- significant association between government sector and authority principle,
- 
+ We find 100% of government targeted emails are having authority principle.
+ A chi-square test was performed and we find that there is no significant
+ association between government sector and authority principle, 
 \begin_inset Formula $X^{2}(1)=0.604,p=0.473$
 \end_inset
 
 .
+ since p is not less than 0.05, thus we reject hypothesis 1.
 \end_layout
 
 \begin_layout Standard
@@ -3337,6 +3309,8 @@ g administrator and authority principle, we find that 96.7% of adminstrator
 \end_inset
 
 .
+ Since p is not less than 0.05, therefore we reject hypothesis 2.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -3857,6 +3831,7 @@ n between financial sector and scarcity principle,
 \end_inset
 
 .
+ Since p is not less than 0.05, thus, we reject hypothesis 3.
 \end_layout
 
 \begin_layout Standard
@@ -4377,6 +4352,7 @@ y principle,
 \end_inset
 
 .
+ Since p is not less than 0.05, therefore we reject hypothesis 4.
 \end_layout
 
 \begin_layout Standard
@@ -4898,6 +4874,7 @@ Now we look at the association between phishing emails targeting social
 \end_inset
 
 .
+ Therefore since p is not less than 0.05, we reject hypothesis 5.
 \end_layout
 
 \begin_layout Standard
@@ -5921,8 +5898,8 @@ We look at the relationship beween likeability principle and consistency
  principle.
  Based on our result, we find that 6.7% of likeability emails have consistency
  principle while 93.3% of them do not have consistency principle.
- In addition, we find that 91.7% of consistency emails do not have likeability
- principle while 8.3% of them have likeability principle.
+ In addition, we find that 20.4% of non likeability emails have consistency
+ principle while 79.6% of them do not have likeability principle.
  A chi-square test suggests that there is a significant relationship between
  likeability principle and consistency principle 
 \family roman
@@ -5943,7 +5920,10 @@ We look at the relationship beween likeability principle and consistency
 .
  Pearson correlation suggests a negative correlation at -0.149 that indicate
  as one variable increases, the other variable decrease.
- 
+ This suggests, that higher likeability principle, the less chance of consistenc
+y principle in a phishing email.
+ Although there is an association between these principle, however, it does
+ not support our hypothesis 7.
 \end_layout
 
 \begin_layout Standard
@@ -6440,7 +6420,7 @@ Likeability and consistency in %
 \end_layout
 
 \begin_layout Standard
-*p < 0.5 (significant).
+*p < 0.05 (significant).
 \end_layout
 
 \begin_layout Standard
@@ -6454,8 +6434,8 @@ Likeability and consistency in %
 Now we move on to find out the correlation between URL presence and obfuscated
  URL in our corpus.
  Based on our result, 76% of URL(s) were obfuscated while 24% were not.
- A chi-square test suggest that there is a significant association between
- URL presence and obfuscated URL, 
+ A chi-square test suggest that there is a highly significant association
+ between URL presence and obfuscated URL, 
 \family roman
 \series medium
 \shape up
@@ -6474,6 +6454,7 @@ Now we move on to find out the correlation between URL presence and obfuscated
 .
  Moreover, pearson correlation suggests a positive correlation at 0.756.
  This indicates a strong correlation between them.
+ Therefore, we accept hypothesis 8.
 \end_layout
 
 \begin_layout Standard
@@ -6987,8 +6968,8 @@ We look at the relationship between URL presence and the emails which were
  requesting to click URL.
  We find 87.2% of phishing emails which have URL also requested to click
  it, while only 12.8% do not request to click.
- A chi-square test were performed and suggests that there is a significant
- relationship between URL presence and request to click URL, 
+ A chi-square test were performed and suggests that there is a highly significan
+t relationship between URL presence and request to click URL, 
 \family roman
 \series medium
 \shape up
@@ -7007,7 +6988,7 @@ We look at the relationship between URL presence and the emails which were
 .
  A pearson correlation suggests that they have strong positive correlation
  at 0.854.
- 
+ Thus, this data support hypothesis 9.
 \end_layout
 
 \begin_layout Standard
@@ -7414,7 +7395,7 @@ Pearson chi-square
 \begin_layout Plain Layout
 
 \size footnotesize
-151.034**
+151.034***
 \end_layout
 
 \end_inset
@@ -7541,7 +7522,7 @@ Similarly, We look at the association between the email that includes attachment
 .
  A pearson correlation suggests that they have strong positive correlation
  at 0.917.
- 
+ Therefore, we accept hypothesis 10.
 \end_layout
 
 \begin_layout Standard
@@ -7948,7 +7929,7 @@ Pearson chi-square
 \begin_layout Plain Layout
 
 \size footnotesize
-174.079**
+174.079***
 \end_layout
 
 \end_inset
@@ -8073,8 +8054,9 @@ We look at the relationship between authority principle and the emails which
 \end_inset
 
 .
- A pearson correlation suggests that they were not strongly correlated at
- 0.043.
+ A pearson correlation also suggests that they were not strongly correlated
+ at 0.043.
+ Thus, this data rejects hypothesis 11.
 \end_layout
 
 \begin_layout Standard
@@ -8598,7 +8580,7 @@ Now we look at the association between account related reason and scarcity
 
 .
  A pearson correlation suggests that they are positively correlated at 0.541.
- 
+ Therefore, we accept hypothesis 12.
 \end_layout
 
 \begin_layout Standard
@@ -9005,7 +8987,7 @@ Pearson chi-square
 \begin_layout Plain Layout
 
 \size footnotesize
-60.535**
+60.535***
 \end_layout
 
 \end_inset
@@ -9132,7 +9114,7 @@ Furthermore, we look at the relationship between account related reason
 .
  A pearson correlation suggests that they have a positive correlation at
  0.356.
- 
+ Therefore, we accept hypothesis 13.
 \end_layout
 
 \begin_layout Standard
@@ -9646,8 +9628,8 @@ Now we look at the relationship between document related reason and government
  sector.
  We find only 21.7% of document related reason phish emails were targeting
  government, while 78.3% of them were not targeting government.However, A
- chi-square test suggests that there is a significant relationship between
- these variables, 
+ chi-square test suggests that there is a highly significant relationship
+ between these variables, 
 \family roman
 \series medium
 \shape up
@@ -9666,7 +9648,7 @@ Now we look at the relationship between document related reason and government
 .
  A pearson correlation indicates that they were not strongly correlated
  at 0.211.
- 
+ Therefore, we accept hypothesis 14.
 \end_layout
 
 \begin_layout Standard
@@ -10165,7 +10147,7 @@ Document related reason and government sector in %
 \end_layout
 
 \begin_layout Standard
-** p < 0.001 (significant).
+** p < 0.01 (significant).
 \end_layout
 
 \begin_layout Standard
@@ -10200,7 +10182,7 @@ Now we look at the relationship between document related reason and attachment
 .
  a pearson correlation indicates that they were not strongly correlated
  at 0.309.
- 
+ Thus, this data support hypothesis 15.
 \end_layout
 
 \begin_layout Standard
@@ -10734,6 +10716,7 @@ Lastly, we look at the association between HTML usage variable and likeability
 .
  A pearson correlation suggests that they are not strongly correlated at
  0.154.
+ Therefore, we accept hypothesis 16.
 \end_layout
 
 \begin_layout Standard
@@ -11140,7 +11123,7 @@ Pearson chi-square
 \begin_layout Plain Layout
 
 \size footnotesize
-4.904**
+4.904*
 \end_layout
 
 \end_inset
@@ -11232,7 +11215,7 @@ use HTML and likeability in %
 \end_layout
 
 \begin_layout Standard
-** p < 0.001 (significant).
+* p < 0.05 (significant).
 \end_layout
 
 \end_body

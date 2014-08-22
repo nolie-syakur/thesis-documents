@@ -82,7 +82,7 @@ begin{titlepage}
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 begin{addmargin}[-10mm]{-30mm}  %%%%% symmetrical margins
 \end_layout
@@ -239,6 +239,10 @@ status open
 mySupervisor
 \end_layout
 
+\end_inset
+
+
+\begin_inset Newline newline
 \end_inset
 
 

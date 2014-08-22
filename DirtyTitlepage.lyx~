@@ -98,14 +98,14 @@ thispagestyle{empty}
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 begin{addmargin}[-10mm]{-30mm}  %%%%% symmetrical margins
 \end_layout
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 thiswatermark{				
 \end_layout
@@ -117,7 +117,7 @@ thiswatermark{
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 put(-170,-760){
 \backslash

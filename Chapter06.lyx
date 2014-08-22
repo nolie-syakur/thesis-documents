@@ -70,7 +70,7 @@
 \begin_body
 
 \begin_layout Chapter
-Conclusion, limitation and suggestions for future research
+Discussion & Conclusion
 \end_layout
 
 \begin_layout Standard
@@ -93,9 +93,21 @@ chap:research-questions
 \end_layout
 
 \begin_layout Standard
+Before we conclude our main analyses, we would like to conclude our preliminary
+ investigation on phishing bad neighborhood and the differences between
+ phishing vs original.
+ Our data suggests that there are some possibilities of phishing bad neighborhoo
+d (10% hacked, 35% higher possibilities, 55% less possibilies), there are
+ much more legitimate domains that are exist.
+ When we look at phishing vs original analysis, it suggests 87% of the total
+ HTML codes are maintaining the appearance closer as the target while 12.5%
+ are completely different with its target.
+\end_layout
+
+\begin_layout Standard
 Our research was aimed to synthesize persuasive principles and characterize
  phishing email properties.
- We looked at what are the properties of phishing emails and how relevant
+ We looked at what are the properties of phishing email and how relevant
  are the persuasive principles to its associated properties.
  The data was obtained from fraudehelpdesk as national institution based
  in Netherlands that handles reports on fraud including phishing.
@@ -104,16 +116,16 @@ Our research was aimed to synthesize persuasive principles and characterize
 \begin_layout Standard
 It was a challenging task to manually code individual phishing email to
  fit onto our dataset.
- Our experience tells us that any researcher who wishes to work with phishing
- email and persuasion principles as related to human psychology, should
- devote a lot of time in preparing adequately for the project.
+ Our experience tells us that any researcher who wishes to work related
+ with phishing email and persuasion principles as related to human psychology,
+ should devote a lot of time in preparing adequately for the project.
 \end_layout
 
 \begin_layout Standard
 Another aspect of our research was that persuasive principle has variety
  of strength in respect of influence depending on the individual person.
- Thus we addressed our rationale in synthesizing persuasive principles on
- phishing emails.
+ Thus we have addressed our rationale in synthesizing persuasive principles
+ on phishing emails.
  In addition, persuasion technique as a social engineering has been and
  remains successful in exploiting human factor vulnerability in order to
  influence people to have a positive response in favor of the person who
@@ -155,8 +167,54 @@ When we look at the target sector statistics of phishing mails, we find
  This finding congruent with our expectation that phishers tend to impersonate
  financial institutions.
  Furthermore, when we look at the characteristic of the reasons being used
- in phishing emails, account related reason contributes the most frequent
+ in phishing emails, account related contributes the most frequent reason
  than others at 48.8% of the total phish.
+ When we look at the persuasion principles, the analysis suggests that authority
+ principle contributes the most prevalent principle at 96.1% followed by
+ scarcity principle at 41% of the total phish.
+ On the other hand, social proof and reciprocation contributes less prevalent
+ principles.
+ 
+\end_layout
+
+\begin_layout Standard
+When we look at how relevant are the persuasive principles to these properties,
+ we find that 100% government targeted emails are having authority principle
+ and 95.9% of non government targeted email are also having authority principle.
+ Our data suggests that there is no significant association between government
+ targeted email and authority principle.
+ Similarly, administrator and non administrator targeted emails are both
+ high in respect to authority principle.
+ This indicates that authority is indeed a dominating principle and have
+ higher chance to be the main technique of a phishing email.
+ When we look at financial targeted sector and scarcity principle, we find
+ that both financial and non financial targeted emails are less chance to
+ have scarcity principle.
+ Apart from our hypothesis related to financial sector and scarcity principle,
+ if we look deeper, administrator targeted emails are likely to have scarcity
+ principle.
+ In contrary, non administrator targeted emails are less likely to have
+ scarcity principle.
+ Our next finding for relationship between e-commerce/retails targeted emails
+ indicates that this sector contributes less number of scarcity principle
+ as both e-commerce/retails and non-ecommerce/retails targeted emails have
+ high number of non-scarcity principle.
+ Similarly, our data suggests that there are no significant association
+ between social media targeted emails and social proof principle.
+\end_layout
+
+\begin_layout Standard
+Another observation on authority and scarcity principle suggests that there
+ is no significant association between them, as both authoritative and non-autho
+ritative emails contribute less percentage on scarcity principle.
+ We also observe whether likeability and consistency have a relationship,
+ our data suggests that there is a significant association between them.
+ Our result signify that the higher likebility, the lower chance to have
+ consistency principle.
+\end_layout
+
+\begin_layout Standard
+Overall, we can conclude 
 \end_layout
 
 \end_body
