@@ -108,29 +108,7 @@ pdfbookmark[1]{Dedication}{Dedication}
 
 \begin_layout Standard
 \align center
-
-\shape italic
-\emph on
-Appear weak when you are strong, and strong when you are weak.
-\shape default
-\emph default
-
-\begin_inset VSpace medskip
-\end_inset
-
---- Sun Tzu, The Art of War
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-There is nothing more deceptive than an obvious fact.
+The life of this world is only the enjoyment of deception.
 \begin_inset Newline newline
 \end_inset
 
@@ -138,7 +116,7 @@ There is nothing more deceptive than an obvious fact.
 \begin_inset VSpace smallskip
 \end_inset
 
---- Arthur Conan Doyle, The Boscombe Valley Mystery 
+--- Quran 3:185 
 \end_layout
 
 \end_body

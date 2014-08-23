@@ -111,14 +111,18 @@ pdfbookmark[1]{Dedication}{Dedication}
 
 \shape italic
 \emph on
-Appear weak when you are strong, and strong when you are weak.
+The art of pleasing is the art of deception.
+\begin_inset Newline newline
+\end_inset
+
+
 \shape default
 \emph default
 
 \begin_inset VSpace medskip
 \end_inset
 
---- Sun Tzu, The Art of War
+--- Luc de Clapiers
 \end_layout
 
 \begin_layout Standard
@@ -130,7 +134,7 @@ Appear weak when you are strong, and strong when you are weak.
 
 \begin_layout Standard
 \align center
-Dedicated to the loving memory of Rudolf Miede.
+There is nothing more deceptive than an obvious fact.
 \begin_inset Newline newline
 \end_inset
 
@@ -138,15 +142,7 @@ Dedicated to the loving memory of Rudolf Miede.
 \begin_inset VSpace smallskip
 \end_inset
 
-1939
-\begin_inset space \thinspace{}
-\end_inset
-
---
-\begin_inset space \thinspace{}
-\end_inset
-
-2005 
+--- Arthur Conan Doyle, The Boscombe Valley Mystery 
 \end_layout
 
 \end_body
