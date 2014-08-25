@@ -189,6 +189,8 @@ To make phishing email efficient, its context might require potential victim
  Phishing attacks are carried out using fake emails, fake websites and often
  phishers may exploit the end user’s web browser to bypass warnings and
  URL information.
+ In order to gain trust from receipent in a phishing email, persuasion technique
+s are used to get a positive response from unsuspecting victim.
  Several countermeasures have been studied to detect phishing emails, such
  as the technique of looking for bit string that are previously determined
  as spams and phishing emails 
@@ -219,7 +221,12 @@ key "sheng:2010"
 \end_inset
 
 .
- 
+ However, current countermeasures within a phishing email so far do not
+ consider psychoanalytic approach such as persuasion techniques, which it
+ might be important for user decision.
+ Thus, characterization and the relevancy of phishing email properties are
+ needed, as well as the relevancy of persuasion techniques with these structural
+ properties.
 \end_layout
 
 \begin_layout Section
@@ -231,15 +238,16 @@ Research goal
 \begin_layout Standard
 
 \lang english
-The main goal of this research is to synthesize persuasive principle and
- characterize phishing email properties.
+The main goal of this research is characterization of phishing email properties
+ by finding the association between generic properties and between persuasive
+ principles with generic properties.
  These properties can be divided into several parts.
- Each of these parts and persuasive principle will be introduced as a variable
- in our main analysis.
- We will look for relationship and correlation between these variables.
- The integration of persuasive principles can be used to generate a new
- method of detecting phishing email as one of the primary delivery techniques
- of phishing attacks.
+ Each of these parts and each of the persuasive principle will be introduced
+ as a variable in our main analysis.
+ We will look for relationship between these variables.
+ This relationship can be used to show the characteristics and the relevancy
+ of phishing email properties considering the persuasive elements within
+ its content.
 \end_layout
 
 \begin_layout Section

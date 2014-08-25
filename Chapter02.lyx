@@ -77,6 +77,19 @@ Background & Literature review
 \end_layout
 
 \begin_layout Standard
+In order to meet our goal, necessary knowledge on phishing in general is
+ required.
+ This chapter introduces an understanding of phishing, an exploration of
+ its cost, an overview of human factor in phishing, the overview of its
+ modus operandi, a brief review on types of phishing, an understanding of
+ bad neighborhoods on phishing and its general current countermeasures.
+\end_layout
+
+\begin_layout Section
+What is phishing?
+\end_layout
+
+\begin_layout Standard
 While the Internet has brought convenience to many people for exchanging
  information, it also provides opportunities to carry malicious behavior
  such as online fraud on massive scale with a little cost to the attackers.
@@ -84,7 +97,8 @@ While the Internet has brought convenience to many people for exchanging
  (hardware or software) that significantly increase the barriers of technologica
 l crime impact.
  Such human centered attacks could be done by social engineering.
- Phishing is a form of social engineering that aim
+ Acoording to Jakobsson, et al.
+ phishing is a form of social engineering that aim
 \size small
 s
 \size default
@@ -97,23 +111,7 @@ key "jakobsson:2006"
 \end_inset
 
 .
- These fraudulent attacks are most frequently done by electronic communication
- such as emails to direct users to fake websites and prompt for sensitive
- information.
-\end_layout
-
-\begin_layout Standard
-This chapter provides an overview to phishing modus operandi and its current
- countermeasures such as detection and prevention techniques along with
- a brief exploration of direct and indirect cost of phishing attacks.
-\end_layout
-
-\begin_layout Section
-What is phishing?
-\end_layout
-
-\begin_layout Standard
-Phishing has a similar basic principle as ‘fishing’ in the physical world.
+ Phishing has a similar basic principle as ‘fishing’ in the physical world.
  Instead of fish, online users are lured by authentic looking communication
  and hooked by authentic looking websites.
  Not only that, online users also may be lured by respond to a phishing
@@ -2708,21 +2706,10 @@ key "cialdini:2001"
 
 \end_inset
 
-, we will only briefly discuss phishing countermeasures at 
-\shape italic
-restriction list
-\shape default
+, we will briefly discuss phishing countermeasures such as restriction list
  group (i.e.
- Phishtank), 
-\shape italic
-email level
-\shape default
- (i.e.
- machine learning) and 
-\shape italic
-anti phishing training
-\shape default
- group (i.e PhishGuru).
+ Phishtank), machine learning approach (web-based phishing), feature selection
+ in a phishing email, and anti phishing training group (i.e PhishGuru).
  
 \end_layout
 
@@ -3866,7 +3853,7 @@ key "moore:2008"
 \end_layout
 
 \begin_layout Subsubsection
-Machine learning approach
+Machine learning approach in detecting spoofed website
 \end_layout
 
 \begin_layout Standard
@@ -4871,6 +4858,88 @@ key "liu"
 
 .
  
+\end_layout
+
+\begin_layout Subsubsection
+Stop phishing at email level
+\end_layout
+
+\begin_layout Standard
+In order to stop phishing at email level, phishing email properties or features
+ should be investigated.
+ Chandrasekaran, et al.
+ and Drake, et al 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chandrasekaran:2006,drake2004anatomy"
+
+\end_inset
+
+ specify the structure of phishing emails properties as follows:
+\end_layout
+
+\begin_layout Enumerate
+Spoofing of online banks and retailers.
+ Impersonation of legitimate institutions may created in the email level.
+ Phishers may design a fake email to resemble the reputable company to gain
+ users trust.
+\end_layout
+
+\begin_layout Enumerate
+Link in the text is different from the destination.
+ A link(s) contained in the email message usually appear to different than
+ the actual link destination.
+ This method used to trick users to believe that the email is legitimate.
+\end_layout
+
+\begin_layout Enumerate
+Using IP addresses instead of URLs.
+ Sometimes phishers may hide the link in the message by presenting it as
+ IP address instead of URL.
+\end_layout
+
+\begin_layout Enumerate
+Generalization in addressing receipents.
+ As phishing emails are distributed by large number of recipients, the email
+ often is not personalized, unlike the legitimate email that address its
+ recipient by personalized information such as the last four digits of account
+ information.
+\end_layout
+
+\begin_layout Enumerate
+Usage of well-defined situational contexts to lure victims.
+ Situational contexts such as false urgency and threat are a common method
+ to influence the decision making of the recipients.
+\end_layout
+
+\begin_layout Standard
+Moreover, Ma, et al.
+ experimented with seven properties to consider in a phishing emails consist
+ of the toal number of links, total numbers of invisible links, whether
+ the link that appears in the message is different than the actual destination,
+ the existence of forms, whether scripts exist within an email, total appearance
+ of blacklisted words in the body and the total appearance of blacklisted
+ words in the subject 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ma2009detecting"
+
+\end_inset
+
+.
+ Based on this survey, we established phishing email properties as variables
+ in order to classify our data in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+sub:Variables-establishment
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
