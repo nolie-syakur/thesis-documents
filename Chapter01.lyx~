@@ -85,17 +85,16 @@ With the enormous growing trends of information technology in modern generation,
 ss and easiness for societies.
  Trusted entities such as financial institutions may offer their products
  and services to the public through the Internet.
- Consequently, societies are hoping to utilize technology advancement such
- as emails, websites, online payment system, social networks to achieve
- their tasks efficiently, affordable and more relevant.
+ Consequently, human society has been enthusiastically eager to utilize
+ technology means such as emails, websites, online payment system, social
+ networks to achieve their tasks efficiently, affordable and more relevant.
  However, the advancement in information and communication technology has
  been a double-edged sword.
  It becomes easier to get personal information about someone in the cyber
  world.
  Cyber criminals see this opportunity as a way to manipulate consumers and
  exploit their confidential information such as usernames, passwords, bank
- account information, credit card or social security numbers.
- 
+ account information, credit card or social security numbers
 \end_layout
 
 \begin_layout Standard
@@ -245,10 +244,9 @@ The main goal of this research is characterization of phishing email properties
  Each of these parts and each of the persuasive principle will be introduced
  as a variable in our main analysis.
  We will look for relationship between these variables.
- This relationship can be used to show the characteristics and how relevant
- The integration of persuasive principles can be used to generate a new
- method of detecting phishing email as one of the primary delivery techniques
- of phishing attacks.
+ This relationship can be used to show the characteristics and the relevancy
+ of phishing email properties considering the persuasive elements within
+ its content.
 \end_layout
 
 \begin_layout Section
@@ -303,10 +301,9 @@ Structures
 
 \lang english
 This research project is structured as follows.
- Problem statement and research goal has been explained in chapter 1.
  Background and literature reviews will be discussed in chapter 2.
- Preliminary analyses will be conducted in chapter 3 along with preliminary
- methods and results.
+ Preliminary analyses with methods and results will be conducted in chapter
+ 3.
  In chapter 4, we will explain more about our main research questions and
  hypotheses.
  In chapter 5, we will discuss our main data analysis and results.

@@ -71,6 +71,12 @@
 \begin_body
 
 \begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Data-and-analysis"
+
+\end_inset
+
 Data and analysis
 \end_layout
 
@@ -839,7 +845,7 @@ In the previous section, we described the framework of our methodology in
 
 \begin_layout Standard
 The data has been analyzed from mainly three different viewpoints; properties
- characteristics, persuasion principles characteristics and their relationship.
+ characteristics, persuasion principles characteristics and their relationships.
  We have used cross-tabulations for our analysis and our findings are presented
  in the next section in detail.
  As we mentioned in the previous section, our data classification resulted

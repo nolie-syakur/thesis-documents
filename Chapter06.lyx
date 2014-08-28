@@ -97,8 +97,8 @@ Before we conclude our main analyses, we would like to mention the bottom
  line of our preliminary investigation on phishing bad neighborhood and
  the differences between phishing vs original.
  Our data suggests that there are some possibilities of phishing bad neighborhoo
-d (10% hacked, 35% higher possibilities, 55% less possibilies), there are
- much more legitimate domains that are exist.
+d (10% hacked, 35% higher possibilities, 55% less possibilities), there
+ are much more legitimate domains that are exist.
  When we look at phishing vs original analysis, it suggests 87% of the total
  HTML codes are maintaining the appearance closer as the target while 12.5%
  are completely different with its target.
@@ -189,7 +189,7 @@ Looking at our results, we conclude that when URL(s) is present in a phishing
  highly significant relationship between these two properties.
  It means that when a phishing email is about account related reason, there
  is a higher chance that it includes URL(s).
- In addition of the relationship between generic properties, our analsys
+ In addition of the relationship between generic properties, our analyses
  suggests that when a phishing mail which targeting government, will likely
  to have document related reason.
  Similarly, when a phishing email has document related reason, it will likely
@@ -239,7 +239,7 @@ Another observation on authority and scarcity principle suggests that there
 ritative emails contribute less percentage on scarcity principle.
  We have also observed whether likeability and consistency have a relationship,
  our data suggests that there is a significant association between them.
- Our result signifies that the higher likebility, the lower chance to have
+ Our result signifies that the higher likeability, the lower chance to have
  consistency principle.
 \end_layout
 

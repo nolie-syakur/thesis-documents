@@ -85,17 +85,16 @@ With the enormous growing trends of information technology in modern generation,
 ss and easiness for societies.
  Trusted entities such as financial institutions may offer their products
  and services to the public through the Internet.
- Consequently, societies are hoping to utilize technology advancement such
- as emails, websites, online payment system, social networks to achieve
- their tasks efficiently, affordable and more relevant.
+ Consequently, human society has been enthusiastically eager to utilize
+ technology means such as emails, websites, online payment system, social
+ networks to achieve their tasks efficiently, affordable and more relevant.
  However, the advancement in information and communication technology has
  been a double-edged sword.
  It becomes easier to get personal information about someone in the cyber
  world.
  Cyber criminals see this opportunity as a way to manipulate consumers and
  exploit their confidential information such as usernames, passwords, bank
- account information, credit card or social security numbers.
- 
+ account information, credit card or social security numbers
 \end_layout
 
 \begin_layout Standard
@@ -161,7 +160,7 @@ key "jagatic2007social"
  their sensitive information to the perpetrators.
  More concrete mechanism to carry out phishing attacks is that when the
  phishers send a large number of phishing emails which include malicious
- link or URL which redirect recepient to a fake website.
+ link or URL which redirect recipient to a fake website.
  A phishing email might be resembling a legitimate email so that unsuspecting
  victim might think that it is a genuine.
  By looking like a genuine email, it would help to circumvent the filtering
@@ -189,7 +188,7 @@ To make phishing email efficient, its context might require potential victim
  Phishing attacks are carried out using fake emails, fake websites and often
  phishers may exploit the end user’s web browser to bypass warnings and
  URL information.
- In order to gain trust from receipent in a phishing email, persuasion technique
+ In order to gain trust from recipient in a phishing email, persuasion technique
 s are used to get a positive response from unsuspecting victim.
  Several countermeasures have been studied to detect phishing emails, such
  as the technique of looking for bit string that are previously determined
@@ -302,10 +301,9 @@ Structures
 
 \lang english
 This research project is structured as follows.
- Problem statement and research goal has been explained in chapter 1.
  Background and literature reviews will be discussed in chapter 2.
- Preliminary analyses will be conducted in chapter 3 along with preliminary
- methods and results.
+ Preliminary analyses with methods and results will be conducted in chapter
+ 3.
  In chapter 4, we will explain more about our main research questions and
  hypotheses.
  In chapter 5, we will discuss our main data analysis and results.

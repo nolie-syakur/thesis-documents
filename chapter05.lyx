@@ -121,7 +121,7 @@ fig:rm-diagram
  Next, we performed our data categorization and we divided it into three
  categorization tasks.
  The next step, we determined what variables are needed for our analysis.
- Next step, we excecuted our data classification into these variables, so
+ Next step, we executed our data classification into these variables, so
  that we could reconstruct into SPSS readable dataset.
  Lastly, we conducted our SPSS analysis to answer our hypotheses.
 \end_layout
@@ -509,7 +509,7 @@ Data Classification
 
 \begin_layout Standard
 We classified our data accordingly into our variables.
- As a result, usable dataset has been made to be statistically analysed.
+ As a result, usable dataset has been made to be statistically analyzed.
  Data classification is conducted in a straightforward way.
  For example if phishing email has a PDF attachment, we put 
 \begin_inset Quotes eld
@@ -845,7 +845,7 @@ In the previous section, we described the framework of our methodology in
 
 \begin_layout Standard
 The data has been analyzed from mainly three different viewpoints; properties
- characteristics, persuasion principles characteristics and their relationship.
+ characteristics, persuasion principles characteristics and their relationships.
  We have used cross-tabulations for our analysis and our findings are presented
  in the next section in detail.
  As we mentioned in the previous section, our data classification resulted
@@ -1617,7 +1617,7 @@ tab:Target-analysis
 
 \end_inset
 
-, we find that 37.7% were targeting financial institutions, 19.3% were targetting
+, we find that 37.7% were targeting financial institutions, 19.3% were targeting
  e-commerce or retails, 14.5% were impersonating administrator while 28.5%
  of them consist of social media, postal services, government, travel agencies,
  ISP, industrials and non-existence/individuals impersonation.
@@ -3299,11 +3299,11 @@ Government and authority in %
 
 \begin_layout Standard
 When we look at the relationship between phishing emails which were impersonatin
-g administrator and authority principle, we find that 96.7% of adminstrator
+g administrator and authority principle, we find that 96.7% of administrator
  targeted emails are having authority principle and only 3.3% of them do
  not have authority principle.
  A chi-square test was performed and we find that there is no significant
- relationship between adminstrator target and authority principle, 
+ relationship between administrator target and authority principle, 
 \family roman
 \series medium
 \shape up
@@ -3544,7 +3544,7 @@ Within authority
 \begin_layout Plain Layout
 
 \size footnotesize
-Aministrator
+Administrator
 \end_layout
 
 \end_inset
@@ -5905,7 +5905,7 @@ Authority and scarcity in %
 \end_layout
 
 \begin_layout Standard
-We look at the relationship beween likeability principle and consistency
+We look at the relationship between likeability principle and consistency
  principle.
  Based on our result, we find that only 6.7% of likeability emails have consisten
 cy principle while 93.3% of them do not have consistency principle.
@@ -9030,7 +9030,7 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Accont related reason and scarcity in %
+Account related reason and scarcity in %
 \end_layout
 
 \end_inset
@@ -9564,7 +9564,7 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Accont related reason and URL presence in %
+Account related reason and URL presence in %
 \end_layout
 
 \end_inset

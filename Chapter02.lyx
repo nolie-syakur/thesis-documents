@@ -97,7 +97,7 @@ While the Internet has brought convenience to many people for exchanging
  (hardware or software) that significantly increase the barriers of technologica
 l crime impact.
  Such human centered attacks could be done by social engineering.
- Acoording to Jakobsson, et al.
+ According to Jakobsson, et al.
  phishing is a form of social engineering that aim
 \size small
 s
@@ -118,7 +118,7 @@ key "jakobsson:2006"
  email, either replying or clicking an obfuscated link within its content.
  There are diverse definitions of phishing in our literature reviews, therefore,
  we would like to discuss about its universal definition in later section.
- However, one of phishing definitions accoding to Oxford dictionary:
+ However, one of phishing definitions according to Oxford dictionary:
 \end_layout
 
 \begin_layout Quote
@@ -349,8 +349,6 @@ key "lastdrager:2014"
 \end_layout
 
 \begin_layout Quote
-
-\emph on
 \begin_inset Quotes eld
 \end_inset
 
@@ -361,8 +359,6 @@ Phishing is the act of sending a forged e-mail (using a bulk mailer) to
 \begin_inset Quotes erd
 \end_inset
 
-
-\emph default
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -374,20 +370,16 @@ key "james:2005"
 \end_layout
 
 \begin_layout Quote
-
-\emph on
 \begin_inset Quotes eld
 \end_inset
 
 Phishing is a form of Internet scam in which the attackers try to trick
  consumers into divulging sensitive personal information.
- The techniques usually involve fraudulent E-mail and web sites that impersonate
- both legitimate E-mail and web sites
+ The techniques usually involve fraudulent e-mail and websites that impersonate
+ both legitimate e-mail and websites
 \begin_inset Quotes erd
 \end_inset
 
-
-\emph default
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -399,8 +391,6 @@ key "tally:2004"
 \end_layout
 
 \begin_layout Quote
-
-\emph on
 \begin_inset Quotes eld
 \end_inset
 
@@ -410,8 +400,6 @@ Phishing is an attack in which victims are lured by official looking email
 \begin_inset Quotes erd
 \end_inset
 
-
-\emph default
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -423,19 +411,15 @@ key "clayton:2005"
 \end_layout
 
 \begin_layout Quote
-
-\emph on
 \begin_inset Quotes eld
 \end_inset
 
 In phishing, an automated form of social engineering, criminals use the
- internet to fraudulently extract sensitive information from businesses
- and individuals, often by impersonating legitimate web sites
+ internet to fraudulently extract sensitive information from business and
+ individuals, often by impersonating legitimate websites
 \begin_inset Quotes erd
 \end_inset
 
-
-\emph default
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -477,9 +461,9 @@ We believe that standard definition of phishing should be applicable in
  most of phishing concept that are presently defined.
  Consequently, the high level of abstraction and is required to build common
  definition on phishing.
- We also argued that the definition of phishing should not focus on the
- technology being used but rather on the methodology how the deception being
- conducted, an 
+ We have convinced that the formal definition of phishing should not focus
+ on the technology that is being used but rather on the technique how the
+ deception is being conducted, the method of an 
 \begin_inset Quotes eld
 \end_inset
 
@@ -750,9 +734,53 @@ Human factor
 Phishing attacks generally aim to manipulate end users to comply phisher's
  request.
  Such manipulation in phishing attacks is achieved by social engineering.
- It means that human element is tightly associated with phishing.
+ This means that human element is tightly involved with phishing.
  But how do phishers compose such deception? How come online users are gullible
  to these attacks? 
+\end_layout
+
+\begin_layout Standard
+Kevin Mitnick, who was obtaining millions of dollars by performing social
+ engineering technique, is plausibly the best known person who had used
+ social engineering technique to carry out his attacks.
+ His book that titled 
+\begin_inset Quotes eld
+\end_inset
+
+The art of deception: Controlling the Human Element of Security
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mitnik:2001"
+
+\end_inset
+
+ has defined social engineering as follows:
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+Using influence and persuasion to deceive people by convincing them that
+ the attacker is someone he is not, or by manipulation.
+ As a result, the social engineer is able to take advantage of people to
+ obtain information, or to persuade them to perform an action item, with
+ or without the use of technology.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+From his definition we can learn that people are the main target of the
+ attack, specifies some of the important tools used by the attackers, such
+ as influence and persuasion.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -780,8 +808,8 @@ key "cialdini:2001"
 \end_inset
 
 .
- Consistency is a public commitment where people become psychologically
- become vested in a decision they have made 
+ Consistency is a public commitment where people confirmed to commit publicly
+ in the decision they have made 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "workman:2008"
@@ -796,8 +824,8 @@ key "cialdini:2001"
 \end_inset
 
 .
- Social proof is when people model the behavior of their peer group, role
- models, important others or because it is generally "fashionable" 
+ Social proof is when people follow the behavior of their peer group, role
+ models or important others because it is generally "fashionable" 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "workman:2008"
@@ -815,19 +843,19 @@ key "stajano2011understanding"
 \end_inset
 
 .
- Likeability is when people trust and comply with requests from others who
- they find attractive or having credibility 
+ Likeability is when people giving their trust to the people they find attractiv
+e or credible 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "workman:2008,cialdini:2001"
 
 \end_inset
 
-.
+, when trust is achieved, compliance to grant a request may take place.
  While it is our human nature not to question authority, it can be used
- to engender fear, where people obey commands to avoid negative consequences
- such as losing a privilege or something of value, punishment, humiliation
- or condemnation 
+ to cause fear, where people obey commands to avoid negative consequences
+ such as losing a privilege or losing something valuable, fear of punishment,
+ humiliation or condemnation 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cialdini:2001,workman:2008"
@@ -895,7 +923,9 @@ key "stajano2011understanding"
 \end_inset
 
 .
- 
+ With this in mind, the exploration of persuasion principles is congruent
+ with our research goal.
+ Cialdini's six persuasion principles will be the foundation in our research.
 \end_layout
 
 \begin_layout Section
@@ -903,8 +933,8 @@ Modus operandi
 \end_layout
 
 \begin_layout Standard
-As we mentioned earlier, Phishing attack is a form of cybercrime.
- The modus operandi usually carried out firstly by creating a fake website
+As we mentioned earlier, Phishing attack is a subset of identity theft.
+ The modus operandi might be carried out firstly by creating a fake website
  that spoofs legitimate website such as financial website, either identical
  or not identical as long as the phishers get responds from unsuspected
  victims.
@@ -1401,7 +1431,7 @@ key "frauenstein:2013"
 \end_inset
 
  suggested that there are five main processes are used to perform phishing
- attacks based on the perpective of the attacker.
+ attacks based on the perspective of the attacker.
 \end_layout
 
 \begin_layout Standard
@@ -1574,7 +1604,7 @@ key "cialdini:2001"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1663,7 +1693,7 @@ Post-attack
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1760,7 +1790,7 @@ Collection
 \shape italic
 Fraud
 \shape default
-: Phiser abuses victim's information by impersonates the identity of the
+: Phisher abuses victim's information by impersonates the identity of the
  victim to the target.
  For example, A has gained B's personal information to access C so that
  A can pose as B to access C.
@@ -1794,30 +1824,22 @@ key "tally:2004"
 \begin_inset Quotes eld
 \end_inset
 
-
-\shape italic
 1.
  The attacker obtains E-mail addresses for the intended victims.
  These could be guessed or obtained from a variety of sources
-\shape default
-
 \begin_inset Quotes erd
 \end_inset
 
- this fits with planning phase.
+ - this fits with planning phase.
 \end_layout
 
 \begin_layout Quote
 \begin_inset Quotes eld
 \end_inset
 
-
-\shape italic
 2.
  The attacker generates an E-mail that appears legitimate and requests the
  recipient to perform some action
-\shape default
-
 \begin_inset Quotes erd
 \end_inset
 
@@ -1828,13 +1850,9 @@ key "tally:2004"
 \begin_inset Quotes eld
 \end_inset
 
-
-\shape italic
 3.
  The attacker sends the E-mail to the intended victims in a way that appears
  legitimate and obscures the true source
-\shape default
-
 \begin_inset Quotes erd
 \end_inset
 
@@ -1845,13 +1863,9 @@ key "tally:2004"
 \begin_inset Quotes eld
 \end_inset
 
-
-\shape italic
 4.
  Depending on the content of the E-mail, the recipient opens a malicious
  attachment, completes a form, or visits a web site
-\shape default
-
 \begin_inset Quotes erd
 \end_inset
 
@@ -1862,13 +1876,9 @@ key "tally:2004"
 \begin_inset Quotes eld
 \end_inset
 
-
-\shape italic
 5.
  The attacker harvests the victim’s sensitive information and may exploit
  it in the future
-\shape default
-
 \begin_inset Quotes erd
 \end_inset
 
@@ -1876,7 +1886,7 @@ key "tally:2004"
 \end_layout
 
 \begin_layout Standard
-Aditionally, the phases described by Tally, et al.
+Additionally, the phases described by Tally, et al.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1910,7 +1920,7 @@ fig:emigh
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2096,8 +2106,8 @@ key "nero:2011"
 \end_layout
 
 \begin_layout Standard
-Based on our analysis by looking at other phases from various sources, there
- is a major similarity between them.
+Based on our analysis by looking at the pattern of other phases from various
+ sources, there is a major similarity between them.
  Therefore, we would like to define and design our own phase that are integrated
  with three key components suggested by Jakobsson, et al.
  
@@ -2132,59 +2142,67 @@ fig:Information-flow-phishing
 
 \end_inset
 
-, we synthesized these three components with our phases based on the attacked
+, we synthesized these three components with our phases based on the attacker
  point of view as follows:
 \end_layout
 
-\begin_layout Itemize
-The lure 
+\begin_layout Standard
+- The lure 
 \end_layout
 
-\begin_layout Enumerate
-Phishers prepare the attack 
+\begin_layout Standard
+1.
+ Phishers prepare the attack 
 \end_layout
 
-\begin_layout Enumerate
-Deliver initial payload to potential victim 
+\begin_layout Standard
+2.
+ Deliver initial payload to potential victim 
 \end_layout
 
-\begin_layout Enumerate
-Victim taking the bait
+\begin_layout Standard
+3.
+ Victim taking the bait
 \end_layout
 
-\begin_layout Itemize
-The hook 
+\begin_layout Standard
+- The hook 
 \end_layout
 
-\begin_layout Enumerate-Resume
-Prompt for confidential information
+\begin_layout Standard
+4.
+ Prompt for confidential information
 \end_layout
 
-\begin_layout Enumerate-Resume
-Disclosed confidential information 
+\begin_layout Standard
+5.
+ Disclosed confidential information 
 \end_layout
 
-\begin_layout Enumerate-Resume
-Collect stolen information 
+\begin_layout Standard
+6.
+ Collect stolen information 
 \end_layout
 
-\begin_layout Itemize
-The catch
+\begin_layout Standard
+- The catch
 \end_layout
 
-\begin_layout Enumerate-Resume
-Impersonates victim 
+\begin_layout Standard
+7.
+ Impersonates victim 
 \end_layout
 
-\begin_layout Enumerate-Resume
-Received pay out from the bank 
+\begin_layout Standard
+8.
+ Received pay out from the bank 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2234,7 +2252,8 @@ fig:Information-flow-phishing
 
 \end_inset
 
-, we have only illustrated the phases if the bait was using spoofed website.
+, we have only illustrated the phases if the bait was using a spoofed website
+ as a method.
  
 \end_layout
 
@@ -2313,8 +2332,9 @@ key "jakobsson:2006"
 \end_inset
 
 .
- These types of phishing is strongly related to the phishing defintion that
- we used, because all phishing based act of deception by the phishers.
+ These types of phishing is strongly related to the phishing definition
+ that we used, considering phishing is based on the act of deception by
+ the phishers.
 \end_layout
 
 \begin_layout Subsection
@@ -2612,7 +2632,7 @@ chap:preliminary
 \end_layout
 
 \begin_layout Section
-Current countermeasures of phishing attacks
+Current countermeasures
 \end_layout
 
 \begin_layout Standard
@@ -2690,7 +2710,7 @@ key "parmar:2014"
 \end_inset
 
 .
- They also argued the advantages and disadavantages of each category 
+ They also argued the advantages and disadvantages of each category 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "parmar:2014"
@@ -2708,8 +2728,9 @@ key "cialdini:2001"
 
 , we will briefly discuss phishing countermeasures such as restriction list
  group (i.e.
- Phishtank), machine learning approach (web-based phishing), feature selection
- in a phishing email, and anti phishing training group (i.e PhishGuru).
+ Phishtank), machine learning approach (web-based phishing), properties
+ or features in a phishing email, and anti phishing training group (i.e PhishGuru
+).
  
 \end_layout
 
@@ -2738,7 +2759,7 @@ key "phishtank"
 
 .
  Phishtank stores phishing URLs in its database and is widely available
- for use by other companies for creating resriction list.
+ for use by other companies for creating restriction list.
  Some of the big companies that are using Phishtank’s data includes; Yahoo
  Mail, McAfee, APWG, Web Of Trust, Kaspersky, Opera and Avira.
  In this section, we will discuss how the current literatures have to do
@@ -3497,7 +3518,7 @@ Summary phishtank studies
 From our literature survey, we know that Phishtank is crowd-sourced platform
  to manage phishing URLs.
  For that reason Moore, et al.
- aims to evaluate the wisdom of crowds platform accomodated by Phishtank
+ aims to evaluate the wisdom of crowds platform accommodated by Phishtank
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3529,7 +3550,7 @@ http://kottke.org/03/02/weblogs-and-power-laws
 \end_inset
 
 .
- For example, in the case of individual weatlh in a country, 80% of the
+ For example, in the case of individual wealth in a country, 80% of the
  all wealth is controlled by 20% of population in a country.
  It makes sense that in Phishtank’s verification system, a single highly
  active user’s action can greatly impact the system’s overall accuracy.
@@ -3590,7 +3611,7 @@ key "moore:2008"
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -3889,8 +3910,8 @@ In contrast of one of blacklisting technique we saw in Phishtank that heavily
 Furthermore, there are also several learning algorithms to classify the
  data, such as, logistic regression, random forest, neural networks and
  support vector machine.
- However, for the sake of simplicit of our research, we will not discuss
- about the learning algorithm that is currently implemented.
+ However, as this particular topic is out of scope of our research, we will
+ not discuss about the learning algorithm that is currently implemented.
  We will only introduce three features that are used in machine learning
  based detection.
  
@@ -3960,7 +3981,7 @@ key "le:2011"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -4131,7 +4152,7 @@ key "egan:2011"
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -4373,7 +4394,7 @@ tab:host-based
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -4647,7 +4668,7 @@ tab:popular-features
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -4899,7 +4920,7 @@ Using IP addresses instead of URLs.
 \end_layout
 
 \begin_layout Enumerate
-Generalization in addressing receipents.
+Generalization in addressing recipients.
  As phishing emails are distributed by large number of recipients, the email
  often is not personalized, unlike the legitimate email that address its
  recipient by personalized information such as the last four digits of account
@@ -4915,7 +4936,7 @@ Usage of well-defined situational contexts to lure victims.
 \begin_layout Standard
 Moreover, Ma, et al.
  experimented with seven properties to consider in a phishing emails consist
- of the toal number of links, total numbers of invisible links, whether
+ of the total number of links, total numbers of invisible links, whether
  the link that appears in the message is different than the actual destination,
  the existence of forms, whether scripts exist within an email, total appearance
  of blacklisted words in the body and the total appearance of blacklisted
@@ -5050,7 +5071,7 @@ key "schechter:2007"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -5151,7 +5172,7 @@ key "kumaraguru:2009"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -5203,7 +5224,7 @@ key "kumaraguru:2009"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -5242,7 +5263,7 @@ key "kumaraguru:2009"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -5313,7 +5334,7 @@ key "kumaraguru:2009"
 
 \begin_layout Standard
 Phishguru is a security training system operated by Wombat security technology
- that teaches users not to be decieved by phishing attempts by simulation
+ that teaches users not to be deceived by phishing attempts by simulation
  of phishing attacks
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -5373,7 +5394,7 @@ key "kumaraguru:2009"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
