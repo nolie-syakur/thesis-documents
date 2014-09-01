@@ -160,7 +160,7 @@ key "jagatic2007social"
  their sensitive information to the perpetrators.
  More concrete mechanism to carry out phishing attacks is that when the
  phishers send a large number of phishing emails which include malicious
- link or URL which redirect recepient to a fake website.
+ link or URL which redirect recipient to a fake website.
  A phishing email might be resembling a legitimate email so that unsuspecting
  victim might think that it is a genuine.
  By looking like a genuine email, it would help to circumvent the filtering
@@ -188,7 +188,7 @@ To make phishing email efficient, its context might require potential victim
  Phishing attacks are carried out using fake emails, fake websites and often
  phishers may exploit the end user’s web browser to bypass warnings and
  URL information.
- In order to gain trust from receipent in a phishing email, persuasion technique
+ In order to gain trust from recipient in a phishing email, persuasion technique
 s are used to get a positive response from unsuspecting victim.
  Several countermeasures have been studied to detect phishing emails, such
  as the technique of looking for bit string that are previously determined
@@ -220,12 +220,22 @@ key "sheng:2010"
 \end_inset
 
 .
- However, current countermeasures within a phishing email so far do not
- consider psychoanalytic approach such as persuasion techniques, which it
- might be important for user decision.
- Thus, characterization and the relevancy of phishing email properties are
- needed, as well as the relevancy of persuasion techniques with these structural
- properties.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The success of phishing attack through distributed emails is determined
+ by the response of the unsupecting reciepents.
+ User decisions to click a link or open an attachment in an email might
+ be influenced by how strong a phisher can persuade a victim.
+ However, current countermeasures in a phishing email so far do not consider
+ psychoanalytic approach such as persuasion techniques, which it might be
+ important for user decision.
+ Thus, characterization and the relevancy of phishing email properties as
+ well as the relevancy of persuasion techniques with these structural properties
+ could fill the void.
 \end_layout
 
 \begin_layout Section
@@ -237,12 +247,13 @@ Research goal
 \begin_layout Standard
 
 \lang english
-The main goal of this research is characterization of phishing email properties
- by finding the association between generic properties and between persuasive
- principles with generic properties.
- These properties can be divided into several parts.
+The main goal of this research is to characterize phishing email properties
+ by synthesizing persuasive principles and finding the association within
+ generic properties as well as the association between persuasive principles
+ and these generic properties.
+ These generic properties can be divided into several parts.
  Each of these parts and each of the persuasive principle will be introduced
- as a variable in our main analysis.
+ as a variable in our methodology.
  We will look for relationship between these variables.
  This relationship can be used to show the characteristics and the relevancy
  of phishing email properties considering the persuasive elements within
@@ -276,8 +287,8 @@ RQ2: How relevant are the persuasive principles to the generic phishing
 \end_layout
 
 \begin_layout Standard
-To answer our research questions, several aspects of phishing email characterist
-ics and hypotheses will be established in 
+Several aspects of phishing email characteristics and hypotheses related
+ to the research questions will be addressed in detail in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -289,6 +300,95 @@ chap:research-questions
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Section
+Research methodology
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+To answer our research questions, literature surveys and preliminary analyses
+ will be conducted in order to have a basic understanding concerning phishing
+ in general.
+ Furthermore, the data for the main analysis will be collected from fraudehelpde
+sk.nl as the 
+\begin_inset Quotes eld
+\end_inset
+
+Nationale helpdesk voor vragen en meldingen over fraude
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "fraudehelpdesk"
+
+\end_inset
+
+ in the Netherlands.
+ We are looking for reported phishing emails in 2013.
+ We will be enumerating our methodology into several steps:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+1.
+ Raw data collection
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+2.
+ Data categorization
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+3.
+ Variable establishment
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+5.
+ Data classification
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+6.
+ Analysis
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Data categorization will be determined by several aspects; languages (Dutch,
+ English, others) and whether the email is indeed a phish, spam or legitimate.
+ We predict there will be duplicated phishing emails so that we will only
+ consider only unique email in our dataset.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+We have studied the structural properties of phishing emails in the previous
+ section and we will establish our variable based on these properties.
+ Furthermore, the data classification phase will be indicated by our coding
+ of the categorization result into these variables.
+ Lastly, the data will be analyzed from mainly three different viewpoints;
+ properties characteristics, persuasion principles characteristics and their
+ relationships.
+ More details concerning our research methodology will be addressed in 
 \end_layout
 
 \begin_layout Section

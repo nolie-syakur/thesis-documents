@@ -141,9 +141,13 @@ key "blythe2011f"
 \end_layout
 
 \begin_layout Standard
-Looking at our results on the characteristics of reported phishing emails,
- we found that 36.2% of total phish include attachment while 63.8% of them
- do not include attachment(s).
+To answer the first research question
+\shape italic
+ RQ1
+\shape default
+, we are looking at the results on the characteristics of reported phishing
+ emails, we found that 36.2% of total phish include attachment while 63.8%
+ of them do not include attachment(s).
  From chi-square tests result, we conclude that both ZIP attachment and
  HTML attachment have a highly significant association when a phish email
  includes attachment(s).
@@ -178,7 +182,7 @@ When we look at the target sector statistics of phishing mails, we find
 \end_layout
 
 \begin_layout Standard
-Looking at our results, we conclude that when URL(s) is present in a phishing
+Looking at the results, we conclude that when URL(s) is present in a phishing
  email, it will likely to be obfuscated and requested by the phisher.
  Similarly, when an attachment(s) is included, it will likely to be requested
  by the phisher.
@@ -197,7 +201,11 @@ Looking at our results, we conclude that when URL(s) is present in a phishing
 \end_layout
 
 \begin_layout Standard
-When we look at how relevant are the persuasive principles to phishing email
+To answer the second research question 
+\shape italic
+RQ2
+\shape default
+, we look at how relevant are the persuasive principles to phishing email
  properties, we find that 100% government targeted emails are having authority
  principle and 95.9% of non government targeted email are also having authority
  principle.

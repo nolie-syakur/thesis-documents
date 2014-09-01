@@ -79,10 +79,11 @@ Background & Literature review
 \begin_layout Standard
 In order to meet our goal, necessary knowledge on phishing in general is
  required.
- This chapter introduces an understanding of phishing, an exploration of
- its cost, an overview of human factor in phishing, the overview of its
- modus operandi, a brief review on types of phishing, an understanding of
- bad neighborhoods on phishing and its general current countermeasures.
+ This chapter introduces general understanding of phishing, an exploration
+ of its damage in term of money, the overview of its modus operandi, a brief
+ explanation on types of phishing, an understanding of bad neighborhoods
+ on phishing, general phishing countermeasures and human factor in phishing
+ attacks.
 \end_layout
 
 \begin_layout Section
@@ -143,7 +144,8 @@ key "oxford"
 \end_layout
 
 \begin_layout Standard
-Several studies suggest that phishing is form of online criminal activity
+\paragraph_spacing onehalf
+Several studies suggest that phishing is a form of online criminal activity
  by using social engineering techniques 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -178,11 +180,19 @@ key "chandrasekaran:2006"
 Phisher(s
 \emph default
 ).
- After successfully gaining a sensitive information from the victim, phishers
+ After successfully obtained a sensitive information from the victim, phishers
  use this information to access victim’s financial accounts or committing
  credit card frauds.
- The technique of phishing may vary, but the most common technique of phishing
- attacks done by using fraudulent emails and websites 
+ However, to formalize the damage of phishing in term of money is a challenging
+ task.
+ We will briefly explore the cost of phishing attacks in the later section.
+ 
+\end_layout
+
+\begin_layout Standard
+Furthermore, the technique or modus operandi of phishing may vary, but the
+ most common technique of phishing attacks done by using fraudulent emails
+ and websites 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "james:2005"
@@ -194,8 +204,10 @@ key "james:2005"
  to its legitimate target.
  While it may be true, phishing website also could be completely different
  with its target as there is no level of identicalness.
- However, Preliminary analysis on what changed or added in phishing website
- would be conducted in the later section.
+ With this in mind, preliminary analysis on what changed or added in phishing
+ website would be conducted in the later section.
+ In the following subsections, we will introduce how phishing was originally
+ came about and how current literatures formally define phishing.
 \end_layout
 
 \begin_layout Subsection
@@ -677,6 +689,13 @@ key "herley:2009,mccall2007gartner,hong:2012,moura2009scalable"
 \end_inset
 
 .
+ 
+\end_layout
+
+\begin_layout Standard
+With this in mind, we might ask how phishing attack is carried out? is there
+ any stages involved? The next chapter we will review its modus operandi
+ in term of phishing stages or phases.
 \end_layout
 
 \begin_layout Standard
@@ -724,208 +743,6 @@ key "RSA:2014"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Human factor
-\end_layout
-
-\begin_layout Standard
-Phishing attacks generally aim to manipulate end users to comply phisher's
- request.
- Such manipulation in phishing attacks is achieved by social engineering.
- This means that human element is tightly involved with phishing.
- But how do phishers compose such deception? How come online users are gullible
- to these attacks? 
-\end_layout
-
-\begin_layout Standard
-Kevin Mitnick, who was obtaining millions of dollars by performing social
- engineering technique, is plausibly the best known person who had used
- social engineering technique to carry out his attacks.
- His book that titled 
-\begin_inset Quotes eld
-\end_inset
-
-The art of deception: Controlling the Human Element of Security
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "mitnik:2001"
-
-\end_inset
-
- has defined social engineering as follows:
-\end_layout
-
-\begin_layout Quote
-\begin_inset Quotes eld
-\end_inset
-
-Using influence and persuasion to deceive people by convincing them that
- the attacker is someone he is not, or by manipulation.
- As a result, the social engineer is able to take advantage of people to
- obtain information, or to persuade them to perform an action item, with
- or without the use of technology.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-From his definition we can learn that people are the main target of the
- attack, specifies some of the important tools used by the attackers, such
- as influence and persuasion.
- 
-\end_layout
-
-\begin_layout Standard
-Cialdini suggests that there are six basic principles of persuasion 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "cialdini:2001"
-
-\end_inset
-
-, that is, the technique of making people grant to one's request.
- These principles include;
-\shape italic
- reciprocation, consistency, social proof, likeability, authority and scarcity
-\shape default
-.
- Reciprocation is 
-\lang english
-the norm that obligates individuals to repay in kind what they have received,
- return the favor or adjustment to smaller request 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "cialdini:2001"
-
-\end_inset
-
-.
- Consistency is a public commitment where people confirmed to commit publicly
- in the decision they have made 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "workman:2008"
-
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "cialdini:2001"
-
-\end_inset
-
-.
- Social proof is when people follow the behavior of their peer group, role
- models or important others because it is generally "fashionable" 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "workman:2008"
-
-\end_inset
-
-.
- Stajano, et al.
- suggest people will let their guard down when everybody around them appears
- to share the same risk 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "stajano2011understanding"
-
-\end_inset
-
-.
- Likeability is when people giving their trust to the people they find attractiv
-e or credible 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "workman:2008,cialdini:2001"
-
-\end_inset
-
-, when trust is achieved, compliance to grant a request may take place.
- While it is our human nature not to question authority, it can be used
- to cause fear, where people obey commands to avoid negative consequences
- such as losing a privilege or losing something valuable, fear of punishment,
- humiliation or condemnation 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "cialdini:2001,workman:2008"
-
-\end_inset
-
-.
- Stajano, et al suggest that scarcity is related to time principle, that
- is, when we are under time pressure to make important choice, we tend to
- have less reasoning to make decision 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "stajano2011understanding"
-
-\end_inset
-
-.
- We will use these principles as our foundation in synthesizing phishing
- email corpus with human factor.
- 
-\end_layout
-
-\begin_layout Standard
-Human as the 
-\begin_inset Quotes eld
-\end_inset
-
-weakest link
-\begin_inset Quotes erd
-\end_inset
-
- in computer security has been exists and exploited for ages.
- And yet, security designers blame on users and whine 
-\begin_inset Quotes eld
-\end_inset
-
-the system I designed would be secure, if only users were less gullible
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "stajano2011understanding"
-
-\end_inset
-
-.
- Stajano, et al.
- stated that 
-\begin_inset Quotes eld
-\end_inset
-
-a wise security designer would seek a robust solution which acknowledge
- the existence of these vulnerabilities as unavoidable consequence of human
- nature and actively build countermeasures that prevent this exploitation
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "stajano2011understanding"
-
-\end_inset
-
-.
- With this in mind, the exploration of persuasion principles is congruent
- with our research goal.
- Cialdini's six persuasion principles will be the foundation in our research.
 \end_layout
 
 \begin_layout Section
@@ -1808,7 +1625,19 @@ Post-attack
 \end_layout
 
 \begin_layout Standard
-Tally, et al.
+As shown in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:compilation-phases
+\end_layout
+
+\end_inset
+
+.
+ Tally, et al.
  suggest that there are several phases involved in phishing attack based
  on the attacker's point of view 
 \begin_inset CommandInset citation
@@ -1817,76 +1646,19 @@ key "tally:2004"
 
 \end_inset
 
-: 
-\end_layout
-
-\begin_layout Quote
-\begin_inset Quotes eld
-\end_inset
-
-1.
- The attacker obtains E-mail addresses for the intended victims.
- These could be guessed or obtained from a variety of sources
-\begin_inset Quotes erd
-\end_inset
-
- - this fits with planning phase.
-\end_layout
-
-\begin_layout Quote
-\begin_inset Quotes eld
-\end_inset
-
-2.
- The attacker generates an E-mail that appears legitimate and requests the
- recipient to perform some action
-\begin_inset Quotes erd
-\end_inset
-
- - fits with design phase.
-\end_layout
-
-\begin_layout Quote
-\begin_inset Quotes eld
-\end_inset
-
-3.
- The attacker sends the E-mail to the intended victims in a way that appears
- legitimate and obscures the true source
-\begin_inset Quotes erd
-\end_inset
-
- - fits with delivery and attack phase.
-\end_layout
-
-\begin_layout Quote
-\begin_inset Quotes eld
-\end_inset
-
-4.
- Depending on the content of the E-mail, the recipient opens a malicious
- attachment, completes a form, or visits a web site
-\begin_inset Quotes erd
-\end_inset
-
- - fits with attack phase.
-\end_layout
-
-\begin_layout Quote
-\begin_inset Quotes eld
-\end_inset
-
-5.
- The attacker harvests the victim’s sensitive information and may exploit
- it in the future
-\begin_inset Quotes erd
-\end_inset
-
- - fits with fraud phase.
-\end_layout
-
-\begin_layout Standard
-Additionally, the phases described by Tally, et al.
+.
+ The first phase, it represents the planning, as we understand the attacker
+ collects the email address of unsuspecting victims.
+ The second phase, considering that it is related to creating a fake email
+ that apprears legitimate, this phase can be viewed as design phase.
+ On the third phase, we consider this as delivery and attack phases as it
+ involves the attacker sends the fake email to the unintended victims and
+ obfuscated the true source.
+ The fourth phase represents attack phase as it involves with the recipient
+ complies with the attacker's request(s).
+ Lastly the fifth phase, it represents the fraud phase, as it related to
+ haversting and exploiting victim's resources by the attacker.
+ Additionally, the phases described by Tally, et al.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1901,9 +1673,9 @@ key "emigh:2005"
 
 \end_inset
 
- represented in 
+ illustrated in 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -1912,8 +1684,40 @@ fig:emigh
 
 \end_inset
 
+ and explained in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:compilation-phases
+\end_layout
+
+\end_inset
+
 .
- 
+ Phishing attack steps that executed by the phisher are also being addressed
+ by Nero, et al 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nero:2011"
+
+\end_inset
+
+.
+ In their study, a successful phishing attack involves several phases which
+ can bee seen and compare in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:compilation-phases
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1921,10 +1725,6 @@ fig:emigh
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1969,143 +1769,6 @@ key "emigh:2005"
 \end_layout
 
 \begin_layout Standard
-Emigh 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "emigh:2005"
-
-\end_inset
-
- suggests the information flow of phishing attacks has seven phases.
- These phases is explained as follow:
-\end_layout
-
-\begin_layout Quote
-\begin_inset Quotes eld
-\end_inset
-
-1.
- A malicious payload arrives through some propagation vector.
- 
-\end_layout
-
-\begin_layout Quote
-2.
- The user takes an action that makes him or her vulnerable to an information
- compromise.
- 
-\end_layout
-
-\begin_layout Quote
-3.
- The user is prompted for confidential information, either by a remote web
- site or locally by a Web Trojan.
- 
-\end_layout
-
-\begin_layout Quote
-4.
- The user compromises confidential information.
- 
-\end_layout
-
-\begin_layout Quote
-5.
- The confidential information is transmitted from a phishing server to the
- phisher.
- 
-\end_layout
-
-\begin_layout Quote
-6.
- The confidential information is used to impersonate the user.
- 
-\end_layout
-
-\begin_layout Quote
-7.
- The phisher engages in fraud using the compromised information.
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "emigh:2005"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Phishing attack steps performed by the phisher are also addressed by Nero,
- et al 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "nero:2011"
-
-\end_inset
-
-.
- In their study, a successful phishing attack involves several phases: 
-\end_layout
-
-\begin_layout Quote
-\begin_inset Quotes eld
-\end_inset
-
-1.
- Preparation 
-\end_layout
-
-\begin_layout Quote
-2.
- Delivery of the Lure 
-\end_layout
-
-\begin_layout Quote
-3.
- Taking the Bait 
-\end_layout
-
-\begin_layout Quote
-4.
- Request for Confidential Information 
-\end_layout
-
-\begin_layout Quote
-5.
- Submission of Information 
-\end_layout
-
-\begin_layout Quote
-6.
- Collection of Data 
-\end_layout
-
-\begin_layout Quote
-7.
- Impersonation 
-\end_layout
-
-\begin_layout Quote
-8.
- Financial Gain
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "nero:2011"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Based on our analysis by looking at the pattern of other phases from various
  sources, there is a major similarity between them.
  Therefore, we would like to define and design our own phase that are integrated
@@ -2142,7 +1805,7 @@ fig:Information-flow-phishing
 
 \end_inset
 
-, we synthesized these three components with our phases based on the attacked
+, we synthesized these three components with our phases based on the attacker
  point of view as follows:
 \end_layout
 
@@ -2257,6 +1920,15 @@ fig:Information-flow-phishing
  
 \end_layout
 
+\begin_layout Standard
+We have reviewed various phases in phishing attack and from the review,
+ we have constructed our own phases.
+ In the next section, a brief introduction in respect to the types of phishing
+ will be described.
+ We believe that the general understanding of phishing types will help our
+ main analysis to characterize phishing email properties.
+\end_layout
+
 \begin_layout Section
 Types of phishing
 \end_layout
@@ -2335,6 +2007,10 @@ key "jakobsson:2006"
  These types of phishing is strongly related to the phishing definition
  that we used, considering phishing is based on the act of deception by
  the phishers.
+ With this in mind, we believe fake websites might be hosted in the network
+ which has more phishing domain than other networks.
+ Subsequently, in the next section, we will discuss bad neighborhoods on
+ phishing.
 \end_layout
 
 \begin_layout Subsection
@@ -2629,6 +2305,8 @@ chap:preliminary
 \end_inset
 
  that consists of our preliminary analysis on phishing Badhoods.
+ In the next section, we will study on the general phishing countermeasures
+ in term of phishing detection and prevention.
 \end_layout
 
 \begin_layout Section
@@ -2726,16 +2404,24 @@ key "cialdini:2001"
 
 \end_inset
 
-, we will briefly discuss phishing countermeasures such as restriction list
- group (i.e.
+, we will briefly discuss the most relevant phishing countermeasures such
+ as restriction list group (i.e.
  Phishtank), machine learning approach (web-based phishing), properties
  or features in a phishing email, and anti phishing training group (i.e PhishGuru
 ).
- 
+ In the last section of this chapter, we will explore the human factor in
+ phishing attacks, how phishing email is engineered to gain recipient's
+ trust in order to get a response from the unsuspecting victims.
 \end_layout
 
 \begin_layout Subsection
 Phishing detection
+\end_layout
+
+\begin_layout Standard
+In this subsection, we will conduct a literature review which related to
+ phishtank as restriction list and machine learning approach to detect spoofed
+ website as phishing detection.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4882,6 +4568,12 @@ key "liu"
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Stop-phishing-at"
+
+\end_inset
+
 Stop phishing at email level
 \end_layout
 
@@ -5436,6 +5128,208 @@ key "kumaraguru:2009"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Human factor
+\end_layout
+
+\begin_layout Standard
+Phishing attacks generally aim to manipulate end users to comply phisher's
+ request.
+ Such manipulation in phishing attacks is achieved by social engineering.
+ This means that human element is tightly involved with phishing.
+ But how do phishers compose such deception? How come online users are gullible
+ to these attacks? 
+\end_layout
+
+\begin_layout Standard
+Kevin Mitnick, who was obtaining millions of dollars by performing social
+ engineering technique, is plausibly the best known person who had used
+ social engineering technique to carry out his attacks.
+ His book that titled 
+\begin_inset Quotes eld
+\end_inset
+
+The art of deception: Controlling the Human Element of Security
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mitnik:2001"
+
+\end_inset
+
+ has defined social engineering as follows:
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+Using influence and persuasion to deceive people by convincing them that
+ the attacker is someone he is not, or by manipulation.
+ As a result, the social engineer is able to take advantage of people to
+ obtain information, or to persuade them to perform an action item, with
+ or without the use of technology.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+From his definition we can learn that people are the main target of the
+ attack, specifies some of the important tools used by the attackers, such
+ as influence and persuasion.
+ 
+\end_layout
+
+\begin_layout Standard
+Cialdini suggests that there are six basic principles of persuasion 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+, that is, the technique of making people grant to one's request.
+ These principles include;
+\shape italic
+ reciprocation, consistency, social proof, likeability, authority and scarcity
+\shape default
+.
+ Reciprocation is 
+\lang english
+the norm that obligates individuals to repay in kind what they have received,
+ return the favor or adjustment to smaller request 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+.
+ Consistency is a public commitment where people confirmed to commit publicly
+ in the decision they have made 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "workman:2008"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+.
+ Social proof is when people follow the behavior of their peer group, role
+ models or important others because it is generally "fashionable" 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "workman:2008"
+
+\end_inset
+
+.
+ Stajano, et al.
+ suggest people will let their guard down when everybody around them appears
+ to share the same risk 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "stajano2011understanding"
+
+\end_inset
+
+.
+ Likeability is when people giving their trust to the people they find attractiv
+e or credible 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "workman:2008,cialdini:2001"
+
+\end_inset
+
+, when trust is achieved, compliance to grant a request may take place.
+ While it is our human nature not to question authority, it can be used
+ to cause fear, where people obey commands to avoid negative consequences
+ such as losing a privilege or losing something valuable, fear of punishment,
+ humiliation or condemnation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001,workman:2008"
+
+\end_inset
+
+.
+ Stajano, et al suggest that scarcity is related to time principle, that
+ is, when we are under time pressure to make important choice, we tend to
+ have less reasoning to make decision 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "stajano2011understanding"
+
+\end_inset
+
+.
+ We will use these principles as our foundation in synthesizing phishing
+ email corpus with human factor.
+ 
+\end_layout
+
+\begin_layout Standard
+Human as the 
+\begin_inset Quotes eld
+\end_inset
+
+weakest link
+\begin_inset Quotes erd
+\end_inset
+
+ in computer security has been exists and exploited for ages.
+ And yet, security designers blame on users and whine 
+\begin_inset Quotes eld
+\end_inset
+
+the system I designed would be secure, if only users were less gullible
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "stajano2011understanding"
+
+\end_inset
+
+.
+ Stajano, et al.
+ stated that 
+\begin_inset Quotes eld
+\end_inset
+
+a wise security designer would seek a robust solution which acknowledge
+ the existence of these vulnerabilities as unavoidable consequence of human
+ nature and actively build countermeasures that prevent this exploitation
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "stajano2011understanding"
+
+\end_inset
+
+.
+ With this in mind, the exploration of persuasion principles is congruent
+ with our research goal.
+ Cialdini's six persuasion principles will be the foundation in our research.
 \end_layout
 
 \end_body

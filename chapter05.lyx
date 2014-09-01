@@ -100,6 +100,12 @@ chap:research-questions
 \end_layout
 
 \begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Research-Methodology"
+
+\end_inset
+
 Research Methodology
 \end_layout
 
@@ -298,7 +304,20 @@ Variables establishment
 \end_layout
 
 \begin_layout Standard
-12 Variables were created as part of the methodology processes prior data
+As we study phishing email properties in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+sub:Stop-phishing-at
+\end_layout
+
+\end_inset
+
+, variables are needed to be statistically analysed in the SPSS.
+ Based on our findings in the literature survey on phishing email properties,
+ 12 Variables were created as part of the methodology processes prior data
  classification.
  These variables are explained as follows:
 \end_layout
