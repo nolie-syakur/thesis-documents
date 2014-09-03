@@ -93,37 +93,48 @@ chap:research-questions
 \end_layout
 
 \begin_layout Standard
-Before we conclude our main analyses, we would like to mention the bottom
- line of our preliminary investigation on phishing bad neighborhood and
- the differences between phishing vs original.
+Before we conclude our main analysis, we would like to conclude of our experimen
+tal exploration on phishing bad neighborhood and the differences between
+ phishing vs original.
  Our data suggests that there are some possibilities of phishing bad neighborhoo
 d (10% hacked, 35% higher possibilities, 55% less possibilities), there
  are much more legitimate domains that are exist.
  When we look at phishing vs original analysis, it suggests 87% of the total
  HTML codes are maintaining the appearance closer as the target while 12.5%
  are completely different with its target.
+ Based on this, we can conclude while there are small possibilities of 
+\begin_inset Quotes eld
+\end_inset
+
+bad neighborhood
+\begin_inset Quotes erd
+\end_inset
+
+ in term of phishing, phishers generally do not host their phish in one
+ certain networks of internet infrastructure.
+ The consequence is that it hinders the effort of security expert to detect
+ phishing in a certain networks of internet infrastructures.
+ We can also conclude that most of the phishes appear the same as its target
+ considering to replicate a web page can be done with a little effort.
+ However, fragments of suspicious codes can be spotted when the HTML source
+ is closely examined.
+ This can help an automated phishing detection in HTML source level.
 \end_layout
 
 \begin_layout Standard
-Our research was aimed to synthesize persuasive principles and characterize
- phishing email properties.
+Our research was mainly aimed to to characterize phishing email properties
+ considering persuasive principles by finding the association within generic
+ properties as well as the relationship between persuasive principles and
+ these generic properties.
  We looked at what are the generic properties of phishing email and how
  relevant are the persuasive principles to its generic properties.
- The data was obtained from fraudehelpdesk as national institution based
- in Netherlands that handles reports on fraud including phishing.
-\end_layout
-
-\begin_layout Standard
-It was a challenging task to manually code individual phishing email to
- fit onto our dataset.
- Our experience tells us that any researcher who wishes to work related
- with phishing email and persuasion principles as related to human psychology,
- should devote a lot of time in preparing adequately for the project.
+ The data was obtained from national security organization based in Netherlands
+ that handles reports on fraud including phishing.
 \end_layout
 
 \begin_layout Standard
 Another aspect of our research was that persuasive principle has variety
- of strength in respect of influence depending on the individual person.
+ of strengths in respect of influence depending on the individual person.
  Thus we have addressed our rationale in synthesizing persuasive principles
  on phishing emails.
  In addition, persuasion technique as a social engineering has been and
@@ -141,66 +152,71 @@ key "blythe2011f"
 \end_layout
 
 \begin_layout Standard
-To answer the first research question, we are looking at our results on
- the characteristics of reported phishing emails, we found that 36.2% of
- total phish include attachment while 63.8% of them do not include attachment(s).
- From chi-square tests result, we conclude that both ZIP attachment and
- HTML attachment have a highly significant association when a phish email
- includes attachment(s).
- From the total amount of 207 unique phishing emails, we found that requesting
- to click URL is the most prevalent method at more than half of the total
- phish as oppose to request to call by phone at less than 5% of the total.
- When we look at the content characteristics of the phish, most of it utilizes
- HTML code as modern email clients are able to read HTML based content email.
- Similarly, URL presence in our analysis also significantly higher at more
- than half of the total phish.
- It is notable that content variables may overlap with each other.
- 
+To answer the first research question
+\shape italic
+ RQ1
+\shape default
+, based on our findings, we can summarized in respect to the characteristics
+ of reported phishing emails in the following 
 \end_layout
 
 \begin_layout Standard
-When we look at the target sector statistics of phishing mails, we find
- that financial as the most targeted sector to be impersonated by phishers
- at 37.7% of the total phish.
- In addition, E-commerce/retails took the second place of the most targeted
- sector at 19.3% of the total phish.
- This finding congruent with our expectation that phishers tend to impersonate
- financial institutions.
- Furthermore, when we look at the characteristic of the reasons being used
- in phishing emails, account related contributes the most frequent reason
- than others at 48.8% of the total phish.
- When we look at the persuasion principles, the analysis suggests that authority
- principle contributes the most prevalent principle at 96.1% followed by
- scarcity principle at 41% of the total phish.
- On the other hand, social proof and reciprocation contributes less prevalent
- principles.
- 
+- When an attachment(s) is included in a phishing email, it will likely
+ to attach ZIP or HTML file.
 \end_layout
 
 \begin_layout Standard
-Looking at our results, we conclude that when URL(s) is present in a phishing
- email, it will likely to be obfuscated and requested by the phisher.
- Similarly, when an attachment(s) is included, it will likely to be requested
- by the phisher.
- Although it seems negligible, it is interesting to know that there are
- several cases when phisher only include an attachment(s) without requesting
- to open it.
- Our investigation on account related reason and URL presence resulted in
- highly significant relationship between these two properties.
- It means that when a phishing email is about account related reason, there
- is a higher chance that it includes URL(s).
- In addition of the relationship between generic properties, our analyses
- suggests that when a phishing mail which targeting government, will likely
- to have document related reason.
- Similarly, when a phishing email has document related reason, it will likely
- to include an attachment(s).
+- Requesting to click URL is the most prevalent method
 \end_layout
 
 \begin_layout Standard
-To answer the second research question, we look at how relevant are the
- persuasive principles to phishing email properties, we find that 100% governmen
-t targeted emails are having authority principle and 95.9% of non government
- targeted email are also having authority principle.
+- Most of the phishes are using HTML code with the presence of URL(s)
+\end_layout
+
+\begin_layout Standard
+- Financial sector is the most common target
+\end_layout
+
+\begin_layout Standard
+- Most of the phishing emails use account related as a pretext to manipulate
+ intended victims
+\end_layout
+
+\begin_layout Standard
+- Authority principle distributed throughout the sample
+\end_layout
+
+\begin_layout Standard
+- Phishing email which has account related reason as a pretext, will likely
+ to include URL(s)
+\end_layout
+
+\begin_layout Standard
+- Clear instructions to request an action from recipients
+\end_layout
+
+\begin_layout Standard
+- URL most likely to be obfuscated
+\end_layout
+
+\begin_layout Standard
+- A government targeted phish will likely to have a document related reason
+\end_layout
+
+\begin_layout Standard
+- Phishing email which has document related reason as a pretext, will likely
+ to include an attachment(s)
+\end_layout
+
+\begin_layout Standard
+To answer the second research question 
+\shape italic
+RQ2
+\shape default
+, we look at how relevant are the persuasive principles to phishing email
+ properties, we find that 100% government targeted emails are having authority
+ principle and 95.9% of non government targeted email are also having authority
+ principle.
  Our data suggests that there is no significant association between government
  targeted email and authority principle.
  Similarly, administrator and non administrator targeted emails are both
@@ -280,7 +296,7 @@ Hypotheses
 \begin_inset Text
 
 \begin_layout Plain Layout
-Relevancy
+Category
 \end_layout
 
 \end_inset
@@ -323,7 +339,7 @@ A
 status open
 
 \begin_layout Plain Layout
-Persuasion principles
+Related to persuasion principles
 \end_layout
 
 \end_inset
@@ -599,7 +615,7 @@ B
 status open
 
 \begin_layout Plain Layout
-Generic properties
+Related to generic structural properties
 \end_layout
 
 \end_inset

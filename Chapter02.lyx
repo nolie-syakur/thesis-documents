@@ -2098,7 +2098,7 @@ key "jakobsson:2006"
 \end_layout
 
 \begin_layout Section
-Bad neighborhoods on phishing
+Bad neighborhoods and phishing
 \end_layout
 
 \begin_layout Standard
@@ -4602,9 +4602,10 @@ Spoofing of online banks and retailers.
 
 \begin_layout Enumerate
 Link in the text is different from the destination.
- A link(s) contained in the email message usually appear to different than
+ A link(s) contained in the email message usually appears different than
  the actual link destination.
- This method used to trick users to believe that the email is legitimate.
+ This portrays URL obfuscation and this method used to trick users to believe
+ that the email is legitimate.
 \end_layout
 
 \begin_layout Enumerate

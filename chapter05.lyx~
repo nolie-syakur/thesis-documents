@@ -100,6 +100,12 @@ chap:research-questions
 \end_layout
 
 \begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Research-Methodology"
+
+\end_inset
+
 Research Methodology
 \end_layout
 
@@ -116,8 +122,8 @@ fig:rm-diagram
 \end_inset
 
 , we processed our data into several steps.
- Firstly, we collect our raw data from fraudehelpdesk in the form of suspected
- phishing email reports.
+ Firstly, we collect the data from a security organization in the form of
+ suspected phishing email reports.
  Next, we performed our data categorization and we divided it into three
  categorization tasks.
  The next step, we determined what variables are needed for our analysis.
@@ -167,30 +173,16 @@ Research methodology diagram
 \end_layout
 
 \begin_layout Subsection
-Raw data collection
+Data collection
 \end_layout
 
 \begin_layout Standard
-The data is obtained from 
-\shape italic
-fraudehelpdesk.nl
-\shape default
- in the form of phishing emails which were reported between august 2013
- and december 2013.
- Fraudehelpdesk is a national institution based in Netherlands that handles
- reports on online crime and fraud including phishing 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "fraudehelpdesk"
-
-\end_inset
-
-.
+The data is obtained from a security organization based in Netherlands that
+ handles reports on online crime and fraud including phishing in the form
+ of phishing emails which were reported between august 2013 and december
+ 2013.
  The data consists of 8444 suspected phishing emails in total that we categorize
-d based on the language, whether the reported phishing email is in Dutch
- or English language.
- The data was categorized in the confidential environment, which mean we
- only analyzed the data in Zilverling building of University of Twente.
+d in the following subsection.
 \end_layout
 
 \begin_layout Subsection
@@ -207,20 +199,20 @@ We manually categorized 8444 suspected phishing emails by sorting all the
 \end_layout
 
 \begin_layout Itemize
-7756 suspected phishing emails in Dutch language
+7756 suspected phishing in Dutch language
 \end_layout
 
 \begin_layout Itemize
-688 suspected phishing emails in English language
+688 suspected phishing in English language
 \end_layout
 
 \begin_layout Standard
-Within 688 suspected phishing emails in English language we further categorized
- based on phishing, spam and unknown emails.
- We label this process as 1st precision categorization.
- Phishing category is determined which email were indeed phishing, spam
- category is specified which email were spam and unknown category is established
- by the following guidelines:
+Within 688 suspected phishing emails in English group we further categorized
+ based on phishing, spam and others.
+ We label this process as 1st level categorization.
+ Phishing group is determined which emails were indeed phishing, spam group
+ is specified which emails were spam and others group is established by
+ the following guidelines:
 \end_layout
 
 \begin_layout Itemize
@@ -238,45 +230,46 @@ The process is resulted as follows:
 \end_layout
 
 \begin_layout Itemize
-486 phishing emails
+486 phishing 
 \end_layout
 
 \begin_layout Itemize
-150 spam emails
+150 spam 
 \end_layout
 
 \begin_layout Itemize
-52 unknown emails
+52 others 
 \end_layout
 
 \begin_layout Standard
-To get a further precision from the 1st precision categorization, we executed
- 2nd precision categorization within 688 suspected phishing emails in English
- language.
+To get a further precision from the 1st level categorization, we executed
+ 2nd level categorization within 688 suspected phishing emails in English
+ group, which basically repeated process of 1st level categorization with
+ highly scrutinized.
  This process is resulted as follows:
 \end_layout
 
 \begin_layout Itemize
-440 phishing emails
+440 phishing 
 \end_layout
 
 \begin_layout Itemize
-180 spam emails
+180 spam 
 \end_layout
 
 \begin_layout Itemize
-50 unknown emails
+50 others 
 \end_layout
 
 \begin_layout Itemize
-18 legitimate emails
+18 legitimate 
 \end_layout
 
 \begin_layout Standard
 Interestingly, we have 18 legitimate emails that were mistakenly reported
  as phishes or false positive.
  Although they are only 18 false positive, this suggest there are still
- misinterpretation of fraudulent email in our society.
+ misinterpretation of fraudulent email in our dataset.
  From this point we would only code 440 phishing emails to an excel sheet
  with necessary variables so that we could convert it into SPSS readable
  file.
@@ -294,7 +287,7 @@ name "sub:Variables-establishment"
 
 \end_inset
 
-Variables establishment
+Variables 
 \end_layout
 
 \begin_layout Standard
@@ -309,10 +302,12 @@ sub:Stop-phishing-at
 
 \end_inset
 
-, variables are needed to be statistically analysed in the SPSS.
+, variables are needed to be statistically analyzed in the SPSS.
  Based on our findings in the literature survey on phishing email properties,
  12 Variables were created as part of the methodology processes prior data
  classification.
+ Generic properties are depicted by the general structural phishing email
+ properties except persuasion principles.
  These variables are explained as follows:
 \end_layout
 
@@ -438,7 +433,18 @@ Target
 
 \begin_deeper
 \begin_layout Enumerate
-TargetType [Values can be seen in the appendix]
+TargetType [Values can be seen in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Target-classification
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \end_deeper
@@ -452,7 +458,7 @@ Reason
 
 \begin_deeper
 \begin_layout Enumerate
-ReasonType [Values can be seen in the appendix]
+ReasonType [Values can be seen in ]
 \end_layout
 
 \end_deeper
@@ -509,11 +515,6 @@ CounterSameContents
 \emph default
 : A counter that indicates how many phishing emails have exactly the same
  contents
-\end_layout
-
-\begin_layout Standard
-It is noteworthy that apart from cialdini's principles, they are generic
- properties or features of a phishing email.
 \end_layout
 
 \begin_layout Subsection
@@ -917,7 +918,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Attachment
 \end_layout
 
 \end_inset
@@ -952,7 +953,7 @@ Percent
 \begin_layout Plain Layout
 
 \size footnotesize
-PDF Attachment
+PDF 
 \end_layout
 
 \end_inset
@@ -985,7 +986,7 @@ PDF Attachment
 \begin_layout Plain Layout
 
 \size footnotesize
-Zip attachment
+Zip 
 \end_layout
 
 \end_inset
@@ -1020,7 +1021,7 @@ Zip attachment
 \begin_layout Plain Layout
 
 \size footnotesize
-HTML attachment
+HTML 
 \end_layout
 
 \end_inset
@@ -1055,7 +1056,7 @@ HTML attachment
 \begin_layout Plain Layout
 
 \size footnotesize
-Unknown attachment
+Unknown 
 \end_layout
 
 \end_inset

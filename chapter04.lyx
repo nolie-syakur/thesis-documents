@@ -80,10 +80,10 @@ Research Questions and Hypotheses
 \end_layout
 
 \begin_layout Standard
-This chapter addresses the explanation of our main research questions and
- hypotheses to meet our goal.
- We aim answer these research questions by the data collected from fraudehelpdes
-k.nl.
+This chapter addresses the rationale of our main research questions and
+ hypotheses to meet our research goal.
+ We aim to answer these research questions by the analysis of data collected
+ from a security organization based in Netherlands.
  First off, we wanted to know the characteristics of phishing email based
  on structural properties in our corpus.
 \end_layout
@@ -168,8 +168,9 @@ sub:Variables-establishment
 \end_layout
 
 \begin_layout Standard
-Secondly, we wanted to know how relevant are the persuasive principles to
- the associated phishing eamil properties.
+Secondly, we wanted to know to what extent the involvement of persuasive
+ principles are used in phishing emails and how relevant are they to the
+ generic phishing email properties.
  
 \end_layout
 
@@ -190,8 +191,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-RQ2: How relevant are the persuasive principles to the generic phishing
- email properties?
+RQ2: To what extent the involvement of persuasive principles are used in
+ phishing emails?
 \end_layout
 
 \begin_layout Standard

@@ -76,8 +76,8 @@ Introduction
 \begin_layout Standard
 
 \lang english
-This research project aims to understand the relationship between persuasion
- techniques and phishing emails.
+This research project aims to understand the characterization of phishing
+ email properties considering persuasion techniques.
  This chapter provides an introductory information regarding the research
  area.
  The objectives are to understand the challenges and introduce ways to overcome
@@ -85,7 +85,7 @@ This research project aims to understand the relationship between persuasion
  Section 1.1 discusses the problem statement related to phishing in general
  and phishing email in particular, section 1.2 presents the research goal
  of the thesis, section 1.3 presents the outline of the research questions,
- section 1.4 describes the overview of the research method used to answer
+ section 1.4 describes the outline of the research method used to answer
  the research questions and section 1.5 presents the structure of the thesis.
 \end_layout
 
@@ -347,13 +347,26 @@ Research methodology
 \begin_layout Standard
 
 \lang english
-To answer our research questions, literature surveys and preliminary analyses
- will be conducted in order to have a basic understanding concerning phishing
+This subsection describes the outline of our research methodology of our
+ analysis, more details will be addressed in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sec:Research-Methodology
+\end_layout
+
+\end_inset
+
+.
+ To answer our research questions, literature surveys and experimental explorati
+on will be conducted in order to have a basic understanding concerning phishing
  in general.
- Furthermore, the data for the main analysis will be collected from security
+ Furthermore, the data for the our analysis will be collected from security
  institution in the Netherlands which we can not disclose its identity.
  We are looking for reported phishing emails in 2013.
- We will be enumerating our methodology into several steps:
+ We will be enumerating the outline our methodology into several steps:
 \end_layout
 
 \begin_layout Standard
@@ -398,31 +411,14 @@ Data categorization will be determined by several aspects; languages (Dutch,
  English, others) and whether the email is indeed a phish, spam or legitimate.
  We predict there will be duplicated phishing emails so that we will only
  consider only unique email in our dataset.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-We will study the structural properties of phishing emails in our literature
- reviews and we will establish our variable based on these properties.
+ Structural properties of phishing emails will be reviewed in our literature
+ survey and we will establish our variables based on these properties.
  Furthermore, the data classification phase will be indicated by our coding
  of the categorization result into these variables.
  Lastly, the data will be analyzed from mainly three different viewpoints;
  properties characteristics, persuasion principles characteristics and their
  relationships.
- More details concerning our research methodology will be addressed in 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-sec:Research-Methodology
-\end_layout
-
-\end_inset
-
-.
+ 
 \end_layout
 
 \begin_layout Section
@@ -434,15 +430,59 @@ Structures
 \begin_layout Standard
 
 \lang english
-This research project is structured as follows.
- Background and literature reviews will be discussed in chapter 2.
- Preliminary analyses with methods and results will be conducted in chapter
+This research project is structured as follows: 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Chapter 2 describes background and literature reviews about phishing in
+ general.
+ The subsections include; a general understanding of what is phishing in
+ term of history and definition, an overview of its damage in term of money,
+ an exploration of its modus operandi based on phishing stages or phases,
+ a basic understanding of bad neighborhood and phishing, general phishing
+ countermeasures and lastly the human factor in phishing.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Experimental exploration with methods and results will be conducted in chapter
  3.
- In chapter 4, we will explain more about our main research questions and
- hypotheses.
- In chapter 5, we will discuss our main data analysis and results.
- Lastly, in chapter 6 we will present our discussion and conclusion of the
- research project.
+ It consists of an experiment on the existence of bad neighborhood and finding
+ differences of phishing website vs its original website.
+ The methods and the results of the individual experiment will be presented
+ in the respective sections.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+In chapter 4 presents the rationale of our main research questions and hypothese
+s.
+ It includes what aspect to be considered to answer the characteristics
+ of phishing emails in the dataset and the motivation of our hypotheses
+ to support our research questions.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+In chapter 5, we will discuss our main data analysis and results.
+ It includes the details of research methodology that we conducted as well
+ as the results of our analysis.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Lastly, in chapter 6 we will present our discussion and conclusion of the
+ research project, how the research questions are answered along with the
+ recommendations, limitations and how these limitations could become the
+ basis of further research.
 \end_layout
 
 \end_body

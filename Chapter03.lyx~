@@ -76,15 +76,16 @@ name "chap:preliminary"
 
 \end_inset
 
-Preliminary analysis
+Experimental exploration
 \end_layout
 
 \begin_layout Standard
 Before we go into our main analysis on phishing email dataset, we would
- like to conduct preliminary analyses on phishtank and phishload datasets
- to know more about phishing bad neighborhood and phishing vs original websites.
+ like to conduct a basic experimental exploration on phishtank and phishload
+ datasets to know more about phishing bad neighborhood and phishing vs original
+ websites.
  Basic investigation on both datasets will be conducted as initial experiments
- prior our main analysis to address the existence of phishing bad neighbourhood
+ prior our main analysis to address the existence of phishing bad neighborhood
  and finding how many phishing webpages that maintains the 
 \begin_inset Quotes eld
 \end_inset
@@ -101,7 +102,7 @@ Phishing bad neighborhood in Phishtank
 \end_layout
 
 \begin_layout Subsection
-Preliminary methods
+Methods
 \end_layout
 
 \begin_layout Standard
@@ -140,7 +141,7 @@ We used these tools because they are freely available and capable of doing
  We determined that the results given by these tools were sufficient for
  our basic analysis.
  We selected 10 valid and online phish URLs from phishtank in sequence on
- the date of 17 March 2014 and add 21 URLs more in seqence which were valid
+ the date of 17 March 2014 and add 21 URLs more in sequence which were valid
  and online on the date of 24 March 2014.
  
 \end_layout
@@ -162,12 +163,12 @@ TLD
  how many characters it has.
  Next, we identified how many domains are hosted within a neighbors using
  reverse IP lookup.
- Lastly, we selected 10 random domains within its domain to be examined
+ Lastly, we selected 10 random domains within its domain to be scrutinized
  whether they are harmful or legitimate.
 \end_layout
 
 \begin_layout Subsection
-Preliminay results
+Results
 \end_layout
 
 \begin_layout Standard
@@ -2872,15 +2873,15 @@ Phishtank URL analysis
 
 \begin_layout Standard
 Based on our analysis we know that we have 31 phish URLs.
- We specify two categories that indicate less and higher possibilites in
- having bad neighbourhood.
+ We specify two categories that indicate less and higher possibilities in
+ having bad neighborhood.
  If one domain has 50% or more suspicious domains, it characterized to have
- higher possiblities of bad neighbourhood.
- In countrary, if one domain has less than 50% suspicious domains, it characteri
-zed to have less possibilities.
+ higher possibilities of bad neighborhood.
+ In contrary, if one domain has less than 50% suspicious domains, it characteriz
+ed to have less possibilities.
  The data suggests that 3 of them are hacked domains (10%) while 11 domains
  (35%) have the possibilities of harmful instances.
- It makes 17 domains (55%) have less possibilties of bad neighborhoods.
+ It makes 17 domains (55%) have less possibilities of bad neighborhoods.
  In conclusion, while there are some possibilities of bad neighborhood,
  there are much more of legitimate domains attributed from a phishing domain
  as well.
@@ -2891,7 +2892,7 @@ Finding differences of phishing vs original in Phishload database
 \end_layout
 
 \begin_layout Subsection
-Preliminary methods
+Methods
 \end_layout
 
 \begin_layout Standard
@@ -2997,7 +2998,7 @@ All of the 20 examinations were done manually by finding the differences
 \end_layout
 
 \begin_layout Subsection
-Preliminary results
+Results
 \end_layout
 
 \begin_layout Standard

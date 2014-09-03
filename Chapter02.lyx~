@@ -1975,11 +1975,16 @@ key "teri:2014"
  secure servers.
  We hypothesized that even more phishing incidents on financial area as
  well, but sometimes the news is kept hidden due to creditability reason.
+ With this in mind, we believe fake websites might be hosted in the network
+ which has more phishing domain than other networks.
+ Subsequently, in the next section, we will discuss bad neighborhoods on
+ phishing.
 \end_layout
 
 \begin_layout Standard
-One may ask, what type of phishing are these? What type of phishing commonly
- used nowadays? Evidently, based on the cost of phishing attacks in 
+One may ask, what type of phishing are these? What are the general types
+ of phishing relevant to our research? Evidently, based on the cost of phishing
+ attacks in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -2007,10 +2012,7 @@ key "jakobsson:2006"
  These types of phishing is strongly related to the phishing definition
  that we used, considering phishing is based on the act of deception by
  the phishers.
- With this in mind, we believe fake websites might be hosted in the network
- which has more phishing domain than other networks.
- Subsequently, in the next section, we will discuss bad neighborhoods on
- phishing.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -2096,7 +2098,7 @@ key "jakobsson:2006"
 \end_layout
 
 \begin_layout Section
-Bad neighborhoods on phishing
+Bad neighborhoods and phishing
 \end_layout
 
 \begin_layout Standard
@@ -4600,9 +4602,10 @@ Spoofing of online banks and retailers.
 
 \begin_layout Enumerate
 Link in the text is different from the destination.
- A link(s) contained in the email message usually appear to different than
+ A link(s) contained in the email message usually appears different than
  the actual link destination.
- This method used to trick users to believe that the email is legitimate.
+ This portray URL This method used to trick users to believe that the email
+ is legitimate.
 \end_layout
 
 \begin_layout Enumerate
