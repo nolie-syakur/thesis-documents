@@ -74,8 +74,8 @@ Discussion & Conclusion
 \end_layout
 
 \begin_layout Standard
-In the previous chapter , we have addressed the results of our study in
- considerable detail.
+In the previous chapter, we have addressed the data and analysis of our
+ study in considerable detail.
  Now in this chapter, we look at how our findings answer our research questions
  and whether the findings are consistent with the hypotheses we described
  in 
@@ -133,10 +133,11 @@ Our research was mainly aimed to to characterize phishing email properties
 \end_layout
 
 \begin_layout Standard
-Another aspect of our research was that persuasive principle has variety
- of strengths in respect of influence depending on the individual person.
- Thus we have addressed our rationale in synthesizing persuasive principles
- on phishing emails.
+An important aspect of our research was that persuasive techniques have
+ variety of strengths in respect of influence depending on the individual
+ person.
+ Thus we have addressed the conception and rationale in considering persuasive
+ principles on phishing emails.
  In addition, persuasion technique as a social engineering has been and
  remains successful in exploiting human factor vulnerability in order to
  influence people to have a positive response in favor of the person who
@@ -156,56 +157,67 @@ To answer the first research question
 \shape italic
  RQ1
 \shape default
-, based on our findings, we can summarized in respect to the characteristics
+, based on our findings, we can conclude in respect to the characteristics
  of reported phishing emails in the following points:
 \end_layout
 
-\begin_layout Standard
-- When an attachment(s) is included in a phishing email, it will likely
- to attach ZIP or HTML file.
+\begin_layout Itemize
+When an attachment(s) is included in a phishing email, it is likely to attach
+ ZIP or HTML file.
 \end_layout
 
-\begin_layout Standard
-- Requesting to click URL is the most prevalent method
+\begin_layout Itemize
+Requesting to click URL is the most prevalent method
 \end_layout
 
-\begin_layout Standard
-- Most of the phishes are using HTML code with the presence of URL(s)
+\begin_layout Itemize
+Most of the phishes are using HTML code along with the presence of URL(s)
 \end_layout
 
-\begin_layout Standard
-- Financial sector is the most common target
+\begin_layout Itemize
+Financial sector is the most common target
 \end_layout
 
-\begin_layout Standard
-- Most of the phishing emails use account related as a pretext to manipulate
+\begin_layout Itemize
+Most of the phishing emails use account related as a pretext to manipulate
  intended victims
 \end_layout
 
-\begin_layout Standard
-- Authority principle distributed throughout the sample
+\begin_layout Itemize
+Authority principle is distributed throughout the sample
 \end_layout
 
-\begin_layout Standard
-- Phishing email which has account related reason as a pretext, will likely
- to include URL(s)
+\begin_layout Itemize
+Phishing email which has account related as a pretext, is likely to include
+ URL(s)
 \end_layout
 
-\begin_layout Standard
-- Clear instructions to request an action from recipients
+\begin_layout Itemize
+Clear instructions to request an action from recipients
 \end_layout
 
-\begin_layout Standard
-- URL most likely to be obfuscated
+\begin_layout Itemize
+URL(s) in a phishing email is most likely to be obfuscated
 \end_layout
 
-\begin_layout Standard
-- A government targeted phish will likely to have a document related reason
+\begin_layout Itemize
+A government targeted phish is likely to have a document related reason
 \end_layout
 
-\begin_layout Standard
-- Phishing email which has document related reason as a pretext, will likely
+\begin_layout Itemize
+Phishing email which has document related reason as a pretext, is likely
  to include an attachment(s)
+\end_layout
+
+\begin_layout Standard
+Our recommendation in term of phishing countermeasures, a recipient should
+ scrutinize when zip or html attachment is included in an email.
+ A recipient should also be skeptical when an email is coming from a financial
+ institution and is regarding account related reason.
+ When URL(s) provided in the email, a recipient should take a closer look
+ at the source whether the URL(s) is obfuscated or not.
+ More importantly, a recipient should be thoughtful in making decision when
+ an email portray fear or negative consequences.
 \end_layout
 
 \begin_layout Standard
@@ -213,10 +225,11 @@ To answer the second research question
 \shape italic
 RQ2
 \shape default
-, we look at how relevant are the persuasive principles to phishing email
- properties, we find that 100% government targeted emails are having authority
- principle and 95.9% of non government targeted email are also having authority
- principle.
+, we look at the extent the persuasive principles that are used in phishing
+ emails, we know that authoritative principle is distributed throughout
+ the sample, thus it makes sense that we find 100% government targeted emails
+ are having authority principle and 95.9% of non government targeted email
+ are also having authority principle.
  Our data suggests that there is no significant association between government
  targeted email and authority principle.
  Similarly, administrator and non administrator targeted emails are both
@@ -271,7 +284,7 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1013,22 +1026,18 @@ Overview of verified hypotheses
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \space{}
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Overall, although there are many hypotheses in respect of persuasion principles
- are rejected, some of them are accepted.
- This conclude low relevancy in respect between persuasion principles and
- generic properties of a phishing email.
- Our research sheds light on the involvement of persuasion principles as
- human factor and phishing email which has not been extensively studied.
+Based on our findings, although there are eight hypotheses in respect of
+ persuasive principles are rejected, two of them are accepted.
+ This concludes the extent of involvement of overall persuasive principles
+ is low in term of the relationship to generic structural properties of
+ a phishing email.
+ On the other hand, we find that both administrator targeted phishing email
+ and account related phishing email are likely to have scarcity principle.
+ We also find a phishing email which use HTML code is likely to have likeability
+ principle.
  
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1038,6 +1047,69 @@ tab:Overview-of-verified
 \end_inset
 
  summarizes the overview of verified hypotheses.
+ These conclude scarcity principle has a high involvement in term of both
+ administrator target and account related phish.
+ In addition, likeability principle has a high involvement in term of HTML
+ usage in a phishing email.
+ From our conclusions, we recommend a recipient to scrutinize when an email
+ requires to respond to scarce or turn-into scarce items or things or privileges.
+ We also recommend not to be negligent when an email is coming from others
+ who they find attractive or are perceived as credible and having special
+ expertise.
+\end_layout
+
+\begin_layout Standard
+Overall, our research sheds light on the characteristics of phishing email
+ considering persuasive principle as human factor in the real world analysis
+ which has not been done yet.
+\end_layout
+
+\begin_layout Standard
+However, our findings need to be assimilated in the backdrop of some limitations
+ which arise due to the complex nature of our methodology and research environme
+nt.
+ It is important for us to explain these limitations so that the readers
+ can understand the findings of our research in the proper context.
+ The first limitation is that we only get the data from one organization.
+ Our study is totally dependent on the information documented by this organizati
+on, in which we do not know whether the sample data represents national-wide
+ or represents a certain area or criterion.
+ The second limitation is that, sometimes the email does not show the complete
+ structures because the reporter forwarded a suspected phishing email as
+ an attachment which removes essential element of it such as original attachment
+(s) included in the original email.
+ This causes our study to be dependent on the reporter that reports to this
+ organization as well.
+ The third limitation is language barrier.
+ A few number of suspected English-based phishing emails forwarded by the
+ reporter along an information in Dutch language.
+ It might be useful to know to understand the information provided by the
+ reporter.
+ The fourth limitation is that, our data classification is done by one person.
+ It means the coding of the data into associated variables could be inaccurate.
+ While the data coding to the generic structural properties of phishing
+ email could be justified, however, the data coding into the persuasive
+ principles could be an issue in term of accuracy.
+ For example, one person claimed an email is attractive while another person
+ claimed it is not.
+ This introduces the greatest limitation to our research because it significantl
+y impact our results.
+ The fifth limitation is being the time period of the reported phishing
+ emails which are only reported in the period of august - december 2013.
+ This impact of our randomness of cases in term of time period.
+\end_layout
+
+\begin_layout Standard
+Despite these considerable limitations, our research provides an insight
+ into the use of persuasive principles in phishing email characteristics.
+ A recommendation as a follow-up study with a larger sample encompassing
+ more security organization as a data source and extended time period of
+ reported phishing emails would be extremely desirable in order to test
+ our findings.
+ We feel that any future research along this line will find our work to
+ be a useful starting point.
+ We also recommend to add validation in data classification in term of persuasiv
+e principles by involving several people to have an objective decision.
 \end_layout
 
 \end_body

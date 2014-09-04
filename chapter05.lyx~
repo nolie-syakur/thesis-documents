@@ -287,7 +287,7 @@ name "sub:Variables-establishment"
 
 \end_inset
 
-Variables 
+Variables and concepts
 \end_layout
 
 \begin_layout Standard
@@ -347,15 +347,15 @@ Attachments:
 
 \begin_deeper
 \begin_layout Enumerate
-PDFattachment [0 = No, 1 = Yes]
+PDF [0 = No, 1 = Yes]
 \end_layout
 
 \begin_layout Enumerate
-ZIPattachment [0 = No, 1 = Yes]
+ZIP [0 = No, 1 = Yes]
 \end_layout
 
 \begin_layout Enumerate
-HTMLattachment [0 = No, 1 = Yes]
+HTML [0 = No, 1 = Yes]
 \end_layout
 
 \end_deeper
@@ -369,19 +369,21 @@ Methods
 
 \begin_deeper
 \begin_layout Enumerate
-ReqOpenAttachment [0 = No, 1 = Yes]
+ReqOpenAttachment; A request to respond by opening an attachment(s) [0 =
+ No, 1 = Yes]
 \end_layout
 
 \begin_layout Enumerate
-ReqClickLink [0 = No, 1 = Yes]
+ReqClickLink; A request to respond by clicking URL(s) [0 = No, 1 = Yes]
 \end_layout
 
 \begin_layout Enumerate
-ReqEmailReply [0 = No, 1 = Yes]
+ReqEmailReply; A request to respond by email reply [0 = No, 1 = Yes]
 \end_layout
 
 \begin_layout Enumerate
-ReqCallingByPhone [0 = No, 1 = Yes]
+ReqCallingByPhone; A request to respond by calling through phone [0 = No,
+ 1 = Yes]
 \end_layout
 
 \end_deeper
@@ -458,7 +460,18 @@ Reason
 
 \begin_deeper
 \begin_layout Enumerate
-ReasonType [Values can be seen in ]
+ReasonType [Values can be seen in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Reason-classification-1
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \end_deeper
@@ -513,8 +526,11 @@ Scarcity [0 = No, 1 = Yes]
 \emph on
 CounterSameContents
 \emph default
-: A counter that indicates how many phishing emails have exactly the same
- contents
+: A number that specifies how many emails are duplicated.
+ The minimum value of this variable is 1, which indicates a unique email.
+ Duplicated means the exact same text in the body.
+ For example, value 2 indicates that there is (2-1) duplicated email with
+ the same text in the body, value 3 means there are (3-1) duplicated emails.
 \end_layout
 
 \begin_layout Subsection
@@ -581,7 +597,7 @@ name "sub:cialdini-decision"
 
 \end_inset
 
-Synthesizing Cialdini's principles
+ Cialdini's principle and conception
 \end_layout
 
 \begin_layout Standard
@@ -591,9 +607,12 @@ Part of our analysis, we tried to synthesize phishing emails dataset with
  our perspective of Cialdini’s principles as follows:
 \end_layout
 
-\begin_layout Enumerate
-Reciprocation: The norm that obligates individuals to repay in kind what
- they have received.
+\begin_layout Standard
+
+\emph on
+Reciprocation
+\emph default
+: The norm that obligates individuals to repay in kind what they have received.
  Return the favor.
  Adjustment to smaller request 
 \begin_inset CommandInset citation
@@ -603,84 +622,7 @@ key "cialdini:2001"
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Enumerate
-Consistency: Public commitment.
- When people become psychologically become vested in a decision they have
- made 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "workman:2008"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Enumerate
-Social proof: When people model the behavior of their peer group, role models,
- important others or because it is generally "fashionable" 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "workman:2008"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Enumerate
-Likeability: When people trust and comply with requests from others who
- they find attractive or are perceived as credible and having special expertise
- or abilities such as sports figures or actors they like 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "workman:2008"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Enumerate
-Authority: It can be used to engender fear, where people obey commands to
- avoid negative consequences such as losing a privilege or something of
- value, punishment, humiliation or condemnation 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "workman:2008"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Enumerate
-Scarcity: based on the principle of reactance, where people respond to perceived
- shortages by placing greater psychological value on perceived scarce items
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "workman:2008"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Reciprocation
-\emph default
-: When a phisher sends an email containing a message that perceived as a
+ When a phisher sends an email containing a message that perceived as a
  request or obligation towards the recipient to “return the favor”.
  It might be normal for an individual to feel “obligated” to return the
  favor for things or information that he/she deemed to be valuable.
@@ -699,7 +641,17 @@ Reciprocation
 \emph on
 Consistency
 \emph default
-: When a phishing email contains a message that perceived to request recipient’s
+: Public commitment.
+ When people become psychologically become vested in a decision they have
+ made 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "workman:2008"
+
+\end_inset
+
+.
+ When a phishing email contains a message that perceived to request recipient’s
  “consistency” on a decision they have made.
  For example in the phishing email context, when a hotel agent asks us to
  review the payment details of our reservation that we have previously made,
@@ -718,8 +670,15 @@ Consistency
 \emph on
 Social proof
 \emph default
-: When a phishing email contains an affiliation of other people that they
- deemed to be “fashionable”.
+: It occures when people model the behavior of their peer group, role models,
+ important others or because it is generally "fashionable" 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "workman:2008"
+
+\end_inset
+
+.
  For example, when someone tells us that there are a hundreds of other people
  who use particular system, so we might want to agree to use it as well
  just because a lot of other people use it as well.
@@ -734,10 +693,26 @@ Social proof
 \emph on
 Likeability
 \emph default
-: When a phishing email contains a message that attracts recipient to comply
+: It occurs when people trust and comply with requests from others who they
+ find attractive or are perceived as credible and having special expertise
+ or abilities such as sports figures or actors they like 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "workman:2008"
+
+\end_inset
+
+.When a phishing email contains a message that attracts recipient to comply
  the sender’s request based the reference on something or someone that likeable
  for the recipient.
- Cialdini [1] identified that people usually “trust those they like”.
+ Cialdini 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cialdini:2001"
+
+\end_inset
+
+ identified that people usually “trust those they like”.
  For example, if someone is asking us to download and listen to a music
  that Michael Jackson made, we might be attracted to download and listen
  to it just because we happen to love Michael Jackson music.
@@ -756,15 +731,32 @@ Likeability
 \emph on
 Authority
 \emph default
-: When a phishing email contains logo or image or signature or anything
- that looks like legitimate institutions.
+: It can be used to engender fear, where people obey commands to avoid negative
+ consequences such as losing a privilege or something of value, punishment,
+ humiliation or condemnation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "workman:2008"
+
+\end_inset
+
+.
+ When a phishing email contains logo or image or signature or anything that
+ looks like legitimate institutions.
  It can be used to makes it look trustworthy so that the recipient might
  accept and obey the sender’s request.
  For example, when an email is presenting somehow authentic looking signature
  like “Copyright 2013 PayPal, Inc.
  All rights reserved” or PayPal logo.
- Cialdini [1] stated authoritative persuasion could be achieved by only
- presenting “aura of legitimacy”.
+ Cialdini 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cialdini:2001"
+
+\end_inset
+
+ suggests that authoritative persuasion could be achieved by only presenting
+ “aura of legitimacy”.
  Another example, when the content of the email stated that it is from “System
  Administrator” asking for password update.
  It would be not authoritative if only random people asking us to change
@@ -777,7 +769,16 @@ Authority
 \emph on
 Scarcity
 \emph default
-: When a phishing email contains a message that tells a recipient to react
+: Based on the principle of reactance, where people respond to perceived
+ shortages by placing greater psychological value on perceived scarce items
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "workman:2008"
+
+\end_inset
+
+When a phishing email contains a message that tells a recipient to react
  or respond to scarce/turns-into scarce items or things or privileges.
  For example in the phishing email context, if a sender tells us that he/she
  will suspend/deactivate/limit our account if not respond to his/her request,

@@ -3742,19 +3742,7 @@ Differences phishing webpage vs legitimate website; target: PayPal
 \end_layout
 
 \begin_layout Section
-Targets and Target Types Appendix
-\end_layout
-
-\begin_layout Standard
-\begin_inset External
-	template PDFPages
-	filename /Volumes/osXnolie/Dropbox/thesis stuff/Phishing materials/phishing work/Statistical analysis/targets.pdf
-	extra LaTeX "pages=-"
-	scale 65
-
-\end_inset
-
-
+Target Types 
 \end_layout
 
 \begin_layout Standard
@@ -4027,19 +4015,7 @@ Target classification
 \end_layout
 
 \begin_layout Section
-Reasons and Reason Types Appendix
-\end_layout
-
-\begin_layout Standard
-\begin_inset External
-	template PDFPages
-	filename /Volumes/osXnolie/Dropbox/thesis stuff/Phishing materials/phishing work/Statistical analysis/reasons.pdf
-	extra LaTeX "pages=-"
-	scale 65
-
-\end_inset
-
-
+Reason Types 
 \end_layout
 
 \begin_layout Standard
@@ -4186,6 +4162,12 @@ Document related
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Reason-classification-1"
+
+\end_inset
+
 Reason classification
 \end_layout
 
