@@ -90,6 +90,8 @@ chap:research-questions
 \end_inset
 
 .
+ Lastly, we conclude our research including recommendations, limitations
+ as well as future works.
 \end_layout
 
 \begin_layout Standard
@@ -216,6 +218,9 @@ Our recommendation in term of phishing countermeasures, a recipient should
  institution and is regarding account related reason.
  When URL(s) provided in the email, a recipient should take a closer look
  at the source whether the URL(s) is obfuscated or not.
+ If a recipient has already clicked the URL, we can draw from the experimental
+ exploration that most of the phishes are maintaining the appearance mimicking
+ their targets.
  More importantly, a recipient should be thoughtful in making decision when
  an email portray fear or negative consequences.
 \end_layout
@@ -1108,9 +1113,13 @@ Despite these considerable limitations, our research provides an insight
  our findings.
  We feel that any future research along this line will find our work to
  be a useful starting point.
- We also recommend to add validation in the research methodology by involving
- several people to have an objective decision in data classification in
- term of persuasive principles.
+ Furthermore, we also recommend to add resilient validation in data classificati
+on in term of persuasive principles by involving several people to have
+ an objective decision.
+ Lastly, given what we did, we can see that persuasion principles in phishing
+ email have some influence in user's decisions, therefore, it is interesting
+ if the future research can build a simple game in term of persuasion awareness
+ to grab user's attention in making the right decision.
 \end_layout
 
 \end_body

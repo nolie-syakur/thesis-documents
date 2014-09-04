@@ -210,8 +210,8 @@ key "workman:2008"
 
 .
  Such deception and social engineering attacks might be delivered through
- phone calls, text messages, private messages or emails as a medium for
- deviating recipients' decisions.
+ phone calls, text messages, private messages or emails as a medium to distract
+ recipients' decisions.
  
 \end_layout
 
@@ -244,7 +244,7 @@ key "zhang:2006,zhang:2007"
 
 .
  Furthermore, one of the non technical approaches to defense against phishing
- attacks is to make people aware of phishing threats.
+ attacks is to make people aware of the threats.
  Security awareness in regards of phishing attacks might be achieved by
  aiding an education to the public to ignore links within an email, even
  though the source of the email appear to be legitimate 
@@ -283,9 +283,8 @@ Research goal
 
 \lang english
 The main goal of this research is to characterize phishing email properties
- by using persuasive principles and finding the association within generic
- properties as well as the relationship between persuasive principles and
- these generic properties.
+ considering persuasive principles by finding the association between generic
+ properties and persuasive principles.
  These generic properties consist of phishing email structural properties
  or features based on the literature survey findings.
  Each of these properties and each of the persuasive principle will be introduce
@@ -320,8 +319,7 @@ RQ1: What are the characteristics of reported phishing emails?
 \begin_layout Itemize
 
 \lang english
-RQ2: To what extent the involvement of persuasive principles are used in
- phishing emails?
+RQ2: To what extent the persuasive principles are used in phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -360,11 +358,10 @@ sec:Research-Methodology
 \end_inset
 
 .
- To answer our research questions, literature surveys and experimental explorati
-on will be conducted in order to have a basic understanding concerning phishing
- in general.
+ Literature surveys and experimental exploration will be conducted in order
+ to have a basic understanding concerning phishing in general.
  Furthermore, the data for the our analysis will be collected from security
- institution in the Netherlands which we can not disclose its identity.
+ organization based in Netherlands which we can not disclose its identity.
  We are looking for reported phishing emails in 2013.
  We will be enumerating the outline our methodology into several steps:
 \end_layout
@@ -387,7 +384,7 @@ on will be conducted in order to have a basic understanding concerning phishing
 
 \lang english
 3.
- Variable establishment
+ Variables and concepts
 \end_layout
 
 \begin_layout Standard
@@ -415,10 +412,9 @@ Data categorization will be determined by several aspects; languages (Dutch,
  survey and we will establish our variables based on these properties.
  Furthermore, the data classification phase will be indicated by our coding
  of the categorization result into these variables.
- Lastly, the data will be analyzed from mainly three different viewpoints;
- properties characteristics, persuasion principles characteristics and their
- relationships.
- 
+ The data will be analyzed from mainly three different viewpoints; properties
+ characteristics, persuasion principles characteristics and their relationships.
+ Lastly, we will look at how the findings answer our research questions.
 \end_layout
 
 \begin_layout Section
