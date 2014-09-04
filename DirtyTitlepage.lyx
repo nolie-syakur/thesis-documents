@@ -100,7 +100,7 @@ thispagestyle{empty}
 
 
 \backslash
-begin{addmargin}[-10mm]{-30mm}  %%%%% symmetrical margins
+begin{addmargin}[-10mm]{-44.45mm}  %%%%% symmetrical margins
 \end_layout
 
 \begin_layout Plain Layout
