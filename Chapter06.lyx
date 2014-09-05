@@ -213,7 +213,7 @@ Phishing email which has document related reason as a pretext, is likely
 
 \begin_layout Standard
 Our recommendation in term of phishing countermeasures, a recipient should
- scrutinize when zip or html attachment is included in an email.
+ scrutinize the email when zip or html attachment is included.
  A recipient should also be skeptical when an email is coming from a financial
  institution and is regarding account related reason.
  When URL(s) provided in the email, a recipient should take a closer look

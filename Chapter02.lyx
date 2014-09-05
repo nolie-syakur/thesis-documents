@@ -2016,14 +2016,15 @@ key "jakobsson:2006"
 \end_layout
 
 \begin_layout Subsection
-Deceptive phishing
+Phishing based on visual similarities
 \end_layout
 
 \begin_layout Standard
-There are many variations based on deceptive phishing schemes.
- Typical scenario of deceptive phishing schemes is to send a large amount
- of illicit emails containing call to action asking recipients to click
- embedded links 
+Since all phishing is based on deception and social engineering, there is
+ a phishing scenario based on visual similarities.
+ Typical scenario of phishing based on visual similarities is to send a
+ large amount of illicit emails containing call to action asking recipients
+ to click embedded links 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"

@@ -100,7 +100,7 @@ thispagestyle{empty}
 
 
 \backslash
-begin{addmargin}[-10mm]{-30mm}  %%%%% symmetrical margins
+begin{addmargin}[-10mm]{-44.45mm}  %%%%% symmetrical margins
 \end_layout
 
 \begin_layout Plain Layout
@@ -119,7 +119,7 @@ thiswatermark{
 
 
 \backslash
-put(-170,-760){
+put(-100,-760){
 \backslash
 includegraphics[]{gfx/UTNL}}    	}
 \end_layout
@@ -286,7 +286,7 @@ status open
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 end{addmargin}
 \end_layout

@@ -129,7 +129,7 @@ Our research was mainly aimed to to characterize phishing email properties
  properties as well as the relationship between persuasive principles and
  these generic properties.
  We looked at what are the generic properties of phishing email and how
- relevant are the persuasive principles to its generic properties.
+ relevant are the persuasive principles to the generic properties.
  The data was obtained from national security organization based in Netherlands
  that handles reports on fraud including phishing.
 \end_layout
@@ -213,7 +213,7 @@ Phishing email which has document related reason as a pretext, is likely
 
 \begin_layout Standard
 Our recommendation in term of phishing countermeasures, a recipient should
- scrutinize when zip or html attachment is included in an email.
+ scrutinize the email when zip or html attachment is included in an email.
  A recipient should also be skeptical when an email is coming from a financial
  institution and is regarding account related reason.
  When URL(s) provided in the email, a recipient should take a closer look

@@ -127,8 +127,8 @@ fig:rm-diagram
  Next, we performed our data categorization and we divided it into three
  categorization tasks.
  The next step, we determined what variables are needed for our analysis.
- Next step, we executed our data classification into these variables, so
- that we could reconstruct into SPSS readable dataset.
+ In the next step, we executed our data classification into these variables,
+ so that we could reconstruct into SPSS readable dataset.
  Lastly, we conducted our SPSS analysis to answer our hypotheses.
 \end_layout
 
@@ -179,10 +179,12 @@ Data collection
 \begin_layout Standard
 The data is obtained from a security organization based in Netherlands that
  handles reports on online crime and fraud including phishing in the form
- of phishing emails which were reported between august 2013 and december
+ of phishing emails, which were reported between august 2013 and december
  2013.
- The data consists of 8444 suspected phishing emails in total that we categorize
-d in the following subsection.
+ Since this research is based on self report, the data will be processed
+ based on the self conception.
+ Futhermore, the data consists of 8444 suspected phishing emails in total
+ that we will be categorized and classified in the following subsection.
 \end_layout
 
 \begin_layout Subsection
@@ -211,18 +213,46 @@ Within 688 suspected phishing emails in English group we further categorized
  based on phishing, spam and others.
  We label this process as 1st level categorization.
  Phishing group is determined which emails were indeed phishing, spam group
- is specified which emails were spam and others group is established by
- the following guidelines:
+ is specified which emails were commercial advertising and others group
+ is established by the following guidelines:
 \end_layout
 
 \begin_layout Itemize
-The email which has no content, whether it was removed automatically by
- antivirus program.
+The email which has no content, if it was removed automatically by antivirus
+ program.
+ For instance, one email displayed only 
+\begin_inset Quotes eld
+\end_inset
+
+INVOICE-983761039847.pdf
+\begin_inset Quotes erd
+\end_inset
+
+ in the body.
+ Therefore, we assumed the content of this email is removed by some sort
+ of antivirus and we put this kind of email in 
+\begin_inset Quotes eld
+\end_inset
+
+Others
+\begin_inset Quotes erd
+\end_inset
+
+ group.
 \end_layout
 
 \begin_layout Itemize
 The email which is presented in the language other than Dutch or English.
+ We find some emails that use French language, thus we also put them in
  
+\begin_inset Quotes eld
+\end_inset
+
+Others
+\begin_inset Quotes erd
+\end_inset
+
+ group.
 \end_layout
 
 \begin_layout Standard
@@ -246,6 +276,8 @@ To get a further precision from the 1st level categorization, we executed
  2nd level categorization within 688 suspected phishing emails in English
  group, which basically repeated process of 1st level categorization with
  highly scrutinized.
+ Basically, the 2nd level of categorization is to find if there is any mistake
+ from the 1st categorization.
  This process is resulted as follows:
 \end_layout
 
@@ -266,18 +298,56 @@ To get a further precision from the 1st level categorization, we executed
 \end_layout
 
 \begin_layout Standard
-Interestingly, we have 18 legitimate emails that were mistakenly reported
- as phishes or false positive.
+Interestingly, based on the outcome of 2nd categorization, we have 18 legitimate
+ emails that were mistakenly reported as phishes or false positive.
  Although they are only 18 false positive, this suggest there are still
  misinterpretation of fraudulent email in our dataset.
+ 30 phishes from the 1st categorization were moved to spam, 14 phishes were
+ moved to legitimate and 2 
+\begin_inset Quotes eld
+\end_inset
+
+others
+\begin_inset Quotes erd
+\end_inset
+
+ were moved to legitimate group.
  From this point we would only code 440 phishing emails to an excel sheet
  with necessary variables so that we could convert it into SPSS readable
  file.
  From 440 phishing emails, we performed query search which email that has
  a duplicated content.
- Query search were resulted in 207 unique phishing emails.
- At the end, in total we will only analyze 207 unique phishing emails in
- our corpus.
+ Query search was done by putting a query in mozilla thunderbird client,
+ which has this feature.
+ For example, a query string 
+\begin_inset Quotes eld
+\end_inset
+
+Barclays Bank PLC
+\begin_inset Quotes erd
+\end_inset
+
+ was taken from the body of the email and we found there are 11 emails wich
+ contain this string.
+ Thus, we input 
+\begin_inset Quotes eld
+\end_inset
+
+11
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+CounterSameContents
+\begin_inset Quotes erd
+\end_inset
+
+, which we will explain in the next subsection.
+ Query searches were resulted in 207 unique phishing emails.
+ At the end, in total we analyze 207 unique phishing emails in our corpus.
 \end_layout
 
 \begin_layout Subsection
@@ -304,7 +374,7 @@ sub:Stop-phishing-at
 
 , variables are needed to be statistically analyzed in the SPSS.
  Based on our findings in the literature survey on phishing email properties,
- 12 Variables were created as part of the methodology processes prior data
+ 25 Variables were created as part of the methodology processes prior data
  classification.
  Generic properties are depicted by the general structural phishing email
  properties except persuasion principles.
@@ -325,15 +395,6 @@ Mail ID
 Timestamps
 \emph default
 : Implies the date and time when the email is being reported [Scale measurement]
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Direct/Indirect
-\emph default
-: Whether the phishing email is directly from internal fraudehelpdesk system
- or from external [0 = Direct, 1= Indirect]
 \end_layout
 
 \begin_layout Enumerate
@@ -405,7 +466,7 @@ UseHTML [0 = No, 1 = Yes]
 \end_layout
 
 \begin_layout Enumerate
-IncludeImage [0 = No, 1 = Yes]
+IncludesImage [0 = No, 1 = Yes]
 \end_layout
 
 \end_deeper
@@ -414,7 +475,19 @@ IncludeImage [0 = No, 1 = Yes]
 \emph on
 ObfuscatedURL
 \emph default
-: Specifies whether a phishing email has obfuscatedURL [0 = No, 1 = Yes]
+: Specifies whether a phishing email has obfuscatedURL.
+ We have explained URL obfuscation in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:Stop-phishing-at
+\end_layout
+
+\end_inset
+
+ [0 = No, 1 = Yes]
 \end_layout
 
 \begin_layout Enumerate
@@ -422,7 +495,17 @@ ObfuscatedURL
 \emph on
 CountMessageReporter
 \emph default
-: A counter where the reporter includes extra information [Nominal measurement]
+: A counter where the reporter includes an extra information with the minimum
+ value 0.
+ For instance, A reporter said 
+\begin_inset Quotes eld
+\end_inset
+
+Geen spam, maar phishing!
+\begin_inset Quotes erd
+\end_inset
+
+, we put a value 1 in this variable [Nominal measurement]
 \end_layout
 
 \begin_layout Enumerate
@@ -533,15 +616,24 @@ CounterSameContents
  the same text in the body, value 3 means there are (3-1) duplicated emails.
 \end_layout
 
+\begin_layout Standard
+We have established variables based on phishing email properties.
+ Furthermore, we distinguished generic properties and persuasion properties.
+ Generic propeties of a phishing email is effected by these variables: attachmen
+ts, methods, contents, obfuscatedURL, target and reason.
+ On the other hand, persuasion properties effected by these variables: reciproca
+tion, consistency, socialproof, likeability, authority and scarcity.
+\end_layout
+
 \begin_layout Subsection
 Data Classification
 \end_layout
 
 \begin_layout Standard
 We classified our data accordingly into our variables.
- As a result, usable dataset has been made to be statistically analyzed.
+ As a result, usable dataset has been made to be analyzed.
  Data classification is conducted in a straightforward way.
- For example if phishing email has a PDF attachment, we put 
+ For example, a phishing email has a PDF attachment, we put 
 \begin_inset Quotes eld
 \end_inset
 
@@ -604,7 +696,7 @@ name "sub:cialdini-decision"
 Part of our analysis, we tried to synthesize phishing emails dataset with
  Cialdini’s principles titled “The science of persuasion”.
  The decision making and the rationale in this process are achieved based
- our perspective of Cialdini’s principles as follows:
+ our perspective of Cialdini’s principles in the following details.
 \end_layout
 
 \begin_layout Standard
@@ -624,8 +716,9 @@ key "cialdini:2001"
 .
  When a phisher sends an email containing a message that perceived as a
  request or obligation towards the recipient to “return the favor”.
- It might be normal for an individual to feel “obligated” to return the
- favor for things or information that he/she deemed to be valuable.
+ It might be natural for an individual to feel “obligated” to return the
+ favor for things or information that he/she is given and is deemed to be
+ valuable.
  For example in the phishing email context, when PayPal has detected there
  are suspicious activities on our account, we sometimes believe that PayPal
  has done a good job in detecting security risk on their system and we feel
@@ -797,7 +890,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename gfx/pseudo-cialdini.jpg
+	filename gfx/pseudo-cialdini-2.jpg
 	scale 30
 
 \end_inset
@@ -829,9 +922,20 @@ Integration pseudo-code of cialdini's principles
 \end_layout
 
 \begin_layout Standard
-High level pseudo-code in 
+We have made a flowchart
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Shapes and lines were created based on http://www.rff.com/how_to_draw_a_flowchart.h
+tm
+\end_layout
+
+\end_inset
+
+ in 
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -840,8 +944,7 @@ fig:Flowchart-cialdini
 
 \end_inset
 
- is made to illustrate our integration of cialdini's principles with the
- dataset.
+ to illustrate our integration of cialdini's principles with the dataset.
 \end_layout
 
 \begin_layout Subsection
@@ -853,7 +956,7 @@ In the previous section, we described the framework of our methodology in
  some detail.
  Until data classification, we have used Microsoft Excel to code our data.
  To perform the analyses, we transform the data into SPSS readable file.
- We record our data in 27 variables which could be expanded depending on
+ We record our data in 25 variables which could be expanded depending on
  our analyses.
  
 \end_layout
@@ -861,8 +964,27 @@ In the previous section, we described the framework of our methodology in
 \begin_layout Standard
 The data has been analyzed from mainly three different viewpoints; properties
  characteristics, persuasion principles characteristics and their relationships.
- We have used cross-tabulations for our analysis and our findings are presented
- in the next section in detail.
+ We used frequency analysis to answer questions related to occurences.
+ For instance, we used frequency analysis to answer the most targeted institutio
+n in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+chap:research-questions
+\end_layout
+
+\end_inset
+
+.
+ Furthermore, we used Pearson chi-square to test our hypotheses to discover
+ if there is a relationship between two variables.
+ If the resulted p-value is less than 0.05, 0.01, or 0.001, then we are confident
+ 95%, 99% and 99.9% respectively that the two choosen variables are having
+ a significant relationship.
+ By combining frequency analysis and chi-square test, we will see how they
+ can answer our research questions in the next section.
  As we mentioned in the previous section, our data classification resulted
  in 207 unique phishing emails.
 \end_layout
@@ -872,8 +994,7 @@ Results
 \end_layout
 
 \begin_layout Standard
-To answer the first research question, frequency analyses were conducted
- and will be explained in this section.
+In this section, we will discuss our findings in a considerable detail.
  When we look at the statistics, we find that 36.2% of the total phishing
  emails have an attachment(s) included within its content, while 63.8% of
  them do not have attachment.
@@ -886,7 +1007,7 @@ t, 78.7% are having ZIP attachment, 12% are having HTML attachment and 5.3%
  within its content is presence.
  
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -987,7 +1108,7 @@ PDF
 \begin_layout Plain Layout
 
 \size footnotesize
-Zip 
+ZIP 
 \end_layout
 
 \end_inset
@@ -1660,8 +1781,8 @@ status open
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="3">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
