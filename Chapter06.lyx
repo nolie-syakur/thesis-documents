@@ -242,7 +242,7 @@ RQ2
  Moreover, our result on authority principle and image(s) presence in a
  phishing email suggests that there is no association between these two
  variables.
- This indicates that authority is indeed a dominating principle and have
+ This indicates that authority is indeed the most used principle and have
  higher chance to be the main technique of a phishing email.
  When we look at financial targeted sector and scarcity principle, we find
  that both financial and non financial targeted emails are less chance to
@@ -256,10 +256,10 @@ RQ2
  is a highly significant relationship between them.
  This means that if a phishing email involve in account related reason,
  the higher chance of scarcity principle as a persuasion technique.
- Our next finding for relationship between e-commerce/retails targeted emails
- indicates that this sector contributes less number of likeability principle
- as both e-commerce/retails and non-ecommerce/retails targeted emails have
- high number of non-likeability principle.
+ Our next finding on the relationship between e-commerce/retails targeted
+ emails, it indicates that this sector contributes less number of likeability
+ principle as both e-commerce/retails and non-ecommerce/retails targeted
+ emails have high number of non-likeability principle.
  Similarly, our data suggests that there are no significant association
  between social media targeted emails and social proof principle.
  However, we find that there is a significant relationship between the use
@@ -268,9 +268,9 @@ RQ2
 \end_layout
 
 \begin_layout Standard
-Another observation on authority and scarcity principle suggests that there
- is no significant association between them, as both authoritative and non-autho
-ritative emails contribute less percentage on scarcity principle.
+Another observation on authority and scarcity principle, it suggests that
+ there is no significant association between them, as both authoritative
+ and non-authoritative emails contribute less percentage on scarcity principle.
  We have also observed whether likeability and consistency have a relationship,
  our data suggests that there is a significant association between them.
  Our result signifies that the higher likeability, the lower chance to have
@@ -289,7 +289,7 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -599,7 +599,7 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+X
 \end_layout
 
 \end_inset
@@ -608,7 +608,7 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-X
+
 \end_layout
 
 \end_inset
@@ -1031,8 +1031,8 @@ Overview of verified hypotheses
 \end_layout
 
 \begin_layout Standard
-Based on our findings, although there are eight hypotheses in respect of
- persuasive principles are rejected, two of them are accepted.
+Based on our findings, although there are seven hypotheses in respect of
+ persuasive principles are rejected, three of them are accepted.
  This concludes the extent of involvement of overall persuasive principles
  is low in term of the relationship to generic structural properties of
  a phishing email.
@@ -1042,7 +1042,7 @@ Based on our findings, although there are eight hypotheses in respect of
  principle.
  
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -1054,10 +1054,12 @@ tab:Overview-of-verified
  summarizes the overview of verified hypotheses.
  These conclude scarcity principle has a high involvement in term of both
  administrator target and account related phish.
- In addition, likeability principle has a high involvement in term of HTML
- usage in a phishing email.
- From our conclusions, we recommend a recipient to scrutinize when an email
- requires to respond to scarce or turn-into scarce items or things or privileges.
+ In addition, while likeability principle has a significant association
+ in term of HTML usage, however, likeability principle has a weak involvement
+ in term of HTML usage in a phishing email.
+ Thus, from our conclusions, we recommend a recipient to scrutinize when
+ an email requires to respond to scarce or turn-into scarce items or things
+ or privileges.
  We also recommend not to be negligent when an email is coming from others
  who they find attractive or are perceived as credible and having special
  expertise.

@@ -956,14 +956,15 @@ In the previous section, we described the framework of our methodology in
  some detail.
  Until data classification, we have used Microsoft Excel to code our data.
  To perform the analyses, we transform the data into SPSS readable file.
- We record our data in 25 variables which could be expanded depending on
- our analyses.
- 
+ We initially record our data in 25 variables which could be expanded depending
+ on our analyses, for example, selecting cases which have all instructions
+ or contents.
 \end_layout
 
 \begin_layout Standard
-The data has been analyzed from mainly three different viewpoints; properties
- characteristics, persuasion principles characteristics and their relationships.
+The data has been analyzed by quantitative analysis from mainly three different
+ viewpoints; general properties characteristics, persuasion principles character
+istics and their relationships.
  We used frequency analysis to answer questions related to occurences.
  For instance, we used frequency analysis to answer the most targeted institutio
 n in 
@@ -979,14 +980,23 @@ chap:research-questions
 
 .
  Furthermore, we used Pearson chi-square to test our hypotheses to discover
- if there is a relationship between two variables.
- If the resulted p-value is less than 0.05, 0.01, or 0.001, then we are confident
+ if there is a significant relationship between two variables.
+ If the resulted p-value is less than 0.05, 0.01, or 0.001, thus we are confident
  95%, 99% and 99.9% respectively that the two choosen variables are having
  a significant relationship.
  By combining frequency analysis and chi-square test, we will see how they
  can answer our research questions in the next section.
- As we mentioned in the previous section, our data classification resulted
- in 207 unique phishing emails.
+ As our data is not continuous (i.e.
+ interval or ratio) but nominal (i.e.
+ categorical), therefore, we do not analyze our data by pearson correlation.
+ However, to test the strenght of association involves nominal variables,
+ the appropriate measurements are using phi and Cramer's V.
+ Phi is used for 2 by 2 table and Cramer's V can be used for more than 2
+ by 2 table.
+ Since our data will be analyzed on 2 by 2 table, therefore, Phi measurements
+ will be used.
+ Values close to 0 indicate a very weak relationship, and values close to
+ -1 or +1 indicate a very strong negative or positive relationship respectively.
 \end_layout
 
 \begin_layout Section
@@ -995,13 +1005,12 @@ Results
 
 \begin_layout Standard
 In this section, we will discuss our findings in a considerable detail.
- When we look at the statistics, we find that 36.2% of the total phishing
- emails have an attachment(s) included within its content, while 63.8% of
- them do not have attachment.
+ We find that 36.2% of the total phishing emails have attachment(s) included
+ within its content, On the other hand, 63.8% of them do not have attachment.
  In addition, we also look at what types of attachment does one has.
- Of the total emails having attachment, we find that 4% are having PDF attachmen
-t, 78.7% are having ZIP attachment, 12% are having HTML attachment and 5.3%
- of them are having unknown attachment.
+ Of the total emails having attachment, we find that 4% have PDF attachment,
+ 78.7% have ZIP attachment, 12% have HTML attachment and 5.3% of them have
+ unknown attachment.
  We are not sure what type of attachments they have, but we determined that
  the attachment element is still there if the request to open attachment
  within its content is presence.
@@ -1016,9 +1025,7 @@ tab:Attachment(s)-analysis
 
 \end_inset
 
- illustrates our finding on attachments variable.
- It is noteworthy that one email can have more than one attachment with
- different types.
+ illustrates our finding on attachment variables.
 \end_layout
 
 \begin_layout Standard
@@ -1040,7 +1047,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-Attachment
+Type of attachment
 \end_layout
 
 \end_inset
@@ -1063,39 +1070,6 @@ Frequency
 
 \shape smallcaps
 Percent
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-PDF 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
 \end_layout
 
 \end_inset
@@ -1207,6 +1181,41 @@ Unknown
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+PDF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -1281,15 +1290,22 @@ Attachment analysis
 \end_layout
 
 \begin_layout Standard
-When we look at the methods used in the statistics, we find that 37.2% of
- the reported phishing emails were requesting to open attachment, 52.7% requestin
-g to click URL(s), 16.9% were requesting for email reply and 4.3% were requesting
- to call by phone.
+When we look at what are the instructions or methods used in the dataset.
+ We find 202 emails or 97.6% of all total reported phishing emails with clear
+ instructions; whether it requests to click URL(s), request to open attachment,
+ request to reply by email or request to respond by phone calling.
+ we find that 37.2% of the total phishing emails were requesting to open
+ attachment, 52.7% requesting to click URL(s), 16.9% were requesting for email
+ reply and 4.3% were requesting to call by phone.
  Moreover.
  One single email can request multiple methods.
+ If we look deeper, we have 8 valid emails or 3.9% of all emails which have
+ both request to open attachment and request to click URL.
+ However, we do not find any email which request all instructions in the
+ content.
  
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1299,6 +1315,9 @@ tab:Methods-analysis
 \end_inset
 
  illustrates our findings in respect of methods are used.
+ In addition, of all phishing emails which have clear instructions, 54%
+ request to click URL(s), 38.1% request to open attachment(s), 17.3% request
+ for email reply and 4.5% request to respond by phone calling.
 \end_layout
 
 \begin_layout Standard
@@ -1450,8 +1469,6 @@ Email Reply
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size small
 16.9
 \end_layout
 
@@ -1507,7 +1524,8 @@ name "tab:Methods-analysis"
 
 \end_inset
 
-Method analysis
+Method analysis of all total emails (one email can contain more than one
+ instructions so the total here does not sum up to 100%)
 \end_layout
 
 \end_inset
@@ -1534,12 +1552,12 @@ Method analysis
 \begin_layout Standard
 As we discussed before, we have also analyzed the content of phishing emails
  in our corpus.
- We look at whether it has URL(s), using HTML code or include image within
- its content.
+ We look at whether it has URL(s), using HTML code or includes image(s)
+ within its content.
  We find that 60.4% have URL(s) while 39.6% do not have URL.
- 66.2% of the emails used HTML code while 33.8% do not use HTML code within
+ 66.2% of the emails use HTML code while 33.8% do not use HTML code within
  its content.
- We find 35.3% of them includes image(s) while 64.7% do not include image.
+ We find 35.3% of them include image(s) while 64.7% do not include image.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -1552,6 +1570,13 @@ tab:Content-analysis
 \end_inset
 
  highlights our findings in respect of content analysis.
+ The percentage depicted of all total emails.
+ If we look further of all emails which utilized HTML, 120 emails or 87.6%
+ of them have provided URL(s) and 73 or 53.3% of them include image(s).
+ Furthermore, of all 73 emails that include image, 67 emails or 91.8% of
+ them have provided URL(s).
+ Based on this result, we know that one variable overlap with other variables.
+ Therefore, the total percentage does not sum up to 100%.
 \end_layout
 
 \begin_layout Standard
@@ -1607,6 +1632,39 @@ Percent
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+utilizing HTML
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+137
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+66.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -1634,39 +1692,6 @@ URL presence
 
 \begin_layout Plain Layout
 60.4
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-utilizing HTML
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-137
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-66.2
 \end_layout
 
 \end_inset
@@ -1721,7 +1746,8 @@ name "tab:Content-analysis"
 
 \end_inset
 
-Content analysis
+Content analysis of all total emails (one email can contain more than one
+ content variables so the total here does not sum up to 100%)
 \end_layout
 
 \end_inset
@@ -1753,13 +1779,13 @@ tab:Target-analysis
 
 \end_inset
 
-, we find that 37.7% were targeting financial institutions, 19.3% were targeting
- e-commerce or retails, 14.5% were impersonating administrator while 28.5%
- of them consist of social media, postal services, government, travel agencies,
- ISP, industrials and non-existence/individuals impersonation.
+, we find that financial sector is the most targeted sector and ISP is the
+ least common target in our corpus.
+ Furthermore, E-Commerce/retails, administrator and government allocated
+ in the second, third and fourth respectively as the most targeted sectors.
  
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1768,7 +1794,22 @@ fig:target-analysis
 
 \end_inset
 
- illustrates the pie chart of target analysis.
+ illustrates the pie chart of target analysis derived from 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Target-analysis
+\end_layout
+
+\end_inset
+
+.
+ As one email does not have more than 1 targeted sector, therefore the total
+ sums up to 100%.
+ Note that, we initially had 92 targets in our corpus and we had to shrinked
+ it down into 10 target sectors in our data classification.
 \end_layout
 
 \begin_layout Standard
@@ -2139,7 +2180,7 @@ Industrial
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2150,7 +2191,7 @@ ISP
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2161,7 +2202,7 @@ ISP
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2216,6 +2257,10 @@ Total
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2296,6 +2341,8 @@ tab:Reason-classification
  reason and 11.1% are document related reason.
  In addition, only 9.7% are product and services reason and only 4.8% are
  social reason.
+ This suggests that account related is the most common pretext to manipulate
+ recipients in our corpus while social is evidently the least common pretext.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -2307,7 +2354,18 @@ fig:reason-analysis
 
 \end_inset
 
- illustrates the bar chart of the reason classification.
+ illustrates the bar chart of the reason classification derived from 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Reason-classification
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2493,7 +2551,7 @@ Product and services
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2502,7 +2560,7 @@ Social
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2511,7 +2569,7 @@ Social
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2590,7 +2648,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename gfx/reasons_14august2014_bar chart1.jpg
+	filename gfx/reasons_8september2014_bar chart11.jpg
 	scale 50
 
 \end_inset
@@ -2640,6 +2698,7 @@ tab:Persuasion-principle-analysis
  We find 9.7% are having reciprocation principle and 5.3% of them are having
  social proof principle.
  It is important to know that one email can have multiple principles.
+ Therefore, the total percentage does not sum up to 100%.
 \end_layout
 
 \begin_layout Standard
@@ -2701,7 +2760,7 @@ Percent
 \begin_layout Plain Layout
 
 \size small
-Reciprocation
+Authority
 \end_layout
 
 \end_inset
@@ -2710,9 +2769,7 @@ Reciprocation
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size small
-20
+199
 \end_layout
 
 \end_inset
@@ -2721,7 +2778,7 @@ Reciprocation
 \begin_inset Text
 
 \begin_layout Plain Layout
-9.7
+96.1
 \end_layout
 
 \end_inset
@@ -2734,7 +2791,7 @@ Reciprocation
 \begin_layout Plain Layout
 
 \size small
-Consistency
+Scarcity
 \end_layout
 
 \end_inset
@@ -2743,9 +2800,7 @@ Consistency
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size small
-36
+85
 \end_layout
 
 \end_inset
@@ -2754,7 +2809,7 @@ Consistency
 \begin_inset Text
 
 \begin_layout Plain Layout
-17.4
+41.1
 \end_layout
 
 \end_inset
@@ -2767,45 +2822,12 @@ Consistency
 \begin_layout Plain Layout
 
 \size small
-Social proof
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-11
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-5.3
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 Likeability
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2814,7 +2836,7 @@ Likeability
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2829,7 +2851,7 @@ Likeability
 \begin_inset Text
 
 \begin_layout Plain Layout
-Authority
+Consistency
 \end_layout
 
 \end_inset
@@ -2838,7 +2860,7 @@ Authority
 \begin_inset Text
 
 \begin_layout Plain Layout
-199
+36
 \end_layout
 
 \end_inset
@@ -2847,7 +2869,36 @@ Authority
 \begin_inset Text
 
 \begin_layout Plain Layout
-96.1
+17.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reciprocation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.7
 \end_layout
 
 \end_inset
@@ -2858,7 +2909,7 @@ Authority
 \begin_inset Text
 
 \begin_layout Plain Layout
-Scarcity
+Social proof
 \end_layout
 
 \end_inset
@@ -2867,7 +2918,7 @@ Scarcity
 \begin_inset Text
 
 \begin_layout Plain Layout
-85
+11
 \end_layout
 
 \end_inset
@@ -2876,7 +2927,7 @@ Scarcity
 \begin_inset Text
 
 \begin_layout Plain Layout
-41.1
+5.3
 \end_layout
 
 \end_inset
@@ -2896,7 +2947,7 @@ name "tab:Persuasion-principle-analysis"
 
 \end_inset
 
-Persuasion principle analysis
+Persuasion principles analysis
 \end_layout
 
 \end_inset
@@ -2910,24 +2961,30 @@ Persuasion principle analysis
 \end_layout
 
 \begin_layout Standard
-Now we know that authority principle is the dominant principle in our corpus.
- As we discussed in 
+Based on the result of persuasion principles analysis, we know that authority
+ principle is the most used principle in our corpus.
+ Now, we look at the relationship between government and authority principle
+ to test hypothesis 1.
+ We find that 95.9% of non-government targeted emails have authority principle
+ and 4.1% of them do not impersonate government nor having authority principle.
+ We find 100% of government targeted emails are having authority principle.
+ On the other hand, we find 93% of all authority emails are non government
+ targeted email and 7% of them are government targeted emails.
+ 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-chap:research-questions
+tab:Government-and-authority
 \end_layout
 
 \end_inset
 
-, we have presented the rationale behind our hypotheses and we would test
- .
- When we look at the association between government and authority principle,
- we find that 95.9% of non-government targeted emails have authority principle
- and 4.1% of them do not impersonate government nor having authority principle.
- We find 100% of government targeted emails are having authority principle.
+ depicted the relationship between government targeted email and authority
+ principle.
+ Furthermore, of all phishing emails, 6.8% of them which have both authority
+ and government targeted sector.
  A chi-square test was performed and we find that there is no significant
  association between government sector and authority principle, 
 \begin_inset Formula $X^{2}(1)=0.604,p=0.473$
@@ -2953,10 +3010,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -2969,15 +3025,6 @@ status open
 \shape smallcaps
 \size footnotesize
 Type of Target
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -3034,19 +3081,7 @@ Non-government
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within government
-\end_layout
-
-\end_inset
-
-
+8
 \end_layout
 
 \end_inset
@@ -3057,18 +3092,7 @@ within government
 \begin_layout Plain Layout
 
 \size footnotesize
-4.1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-95.9
+185
 \end_layout
 
 \end_inset
@@ -3086,72 +3110,7 @@ within government
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within authority
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-100
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-93
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3162,18 +3121,7 @@ Government
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-A
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3184,18 +3132,18 @@ A
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-100
+14
 \end_layout
 
 \end_inset
 </cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3208,60 +3156,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-7
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3272,16 +3167,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3292,7 +3178,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3303,7 +3189,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3323,15 +3209,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -3374,20 +3251,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Government and authority in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Government-and-authority"
+
+\end_inset
+
+Government sector and authority principle
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3435,9 +3309,11 @@ Government and authority in %
 
 \begin_layout Standard
 When we look at the relationship between phishing emails which were impersonatin
-g administrator and authority principle, we find that 96.7% of administrator
- targeted emails are having authority principle and only 3.3% of them do
- not have authority principle.
+g administrator and authority principle to test hypothesis 2.
+ We find that 96.7% of administrator targeted emails have authority principle
+ and 96% of non-administrator emails have authority principle.
+ On the other hand, 85.4% of all authority emails are non administrator and
+ 14.6% of them are administrator targeted emails.
  A chi-square test was performed and we find that there is no significant
  relationship between administrator target and authority principle, 
 \family roman
@@ -3458,6 +3334,18 @@ g administrator and authority principle, we find that 96.7% of administrator
 .
  Since p is not less than 0.05, therefore we reject hypothesis 2.
  
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Administrator-sector-and
+\end_layout
+
+\end_inset
+
+ highlights the relationship between administrator sector and authority
+ principle.
 \end_layout
 
 \begin_layout Standard
@@ -3476,10 +3364,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -3492,15 +3379,6 @@ status open
 \shape smallcaps
 \size footnotesize
 Type of Target
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -3557,19 +3435,7 @@ Non-administrator
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within administrator
-\end_layout
-
-\end_inset
-
-
+7
 \end_layout
 
 \end_inset
@@ -3580,18 +3446,7 @@ Within administrator
 \begin_layout Plain Layout
 
 \size footnotesize
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-96
+170
 \end_layout
 
 \end_inset
@@ -3609,72 +3464,7 @@ Within administrator
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within authority
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-87
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-85.4
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3685,40 +3475,29 @@ Administrator
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+1
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-3.3
+29
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-96.7
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3731,60 +3510,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-12.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-14.6
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3795,16 +3521,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3815,7 +3532,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3826,7 +3543,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3846,15 +3563,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -3897,20 +3605,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Administrator and authority in % 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Administrator-sector-and"
+
+\end_inset
+
+Administrator sector and authority principle 
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3957,11 +3662,16 @@ Administrator and authority in %
 \end_layout
 
 \begin_layout Standard
-Now we look at the association between financial sector and scarcity principle.
+Now we look at the association between financial sector and scarcity principle
+ to test hypothesis 3.
  We find that 39.7% of all phishing emails which target financial sector
  have scarcity principle while 60.3% do not have scarcity principle.
- We perfomed chi-square test and we find that there is no significant correlatio
-n between financial sector and scarcity principle, 
+ Furthermore, 41.9% of all non financial targeted emails have scarcity principle,
+ while 58.1% of them do not have scarcity principle.
+ On the other hand, 63.5% of scarcity emails is non financial targeted emails,
+ inversively 36.5% of them is financial targeted emails.
+ We perfomed a chi-square test and we find that there is no significant
+ association between financial sector and scarcity principle, 
 \family roman
 \series medium
 \shape up
@@ -3979,6 +3689,19 @@ n between financial sector and scarcity principle,
 
 .
  Since p is not less than 0.05, thus, we reject hypothesis 3.
+ 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Financial-sector-and
+\end_layout
+
+\end_inset
+
+ illustrates the relationship between financial targeted emails and scarcity
+ principle.
 \end_layout
 
 \begin_layout Standard
@@ -3997,10 +3720,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -4012,15 +3734,6 @@ status open
 
 \size footnotesize
 Type of Target
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -4077,19 +3790,7 @@ Non-financial
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within financial
-\end_layout
-
-\end_inset
-
-
+75
 \end_layout
 
 \end_inset
@@ -4100,18 +3801,7 @@ Within financial
 \begin_layout Plain Layout
 
 \size footnotesize
-58.1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-41.9
+54
 \end_layout
 
 \end_inset
@@ -4129,72 +3819,7 @@ Within financial
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within scarcity
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-61.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-63.5
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4205,40 +3830,29 @@ Financial
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+47
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-60.3
+31
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-39.7
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4251,60 +3865,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-38.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-36.5
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4315,16 +3876,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4335,7 +3887,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4346,7 +3898,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4366,15 +3918,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -4417,20 +3960,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Financial and scarcity in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Financial-sector-and"
+
+\end_inset
+
+Financial sector and scarcity principle
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4477,9 +4017,14 @@ Financial and scarcity in %
 \end_layout
 
 \begin_layout Standard
-We look at association between phishing emails which targeting e-commerce/retail
-s and likeability principle, we find that 20% of them have likeability principle
- while 80% of them do not have likeability principle.
+We look at the association between phishing emails which are targeting e-commerc
+e/retails and likeability principle to test hypothesis 4.
+ We find that 20% of e-commerce/retails targeted emails have likeability
+ principle.
+ Furthermore, 22.2% of non e-commerce/retails targeted emails have likeability
+ principle.
+ On the other hand, only 17.8% of all likeability emails are e-commerce/retails
+ targeted emails.
  A chi-square test was performed and we find that there is no significant
  association between phishing emails targeting e-commerce/retails and likeabilit
 y principle, 
@@ -4500,6 +4045,19 @@ y principle,
 
 .
  Since p is not less than 0.05, therefore we reject hypothesis 4.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:E-commerce/retails-sector-and
+\end_layout
+
+\end_inset
+
+ illustrates the relationship between e-commerce/retails targeted sector
+ and likeability principle.
 \end_layout
 
 \begin_layout Standard
@@ -4518,10 +4076,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -4533,15 +4090,6 @@ status open
 
 \size footnotesize
 Type of Target
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -4598,19 +4146,7 @@ Non-ecomm/retails
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within ecomm/retails
-\end_layout
-
-\end_inset
-
-
+130
 \end_layout
 
 \end_inset
@@ -4621,18 +4157,7 @@ Within ecomm/retails
 \begin_layout Plain Layout
 
 \size footnotesize
-77.8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-22.2
+37
 \end_layout
 
 \end_inset
@@ -4650,72 +4175,7 @@ Within ecomm/retails
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within likeability
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-80.2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-82.2
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4726,40 +4186,29 @@ Ecomm/retails
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+32
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-80
+8
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-20
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4772,60 +4221,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-19.8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-17.8
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4836,16 +4232,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4856,7 +4243,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4867,7 +4254,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4887,15 +4274,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -4938,20 +4316,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-E-commerce/retails and likeability in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:E-commerce/retails-sector-and"
+
+\end_inset
+
+E-commerce/retails sector and likeability principle
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4999,9 +4374,12 @@ E-commerce/retails and likeability in %
 
 \begin_layout Standard
 Now we look at the association between phishing emails targeting social
- networks and social proof principle.
- We find that only 18.2% of them have social proof principle while 81.8% of
- them do not have social proof principle.
+ networks and social proof principle to test hypothesis 5.
+ We find that 18.2% of social media targeted emails have social proof principle.
+ Furthermore, 4.6% of non social media targeted emails have social proof
+ principle.
+ On the other hand, 18.2% of all social proof email is social media targeted
+ emails and 81.8% of them are not social media targeted emails.
  A chi-square test was performed and we find that there is no significant
  association between phishing emails targeting social networks and social
  proof principle, 
@@ -5022,6 +4400,18 @@ Now we look at the association between phishing emails targeting social
 
 .
  Therefore since p is not less than 0.05, we reject hypothesis 5.
+ 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Social-media-sector
+\end_layout
+
+\end_inset
+
+ depicted the relationship between social media and social proof principle.
 \end_layout
 
 \begin_layout Standard
@@ -5040,10 +4430,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -5055,15 +4444,6 @@ status open
 
 \size footnotesize
 Type of Target
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -5120,19 +4500,7 @@ Non-social media
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within social media
-\end_layout
-
-\end_inset
-
-
+187
 \end_layout
 
 \end_inset
@@ -5143,18 +4511,7 @@ Within social media
 \begin_layout Plain Layout
 
 \size footnotesize
-95.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-4.6
+9
 \end_layout
 
 \end_inset
@@ -5172,72 +4529,7 @@ Within social media
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within social proof
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-95.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-81.8
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5248,40 +4540,29 @@ Social media
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+9
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-81.8
+2
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-18.2
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5294,60 +4575,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-4.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-18.2
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5358,16 +4586,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5378,7 +4597,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5389,7 +4608,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5409,15 +4628,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -5460,20 +4670,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Social media and social proof in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Social-media-sector"
+
+\end_inset
+
+Social media sector and social proof
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5521,9 +4728,20 @@ Social media and social proof in %
 
 \begin_layout Standard
 Furthermore, we look at the relationship between authority principle and
- scarcity principle.
- Based on the descriptive analysis, we find that 41.7% of authoritative emails
- have scarcity principle while 58.3% do not have scarcity principle.
+ scarcity principle to test hypothesis 6.
+ Based on the result in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Authority-and-scarcity
+\end_layout
+
+\end_inset
+
+, we find that 41.7% of authoritative emails have scarcity principle while
+ 58.3% do not have scarcity principle.
  However, we find that 97.6% of all scarcity emails have authority principle
  and only 2.4% of them do not have authority principle.
  A chi-square test suggests that there is no significant relationship between
@@ -5563,23 +4781,13 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -5641,19 +4849,7 @@ Non-authority
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within authority
-\end_layout
-
-\end_inset
-
-
+6
 \end_layout
 
 \end_inset
@@ -5664,18 +4860,7 @@ Within authority
 \begin_layout Plain Layout
 
 \size footnotesize
-75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-25
+2
 \end_layout
 
 \end_inset
@@ -5693,72 +4878,7 @@ Within authority
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within scarcity
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-4.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-2.4
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5769,40 +4889,29 @@ Authority
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+116
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-58.3
+83
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-41.7
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5815,60 +4924,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-95.1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-97.6
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5879,16 +4935,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5899,7 +4946,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5910,7 +4957,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5930,15 +4977,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -5981,20 +5019,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Authority and scarcity in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Authority-and-scarcity"
+
+\end_inset
+
+Authority and scarcity
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6042,11 +5077,24 @@ Authority and scarcity in %
 
 \begin_layout Standard
 We look at the relationship between likeability principle and consistency
- principle.
- Based on our result, we find that only 6.7% of likeability emails have consisten
-cy principle while 93.3% of them do not have consistency principle.
+ principle to test hypothesis 7.
+ Based on our result in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Likeability-and-consistency
+\end_layout
+
+\end_inset
+
+, we find that only 6.7% of likeability emails have consistency principle
+ while 93.3% of them do not have consistency principle.
  In addition, we find that 20.4% of non likeability emails have consistency
  principle while 79.6% of them do not have likeability principle.
+ On the other hand, 8.3% of all consistency emails are likeability emails
+ while 24.6% of non consistency emails are likeability emails.
  A chi-square test suggests that there is a significant relationship between
  likeability principle and consistency principle 
 \family roman
@@ -6065,12 +5113,12 @@ cy principle while 93.3% of them do not have consistency principle.
 \end_inset
 
 .
- Pearson correlation suggests a negative correlation at -0.149 that indicate
- as one variable increases, the other variable decrease.
+ Phi measurement suggests a very weak negative (inverse) relationship at
+ -0.149 that indicate as one variable increases, the other variable decrease.
  This suggests, that higher likeability principle, the less chance of consistenc
 y principle in a phishing email.
- Although there is an association between these principle, however, it does
- not support hypothesis 7.
+ Thus we accept hypothesis 7 that says the occurence of likeability principle
+ will impact the occurence of consistency.
 \end_layout
 
 \begin_layout Standard
@@ -6089,23 +5137,13 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -6167,19 +5205,7 @@ Non-likeability
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within likeability
-\end_layout
-
-\end_inset
-
-
+129
 \end_layout
 
 \end_inset
@@ -6190,18 +5216,7 @@ Within likeability
 \begin_layout Plain Layout
 
 \size footnotesize
-79.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-20.4
+33
 \end_layout
 
 \end_inset
@@ -6219,72 +5234,7 @@ Within likeability
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within consistency
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-75.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-91.7
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6295,40 +5245,29 @@ Likeability
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+42
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-93.3
+3
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-6.7
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6341,60 +5280,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-24.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-8.3
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6405,16 +5291,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6425,7 +5302,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6436,7 +5313,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6456,15 +5333,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -6507,20 +5375,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Likeability and consistency in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Likeability-and-consistency"
+
+\end_inset
+
+Likeability and consistency
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6578,10 +5443,21 @@ Likeability and consistency in %
 \end_layout
 
 \begin_layout Standard
-Now we move on to find out the correlation between URL presence and obfuscated
- URL in our corpus.
- Based on our result, 76% of URL(s) were obfuscated while 24% were not.
- A chi-square test suggest that there is a highly significant association
+Now we move on to find out the association between URL presence and obfuscated
+ URL in our corpus to test hypothesis 8.
+ Based on our result in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:URL-presence-and
+\end_layout
+
+\end_inset
+
+, we find 76% of URL(s) were obfuscated while 24% were not.
+ A chi-square test suggests that there is a highly significant association
  between URL presence and obfuscated URL, 
 \family roman
 \series medium
@@ -6595,12 +5471,12 @@ Now we move on to find out the correlation between URL presence and obfuscated
 \noun off
 \color none
 
-\begin_inset Formula $X^{2}(1)=115.191,p=0.000$
+\begin_inset Formula $X^{2}(1)=115.191,p<0.001$
 \end_inset
 
 .
- Moreover, pearson correlation suggests a positive correlation at 0.756.
- This indicates a strong correlation between them.
+ Moreover, Phi measurement suggests a strong positive relationship at 0.746.
+ This indicates a strong relationship between them.
  Therefore, we accept hypothesis 8.
 \end_layout
 
@@ -6620,10 +5496,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -6635,15 +5510,6 @@ status open
 
 \size footnotesize
 URL
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -6700,30 +5566,7 @@ Not exist
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within the URL presence variable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-100
+82
 \end_layout
 
 \end_inset
@@ -6752,72 +5595,7 @@ within the URL presence variable
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Within the obfuscated URL variable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-73.2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6828,40 +5606,29 @@ Exist
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+30
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-24
+95
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-76
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6874,60 +5641,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-26.8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-100
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6938,16 +5652,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6958,7 +5663,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6969,7 +5674,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6989,15 +5694,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -7040,20 +5736,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-URL presence and obfuscated URL in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:URL-presence-and"
+
+\end_inset
+
+URL presence and obfuscated URL
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -7112,11 +5805,22 @@ URL presence and obfuscated URL in %
 
 \begin_layout Standard
 We look at the relationship between URL presence and the emails which were
- requesting to click URL.
+ requesting to click URL in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:URL-presence-and-1
+\end_layout
+
+\end_inset
+
+ to test hypothesis 9.
  We find 87.2% of phishing emails which have URL also requested to click
  it, while only 12.8% do not request to click.
- A chi-square test were performed and suggests that there is a highly significan
-t relationship between URL presence and request to click URL, 
+ A chi-square test was performed and suggests that there is a highly significant
+ relationship between URL presence and request to click URL, 
 \family roman
 \series medium
 \shape up
@@ -7129,13 +5833,13 @@ t relationship between URL presence and request to click URL,
 \noun off
 \color none
 
-\begin_inset Formula $X^{2}(1)=151.034,p=0.000$
+\begin_inset Formula $X^{2}(1)=151.034,p<0.001$
 \end_inset
 
 .
- A pearson correlation suggests that they have strong positive correlation
+ Phi measurement suggests that they have a strong positive relationship
  at 0.854.
- Thus, this data support hypothesis 9.
+ Thus, this data supports hypothesis 9.
 \end_layout
 
 \begin_layout Standard
@@ -7154,10 +5858,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -7169,15 +5872,6 @@ status open
 
 \size footnotesize
 URL
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -7234,30 +5928,7 @@ Not exist
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within the URL presence variable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-100
+82
 \end_layout
 
 \end_inset
@@ -7286,72 +5957,7 @@ within the URL presence variable
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within the request to click URL variable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-83.7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7362,40 +5968,29 @@ Exist
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+16
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-12.8
+109
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-87.2
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7408,60 +6003,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-16.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-100
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7472,16 +6014,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7492,7 +6025,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7503,7 +6036,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7523,15 +6056,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -7574,20 +6098,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-URL presence and Request to click URL in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:URL-presence-and-1"
+
+\end_inset
+
+URL presence and Request to click URL
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -7646,10 +6167,22 @@ URL presence and Request to click URL in %
 
 \begin_layout Standard
 Similarly, We look at the association between the email that includes attachment
- and the emails which were requesting to open attachment.
- We find 96% of phishing emails which include attachment also requested
+ and the emails which were requesting to open attachment to test hypothesis
+ 10.
+ Based on our result in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Includes-attachment-and
+\end_layout
+
+\end_inset
+
+, We find 96% of phishing emails which include attachment also requested
  to open it, while only 4% do not request to open the attachment.
- A chi-square test were performed and suggests that there is a significant
+ A chi-square test was performed and suggests that there is a significant
  relationship between URL presence and request to click URL, 
 \family roman
 \series medium
@@ -7663,11 +6196,11 @@ Similarly, We look at the association between the email that includes attachment
 \noun off
 \color none
 
-\begin_inset Formula $X^{2}(1)=174.079,p=0.000$
+\begin_inset Formula $X^{2}(1)=174.079,p<0.001$
 \end_inset
 
 .
- A pearson correlation suggests that they have strong positive correlation
+ Phi measurement suggests that they have a strong positive relationship
  at 0.917.
  Therefore, we accept hypothesis 10.
 \end_layout
@@ -7688,10 +6221,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -7703,15 +6235,6 @@ status open
 
 \size footnotesize
 Attachment
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -7768,19 +6291,7 @@ Not exist
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within attachment included variable
-\end_layout
-
-\end_inset
-
-
+127
 \end_layout
 
 \end_inset
@@ -7791,18 +6302,7 @@ within attachment included variable
 \begin_layout Plain Layout
 
 \size footnotesize
-96.2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-3.8
+5
 \end_layout
 
 \end_inset
@@ -7820,72 +6320,7 @@ within attachment included variable
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within the request to open attachment variable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-97.7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-6.5
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7896,40 +6331,29 @@ Exist
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+3
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-4
+72
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-96
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7942,60 +6366,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-2.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-93.5
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8006,16 +6377,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8026,7 +6388,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8037,7 +6399,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8057,15 +6419,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -8108,20 +6461,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Include attachment and request to open attachment in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Includes-attachment-and"
+
+\end_inset
+
+Includes attachment and request to open attachment
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -8180,10 +6530,23 @@ Include attachment and request to open attachment in %
 
 \begin_layout Standard
 We look at the relationship between authority principle and the emails which
- include an image(s).
- We find 35.7% of authoritative emails have image, while 64.3% of them do
- not include an image.
- A chi-square test were performed and suggests that there is no significant
+ include an image(s) to test hypothesis 11.
+ Based on our result in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Authority-and-image
+\end_layout
+
+\end_inset
+
+, we find 35.7% of authoritative emails include image(s), while 25% of non
+ authority emails include image(s).
+ On the other hand, 97.3% of emails which include image is authority emails
+ and 95.5% of emails which do not include image(s) is authority emails.
+ A chi-square test was performed and suggests that there is no significant
  relationship between authority principle and image presence, 
 \family roman
 \series medium
@@ -8201,9 +6564,7 @@ We look at the relationship between authority principle and the emails which
 \end_inset
 
 .
- A pearson correlation also suggests that they were not strongly correlated
- at 0.043.
- Thus, this data rejects hypothesis 11.
+ Thus, based on this result, we reject hypothesis 11.
 \end_layout
 
 \begin_layout Standard
@@ -8222,10 +6583,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -8237,15 +6597,6 @@ status open
 
 \size footnotesize
 Cialdini's principle
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -8302,19 +6653,7 @@ Non-authority
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within authority
-\end_layout
-
-\end_inset
-
-
+6
 \end_layout
 
 \end_inset
@@ -8325,18 +6664,7 @@ within authority
 \begin_layout Plain Layout
 
 \size footnotesize
-75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-25
+2
 \end_layout
 
 \end_inset
@@ -8354,72 +6682,7 @@ within authority
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within InlcudeImage variable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-4.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-2.7
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8430,40 +6693,29 @@ Authority
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+128
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-64.3
+71
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-35.7
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8476,60 +6728,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-95.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-97.3
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8540,16 +6739,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8560,7 +6750,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8571,7 +6761,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8591,15 +6781,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -8642,20 +6823,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Authority and image presence in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Authority-and-image"
+
+\end_inset
+
+Authority and image presence
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -8703,12 +6881,23 @@ Authority and image presence in %
 
 \begin_layout Standard
 Now we look at the association between account related reason and scarcity
- principle.
- We find 68.3% of account related phishing emails were having scarcity principle,
- while 31.7% of them were not.
+ principle to test hypothesis 12.
+ Based on the result in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Account-related-reason
+\end_layout
+
+\end_inset
+
+, we find 68.3% of account related phishing emails were having scarcity principle
+, while 31.7% of them were not.
  In addition, we find 81.2% of scarcity emails were having account related
  reason while 18.8% of them were not.
- A chi-square test were performed and suggests that there is a significant
+ A chi-square test was performed and suggests that there is a significant
  association between account related reason and scarcity principle, 
 \family roman
 \series medium
@@ -8722,11 +6911,12 @@ Now we look at the association between account related reason and scarcity
 \noun off
 \color none
 
-\begin_inset Formula $X^{2}(1)=60.535,p=0.000$
+\begin_inset Formula $X^{2}(1)=60.535,p<0.001$
 \end_inset
 
 .
- A pearson correlation suggests that they are positively correlated at 0.541.
+ Phi measurements suggests that they have a strong positive relationship
+ at 0.541.
  Therefore, we accept hypothesis 12.
 \end_layout
 
@@ -8746,10 +6936,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -8761,15 +6950,6 @@ status open
 
 \size footnotesize
 ReasonType
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -8826,19 +7006,7 @@ Not account related
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within Account related reason
-\end_layout
-
-\end_inset
-
-
+90
 \end_layout
 
 \end_inset
@@ -8849,18 +7017,7 @@ within Account related reason
 \begin_layout Plain Layout
 
 \size footnotesize
-84.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-15.1
+16
 \end_layout
 
 \end_inset
@@ -8878,72 +7035,7 @@ within Account related reason
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within scarcity
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-73.8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-18.8
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8954,40 +7046,29 @@ Account related
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+32
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-31.7
+69
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-68.3
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9000,60 +7081,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-26.2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-81.2
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9064,16 +7092,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9084,7 +7103,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9095,7 +7114,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9115,15 +7134,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -9166,20 +7176,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Account related reason and scarcity in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Account-related-reason"
+
+\end_inset
+
+Account related reason and scarcity
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -9238,10 +7245,22 @@ Account related reason and scarcity in %
 
 \begin_layout Standard
 Furthermore, we look at the relationship between account related reason
- and URL presence.
- We find 78.2% of account related phishing emails which have URL(s), while
- 21.8% of them do not include URL.
- A chi-square test were performed and suggests that there is a significant
+ and URL presence to test hypothesis 13.
+ Based on the result in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Account-related-reason-1
+\end_layout
+
+\end_inset
+
+, we find 78.2% of account related emails include URL and 63.2% of emails
+ which include URL(s) are account related emails.
+ Furthermore, 38.2% of total phishes are account related and include URL(s).
+ A chi-square test was performed and suggests that there is a significant
  relationship between these two variables, 
 \family roman
 \series medium
@@ -9255,11 +7274,11 @@ Furthermore, we look at the relationship between account related reason
 \noun off
 \color none
 
-\begin_inset Formula $X^{2}(1)=26.216,p=0.000$
+\begin_inset Formula $X^{2}(1)=26.216,p<0.001$
 \end_inset
 
 .
- A pearson correlation suggests that they have a positive correlation at
+ Phi measurement suggests that they have a weak positive relationship at
  0.356.
  Therefore, we accept hypothesis 13.
 \end_layout
@@ -9280,10 +7299,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -9295,15 +7313,6 @@ status open
 
 \size footnotesize
 ReasonType
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -9360,19 +7369,7 @@ Not account related
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within Account related reason
-\end_layout
-
-\end_inset
-
-
+60
 \end_layout
 
 \end_inset
@@ -9383,18 +7380,7 @@ within Account related reason
 \begin_layout Plain Layout
 
 \size footnotesize
-56.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-43.4
+46
 \end_layout
 
 \end_inset
@@ -9412,72 +7398,7 @@ within Account related reason
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within URL presence variable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-73.2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-36.8
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9488,40 +7409,29 @@ Account related
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+22
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
-21.8
+79
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-78.2
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9534,60 +7444,7 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-26.8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-63.2
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9598,16 +7455,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9618,7 +7466,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9629,7 +7477,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9649,15 +7497,6 @@ N
 
 \size footnotesize
 Pearson chi-square
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -9700,20 +7539,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Account related reason and URL presence in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Account-related-reason-1"
+
+\end_inset
+
+Account related reason and URL presence
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -9772,11 +7608,22 @@ Account related reason and URL presence in %
 
 \begin_layout Standard
 Now we look at the relationship between document related reason and government
- sector.
- We find only 21.7% of document related reason phish emails were targeting
- government, while 78.3% of them were not targeting government.However, A
- chi-square test suggests that there is a highly significant relationship
- between these variables, 
+ sectorto test hypothesis 14.
+ Based on the result in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Document-related-reason
+\end_layout
+
+\end_inset
+
+, we find only 21.7% of document related reason phish emails were targeting
+ government and inversively 78.3% of them were not targeting government.
+ However, A chi-square test suggests that there is a highly significant
+ relationship between these variables, 
 \family roman
 \series medium
 \shape up
@@ -9793,8 +7640,8 @@ Now we look at the relationship between document related reason and government
 \end_inset
 
 .
- A pearson correlation indicates that they were not strongly correlated
- at 0.211.
+ Phi measurement indicates that they have a weak positive relationship at
+ 0.211.
  Therefore, we accept hypothesis 14.
 \end_layout
 
@@ -9814,10 +7661,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -9829,15 +7675,6 @@ status open
 
 \size footnotesize
 ReasonType
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -9894,19 +7731,7 @@ Not document related
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within document related reason
-\end_layout
-
-\end_inset
-
-
+175
 \end_layout
 
 \end_inset
@@ -9917,18 +7742,7 @@ within document related reason
 \begin_layout Plain Layout
 
 \size footnotesize
-95.1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-4.9
+9
 \end_layout
 
 \end_inset
@@ -9940,71 +7754,6 @@ within document related reason
 
 \size footnotesize
 184
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within government
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-90.7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-64.3
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10028,7 +7777,7 @@ Document related
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+18
 \end_layout
 
 \end_inset
@@ -10039,18 +7788,7 @@ A
 \begin_layout Plain Layout
 
 \size footnotesize
-78.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-21.7
+5
 \end_layout
 
 \end_inset
@@ -10068,59 +7806,6 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-9.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-35.7
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -10128,15 +7813,6 @@ B
 
 \size footnotesize
 N
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10187,15 +7863,6 @@ Pearson chi-square
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -10234,20 +7901,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Document related reason and government sector in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Document-related-reason"
+
+\end_inset
+
+Document related reason and government sector
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -10306,8 +7970,19 @@ Document related reason and government sector in %
 
 \begin_layout Standard
 Now we look at the relationship between document related reason and attachment
- variables.
- We find 78.3% of document related reason phish emails have attachment included,
+ variables to test hypothesis 15.
+ Based on our result in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Document-related-reason-1
+\end_layout
+
+\end_inset
+
+, we find 78.3% of document related reason phish emails have attachment included,
  while 21.7% of them do not.
  A chi-square test suggests that there is a significant relationship between
  these variables, 
@@ -10323,13 +7998,13 @@ Now we look at the relationship between document related reason and attachment
 \noun off
 \color none
 
-\begin_inset Formula $X^{2}(1)=19.783,p=0.000$
+\begin_inset Formula $X^{2}(1)=19.783,p<0.001$
 \end_inset
 
 .
- a pearson correlation indicates that they were not strongly correlated
- at 0.309.
- Thus, this data support hypothesis 15.
+ Phi measurement indicates that they have a weak positive relationship at
+ 0.309.
+ However, this data still supports hypothesis 15.
 \end_layout
 
 \begin_layout Standard
@@ -10348,10 +8023,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -10363,15 +8037,6 @@ status open
 
 \size footnotesize
 ReasonType
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10428,19 +8093,7 @@ Not document related
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within document related reason
-\end_layout
-
-\end_inset
-
-
+127
 \end_layout
 
 \end_inset
@@ -10451,18 +8104,7 @@ within document related reason
 \begin_layout Plain Layout
 
 \size footnotesize
-69
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-31
+57
 \end_layout
 
 \end_inset
@@ -10474,71 +8116,6 @@ within document related reason
 
 \size footnotesize
 184
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within attachment variable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-96.2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-76
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10562,7 +8139,7 @@ Document related
 \begin_layout Plain Layout
 
 \size footnotesize
-A
+5
 \end_layout
 
 \end_inset
@@ -10573,18 +8150,7 @@ A
 \begin_layout Plain Layout
 
 \size footnotesize
-21.7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-78.3
+18
 \end_layout
 
 \end_inset
@@ -10602,59 +8168,6 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-3.8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-24
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -10662,15 +8175,6 @@ B
 
 \size footnotesize
 N
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10721,15 +8225,6 @@ Pearson chi-square
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -10768,20 +8263,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Document related reason and includes attachment in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Document-related-reason-1"
+
+\end_inset
+
+Document related reason and includes attachment
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -10840,9 +8332,24 @@ Document related reason and includes attachment in %
 
 \begin_layout Standard
 Lastly, we look at the association between HTML usage variable and likeability
- principle.
- Based on our statistics, we find 80% of likeability phish emails were using
- HTML, while 20% of them were not including HTML code within its content.
+ principle to test hypothesis 16.
+ Based on the result in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:use-HTML-and
+\end_layout
+
+\end_inset
+
+, we find 80% of likeability phish emails use HTML, while 20% of them do
+ not use HTML code within its content.
+ Furthermore, 37.7% of non likeability emails do not use HTML and 62.3% of
+ them use HTML.
+ On the other hand, 26.3% of emails which use HTML are likeability emails
+ and 17.4% of total phishes use HTML and have likeability principle.
  A chi-square test suggests that there is a significant relationship between
  these variables, 
 \family roman
@@ -10861,9 +8368,9 @@ Lastly, we look at the association between HTML usage variable and likeability
 \end_inset
 
 .
- A pearson correlation suggests that they are not strongly correlated at
+ Phi measurement suggests that have a very weak positive relationship at
  0.154.
- Therefore, we accept hypothesis 16.
+ However, we still accept hypothesis 16.
 \end_layout
 
 \begin_layout Standard
@@ -10882,10 +8389,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -10897,15 +8403,6 @@ status open
 
 \size footnotesize
 Content
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10962,29 +8459,6 @@ Not use HTML
 \begin_layout Plain Layout
 
 \size footnotesize
-A
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within use HTML
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
 87.1
 \end_layout
 
@@ -11014,71 +8488,6 @@ within use HTML
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\size footnotesize
-within likeability
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-37.7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-20
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -11086,17 +8495,6 @@ within likeability
 
 \size footnotesize
 use HTML
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-A
 \end_layout
 
 \end_inset
@@ -11136,59 +8534,6 @@ A
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-62.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-80
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -11196,15 +8541,6 @@ B
 
 \size footnotesize
 N
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -11255,15 +8591,6 @@ Pearson chi-square
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -11302,20 +8629,17 @@ Pearson chi-square
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-use HTML and likeability in %
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:use-HTML-and"
+
+\end_inset
+
+use HTML and likeability
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 

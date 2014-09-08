@@ -409,7 +409,7 @@ Data categorization will be determined by several aspects; languages (Dutch,
  We predict there will be duplicated phishing emails so that we will only
  consider only unique email in our dataset.
  Structural properties of phishing emails will be reviewed in our literature
- survey and we will establish our variables based on these properties.
+ survey and we will establish our variables based on these structural properties.
  Furthermore, the data classification phase will be indicated by our coding
  of the categorization result into these variables.
  The data will be analyzed from mainly three different viewpoints; properties
