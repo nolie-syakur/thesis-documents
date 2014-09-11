@@ -128,10 +128,10 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-Valuable information, such as login credentials and personal sensitive informati
-on, can be acquired by exploiting vulnerabilities within the user’s understandin
-g of a system, and particularly a lack of in-depth understanding of the
- user interface.
+Private information, such as login credentials and personal sensitive informatio
+n, can be acquired by exploiting vulnerabilities within the users' understanding
+ of a system, and particularly a lack of in-depth understanding of the user
+ interface.
  
 \end_layout
 
@@ -141,33 +141,42 @@ As the barrier to abuse system vulnerabilities has been improved significantly
  and effective alternative.
  The usage of email as a media electronic of communication has been exploited
  by phishers to deliver their attacks.
- 
-\lang english
-The success of a phishing attack through distributed emails is determined
- by the response of the unsuspecting recipients.
-
-\lang american
- Persuasion techniques often used to obscure users in making decisions to
- response or not.
+ The success of a phishing attack through distributed emails is determined
+ by the response of the unsuspecting victims.
+ Persuasion techniques often used to obscure users' decisions and compliance
+ to grant the phishers' requests.
 \end_layout
 
 \begin_layout Standard
 To protect users from phishing attacks in the email level, system designers
  and security professionals need to understand how phishers use persuasion
  techniques in phishing emails.
- In this thesis we present an improved understanding of persuasion techniques
- in phishing emails.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Our research is aimed to understand the characteristics of phishing emails
+ In this thesis, we present the integration of persuasion techniques in
+ phishing emails.
+ Our research is aimed to understand the characteristics of phishing emails
  considering persuasion techniques in the real world analysis which has
  not been done yet.
  The analysis consists of finding relationships between persuasion techniques
  and generic structural properties of phishing emails.
+\end_layout
+
+\begin_layout Standard
+It has been observed that financial institutions is the most common target
+ in our dataset.
+ Besides several other findings which determined by our parameters and hypothese
+s, the result shows the extensive use of 
+\lang english
+authority as persuasion technique in phishing emails as oppose to social
+ proof technique.
+ We also find scarcity principle will likely to be used when phishing emails
+ are impersonating administrator and using account related reason.
+ The reflection from this research is that we can position ourselves as
+ the phishers, which and how persuasion techniques are used to generate
+ phishing emails.
+ Continued research on persuasion techniques in phishing emails is required
+ to stay ahead of the phishers, our method being a solid starting point
+ in a real world analysis to identify the underlying issue in phishing emails.
+ 
 \end_layout
 
 \begin_layout Standard

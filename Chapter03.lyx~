@@ -173,7 +173,7 @@ Results
 
 \begin_layout Standard
 To fit the table onto the page and avoid a very huge and long table, we
- put phishing URLs separately in 
+ put the URLs separately in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -2935,7 +2935,8 @@ key "phishload"
 \end_layout
 
 \begin_layout Standard
-The methods to carry out this preliminary analysis are as follows:
+The following steps were conducted to carry out this experiment:The methods
+ to carry out this experiment are as follows:
 \end_layout
 
 \begin_layout Enumerate

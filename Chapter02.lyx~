@@ -204,8 +204,8 @@ key "james:2005"
  to its legitimate target.
  While it may be true, phishing website also could be completely different
  with its target as there is no level of identicalness.
- With this in mind, preliminary analysis on what changed or added in phishing
- website would be conducted in the later section.
+ With this in mind, experimental exploration on what changed or added in
+ phishing website would be conducted in the later section.
  In the following subsections, we will introduce how phishing was originally
  came about and how current literatures formally define phishing.
 \end_layout
@@ -1650,7 +1650,7 @@ key "tally:2004"
  The first phase, it represents the planning, as we understand the attacker
  collects the email address of unsuspecting victims.
  The second phase, considering that it is related to creating a fake email
- that apprears legitimate, this phase can be viewed as design phase.
+ that appears legitimate, this phase can be viewed as design phase.
  On the third phase, we consider this as delivery and attack phases as it
  involves the attacker sends the fake email to the unintended victims and
  obfuscated the true source.
@@ -2052,8 +2052,8 @@ Moreover, phishers may embed a login page directly to the email content.
  potential victim to phishing website and JavaScript is used to take over
  address bar of a browser to make potential victims believe that they are
  communicating with the legitimate institution.
- We will also see few examples of malicious JavaScript on our preliminary
- analysis section.
+ We will also see few examples of malicious JavaScript on our experimental
+ exploration section.
  
 \end_layout
 
@@ -2104,7 +2104,7 @@ Bad neighborhoods and phishing
 
 \begin_layout Standard
 In the physical world, there are parts of certain area that have higher
- crime rates than others (eg.
+ crime rates than others (e.g..
  Bronx in the US) which called hotspots.
  Evidently, it is statistically more likely that a crime will occur compared
  to other locations 
@@ -2224,7 +2224,7 @@ key "moura:2013"
 .
  There are certain networks of Internet infrastructure that contain more
  malicious activities that other networks.
- For our preliminary analysis, we will adopt formal definition of Internet
+ For our experimental exploration, we will adopt formal definition of Internet
  bad neighborhoods or Internet Badhoods by 
 \begin_inset CommandInset citation
 LatexCommand citep
