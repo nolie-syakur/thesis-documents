@@ -163,7 +163,7 @@ TLD
  how many characters it has.
  Next, we identified how many domains are hosted within a neighbors using
  reverse IP lookup.
- Lastly, we selected 10 random domains within its domain to be scrutinized
+ Lastly, we selected 10 random neighbors within its domain to be scrutinized
  whether they are harmful or legitimate.
 \end_layout
 
@@ -173,7 +173,7 @@ Results
 
 \begin_layout Standard
 To fit the table onto the page and avoid a very huge and long table, we
- put phishing URLs separately in 
+ put the URLs separately in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -2873,18 +2873,18 @@ Phishtank URL analysis
 
 \begin_layout Standard
 Based on our analysis we know that we have 31 phish URLs.
- We specify two categories that indicate less and higher possibilities in
- having bad neighborhood.
+ We specify two categories that indicate less and higher probability to
+ have a bad neighborhood.
  If one domain has 50% or more suspicious domains, it characterized to have
- higher possibilities of bad neighborhood.
+ higher probability of a bad neighborhood.
  In contrary, if one domain has less than 50% suspicious domains, it characteriz
-ed to have less possibilities of bad neighborhood.
+ed to have less probability of a bad neighborhood.
  The data suggests that 3 of them are hacked domains (10%) while 11 domains
- (35%) have the possibilities of harmful instances.
- It makes 17 domains (55%) have less possibilities of bad neighborhoods.
- In conclusion, while there are some possibilities of bad neighborhood,
- there are much more of legitimate domains attributed from a phishing domain
- as well.
+ (35%) have the chances of harmful instances.
+ It makes 17 domains (55%) have less probability of a bad neighborhoods.
+ In conclusion, while there are some chances of bad neighborhood, there
+ are much more of legitimate domains attributed from a phishing domain as
+ well.
 \end_layout
 
 \begin_layout Section

@@ -345,7 +345,7 @@ filename "Bibliography.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Colophon.lyx"
+filename "Declaration.lyx"
 
 \end_inset
 
@@ -362,7 +362,7 @@ filename "Colophon.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Declaration.lyx"
+filename "Colophon.lyx"
 
 \end_inset
 

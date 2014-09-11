@@ -112,13 +112,6 @@ pagestyle{plain}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "DirtyTitlepage.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
 filename "Titlepage.lyx"
 
 \end_inset
@@ -346,6 +339,23 @@ filename "Bibliography.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "Declaration.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Colophon.lyx"
 
 \end_inset
 

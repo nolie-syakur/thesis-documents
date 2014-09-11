@@ -76,59 +76,44 @@ Introduction
 \begin_layout Standard
 
 \lang english
-This research project aims to understand the characterization of phishing
- email properties considering persuasion techniques.
- This chapter provides an introductory information regarding the research
- area.
- The objectives are to understand the challenges and introduce ways to overcome
- those challenges.
- Section 1.1 discusses the problem statement related to phishing in general
- and phishing email in particular, section 1.2 presents the research goal
- of the thesis, section 1.3 presents the outline of the research questions,
- section 1.4 describes the outline of the research method used to answer
- the research questions and section 1.5 presents the structure of the thesis.
-\end_layout
-
-\begin_layout Section
-Problem statement
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-With the enormous growing trends of information technology in modern generation,
- the evolution of digital era has become more mature in the sense of effectivene
-ss and easiness for societies.
- Trusted entities such as financial institutions may offer their products
+With the advancement of information technology in modern generation, the
+ evolution of digital era has become more mature in the sense of effectiveness
+ and easiness for societies.
+ They can sell and buy goods, conduct banking activities and even participate
+ in political activities such as election through online.
+ Trusted entities such as financial institutions generally offer their products
  and services to the public through the Internet.
- It has greatly impacted our society in different ways, for example the
- way we communicate with each other.
- In the recent days, we are no longer need to use computer to send an email,
- we can just use our smartphone, which we carry every day in our pockets,
- with internet connectivity to send an email.
- Consequently, human society has been enthusiastically eager to utilize
- technology means such as emails, websites, online payment system, social
- networks to achieve their tasks efficiently, affordable and more relevant.
+ Furthermore, modern technology has greatly impacted our society in different
+ ways, such as the way we communicate with each other.
+ Nowadays, we are no longer need to use a computer to send an email, we
+ can just use our smartphone, which we carry every day in our pockets, with
+ internet connectivity to send an email.
+ As a result, human society has been utilizing technology means such as
+ emails, websites, online payment system, social networks to achieve their
+ tasks efficiently, affordable and more relevant.
  However, the advancement in information and communication technology has
  been a double-edged sword.
- It becomes easier to get personal information about someone in the cyber
- world.
+ As the internet increasingly become more accessible, people tend to share
+ more about themselves and as a consequence, it becomes easier to get personal
+ information about someone on the Internet.
  Cyber criminals see this opportunity as a way to manipulate consumers and
  exploit their confidential information such as usernames, passwords, bank
  account information, credit card or social security numbers.
- Personalized information about someone such as email address, phone number,
- birth date, relationships or work place might be obtained from the internet
- such as online social network sites.
- As a result, cyber criminals can compose an attack in a personalized way
- to persuade intended victim to grant their malicious requests.
+ Personalized information about someone such as email addresses, phone numbers,
+ birth dates, relationships or work place might be obtained from the internet.
+ Consequently, cyber criminals can compose an attack in a personalized way
+ to persuade intended victims to grant their malicious requests.
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-One of the well known cyber crimes is called phishing.
- One of the objectives of phishing attack is to gain a financial benefit
- by masquerading legitimate institutions 
+One particular type of cyber crimes is called phishing.
+ Many possible incentives that drive phishing attacks such as illicit corporate
+ espionage, political power, and the most common incentive of phishing attacks
+ is financial benefits.
+ The attacker generally masquerades legitimate institutions to trick users
+ into disclosing personal, financial or computer account information 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -136,8 +121,10 @@ key "jakobsson:2006"
 \end_inset
 
 .
- Evidently, phishing techniques is often associated with bogus emails and
- websites 
+ The attacker can then use this information for criminal activities such
+ as identity theft or fraud.
+ To manipulate unsuspecting victims, the attacker often uses emails and
+ websites as the techniques to execute the attacks 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -152,8 +139,9 @@ key "dhamija2006phishing"
 \end_inset
 
 .
- Moreover, studies suggest that the essence of this malicious behavior is
- the art of pretext social engineering and deception 
+ The practice of utilizing emails and websites is indeed useful as communication
+ media, however, they can also accommodate deceptive attacks such as phishing
+ as a form of social engineering and deception 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -189,9 +177,10 @@ key "jagatic2007social"
 \end_inset
 
 .
- Social engineering involves the techniques used in order to manipulate
- people into responding to perform an action or disclosing sensitive information
- 
+ Social engineering involves the techniques used to deceive people in order
+ to get a compliance or a respond by specific actions which will disclose
+ their sensitive information, such as replying to a fake email or clicking
+ a link within an email 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "mitnik:2001"
@@ -199,9 +188,10 @@ key "mitnik:2001"
 \end_inset
 
 .
- Social engineers often attempt to persuade potential victims to engage
- in some short of emotion such as excitement and fear as well as interpersonal
- relationship such as trust and commitments 
+ Moreover, phishers often use persuasion techniques to manipulate potential
+ victims to engage in certain emotions such as excitement and fear as well
+ as interpersonal relationship, such as trust and commitments to divert
+ users' attention 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "workman:2008"
@@ -209,33 +199,51 @@ key "workman:2008"
 \end_inset
 
 .
- Such deception and social engineering attacks might be delivered through
- phone calls, text messages, private messages or emails as a medium to distract
- recipients' decisions.
+ Such persuasive influence might be delivered through phone calls, text
+ messages, private messages or emails as ways to distract recipients' decisions.
+ 
+\end_layout
+
+\begin_layout Section
+Problem statement
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Countermeasures against phishing attacks in the email level can be technical
+ or non technical approach.
+ One of technical approaches to detect phishing email is achieved by discriminat
+ing phishing and original email based on its structural properties using
+ machine learning technique 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chandrasekaran:2006"
+
+\end_inset
+
+.
+ Furthermore, One of non technical approaches to defense against phishing
+ attacks is to make people aware of the threats.
+ Security awareness in regards of phishing attacks might be achieved by
+ embedded training methods that teach people about phishing during their
+ normal use of email 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru2007protecting"
+
+\end_inset
+
+.
  
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-To make phishing email efficient, its context might require the intended
- victim to urgently act upon it, for example an email informs about suspending
- an account if recipient does not respond or perform an action within a
- limited time.
- In order to gain trust from recipient in a phishing email, persuasion technique
-s are used to get a positive response from intended victim.
- Several countermeasures have been studied to detect phishing emails, such
- as the technique of looking for bit string that are previously determined
- as spams and phishing emails 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "wardman:2009"
-
-\end_inset
-
-.
- The common characteristics of bogus email sent by the phishers would be
- misleading hyperlinks and misleading header information 
+Moreover, the common characteristics of a phishing email can be distinguished
+ by its structural properties such as misleading hyperlinks and misleading
+ header information 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "zhang:2006,zhang:2007"
@@ -243,34 +251,36 @@ key "zhang:2006,zhang:2007"
 \end_inset
 
 .
- Furthermore, one of the non technical approaches to defense against phishing
- attacks is to make people aware of the threats.
- Security awareness in regards of phishing attacks might be achieved by
- aiding an education to the public to ignore links within an email, even
- though the source of the email appear to be legitimate 
+ However, to make a phishing email efficient, its content requires the intended
+ victim to urgently act upon it, for example, an email that informs about
+ account termination if the recipient does not respond or perform an action
+ within a limited time.
+ In order to obtain a compliance from the recipient in a phishing email,
+ persuasion is used as underlying techniques to get a positive response
+ from an intended victim 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "sheng:2010"
+key "workman:2008"
 
 \end_inset
 
 .
- 
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-The success of phishing attack through distributed emails is determined
+The success of a phishing attack through distributed emails is determined
  by the response of the unsuspecting recipients.
  User decisions to click a link or open an attachment in an email might
  be influenced by how strong a phisher can persuade the intended victim.
- However, current literatures so far show an absence of real world analysis
- in characterizing phishing email properties by considering persuasion technique
-s, which it might be important for user decision.
- Thus, the characterization of phishing email properties by considering
- persuasion techniques in the real word analysis could fill the void to
- show to what extent do they involve in phishing emails.
+ However, current literatures shows an absence in conducting a real world
+ analysis of phishing email characterization by integrating persuasion technique
+s.
+ This characterization can show to what extent the persuasion techniques
+ are used in phishing emails.
+ Our research fills the void as a milestone towards countermeasure against
+ phishing attacks with an insight of psychological aspect.
 \end_layout
 
 \begin_layout Section
@@ -290,11 +300,11 @@ The main goal of this research is to characterize phishing email properties
  Each of these properties and each of the persuasive principle will be introduce
 d as a variable in our methodology.
  We will look for frequency and relationship involving these variables.
- This relationship can be used to show new characteristics of phishing email
- properties considering the persuasive elements within its content.
- The characterization of phishing email considering persuasive principle
- also can be used to generate a new method in an automatic way of detecting
- phishing email as one of the primary delivery techniques of phishing attacks.
+ This relationship can be used to show a different perspective of phishing
+ email characteristics considering the persuasive elements within its content.
+ The integration of persuasive principles in phishing emails also can be
+ used to generate a new method in an automatic way of detecting phishing
+ emails as one of the primary delivery techniques of phishing attacks.
 \end_layout
 
 \begin_layout Section
@@ -319,7 +329,7 @@ RQ1: What are the characteristics of reported phishing emails?
 \begin_layout Itemize
 
 \lang english
-RQ2: To what extent the persuasive principles are used in phishing emails?
+RQ2: To what extent are persuasive principles used in phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -336,85 +346,6 @@ chap:research-questions
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Section
-Research methodology
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-This subsection describes the outline of our research methodology of our
- analysis, more details will be addressed in 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-sec:Research-Methodology
-\end_layout
-
-\end_inset
-
-.
- Literature surveys and experimental exploration will be conducted in order
- to have a basic understanding concerning phishing in general.
- Furthermore, the data for the our analysis will be collected from security
- organization based in Netherlands which we can not disclose its identity.
- We are looking for reported phishing emails in 2013.
- We will be enumerating the outline our methodology into several steps:
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-1.
- Data collection
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-2.
- Data categorization
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-3.
- Variables and concepts
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-5.
- Data classification
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-6.
- Analysis
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Data categorization will be determined by several aspects; languages (Dutch,
- English, others) and whether the email is indeed a phish, spam or legitimate.
- We predict there will be duplicated phishing emails so that we will only
- consider only unique email in our dataset.
- Structural properties of phishing emails will be reviewed in our literature
- survey and we will establish our variables based on these structural properties.
- Furthermore, the data classification phase will be indicated by our coding
- of the categorization result into these variables.
- The data will be analyzed from mainly three different viewpoints; properties
- characteristics, persuasion principles characteristics and their relationships.
- Lastly, we will look at how the findings answer our research questions.
 \end_layout
 
 \begin_layout Section
@@ -435,17 +366,17 @@ This research project is structured as follows:
 Chapter 2 describes background and literature reviews about phishing in
  general.
  The subsections include; a general understanding of what is phishing in
- term of history and definition, an overview of its damage in term of money,
- an exploration of its modus operandi based on phishing stages or phases,
- a basic understanding of bad neighborhood and phishing, general phishing
- countermeasures and lastly the human factor in phishing.
+ terms of history and definition, an overview of its damage in terms of
+ money, an exploration of its modus operandi based on phishing stages or
+ phases, a basic understanding of bad neighborhood and phishing, general
+ phishing countermeasures and lastly the human factor in phishing.
  
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-Experimental exploration with methods and results will be conducted in chapter
+Experimental exploration with methods and results will be described in chapter
  3.
  It consists of an experiment on the existence of bad neighborhood and finding
  differences of phishing website vs its original website.

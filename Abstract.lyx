@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass classicthesis
@@ -12,13 +12,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -29,15 +29,24 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
-\cite_engine natbib_numerical
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -119,66 +128,46 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-Short summary of the contents in English
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-pdfbookmark[1]{Zusammenfassung}{Zusammenfassung}
-\end_layout
-
-\end_inset
-
+Valuable information, such as login credentials and personal sensitive informati
+on, can be acquired by exploiting vulnerabilities within the user’s understandin
+g of a system, and particularly a lack of in-depth understanding of the
+ user interface.
  
 \end_layout
 
-\begin_layout Chapter*
-Zusammenfassung
+\begin_layout Standard
+As the barrier to abuse system vulnerabilities has been improved significantly
+ with time, attacking users' psyche has rapidly become a more efficient
+ and effective alternative.
+ The usage of email as a media electronic of communication has been exploited
+ by phishers to deliver their attacks.
+ 
+\lang english
+The success of a phishing attack through distributed emails is determined
+ by the response of the unsuspecting recipients.
+
+\lang american
+ Persuasion techniques often used to obscure users in making decisions to
+ response or not.
+\end_layout
+
+\begin_layout Standard
+To protect users from phishing attacks in the email level, system designers
+ and security professionals need to understand how phishers use persuasion
+ techniques in phishing emails.
+ In this thesis we present an improved understanding of persuasion techniques
+ in phishing emails.
+ 
 \end_layout
 
 \begin_layout Standard
 
-\lang ngerman
-Kurze Zusammenfassung des Inhaltes in deutscher Sprache
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
-\end_inset
-
-
+\lang english
+Our research is aimed to understand the characteristics of phishing emails
+ considering persuasion techniques in the real world analysis which has
+ not been done yet.
+ The analysis consists of finding relationships between persuasion techniques
+ and generic structural properties of phishing emails.
 \end_layout
 
 \begin_layout Standard

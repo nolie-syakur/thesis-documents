@@ -89,26 +89,21 @@ pdfbookmark[1]{Acknowledgments}{acknowledgments}
 \align right
 
 \shape slanted
-We have seen that computer programming is an art, 
+Our technological powers increase, 
 \begin_inset Newline newline
 \end_inset
 
- because it applies accumulated knowledge to the world, 
-\begin_inset Newline newline
-\end_inset
-
- because it requires skill and ingenuity, and especially 
-\begin_inset Newline newline
-\end_inset
-
- because it produces objects of beauty.
-
+but the side effects and potential hazards also escalate.
 \shape default
- 
+
 \begin_inset Newline newline
 \end_inset
 
- 
+
+\end_layout
+
+\begin_layout Standard
+\align right
 \begin_inset VSpace medskip
 \end_inset
 
@@ -213,65 +208,36 @@ First and foremost, I would like use this opportunity to thank both of my
  views on a number of issues related to the research.
  It was Elmer's vision to integrate phishing emails corpus with cialdini's
  principles as the core of my research.
- He has assisted me in obtaining the data from 
-\series bold
-\shape italic
-Fraudehelpdesk.nl 
-\series default
-\shape default
-as the data is confidential and sensitive
-\series bold
-\shape italic
-.
+ He has assisted me in obtaining the data as the it is confidential and
+ sensitive.
+ 
 \end_layout
 
 \begin_layout Standard
-I would like to thank PhD candidates in Services Cybersecurity Safety department
- for letting me plucking their ideas when I did a brief presentation at
- the begining of my research.
+I would like to thank PhD candidates in SCS group for letting me plucking
+ their ideas when I did a brief presentation at the beginning of my research.
  Geert Jan for letting me work in the lab.
  Suse and Bertine for being able to lend me the key when no one else in
  the lab.
-\end_layout
-
-\begin_layout Standard
-I would also like to express my appreciation and gratitude to Drs.
+ I would also like to express my appreciation and gratitude to Drs.
  Jan Schut for providing me valuable advise and direction throughout my
  study in University of Twente.
+ 
 \end_layout
 
 \begin_layout Standard
-A special thanks to Eyla who has incented me to strive towards my goal and
- for being there in difficult times.
- All my friends, Aldi, Vignesh, Hasib, Saud, and all the others who supported
- me either directly and indirectly during my master studies.
+A special thanks to Eyla who has give me incentives to strive towards my
+ goal and for being there in difficult times.
+ Gaurav and Vignesh who have assisted me by giving feedbacks on my writing.
+ All my friends, Aldi, Saud, and all the others who supported me either
+ directly and indirectly during my master studies.
  Without all their supports, accomplishing my studies would not have been
  possible.
-\end_layout
-
-\begin_layout Standard
-I would like to thank my family members and relatives who have supported
+ I would like to thank my family members and relatives who have supported
  financially and emotionally throughout my entire master education.
  Words cannot express how grateful I am to my mother and father in spite
  of all the difficult times, I thank you all for letting me cherish my dream.
-\end_layout
-
-\begin_layout Standard
-Lastly, I thank God almighty for answering my prayers.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The LyX port was initially done by Nicholas Mariette in March 2009 and continued
- by Ivo Pletikosić in 2011.
- Thank you very much for your work and the contributions to the original
- style.
+ Lastly, I thank God almighty for answering my prayers.
 \end_layout
 
 \begin_layout Standard

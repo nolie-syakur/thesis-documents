@@ -119,7 +119,8 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-The characteristics of the reported phishing emails includes:
+The characteristics of the reported phishing emails determined by the following
+ parameters:
 \end_layout
 
 \begin_layout Itemize
@@ -128,7 +129,7 @@ How often phishing email include an attachment(s) and what specific attachment
 \end_layout
 
 \begin_layout Itemize
-Prevalent methods
+Prevalent instructions
 \end_layout
 
 \begin_layout Itemize
@@ -212,7 +213,7 @@ We established 16 hypotheses to indicate the relationship between generic
  H8, H9, H10, H13, H14, H15 will partly answer RQ1 in respect to the relationshi
 p between generic properties and the rest will answer RQ2.
  We synthesize cialdini's principles with our dataset.
- In order to conduct synthesization, we established our decision making
+ In order to conduct the integration, we established our decision making
  to classify which persuasive elements that are exist in a phishing email.
  This process will be explained in 
 \begin_inset Flex CT - auto cross-reference
@@ -609,8 +610,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H7: The occurence of likeability in a phish will impact the occurence of
- consistency
+H7: The occurrence of likeability in a phish will impact the occurrence
+ of consistency
 \end_layout
 
 \begin_layout Standard

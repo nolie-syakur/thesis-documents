@@ -183,7 +183,7 @@ The data is obtained from a security organization based in Netherlands that
  2013.
  Since this research is based on self report, the data will be processed
  based on the self conception.
- Futhermore, the data consists of 8444 suspected phishing emails in total
+ Furthermore, the data consists of 8444 suspected phishing emails in total
  that we will be categorized and classified in the following subsection.
 \end_layout
 
@@ -327,7 +327,7 @@ Barclays Bank PLC
 \begin_inset Quotes erd
 \end_inset
 
- was taken from the body of the email and we found there are 11 emails wich
+ was taken from the body of the email and we found there are 11 emails which
  contain this string.
  Thus, we input 
 \begin_inset Quotes eld
@@ -422,9 +422,9 @@ HTML [0 = No, 1 = Yes]
 \end_deeper
 \begin_layout Enumerate
 
-\emph on
-Methods
-\emph default
+\shape italic
+Requests
+\shape default
 : Implies the inquiry by the phishers in the contents
 \end_layout
 
@@ -619,10 +619,10 @@ CounterSameContents
 \begin_layout Standard
 We have established variables based on phishing email properties.
  Furthermore, we distinguished generic properties and persuasion properties.
- Generic propeties of a phishing email is effected by these variables: attachmen
-ts, methods, contents, obfuscatedURL, target and reason.
+ Generic properties of a phishing email is effected by these variables:
+ attachments, requests, contents, obfuscatedURL, target and reason.
  On the other hand, persuasion properties effected by these variables: reciproca
-tion, consistency, socialproof, likeability, authority and scarcity.
+tion, consistency, social proof, likeability, authority and scarcity.
 \end_layout
 
 \begin_layout Subsection
@@ -667,7 +667,7 @@ ContainHyperlink
 \end_inset
 
  variable.
- Lastly, we conducted synthesization on our data with Cialdini's six principles
+ Lastly, we conducted integration on our data with Cialdini's six principles
  of persuasion will be discussed in 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -763,7 +763,7 @@ key "workman:2008"
 \emph on
 Social proof
 \emph default
-: It occures when people model the behavior of their peer group, role models,
+: It occurs when people model the behavior of their peer group, role models,
  important others or because it is generally "fashionable" 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -891,7 +891,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename gfx/pseudo-cialdini-2.jpg
-	scale 30
+	scale 40
 
 \end_inset
 
@@ -965,7 +965,7 @@ In the previous section, we described the framework of our methodology in
 The data has been analyzed by quantitative analysis from mainly three different
  viewpoints; general properties characteristics, persuasion principles character
 istics and their relationships.
- We used frequency analysis to answer questions related to occurences.
+ We used frequency analysis to answer questions related to occurrences.
  For instance, we used frequency analysis to answer the most targeted institutio
 n in 
 \begin_inset Flex CT - auto cross-reference
@@ -982,14 +982,14 @@ chap:research-questions
  Furthermore, we used Pearson chi-square to test our hypotheses to discover
  if there is a significant relationship between two variables.
  If the resulted p-value is less than 0.05, 0.01, or 0.001, thus we are confident
- 95%, 99% and 99.9% respectively that the two choosen variables are having
+ 95%, 99% and 99.9% respectively that the two chosen variables are having
  a significant relationship.
  By combining frequency analysis and chi-square test, we will see how they
  can answer our research questions in the next section.
  As our data is not continuous (i.e.
  interval or ratio) but nominal (i.e.
  categorical), therefore, we do not analyze our data by pearson correlation.
- However, to test the strenght of association involves nominal variables,
+ However, to test the strength of association involves nominal variables,
  the appropriate measurements are using phi and Cramer's V.
  Phi is used for 2 by 2 table and Cramer's V can be used for more than 2
  by 2 table.
@@ -1290,15 +1290,15 @@ Attachment analysis
 \end_layout
 
 \begin_layout Standard
-When we look at what are the instructions or methods used in the dataset.
+When we look at what are the instructions or requests used in the dataset.
  We find 202 emails or 97.6% of all total reported phishing emails with clear
  instructions; whether it requests to click URL(s), request to open attachment,
  request to reply by email or request to respond by phone calling.
- we find that 37.2% of the total phishing emails were requesting to open
- attachment, 52.7% requesting to click URL(s), 16.9% were requesting for email
- reply and 4.3% were requesting to call by phone.
+ we find that 37.2% of the total phishing emails request to open attachment,
+ 52.7% of them request to click URL(s), 16.9% request for email reply and
+ 4.3% request to call by phone.
  Moreover.
- One single email can request multiple methods.
+ One single email can request multiple requests.
  If we look deeper, we have 8 valid emails or 3.9% of all emails which have
  both request to open attachment and request to click URL.
  However, we do not find any email which request all instructions in the
@@ -1314,7 +1314,7 @@ tab:Methods-analysis
 
 \end_inset
 
- illustrates our findings in respect of methods are used.
+ illustrates our findings in respect of requests are used.
  In addition, of all phishing emails which have clear instructions, 54%
  request to click URL(s), 38.1% request to open attachment(s), 17.3% request
  for email reply and 4.5% request to respond by phone calling.
@@ -1524,7 +1524,7 @@ name "tab:Methods-analysis"
 
 \end_inset
 
-Method analysis of all total emails (one email can contain more than one
+Request analysis of all total emails (one email can contain more than one
  instructions so the total here does not sum up to 100%)
 \end_layout
 
@@ -1808,7 +1808,7 @@ tab:Target-analysis
 .
  As one email does not have more than 1 targeted sector, therefore the total
  sums up to 100%.
- Note that, we initially had 92 targets in our corpus and we had to shrinked
+ Note that, we initially had 92 targets in our corpus and we had to shrink
  it down into 10 target sectors in our data classification.
 \end_layout
 
@@ -3308,8 +3308,8 @@ Government sector and authority principle
 \end_layout
 
 \begin_layout Standard
-When we look at the relationship between phishing emails which were impersonatin
-g administrator and authority principle to test hypothesis 2.
+When we look at the relationship between phishing emails which impersonate
+ administrator and authority principle to test hypothesis 2.
  We find that 96.7% of administrator targeted emails have authority principle
  and 96% of non-administrator emails have authority principle.
  On the other hand, 85.4% of all authority emails are non administrator and
@@ -3669,8 +3669,8 @@ Now we look at the association between financial sector and scarcity principle
  Furthermore, 41.9% of all non financial targeted emails have scarcity principle,
  while 58.1% of them do not have scarcity principle.
  On the other hand, 63.5% of scarcity emails is non financial targeted emails,
- inversively 36.5% of them is financial targeted emails.
- We perfomed a chi-square test and we find that there is no significant
+ inversely 36.5% of them is financial targeted emails.
+ We performed a chi-square test and we find that there is no significant
  association between financial sector and scarcity principle, 
 \family roman
 \series medium
@@ -5117,8 +5117,8 @@ tab:Likeability-and-consistency
  -0.149 that indicate as one variable increases, the other variable decrease.
  This suggests, that higher likeability principle, the less chance of consistenc
 y principle in a phishing email.
- Thus we accept hypothesis 7 that says the occurence of likeability principle
- will impact the occurence of consistency.
+ Thus we accept hypothesis 7 that says the occurrence of likeability principle
+ will impact the occurrence of consistency.
 \end_layout
 
 \begin_layout Standard
@@ -5456,7 +5456,7 @@ tab:URL-presence-and
 
 \end_inset
 
-, we find 76% of URL(s) were obfuscated while 24% were not.
+, we find 76% of URL(s) are obfuscated while 24% are not.
  A chi-square test suggests that there is a highly significant association
  between URL presence and obfuscated URL, 
 \family roman
@@ -5804,8 +5804,8 @@ URL presence and obfuscated URL
 \end_layout
 
 \begin_layout Standard
-We look at the relationship between URL presence and the emails which were
- requesting to click URL in 
+We look at the relationship between URL presence and the emails which request
+ to click URL in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -6167,8 +6167,7 @@ URL presence and Request to click URL
 
 \begin_layout Standard
 Similarly, We look at the association between the email that includes attachment
- and the emails which were requesting to open attachment to test hypothesis
- 10.
+ and the emails which request to open attachment to test hypothesis 10.
  Based on our result in 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -6893,10 +6892,10 @@ tab:Account-related-reason
 
 \end_inset
 
-, we find 68.3% of account related phishing emails were having scarcity principle
-, while 31.7% of them were not.
- In addition, we find 81.2% of scarcity emails were having account related
- reason while 18.8% of them were not.
+, we find 68.3% of account related phishing emails have scarcity principle,
+ while 31.7% of them do not.
+ In addition, we find 81.2% of scarcity emails have account related reason
+ while 18.8% of them do not.
  A chi-square test was performed and suggests that there is a significant
  association between account related reason and scarcity principle, 
 \family roman
@@ -7608,7 +7607,7 @@ Account related reason and URL presence
 
 \begin_layout Standard
 Now we look at the relationship between document related reason and government
- sectorto test hypothesis 14.
+ sector to test hypothesis 14.
  Based on the result in 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -7621,7 +7620,7 @@ tab:Document-related-reason
 \end_inset
 
 , we find only 21.7% of document related reason phish emails were targeting
- government and inversively 78.3% of them were not targeting government.
+ government and inversely 78.3% of them are not targeting government.
  However, A chi-square test suggests that there is a highly significant
  relationship between these variables, 
 \family roman
@@ -8004,7 +8003,7 @@ tab:Document-related-reason-1
 .
  Phi measurement indicates that they have a weak positive relationship at
  0.309.
- However, this data still supports hypothesis 15.
+ However, the result still supports hypothesis 15.
 \end_layout
 
 \begin_layout Standard

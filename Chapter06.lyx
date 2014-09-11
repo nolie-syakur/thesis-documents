@@ -70,15 +70,102 @@
 \begin_body
 
 \begin_layout Chapter
-Discussion & Conclusion
+Discussion
 \end_layout
 
 \begin_layout Standard
-In the previous chapter, we have addressed the data and analysis of our
- study in considerable detail.
- Now in this chapter, we look at how our findings answer our research questions
- and whether the findings are consistent with the hypotheses we described
- in 
+In our attempt to discover the existence of bad neighborhood, we have conducted
+ a basic exploration with the help of tools available freely on the Internet
+ which capable of reverse IP and domain lookup.
+ These tools can check an IP address or a domain for other IP addresses
+ within the same web server or the same network.
+ However, the shortcoming of this exploration is that we do not know how
+ exactly these tools check the neighbors of an IP address.
+ Therefore, our result is dependent on the information given by these tools.
+\end_layout
+
+\begin_layout Standard
+Our result suggests that 10% of our dataset are hacked domains and 35% of
+ them show the existence of phishing bad neighborhoods.
+ However, 55% of them were not having bad neighborhoods.
+ Therefore, we can conclude while there is a small chance of 
+\begin_inset Quotes eld
+\end_inset
+
+bad neighborhood
+\begin_inset Quotes erd
+\end_inset
+
+ in a phishing domain, phishers generally do not host their phish in one
+ certain network of internet infrastructures.
+ The consequence is that, it hinders the effort of security experts to detect
+ phishing in a certain network of internet infrastructures.
+ 
+\end_layout
+
+\begin_layout Standard
+When we look at phishing vs original experiment, it suggests 87% of the
+ total HTML codes are maintaining the appearance to be the same as the target
+ while 12.5% are completely different with its target.
+ This suggests that most of the phishing web pages appear the same in terms
+ of the layout as its target.
+ With this in mind, considering to replicate a web page can be done with
+ a little effort, however, fragments of suspicious codes can be spotted
+ when the HTML source is closely examined.
+ Our result does not imply that the phishers are lazy in terms of only replicati
+ng legitimate websites, but how much modification they did while maintaining
+ the same 
+\begin_inset Quotes eld
+\end_inset
+
+look
+\begin_inset Quotes erd
+\end_inset
+
+ as their targets.
+ This can help an automated phishing detection in HTML source level.
+ Automated detection might be achieved firstly by creating a library that
+ contains suspicious HTML codes that previously have been identified.
+ Secondly, a toolbar that can extract HTML structures from a website and
+ compare against the library.
+ If a match found, then the web page likely to be a phish.
+ However, this might be another field of research that needs to be explored.
+ 
+\end_layout
+
+\begin_layout Section
+Research questions
+\end_layout
+
+\begin_layout Standard
+At the beginning of our research, we have stated the following research
+ questions that needed to be answered.
+ In this section, we will shortly discuss our findings to answer our research
+ questions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+What are the characteristics of reported phishing emails?
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -89,104 +176,35 @@ chap:research-questions
 
 \end_inset
 
-.
- Lastly, we conclude our research including recommendations, limitations
- as well as future works.
-\end_layout
-
-\begin_layout Standard
-Before we conclude our main analysis, we would like to conclude of our experimen
-tal exploration on phishing bad neighborhood and the differences between
- phishing vs original.
- Our data suggests that there are some possibilities of phishing bad neighborhoo
-d (10% hacked, 35% higher possibilities, 55% less possibilities), there
- are much more legitimate domains that are exist.
- When we look at phishing vs original analysis, it suggests 87% of the total
- HTML codes are maintaining the appearance closer as the target while 12.5%
- are completely different with its target.
- Based on this, we can conclude while there are small possibilities of 
-\begin_inset Quotes eld
-\end_inset
-
-bad neighborhood
-\begin_inset Quotes erd
-\end_inset
-
- in term of phishing, phishers generally do not host their phish in one
- certain networks of internet infrastructure.
- The consequence is that it hinders the effort of security expert to detect
- phishing in a certain networks of internet infrastructures.
- We can also conclude that most of the phishes appear the same as its target
- considering to replicate a web page can be done with a little effort.
- However, fragments of suspicious codes can be spotted when the HTML source
- is closely examined.
- This can help an automated phishing detection in HTML source level.
-\end_layout
-
-\begin_layout Standard
-Our research was mainly aimed to to characterize phishing email properties
- considering persuasive principles by finding the association within generic
- properties as well as the relationship between persuasive principles and
- these generic properties.
- We looked at what are the generic properties of phishing email and how
- relevant are the persuasive principles to the generic properties.
- The data was obtained from national security organization based in Netherlands
- that handles reports on fraud including phishing.
-\end_layout
-
-\begin_layout Standard
-An important aspect of our research was that persuasive techniques have
- variety of strengths in respect of influence depending on the individual
- person.
- Thus we have addressed the conception and rationale in considering persuasive
- principles on phishing emails.
- In addition, persuasion technique as a social engineering has been and
- remains successful in exploiting human factor vulnerability in order to
- influence people to have a positive response in favor of the person who
- requested it.
- Yet, it is almost absent from the computing literature perspective
-\begin_inset CommandInset citation
-LatexCommand cite
-key "blythe2011f"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-To answer the first research question
-\shape italic
- RQ1
-\shape default
-, based on our findings, we can conclude in respect to the characteristics
- of reported phishing emails in the following points:
+, we defined seven parameters to characterize the phishing emails in our
+ dataset.
+ Based on our findings, we can conclude in the following points:
 \end_layout
 
 \begin_layout Itemize
-When an attachment(s) is included in a phishing email, it is likely to attach
- ZIP or HTML file.
+When attachment(s) is included in a phishing email, it is likely to attach
+ ZIP or HTML file
 \end_layout
 
 \begin_layout Itemize
-Requesting to click URL is the most prevalent method
+Requesting to click URL(s) is the most prevalent instruction in phishing
+ emails
 \end_layout
 
 \begin_layout Itemize
-Most of the phishes are using HTML code along with the presence of URL(s)
+Most of the phishing emails are using HTML code and provide URL(s)
 \end_layout
 
 \begin_layout Itemize
-Financial sector is the most common target
+The financial sector is the most common target
 \end_layout
 
 \begin_layout Itemize
-Most of the phishing emails use account related as a pretext to manipulate
- intended victims
+Most of the phishing emails use account related as a pretext
 \end_layout
 
 \begin_layout Itemize
-Authority principle is distributed throughout the sample
+Authority principle is the most used persuasion technique in phishing emails
 \end_layout
 
 \begin_layout Itemize
@@ -195,11 +213,13 @@ Phishing email which has account related as a pretext, is likely to include
 \end_layout
 
 \begin_layout Itemize
-Clear instructions to request an action from recipients
+Clear instructions to request an action from recipients; phishing emails
+ which include attachment(s) are likely to request to open it and phishing
+ emails which provide URL(s) are likely to request to click it.
 \end_layout
 
 \begin_layout Itemize
-URL(s) in a phishing email is most likely to be obfuscated
+URL(s) in a phishing email is most likely different than the actual destination
 \end_layout
 
 \begin_layout Itemize
@@ -208,43 +228,53 @@ A government targeted phish is likely to have a document related reason
 
 \begin_layout Itemize
 Phishing email which has document related reason as a pretext, is likely
- to include an attachment(s)
+ to include attachment(s)
 \end_layout
 
 \begin_layout Standard
-Our recommendation in term of phishing countermeasures, a recipient should
- scrutinize the email when zip or html attachment is included.
- A recipient should also be skeptical when an email is coming from a financial
- institution and is regarding account related reason.
- When URL(s) provided in the email, a recipient should take a closer look
- at the source whether the URL(s) is obfuscated or not.
- If a recipient has already clicked the URL, we can draw from the experimental
- exploration that most of the phishes are maintaining the appearance mimicking
- their targets.
- More importantly, a recipient should be thoughtful in making decision when
- an email portray fear or negative consequences.
+\begin_inset space \space{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-To answer the second research question 
+
 \shape italic
-RQ2
-\shape default
-, we look at the extent the persuasive principles that are used in phishing
- emails, we know that authoritative principle is distributed throughout
- the sample, thus it makes sense that we find 100% government targeted emails
- are having authority principle and 95.9% of non government targeted email
- are also having authority principle.
- Our data suggests that there is no significant association between government
- targeted email and authority principle.
- Similarly, administrator and non administrator targeted emails are both
- high in respect to authority principle.
- Moreover, our result on authority principle and image(s) presence in a
- phishing email suggests that there is no association between these two
- variables.
- This indicates that authority is indeed the most used principle and have
- higher chance to be the main technique of a phishing email.
- When we look at financial targeted sector and scarcity principle, we find
+To what extent the persuasive principles are used in phishing emails?
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To answer the second research question, we look at the relationships between
+ the persuasive principles and the generic properties.
+ With this in mind, we have established 10 hypotheses related to these relations
+hips and we look wether the findings are consistent with these hypotheses.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Overview-of-verified
+\end_layout
+
+\end_inset
+
+ summarizes the overview of verified hypotheses.
+ Because almost all phishing emails use authority principle, therefore,
+ this implies all phishing email properties related to authority principle
+ are resulted in no significant relationship.
+\end_layout
+
+\begin_layout Standard
+When we look at financial targeted sector and scarcity principle, we find
  that both financial and non financial targeted emails are less chance to
  have scarcity principle.
  Apart from our hypothesis related to financial sector and scarcity principle,
@@ -252,29 +282,60 @@ RQ2
  principle.
  In contrary, non administrator targeted emails are less likely to have
  scarcity principle.
- When we look at account related phishing and scarcity, we find that there
- is a highly significant relationship between them.
- This means that if a phishing email involve in account related reason,
- the higher chance of scarcity principle as a persuasion technique.
- Our next finding on the relationship between e-commerce/retails targeted
+ However, our finding suggests that the strength of association between
+ administrator targeted emails and scarcity principle is weak.
+\end_layout
+
+\begin_layout Standard
+The next finding on the relationship between e-commerce/retails targeted
  emails, it indicates that this sector contributes less number of likeability
  principle as both e-commerce/retails and non-ecommerce/retails targeted
  emails have high number of non-likeability principle.
  Similarly, our data suggests that there are no significant association
  between social media targeted emails and social proof principle.
- However, we find that there is a significant relationship between the use
- of HTML and likeability principle, this suggests that likeability phishing
- email tend to use HTML code to persuade unsuspecting victim.
 \end_layout
 
 \begin_layout Standard
-Another observation on authority and scarcity principle, it suggests that
- there is no significant association between them, as both authoritative
- and non-authoritative emails contribute less percentage on scarcity principle.
- We have also observed whether likeability and consistency have a relationship,
+Another observation whether likeability and consistency have a relationship,
  our data suggests that there is a significant association between them.
  Our result signifies that the higher likeability, the lower chance to have
  consistency principle.
+ This support our hypothesis which says the occurrence of likeability will
+ impact the occurrence of consistency.
+ However, we find the strength of association between the variables is very
+ weak.
+\end_layout
+
+\begin_layout Standard
+When we look at account related phishing and scarcity, we find that there
+ is a highly significant relationship between them.
+ This means that if a phishing email uses an account related as a reason,
+ it will likely to use scarcity principle as a persuasion technique.
+ Moreover, the result suggests that account related reason and scarcity
+ principle have a strong relationship.
+ 
+\end_layout
+
+\begin_layout Standard
+Lastly, we find that there is a significant association between the use
+ of HTML and likeability principle.
+ This suggests that likeability phishing emails tend to use HTML code to
+ persuade unsuspecting victim.
+ However, their strength of association is very weak.
+\end_layout
+
+\begin_layout Standard
+Overall, seven hypotheses in respect of persuasive principles are rejected
+ and three of them are accepted.
+ Based on this, we can answer our research question by three underlying
+ perspectives.
+ First, the extensive use of authority as persuasion technique in phishing
+ emails as oppose to social proof technique.
+ Secondly, scarcity principle will likely to be used when phishing emails
+ are coming from administrator and using account related reason.
+ Third, likeability principle affects the usage of HTML-based email and
+ consistency principle.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1031,50 +1092,91 @@ Overview of verified hypotheses
 \end_layout
 
 \begin_layout Standard
-Based on our findings, although there are seven hypotheses in respect of
- persuasive principles are rejected, three of them are accepted.
- This concludes the extent of involvement of overall persuasive principles
- is low in term of the relationship to generic structural properties of
- a phishing email.
- On the other hand, we find that both administrator targeted phishing email
- and account related phishing email are likely to have scarcity principle.
- We also find a phishing email which use HTML code is likely to have likeability
- principle.
+\begin_inset space \space{}
+\end_inset
+
  
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Our research was aimed at understanding the characteristics of phishing
+ emails considering persuasion techniques in the real world analysis which
+ has not been done yet.
+ The analysis consists of finding relationships between persuasion techniques
+ and generic properties of phishing emails.
+\end_layout
+
+\begin_layout Standard
+An important aspect of our research was that persuasion techniques have
+ variety of strengths in respect of influence depending on the individual
+ perspective.
+ Although, we had made a flowchart in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
 \begin_layout Plain Layout
 
-tab:Overview-of-verified
+sub:cialdini-decision
 \end_layout
 
 \end_inset
 
- summarizes the overview of verified hypotheses.
- These conclude scarcity principle has a high involvement in term of both
- administrator target and account related phish.
- In addition, while likeability principle has a significant association
- in term of HTML usage, however, likeability principle has a weak involvement
- in term of HTML usage in a phishing email.
- Thus, from our conclusions, we recommend a recipient to scrutinize when
- an email requires to respond to scarce or turn-into scarce items or things
- or privileges.
- We also recommend not to be negligent when an email is coming from others
- who they find attractive or are perceived as credible and having special
+ to model our decisions in terms of data coding, we believe persuasion technique
+s are personal and difficult to find a consensual decision.
+\end_layout
+
+\begin_layout Standard
+Nevertheless, by using parameters and hypotheses in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+chap:research-questions
+\end_layout
+
+\end_inset
+
+, we have been able to find the characteristics of phishing email considering
+ persuasion techniques.
+ Our approach has shown to be useful in identifying critical characteristics
+ and relationships between generic properties phishing emails and persuasion
+ techniques.
+ This will help security experts to identify the underlying issue in phishing
+ emails in terms of psychological aspect.
+ As a security expert, the reflection from this research is that we can
+ position ourselves as the phishers, which and how persuasion techniques
+ are used to generate phishing emails.
+ To regular user readers, we recommend to scrutinize when an email requires
+ to quick respond to scarce or turn-into scarce items or things or privileges.
+ We also do not recommend to be negligent when an email is coming from others
+ who give attractive impression or perceived as credible and having special
  expertise.
+ Lastly, an email which gives negative consequences, fear and authentic
+ impression, does not always truthful.
+ Therefore, should be doubted and questioned its legitimacy.
+ 
 \end_layout
 
 \begin_layout Standard
-Overall, our research sheds light on the characteristics of phishing email
- considering persuasive principle as human factor in the real world analysis
- which has not been done yet.
+Continued research on persuasion techniques in phishing emails is required
+ to stay ahead of the phishers, our method being a solid starting point
+ in a real world analysis to identify the underlying issue in phishing emails.
+ 
+\end_layout
+
+\begin_layout Section
+Limitation
 \end_layout
 
 \begin_layout Standard
-However, our findings need to be assimilated in the backdrop of some limitations
- which arise due to the complex nature of our methodology and research environme
-nt.
+Although the research produces a conclusive results, our findings need to
+ be assimilated in the backdrop of some limitations which arise due to the
+ complex nature of our methodology and research environment.
  It is important for us to explain these limitations so that the readers
  can understand the findings of our research in the proper context.
  The first limitation is that we only get the data from one organization.
@@ -1096,32 +1198,57 @@ on, in which we do not know whether the sample data represents national-wide
  It means the coding of the data into associated variables could be inaccurate.
  While the data coding to the generic structural properties of phishing
  email could be justified, however, the data coding into the persuasive
- principles could be an issue in term of accuracy.
+ principles could be an issue in terms of accuracy.
  For example, one person claimed an email is attractive while another person
  claimed it is not.
  This introduces the greatest limitation to our research because it significantl
 y impact our results.
- The fifth limitation is being the time period of the reported phishing
- emails which are only reported in the period of august - december 2013.
- This impact of our randomness of cases in term of time period.
+ The fifth limitation is being unique dataset of the reported phishing emails.
+ This resulted in smaller sample of data and therefore, gives a challenging
+ task to find associations using pearson chi-square method.
+\end_layout
+
+\begin_layout Section
+Future work
 \end_layout
 
 \begin_layout Standard
-Despite these considerable limitations, our research provides an insight
- into the use of persuasive principles in phishing email characteristics.
- A recommendation as a follow-up study with a larger sample encompassing
- more security organization as a data source and extended time period of
- reported phishing emails would be extremely desirable in order to test
- our findings.
+Despite our considerable limitations, a recommendation as a follow-up study
+ with a larger sample encompassing more security organization as a data
+ source and extended time period of reported phishing emails would be extremely
+ desirable in order to test our findings.
  We feel that any future research along this line will find our work to
  be a useful starting point.
  Furthermore, we also recommend to add resilient validation in data classificati
-on in term of persuasive principles by involving several people to have
+on in terms of persuasive principles by involving several people to have
  an objective decision.
- Lastly, given what we did, we can see that persuasion principles in phishing
- email have some influence in user's decisions, therefore, it is interesting
- if the future research can build a simple game in term of persuasion awareness
+ It is also interesting to identify authority principle in regular mails
+ to make an objective perspective compare with phishing emails.
+ Lastly, as we understand that persuasion principles in phishing email have
+ some influence in user's decisions, therefore, it is interesting if the
+ future research can build a simple game in terms of persuasion awareness
  to grab user's attention in making the right decision.
+ For instance, the flowchart in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+fig:Flowchart-cialdini
+\end_layout
+
+\end_inset
+
+, can be adapted to 
+\begin_inset Quotes eld
+\end_inset
+
+snakes and ladders
+\begin_inset Quotes erd
+\end_inset
+
+ game to alert users of the presence of persuasive principles in an email
+ they received.
 \end_layout
 
 \end_body

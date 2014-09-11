@@ -1650,7 +1650,7 @@ key "tally:2004"
  The first phase, it represents the planning, as we understand the attacker
  collects the email address of unsuspecting victims.
  The second phase, considering that it is related to creating a fake email
- that apprears legitimate, this phase can be viewed as design phase.
+ that appears legitimate, this phase can be viewed as design phase.
  On the third phase, we consider this as delivery and attack phases as it
  involves the attacker sends the fake email to the unintended victims and
  obfuscated the true source.
@@ -2104,7 +2104,7 @@ Bad neighborhoods and phishing
 
 \begin_layout Standard
 In the physical world, there are parts of certain area that have higher
- crime rates than others (eg.
+ crime rates than others (e.g..
  Bronx in the US) which called hotspots.
  Evidently, it is statistically more likely that a crime will occur compared
  to other locations 
