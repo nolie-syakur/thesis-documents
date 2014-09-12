@@ -107,41 +107,7 @@ but the side effects and potential hazards also escalate.
 \begin_inset VSpace medskip
 \end_inset
 
- --- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-defcitealias{knuth:1974}{Donald E.
- Knuth}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citetalias{knuth:1974}
-\end_layout
-
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "knuth:1974"
-
-\end_inset
-
- 
+ --- Arthur C, Clarke
 \end_layout
 
 \begin_layout Standard
@@ -238,6 +204,12 @@ A special thanks to Eyla who has give me incentives to strive towards my
  Words cannot express how grateful I am to my mother and father in spite
  of all the difficult times, I thank you all for letting me cherish my dream.
  Lastly, I thank God almighty for answering my prayers.
+\end_layout
+
+\begin_layout Standard
+-- 
+\shape slanted
+Nurul Akbar (Nolie)
 \end_layout
 
 \begin_layout Standard

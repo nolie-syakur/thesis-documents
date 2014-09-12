@@ -128,14 +128,6 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-Private information, such as login credentials and personal sensitive informatio
-n, can be acquired by exploiting vulnerabilities within the users' understanding
- of a system, and particularly a lack of in-depth understanding of the user
- interface.
- 
-\end_layout
-
-\begin_layout Standard
 As the barrier to abuse system vulnerabilities has been improved significantly
  with time, attacking users' psyche has rapidly become a more efficient
  and effective alternative.
@@ -166,7 +158,7 @@ It has been observed that financial institutions is the most common target
  Besides several other findings which determined by our parameters and hypothese
 s, the result shows the extensive use of 
 \lang english
-authority as persuasion technique in phishing emails as oppose to social
+authority as a persuasion technique in phishing emails as opposed to social
  proof technique.
  We also find scarcity principle will likely to be used when phishing emails
  are impersonating administrator and using account related reason.
