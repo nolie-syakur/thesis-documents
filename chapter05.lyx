@@ -141,7 +141,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename gfx/diagram_categorization.jpg
+	filename gfx/diagram_categorization-1.jpg
 	scale 70
 
 \end_inset
@@ -210,9 +210,33 @@ We manually categorized 8444 suspected phishing emails by sorting all the
 \begin_layout Standard
 We ignore the suspected phishing in Dutch because our proficiency of Dutch
  language is not sufficient.
+ More detail on why we ignore emails with Dutch language can be found in
+ 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+sec:Limitation
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+sec:Future-work
+\end_layout
+
+\end_inset
+
+.
  Within 688 suspected phishing emails in English group we further categorized
- based on phishing, spam and others.
- We label this process as 1st level categorization.
+ based on phishing, spam, others and legitimate.
+ We label this process as 2nd categorization.
  Phishing group is determined which emails were indeed phishing, spam group
  is specified which emails were commercial advertising and others group
  is established by the following guidelines:
@@ -283,16 +307,6 @@ Interestingly, based on the outcome of 2nd categorization, we have 18 legitimate
  emails that were mistakenly reported as phishes or false positive.
  Although they are only 18 false positive, this suggest there are still
  misinterpretation of fraudulent email in our dataset.
- 30 phishes from the 1st categorization were moved to spam, 14 phishes were
- moved to legitimate and 2 
-\begin_inset Quotes eld
-\end_inset
-
-others
-\begin_inset Quotes erd
-\end_inset
-
- were moved to legitimate group.
  From this point we would only code 440 phishing emails to an excel sheet
  with necessary variables so that we could convert it into SPSS readable
  file.

@@ -1121,6 +1121,12 @@ Continued research on persuasion techniques in phishing emails is required
 \end_layout
 
 \begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Limitation"
+
+\end_inset
+
 Limitation
 \end_layout
 
@@ -1165,6 +1171,12 @@ y impact our results.
 \end_layout
 
 \begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Future-work"
+
+\end_inset
+
 Future work
 \end_layout
 

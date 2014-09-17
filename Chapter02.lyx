@@ -116,7 +116,7 @@ key "jakobsson:2006"
  Instead of fish, online users are lured by authentic looking communication
  and hooked by authentic looking websites.
  Not only that, online users also may be lured by respond to a phishing
- email, either replying or clicking an obfuscated link within its content.
+ email, either replying or clicking a hidden URL within its content.
  There are diverse definitions of phishing in our literature reviews, therefore,
  we would like to discuss about its universal definition in later section.
  However, one of phishing definitions according to Oxford dictionary:
@@ -1583,7 +1583,7 @@ key "tally:2004"
  that appears legitimate, this phase can be viewed as design phase.
  On the third phase, we consider this as delivery and attack phases as it
  involves the attacker sends the fake email to the unintended victims and
- obfuscated the true source.
+ hide the true source.
  The fourth phase represents attack phase as it involves with the recipient
  complies with the attacker's request(s).
  Lastly the fifth phase, it represents the fraud phase, as it related to
@@ -4133,7 +4133,7 @@ Spoofing of online banks and retailers.
 Link in the text is different from the destination.
  A link(s) contained in the email message usually appears different than
  the actual link destination.
- This portrays URL obfuscation and this method used to trick users to believe
+ This portrays hidden URL and this method used to trick users to believe
  that the email is legitimate.
 \end_layout
 
