@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass classicthesis
+\begin_preamble
+
+\end_preamble
 \use_default_options true
 \begin_modules
 enumitem
@@ -247,16 +250,6 @@ filename "Chapter01.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "Chapter02.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Chapter03.lyx"
 
 \end_inset
 

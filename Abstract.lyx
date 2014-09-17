@@ -128,7 +128,7 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-As the barrier to abuse system vulnerabilities has been improved significantly
+As the barrier to abuse system vulnerabilities has been raised significantly
  with time, attacking users' psyche has rapidly become a more efficient
  and effective alternative.
  The usage of email as a media electronic of communication has been exploited
@@ -143,28 +143,39 @@ As the barrier to abuse system vulnerabilities has been improved significantly
 To protect users from phishing attacks in the email level, system designers
  and security professionals need to understand how phishers use persuasion
  techniques in phishing emails.
- In this thesis, we present the integration of persuasion techniques in
- phishing emails.
+ In this thesis, we present an analysis of persuasion techniques in phishing
+ emails.
  Our research is aimed to understand the characteristics of phishing emails
  considering persuasion techniques in the real world analysis which has
  not been done yet.
- The analysis consists of finding relationships between persuasion techniques
- and generic structural properties of phishing emails.
+ 
 \end_layout
 
 \begin_layout Standard
-It has been observed that financial institutions is the most common target
- in our dataset.
- Besides several other findings which determined by our parameters and hypothese
-s, the result shows the extensive use of 
+We have conducted a quantitative analysis of our dataset which consists
+ of reported phishing emails within the month of August 2013 and December
+ 2013.
+
+\lang english
+ The findings are observed from mainly three different viewpoints; general
+ properties characteristics, persuasion principles characteristics and their
+ relationships
+\lang american
+.
+ We have found that financial institutions are the most common target in
+ our dataset.
+ One important finding of our analysis is that the extensive use of 
 \lang english
 authority as a persuasion technique in phishing emails as opposed to social
  proof technique.
- We also find scarcity principle will likely to be used when phishing emails
- are impersonating administrator and using account related reason.
+ We have also found that scarcity principle will likely to be used when
+ phishing emails are impersonating administrator and using account related
+ reason.
  The reflection from this research is that we can position ourselves as
  the phishers, which and how persuasion techniques are used to generate
  phishing emails.
+ Thus, we can give recommendations for legitimate institutions against spoofed
+ email which use authority techniques.
  Continued research on persuasion techniques in phishing emails is required
  to stay ahead of the phishers, our method being a solid starting point
  in a real world analysis to identify the underlying issue in phishing emails.

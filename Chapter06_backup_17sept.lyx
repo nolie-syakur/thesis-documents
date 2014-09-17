@@ -74,14 +74,85 @@ Discussion
 \end_layout
 
 \begin_layout Standard
-At the beginning of our research, we have stated two research questions
- that need to be answered.
- In this section, we will shortly discuss our findings to answer our research
- questions.
+We have conducted experimental explorations in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+chap:preliminary
+\end_layout
+
+\end_inset
+
+.
+ In our attempt to discover the existence of bad neighborhood, we have conducted
+ a basic analysis with the help of tools available freely on the Internet
+ which capable of reverse IP and domain lookup.
+ These tools can check an IP address or a domain for other IP addresses
+ within the same web server or the same network.
+ However, the shortcoming of this exploration is that we do not know how
+ exactly these tools check the neighbors of an IP address.
+ Therefore, our result is dependent on the information given by these tools.
+\end_layout
+
+\begin_layout Standard
+Our result suggests that 10% of our dataset are hacked domains and 35% of
+ them show the existence of phishing bad neighborhoods.
+ However, 55% of them were not having bad neighborhoods.
+ Therefore, we can conclude while there is a small chance of 
+\begin_inset Quotes eld
+\end_inset
+
+bad neighborhood
+\begin_inset Quotes erd
+\end_inset
+
+ in a phishing domain, phishers generally do not host their phish in one
+ certain network of internet infrastructures.
+ The consequence is that, it hinders the effort of security experts to detect
+ phishing in a certain network of internet infrastructures.
+\end_layout
+
+\begin_layout Standard
+When we look at phishing vs original experiment, it suggests 87% of the
+ total HTML codes are maintaining the appearance to be the same as the target
+ while 12.5% are completely different with its target.
+ This suggests that most of the phishing web pages appear the same in terms
+ of the layout as its target.
+ With this in mind, considering to replicate a web page can be done with
+ a little effort, however, fragments of suspicious codes can be spotted
+ when the HTML source is closely examined.
+ Our result does not imply that the phishers are lazy in terms of only replicati
+ng legitimate websites, but how much modification they did while maintaining
+ the same 
+\begin_inset Quotes eld
+\end_inset
+
+look
+\begin_inset Quotes erd
+\end_inset
+
+ as their targets.
+ This can help an automated phishing detection in HTML source level.
+ Automated detection might be achieved firstly by creating a library that
+ contains suspicious HTML codes that previously have been identified.
+ Secondly, a toolbar that can extract HTML structures from a website and
+ compare against the library.
+ If a match found, then the web page likely to be a phish.
+ However, this might be another field of research that needs to be explored.
+ 
 \end_layout
 
 \begin_layout Section
 Research questions
+\end_layout
+
+\begin_layout Standard
+At the beginning of our research, we have stated the following research
+ questions that needed to be answered.
+ In this section, we will shortly discuss our findings to answer our research
+ questions.
 \end_layout
 
 \begin_layout Standard
@@ -1079,26 +1150,6 @@ chap:research-questions
  techniques.
  This will help security experts to identify the underlying issue in phishing
  emails in terms of psychological aspect.
- One important finding of our research is that authority is the most used
- persuasion techniques.
- When we relate this to financial as the most targeted sector in phishing
- email, we can suggest three folds.
- First, let say if most people are more likely to comply with authoritative
- figure, we suggest banks as a financial sector should not use emails as
- a media communication with their customers for sensitive reasons such as
- financial matter.
- This will greatly reduce risk of their email being spoofed.
- Secondly, even if a bank uses emails, email authentication methods such
- as sender policy framework (SPF) could support the real identity of the
- bank and Internet Service Provider should be able to block the unauthenticated
- emails.
- This can prevent spoofed email being delivered to the intended victim.
- Thirdly, the bank could use of what its customers have, such as phone number
- registered in its system or a token given by the bank to their customers.
- A secret code in the email sent by the bank should match the code delivered
- to the customer's phone or token.
- This will make more effort for the phishers to spoof the email from the
- bank.
  As a security expert, the reflection from this research is that we can
  position ourselves as the phishers, which and how persuasion techniques
  are used to generate phishing emails.
@@ -1145,8 +1196,8 @@ on, in which we do not know whether the sample data represents national-wide
  reporter along an information in Dutch language.
  It might be useful to know to understand the information provided by the
  reporter.
- Without understanding Dutch language we could also analyze structural propertie
-s such as whether the email use HTML or whether it contain hidden URL.
+ Without understanding Dutch language we could also analyze strutural properties
+ such as whether the email use HTML or whether it contain hidden URL.
  However, since our analysis is focus on persuasion techniques in phishing
  emails, we needed to know the language to know which persuasion techniques
  were used.
@@ -1170,7 +1221,7 @@ Future work
 
 \begin_layout Standard
 Despite our considerable limitations, a recommendation as a follow-up study
- to analyze phishing emails with Dutch language which we did not observe,
+ to analyse phishing emails with Dutch language which we did not observe,
  would be extremely desirable in order to test our findings.
  We feel that any future research along this line will find our work to
  be a useful starting point.

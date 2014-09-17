@@ -177,10 +177,9 @@ Data collection
 \end_layout
 
 \begin_layout Standard
-The data is obtained from a security organization based in Netherlands that
- handles reports on online crime and fraud including phishing in the form
- of phishing emails, which were reported between august 2013 and december
- 2013.
+The data is obtained from an organization based in Netherlands that handles
+ reports on online crime and fraud including phishing in the form of phishing
+ emails, which were reported between august 2013 and december 2013.
  Since this research is based on self report, the data will be processed
  based on the self conception.
  Furthermore, the data consists of 8444 suspected phishing emails in total
@@ -209,7 +208,9 @@ We manually categorized 8444 suspected phishing emails by sorting all the
 \end_layout
 
 \begin_layout Standard
-Within 688 suspected phishing emails in English group we further categorized
+We ignore the suspected phishing in Dutch because our proficiency of Dutch
+ language is not sufficient.
+ Within 688 suspected phishing emails in English group we further categorized
  based on phishing, spam and others.
  We label this process as 1st level categorization.
  Phishing group is determined which emails were indeed phishing, spam group
@@ -256,28 +257,8 @@ Others
 \end_layout
 
 \begin_layout Standard
-The process is resulted as follows:
-\end_layout
-
-\begin_layout Itemize
-486 phishing 
-\end_layout
-
-\begin_layout Itemize
-150 spam 
-\end_layout
-
-\begin_layout Itemize
-52 others 
-\end_layout
-
-\begin_layout Standard
-To get a further precision from the 1st level categorization, we executed
- 2nd level categorization within 688 suspected phishing emails in English
- group, which basically repeated process of 1st level categorization with
- highly scrutinized.
- Basically, the 2nd level of categorization is to find if there is any mistake
- from the 1st categorization.
+To get a further precision from the initial categorization, we executed
+ 2nd categorization within 688 suspected phishing emails in English group.
  This process is resulted as follows:
 \end_layout
 
@@ -374,7 +355,7 @@ sub:Stop-phishing-at
 
 , variables are needed to be statistically analyzed in the SPSS.
  Based on our findings in the literature survey on phishing email properties,
- 25 Variables were created as part of the methodology processes prior data
+ 23 Variables were created as part of the methodology processes prior data
  classification.
  Generic properties are depicted by the general structural phishing email
  properties except persuasion principles.
@@ -473,10 +454,10 @@ IncludesImage [0 = No, 1 = Yes]
 \begin_layout Enumerate
 
 \emph on
-ObfuscatedURL
+HiddenURL
 \emph default
 : Specifies whether a phishing email has obfuscatedURL.
- We have explained URL obfuscation in 
+ We have explained hidden URL in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -871,7 +852,8 @@ key "workman:2008"
 
 \end_inset
 
-When a phishing email contains a message that tells a recipient to react
+.
+ When a phishing email contains a message that tells a recipient to react
  or respond to scarce/turns-into scarce items or things or privileges.
  For example in the phishing email context, if a sender tells us that he/she
  will suspend/deactivate/limit our account if not respond to his/her request,
@@ -952,13 +934,13 @@ Data entry and analyses
 \end_layout
 
 \begin_layout Standard
-In the previous section, we described the framework of our methodology in
- some detail.
+In the previous section, we have described the framework of our methodology
+ in considerable details.
  Until data classification, we have used Microsoft Excel to code our data.
  To perform the analyses, we transform the data into SPSS readable file.
  We initially record our data in 25 variables which could be expanded depending
- on our analyses, for example, selecting cases which have all instructions
- or contents.
+ on our analyses, such as selecting cases which have all instructions or
+ selecting a specific target sector.
 \end_layout
 
 \begin_layout Standard
@@ -1014,6 +996,17 @@ In this section, we will discuss our findings in a considerable detail.
  We are not sure what type of attachments they have, but we determined that
  the attachment element is still there if the request to open attachment
  within its content is presence.
+ For example, an email dated December 20th 2013 11:29am, it was said in
+ the email's body 
+\begin_inset Quotes eld
+\end_inset
+
+...we have send the attached as a secure electronic file
+\begin_inset Quotes erd
+\end_inset
+
+, however, it did not attach anything.
+ Therefore, we suspected that it was removed by antivirus software.
  
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -1783,30 +1776,28 @@ tab:Target-analysis
  least common target in our corpus.
  Furthermore, E-Commerce/retails, administrator and government allocated
  in the second, third and fourth respectively as the most targeted sectors.
+ When we look deeper at the detailed list of target brand, we find PayPal
+ as a financial institution is the highest frequency at 37.2% of the total
+ financial targeted emails.
+ We find Bank of America contributes 6.4% and American Express 5.1%.
+ Furthermore, Visa contributes 5.1% and Western union contributes 3.8%.
+ Other financial institutions contributes below 3% of frequency.
  
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-fig:target-analysis
+fig:Detailed-of-financial
 \end_layout
 
 \end_inset
 
- illustrates the pie chart of target analysis derived from 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-tab:Target-analysis
+ illustrates the detailed target brand of financial sector.
 \end_layout
 
-\end_inset
-
-.
- As one email does not have more than 1 targeted sector, therefore the total
+\begin_layout Standard
+As one email does not have more than 1 targeted sector, therefore the total
  sums up to 100%.
  Note that, we initially had 92 targets in our corpus and we had to shrink
  it down into 10 target sectors in our data classification.
@@ -2288,44 +2279,6 @@ Target analysis
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/target_piechart.jpg
-	scale 60
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:target-analysis"
-
-\end_inset
-
-Target classification pie chart
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 When we look at what reasons are used in 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -2341,31 +2294,24 @@ tab:Reason-classification
  reason and 11.1% are document related reason.
  In addition, only 9.7% are product and services reason and only 4.8% are
  social reason.
+ When we look further, account related reason consists of security risk
+ which contributes 28.7% of account related emails.
+ Account related reason also consists of system upgrade, new system requirement
+ and account expiration which contribute below 11%.
  This suggests that account related is the most common pretext to manipulate
  recipients in our corpus while social is evidently the least common pretext.
  
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
-fig:reason-analysis
+fig:Detailed-account-related
 \end_layout
 
 \end_inset
 
- illustrates the bar chart of the reason classification derived from 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-tab:Reason-classification
-\end_layout
-
-\end_inset
-
-.
+ illustrates the detailed list of account related reason.
 \end_layout
 
 \begin_layout Standard
@@ -2640,16 +2586,19 @@ Reason classification
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename gfx/reasons_8september2014_bar chart11.jpg
-	scale 50
+	filename gfx/reasons_detailed_17september2014_bar chart1.jpg
+	scale 75
 
 \end_inset
 
@@ -2659,15 +2608,19 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:reason-analysis"
+name "fig:Detailed-account-related"
 
 \end_inset
 
-Reason classification bar chart
+Detailed account related reason graph
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2677,7 +2630,7 @@ Reason classification bar chart
 \end_layout
 
 \begin_layout Standard
-We look at the result of persuasion theory synthesis based on Cialdini's
+We look at the result of persuasion techniques analysis based on Cialdini's
  principles with our corpus.
  As we can see from 
 \begin_inset Flex CT - auto cross-reference
@@ -2690,14 +2643,21 @@ tab:Persuasion-principle-analysis
 
 \end_inset
 
-, we find that 96.1% of the total phishing emails are having authority principle,
- which holds the most prevalent principle.
+, we find that 96.1% of the total phishing emails are using authority principle,
+ which holds the most used technique in our dataset.
  Followed by scarcity principle at 41.1%.
- While 21.7% of the total are having likeability principle, only 17.4% of
- them are having consistency principle.
- We find 9.7% are having reciprocation principle and 5.3% of them are having
+ While 21.7% of the total are using likeability principle, only 17.4% of them
+ are using consistency principle.
+ We find 9.7% are using reciprocation principle and 5.3% of them are using
  social proof principle.
- It is important to know that one email can have multiple principles.
+ Since authority holds the highest persuasion technique in our corpus, it
+ is interesting to know why phishers often use authority as the main technique.
+ Perhaps, most people do not want to get negative consequences as a result
+ of disobedience from authoritative figure.
+ Consequently, those people who respond more obediently to authority more
+ likely to comply with the email's requests than people who are more skeptical
+ to authoritative figure.
+ Note that one email can use multiple principles.
  Therefore, the total percentage does not sum up to 100%.
 \end_layout
 

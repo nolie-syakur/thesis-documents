@@ -103,7 +103,7 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-RQ1: What are the characteristics of the reported phishing emails?
+RQ1: What are the characteristics of the phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -119,8 +119,8 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-The characteristics of the reported phishing emails determined by the following
- parameters:
+The characteristics of phishing emails in our dataset are determined by
+ the following parameters:
 \end_layout
 
 \begin_layout Itemize

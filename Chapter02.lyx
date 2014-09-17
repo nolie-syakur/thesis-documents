@@ -204,8 +204,6 @@ key "james:2005"
  to its legitimate target.
  While it may be true, phishing website also could be completely different
  with its target as there is no level of identicalness.
- With this in mind, experimental exploration on what changed or added in
- phishing website would be conducted in the later section.
  In the following subsections, we will introduce how phishing was originally
  came about and how current literatures formally define phishing.
 \end_layout
@@ -556,7 +554,7 @@ key "jakobsson:2006"
 
 .
  On this section, a brief explanation of direct and indirect cost on phishing
- attack will be illustrated based on literature reviews.
+ attack will be illustrated based on literature review
 \end_layout
 
 \begin_layout Standard
@@ -643,106 +641,43 @@ key "mccall:2007"
 \end_inset
 
 .
- The estimation also performed by TRUSTe and Ponemon Institute that stated
+ The estimation also performed by TRUSTe and Pontoon Institute that stated
  the cost of phishing attack was up to $500 millions losses in the US for
  the same year 
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-http://www.theregister.co.uk/2004/09/29/phishing_survey/
+http://wow.theregister.co.uk/2004/09/29/phishing_survey/
 \end_layout
 
 \end_inset
 
 .
- Recently, RSA FraudAction gives monthly reports of how much the global
- phishing cost and we compiled them together to make a line graph in 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-fig:global-phishing-cost
-\end_layout
-
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "RSA:2014"
-
-\end_inset
-
-.
- However, they do not specify whether this damage is direct cost or indirect
- cost.
- In their study, we can see that there are fluctuation of losses in term
- of money.
- Furthermore, this total cost is indeed in accordance with the total cost
- ranging from $61 million to $3billion per year 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "herley:2009,mccall2007gartner,hong:2012,moura2009scalable"
-
-\end_inset
-
-.
- 
 \end_layout
 
 \begin_layout Standard
-With this in mind, we might ask how phishing attack is carried out? is there
- any stages involved? The next chapter we will review its modus operandi
- in term of phishing stages or phases.
+However, the lack of information such as the detailed of documentation survey
+ on how to find these numbers conducted by Gartner group or Pontoon makes
+ these estimations are biased than is generally realized.
+ It is interesting to investigate why their estimations are repeated without
+ really analyzed when they appeared biased at best.
+ One thing come up in our mind that they might have a hidden agenda to make
+ societies think that the cost of phishing is high.
+ Consequently, people would be obligated to implement anti phishing system
+ or engage in phishing awareness in their company which require money.
+ With this in mind, we would like to emphasize that our findings on the
+ costs of phishing attacks are only estimations without scrutiny from academic
+ researchers and it might be an exaggeration.
+ Although even if the cost of phishing attack is zero, we believe that phishing
+ is still a major problem in terms of trust among users and the misuse of
+ email as a means of communication.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/phishing_cost1.jpg
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:global-phishing-cost"
-
-\end_inset
-
-Global phishing cost from January 2014 until June 2014 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "RSA:2014"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Apart from the cost of phishing attacks, we might ask how phishing attack
+ is carried out? is there any stages involved? The next chapter we will
+ review its modus operandi in term of phishing stages or phases.
 \end_layout
 
 \begin_layout Section
@@ -1338,26 +1273,21 @@ fig:ing
 
 \end_inset
 
- illustrates the example of fake ING bank logo in a phishing email to create
- 
-\begin_inset Quotes eld
-\end_inset
-
-legitimate
-\begin_inset Quotes erd
-\end_inset
-
- feel
+ illustrates the example design of a fake email that impersonates ING bank
+ that can trick unsuspecting victims
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-http://www.martijn-onderwater.nl/wp-content/uploads/2010/03/ing-phishing.jpg
+http://wow.martijn-onderwater.nl/wp-content/uploads/2010/03/ing-phishing.jpg
 \end_layout
 
 \end_inset
 
 .
+ From the figure, we can spot a fake email by investigating the sender email
+ address or the URL provided in the body, whether it redirects to the official
+ ING website or not.
  On the third process, the phisher 
 \shape italic
 fabricates
@@ -1421,7 +1351,7 @@ key "cialdini:2001"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1444,7 +1374,7 @@ name "fig:ing"
 
 \end_inset
 
-Example of fake ING logo in phishing email
+Example of a phishing email impersonating ING bank
 \end_layout
 
 \end_inset
@@ -1724,7 +1654,7 @@ tab:compilation-phases
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2033,13 +1963,13 @@ key "jakobsson:2006"
 
 .
  These variations include cousin domain attack.
- For example, legitimate PayPal website addressed as www.paypal.com, this
- cousin domain attacks confuse potential victims to believe that www.paypal-secur
+ For example, legitimate PayPal website addressed as wow.paypal.com, this
+ cousin domain attacks confuse potential victims to believe that wow.paypal-secur
 ity.com is a subdivision of the legitimate website due to identical looking
  addresses.
  Similarly, homograph attacks create a confusion using similar characters
  to its addresses.
- For example, www.paypal.com and www.paypa1.com, both addresses look the same
+ For example, wow.paypal.com and wow.paypa1.com, both addresses look the same
  but on the second link, it uses “1” instead of “l”.
  
 \end_layout
@@ -2052,8 +1982,6 @@ Moreover, phishers may embed a login page directly to the email content.
  potential victim to phishing website and JavaScript is used to take over
  address bar of a browser to make potential victims believe that they are
  communicating with the legitimate institution.
- We will also see few examples of malicious JavaScript on our experimental
- exploration section.
  
 \end_layout
 
@@ -2098,217 +2026,8 @@ key "jakobsson:2006"
  web Trojans and hosts file poisoning.
 \end_layout
 
-\begin_layout Section
-Bad neighborhoods and phishing
-\end_layout
-
 \begin_layout Standard
-In the physical world, there are parts of certain area that have higher
- crime rates than others (e.g..
- Bronx in the US) which called hotspots.
- Evidently, it is statistically more likely that a crime will occur compared
- to other locations 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
-.
- To better illustrate this analogy, the police department in Belgium 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "belgiumpolice:2014"
-
-\end_inset
-
- has put up statistical information regarding crime rates in the country.
- 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-fig:car-incidents
-\end_layout
-
-\end_inset
-
- shows an example in 2013; there were up to 5525 car theft incidents recorded
- and we can see there are certain areas that have higher probability that
- a car got stolen.
- For example, Antwerp had 415 incidents whereas Berlare had only 1 car theft
- incident 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "belgiumpolice2:2014"
-
-\end_inset
-
-.
- The data is not necessarily based on cities, it can be based on the residential
- area within a city.
- This holds true that much higher crime rates in a concentrated location
- compared to any other locations.
- It is called bad neighborhood.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/bad neighborhoods.png
-	scale 80
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:car-incidents"
-
-\end_inset
-
-Belgium police record on car theft incidents in 2013
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-To reduce the crime rates in a bad neighborhood, it makes sense that the
- authority should put more enforcement in this location.
- Moreover, the citizen should avoid this location as much as they can if
- they want to feel much safer.
- Evidently, Moura, et al.
- suggest that the existence of bad neighborhood phenomenon also occurs in
- the Internet world called 
-\begin_inset Quotes eld
-\end_inset
-
-Internet bad neighborhoods
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
-.
- There are certain networks of Internet infrastructure that contain more
- malicious activities that other networks.
- For our experimental exploration, we will adopt formal definition of Internet
- bad neighborhoods or Internet Badhoods by 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
- which states: 
-\end_layout
-
-\begin_layout Quote
-
-\shape italic
-\begin_inset Quotes eld
-\end_inset
-
-Internet bad neighborhood is a set of IP addresses clustered according to
- an aggregation criterion in which a number of IP addresses perform a certain
- malicious activity over a specified period of time
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Several studies have suggested that the source of the Internet Badhoods
- tend to be concentrated in certain portions of 
-\begin_inset Flex CT - acronym
-status open
-
-\begin_layout Plain Layout
-
-IP
-\end_layout
-
-\end_inset
-
- address space 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "ramachandran:2006,collins:2007,chen:2007"
-
-\end_inset
-
-.
- Moura, et al.
- suggest that Internet Badhoods do not always only based on network prefixes
- level (e.g.
- /24, /32, etc..) but it can be aggregated into several levels (ISPs, Countries)
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
-.
- Moreover, Internet Badhoods may vary depending on which application exploited.
- While spam is most likely distributed all around the world, however, phishing
- Badhoods are most likely concentrated in developed countries (e.g.
- US) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
-.
- This suggests that phishing sites are required to have more reliable hosts
- in term of availability, while spams are not.
- We will see on 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-chap:preliminary
-\end_layout
-
-\end_inset
-
- that consists of our experimental exploration on phishing Badhoods.
- In the next section, we will study on the general phishing countermeasures
+In the next section, we will study on the general phishing countermeasures
  in term of phishing detection and prevention.
 \end_layout
 
@@ -2356,7 +2075,7 @@ Visually differentiate the phishing site
 \end_layout
 
 \begin_layout Itemize
-Two facto and multi channel authentication
+Two factor and multi channel authentication
 \end_layout
 
 \begin_layout Itemize
@@ -2482,10 +2201,9 @@ tab:phishtank
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="4">
+<lyxtabular version="3" rows="13" columns="3">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="3cm">
-<column alignment="left" valignment="top" width="2cm">
 <column alignment="left" valignment="top" width="2cm">
 <column alignment="left" valignment="top" width="5cm">
 <row>
@@ -2509,18 +2227,6 @@ Paper title
 \series bold
 \size footnotesize
 First author
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size footnotesize
-Country
 \end_layout
 
 \end_inset
@@ -2564,17 +2270,6 @@ key "moore:2008"
 
 \size scriptsize
 Tyler Moore
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-United Kingdom
 \end_layout
 
 \end_inset
@@ -2624,17 +2319,6 @@ Pern Hui Chia
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-Norway
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -2674,17 +2358,6 @@ key "liu:2010"
 
 \size scriptsize
 Gang Liu
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-China
 \end_layout
 
 \end_inset
@@ -2730,17 +2403,6 @@ key "white:2012"
 \size scriptsize
 Joshua S.
  White
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-New york, US.
 \end_layout
 
 \end_inset
@@ -2791,17 +2453,6 @@ P.A.
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-Newcastle, United Kingdom
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -2848,17 +2499,6 @@ Huiping Yao
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-New Mexico, US.
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -2898,17 +2538,6 @@ key "huang:2012"
 
 \size scriptsize
 Huajun Huang
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-China
 \end_layout
 
 \end_inset
@@ -2957,17 +2586,6 @@ Gaurav Gupta
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-Australia
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3008,17 +2626,6 @@ key "egan:2011"
 
 \size scriptsize
 Shaun Egan
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-Grahamstown, South Africa
 \end_layout
 
 \end_inset
@@ -3066,17 +2673,6 @@ Sidharth Chhabra
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-Delhi, India
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3120,17 +2716,6 @@ Liu Wenyin
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-Hong Kong
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3163,15 +2748,6 @@ Summary phishtank studies
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3607,8 +3183,8 @@ Furthermore, there are also several learning algorithms to classify the
 \end_layout
 
 \begin_layout Standard
-There are vast amount of features to utilize machine learning to detect
- phishing attack.
+There are vast amount of features that can be used in machine learning to
+ detect phishing attack.
  Literatures are selected by keyword search such as 
 \begin_inset Quotes eld
 \end_inset
@@ -3642,21 +3218,11 @@ key "ma:2009"
 .
  These features include how many dots exist, the length, how deep the path
  traversal do the URL has or if there any sensitive words present in a URL.
- For example the URLs https://www.paypal.com and http://www.paypal.com.example.com/
- or http://login.example.com/ www.paypal.com/, we can see that the domain paypal.com
+ For example the URLs https://wow.paypal.com and http://wow.paypal.com.example.com/
+ or http://login.example.com/ wow.paypal.com/, we can see that the domain paypal.com
  positioned differently, with the first one being the benign URL.
- 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-fig:ex-lex
-\end_layout
-
-\end_inset
-
- shows an example analysis of lexical features in a phishing URL 
+ Le, et al suggests we can extract the features related to the full URL,
+ domain name, directory, file name and argument 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "le:2011"
@@ -3664,50 +3230,12 @@ key "le:2011"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/lexical.png
-	scale 80
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:ex-lex"
-
-\end_inset
-
-Example lexical features 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "le:2011"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+ For example we want to extract features related to the full URL; we can
+ define the length of the URL, the number of dots in the URL, and whether
+ the blacklisted word presents in the URL.
+ The blacklisted words consist of sensitive words such as confirm, account,
+ login or webscr.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -3774,7 +3302,7 @@ key "xiang:2011"
 
 \end_inset
 
-, for example, http://www.example.net/pathto/www.paypal.com.
+, for example, http://wow.example.net/pathto/wow.paypal.com.
  Suspicious URL feature examine whether the URL has 
 \begin_inset Quotes eld
 \end_inset
@@ -3841,7 +3369,7 @@ key "egan:2011"
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
