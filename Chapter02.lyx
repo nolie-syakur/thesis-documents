@@ -81,9 +81,8 @@ In order to meet our goal, necessary knowledge on phishing in general is
  required.
  This chapter introduces general understanding of phishing, an exploration
  of its damage in term of money, the overview of its modus operandi, a brief
- explanation on types of phishing, an understanding of bad neighborhoods
- on phishing, general phishing countermeasures and human factor in phishing
- attacks.
+ explanation on types of phishing, general phishing countermeasures and
+ human factor in phishing attacks.
 \end_layout
 
 \begin_layout Section
@@ -1907,8 +1906,9 @@ key "teri:2014"
  well, but sometimes the news is kept hidden due to creditability reason.
  With this in mind, we believe fake websites might be hosted in the network
  which has more phishing domain than other networks.
- Subsequently, in the next section, we will discuss bad neighborhoods on
- phishing.
+ Subsequently, in the next section, we will discuss the general phishing
+ countermeasures.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4712,7 +4712,7 @@ Using influence and persuasion to deceive people by convincing them that
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 From his definition we can learn that people are the main target of the
  attack, specifies some of the important tools used by the attackers, such
  as influence and persuasion.

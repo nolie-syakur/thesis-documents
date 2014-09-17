@@ -1094,7 +1094,7 @@ chap:research-questions
  emails.
  This can prevent spoofed email being delivered to the intended victim.
  Thirdly, the bank could use of what its customers have, such as phone number
- registered in its system or a token given by the bank to their customers.
+ registered in its system or a token given by the bank to the customers.
  A secret code in the email sent by the bank should match the code delivered
  to the customer's phone or token.
  This will make more effort for the phishers to spoof the email from the
