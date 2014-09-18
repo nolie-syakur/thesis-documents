@@ -657,8 +657,8 @@ http://wow.theregister.co.uk/2004/09/29/phishing_survey/
 
 \begin_layout Standard
 However, the lack of information such as the detailed of documentation survey
- on how to find these numbers conducted by Gartner group or Pontoon makes
- these estimations are biased than is generally realized.
+ on how to find these numbers which conducted by Gartner group or Pontoon
+ makes these estimations are biased than is generally realized.
  It is interesting to investigate why their estimations are repeated without
  really analyzed when they appeared biased at best.
  One thing come up in our mind that they might have a hidden agenda to make
@@ -1284,9 +1284,9 @@ http://wow.martijn-onderwater.nl/wp-content/uploads/2010/03/ing-phishing.jpg
 \end_inset
 
 .
- From the figure, we can spot a fake email by investigating the sender email
- address or the URL provided in the body, whether it redirects to the official
- ING website or not.
+ From the figure, we can spot a fake email by investigating the real sender
+ email address by looking at the email header or the URL provided in the
+ body, whether it redirects to the official ING website or not.
  On the third process, the phisher 
 \shape italic
 fabricates

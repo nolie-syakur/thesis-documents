@@ -32,7 +32,7 @@
 % ********************************************************************
 \usepackage{ifthen}
 \newboolean{enable-backrefs} % enable backrefs in the bibliography
-\setboolean{enable-backrefs}{true} % true false
+\setboolean{enable-backrefs}{false} % true false
 % ****************************************************************************************************
 
 
@@ -80,8 +80,9 @@
 %\PassOptionsToPackage{spanish,es-lcroman}{babel}
  \usepackage{babel}
 
-\PassOptionsToPackage{square,numbers}{natbib}
- \usepackage{natbib}
+%\PassOptionsToPackage{square,numbers}{natbib}
+ %\usepackage{natbib}
+
 
 \PassOptionsToPackage{fleqn}{amsmath}		% math environments and more by the AMS
  \usepackage{amsmath}
@@ -281,3 +282,21 @@
 % ****************************************************************************************************
 \usepackage{pdflscape}
 \usepackage{url}
+%\PassOptionsToPackage{square,numbers}{natbib}
+%\usepackage{bibtopic}
+%\usepackage[utf8]{inputenc}
+\usepackage[
+        backend=biber,
+    style=numeric,
+    block=none,
+    indexing=false,
+    citereset=none,
+    isbn=true,
+    url=true,
+    doi=true,
+    natbib=true,
+        backref=true
+]{biblatex}
+
+\addbibresource{Bibliography.bib}
+\addbibresource{additional.bib}

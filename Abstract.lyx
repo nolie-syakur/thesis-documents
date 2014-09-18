@@ -134,13 +134,14 @@ As the barrier to abuse system vulnerabilities has been raised significantly
  The usage of email as a media electronic of communication has been exploited
  by phishers to deliver their attacks.
  The success of a phishing attack through distributed emails is determined
- by the response of the unsuspecting victims.
- Persuasion techniques often used to obscure users' decisions and compliance
- to grant the phishers' requests.
+ by the response from the unsuspecting victims.
+ Although persuasion can be used as a tool for a good reason, they can also
+ be used for a malicious reason by the phishers to get a positive response
+ from an intended victim in phishing emails.
 \end_layout
 
 \begin_layout Standard
-To protect users from phishing attacks in the email level, system designers
+To protect users from phishing attacks on the email level, system designers
  and security professionals need to understand how phishers use persuasion
  techniques in phishing emails.
  In this thesis, we present an analysis of persuasion techniques in phishing
@@ -152,7 +153,7 @@ To protect users from phishing attacks in the email level, system designers
 \end_layout
 
 \begin_layout Standard
-We have conducted a quantitative analysis of our dataset which consists
+We have conducted a quantitative analysis on our dataset which consists
  of reported phishing emails within the month of August 2013 and December
  2013.
 
@@ -170,15 +171,11 @@ authority as a persuasion technique in phishing emails as opposed to social
  proof technique.
  We have also found that scarcity principle will likely to be used when
  phishing emails are impersonating administrator and using account related
- reason.
- The reflection from this research is that we can position ourselves as
- the phishers, which and how persuasion techniques are used to generate
- phishing emails.
- Thus, we can give recommendations for legitimate institutions against spoofed
- email which use authority techniques.
+ as a reason.
  Continued research on persuasion techniques in phishing emails is required
  to stay ahead of the phishers, our method being a solid starting point
- in a real world analysis to identify the underlying issue in phishing emails.
+ in a real world analysis to identify the characteristics of phishing emails
+ considering persuasion techniques.
 \end_layout
 
 \begin_layout Standard

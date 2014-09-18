@@ -78,153 +78,34 @@ status open
 
 \begin_layout Plain Layout
 
-%*************************
-\end_layout
-
-\begin_layout Plain Layout
-
-% Bibliography 
-\end_layout
-
-\begin_layout Plain Layout
-
-%*************************
-\end_layout
-
-\begin_layout Plain Layout
-
-% work-around to have small caps also here in the headline
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-manualmark 
-\backslash
-markboth{
-\backslash
-spacedlowsmallcaps{
-\backslash
-bibname}}{
-\backslash
-spacedlowsmallcaps{
-\backslash
-bibname}}
+chapter{Bibliography}    
 \end_layout
 
 \begin_layout Plain Layout
 
-%
+	
 \backslash
-phantomsection
+printbibliography[keyword=bibliography,heading=none]
 \end_layout
 
 \begin_layout Plain Layout
 
-
+    
 \backslash
-refstepcounter{dummy}
+section*{Additional Bibliography}         
 \end_layout
 
 \begin_layout Plain Layout
 
-
+		
 \backslash
-addtocontents{toc}{
-\backslash
-protect
-\backslash
-vspace{
-\backslash
-beforebibskip}}
-\end_layout
-
-\begin_layout Plain Layout
-
-% to have the bib a bit from the rest in the toc
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{chapter}{
-\backslash
-tocEntry{
-\backslash
-bibname}}
-\end_layout
-
-\begin_layout Plain Layout
-
-%
-\backslash
-bibliographystyle{plainnat} %%%%% LyX will do this
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "app:bibliography"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "Bibliography"
-options "plainnat"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\backslash
-automark[section]{chapter} 
-\end_layout
-
-\begin_layout Plain Layout
-
-%
-\backslash
-renewcommand{
-\backslash
-chaptermark}[1]{
-\backslash
-markboth{
-\backslash
-spacedlowsmallcaps{#1}}{
-\backslash
-spacedlowsmallcaps{#1}}} %
-\backslash
-renewcommand{
-\backslash
-sectionmark}[1]{
-\backslash
-markright{
-\backslash
-thesection
-\backslash
-enspace
-\backslash
-spacedlowsmallcaps{#1}}}
+printbibliography[keyword=additional,heading=none]
 \end_layout
 
 \end_inset
