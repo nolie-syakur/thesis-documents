@@ -688,7 +688,7 @@ name "sub:cialdini-decision"
 \end_layout
 
 \begin_layout Standard
-Part of our analysis, we tried to synthesize phishing emails dataset with
+Part of our analysis, we tried to integrate phishing emails dataset with
  Cialdini’s principles titled “The science of persuasion”.
  The decision making and the rationale in this process are achieved based
  our perspective of Cialdini’s principles in the following details.
@@ -1567,7 +1567,7 @@ As we discussed before, we have also analyzed the content of phishing emails
  We find 35.3% of them include image(s) while 64.7% do not include image.
  
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 

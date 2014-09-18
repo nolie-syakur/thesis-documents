@@ -625,9 +625,15 @@ key "moura2009scalable"
  In addition, the Gartner Group claimed to estimate of $1.2 billion direct
  losses of phishing attack to US banks and credit card companies for the
  year 2004 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "litan2:2004"
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{litan2004phishing}
+\end_layout
 
 \end_inset
 
@@ -2118,8 +2124,8 @@ key "parmar:2014"
 \end_inset
 
 .
- However, as our research mainly focuses in synthesizing phishing email
- with cialdini's six principles of persuasion 
+ However, as our research mainly focuses in integrating phishing email with
+ cialdini's six principles of persuasion 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cialdini:2001"
@@ -3807,7 +3813,7 @@ key "ma:2009,ma2:2009,liu,xiang:2011"
 
 \begin_layout Standard
 Each of these features does matter for phishing detection.
- However, as our main objective is synthesizing cialdini's principle with
+ However, as our main objective is integrating cialdini's principle with
  phishing emails, we will not describe each of these features in detail.
  It is noteworthy that some of the features are subset of another feature,
  for instance, autonomous system number (ASN), IP country and number of
@@ -4809,9 +4815,8 @@ key "stajano2011understanding"
 \end_inset
 
 .
- We will use these principles as our foundation in synthesizing phishing
- email corpus with human factor.
- 
+ We will use these principles as our foundation to be integrated in phishing
+ email corpus.
 \end_layout
 
 \begin_layout Standard
