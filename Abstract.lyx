@@ -39,8 +39,8 @@
 \use_package stackrel 0
 \use_package stmaryrd 0
 \use_package undertilde 0
-\cite_engine natbib
-\cite_engine_type numerical
+\cite_engine basic
+\cite_engine_type default
 \biblio_style plainnat
 \use_bibtopic false
 \use_indices false
@@ -163,19 +163,16 @@ We have conducted a quantitative analysis on our dataset which consists
  relationships
 \lang american
 .
- We have found that financial institutions are the most common target in
- our dataset.
+ We have found that financial institutions are the most common target with
+ high number of occurences in our dataset.
  One important finding of our analysis is that the extensive use of 
 \lang english
 authority as a persuasion technique in phishing emails as opposed to social
  proof technique.
- We have also found that scarcity principle will likely to be used when
- phishing emails are impersonating administrator and using account related
- as a reason.
- Continued research on persuasion techniques in phishing emails is required
- to stay ahead of the phishers, our method being a solid starting point
- in a real world analysis to identify the characteristics of phishing emails
- considering persuasion techniques.
+ We have found that scarcity principle will likely to be used when phishing
+ emails are impersonating administrator and using account related as a reason.
+ Overall, three of our hypotheses in terms of pesuasive principles are accepted
+ while seven of them are rejected, which are unexpected.
 \end_layout
 
 \begin_layout Standard

@@ -181,7 +181,7 @@ Phishing email which has document related reason as a pretext, is likely
 \begin_layout Standard
 
 \shape italic
-To what extent the persuasive principles are used in phishing emails?
+To what extent are the persuasive principles used in phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -1088,10 +1088,8 @@ chap:research-questions
  Instead, the bank should have its own secure messaging system to communicate
  with its customers.
  This will greatly reduce risk of the bank's email being spoofed.
- Secondly, even if a bank uses emails, email authentication methods such
- as sender policy framework (SPF) could support the real identity of the
- bank and Internet Service Provider (ISP) should be able to block the unauthenti
-cated emails.
+ Secondly, even if a bank uses emails, email authentication methods could
+ support the real identity of the bank.
  This can prevent a spoofed email being delivered to the intended victim.
  Thirdly, the bank could use of what its customers have, such as phone number
  registered in the bank's system or a token given by the bank to the customers.
@@ -1134,7 +1132,8 @@ As a security expert, the reflection from this research is that we can position
  Lastly, an email which gives negative consequences, fear and authentic
  impression, does not always truthful.
  Therefore, should be doubted and questioned its legitimacy.
- 
+ Thus, persuasion awareness in phishing emails is needed to help the end
+ users as the recipients to think before they respond to an email.
 \end_layout
 
 \begin_layout Standard
@@ -1220,6 +1219,9 @@ on in terms of persuasive principles by involving several people to have
  emails which already has claimed a victim.
  Thus, the goal for future research would be the success rate of authority
  principle in phishing emails.
+ In conjunction, controlled environment to test persuasion awareness could
+ be helpful to see whether it reduces phishing victimization through emails
+ or not.
  Lastly, as we understand that persuasion principles in phishing email have
  some influence in user's decisions, therefore, it is interesting if the
  future research can build a simple game in terms of persuasion awareness
