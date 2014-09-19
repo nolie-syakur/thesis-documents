@@ -181,7 +181,7 @@ Phishing email which has document related reason as a pretext, is likely
 \begin_layout Standard
 
 \shape italic
-To what extent are the persuasive principles used in phishing emails?
+To what extent are the persuasion principles used in phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -193,7 +193,7 @@ To what extent are the persuasive principles used in phishing emails?
 
 \begin_layout Standard
 To answer the second research question, we look at the relationships between
- the persuasive principles and the generic properties.
+ the persuasion principles and the generic properties.
  With this in mind, we have established 10 hypotheses related to these relations
 hips and we look wether the findings are consistent with these hypotheses.
  
@@ -264,7 +264,7 @@ Lastly, we find that there is a significant association between the use
 \end_layout
 
 \begin_layout Standard
-Overall, seven hypotheses in respect of persuasive principles are rejected
+Overall, seven hypotheses in respect of persuasion principles are rejected
  and three of them are accepted.
  Based on this, we can answer our research question by three underlying
  perspectives.
@@ -1121,9 +1121,9 @@ Your account is under risk!
 \end_layout
 
 \begin_layout Standard
-As a security expert, the reflection from this research is that we can position
- ourselves as the phishers, which and how persuasion techniques are used
- to generate phishing emails.
+The reflection from this research is that we can position ourselves as the
+ phishers, which and how persuasion techniques are used to generate phishing
+ emails.
  To regular user readers, we recommend to scrutinize when an email requires
  a quick respond to scarce or turn-into scarce items or things or privileges.
  We also do not recommend to be negligent when an email is coming from others
@@ -1182,7 +1182,7 @@ s such as whether the email use HTML or whether it contain hidden URL.
  The fourth limitation is that, our data classification is done by one person.
  It means the coding of the data into associated variables could be inaccurate.
  While the data coding to the generic structural properties of phishing
- email could be justified, however, the data coding into the persuasive
+ email could be justified, however, the data coding into the persuasion
  principles could be an issue in terms of accuracy.
  For example, one person claimed an email is attractive while another person
  claimed it is not.
@@ -1210,7 +1210,7 @@ Despite our considerable limitations, a recommendation as a follow-up study
  We feel that any future research along this line will find our work to
  be a useful starting point.
  Furthermore, we also recommend to add resilient validation in data classificati
-on in terms of persuasive principles by involving several people to have
+on in terms of persuasion principles by involving several people to have
  an objective decision.
  It is also interesting to identify authority principle in regular emails
  to make an objective perspective and compare with phishing emails.
@@ -1245,7 +1245,7 @@ snakes and ladders
 \begin_inset Quotes erd
 \end_inset
 
- game to alert users of the presence of persuasive principles in an email
+ game to alert users of the presence of persuasion principles in an email
  they received.
 \end_layout
 
