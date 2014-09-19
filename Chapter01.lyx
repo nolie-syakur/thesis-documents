@@ -293,16 +293,16 @@ Research goal
 
 \lang english
 The main goal of this research is to characterize phishing email properties
- considering persuasive principles by finding the association between generic
- properties and persuasive principles.
+ considering persuasion principles by finding the association between generic
+ properties and persuasion principles.
  These generic properties consist of phishing email structural properties
  or features based on the literature survey findings.
- Each of these properties and each of the persuasive principle will be introduce
+ Each of these properties and each of the persuasion principle will be introduce
 d as a variable in our methodology.
  We will look for frequency and relationship involving these variables.
  This relationship can be used to show a different perspective of phishing
  email characteristics considering the persuasive elements within its content.
- The integration of persuasive principles in phishing emails also can be
+ The integration of persuasion principles in phishing emails also can be
  used to generate a new method in an automatic way of detecting phishing
  emails as one of the primary delivery techniques of phishing attacks.
 \end_layout
