@@ -274,12 +274,243 @@ The success of a phishing attack through distributed emails is determined
  by the response of the unsuspecting recipients.
  User decisions to click a link or open an attachment in an email might
  be influenced by how strong a phisher can persuade the intended victim.
- However, current literatures shows an absence in conducting a real world
- analysis of phishing email characterization by integrating persuasion technique
-s.
+ We perform a combination of query strings to search in the title, abstract,
+ keyword and references fields in Scopus database.
+ The query strings include TITLE-ABS-KEY ( persuasion AND phishing ) and
+ TITLE-ABS-KEY ( phishing ) AND REF ( cialdini ) in two peer-reviewed literature
+ databases; Scopus and Web of Science.
+ In Scopus database, the query search of TITLE-ABS-KEY ( persuasion AND
+ phishing ) was resulted in six literatures 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kaivanto2014effect}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kim2013understanding}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{blythe2011f}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{sharma2010anatomy}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{Ghorbani20101}
+\end_layout
+
+\end_inset
+
+ whereas in Web of Science, the query search of 
+\begin_inset Quotes eld
+\end_inset
+
+TOPIC: (persuasion phishing)
+\begin_inset Quotes erd
+\end_inset
+
+ resulted in three literatures 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kaivanto2014effect}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{workman:2008}
+\end_layout
+
+\end_inset
+
+.
+ There are two literatures that existed in both databases 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kim2013understanding}
+\end_layout
+
+\end_inset
+
+.
+ By conducting individual investigations on all literatures found in both
+ databases, we found only one literature which was similar to our study
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kim2013understanding}
+\end_layout
+
+\end_inset
+
+.
+ However, apart from different dataset, Kim, et al.
+ conduct an analysis of phishing emails based on message argument quality.
+ The message argument quality includes; rational appeals, emotional appeals,
+ motivational appeals and time pressure 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kim2013understanding}
+\end_layout
+
+\end_inset
+
+.
+ Moreover, Kim, et al.
+ did not analyze nor relate structural phishing properties such as URLs,
+ attachments, usage of HTML, targeted sector and reason used with their
+ persuasion theory.
+ An interesting research from Wright, et al.
+ which analayze how people influenced by the same persuasion principles
+ as our study in phishing messages 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research}
+\end_layout
+
+\end_inset
+
+.
+ However, the procedures of the study involved with creating phishing messages
+ which represent persuasion principles and test them to 2,600 participants
+ and see how many would respond 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research}
+\end_layout
+
+\end_inset
+
+.
+ This shows not only the different of measurement instruments, but also
+ the foundation of persuasion theory between their studies and our study.
+ The low number of results from our query searches also indicate not many
+ acamedic researchers that study persuasion techniques and phishing area.
+ Thus, a real world analysis of phishing email characterization based on
+ persuasion techniques is needed to fill this gap.
  This characterization can show to what extent the persuasion techniques
  are used in phishing emails.
- Our research fills the void as a milestone towards countermeasure against
+ Our research fills the void as a milestone towards countermeasures against
  phishing attacks with an insight of psychological aspect.
 \end_layout
 
@@ -368,37 +599,25 @@ Chapter 2 describes background and literature reviews about phishing in
  The subsections include; a general understanding of what is phishing in
  terms of history and definition, an overview of its damage in terms of
  money, an exploration of its modus operandi based on phishing stages or
- phases, a basic understanding of bad neighborhood and phishing, general
- phishing countermeasures and lastly the human factor in phishing.
+ phases, general phishing countermeasures and lastly the human factor in
+ phishing.
  
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-Experimental exploration with methods and results will be described in chapter
- 3.
- It consists of an experiment on the existence of bad neighborhood and finding
- differences of phishing website vs its original website.
- The methods and the results of the individual experiment will be presented
- in the respective sections.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-In chapter 4 presents the rationale of our main research questions and hypothese
-s.
+In chapter 3, we presents the rationale of our main research questions and
+ hypotheses.
  It includes what aspect to be considered to answer the characteristics
- of phishing emails in the dataset and the motivation of our hypotheses
- to support our research questions.
+ of phishing emails based on persuasion principles in the dataset and the
+ motivation of our hypotheses to support our research questions.
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-In chapter 5, we will discuss our main data analysis and results.
+In chapter 4, we will discuss our main data analysis and results.
  It includes the details of research methodology that we conducted as well
  as the results of our analysis.
 \end_layout
@@ -406,10 +625,10 @@ In chapter 5, we will discuss our main data analysis and results.
 \begin_layout Standard
 
 \lang english
-Lastly, in chapter 6 we will present our discussion and conclusion of the
+Lastly, in chapter 5 we will present our discussion and conclusion of the
  research project, how the research questions are answered along with the
  recommendations, limitations and how these limitations could become the
- basis of further research.
+ basis of future research.
 \end_layout
 
 \end_body

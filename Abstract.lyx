@@ -154,12 +154,12 @@ To protect users from phishing attacks on the email level, system designers
 
 \begin_layout Standard
 We have conducted a quantitative analysis on our dataset which consists
- of reported phishing emails within the month of August 2013 and December
+ of reported phishing emails between the month of August 2013 and December
  2013.
 
 \lang english
  The findings are observed from mainly three different viewpoints; general
- properties characteristics, persuasion principles characteristics and their
+ structural properties, persuasion principles characteristics and their
  relationships
 \lang american
 .
@@ -172,7 +172,7 @@ authority as a persuasion technique in phishing emails as opposed to social
  We have found that scarcity principle will likely to be used when phishing
  emails are impersonating administrator and using account related as a reason.
  Overall, three of our hypotheses in terms of persuasion principles are
- accepted while seven of them are rejected, which are unexpected.
+ accepted while seven of them are rejected.
 \end_layout
 
 \begin_layout Standard

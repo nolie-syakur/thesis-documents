@@ -2124,8 +2124,8 @@ key "parmar:2014"
 \end_inset
 
 .
- However, as our research mainly focuses in integrating phishing email with
- cialdini's six principles of persuasion 
+ However, as our research mainly focuses in an analysis of phishing emails
+ based on Cialdini's six principles of persuasion 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cialdini:2001"
@@ -3813,8 +3813,9 @@ key "ma:2009,ma2:2009,liu,xiang:2011"
 
 \begin_layout Standard
 Each of these features does matter for phishing detection.
- However, as our main objective is integrating cialdini's principle with
- phishing emails, we will not describe each of these features in detail.
+ However, as our main objective is an analysis of phishing emails based
+ on Cialdini's persuasion principles, we will not describe each of these
+ features in detail.
  It is noteworthy that some of the features are subset of another feature,
  for instance, autonomous system number (ASN), IP country and number of
  registration information are derived from WHOIS information.
@@ -4669,7 +4670,7 @@ key "kumaraguru:2009"
 \end_layout
 
 \begin_layout Section
-Human factor
+Human factor and persuasion in phishing
 \end_layout
 
 \begin_layout Standard
@@ -4815,8 +4816,7 @@ key "stajano2011understanding"
 \end_inset
 
 .
- We will use these principles as our foundation to be integrated in phishing
- email corpus.
+ 
 \end_layout
 
 \begin_layout Standard

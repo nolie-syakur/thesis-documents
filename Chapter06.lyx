@@ -107,7 +107,7 @@ What are the characteristics of reported phishing emails?
 \begin_layout Standard
 In 
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -122,53 +122,230 @@ chap:research-questions
 \end_layout
 
 \begin_layout Itemize
-When attachment(s) is included in a phishing email, it is likely to attach
- ZIP or HTML file
+Based on 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Attachment(s)-analysis
+\end_layout
+
+\end_inset
+
+, when attachment(s) is included in a phishing email, it is likely to attach
+ ZIP or HTML file.
 \end_layout
 
 \begin_layout Itemize
 Requesting to click URL(s) is the most prevalent instruction in phishing
- emails
+ emails.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Methods-analysis
+\end_layout
+
+\end_inset
+
+ illustrates this finding.
 \end_layout
 
 \begin_layout Itemize
-Most of the phishing emails are using HTML code and provide URL(s)
+As we illustrated in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Content-analysis
+\end_layout
+
+\end_inset
+
+, most of the phishing emails are using HTML code and provide URL(s).
+ 
 \end_layout
 
 \begin_layout Itemize
-The financial sector is the most common target
+Based on our finding in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Target-analysis
+\end_layout
+
+\end_inset
+
+, the financial sector is the most common target.
 \end_layout
 
 \begin_layout Itemize
-Most of the phishing emails use account related as a pretext
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Reason-classification
+\end_layout
+
+\end_inset
+
+ depicted that most of the phishing emails use account related as a pretext.
 \end_layout
 
 \begin_layout Itemize
-Authority principle is the most used persuasion technique in phishing emails
+Based on our finding at 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Persuasion-principle-analysis
+\end_layout
+
+\end_inset
+
+, authority principle is the most used persuasion technique in phishing
+ emails.
 \end_layout
 
 \begin_layout Itemize
-Phishing email which has account related as a pretext, is likely to include
- URL(s)
+As we illustrated in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Account-related-reason-1
+\end_layout
+
+\end_inset
+
+, phishing email which has account related as a pretext, is likely to include
+ URL(s).
 \end_layout
 
 \begin_layout Itemize
 Clear instructions to request an action from recipients; phishing emails
  which include attachment(s) are likely to request to open it and phishing
  emails which provide URL(s) are likely to request to click it.
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:URL-presence-and-1
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Includes-attachment-and
+\end_layout
+
+\end_inset
+
+ illustrate our findings.
 \end_layout
 
 \begin_layout Itemize
-URL(s) in a phishing email is most likely different than the actual destination
+Based on our finding in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:URL-presence-and
+\end_layout
+
+\end_inset
+
+, URL(s) in a phishing email is most likely different or hidden than the
+ actual destination.
 \end_layout
 
 \begin_layout Itemize
-A government targeted phish is likely to have a document related reason
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Document-related-reason
+\end_layout
+
+\end_inset
+
+ suggests that a government targeted phish is likely to have a document
+ related reason.
 \end_layout
 
 \begin_layout Itemize
-Phishing email which has document related reason as a pretext, is likely
- to include attachment(s)
+As we illustrated in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Document-related-reason-1
+\end_layout
+
+\end_inset
+
+, it sugggests that phishing email which has document related reason as
+ a pretext, is likely to include attachment(s)
+\end_layout
+
+\begin_layout Standard
+Moreover, it is worth pointing out that our finding on the detailed financial
+ sector in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:Detailed-of-financial
+\end_layout
+
+\end_inset
+
+ indicates many of them are non-Dutch based financial institutions such
+ as Bank of America, Barclays Bank, and Llyods Bank.
+ However, we found this not ideal because our dataset is coming from Dutch
+ based organization.
+ Perhaps, this is because of we conducted the analysis only on 207 unique
+ phishing emails in English language which is 2.45% of the total reported
+ emails.
+ We will explain why we only analyze 207 unique phishing emails in English
+ language in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+sec:Limitation
+\end_layout
+
+\end_inset
+
+.
+ Despite of this limitation, we emphasize that our current study portrays
+ as a pre-cursor to a larger study of persuasion techniques and phishing
+ emails in general.
+ By this reasoning, our method or measure instruments such as flowcharts,
+ variables and analysis approaches would not be biasing the method to what
+ we may find in the 7756 suspected phishing in Dutch language.
 \end_layout
 
 \begin_layout Standard
@@ -211,6 +388,7 @@ tab:Overview-of-verified
  Because almost all phishing emails use authority principle, therefore,
  this implies all phishing email properties related to authority principle
  are resulted in no significant relationship.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -266,14 +444,47 @@ Lastly, we find that there is a significant association between the use
 \begin_layout Standard
 Overall, seven hypotheses in respect of persuasion principles are rejected
  and three of them are accepted.
- Based on this, we can answer our research question by three underlying
- perspectives.
- First, the extensive use of authority as a persuasion technique in phishing
- emails as opposed to social proof technique.
- Secondly, scarcity principle will likely to be used when phishing emails
- are coming from administrator and using account related reason.
- Third, likeability principle affects the usage of HTML-based email and
- consistency principle.
+ Based on this and supported by our analysis on all target types in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:Relationship-between-persuasion
+\end_layout
+
+\end_inset
+
+ and all reason types in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:Relationship-between-persuasion-1
+\end_layout
+
+\end_inset
+
+, we can answer our research question by three underlying perspectives:
+ 
+\end_layout
+
+\begin_layout Itemize
+The extensive use of authority as a persuasion technique in phishing emails
+ as opposed to social proof technique.
+ 
+\end_layout
+
+\begin_layout Itemize
+Scarcity principle will likely to be used when phishing emails are coming
+ from administrator and using account related reason.
+ 
+\end_layout
+
+\begin_layout Itemize
+Likeability principle affects the usage of HTML-based email and consistency
+ principle.
  
 \end_layout
 
@@ -1080,24 +1291,39 @@ chap:research-questions
  As we mentioned, one important finding of our research is that authority
  is the most used persuasion technique in phishing emails.
  When we relate this to financial as the most targeted sector in phishing
- emails, our suggestions can be described in three folds.
- Firstly, let say if most people are more likely to comply with authoritative
+ emails, our suggestions can be described in three folds:
+\end_layout
+
+\begin_layout Itemize
+If we assume that most people are more likely to comply with authoritative
  figure, we suggest a bank as a financial sector should not use emails as
  a media communication with its customers for sensitive reasons such as
  financial matter.
  Instead, the bank should have its own secure messaging system to communicate
  with its customers.
  This will greatly reduce risk of the bank's email being spoofed.
- Secondly, even if a bank uses emails, email authentication methods could
- support the real identity of the bank.
+ 
+\end_layout
+
+\begin_layout Itemize
+Even if a bank uses emails, email authentication methods could support the
+ real identity of the bank.
  This can prevent a spoofed email being delivered to the intended victim.
- Thirdly, the bank could use of what its customers have, such as phone number
- registered in the bank's system or a token given by the bank to the customers.
+ 
+\end_layout
+
+\begin_layout Itemize
+The bank could use of what its customers have, such as phone number registered
+ in the bank's system or a token given by the bank to the customers.
  A secret code in the email sent by the bank should match the code delivered
  to the customer's phone or token.
  This will make more effort for the phishers to spoof the email from the
  bank.
- Perhaps, our suggestions could be use not only for financial sector, but
+ 
+\end_layout
+
+\begin_layout Standard
+Moreover, our suggestions could be use not only for financial sector, but
  also any legitimate institutions in general.
  Lastly, it might be useful if security experts can create a library which
  contain the most common words or phrases which signify authority such as
@@ -1188,8 +1414,9 @@ s such as whether the email use HTML or whether it contain hidden URL.
  claimed it is not.
  This introduces the greatest limitation to our research because it significantl
 y impact our results.
- The fifth limitation is being unique dataset of the reported phishing emails.
- This resulted in smaller sample of data and therefore, gives a challenging
+ The fifth limitation is being unique dataset of the reported phishing emails
+ (440 phishing emails shrinked to 207 unique phishing emails).
+ This resulted in smaller sample size of data and therefore, gives a challenging
  task to find associations using Pearson chi-square method.
 \end_layout
 
