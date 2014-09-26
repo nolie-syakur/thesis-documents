@@ -274,11 +274,11 @@ The success of a phishing attack through distributed emails is determined
  by the response of the unsuspecting recipients.
  User decisions to click a link or open an attachment in an email might
  be influenced by how strong a phisher can persuade the intended victim.
- We perform a combination of query strings to search in the title, abstract,
- keyword and references fields in Scopus database.
+ We performed a combination of query strings to search in the title, abstract,
+ keyword and references fields in two peer-reviewed literature databases;
+ Scopus and Web of Science database.
  The query strings include TITLE-ABS-KEY ( persuasion AND phishing ) and
- TITLE-ABS-KEY ( phishing ) AND REF ( cialdini ) in two peer-reviewed literature
- databases; Scopus and Web of Science.
+ TITLE-ABS-KEY ( phishing ) AND REF ( cialdini ).
  In Scopus database, the query search of TITLE-ABS-KEY ( persuasion AND
  phishing ) was resulted in six literatures 
 \begin_inset ERT
@@ -466,13 +466,13 @@ citep{kim2013understanding}
 \end_inset
 
 .
- Moreover, Kim, et al.
+ However, Kim, et al.
  did not analyze nor relate structural phishing properties such as URLs,
  attachments, usage of HTML, targeted sector and reason used with their
  persuasion theory.
  An interesting research from Wright, et al.
- which analayze how people influenced by the same persuasion principles
- as our study in phishing messages 
+ which analyze how people influenced by the same persuasion principles as
+ our study in phishing messages 
 \begin_inset ERT
 status open
 
@@ -504,10 +504,10 @@ citep{wright2014research}
 .
  This shows not only the different of measurement instruments, but also
  the foundation of persuasion theory between their studies and our study.
- The low number of results from our query searches also indicate not many
- acamedic researchers that study persuasion techniques and phishing area.
- Thus, a real world analysis of phishing email characterization based on
- persuasion techniques is needed to fill this gap.
+ The low number of results from the query searches also indicate not many
+ academic researchers that study persuasion techniques and phishing area.
+ Therefore, a real world analysis of phishing email characterization based
+ on persuasion techniques is needed to fill this gap.
  This characterization can show to what extent the persuasion techniques
  are used in phishing emails.
  Our research fills the void as a milestone towards countermeasures against

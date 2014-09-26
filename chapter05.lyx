@@ -201,7 +201,8 @@ We manually categorized 8444 suspected phishing emails by sorting all the
 
 \begin_layout Standard
 1.
- We sorted the dataset by the subject so we can spot duplicated emails.
+ We sorted the dataset by the subject so we can spot duplicated emails and
+ label them more easily.
 \end_layout
 
 \begin_layout Standard
@@ -273,7 +274,7 @@ sec:Future-work
 
 \begin_layout Itemize
 The email which has no content, if it was removed automatically by antivirus
- program.
+ application.
  For instance, one email displayed only 
 \begin_inset Quotes eld
 \end_inset
@@ -357,8 +358,8 @@ Barclays Bank PLC
 
  was taken from the body of the email and we found there are 11 emails which
  contain this string.
- We then conducted deeper invesigations on all 11 emails and determine whether
- the structure of all text in the body is the exact same or not.
+ We then conducted deeper investigations on all 11 emails and determine
+ whether the structure of all text in the body is the exact same or not.
  If they are not the exact same in terms of the text body of the email,
  then we differentiate those emails.
  On the other hand, if they have the same exact structure of all text in
@@ -382,6 +383,235 @@ CounterSameContents
 , which we will explain in the next subsection.
  Query searches were resulted in 207 unique phishing emails.
  At the end, in total we analyze 207 unique phishing emails in our corpus.
+ The query strings that we performed to find duplicated emails include:
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+form STD 261
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+The reference number for this fax
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+delivery in progress
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+Facebook
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+arriving
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+Please be advised that one or more Tax Notices
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+Not possible to make delivery
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+Invalid address
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+Due to a new vulnerability which is exploited by hackers
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+dhl
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+notice of policy updates
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+your package has arrived on
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+Protection Services Department
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+At Regions, we sincerely thank you
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+Please share our joy and be present
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+Scan Data
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+scanned from a Xerox
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+Hereby you are notified that you have been scheduled
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Quotes eld
+\end_inset
+
+We would like to invite you
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -979,7 +1209,7 @@ fig:Flowchart-cialdini
 
 \end_inset
 
- to illustrate our analysis of the dataset based on Cialdini's principles.
+ that illustrates our analysis of the dataset based on Cialdini's principles.
  
 \end_layout
 
@@ -1024,7 +1254,7 @@ chap:research-questions
  can answer our research questions in the next section.
  As our data is not continuous (i.e.
  interval or ratio) but nominal (i.e.
- categorical), therefore, we do not analyze our data by pearson correlation.
+ categorical), therefore, we do not analyze our data by Pearson correlation.
  However, to test the strength of association involves nominal variables,
  the appropriate measurements are using phi and Cramer's V.
  Phi is used for 2 by 2 table and Cramer's V can be used for more than 2
@@ -1891,8 +2121,8 @@ fig:Detailed-of-financial
 \begin_layout Standard
 As one email does not have more than 1 targeted sector, therefore the total
  sums up to 100%.
- Note that, we initially had 92 targets in our corpus and we had to shrink
- it down into 10 target sectors in our data classification.
+ Note that, we initially had 92 targets in our corpus and we had to classify
+ them into 10 target types in our data classification.
 \end_layout
 
 \begin_layout Standard
@@ -8747,7 +8977,7 @@ name "sub:Relationship-between-persuasion"
 
 \end_inset
 
-Relationship between persuasion principles and target types
+Relationship between Persuasion principles and target types
 \end_layout
 
 \begin_layout Standard
@@ -10857,7 +11087,7 @@ name "tab:Chi-square-persuasion-principles"
 
 \end_inset
 
-Chi-square tests persuasion principles vs Target types
+Chi-square tests of Persuasion principles vs Target types
 \end_layout
 
 \end_inset
@@ -10945,7 +11175,7 @@ name "sub:Relationship-between-persuasion-1"
 
 \end_inset
 
-Relationship between persuasion principles and reason types
+Relationship between Persuasion principles and reason types
 \end_layout
 
 \begin_layout Standard
@@ -11691,9 +11921,10 @@ tab:Chi-square-tests-Persuasion
  relationship between them.
  This suggests that social proof principle is most likely to be used in
  social reason.
- Although we find consistency principle in account related, financial and
- document related reason, our finding suggests that scarcity principle has
- even stronger relationship with all the three reasons.
+ Although we find significant relationships between consistency principle
+ and three reason types; account related, financial and document related
+ reason, our finding suggests that scarcity principle has even stronger
+ relationship with all the three reasons.
  However, if we compare to other reason types, scarcity principle has the
  strongest relationship with account related reason.
 \end_layout
@@ -12199,7 +12430,7 @@ name "tab:Chi-square-tests-Persuasion"
 
 \end_inset
 
-Chi-square tests Persuasion principles vs Reason types
+Chi-square tests of Persuasion principles vs Reason types
 \end_layout
 
 \end_inset
