@@ -274,7 +274,23 @@ The success of a phishing attack through distributed emails is determined
  by the response of the unsuspecting recipients.
  User decisions to click a link or open an attachment in an email might
  be influenced by how strong a phisher can persuade the intended victim.
- We performed a combination of query strings to search in the title, abstract,
+ Phishers often misuse persuasion techniques to get positive responses from
+ the recipients.
+ Unfortunately, not many studies have included persuasion techniques as
+ the important aspects in phishing emails.
+ Consequently, not many people are aware of the existence of persuasion
+ in the emails they are getting.
+ Moreover, phishing email countermeasures are heavily depending on the technical
+ aspect alone rather than integrating the technical aspect with psychological
+ aspect such as persuasion principles.
+ Therefore, our research will analyze phishing emails based on persuasion
+ techniques.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+We performed a combination of query strings to search in the title, abstract,
  keyword and references fields in two peer-reviewed literature databases;
  Scopus and Web of Science database.
  The query strings include TITLE-ABS-KEY ( persuasion AND phishing ) and
@@ -427,15 +443,25 @@ status open
 
 
 \backslash
-citep{kim2013understanding}
+citep{kaivanto2014effect}
 \end_layout
 
 \end_inset
 
 .
- By conducting individual investigations on all literatures found in both
- databases, we found only one literature which was similar to our study
- 
+ However, Sharma's research is retracted for having non original material,
+ hence, we could not review it.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+As observed by Kavianto, overall security risk in an organization depends
+ on its individual’s behavioral decision to respond to security threats
+ such as phishing attacks.
+ Kavianto also found that individual's behavioral decision can be segregated
+ into two level; tradeoffs between uncertainties, losses and benefits, and
+ their susceptibility to persuasion techniques and emotion 
 \begin_inset ERT
 status open
 
@@ -443,16 +469,17 @@ status open
 
 
 \backslash
-citep{kim2013understanding}
+citep{kaivanto2014effect}
 \end_layout
 
 \end_inset
 
 .
- However, apart from different dataset, Kim, et al.
- conduct an analysis of phishing emails based on message argument quality.
- The message argument quality includes; rational appeals, emotional appeals,
- motivational appeals and time pressure 
+ Kavianto modeled these decisions into binary classification tasks by utilizing
+ Signal decision theory (SDT) integrated with prospect theory (PT).
+ In his study, he evaluated an SDT based phishing risk model on three assumption
+; behavioral SDT, PT-SDT and PT-SDT integrated with psychology-deception
+ effects 
 \begin_inset ERT
 status open
 
@@ -460,19 +487,158 @@ status open
 
 
 \backslash
-citep{kim2013understanding}
+citep{kaivanto2014effect}
 \end_layout
 
 \end_inset
 
 .
- However, Kim, et al.
- did not analyze nor relate structural phishing properties such as URLs,
- attachments, usage of HTML, targeted sector and reason used with their
- persuasion theory.
- An interesting research from Wright, et al.
- which analyze how people influenced by the same persuasion principles as
- our study in phishing messages 
+ The outcome of the study is that a demonstration of potential email classificat
+ion between genuine and bad email (phishing) using PT-SDT based model 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kaivanto2014effect}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Blythe, et al.
+ were conducting four methods to show how people are often susceptible to
+ phishing attacks 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{blythe2011f}
+\end_layout
+
+\end_inset
+
+.
+ These four methods are; content analysis, online surveys, interview with
+ blind email users and literary analysis 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{blythe2011f}
+\end_layout
+
+\end_inset
+
+.
+ Content analysis suggests that phishing email is advancing with better
+ spelling, grammar and supported by the present of visual graphic such as
+ logos.
+ Online survey shows that while their participants are computer literate,
+ the participants did not always successful in detecting phishing, even
+ more so with the present of logo.
+ Blythe, et al.
+ found that blind emails users are more attentive to the context of the
+ email s presented 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{blythe2011f}
+\end_layout
+
+\end_inset
+
+.
+ Thus, the detection of phishing by blind email users is more higher than
+ non-disabled email users.
+ As it became clear that careful reading is the core process of identifying
+ phishing emails, Blythe, et al.
+ then consider a phishing email as a literature 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{blythe2011f}
+\end_layout
+
+\end_inset
+
+.
+ Literary analysis shows that the phishers who imitate personalized email
+ from banking and security services makes phishing emails remain successful,
+ as they takes part into people’s anxieties in terms of the content of the
+ email itself.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Ghorbani, et al.
+ argued that some general approaches designed by attackers to obtain sensitive
+ information to exploit a computer system are using social engineering 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{Ghorbani20101}
+\end_layout
+
+\end_inset
+
+.
+ Social engineering includes aggressive persuasion and interpersonal skills
+ to obtain unauthorized access to a system.
+ Moreover, Ghorbani, et al.
+ discussed network attack taxonomy, probes, privilege escalation attacks,
+ Denial of Service (DOS) attacks and Distributed Denial of Services (DDoS)
+ attacks, worm and routing attacks 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{Ghorbani20101}
+\end_layout
+
+\end_inset
+
+.
+ However, their study only discussed these network attacks in considerable
+ detail without considering persuasion theory in detail nor focused in phishing
+ emails.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+An interesting research from Wright, et al.
+ which analyze how people influenced by the Cialdini's six persuasion principles
+ in phishing messages 
 \begin_inset ERT
 status open
 
@@ -482,6 +648,13 @@ status open
 \backslash
 citep{wright2014research}
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
 
 \end_inset
 
@@ -502,12 +675,140 @@ citep{wright2014research}
 \end_inset
 
 .
- This shows not only the different of measurement instruments, but also
- the foundation of persuasion theory between their studies and our study.
+ The outcome of the study is that; liking, social proof, scarcity and reciprocat
+ion do increase the likelihood of recipients will respond to phishing emails
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Workman proposed a peripheral route of persuasion model and conducted a
+ behavioral study based on this model 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{workman:2008}
+\end_layout
+
+\end_inset
+
+.
+ The model is created to relate basic human factors to respond to persuasion
+ techniques based on Cialdini’s six principle 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+.
+ These factors include; normative commitment, continuance commitment, affective
+ commitment, trust, fear, and reactance.
+ Workman created six hypotheses to investigate whether the participants
+ who are prone to these factors, exhibits a higher risk to phishing attacks
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{workman:2008}
+\end_layout
+
+\end_inset
+
+.
+ Based on his measurement, six of the hypotheses are accepted.
+ The conclusion is that, the participants who have the tendency of these
+ factors, are more vulnerable to phishing attacks 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{workman:2008}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+By conducting individual investigations on all literatures found in both
+ databases, we found only one literature which was similar to our study
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kim2013understanding}
+\end_layout
+
+\end_inset
+
+.
+ Apart from different dataset, Kim, et al.
+ conducted an analysis of phishing emails based on message argument quality.
+ The message argument quality includes; rational appeals, emotional appeals,
+ motivational appeals and time pressure 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kim2013understanding}
+\end_layout
+
+\end_inset
+
+.
+ Moreover, Kim, et al.
+ did not analyze nor relate structural phishing properties such as URLs,
+ attachments, usage of HTML, targeted sector and reason used with their
+ persuasion theory.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Our finding shows not only the different of measurement instruments, but
+ also the foundation of persuasion theory between current studies and our
+ study.
  The low number of results from the query searches also indicate not many
  academic researchers that study persuasion techniques and phishing area.
- Therefore, a real world analysis of phishing email characterization based
- on persuasion techniques is needed to fill this gap.
+ Therefore, a real world analysis of phishing emails characterization based
+ on persuasion techniques is needed to bridge this gap.
  This characterization can show to what extent the persuasion techniques
  are used in phishing emails.
  Our research fills the void as a milestone towards countermeasures against
