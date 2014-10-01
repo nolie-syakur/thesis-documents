@@ -211,11 +211,11 @@ Problem statement
 \begin_layout Standard
 
 \lang english
-Countermeasures against phishing attacks in the email level can be technical
- or non technical approach.
+Countermeasures against phishing attacks via email can be technical or non
+ technical.
  One of technical approaches to detect phishing email is achieved by discriminat
 ing phishing and original email based on its structural properties using
- machine learning technique 
+ machine learning 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "chandrasekaran:2006"
@@ -223,8 +223,8 @@ key "chandrasekaran:2006"
 \end_inset
 
 .
- Furthermore, One of non technical approaches to defense against phishing
- attacks is to make people aware of the threats.
+ One of non technical approaches to defend against phishing attacks is to
+ make people aware of the threats.
  Security awareness in regards of phishing attacks might be achieved by
  embedded training methods that teach people about phishing during their
  normal use of email 
@@ -241,9 +241,8 @@ key "kumaraguru2007protecting"
 \begin_layout Standard
 
 \lang english
-Moreover, the common characteristics of a phishing email can be distinguished
- by its structural properties such as misleading hyperlinks and misleading
- header information 
+Common characteristics of a phishing email include structural properties
+ such as misleading hyperlinks and misleading header information 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "zhang:2006,zhang:2007"
@@ -255,9 +254,9 @@ key "zhang:2006,zhang:2007"
  victim to urgently act upon it, for example, an email that informs about
  account termination if the recipient does not respond or perform an action
  within a limited time.
- In order to obtain a compliance from the recipient in a phishing email,
- persuasion is used as underlying techniques to get a positive response
- from an intended victim 
+ In order to obtain compliance from the recipient in a phishing email, persuasio
+n is used as underlying techniques to get a positive response from an intended
+ victim 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "workman:2008"
@@ -280,122 +279,62 @@ The success of a phishing attack through distributed emails is determined
  the important aspects in phishing emails.
  Consequently, not many people are aware of the existence of persuasion
  in the emails they are getting.
- Moreover, phishing email countermeasures are heavily depending on the technical
+ Current phishing email countermeasures are heavily depending on the technical
  aspect alone rather than integrating the technical aspect with psychological
- aspect such as persuasion principles.
- Therefore, our research will analyze phishing emails based on persuasion
- techniques.
+ aspect such as persuasion.
+ Based on Cialdini's persuasion principle, there are six basic tendencies
+ of human behavior that can generate a positive response; reciprocation,
+ consistency, social proof, likeability, authority and scarcity 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+.
+ As we mention earlier, persuasion techniques can also be exploited by the
+ phishers to get positive responses from potential victims.
+ Based on this reasoning, we will conduct an analysis of persuasion principle
+ in phishing emails.
+ Our results may show an important aspect of phishing emails so that future
+ phishing email countermeasures should not only be developed from technical
+ perspective but they should also be able to resist persuasion.
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-We performed a combination of query strings to search in the title, abstract,
- keyword and references fields in two peer-reviewed literature databases;
- Scopus and Web of Science database.
- The query strings include TITLE-ABS-KEY ( persuasion AND phishing ) and
- TITLE-ABS-KEY ( phishing ) AND REF ( cialdini ).
- In Scopus database, the query search of TITLE-ABS-KEY ( persuasion AND
- phishing ) was resulted in six literatures 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{kaivanto2014effect}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{wright2014research}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{kim2013understanding}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{blythe2011f}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{sharma2010anatomy}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{Ghorbani20101}
-\end_layout
-
-\end_inset
-
- whereas in Web of Science, the query search of 
+We performed a combination of query strings such as 
 \begin_inset Quotes eld
 \end_inset
 
-TOPIC: (persuasion phishing)
+phishing
 \begin_inset Quotes erd
 \end_inset
 
- resulted in three literatures 
-\begin_inset ERT
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+persuasion
+\begin_inset Quotes erd
+\end_inset
+
+ to search based on title, abstract and keyword fields in Scopus database
+ and we also search based on topic in Web of Science database.
+ 
+\begin_inset Flex CT - auto cross-reference
 status open
 
 \begin_layout Plain Layout
 
-
-\backslash
-citep{kaivanto2014effect}
+tab:Query-searches-in
 \end_layout
 
 \end_inset
 
-
+ indicates the result in both databases and as we can see from the table,
+ there are two papers that occurred in both databases 
 \begin_inset ERT
 status open
 
@@ -403,57 +342,189 @@ status open
 
 
 \backslash
-citep{wright2014research}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{workman:2008}
-\end_layout
-
-\end_inset
-
-.
- There are two literatures that existed in both databases 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{wright2014research}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{kaivanto2014effect}
+citep{wright2014research,kaivanto2014effect}
 \end_layout
 
 \end_inset
 
 .
- However, Sharma's research is retracted for having non original material,
- hence, we could not review it.
+ However, Sharma's paper is retracted for having non original materials,
+ hence, we will not conduct a review on it.
+ We will describe what the remaining papers do and how they are different
+ from our research in the following points:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size scriptsize
+Keywords
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size scriptsize
+Scopus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size scriptsize
+Web of science
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\lang english
+\begin_inset Quotes eld
+\end_inset
+
+persuasion
+\begin_inset Quotes erd
+\end_inset
+
+ AND 
+\begin_inset Quotes eld
+\end_inset
+
+phishing
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kaivanto2014effect,wright2014research,kim2013understanding,blythe2011f,sha
+rma2010anatomy,Ghorbani20101}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research,kim2013understanding,workman:2008}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Query-searches-in"
+
+\end_inset
+
+Query searches in Scopus and Web of Science
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 
 \lang english
 As observed by Kavianto, overall security risk in an organization depends
@@ -461,7 +532,14 @@ As observed by Kavianto, overall security risk in an organization depends
  such as phishing attacks.
  Kavianto also found that individual's behavioral decision can be segregated
  into two level; tradeoffs between uncertainties, losses and benefits, and
- their susceptibility to persuasion techniques and emotion 
+ their susceptibility to persuasion techniques 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+ and emotion 
 \begin_inset ERT
 status open
 
@@ -477,8 +555,8 @@ citep{kaivanto2014effect}
 .
  Kavianto modeled these decisions into binary classification tasks by utilizing
  Signal decision theory (SDT) integrated with prospect theory (PT).
- In his study, he evaluated an SDT based phishing risk model on three assumption
-; behavioral SDT, PT-SDT and PT-SDT integrated with psychology-deception
+ Kavianto also evaluated an SDT based phishing risk model on three assumptions;
+ behavioral SDT, PT-SDT and PT-SDT integrated with psychology-deception
  effects 
 \begin_inset ERT
 status open
@@ -493,8 +571,8 @@ citep{kaivanto2014effect}
 \end_inset
 
 .
- The outcome of the study is that a demonstration of potential email classificat
-ion between genuine and bad email (phishing) using PT-SDT based model 
+ The result of this study is a demonstration of potential email classification
+ between genuine and bad email (phishing) using PT-SDT based model 
 \begin_inset ERT
 status open
 
@@ -508,9 +586,18 @@ citep{kaivanto2014effect}
 \end_inset
 
 .
+ Although, the concept of psychology-deception that is used by Kavianto
+ is the same as our study
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+, this study is indeed different in terms of goal and approaches.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \lang english
 Blythe, et al.
@@ -551,8 +638,8 @@ citep{blythe2011f}
  the participants did not always successful in detecting phishing, even
  more so with the present of logo.
  Blythe, et al.
- found that blind emails users are more attentive to the context of the
- email s presented 
+ found that blind email users are more attentive to the context of the email
+ that is presented 
 \begin_inset ERT
 status open
 
@@ -585,12 +672,27 @@ citep{blythe2011f}
 
 .
  Literary analysis shows that the phishers who imitate personalized email
- from banking and security services makes phishing emails remain successful,
+ from banking and security services, makes phishing emails remain successful,
  as they takes part into people’s anxieties in terms of the content of the
  email itself.
+ Although Blythe, et al.
+ conducted content analysis and found that literary analysis claimed to
+ be 
+\begin_inset Quotes eld
+\end_inset
+
+very
+\begin_inset Quotes erd
+\end_inset
+
+ persuasive, but they did not conduct the content analysis based on persuasion
+ techniques.
+ Instead, Blythe, et al.
+ conducted the content analysis based on the structural properties such
+ as sender, grammatical error, logos and style.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \lang english
 Ghorbani, et al.
@@ -629,11 +731,11 @@ citep{Ghorbani20101}
 
 .
  However, their study only discussed these network attacks in considerable
- detail without considering persuasion theory in detail nor focused in phishing
- emails.
+ detail without addressing persuasion theory and little explanation in terms
+ of phishing emails.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \lang english
 An interesting research from Wright, et al.
@@ -691,9 +793,22 @@ citep{wright2014research}
 \end_inset
 
 .
+ Despite the fact that Wright, et al.
+ were using the same persuasion principles as our study 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+, Wright, et al.
+ tried to find the implication of persuasion principles from the users'
+ perspectives.
+ This suggests that the direction of the research is different from our
+ study.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \lang english
 Workman proposed a peripheral route of persuasion model and conducted a
@@ -738,7 +853,7 @@ citep{workman:2008}
 \end_inset
 
 .
- Based on his measurement, six of the hypotheses are accepted.
+ Based on Workman's measurement, six of the hypotheses are accepted.
  The conclusion is that, the participants who have the tendency of these
  factors, are more vulnerable to phishing attacks 
 \begin_inset ERT
@@ -754,14 +869,53 @@ citep{workman:2008}
 \end_inset
 
 .
+ For instance, one of Workman's hypothesis stated that 
+\begin_inset Quotes eld
+\end_inset
+
+People who are more reactance, will succumb to social engineering more frequentl
+y than those who are more resistance
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Based on this review, we can say that the studies conducted by Workman
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{workman:2008}
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+ and Wright, et al.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research}
+\end_layout
+
+\end_inset
+
+ are similar.
+ Both of them tried to find the implication of persuasion principles from
+ the users' perspectives, which is different from our study.
+\end_layout
+
+\begin_layout Itemize
 
 \lang english
-By conducting individual investigations on all literatures found in both
- databases, we found only one literature which was similar to our study
- 
+We found only one paper which was similar to our study 
 \begin_inset ERT
 status open
 
@@ -776,7 +930,31 @@ citep{kim2013understanding}
 
 .
  Apart from different dataset, Kim, et al.
- conducted an analysis of phishing emails based on message argument quality.
+ conducted a content analysis of phishing emails based on message argument
+ quality rather than Cialdini's six persuasion principles 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kim2013understanding}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+.
+ Besides that, Kim, et al.
+ did not relate structural phishing properties such as URLs, attachments,
+ usage of HTML, targeted sector and reason used with their persuasion theory.
  The message argument quality includes; rational appeals, emotional appeals,
  motivational appeals and time pressure 
 \begin_inset ERT
@@ -792,19 +970,54 @@ citep{kim2013understanding}
 \end_inset
 
 .
- Moreover, Kim, et al.
- did not analyze nor relate structural phishing properties such as URLs,
- attachments, usage of HTML, targeted sector and reason used with their
- persuasion theory.
+ The reasoning of rational appeals determined by direct evidence of causality
+ between events.
+ For example, “a few days ago our online banking security team observed
+ invalid logins to customer accounts.
+ Thus, you are required to re-confirm your online access for account verificatio
+n”.
+ This can be mapped as reciprocation based on Cialdini's persuasion principles
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+.
+ Emotional appeal defined by fear, sadness, guilt, anger, happiness, affection
+ and humor.
+ In our study this can be mapped into authority or likeability.
+ Time pressure identified by the limited amount of time the recipient has,
+ to respond to a phishing email.
+ This also can be mapped into scarcity principle.
+ However, motivational appeals portray as 
+\begin_inset Quotes eld
+\end_inset
+
+the need of safety
+\begin_inset Quotes erd
+\end_inset
+
+ which we could not map into Cialdini's persuasion principles.
+ One interesting result from the study is that, the number of time pressure
+ emails (42%, n=285), is not as high as they expected.
+ The study conclude that phishers indeed incorporate rational, emotional
+ and motivational appeals in their dataset.
+ However, the conception of persuasion theory adopted by Kim, et al.
+ is different from our study.
+ We argue that diversity of persuasion theory needs to be incorporated to
+ achieve an objective conclusion.
  
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-Our finding shows not only the different of measurement instruments, but
- also the foundation of persuasion theory between current studies and our
- study.
+By conducting individual investigations on all literatures found in both
+ databases, the finding shows not only the different of measurement instruments
+ and methods but also the foundation of persuasion theory between the current
+ studies and our study.
  The low number of results from the query searches also indicate not many
  academic researchers that study persuasion techniques and phishing area.
  Therefore, a real world analysis of phishing emails characterization based
@@ -834,9 +1047,9 @@ d as a variable in our methodology.
  We will look for frequency and relationship involving these variables.
  This relationship can be used to show a different perspective of phishing
  email characteristics considering the persuasive elements within its content.
- The integration of persuasion principles in phishing emails also can be
- used to generate a new method in an automatic way of detecting phishing
- emails as one of the primary delivery techniques of phishing attacks.
+ The analysis of persuasion principles in phishing emails also can be used
+ to generate a new method in an automatic way of detecting phishing emails
+ as one of the primary delivery techniques of phishing attacks.
 \end_layout
 
 \begin_layout Section
