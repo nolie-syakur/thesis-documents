@@ -9969,7 +9969,29 @@ status collapsed
 
 \begin_layout Plain Layout
 
-fig:Three-target-types
+fig:Financial-target-and
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:E-Commerce/Retails-and-scarcity
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:Administrator-and-scarcity
 \end_layout
 
 \end_inset
@@ -9987,12 +10009,6 @@ placement H
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Float figure
-wide false
-sideways false
-status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -10022,122 +10038,9 @@ Financial target and scarcity
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename gfx/screenshots phishing email/E-Commerce:Retails and scarcity.png
-	scale 30
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:E-Commerce/Retails-and-scarcity"
-
-\end_inset
-
-E-Commerce/Retails and scarcity
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename gfx/screenshots phishing email/Administrator and scarcity.png
-	scale 30
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Administrator-and-scarcity"
-
-\end_inset
-
-Administrator and scarcity
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Three-target-types"
-
-\end_inset
-
-Three target types and scarcity
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
 As illustrated in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -10187,10 +10090,86 @@ fig:Administrator-and-scarcity
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/screenshots phishing email/E-Commerce:Retails and scarcity.png
+	scale 45
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:E-Commerce/Retails-and-scarcity"
+
+\end_inset
+
+E-Commerce/Retails and scarcity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/screenshots phishing email/Administrator and scarcity.png
+	scale 45
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Administrator-and-scarcity"
+
+\end_inset
+
+Administrator and scarcity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 We also find that consistency is the next most popular principle (35.7%)
  for government target type.
- When we look into our dataset and observe two government targeted emails.
- We find that both required consistency from the recipient.
+ When we look into our dataset and observe two government targeted emails,
+ we find that both required consistency from the recipient.
  From 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -10239,19 +10218,6 @@ fig:Government-and-consistency-1
 \end_layout
 
 \begin_layout Standard
-It is interesting that we do not find scarcity principle in social media
- target type.
- If we put ourselves as potential victims getting an email from social media,
- our account in social media may less important than our account in financial
- sector (i.e.
- bank).
- On the other hand, our desire to respond to attractiveness in social media
- targeted emails might be higher.
- This explains why we find zero scarcity in social media target type and
- likeability as the next most popular principle.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -10259,15 +10225,9 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename gfx/screenshots phishing email/government and consistency.png
-	scale 20
+	scale 45
 
 \end_inset
 
@@ -10296,19 +10256,20 @@ Government and consistency (a)
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename gfx/screenshots phishing email/government and consistency-2.png
-	scale 20
+	scale 45
 
 \end_inset
 
@@ -10330,24 +10291,6 @@ Government and consistency (b)
 
 \end_layout
 
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Government target type and consistency principle
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Plain Layout
 
 \end_layout
@@ -10358,14 +10301,16 @@ Government target type and consistency principle
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+It is interesting that we do not find scarcity principle in social media
+ target type.
+ If we put ourselves as potential victims getting an email from social media,
+ our account in social media may less important than our account in financial
+ sector (i.e.
+ bank).
+ On the other hand, our desire to respond to attractiveness in social media
+ targeted emails might be higher.
+ This explains why we find zero scarcity in social media target type and
+ likeability as the next most popular principle.
 \end_layout
 
 \begin_layout Standard
@@ -10384,7 +10329,7 @@ tab:Chi-square-persuasion-principles
 , we do not find a significant relationship between financial sector and
  scarcity principle, instead we find financial sector has a significant
  relationship with reciprocation principle.
- this explains that even if the number of financial sector is low in terms
+ This explains that even if the number of financial sector is low in terms
  of reciprocation (16.7%), reciprocation principle is likely to be used in
  financial sector than the other sectors.
  Moreover, we find that e-commerce/retails and administrators have a significant
@@ -10401,8 +10346,8 @@ y significant relationship with scarcity principle than the other two sectors.
  This also may supports our finding that consistency is the next most used
  principle in the government target.
  Despite the fact that we find a significant relationship between non-existence/
-individual sector and authority, when we look deeper, they have an inverse
- relationship (phi = -0.465).
+individual sector and authority, when we look deeper, we find that they
+ have an inverse relationship (phi = -0.465).
  This suggests that authority principle is likely not to be used in Non-existenc
 e/individual target.
  This explains why the occurrence of authority is lower in non-existence/individ
@@ -11463,11 +11408,33 @@ We also find that the next most popular principle for account related reason
  (68.3%) and product/services reason (20.0%) is scarcity principle.
  The illustrations in 
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
-fig:Three-target-types
+fig:Financial-target-and
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:E-Commerce/Retails-and-scarcity
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:Administrator-and-scarcity
 \end_layout
 
 \end_inset
@@ -11487,6 +11454,7 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename gfx/screenshots phishing email-2/Financial incentive and consistency copy.png
 	scale 50
@@ -11503,7 +11471,7 @@ name "fig:Example-of-financial"
 
 \end_inset
 
-Example of financial incentive and scarcity
+Example of financial incentive and consistency
 \end_layout
 
 \end_inset
@@ -11603,6 +11571,7 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename gfx/screenshots phishing email-2/social reason and likeability-2 copy.png
 	scale 45
