@@ -164,14 +164,15 @@ We have conducted a quantitative analysis on our dataset which consists
 .
  We have found that financial institutions are the most common target with
  high number of occurrences in our dataset.
- One important finding of our analysis is that the extensive use of 
+ 
 \lang english
-authority as a persuasion technique in phishing emails as opposed to social
- proof technique.
- We have found that scarcity principle will likely to be used when phishing
- emails are impersonating administrator and using account related as a reason.
- Overall, three of our hypotheses in terms of persuasion principles are
- accepted while seven of them are rejected.
+Three important findings of our research are that (1) authority is the most
+ popular persuasion technique regardless of the target and the reason used,
+ (2) depending on the target types and the reason types, the next most popular
+ persuasion principles are scarcity, consistency, and likeability and (3)
+ scarcity principle has a high involvement with administrator target type
+ and account related concerns.
+ 
 \end_layout
 
 \begin_layout Standard

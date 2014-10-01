@@ -444,7 +444,6 @@ Data Classification
 \begin_layout Standard
 We classify our data accordingly into our variables so that we can have
  a usable dataset which can be analyzed.
- Data classification is conducted in a straightforward way.
  We put either 0 or 1 in our variables except Mail ID, Timestamps, CountMessageR
 eporter, Target and Reason variables.
  For example, when a phishing email has a PDF attachment, we put value 
@@ -739,7 +738,7 @@ CounterSameContents
 We have established the variables based on the phishing email properties.
  We also distinguished generic properties and persuasion properties.
  The generic properties of a phishing email is effected by these variables:
- attachments, requests, contents, obfuscatedURL, target and reason.
+ attachments, requests, contents, hiddenURL, target and reason.
  On the other hand, the persuasion properties effected by these variables:
  reciprocation, consistency, social proof, likeability, authority and scarcity.
 \end_layout
@@ -10357,7 +10356,7 @@ ual target (61.5%) than the other target types.
 \begin_layout Standard
 Based on our findings, we learn that depending on the target types, three
  persuasion principles (scarcity, consistency and likeability) are the next
- most popular persuasion principles that are used in our dataset.
+ most popular persuasion principles in our dataset.
 \end_layout
 
 \begin_layout Standard
@@ -11522,8 +11521,8 @@ Thank you for scheduling the following payment...
  recipients that have scheduled payments through PayPal.
  It is natural for average recipients to wonder when did they scheduled
  payments through a certain financial institution.
- The recipients who have have scheduled a payment through PayPal previously
- might tend to respond to click the URL provided in the email.
+ The recipients who have scheduled a payment through PayPal previously might
+ tend to respond to click the URL provided in the email.
  This explains why consistency is the second most used principle in terms
  of financial incentive.
  Moreover, consistency is also the second most popular principle in terms
@@ -12324,7 +12323,7 @@ tab:Chi-square-tests-Persuasion
 
 , we find that both account related and product/services reasons have significan
 t relationships with scarcity principle.
- This support our previous analysis that finds scarcity is the second most
+ This support our previous analysis which finds scarcity is the second most
  used principle for both reasons.
  We also find both financial incentive and document related reason have
  significant relationships with scarcity.

@@ -86,8 +86,8 @@ With the advancement of information technology in modern generation, the
  Furthermore, modern technology has greatly impacted our society in different
  ways, such as the way we communicate with each other.
  Nowadays, we are no longer need to use a computer to send an email, we
- can just use our smartphone, which we carry every day in our pockets, with
- internet connectivity to send an email.
+ can just use our smart phone, which we carry every day in our pockets,
+ with internet connectivity to send an email.
  As a result, human society has been utilizing technology means such as
  emails, websites, online payment system, social networks to achieve their
  tasks efficiently, affordable and more relevant.
@@ -178,7 +178,7 @@ key "jagatic2007social"
 
 .
  Social engineering involves the techniques used to deceive people in order
- to get a compliance or a respond by specific actions which will disclose
+ to get compliance and response by specific actions which will disclose
  their sensitive information, such as replying to a fake email or clicking
  a link within an email 
 \begin_inset CommandInset citation
@@ -225,9 +225,9 @@ key "chandrasekaran:2006"
 .
  One of non technical approaches to defend against phishing attacks is to
  make people aware of the threats.
- Security awareness in regards of phishing attacks might be achieved by
- embedded training methods that teach people about phishing during their
- normal use of email 
+ Security awareness concerning phishing attacks might be achieved by embedded
+ training methods that teach people about phishing during their normal use
+ of email 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kumaraguru2007protecting"
@@ -279,7 +279,7 @@ The success of a phishing attack through distributed emails is determined
  the important aspects in phishing emails.
  Consequently, not many people are aware of the existence of persuasion
  in the emails they are getting.
- Current phishing email countermeasures are heavily depending on the technical
+ Current phishing email countermeasures are greatly relying on the technical
  aspect alone rather than integrating the technical aspect with psychological
  aspect such as persuasion.
  Based on Cialdini's persuasion principle, there are six basic tendencies
@@ -653,8 +653,8 @@ citep{blythe2011f}
 \end_inset
 
 .
- Thus, the detection of phishing by blind email users is more higher than
- non-disabled email users.
+ Thus, the detection of phishing by blind email users is higher than non-disable
+d email users.
  As it became clear that careful reading is the core process of identifying
  phishing emails, Blythe, et al.
  then consider a phishing email as a literature 
@@ -673,7 +673,7 @@ citep{blythe2011f}
 .
  Literary analysis shows that the phishers who imitate personalized email
  from banking and security services, makes phishing emails remain successful,
- as they takes part into people’s anxieties in terms of the content of the
+ as they take part into people’s anxieties in terms of the content of the
  email itself.
  Although Blythe, et al.
  conducted content analysis and found that literary analysis claimed to
@@ -738,7 +738,7 @@ citep{Ghorbani20101}
 \begin_layout Itemize
 
 \lang english
-An interesting research from Wright, et al.
+An interesting paper from Wright, et al.
  which analyze how people influenced by the Cialdini's six persuasion principles
  in phishing messages 
 \begin_inset ERT
@@ -1002,7 +1002,7 @@ the need of safety
  which we could not map into Cialdini's persuasion principles.
  One interesting result from the study is that, the number of time pressure
  emails (42%, n=285), is not as high as they expected.
- The study conclude that phishers indeed incorporate rational, emotional
+ The study concludes that phishers indeed incorporate rational, emotional
  and motivational appeals in their dataset.
  However, the conception of persuasion theory adopted by Kim, et al.
  is different from our study.
@@ -1014,9 +1014,9 @@ the need of safety
 \begin_layout Standard
 
 \lang english
-By conducting individual investigations on all literatures found in both
- databases, the finding shows not only the different of measurement instruments
- and methods but also the foundation of persuasion theory between the current
+By conducting individual investigations on all papers found in both databases,
+ the finding shows not only the different of measurement instruments and
+ methods but also the foundation of persuasion theory between the current
  studies and our study.
  The low number of results from the query searches also indicate not many
  academic researchers that study persuasion techniques and phishing area.
@@ -1048,7 +1048,7 @@ d as a variable in our methodology.
  This relationship can be used to show a different perspective of phishing
  email characteristics considering the persuasive elements within its content.
  The analysis of persuasion principles in phishing emails also can be used
- to generate a new method in an automatic way of detecting phishing emails
+ to generate a new method in an automated way of detecting phishing emails
  as one of the primary delivery techniques of phishing attacks.
 \end_layout
 
@@ -1121,7 +1121,7 @@ Chapter 2 describes background and literature reviews about phishing in
 \begin_layout Standard
 
 \lang english
-In chapter 3, we presents the rationale of our main research questions and
+In chapter 3, we present the rationale of our main research questions and
  hypotheses.
  It includes what aspect to be considered to answer the characteristics
  of phishing emails based on persuasion principles in the dataset and the

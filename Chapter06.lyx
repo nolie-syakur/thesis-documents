@@ -255,7 +255,7 @@ tab:Includes-attachment-and
 
 \end_inset
 
- that phishers povide clear instructions on how recipients are meant to
+ that phishers provide clear instructions on how recipients are meant to
  act; phishing emails which include attachment(s) are likely to request
  to open it and phishing emails which provide URL(s) are likely to request
  to click on it.
@@ -326,9 +326,8 @@ fig:Detailed-of-financial
  as Bank of America, Barclays Bank, and Llyods Bank.
  However, we found this is not ideal because our dataset is coming from
  Dutch based organization.
- Perhaps, this is because of we conducted the analysis only on 207 unique
- phishing emails in English language which is 2.45% of the total reported
- emails.
+ Perhaps, this is because we conducted the analysis only on 207 unique phishing
+ emails in English language which is 2.45% of the total reported emails.
  We explain why we can only analyze 207 unique phishing emails in English
  language in 
 \begin_inset Flex CT - auto cross-reference
@@ -343,7 +342,7 @@ sec:Limitation
 
 .
  Despite of this limitation, we emphasize that our current study portrays
- as a pre-cursor to a larger study of persuasion techniques and phishing
+ as a precursor to a larger study of persuasion techniques and phishing
  emails in general.
  By this reasoning, our method or measure instruments such as algorithms,
  flowcharts, and variables would not be biasing the method to what we may
@@ -374,7 +373,7 @@ To what extent are the persuasion principles used in phishing emails?
 To answer the second research question, we look at the relationships between
  the persuasion principles and the generic properties.
  With this in mind, we have established 10 hypotheses related to these relations
-hips and we look wether the findings are consistent with these hypotheses.
+hips and we look whether the findings are consistent with these hypotheses.
  
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -1322,7 +1321,7 @@ chap:research-questions
 \begin_layout Itemize
 If we assume that most people are more likely to comply with authority,
  we suggest a legitimate institution such as financial sector should never
- use emails as a media of communication with its customers.
+ use emails as a medium of communication with its customers.
  Instead, a legitimate institution should have its own secure messaging
  system to communicate with its customers.
  This may reduce the risk of costumers believing that phishing emails are
@@ -1340,8 +1339,8 @@ Even if a legitimate institution uses emails, they may use a simple email
 
 \begin_layout Itemize
 Legitimate institution such as a bank could use of what its customers have,
- such as phone number registered in the its system or a token given by the
- bank to the customers.
+ such as phone number registered in the system or a token given by the bank
+ to the customers.
  A secret code in the email sent by the bank should match the code delivered
  to the customer's phone or token.
  This provides two factor authentication and will make more effort for the
@@ -1393,7 +1392,7 @@ Limitation
 \end_layout
 
 \begin_layout Standard
-Although the research produces a conclusive results, our findings need to
+Although the research produces conclusive results, our findings need to
  be assimilated in the backdrop of some limitations which arise due to the
  complex nature of our methodology and research environment.
  It is important for us to explain these limitations so that the readers
@@ -1409,7 +1408,7 @@ on, in which we do not know whether the sample data represents national-wide
  This causes our study to be dependent on the reporter that reports to this
  organization as well.
  The third limitation is language barrier.
- A few number of suspected English-based phishing emails forwarded by the
+ Few numbers of suspected English-based phishing emails forwarded by the
  reporter along an information in Dutch language.
  It might be useful to know to understand the information provided by the
  reporter.
@@ -1427,7 +1426,7 @@ on, in which we do not know whether the sample data represents national-wide
  For example, one person claimed an email is attractive while another person
  claimed it is not.
  This introduces the greatest limitation to our research because it significantl
-y impact our results.
+y impacts our results.
  The fifth limitation is being unique dataset of the reported phishing emails
  (440 phishing emails reduced to 207 unique phishing emails).
  This resulted in smaller sample size of data and therefore, gives a challenging
@@ -1450,7 +1449,7 @@ Despite our considerable limitations, a recommendation as a follow-up study
  would be extremely desirable in order to test our findings.
  We feel that any future research along this line will find our work to
  be a useful starting point.
- Furthermore, we also recommend to add resilient validation in data classificati
+ Furthermore, we also recommend adding resilient validation in data classificati
 on in terms of persuasion principles by involving several people to have
  an objective decision.
  It is also interesting to identify authority principle in regular emails
