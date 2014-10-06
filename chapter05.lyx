@@ -280,7 +280,7 @@ fig:Selection-diagram
  illustrates the selection process.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Non-English exclusion
 \end_layout
 
@@ -334,7 +334,7 @@ sec:Future-work
  
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Non phishing exclusion
 \end_layout
 
@@ -373,7 +373,7 @@ Interestingly, based on the result of the categorization process, we found
 n of a fraudulent email among the reporters is still occurred.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Removing duplicated emails
 \end_layout
 
@@ -488,7 +488,7 @@ ContainHyperlink
  sections.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:variables"
@@ -743,7 +743,7 @@ We have established the variables based on the phishing email properties.
  reciprocation, consistency, social proof, likeability, authority and scarcity.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:cialdini"
@@ -8438,27 +8438,7 @@ tab:use-HTML-and
  them use HTML.
  On the other hand, 26.3% of emails which use HTML are likeability emails
  and 17.4% of total phishes use HTML and have likeability principle.
- A chi-square test suggests that there is a significant relationship between
- these variables, 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $X^{2}(1)=4.904,p=0.027$
-\end_inset
-
-.
- Phi measurement suggests that have a very weak positive relationship at
- 0.154.
- However, we still accept hypothesis 16.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -8777,6 +8757,38 @@ use HTML and likeability
 * p < 0.05 (significant).
 \end_layout
 
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A chi-square test suggests that there is a significant relationship between
+ these variables, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $X^{2}(1)=4.904,p=0.027$
+\end_inset
+
+.
+ Phi measurement suggests that have a weak positive relationship at 0.154.
+ Although they have a weak relationship, HTML variable and likeability principle
+ still have a significant relationship.
+ Thus, we still accept hypothesis 16.
+\end_layout
+
 \begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
@@ -8810,30 +8822,6 @@ or and scarcity.
 \end_layout
 
 \begin_layout Standard
-It is clear from 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-tab:Persuasion-principles-vs
-\end_layout
-
-\end_inset
-
- that authority principle contributes high percentages among all target
- types, whereas social proof principle contributes the least percentages
- in all target types.
- However, the highest percentage of social proof principle is used in government
- target type (21.4%) which is still low compare to consistency and authority
- principles.
- In fact, we do not find social proof principle that is used in administrators,
- social media, postal services, travel agencies, industrials and ISP target
- types.
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -8845,7 +8833,7 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -9955,6 +9943,38 @@ Note: N = total number
 \end_inset
 
 
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is clear from 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Persuasion-principles-vs
+\end_layout
+
+\end_inset
+
+ that authority principle contributes high percentages among all target
+ types, whereas social proof principle contributes the least percentages
+ in all target types.
+ However, the highest percentage of social proof principle is used in government
+ target type (21.4%) which is still low compare to consistency and authority
+ principles.
+ In fact, we do not find social proof principle that is used in administrators,
+ social media, postal services, travel agencies, industrials and ISP target
+ types.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -9964,7 +9984,7 @@ Depending on the target types, we can observe the next most popular principle
  When we look into our dataset and investigate why scarcity is the second
  most used principle, we can notice from 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -9975,7 +9995,7 @@ fig:Financial-target-and
 
 , 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -9986,7 +10006,7 @@ fig:E-Commerce/Retails-and-scarcity
 
  and 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -10042,7 +10062,7 @@ Financial target and scarcity
 \begin_layout Standard
 As illustrated in 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -10064,7 +10084,7 @@ Your credit card is suspended..
  the recipient did not respond to the email within the limited time.
  Similar scenario is illustrated in 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -10075,7 +10095,7 @@ fig:E-Commerce/Retails-and-scarcity
 
  and 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -10194,7 +10214,7 @@ This message has been generated in response to the company complaint submitted
  to respond to this email.
  We can also observe similar scenario from 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -10308,55 +10328,8 @@ It is interesting that we do not find scarcity principle in social media
  bank).
  On the other hand, our desire to respond to attractiveness in social media
  targeted emails might be higher.
- This explains why we find zero scarcity in social media target type and
- likeability as the next most popular principle.
-\end_layout
-
-\begin_layout Standard
-When we look at the relationship between target types (sectors) and persuasion
- principles in 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-tab:Chi-square-persuasion-principles
-\end_layout
-
-\end_inset
-
-, we do not find a significant relationship between financial sector and
- scarcity principle, instead we find financial sector has a significant
- relationship with reciprocation principle.
- This explains that even if the number of financial sector is low in terms
- of reciprocation (16.7%), reciprocation principle is likely to be used in
- financial sector than the other sectors.
- Moreover, we find that e-commerce/retails and administrators have a significant
- relationship with scarcity principle.
- This supports our previous finding that scarcity is the next popular principle
- in both target types.
- However, p-value indicates that administrator target type has more statisticall
-y significant relationship with scarcity principle than the other two sectors.
- Although we also find a significant relationship between government and
- scarcity, phi measurement indicates they have an inverse relationship (phi
- = -0.186).
- This explains that scarcity principle will likely not to be used in the
- government target.
- This also may supports our finding that consistency is the next most used
- principle in the government target.
- Despite the fact that we find a significant relationship between non-existence/
-individual sector and authority, when we look deeper, we find that they
- have an inverse relationship (phi = -0.465).
- This suggests that authority principle is likely not to be used in Non-existenc
-e/individual target.
- This explains why the occurrence of authority is lower in non-existence/individ
-ual target (61.5%) than the other target types.
-\end_layout
-
-\begin_layout Standard
-Based on our findings, we learn that depending on the target types, three
- persuasion principles (scarcity, consistency and likeability) are the next
- most popular persuasion principles in our dataset.
+ This explains why we find likeability as the next most popular principle
+ instead of scarcity principle in social media target type.
 \end_layout
 
 \begin_layout Standard
@@ -11261,6 +11234,8 @@ ISP
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+
+\size scriptsize
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Chi-square-persuasion-principles"
@@ -11346,6 +11321,72 @@ Note: df = 1, *p < .05, **p < .01, ***p < .001.
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+When we look at the relationship between target types (sectors) and persuasion
+ principles in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Chi-square-persuasion-principles
+\end_layout
+
+\end_inset
+
+, we do not find a significant relationship between financial sector and
+ scarcity principle, instead we find financial sector has a significant
+ relationship with reciprocation principle.
+ This explains that even if the number of financial sector is low in terms
+ of reciprocation (16.7%), reciprocation principle is likely to be used in
+ financial sector than the other sectors.
+ Moreover, we find that e-commerce/retails and administrators have a significant
+ relationship with scarcity principle.
+ This supports our previous finding that scarcity is the next popular principle
+ in both target types.
+ However, p-value indicates that administrator target type has more statisticall
+y significant relationship with scarcity principle than the other two sectors.
+ Although we also find a significant relationship between government and
+ scarcity, phi measurement indicates they have an inverse relationship (phi
+ = -0.186).
+ This explains that scarcity principle will likely not to be used in the
+ government target.
+ This also may supports our finding that consistency is the next most used
+ principle in the government target.
+ Despite the fact that we find a significant relationship between non-existence/
+individual sector and authority, when we look deeper, we find that they
+ have an inverse relationship (phi = -0.465).
+ This suggests that authority principle is likely not to be used in Non-existenc
+e/individual target.
+ This explains why the occurrence of authority is lower in non-existence/individ
+ual target (61.5%) than the other target types.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Finding"
+
+\end_inset
+
+Finding
+\end_layout
+
+\begin_layout Standard
+Based on our analysis of the relationship between persuasion principles
+ and target types, we learn that depending on the target types, three persuasion
+ principles (scarcity, consistency and likeability) are the next most popular
+ persuasion principles in our dataset.
 \end_layout
 
 \begin_layout Subsection
@@ -11363,7 +11404,7 @@ Another important aspect of a phishing email is the reason that is used
  by the phishers as a pretext to trick the recipients.
  Apart from the result in 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -11377,259 +11418,6 @@ tab:Account-related-reason
  finding whether the other reason types and persuasion principles also share
  any kind of relationship.
  
-\end_layout
-
-\begin_layout Standard
-As is shown by 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-tab:Persuasion-principles-vs-1
-\end_layout
-
-\end_inset
-
-, apart from the authority principle, we find less than 50% contributions
- of likeability, consistency, reciprocation and social proof principles
- to all of the reason types.
- Only scarcity principle that often used in account related reason (68.3%).
- We find reciprocation is the least principle that is used in terms of the
- reason types.
- We do not find reciprocation principle in document related, product/services
- and social reason.
- 
-\end_layout
-
-\begin_layout Standard
-We also find that the next most popular principle for account related reason
- (68.3%) and product/services reason (20.0%) is scarcity principle.
- The illustrations in 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-fig:Financial-target-and
-\end_layout
-
-\end_inset
-
-, 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-fig:E-Commerce/Retails-and-scarcity
-\end_layout
-
-\end_inset
-
- and 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-fig:Administrator-and-scarcity
-\end_layout
-
-\end_inset
-
- perhaps might explain why scarcity principle tend to be used in account
- related reason.
- Our reasoning was, as recipients we might value our accounts in a certain
- system more, so that we tend to respond to the email which request to do
- an action that prevents the loss of our valuables within a limited time.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/screenshots phishing email-2/Financial incentive and consistency copy.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Example-of-financial"
-
-\end_inset
-
-Example of financial incentive and consistency
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Based on 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-tab:Persuasion-principles-vs-1
-\end_layout
-
-\end_inset
-
-, the next most popular principle for financial incentive (26.4%) and document
- related reason (34.8%) is consistency.
- As we illustrate in 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-fig:Example-of-financial
-\end_layout
-
-\end_inset
-
-, the email stated that 
-\begin_inset Quotes eld
-\end_inset
-
-Thank you for scheduling the following payment...
-\begin_inset Quotes erd
-\end_inset
-
-.
- This indicates financial incentive and request for commitment from the
- recipients that have scheduled payments through PayPal.
- It is natural for average recipients to wonder when did they scheduled
- payments through a certain financial institution.
- The recipients who have scheduled a payment through PayPal previously might
- tend to respond to click the URL provided in the email.
- This explains why consistency is the second most used principle in terms
- of financial incentive.
- Moreover, consistency is also the second most popular principle in terms
- of document related reason.
- As we observed in 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-fig:Government-and-consistency-1
-\end_layout
-
-\end_inset
-
-, the phrases 
-\begin_inset Quotes eld
-\end_inset
-
-..you have been scheduled..
-\begin_inset Quotes erd
-\end_inset
-
- and 
-\begin_inset Quotes eld
-\end_inset
-
-..the court notice is attached..
-\begin_inset Quotes erd
-\end_inset
-
-, indicate that the email requests for commitment from the recipient for
- the decision they have previously made and also it portrays document related
- reason.
- Average recipients who thought document related reason as more formal will
- likely to respond to the email.
- This might explain why consistency is the second most popular principle
- in terms of document related reason.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename gfx/screenshots phishing email-2/social reason and likeability-2 copy.png
-	scale 45
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Social-reason-and"
-
-\end_inset
-
-Social reason and likeability principle
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-We found that likeability is the second most popular principle in social
- reason email.
- This can relate to our previous analysis in 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-sub:Relationship-between-persuasion
-\end_layout
-
-\end_inset
-
- regarding social media and likeability principle.
- As illustrated in 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-fig:Social-reason-and
-\end_layout
-
-\end_inset
-
-, by incorporating likeability and social incentive, the recipients might
- want to respond to the email much more than using other principles.
- This explains why likeability is the second most used principle in social
- reason email.
 \end_layout
 
 \begin_layout Standard
@@ -12300,54 +12088,268 @@ Note: N = total number
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
 \begin_inset space \space{}
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-When we look at 
+As is shown by 
 \begin_inset Flex CT - auto cross-reference
 status open
 
 \begin_layout Plain Layout
 
-tab:Chi-square-tests-Persuasion
+tab:Persuasion-principles-vs-1
 \end_layout
 
 \end_inset
 
-, we find that both account related and product/services reasons have significan
-t relationships with scarcity principle.
- This support our previous analysis which finds scarcity is the second most
- used principle for both reasons.
- We also find both financial incentive and document related reason have
- significant relationships with scarcity.
- However, phi-measurements indicate that both have inverse relationships
- (phi = -0.242 for financial incentive and phi = -0.264 for document related
- reason).
- This explains why consistency is the second most used principle for financial
- and document related reason.
- We find a significant relationship between social reason and authority
- principle.
- Phi measurement suggests that they also have an inverse relationship (phi
- = -0.188).
- It means that authority principle is most likely not to be used in phishing
- emails with social reason.
- We believe it makes sense when social reason type does not project fear
- or negative consequences to persuade potential victim.
- This also explains why likeability is the second most used principle in
- social reason email.
+, apart from the authority principle, we find less than 50% contributions
+ of likeability, consistency, reciprocation and social proof principles
+ to all of the reason types.
+ Only scarcity principle that often used in account related reason (68.3%).
+ We find reciprocation is the least principle that is used in terms of the
+ reason types.
+ We do not find reciprocation principle in document related, product/services
+ and social reason.
+ 
 \end_layout
 
 \begin_layout Standard
-The results show that depending on the reason types, three persuasion principles
- (scarcity, consistency and likeability) are still the second most popular
- persuasion principles that are used in our dataset.
+We also find that the next most popular principle for account related reason
+ (68.3%) and product/services reason (20.0%) is scarcity principle.
+ The illustrations in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+fig:Financial-target-and
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:E-Commerce/Retails-and-scarcity
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:Administrator-and-scarcity
+\end_layout
+
+\end_inset
+
+ perhaps might explain why scarcity principle tend to be used in account
+ related reason.
+ Our reasoning was, as recipients we might value our accounts in a certain
+ system more, so that we tend to respond to the email which request to do
+ an action that prevents the loss of our valuables within a limited time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/screenshots phishing email-2/Financial incentive and consistency copy.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Example-of-financial"
+
+\end_inset
+
+Example of financial incentive and consistency
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Based on 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Persuasion-principles-vs-1
+\end_layout
+
+\end_inset
+
+, we also found that the next most popular principle for financial incentive
+ (26.4%) and document related reason (34.8%) is consistency.
+ As we illustrate in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+fig:Example-of-financial
+\end_layout
+
+\end_inset
+
+, the email stated that 
+\begin_inset Quotes eld
+\end_inset
+
+Thank you for scheduling the following payment...
+\begin_inset Quotes erd
+\end_inset
+
+.
+ This indicates financial incentive and request for commitment from the
+ recipients that have scheduled payments through PayPal.
+ It is natural for us that we treat financial as a sensitive matter.
+ So we may raise our curiousity about when did we scheduled a payment through
+ PayPal, and as a result we click on the link anyway.
+ The recipients who have scheduled a payment through PayPal previously will
+ have even more incentive to click on the URL provided in the email.
+ This explains why consistency is the second most used principle in terms
+ of financial incentive.
+ Moreover, consistency is also the second most popular principle in terms
+ of document related reason.
+ As we observed in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+fig:Government-and-consistency-1
+\end_layout
+
+\end_inset
+
+, the phrases 
+\begin_inset Quotes eld
+\end_inset
+
+..you have been scheduled..
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+..the court notice is attached..
+\begin_inset Quotes erd
+\end_inset
+
+, indicate that the email requests for commitment from the recipient for
+ the decision they have previously made and also it portrays document related
+ reason.
+ Average recipients who thought document related reason as more formal will
+ likely to respond to the email.
+ This might explain why consistency is the second most popular principle
+ in terms of document related reason.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/screenshots phishing email-2/social reason and likeability-2 copy.png
+	scale 45
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Social-reason-and"
+
+\end_inset
+
+Social reason and likeability principle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We found that likeability is the second most popular principle in social
+ reason email.
+ This can relate to our previous analysis in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+sub:Relationship-between-persuasion
+\end_layout
+
+\end_inset
+
+ regarding social media and likeability principle.
+ As illustrated in 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+fig:Social-reason-and
+\end_layout
+
+\end_inset
+
+, by incorporating likeability and social incentive, the recipients might
+ want to respond to the email much more than using other principles.
+ This explains why likeability is the second most used principle in social
+ reason email.
 \end_layout
 
 \begin_layout Standard
@@ -12362,7 +12364,7 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -12845,6 +12847,8 @@ Social
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+
+\size scriptsize
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Chi-square-tests-Persuasion"
@@ -12930,6 +12934,66 @@ Note: df = 1, *p < .05, **p < .01, ***p < .001.
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+When we look at 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Chi-square-tests-Persuasion
+\end_layout
+
+\end_inset
+
+, we find that both account related and product/services reasons have significan
+t relationships with scarcity principle.
+ This support our previous analysis which finds scarcity is the second most
+ used principle for both reasons.
+ We also find both financial incentive and document related reason have
+ significant relationships with scarcity.
+ However, phi-measurements indicate that both have inverse relationships
+ (phi = -0.242 for financial incentive and phi = -0.264 for document related
+ reason).
+ This explains why consistency is the second most used principle for financial
+ and document related reason.
+ We find a significant relationship between social reason and authority
+ principle.
+ Phi measurement suggests that they also have an inverse relationship (phi
+ = -0.188).
+ It means that authority principle is most likely not to be used in phishing
+ emails with social reason.
+ We believe it makes sense when social reason type does not project fear
+ or negative consequences to persuade potential victim.
+ This also explains why likeability is the second most used principle in
+ social reason email.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Finding-1"
+
+\end_inset
+
+Finding
+\end_layout
+
+\begin_layout Standard
+Based on our analysis of the relationship between persuasion principles
+ and reason types, we can conclude that depending on the reason types, three
+ persuasion principles (scarcity, consistency and likeability) are still
+ the second most popular persuasion principles used in our dataset.
 \end_layout
 
 \begin_layout Subsection
@@ -12953,8 +13017,8 @@ Administrator
 \begin_inset Quotes erd
 \end_inset
 
- but it does not mention about account issue, instead, it asked the recipient
- to download an attachment related to 
+, however, it does not mention about account issue, instead, it asked the
+ recipient to download an attachment related to 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12975,51 +13039,7 @@ tab:Frequency-analysis-target
 \end_inset
 
  illustrates the frequency analysis on target types vs reason types.
- To relate with the previous findings in 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-sub:Relationship-between-persuasion
-\end_layout
-
-\end_inset
-
- and 
-\begin_inset Flex CT - auto cross-reference
-status open
-
-\begin_layout Plain Layout
-
-sub:Relationship-between-persuasion-1
-\end_layout
-
-\end_inset
-
-, we find interesting characteristics regarding the second most used principle
- by observing the highest reason types in terms of the target types.
- The observation gave the following characteristics:
-\end_layout
-
-\begin_layout Itemize
-Financial - account related = scarcity principle
-\end_layout
-
-\begin_layout Itemize
-E-commerce/retails - account related = scarcity principle
-\end_layout
-
-\begin_layout Itemize
-Administrator - account related = scarcity principle
-\end_layout
-
-\begin_layout Itemize
-Government - financial incentive = consistency principle
-\end_layout
-
-\begin_layout Itemize
-Social media - social reason = likeability principle
+ 
 \end_layout
 
 \begin_layout Standard
@@ -13034,7 +13054,7 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -14005,6 +14025,8 @@ N
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+
+\size scriptsize
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Frequency-analysis-target"
@@ -14086,6 +14108,69 @@ Frequency analysis target types vs reason types
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+We find interesting characteristics regarding the second most used principle
+ by observing the highest occurence of reason types in terms of the target
+ types.
+ The observation gave the following characteristics:
+\end_layout
+
+\begin_layout Itemize
+Financial - account related = scarcity principle
+\end_layout
+
+\begin_layout Itemize
+E-commerce/retails - account related = scarcity principle
+\end_layout
+
+\begin_layout Itemize
+Administrator - account related = scarcity principle
+\end_layout
+
+\begin_layout Itemize
+Government - financial incentive = consistency principle
+\end_layout
+
+\begin_layout Itemize
+Social media - social reason = likeability principle
+\end_layout
+
+\begin_layout Standard
+These characteristics support our finding in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:Finding
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:Finding-1
+\end_layout
+
+\end_inset
+
+ which indicate depending on the target types and reason types, three persuasion
+ principles (scarcity, consistency and likeability) are the next most popular
+ principles used in our dataset.
 \end_layout
 
 \end_body

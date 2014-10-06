@@ -443,73 +443,6 @@ Lastly, we find that there is a significant association between the use
 \end_layout
 
 \begin_layout Standard
-Overall, seven hypotheses in respect of persuasion principles are rejected
- and three of them are accepted.
- Based on this result and supported by our analysis on the relationship
- between persuasion principles and target types in 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-sub:Relationship-between-persuasion
-\end_layout
-
-\end_inset
-
- and the relationship between persuasion principles and reason types in
- 
-\begin_inset Flex CT - auto cross-reference
-status collapsed
-
-\begin_layout Plain Layout
-
-sub:Relationship-between-persuasion-1
-\end_layout
-
-\end_inset
-
-, we can answer our second research question by the following underlying
- perspectives: 
-\end_layout
-
-\begin_layout Itemize
-The extensive use of authority as a persuasion technique in phishing emails
- as opposed to social proof technique.
- However, our analysis suggests that while the percentages are still high,
- authority principle is less likely to be used in individual target type
- and social reason type.
-\end_layout
-
-\begin_layout Itemize
-The next most popular persuasion principle for three target types (financial,
- e-commerce/retails and administrator) and account reason type is scarcity
- principle.
-\end_layout
-
-\begin_layout Itemize
-Consistency is the next most popular persuasion principle for government
- target type and financial reason type.
-\end_layout
-
-\begin_layout Itemize
-Likeability is the second most used persuasion principle for social media
- target type and social reason type.
-\end_layout
-
-\begin_layout Itemize
-Scarcity principle will likely to be used when phishing emails are coming
- from administrator target type and account reason type.
- 
-\end_layout
-
-\begin_layout Itemize
-Likeability principle affects the usage of HTML-based email and consistency
- principle.
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -1259,6 +1192,164 @@ B = Related to generic structural properties
 \end_inset
 
  
+\end_layout
+
+\begin_layout Standard
+Overall, seven hypotheses in respect of persuasion principles are rejected
+ and three of them are accepted.
+ Based on this result and supported by our analysis on the relationship
+ between persuasion principles and target types in 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:Relationship-between-persuasion
+\end_layout
+
+\end_inset
+
+ and the relationship between persuasion principles and reason types in
+ 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:Relationship-between-persuasion-1
+\end_layout
+
+\end_inset
+
+, we can answer our second research question by the following underlying
+ perspectives: 
+\end_layout
+
+\begin_layout Itemize
+The extensive use of authority as a persuasion technique in phishing emails
+ as opposed to social proof technique.
+ However, our analysis suggests that while the percentages are still high,
+ authority principle is less likely to be used in individual target type
+ and social reason type.
+ (see 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Persuasion-principle-analysis
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Persuasion-principles-vs
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Persuasion-principles-vs-1
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Depending on the target types and the reason types, three persuasion principles
+ (scarcity, consistency and likeability) are the next most popular principles
+ used in our dataset.
+ (see 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:Relationship-between-persuasion
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+sub:Relationship-between-persuasion-1
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Scarcity principle will likely to be used when phishing emails are coming
+ from administrator target type and account reason type.
+ (see 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Chi-square-persuasion-principles
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status collapsed
+
+\begin_layout Plain Layout
+
+tab:Chi-square-tests-Persuasion
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Likeability principle affects the usage of HTML-based email and consistency
+ principle.
+ (see 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:use-HTML-and
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:Likeability-and-consistency
+\end_layout
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Section

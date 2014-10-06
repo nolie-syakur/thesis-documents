@@ -294,11 +294,8 @@ key "cialdini:2001"
 .
  As we mention earlier, persuasion techniques can also be exploited by the
  phishers to get positive responses from potential victims.
- Based on this reasoning, we will conduct an analysis of persuasion principle
- in phishing emails.
- Our results may show an important aspect of phishing emails so that future
- phishing email countermeasures should not only be developed from technical
- perspective but they should also be able to resist persuasion.
+ Based on this reasoning, we will conduct a quick scan of the existing studies
+ regarding persuasion techniques in phishing emails.
 \end_layout
 
 \begin_layout Standard
@@ -320,9 +317,27 @@ persuasion
 \begin_inset Quotes erd
 \end_inset
 
- to search based on title, abstract and keyword fields in Scopus database
+ to search based on title, abstract, and keyword fields in Scopus database
  and we also search based on topic in Web of Science database.
- 
+ As we will adopt the concept of persuasion based on Cialdini's six principle,
+ we search 
+\begin_inset Quotes eld
+\end_inset
+
+phishing
+\begin_inset Quotes erd
+\end_inset
+
+ in TAK(Title, Abstract, Keywords) fields and 
+\begin_inset Quotes eld
+\end_inset
+
+Cialdini
+\begin_inset Quotes erd
+\end_inset
+
+ in the References field.
+ From 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -333,8 +348,7 @@ tab:Query-searches-in
 
 \end_inset
 
- indicates the result in both databases and as we can see from the table,
- there are two papers that occurred in both databases 
+, we can see that there are two papers that occurred in both databases 
 \begin_inset ERT
 status open
 
@@ -343,6 +357,19 @@ status open
 
 \backslash
 citep{wright2014research,kaivanto2014effect}
+\end_layout
+
+\end_inset
+
+ and one paper occurred in both queries 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research}
 \end_layout
 
 \end_inset
@@ -367,7 +394,7 @@ status open
 
 \lang english
 \begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="3">
+<lyxtabular version="3" rows="3" columns="3">
 <features rotate="0" booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top" width="3cm">
 <column alignment="center" valignment="top" width="3cm">
@@ -411,34 +438,19 @@ Web of science
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size scriptsize
 \lang english
-\begin_inset Quotes eld
-\end_inset
-
-persuasion
-\begin_inset Quotes erd
-\end_inset
-
- AND 
-\begin_inset Quotes eld
-\end_inset
-
-phishing
-\begin_inset Quotes erd
-\end_inset
-
-
+TITLE-ABS-KEY ( phishing persuasion ) 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -462,7 +474,7 @@ rma2010anatomy,Ghorbani20101}
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -480,6 +492,54 @@ citep{wright2014research,kim2013understanding,workman:2008}
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+( TITLE-ABS-KEY ( phishing ) AND REF ( cialdini ) 
+\size default
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research,krombholz2013social,herzberg2013forcing,vishwanath2011p
+eople,kawakami2010development}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -553,11 +613,8 @@ citep{kaivanto2014effect}
 \end_inset
 
 .
- Kavianto modeled these decisions into binary classification tasks by utilizing
- Signal decision theory (SDT) integrated with prospect theory (PT).
- Kavianto also evaluated an SDT based phishing risk model on three assumptions;
- behavioral SDT, PT-SDT and PT-SDT integrated with psychology-deception
- effects 
+ Kavianto develops a model of the individual's behavioral decisions in aggregate
+ levels 
 \begin_inset ERT
 status open
 
@@ -571,30 +628,12 @@ citep{kaivanto2014effect}
 \end_inset
 
 .
- The result of this study is a demonstration of potential email classification
- between genuine and bad email (phishing) using PT-SDT based model 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{kaivanto2014effect}
-\end_layout
-
-\end_inset
-
-.
- Although, the concept of psychology-deception that is used by Kavianto
- is the same as our study
-\begin_inset CommandInset citation
-LatexCommand citep
-key "cialdini:2001"
-
-\end_inset
-
-, this study is indeed different in terms of goal and approaches.
+ The outcome of the study is the possibility of incorporating individual-level
+ behavioral biases into the analysis of system level risk (i.e.
+ network security risk).
+ Although Kavianto identifies that successful deception can be linked with
+ how persuasion techniques used by the perpetrator, there is no actual data
+ of phishing emails have been analyzed.
 \end_layout
 
 \begin_layout Itemize
@@ -738,6 +777,144 @@ citep{Ghorbani20101}
 \begin_layout Itemize
 
 \lang english
+Krombholz, et al.
+ paper provides a taxonomy of well known social engineering attacks and
+ studies the overview of advanced social engineering attacks on knowledge
+ worker 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{krombholz2013social}
+\end_layout
+
+\end_inset
+
+.
+ What they meant by knowledge worker here is the worker that characterized
+ knowledge as one's capital.
+ The paper used Cialdini's persuasion principles as the background study
+ of social engineering.
+ The taxonomy was classified based on attack channel (i.e.
+ emails, instant messenger, social network, etc.), the operator (i.e.
+ human, software), different types of social engineering (i.e.
+ phishing, shoulder surfing, dumpster diving, etc.) and specific attack scenarios.
+ Krombholz, et al.
+ showcase the overview of social engineering attacks by creating a taxonomy
+ to support further development of social engineering attack countermeasures
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{krombholz2013social}
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Herzberg, et al.
+ tested the effectiveness of different defense mechanisms that use forcing
+ and negative training functions 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{herzberg2013forcing}
+\end_layout
+
+\end_inset
+
+.
+ Their methods was by using an online exercise submission system called
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Submit
+\begin_inset Quotes erd
+\end_inset
+
+ to simulate phishing attacks and it involves the population of ~400 students
+ and two years of observation.
+ Their outcome claimed that forcing and negative training functions are
+ very effective in both privation and detection.
+ However, their defense mechanisms do not consider on the persuasion techniques
+ at all nor analyzing data from the real phishing emails.
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Vishwanath, et al.
+ tested the individual differences in phishing vulnerability within integrated
+ information processing model 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{vishwanath2011people}
+\end_layout
+
+\end_inset
+
+.
+ The model focuses on four contextual factors: the individual level of involveme
+nt, domain specific knowledge, technological efficacy, and email load.
+ The method involves the total number of 161 sample.
+ The outcome of their study is that to show the model can be used as an
+ insight into how individuals get phished.
+ However, they do not consider persuasion principles on their contextual
+ factors nor analyze the real phishing attacks.
+ This suggests that persuasion techniques are not part of the important
+ role to determined the success of phishing attacks.
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Kawakami, et al.
+ developed an e-learning system which functions to use animation for information
+ security education 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kawakami2010development}
+\end_layout
+
+\end_inset
+
+.
+ The paper only mentions the commitment and consistency based on Cialdini's
+ principles to be used as influence for people to take their e-learning
+ system as a security education.
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
 An interesting paper from Wright, et al.
  which analyze how people influenced by the Cialdini's six persuasion principles
  in phishing messages 
@@ -804,8 +981,8 @@ key "cialdini:2001"
 , Wright, et al.
  tried to find the implication of persuasion principles from the users'
  perspectives.
- This suggests that the direction of the research is different from our
- study.
+ Although we find that the direction of their paper is different, it can
+ be a complimentary to our study.
 \end_layout
 
 \begin_layout Itemize
@@ -854,6 +1031,9 @@ citep{workman:2008}
 
 .
  Based on Workman's measurement, six of the hypotheses are accepted.
+ The data was obtained by a questionnaire and objective observation involving
+ 850 participants.
+ In the end, the total of 612 participant has responded.
  The conclusion is that, the participants who have the tendency of these
  factors, are more vulnerable to phishing attacks 
 \begin_inset ERT
@@ -869,7 +1049,7 @@ citep{workman:2008}
 \end_inset
 
 .
- For instance, one of Workman's hypothesis stated that 
+ For instance, one of Workman's hypotheses stated that 
 \begin_inset Quotes eld
 \end_inset
 
@@ -879,37 +1059,9 @@ y than those who are more resistance
 \end_inset
 
 .
- Based on this review, we can say that the studies conducted by Workman
+ This suggests that Workman have tried to measure the implication of persuasion
+ principles from the users' perspectives as well.
  
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{workman:2008}
-\end_layout
-
-\end_inset
-
- and Wright, et al.
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{wright2014research}
-\end_layout
-
-\end_inset
-
- are similar.
- Both of them tried to find the implication of persuasion principles from
- the users' perspectives, which is different from our study.
 \end_layout
 
 \begin_layout Itemize
@@ -991,15 +1143,41 @@ key "cialdini:2001"
  Time pressure identified by the limited amount of time the recipient has,
  to respond to a phishing email.
  This also can be mapped into scarcity principle.
- However, motivational appeals portray as 
+ Moreover, one of the factors representing motivational appeals is that
+ 
 \begin_inset Quotes eld
 \end_inset
 
-the need of safety
+the need of belongingness
 \begin_inset Quotes erd
 \end_inset
 
- which we could not map into Cialdini's persuasion principles.
+ which also can be portrayed as the need of being part of a group to forms
+ bond with others.
+ Based on our understanding, we can map motivational appeals as social proof
+ principle.
+ However, there is no conception of message argument quality that can be
+ mapped to consistency principle.
+ 
+\begin_inset Flex CT - auto cross-reference
+status open
+
+\begin_layout Plain Layout
+
+tab:A-map-of
+\end_layout
+
+\end_inset
+
+ indicates our mapping from message argument quality into Cialdini's persuasion
+ principles 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+.
  One interesting result from the study is that, the number of time pressure
  emails (42%, n=285), is not as high as they expected.
  The study concludes that phishers indeed incorporate rational, emotional
@@ -1014,9 +1192,239 @@ the need of safety
 \begin_layout Standard
 
 \lang english
-By conducting individual investigations on all papers found in both databases,
- the finding shows not only the different of measurement instruments and
- methods but also the foundation of persuasion theory between the current
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size scriptsize
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size scriptsize
+Message argument quality
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size scriptsize
+Cialdini's persuasion principles
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Rational appeals
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Reciprocation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Emotional appeals
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Authority and Likeability
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Motivational appeals
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Social proof
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Time pressure
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Scarcity
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\size default
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:A-map-of"
+
+\end_inset
+
+A map of message argument quality 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{kim2013understanding}
+\end_layout
+
+\end_inset
+
+ to Cialdini's persuasion principles 
+\lang english
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cialdini:2001"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Based on the review, we can say that the studies conducted by Workman 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{workman:2008}
+\end_layout
+
+\end_inset
+
+ and Wright, et al.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{wright2014research}
+\end_layout
+
+\end_inset
+
+ are similar.
+ Both of them have tried to find the implication of persuasion principles
+ from the users' perspectives, which can be a complementary to our study.
+ We have conducted individual investigations on all papers found in both
+ databases, the finding shows not only the different of measurement instruments
+ and methods but also the foundation of persuasion theory between the current
  studies and our study.
  The low number of results from the query searches also indicate not many
  academic researchers that study persuasion techniques and phishing area.

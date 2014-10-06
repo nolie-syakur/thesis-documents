@@ -160,7 +160,7 @@ status open
 
 \begin_layout Plain Layout
 
-sub:Variables-establishment
+sub:variables
 \end_layout
 
 \end_inset
@@ -217,11 +217,11 @@ p between generic properties and the rest will answer RQ2.
  classify which persuasive elements that exist in a phishing email.
  This process will be explained in 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-sub:cialdini-decision
+sub:cialdini
 \end_layout
 
 \end_inset
