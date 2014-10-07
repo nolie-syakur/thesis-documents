@@ -291,12 +291,14 @@
     block=none,
     indexing=false,
     citereset=none,
-    isbn=true,
+    isbn=false,
     url=true,
     doi=true,
     natbib=true,
         backref=true
 ]{biblatex}
-
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+  
 \addbibresource{Bibliography.bib}
 \addbibresource{additional.bib}

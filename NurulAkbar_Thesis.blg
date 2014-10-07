@@ -1,16 +1,16 @@
 [0] Config.pm:387> INFO - This is Biber 1.6
 [0] Config.pm:389> INFO - Config file is '/Volumes/osXnolie/Dropbox/thesis stuff/Phishing materials/phishing work/NurulAkbarThesis-LyX/classicthesis-LyX-v4.1/biber.conf'
 [0] Config.pm:390> INFO - Logfile is 'NurulAkbar_Thesis.blg'
-[101] biber-darwin:218> INFO - === Mon Oct  6, 2014, 17:21:39
-[102] Biber.pm:325> INFO - Reading 'NurulAkbar_Thesis.bcf'
-[200] Biber.pm:623> INFO - Found 82 citekeys in bib section 0
-[211] Biber.pm:2995> INFO - Processing section 0
-[224] Biber.pm:3129> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
-[233] bibtex.pm:775> INFO - Found BibTeX data source 'Bibliography.bib'
-[328] Biber.pm:3129> INFO - Looking for bibtex format file 'additional.bib' for section 0
-[329] bibtex.pm:775> INFO - Found BibTeX data source 'additional.bib'
-[871] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[872] Biber.pm:2887> INFO - Sorting 'entry' list 'nty' keys
-[872] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[1648] bbl.pm:472> INFO - Writing 'NurulAkbar_Thesis.bbl' with encoding 'latin9'
-[1659] bbl.pm:545> INFO - Output to NurulAkbar_Thesis.bbl
+[82] biber-darwin:218> INFO - === Tue Oct  7, 2014, 12:47:59
+[82] Biber.pm:325> INFO - Reading 'NurulAkbar_Thesis.bcf'
+[178] Biber.pm:623> INFO - Found 82 citekeys in bib section 0
+[189] Biber.pm:2995> INFO - Processing section 0
+[201] Biber.pm:3129> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[210] bibtex.pm:775> INFO - Found BibTeX data source 'Bibliography.bib'
+[307] Biber.pm:3129> INFO - Looking for bibtex format file 'additional.bib' for section 0
+[308] bibtex.pm:775> INFO - Found BibTeX data source 'additional.bib'
+[859] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[859] Biber.pm:2887> INFO - Sorting 'entry' list 'nty' keys
+[859] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1689] bbl.pm:472> INFO - Writing 'NurulAkbar_Thesis.bbl' with encoding 'latin9'
+[1700] bbl.pm:545> INFO - Output to NurulAkbar_Thesis.bbl

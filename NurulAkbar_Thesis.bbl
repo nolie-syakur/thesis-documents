@@ -1013,6 +1013,7 @@
       \strng{fullhash}{bcae2b239ec942fa330a6f34ebb3538a}
       \field{sortinit}{L}
       \field{labeltitle}{Learning based Malicious Web Sites Detection using Suspicious URLs}
+      \field{journaltitle}{Department of Electrical Engineering and Computer Science, Northwestern University}
       \field{title}{Learning based Malicious Web Sites Detection using Suspicious URLs}
       \field{type}{Journal Article}
       \keyw{bibliography}
@@ -1485,7 +1486,7 @@
       \strng{fullhash}{35717b460566bc605206c1fcaf8f9a6e}
       \field{sortinit}{S}
       \field{labeltitle}{An Anatomy of Phishing Messages as Deceiving Persuasion: A Categorical Content and Semantic Network Study}
-      \field{journaltitle}{EDPACS}
+      \field{journaltitle}{Edp Audit, Control, and Security}
       \field{number}{6}
       \field{title}{An Anatomy of Phishing Messages as Deceiving Persuasion: A Categorical Content and Semantic Network Study}
       \field{volume}{42}

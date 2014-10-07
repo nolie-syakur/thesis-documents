@@ -98,7 +98,7 @@ printbibliography[keyword=bibliography,heading=none]
 
     
 \backslash
-section*{Additional Bibliography}         
+section*{Non peer-reviewed Bibliography}         
 \end_layout
 
 \begin_layout Plain Layout
