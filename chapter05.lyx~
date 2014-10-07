@@ -13008,8 +13008,8 @@ It is important for us to explain that target types do not always use the
  related reason.
  Similarly, an administrator targeted email does no always use an account
  related reason.
- For instance, a phishing email reported on 24 November 2014 7:59 PM, the
- email is claimed from 
+ To illustrate, a phishing email reported on 24 November 2014 7:59 PM is
+ claimed from 
 \begin_inset Quotes eld
 \end_inset
 
@@ -13017,8 +13017,8 @@ Administrator
 \begin_inset Quotes erd
 \end_inset
 
- but it does not mention about account issue, instead, it asked the recipient
- to download an attachment related to 
+, however, it does not mention about account issue, instead, it asked the
+ recipient to download an attachment related to 
 \begin_inset Quotes eld
 \end_inset
 
