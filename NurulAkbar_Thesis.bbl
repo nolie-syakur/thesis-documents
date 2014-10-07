@@ -344,6 +344,7 @@
       \strng{fullhash}{f6a461ee3b20de9872fee4ce54762589}
       \field{sortinit}{D}
       \field{labeltitle}{Anatomy of a Phishing Email.}
+      \field{booktitle}{First Conference on Email and Anti-Spam}
       \field{title}{Anatomy of a Phishing Email.}
       \field{year}{2004}
       \keyw{bibliography}
@@ -401,9 +402,9 @@
       \strng{fullhash}{90b22d62814eb8fd6a5fc040b78210f1}
       \field{sortinit}{F}
       \field{labeltitle}{The Dark Side of the Internet}
-      \field{booktitle}{International Federation for Information Processing, International Meeting, "IT Innovation for Adaptability and Competitiveness"}
+      \field{booktitle}{International Federation for Information Processing, International Meeting,"IT Innovation for Adaptability and Competitiveness"}
       \field{title}{The Dark Side of the Internet}
-      \field{type}{Conference Proceedings}
+      \field{year}{2004}
       \keyw{bibliography}
     \endentry
     \entry{frauenstein:2013}{inbook}{}
@@ -1016,6 +1017,7 @@
       \field{journaltitle}{Department of Electrical Engineering and Computer Science, Northwestern University}
       \field{title}{Learning based Malicious Web Sites Detection using Suspicious URLs}
       \field{type}{Journal Article}
+      \field{year}{2012}
       \keyw{bibliography}
     \endentry
     \entry{ma:2009}{inproceedings}{}
@@ -1118,7 +1120,7 @@
       \field{pages}{17\bibrangedash 20}
       \keyw{bibliography}
     \endentry
-    \entry{mccall2007gartner}{article}{}
+    \entry{mccall2007gartner}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=47ed4fd991231ddd58bf411ea23e5674}{McCall}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
       }
@@ -1128,28 +1130,10 @@
       \strng{namehash}{47ed4fd991231ddd58bf411ea23e5674}
       \strng{fullhash}{47ed4fd991231ddd58bf411ea23e5674}
       \field{sortinit}{M}
-      \field{labeltitle}{Gartner survey shows phishing attacks escalated in 2007; more than \$3 billion lost to these attacks}
-      \field{journaltitle}{Stephane GALLAND}
-      \field{title}{Gartner survey shows phishing attacks escalated in 2007; more than \$3 billion lost to these attacks}
+      \field{labeltitle}{Gartner survey shows phishing attacks escalated in 2007}
+      \field{title}{Gartner survey shows phishing attacks escalated in 2007}
       \field{year}{2007}
       \keyw{additional}
-    \endentry
-    \entry{mccall:2007}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=47ed4fd991231ddd58bf411ea23e5674}{McCall}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=47ed4fd991231ddd58bf411ea23e5674}{McCall}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{47ed4fd991231ddd58bf411ea23e5674}
-      \strng{fullhash}{47ed4fd991231ddd58bf411ea23e5674}
-      \field{sortinit}{M}
-      \field{labeltitle}{Gartner survey shows phishing attacks escalated in 2007; more than \$3 billion lost to these attacks}
-      \field{journaltitle}{Stephane GALLAND}
-      \field{title}{Gartner survey shows phishing attacks escalated in 2007; more than \$3 billion lost to these attacks}
-      \field{type}{Journal Article}
-      \field{year}{2007}
-      \keyw{bibliography}
     \endentry
     \entry{mitnik:2001}{book}{}
       \name{labelname}{2}{}{%
@@ -1180,16 +1164,14 @@
         {{hash=daf5b824fdd1f6eefb27ea1c1743e32c}{Moore}{M\bibinitperiod}{Tyler}{T\bibinitperiod}{}{}{}{}}%
         {{hash=4daba34aef0c0a8033abd665906bd8a7}{Clayton}{C\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
-        {Citeseer}%
-      }
       \strng{namehash}{3c53cfef7e464c12fe73c0dc7f22c7f4}
       \strng{fullhash}{3c53cfef7e464c12fe73c0dc7f22c7f4}
       \field{sortinit}{M}
       \field{labeltitle}{An Empirical Analysis of the Current State of Phishing Attack and Defence}
-      \field{booktitle}{WEIS}
+      \field{booktitle}{Proceedings of the 2007 Workshop on the Economics of Information Security}
       \field{title}{An Empirical Analysis of the Current State of Phishing Attack and Defence}
       \field{type}{Conference Proceedings}
+      \field{year}{2007}
       \keyw{bibliography}
     \endentry
     \entry{moore:2008}{incollection}{}
@@ -1708,7 +1690,7 @@
         {{hash=63107ab24c2f419bcba6b92668604896}{Matthews}{M\bibinitperiod}{Jeanna\bibnamedelima N}{J\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
         {{hash=e8a47e90d97d00151a790679311fe3d6}{Stacy}{S\bibinitperiod}{John\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{2}{%
+      \list{organization}{2}{%
         {International Society for Optics}%
         {Photonics}%
       }
@@ -1718,8 +1700,8 @@
       \field{labeltitle}{A method for the automated detection phishing websites through both site characteristics and image analysis}
       \field{booktitle}{SPIE Defense, Security, and Sensing}
       \field{title}{A method for the automated detection phishing websites through both site characteristics and image analysis}
-      \field{type}{Conference Proceedings}
-      \field{pages}{pages}
+      \field{year}{2012}
+      \field{pages}{84080B\bibrangedash 84080B}
       \keyw{bibliography}
     \endentry
     \entry{workman:2008}{article}{}
@@ -1861,15 +1843,13 @@
         {{hash=b878c67bb1adc06c70753b7f1e57129c}{Cranor}{C\bibinitperiod}{Lorrie}{L\bibinitperiod}{}{}{}{}}%
         {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
-        {ISOC}%
-      }
       \strng{namehash}{f255e0a20f7125703df66a2712ec4d02}
       \strng{fullhash}{6e6a35d46fa0d561e79dd77332155417}
       \field{sortinit}{Z}
       \field{labeltitle}{Phinding phish: Evaluating anti-phishing tools}
+      \field{booktitle}{Proceedings of the 14th Annual Network and Distributed System Security Symposium (NDSS 2007)}
       \field{title}{Phinding phish: Evaluating anti-phishing tools}
-      \field{type}{Conference Proceedings}
+      \field{year}{2007}
       \keyw{bibliography}
     \endentry
   \endsortlist

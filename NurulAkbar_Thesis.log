@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.23)  7 OCT 2014 12:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.23)  7 OCT 2014 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1301,7 +1301,7 @@ Overfull \hbox (6.9521pt too wide) in paragraph at lines 229--229
 
 
 Overfull \hbox (12.50914pt too wide) in paragraph at lines 231--231
- [][] []\T1/pplj/m/n/10.95 Phishing at-tack tax-on-omy and life-cy-cle[[][]75[]
+ [][] []\T1/pplj/m/n/10.95 Phishing at-tack tax-on-omy and life-cy-cle[[][]74[]
 []] []  
  []
 
@@ -1435,133 +1435,133 @@ Chapter 2.
 Package acronym Info: Label `acro:AOL' newly defined as it shall be overridden
 although it is yet undefined on input line 60.
  [10] [11] [12]
-Overfull \hbox (18.23305pt too wide) in alignment at lines 252--345
+Overfull \hbox (18.23305pt too wide) in alignment at lines 253--346
  [] 
  []
 
-[13] <"gfx/phishing processes".png, id=667, 327.2225pt x 362.35374pt>
+[13] <"gfx/phishing processes".png, id=666, 327.2225pt x 362.35374pt>
 File: "gfx/phishing processes".png Graphic file (type png)
 
 <use "gfx/phishing processes".png>
-Package pdftex.def Info: "gfx/phishing processes".png used on input line 356.
+Package pdftex.def Info: "gfx/phishing processes".png used on input line 357.
 (pdftex.def)             Requested size: 163.61084pt x 181.17642pt.
 Package acronym Info: Label `acro:URL' newly defined as it shall be overridden
-although it is yet undefined on input line 390.
+although it is yet undefined on input line 391.
  [14] [15 <./gfx/phishing processes.png>]
-<gfx/ing-phishing.jpg, id=687, 478.03593pt x 389.95688pt>
+<gfx/ing-phishing.jpg, id=686, 478.03593pt x 389.95688pt>
 File: gfx/ing-phishing.jpg Graphic file (type jpg)
 
 <use gfx/ing-phishing.jpg>
-Package pdftex.def Info: gfx/ing-phishing.jpg used on input line 402.
+Package pdftex.def Info: gfx/ing-phishing.jpg used on input line 403.
 (pdftex.def)             Requested size: 191.21098pt x 155.97998pt.
- <gfx/wetzel.png, id=691, 714.67pt x 647.41875pt>
+ <gfx/wetzel.png, id=690, 714.67pt x 647.41875pt>
 File: gfx/wetzel.png Graphic file (type png)
 
 <use gfx/wetzel.png>
-Package pdftex.def Info: gfx/wetzel.png used on input line 421.
+Package pdftex.def Info: gfx/wetzel.png used on input line 422.
 (pdftex.def)             Requested size: 285.86293pt x 258.9629pt.
  [16 <./gfx/ing-phishing.jpg>]
-<gfx/emigh.png, id=712, 653.44125pt x 315.1775pt>
+<gfx/emigh.png, id=711, 653.44125pt x 315.1775pt>
 File: gfx/emigh.png Graphic file (type png)
  <use gfx/emigh.png>
-Package pdftex.def Info: gfx/emigh.png used on input line 470.
+Package pdftex.def Info: gfx/emigh.png used on input line 471.
 (pdftex.def)             Requested size: 261.37187pt x 126.06876pt.
- [17 <./gfx/wetzel.png>] <gfx/info-flow-nolie.png, id=722, 907.39pt x 886.31125
+ [17 <./gfx/wetzel.png>] <gfx/info-flow-nolie.png, id=721, 907.39pt x 886.31125
 pt>
 File: gfx/info-flow-nolie.png Graphic file (type png)
 
 <use gfx/info-flow-nolie.png>
-Package pdftex.def Info: gfx/info-flow-nolie.png used on input line 509.
+Package pdftex.def Info: gfx/info-flow-nolie.png used on input line 510.
 (pdftex.def)             Requested size: 272.2191pt x 265.89542pt.
  [18 <./gfx/emigh.png>] [19 <./gfx/info-flow-nolie.png>]
-Overfull \hbox (7.04102pt too wide) in paragraph at lines 613--621
+Overfull \hbox (7.04102pt too wide) in paragraph at lines 614--622
 \T1/pplj/m/n/10.95 There are var-i-ous types of phish-ing coun-ter-mea-sures th
 at im-ple-mented
  []
 
 [20] [21]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 680.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 681.
  [22]
-Overfull \hbox (7.18762pt too wide) in paragraph at lines 731--754
+Overfull \hbox (7.18762pt too wide) in paragraph at lines 732--755
 []\T1/pplj/m/n/10.95 From our lit-er-a-ture sur-vey, we know that Phish-tank is
  crowd-sourced
  []
 
 [23]
-Overfull \hbox (50.53587pt too wide) in paragraph at lines 763--787
+Overfull \hbox (50.53587pt too wide) in paragraph at lines 764--788
 [][] 
  []
 
 [24]
-Overfull \hbox (23.91487pt too wide) in paragraph at lines 832--848
+Overfull \hbox (23.91487pt too wide) in paragraph at lines 833--849
 \T1/pplj/m/n/10.95 and http://wow.paypal.com.example.com/ or http://login.examp
 le.com/
  []
 
 [25] [26] [27]
-Overfull \hbox (3.99706pt too wide) in paragraph at lines 1034--1041
+Overfull \hbox (3.99706pt too wide) in paragraph at lines 1035--1042
 \T1/pplj/m/n/10.95 and do-main/host-name fea-tures are com-ple-ment fea-tures o
 f Page
  []
 
 [28]
-Overfull \hbox (10.58188pt too wide) in paragraph at lines 1053--1057
+Overfull \hbox (10.58188pt too wide) in paragraph at lines 1054--1058
 \T1/pplj/m/n/10.95 ac-tual link des-ti-na-tion. This por-trays hid-den URL and 
 this method
  []
 
 [29]
-Overfull \hbox (14.93044pt too wide) in paragraph at lines 1098--1106
+Overfull \hbox (14.93044pt too wide) in paragraph at lines 1099--1107
 \T1/pplj/m/n/10.95 makes them much dif-fi-cult to iden-tify phish-ing [[][][]34
 [][]]. Ev-i-dently, Schechter,
  []
 
-<"gfx/human factor".png, id=916, 416.757pt x 332.9238pt>
+<"gfx/human factor".png, id=915, 416.757pt x 332.9238pt>
 File: "gfx/human factor".png Graphic file (type png)
 
 <use "gfx/human factor".png>
-Package pdftex.def Info: "gfx/human factor".png used on input line 1111.
+Package pdftex.def Info: "gfx/human factor".png used on input line 1112.
 (pdftex.def)             Requested size: 250.05612pt x 199.75581pt.
 
-<gfx/kumaraguru-a.png, id=923, 416.757pt x 118.041pt>
+<gfx/kumaraguru-a.png, id=922, 416.757pt x 118.041pt>
 File: gfx/kumaraguru-a.png Graphic file (type png)
 
 <use gfx/kumaraguru-a.png>
-Package pdftex.def Info: gfx/kumaraguru-a.png used on input line 1135.
+Package pdftex.def Info: gfx/kumaraguru-a.png used on input line 1136.
 (pdftex.def)             Requested size: 250.05612pt x 70.82513pt.
 
-<gfx/kumaraguru-b.png, id=926, 416.757pt x 220.6644pt>
+<gfx/kumaraguru-b.png, id=925, 416.757pt x 220.6644pt>
 File: gfx/kumaraguru-b.png Graphic file (type png)
 
 <use gfx/kumaraguru-b.png>
-Package pdftex.def Info: gfx/kumaraguru-b.png used on input line 1137.
+Package pdftex.def Info: gfx/kumaraguru-b.png used on input line 1138.
 (pdftex.def)             Requested size: 250.05612pt x 132.39964pt.
 
-<gfx/kumaraguru-c.png, id=929, 416.757pt x 144.54pt>
+<gfx/kumaraguru-c.png, id=928, 416.757pt x 144.54pt>
 File: gfx/kumaraguru-c.png Graphic file (type png)
 
 <use gfx/kumaraguru-c.png>
-Package pdftex.def Info: gfx/kumaraguru-c.png used on input line 1141.
+Package pdftex.def Info: gfx/kumaraguru-c.png used on input line 1142.
 (pdftex.def)             Requested size: 250.05612pt x 86.72466pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1137--1141
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1142
 [] [][]
  []
 
 
-Overfull \hbox (2.3662pt too wide) in paragraph at lines 1154--1168
+Overfull \hbox (2.3662pt too wide) in paragraph at lines 1155--1169
 \T1/pplj/m/n/10.95 cated that even af-ter 28 days af-ter train-ing, users train
 ed by PhishGuru
  []
 
 [30 <./gfx/human factor.png>] [31 <./gfx/kumaraguru-a.png> <./gfx/kumaraguru-b.
 png> <./gfx/kumaraguru-c.png>]
-<"gfx/phishing training".png, id=958, 416.757pt x 252.945pt>
+<"gfx/phishing training".png, id=957, 416.757pt x 252.945pt>
 File: "gfx/phishing training".png Graphic file (type png)
 
 <use "gfx/phishing training".png>
-Package pdftex.def Info: "gfx/phishing training".png used on input line 1171.
+Package pdftex.def Info: "gfx/phishing training".png used on input line 1172.
 (pdftex.def)             Requested size: 250.05612pt x 151.76816pt.
  [32 <./gfx/phishing training.png>]) [33]
 \openout2 = `chapter04.aux'.
@@ -1751,7 +1751,7 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 309--310
 
  (./chapter05.tex
 Chapter 4.
-<gfx/methodology_diagram.jpg, id=1036, 157.58875pt x 376.40625pt>
+<gfx/methodology_diagram.jpg, id=1035, 157.58875pt x 376.40625pt>
 File: gfx/methodology_diagram.jpg Graphic file (type jpg)
 
 <use gfx/methodology_diagram.jpg>
@@ -1763,7 +1763,7 @@ Package pdftex.def Info: gfx/methodology_diagram.jpg used on input line 26.
 
 
  <./gfx/methodology_diagram.jpg>]
-<gfx/selection.jpg, id=1041, 452.69125pt x 316.18124pt>
+<gfx/selection.jpg, id=1040, 452.69125pt x 316.18124pt>
 File: gfx/selection.jpg Graphic file (type jpg)
 
 <use gfx/selection.jpg>
@@ -1787,7 +1787,7 @@ Overfull \hbox (5.07233pt too wide) in paragraph at lines 208--210
 hat prin-ci-ple(s) the phish-ing email
  []
 
-[45] [46] <gfx/pseudo-cialdini-2.jpg, id=1116, 990.70125pt x 1397.22pt>
+[45] [46] <gfx/pseudo-cialdini-2.jpg, id=1115, 990.70125pt x 1397.22pt>
 File: gfx/pseudo-cialdini-2.jpg Graphic file (type jpg)
 
 <use gfx/pseudo-cialdini-2.jpg>
@@ -1819,7 +1819,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
  [51] [52]
-<"gfx/reasons_detailed_17september2014_bar chart1".jpg, id=1153, 628.3475pt x 5
+<"gfx/reasons_detailed_17september2014_bar chart1".jpg, id=1152, 628.3475pt x 5
 02.87875pt>
 File: "gfx/reasons_detailed_17september2014_bar chart1".jpg Graphic file (type 
 jpg)
@@ -1968,7 +1968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1242--1278
  []
 
 
-<"gfx/screenshots phishing email/Financial target and Scarcity".png, id=1222, 1
+<"gfx/screenshots phishing email/Financial target and Scarcity".png, id=1221, 1
 395.2125pt x 395.4775pt>
 File: "gfx/screenshots phishing email/Financial target and Scarcity".png Graphi
 c file (type png)
@@ -1983,7 +1983,7 @@ Overfull \hbox (82.56697pt too wide) in paragraph at lines 1301--1301
  []
 
 [63]
-<"gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png, id=1230,
+<"gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png, id=1229,
  655.44875pt x 720.6925pt>
 File: "gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png Grap
 hic file (type png)
@@ -1993,7 +1993,7 @@ Package pdftex.def Info: "gfx/screenshots phishing email/E-Commerce:Retails and
  scarcity".png used on input line 1316.
 (pdftex.def)             Requested size: 294.9492pt x 324.30862pt.
 
-<"gfx/screenshots phishing email/Administrator and scarcity".png, id=1231, 773.
+<"gfx/screenshots phishing email/Administrator and scarcity".png, id=1230, 773.
 89125pt x 614.295pt>
 File: "gfx/screenshots phishing email/Administrator and scarcity".png Graphic f
 ile (type png)
@@ -2015,7 +2015,7 @@ Overfull \hbox (2.08603pt too wide) in paragraph at lines 1326--1340
  []
 
 
-<"gfx/screenshots phishing email/government and consistency".png, id=1240, 1560
+<"gfx/screenshots phishing email/government and consistency".png, id=1239, 1560
 .83125pt x 471.7625pt>
 File: "gfx/screenshots phishing email/government and consistency".png Graphic f
 ile (type png)
@@ -2030,7 +2030,7 @@ Overfull \hbox (366.36758pt too wide) in paragraph at lines 1342--1343
  []
 
 [65 <./gfx/screenshots phishing email/Administrator and scarcity.png>]
-<"gfx/screenshots phishing email/government and consistency-2".png, id=1246, 82
+<"gfx/screenshots phishing email/government and consistency-2".png, id=1245, 82
 6.08624pt x 405.515pt>
 File: "gfx/screenshots phishing email/government and consistency-2".png Graphic
  file (type png)
@@ -2077,7 +2077,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1451--1484
 
 
 <"gfx/screenshots phishing email-2/Financial incentive and consistency copy".pn
-g, id=1265, 650.43pt x 555.07375pt>
+g, id=1264, 650.43pt x 555.07375pt>
 File: "gfx/screenshots phishing email-2/Financial incentive and consistency cop
 y".png Graphic file (type png)
 
@@ -2088,7 +2088,7 @@ and consistency copy".png used on input line 1496.
 (pdftex.def)             Requested size: 325.2142pt x 277.53618pt.
  [68]
 <"gfx/screenshots phishing email-2/social reason and likeability-2 copy".png, i
-d=1273, 617.30624pt x 677.53125pt>
+d=1272, 617.30624pt x 677.53125pt>
 File: "gfx/screenshots phishing email-2/social reason and likeability-2 copy".p
 ng Graphic file (type png)
 
@@ -2164,7 +2164,7 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 122--197
  (./Chapter0A.tex
 Appendix A.
 
-<"gfx/financial_detailed_17september2014_bar chart1".jpg, id=1366, 628.3475pt x
+<"gfx/financial_detailed_17september2014_bar chart1".jpg, id=1365, 628.3475pt x
  502.87875pt>
 File: "gfx/financial_detailed_17september2014_bar chart1".jpg Graphic file (typ
 e jpg)
@@ -2550,10 +2550,10 @@ Package logreq Info: Writing requests to 'NurulAkbar_Thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 21767 strings out of 493315
- 354318 string characters out of 6137904
- 888772 words of memory out of 5000000
- 24304 multiletter control sequences out of 15000+600000
+ 21764 strings out of 493315
+ 354256 string characters out of 6137904
+ 888753 words of memory out of 5000000
+ 24302 multiletter control sequences out of 15000+600000
  77433 words of font info for 96 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,67p,977b,5459s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2568,10 +2568,10 @@ onts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
 e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/
 palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb>
-Output written on NurulAkbar_Thesis.pdf (103 pages, 2333895 bytes).
+Output written on NurulAkbar_Thesis.pdf (103 pages, 2334181 bytes).
 PDF statistics:
- 1708 PDF objects out of 1728 (max. 8388607)
- 1521 compressed objects within 16 object streams
- 370 named destinations out of 1000 (max. 500000)
+ 1706 PDF objects out of 1728 (max. 8388607)
+ 1519 compressed objects within 16 object streams
+ 369 named destinations out of 1000 (max. 500000)
  17388 words of extra memory for PDF output out of 20736 (max. 10000000)
 
