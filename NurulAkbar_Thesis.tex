@@ -1,0 +1,91 @@
+%% LyX 2.1.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english,american,fontsize=11pt,paper=a4,twoside,openright,titlepage,numbers=noenddot,headinclude,BCOR=5mm,footinclude=true,cleardoublepage=empty]{scrreprt}
+\usepackage[T1]{fontenc}
+\setcounter{secnumdepth}{2}
+\usepackage{array}
+\usepackage{verbatim}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{setspace}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+% Classic Thesis Style loader
+\makeatother
+\input{classicthesis-config.tex}
+\makeatletter
+% use Latin Modern instead of Computer Modern sans serif
+\renewcommand{\sfdefault}{lmss}
+\usepackage{enumitem}		% customizable list environments
+\newlength{\lyxlabelwidth}      % auxiliary length 
+
+\@ifundefined{showcaptionsetup}{}{%
+ \PassOptionsToPackage{caption=false}{subfig}}
+\usepackage{subfig}
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\frenchspacing
+\raggedbottom
+\pagenumbering{roman}
+\pagestyle{plain}
+
+\include{Titlepage}
+
+\include{Titleback}
+
+\cleardoublepage{}
+
+\include{Dedication}
+
+\cleardoublepage{}
+
+\include{Abstract}
+
+\cleardoublepage{}
+
+\include{Acknowledgments}
+
+\cleardoublepage{}
+
+\pagestyle{scrheadings}\include{Contents}
+
+\cleardoublepage{}
+
+\pagenumbering{arabic}
+
+\include{Chapter01}
+
+\include{Chapter02}
+
+\include{chapter04}
+
+\include{chapter05}
+
+\include{Chapter06}
+
+\cleardoublepage{}
+
+\appendix
+\include{Chapter0A}
+
+\cleardoublepage{}
+
+\include{Bibliography}
+
+\cleardoublepage{}
+
+\include{Colophon}
+\end{document}

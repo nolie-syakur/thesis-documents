@@ -1,0 +1,8 @@
+PWD /Volumes/osXnolie/Dropbox/thesis stuff/Phishing materials/phishing work/NurulAkbarThesis-LyX/classicthesis-LyX-v4.1
+INPUT /usr/local/texlive/2013/texmf.cnf
+INPUT /usr/local/texlive/2013/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2013/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT additional.tex
+OUTPUT additional.log
+INPUT additional.bbl
+INPUT additional.bbl

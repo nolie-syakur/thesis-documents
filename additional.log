@@ -1,0 +1,48 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.23)  16 SEP 2014 22:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**additional.tex
+(./additional.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+
+! Package babel Error: You haven't loaded the language english yet.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \selectlanguage{english}
+                            %
+You may proceed, but expect unexpected results
+
+\bibdata{additional}
+(./additional.bbl)
+
+! Package babel Error: You haven't loaded the language american yet.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \selectlanguage{american}
+                             %
+You may proceed, but expect unexpected results
+
+)
+! Emergency stop.
+<*> additional.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 10 strings out of 493315
+ 195 string characters out of 6137904
+ 52158 words of memory out of 5000000
+ 3559 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 8i,0n,8p,56b,18s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

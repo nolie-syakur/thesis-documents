@@ -1,0 +1,2560 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.23)  6 OCT 2014 17:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**NurulAkbar_Thesis.tex
+(./NurulAkbar_Thesis.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2012/07/29 v3.11b KOMA-Script document class (report)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 117.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 118.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 119.
+Class scrreprt Info: You've used standard option `openright'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `open=right'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `open=right' there
+(scrreprt)           instead of `openright', too.
+Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 1367.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (11p
+t)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
+
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 14.22636pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 408.2971pt
+(typearea)              DIV departure   = -3%
+(typearea)              \evensidemargin = 44.38632pt
+(typearea)              \oddsidemargin  = 0.28453pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 514.20023pt
+(typearea)              \topmargin      = 12.2347pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.60002pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1213.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count87
+\c@table=\count88
+\bibindent=\dimen102
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks15
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks16
+\verbatim@line=\toks17
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count89
+\LTcapwidth=\dimen105
+\LT@head=\box27
+\LT@firsthead=\box28
+\LT@foot=\box29
+\LT@lastfoot=\box30
+\LT@cols=\count90
+\LT@rows=\count91
+\c@LT@tables=\count92
+\c@LT@chunks=\count93
+\LT@p@ftn=\toks18
+)
+Class scrreprt Info: longtable captions redefined on input line 9.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count94
+\float@exts=\toks19
+\float@box=\box31
+\@float@everytoks=\toks20
+\@floatcapt=\box32
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen106
+\lightrulewidth=\dimen107
+\cmidrulewidth=\dimen108
+\belowrulesep=\dimen109
+\belowbottomsep=\dimen110
+\aboverulesep=\dimen111
+\abovetopsep=\dimen112
+\cmidrulesep=\dimen113
+\cmidrulekern=\dimen114
+\defaultaddspace=\dimen115
+\@cmidla=\count95
+\@cmidlb=\count96
+\@aboverulesep=\dimen116
+\@belowrulesep=\dimen117
+\@thisruleclass=\count97
+\@lastruleclass=\count98
+\@thisrulewidth=\dimen118
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen119
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(./classicthesis-config.tex
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@dummy=\count100
+\abcd=\skip53
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latin9.def
+File: latin9.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
+\babel@savecnt=\count101
+\U@D=\dimen122
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+))
+
+Package Babel Warning: The package option `english' should not be used
+(Babel)                with a more specific one (like `american') on input line
+ 82.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks23
+\ex@=\dimen123
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen124
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count102
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count103
+\leftroot@=\count104
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count105
+\DOTSCASE@=\count106
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box33
+\strutbox@=\box34
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip11
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks24
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks25
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks26
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrhack.sty
+Package: scrhack 2012/07/29 v3.11b KOMA-Script package (hacking other packages)
+
+Package scrhack Info: loading float hack on input line 137.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2012/07/29 v3.11b KOMA-Script hacking package float
+Package scrhack Info: redefining \newfloat on input line 160.
+Package scrhack Info: redefining \listof on input line 160.
+Package scrhack Info: undefining \float@addtolists on input line 160.
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/mparhack/mparhack.sty
+Package: mparhack 2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: Redefining \textsubscript on input line 424.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count114
+\decimalpart=\count115
+)
+Package: xstring 2013/2/28  v1.7a  String manipulations (C Tellechea)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\AC@clearlist=\toks28
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen132
+\TX@old@table=\dimen133
+\TX@old@col=\dimen134
+\TX@target=\dimen135
+\TX@delta=\dimen136
+\TX@cols=\count116
+\TX@ftn=\toks29
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+)
+Package caption Info: KOMA-Script document class.
+\c@ContinuedFloat=\count117
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count118
+\sf@farskip=\skip57
+\sf@captopadj=\dimen144
+\sf@capskip=\skip58
+\sf@nearskip=\skip59
+\c@subfigure=\count119
+\c@subfigure@save=\count120
+\c@lofdepth=\count121
+\c@subtable=\count122
+\c@subtable@save=\count123
+\c@lotdepth=\count124
+\sf@top=\skip60
+\sf@bottom=\skip61
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count125
+\lst@gtempboxa=\box35
+\lst@token=\toks30
+\lst@length=\count126
+\lst@currlwidth=\dimen145
+\lst@column=\count127
+\lst@pos=\count128
+\lst@lostspace=\dimen146
+\lst@width=\dimen147
+\lst@newlines=\count129
+\lst@lineno=\count130
+\lst@maxwidth=\dimen148
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count131
+\lst@skipnumbers=\count132
+\lst@framebox=\box36
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package scrhack Info: loading listings hack on input line 125.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/listings.hak
+File: listings.hak 2012/07/29 v3.11b KOMA-Script hacking package listings
+Package tocbasic Info: setting babel extension for `lol' on input line 136.
+Package scrhack Info: redefining \lstlistoflistings on input line 136.
+)
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen149
+\Hy@linkcounter=\count133
+\Hy@pagecounter=\count134
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count135
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4319.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count136
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen150
+\Fld@menulength=\count137
+\Field@Width=\dimen151
+\Fld@charsize=\dimen152
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count138
+\c@Item=\count139
+)
+Package scrhack Info: hyperref hack deactivated because of
+(scrhack)             detection of hyperref version, that doesn't
+(scrhack)             need that hack, on input line 156.
+
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count140
+\c@bookmark@seq@number=\count141
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip62
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 201.
+Package hyperref Info: Option `linktocpage' set `true' on input line 201.
+Package hyperref Info: Option `breaklinks' set `true' on input line 201.
+Package hyperref Info: Option `pageanchor' set `true' on input line 201.
+Package hyperref Info: Option `plainpages' set `false' on input line 201.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 201.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 201.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 201.
+
+(./classicthesis.sty
+Package: classicthesis 2012/08/12 v4.1 Typographic style for a classic-looking 
+thesis
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks31
+\MT@count=\count142
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen153
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count143
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip63
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+))
+Package classicthesis Info: A4 paper, Palatino or other on input line 270.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = areaset
+(typearea)             BCOR = 14.22636pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 336.0pt
+(typearea)              \evensidemargin = 92.58438pt
+(typearea)              \oddsidemargin  = 24.38356pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 666.04997pt
+(typearea)              \topmargin      = -40.58768pt
+(typearea)              \headheight     = 15.95pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.60002pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 270.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+Package classicthesis Info: Using pdftex/microtype for character spacing.Make s
+ure your pdftex is version 1.40 or higher. on input line 342.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrpage2.sty
+Package: scrpage2 2010/04/22 v2.5 LaTeX2e KOMA-Script package
+LaTeX Info: Redefining \pagemark on input line 176.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box37
+\beforetitleunit=\skip64
+\aftertitleunit=\skip65
+\ttl@plus=\dimen154
+\ttl@minus=\dimen155
+\ttl@toksa=\toks32
+\titlewidth=\dimen156
+\titlewidthlast=\dimen157
+\titlewidthfirst=\dimen158
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip66
+\cftbeforetoctitleskip=\skip67
+\cftaftertoctitleskip=\skip68
+\cftbeforepartskip=\skip69
+\cftpartnumwidth=\skip70
+\cftpartindent=\skip71
+\cftbeforechapskip=\skip72
+\cftchapindent=\skip73
+\cftchapnumwidth=\skip74
+\cftbeforesecskip=\skip75
+\cftsecindent=\skip76
+\cftsecnumwidth=\skip77
+\cftbeforesubsecskip=\skip78
+\cftsubsecindent=\skip79
+\cftsubsecnumwidth=\skip80
+\cftbeforesubsubsecskip=\skip81
+\cftsubsubsecindent=\skip82
+\cftsubsubsecnumwidth=\skip83
+\cftbeforeparaskip=\skip84
+\cftparaindent=\skip85
+\cftparanumwidth=\skip86
+\cftbeforesubparaskip=\skip87
+\cftsubparaindent=\skip88
+\cftsubparanumwidth=\skip89
+\cftbeforeloftitleskip=\skip90
+\cftafterloftitleskip=\skip91
+\cftbeforefigskip=\skip92
+\cftfigindent=\skip93
+\cftfignumwidth=\skip94
+\cftbeforelottitleskip=\skip95
+\cftafterlottitleskip=\skip96
+\cftbeforetabskip=\skip97
+\cfttabindent=\skip98
+\cfttabnumwidth=\skip99
+\cftbeforesubfigskip=\skip100
+\cftsubfigindent=\skip101
+\cftsubfignumwidth=\skip102
+\cftbeforesubtabskip=\skip103
+\cftsubtabindent=\skip104
+\cftsubtabnumwidth=\skip105
+)
+\newnumberwidth=\skip106
+\beforebibskip=\skip107
+\newchnumberwidth=\skip108
+\figurelabelwidth=\skip109
+\tablelabelwidth=\skip110
+\c@listings=\count144
+\cftbeforelistingsskip=\skip111
+\cftlistingsindent=\skip112
+\cftlistingsnumwidth=\skip113
+\c@loldepth=\count145
+\cftbeforeloltitleskip=\skip114
+\cftafterloltitleskip=\skip115
+\listingslabelwidth=\skip116
+
+Using KOMA-command "deffootnote" for footnote setup
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrtime.sty
+Package: scrtime 2012/07/29 v3.11b KOMA-Script package (time of LaTeX run)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/carlisle/remreset.sty))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ncctools/watermark.sty
+Package: watermark 2004/12/09 v1.1 Watermarks (NCC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2013/05/01 v2.6 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex2.sty
+Package: biblatex2 2013/05/01 v2.6 programmable bibliographies (biber) (PK/JW/A
+B)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count146
+)
+\etb@tempcnta=\count147
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count148
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count149
+\c@listtotal=\count150
+\c@listcount=\count151
+\c@liststart=\count152
+\c@liststop=\count153
+\c@citecount=\count154
+\c@citetotal=\count155
+\c@multicitecount=\count156
+\c@multicitetotal=\count157
+\c@instcount=\count158
+\c@maxnames=\count159
+\c@minnames=\count160
+\c@maxitems=\count161
+\c@minitems=\count162
+\c@citecounter=\count163
+\c@savedcitecounter=\count164
+\c@uniquelist=\count165
+\c@uniquename=\count166
+\c@refsection=\count167
+\c@refsegment=\count168
+\c@maxextratitle=\count169
+\c@maxextratitleyear=\count170
+\c@maxextrayear=\count171
+\c@maxextraalpha=\count172
+\c@abbrvpenalty=\count173
+\c@highnamepenalty=\count174
+\c@lownamepenalty=\count175
+\c@maxparens=\count176
+\c@parenlevel=\count177
+\blx@tempcnta=\count178
+\blx@tempcntb=\count179
+\blx@tempcntc=\count180
+\blx@maxsection=\count181
+\blx@maxsegment@0=\count182
+\blx@notetype=\count183
+\blx@parenlevel@text=\count184
+\blx@parenlevel@foot=\count185
+\blx@sectionciteorder@0=\count186
+\labelnumberwidth=\skip117
+\labelalphawidth=\skip118
+\shorthandwidth=\skip119
+\biblabelsep=\skip120
+\bibitemsep=\skip121
+\bibnamesep=\skip122
+\bibinitsep=\skip123
+\bibparsep=\skip124
+\bibhang=\skip125
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\c@mincomprange=\count187
+\c@maxcomprange=\count188
+\c@mincompwidth=\count189
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count190
+\c@savedafterword=\count191
+\c@annotator=\count192
+\c@savedannotator=\count193
+\c@author=\count194
+\c@savedauthor=\count195
+\c@bookauthor=\count196
+\c@savedbookauthor=\count197
+\c@commentator=\count198
+\c@savedcommentator=\count199
+\c@editor=\count200
+\c@savededitor=\count201
+\c@editora=\count202
+\c@savededitora=\count203
+\c@editorb=\count204
+\c@savededitorb=\count205
+\c@editorc=\count206
+\c@savededitorc=\count207
+\c@foreword=\count208
+\c@savedforeword=\count209
+\c@holder=\count210
+\c@savedholder=\count211
+\c@introduction=\count212
+\c@savedintroduction=\count213
+\c@namea=\count214
+\c@savednamea=\count215
+\c@nameb=\count216
+\c@savednameb=\count217
+\c@namec=\count218
+\c@savednamec=\count219
+\c@shortauthor=\count220
+\c@savedshortauthor=\count221
+\c@shorteditor=\count222
+\c@savedshorteditor=\count223
+\c@translator=\count224
+\c@savedtranslator=\count225
+\c@labelname=\count226
+\c@savedlabelname=\count227
+\c@institution=\count228
+\c@savedinstitution=\count229
+\c@lista=\count230
+\c@savedlista=\count231
+\c@listb=\count232
+\c@savedlistb=\count233
+Normal \count register pool exhausted, switching to extended pool.
+\c@listc=\count277
+\c@savedlistc=\count278
+\c@listd=\count279
+\c@savedlistd=\count280
+\c@liste=\count281
+\c@savedliste=\count282
+\c@listf=\count283
+\c@savedlistf=\count284
+\c@location=\count285
+\c@savedlocation=\count286
+\c@organization=\count287
+\c@savedorganization=\count288
+\c@origlocation=\count289
+\c@savedoriglocation=\count290
+\c@origpublisher=\count291
+\c@savedorigpublisher=\count292
+\c@publisher=\count293
+\c@savedpublisher=\count294
+\c@language=\count295
+\c@savedlanguage=\count296
+\c@pageref=\count297
+\c@savedpageref=\count298
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2013/05/01 v2.6 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@biburlnumpenalty=\count299
+\c@biburlucpenalty=\count300
+\c@biburllcpenalty=\count301
+\c@smartand=\count302
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2013/05/01 v2.6 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2013/05/01 v2.6 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2013/05/01 v2.6 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count303
+\c@bbx:relatedtotal=\count304
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2013/05/01 v2.6 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip126
+\enit@outerparindent=\dimen159
+\enit@toks=\toks33
+\enit@inbox=\box38
+\enitdp@description=\count305
+)
+\lyxlabelwidth=\skip127
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
+))
+
+Package biblatex Warning: 'babel' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count306
+\@quotereset=\count307
+(./NurulAkbar_Thesis.aux (./Titlepage.aux) (./Titleback.aux) (./Dedication.aux)
+(./Abstract.aux) (./Acknowledgments.aux) (./Contents.aux) (./Chapter01.aux)
+(./Chapter02.aux) (./chapter04.aux) (./chapter05.aux) (./Chapter06.aux)
+(./Chapter0A.aux) (./Bibliography.aux) (./Colophon.aux))
+\openout1 = `NurulAkbar_Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 39.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 39.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count308
+\scratchdimen=\dimen160
+\scratchbox=\box39
+\nofMPsegments=\count309
+\nofMParguments=\count310
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count311
+\MPscratchDim=\dimen161
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
+\everyMPtoPDFconversion=\toks35
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count314
+Package scrhack Info: undefining \float@addtolists on input line 39.
+\AtBeginShipoutBox=\box40
+Package hyperref Info: Link coloring ON on input line 39.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count315
+)
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
+
+(./NurulAkbar_Thesis.out) (./NurulAkbar_Thesis.out)
+\@outlinefile=\write5
+\openout5 = `NurulAkbar_Thesis.out'.
+
+LaTeX Info: Redefining \microtypecontext on input line 39.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No font expansion.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+Package biblatex Info: Input encoding 'latin9' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'latin9'.
+\openout4 = `NurulAkbar_Thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'NurulAkbar_Thesis.bbl' found.
+
+(./NurulAkbar_Thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
+\openout2 = `Titlepage.aux'.
+
+ (./Titlepage.tex
+<gfx/UT_Logo_Black_EN.jpg, id=192, 234.75705pt x 45.2892pt>
+File: gfx/UT_Logo_Black_EN.jpg Graphic file (type jpg)
+
+<use gfx/UT_Logo_Black_EN.jpg>
+Package pdftex.def Info: gfx/UT_Logo_Black_EN.jpg used on input line 18.
+(pdftex.def)             Requested size: 170.71652pt x 32.93506pt.
+ [1
+
+
+
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./gfx/U
+T_Logo_Black_EN.jpg>])
+\openout2 = `Titleback.aux'.
+
+ (./Titleback.tex
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 7.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)) [2
+
+
+]
+\openout2 = `Dedication.aux'.
+
+
+(./Dedication.tex) [3
+
+
+
+
+] [4
+
+
+
+]
+\openout2 = `Abstract.aux'.
+
+ (./Abstract.tex) [5
+
+] [6
+
+
+
+]
+\openout2 = `Acknowledgments.aux'.
+
+ (./Acknowledgments.tex
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 4.
+)
+[7
+
+] [8
+
+
+
+]
+\openout2 = `Contents.aux'.
+
+ (./Contents.tex
+Package tocbasic Info: character protrusion at toc deactivated on input line 11
+.
+ (./NurulAkbar_Thesis.toc
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+)
+\tf@toc=\write6
+\openout6 = `NurulAkbar_Thesis.toc'.
+
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 15.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 15.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 15.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 15.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 15.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [9
+
+
+
+]
+Package tocbasic Info: character protrusion at lof deactivated on input line 28
+.
+
+(./NurulAkbar_Thesis.lof
+Overfull \hbox (20.60118pt too wide) in paragraph at lines 227--227
+ [][] []\T1/pplj/m/n/10.95 Phishing pro-cesses based on Frauen-stein[[][]18[][]
+] []  
+ []
+
+
+Overfull \hbox (6.9521pt too wide) in paragraph at lines 229--229
+ [][] []\T1/pplj/m/n/10.95 Example of a phish-ing email im-per-son-at-ing ING 
+ []
+
+
+Overfull \hbox (12.50914pt too wide) in paragraph at lines 231--231
+ [][] []\T1/pplj/m/n/10.95 Phishing at-tack tax-on-omy and life-cy-cle[[][]75[]
+[]] []  
+ []
+
+
+Overfull \hbox (12.01636pt too wide) in paragraph at lines 233--233
+ [][] []\T1/pplj/m/n/10.95 Flow of in-for-ma-tion in phish-ing at-tack [[][]16[
+][]] []  
+ []
+
+
+Overfull \hbox (30.09488pt too wide) in paragraph at lines 389--389
+ [][] []\T1/pplj/m/n/10.95 Example of fi-nan-cial in-cen-tive and con-sis-tency
+ []  
+ []
+
+)
+\tf@lof=\write7
+\openout7 = `NurulAkbar_Thesis.lof'.
+
+Package tocbasic Info: character protrusion at lot deactivated on input line 40
+.
+ (./NurulAkbar_Thesis.lot
+Overfull \hbox (24.31326pt too wide) in paragraph at lines 95--95
+ [][] [][][][][][]\T1/pplj/m/n/10.95 Query searches in Sco-pus and Web of Sci-e
+nce[][][][][][][][][][][][][][][] []  
+ []
+
+[10
+
+]
+Overfull \hbox (12.47624pt too wide) in paragraph at lines 327--327
+ [][] []\T1/pplj/m/n/10.95 Government sec-tor and au-thor-ity prin-ci-ple []  
+ []
+
+
+Overfull \hbox (8.24884pt too wide) in paragraph at lines 369--369
+ [][] []\T1/pplj/m/n/10.95 Account re-lated rea-son and URL pres-ence []  
+ []
+
+
+Overfull \hbox (3.49352pt too wide) in paragraph at lines 403--403
+ [][] []\T1/pplj/m/n/8 Chi-square tests of Per-sua-sion prin-ci-ples vs Tar-get
+ types []  
+ []
+
+
+Overfull \hbox (6.96552pt too wide) in paragraph at lines 415--415
+ [][] []\T1/pplj/m/n/8 Chi-square tests of Per-sua-sion prin-ci-ples vs Rea-son
+ types []  
+ []
+
+)
+\tf@lot=\write8
+\openout8 = `NurulAkbar_Thesis.lot'.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 53.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 53.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [11] [12
+
+
+])
+\openout2 = `Chapter01.aux'.
+
+
+(./Chapter01.tex
+Chapter 1.
+[1
+
+
+
+
+
+
+]
+Overfull \hbox (1.44926pt too wide) in paragraph at lines 70--78
+[]\T1/pplj/m/n/10.95 Common char-ac-ter-is-tics of a phish-ing email in-clude s
+truc-tural prop-
+ []
+
+[2]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 117.
+ [3]
+Overfull \hbox (3.44395pt too wide) in paragraph at lines 213--222
+[]\T1/pplj/m/n/10.95 Herzberg, et al. tested the ef-fec-tive-ness of dif-fer-en
+t de-fense mech-
+ []
+
+[4]
+Overfull \hbox (3.04446pt too wide) in paragraph at lines 233--238
+\T1/pplj/m/n/10.95 The pa-per only men-tions the com-mit-ment and con-sis-tency
+ based
+ []
+
+[5] [6]
+Overfull \hbox (21.17755pt too wide) in paragraph at lines 355--370
+\T1/pplj/m/n/10.95 con-ducted in-di-vid-ual in-ves-ti-ga-tions on all pa-pers f
+ound in both databases,
+ []
+
+
+Overfull \hbox (5.45863pt too wide) in paragraph at lines 355--370
+\T1/pplj/m/n/10.95 study per-sua-sion tech-niques and phish-ing area. There-for
+e, a real world
+ []
+
+[7]) [8]
+\openout2 = `Chapter02.aux'.
+
+ (./Chapter02.tex
+Chapter 2.
+[9
+
+
+
+
+]
+Package acronym Info: Label `acro:AOL' newly defined as it shall be overridden
+although it is yet undefined on input line 60.
+ [10] [11] [12]
+Overfull \hbox (18.23305pt too wide) in alignment at lines 252--345
+ [] 
+ []
+
+[13] <"gfx/phishing processes".png, id=667, 327.2225pt x 362.35374pt>
+File: "gfx/phishing processes".png Graphic file (type png)
+
+<use "gfx/phishing processes".png>
+Package pdftex.def Info: "gfx/phishing processes".png used on input line 356.
+(pdftex.def)             Requested size: 163.61084pt x 181.17642pt.
+Package acronym Info: Label `acro:URL' newly defined as it shall be overridden
+although it is yet undefined on input line 390.
+ [14] [15 <./gfx/phishing processes.png>]
+<gfx/ing-phishing.jpg, id=687, 478.03593pt x 389.95688pt>
+File: gfx/ing-phishing.jpg Graphic file (type jpg)
+
+<use gfx/ing-phishing.jpg>
+Package pdftex.def Info: gfx/ing-phishing.jpg used on input line 402.
+(pdftex.def)             Requested size: 191.21098pt x 155.97998pt.
+ <gfx/wetzel.png, id=691, 714.67pt x 647.41875pt>
+File: gfx/wetzel.png Graphic file (type png)
+
+<use gfx/wetzel.png>
+Package pdftex.def Info: gfx/wetzel.png used on input line 421.
+(pdftex.def)             Requested size: 285.86293pt x 258.9629pt.
+ [16 <./gfx/ing-phishing.jpg>]
+<gfx/emigh.png, id=712, 653.44125pt x 315.1775pt>
+File: gfx/emigh.png Graphic file (type png)
+ <use gfx/emigh.png>
+Package pdftex.def Info: gfx/emigh.png used on input line 470.
+(pdftex.def)             Requested size: 261.37187pt x 126.06876pt.
+ [17 <./gfx/wetzel.png>] <gfx/info-flow-nolie.png, id=722, 907.39pt x 886.31125
+pt>
+File: gfx/info-flow-nolie.png Graphic file (type png)
+
+<use gfx/info-flow-nolie.png>
+Package pdftex.def Info: gfx/info-flow-nolie.png used on input line 509.
+(pdftex.def)             Requested size: 272.2191pt x 265.89542pt.
+ [18 <./gfx/emigh.png>] [19 <./gfx/info-flow-nolie.png>]
+Overfull \hbox (7.04102pt too wide) in paragraph at lines 613--621
+\T1/pplj/m/n/10.95 There are var-i-ous types of phish-ing coun-ter-mea-sures th
+at im-ple-mented
+ []
+
+[20] [21]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 680.
+ [22]
+Overfull \hbox (7.18762pt too wide) in paragraph at lines 731--754
+[]\T1/pplj/m/n/10.95 From our lit-er-a-ture sur-vey, we know that Phish-tank is
+ crowd-sourced
+ []
+
+[23]
+Overfull \hbox (50.53587pt too wide) in paragraph at lines 763--787
+[][] 
+ []
+
+[24]
+Overfull \hbox (23.91487pt too wide) in paragraph at lines 832--848
+\T1/pplj/m/n/10.95 and http://wow.paypal.com.example.com/ or http://login.examp
+le.com/
+ []
+
+[25] [26] [27]
+Overfull \hbox (3.99706pt too wide) in paragraph at lines 1034--1041
+\T1/pplj/m/n/10.95 and do-main/host-name fea-tures are com-ple-ment fea-tures o
+f Page
+ []
+
+[28]
+Overfull \hbox (10.58188pt too wide) in paragraph at lines 1053--1057
+\T1/pplj/m/n/10.95 ac-tual link des-ti-na-tion. This por-trays hid-den URL and 
+this method
+ []
+
+[29]
+Overfull \hbox (14.93044pt too wide) in paragraph at lines 1098--1106
+\T1/pplj/m/n/10.95 makes them much dif-fi-cult to iden-tify phish-ing [[][][]34
+[][]]. Ev-i-dently, Schechter,
+ []
+
+<"gfx/human factor".png, id=916, 416.757pt x 332.9238pt>
+File: "gfx/human factor".png Graphic file (type png)
+
+<use "gfx/human factor".png>
+Package pdftex.def Info: "gfx/human factor".png used on input line 1111.
+(pdftex.def)             Requested size: 250.05612pt x 199.75581pt.
+
+<gfx/kumaraguru-a.png, id=923, 416.757pt x 118.041pt>
+File: gfx/kumaraguru-a.png Graphic file (type png)
+
+<use gfx/kumaraguru-a.png>
+Package pdftex.def Info: gfx/kumaraguru-a.png used on input line 1135.
+(pdftex.def)             Requested size: 250.05612pt x 70.82513pt.
+
+<gfx/kumaraguru-b.png, id=926, 416.757pt x 220.6644pt>
+File: gfx/kumaraguru-b.png Graphic file (type png)
+
+<use gfx/kumaraguru-b.png>
+Package pdftex.def Info: gfx/kumaraguru-b.png used on input line 1137.
+(pdftex.def)             Requested size: 250.05612pt x 132.39964pt.
+
+<gfx/kumaraguru-c.png, id=929, 416.757pt x 144.54pt>
+File: gfx/kumaraguru-c.png Graphic file (type png)
+
+<use gfx/kumaraguru-c.png>
+Package pdftex.def Info: gfx/kumaraguru-c.png used on input line 1141.
+(pdftex.def)             Requested size: 250.05612pt x 86.72466pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1141
+[] [][]
+ []
+
+
+Overfull \hbox (2.3662pt too wide) in paragraph at lines 1154--1168
+\T1/pplj/m/n/10.95 cated that even af-ter 28 days af-ter train-ing, users train
+ed by PhishGuru
+ []
+
+[30 <./gfx/human factor.png>] [31 <./gfx/kumaraguru-a.png> <./gfx/kumaraguru-b.
+png> <./gfx/kumaraguru-c.png>]
+<"gfx/phishing training".png, id=958, 416.757pt x 252.945pt>
+File: "gfx/phishing training".png Graphic file (type png)
+
+<use "gfx/phishing training".png>
+Package pdftex.def Info: "gfx/phishing training".png used on input line 1171.
+(pdftex.def)             Requested size: 250.05612pt x 151.76816pt.
+ [32 <./gfx/phishing training.png>]) [33]
+\openout2 = `chapter04.aux'.
+
+
+(./chapter04.tex [34
+
+
+
+
+]
+Chapter 3.
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 11--12
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 15--16
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 36--37
+[][] 
+ []
+
+
+Overfull \hbox (0.73935pt too wide) in paragraph at lines 39--40
+[]\T1/pplj/m/it/10.95 RQ2: To what ex-tent are the per-sua-sion prin-ci-ples us
+ed in phish-ing emails? 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+
+Overfull \hbox (1.6974pt too wide) in paragraph at lines 43--51
+\T1/pplj/m/n/10.95 generic prop-er-ties and rel-e-vancy of per-sua-sion prin-ci
+-ple to these prop-
+ []
+
+[35]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 75--76
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 83--84
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 103--104
+[][] 
+ []
+
+[36]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 108--109
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 122--123
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 127--128
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 139--140
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 144--145
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 159--160
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 164--165
+[][] 
+ []
+
+[37]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 179--180
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 184--185
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 196--197
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 200--201
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 213--214
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 221--222
+[][] 
+ []
+
+[38]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 237--238
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 242--243
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 250--251
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 255--256
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 267--268
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 272--273
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 279--280
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 284--285
+[][] 
+ []
+
+[39]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 291--292
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 296--297
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 304--305
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 309--310
+[][][][][][][] 
+ []
+
+) [40]
+\openout2 = `chapter05.aux'.
+
+ (./chapter05.tex
+Chapter 4.
+<gfx/methodology_diagram.jpg, id=1036, 157.58875pt x 376.40625pt>
+File: gfx/methodology_diagram.jpg Graphic file (type jpg)
+
+<use gfx/methodology_diagram.jpg>
+Package pdftex.def Info: gfx/methodology_diagram.jpg used on input line 26.
+(pdftex.def)             Requested size: 110.31136pt x 263.48257pt.
+ [41
+
+
+
+
+ <./gfx/methodology_diagram.jpg>]
+<gfx/selection.jpg, id=1041, 452.69125pt x 316.18124pt>
+File: gfx/selection.jpg Graphic file (type jpg)
+
+<use gfx/selection.jpg>
+Package pdftex.def Info: gfx/selection.jpg used on input line 53.
+(pdftex.def)             Requested size: 316.88171pt x 221.32535pt.
+ [42 <./gfx/selection.jpg>]
+Overfull \hbox (0.5815pt too wide) in paragraph at lines 123--126
+\T1/pplj/m/n/10.95 find more du-pli-cated emails, we search based on ran-dom ph
+rase
+ []
+
+[43]
+Overfull \hbox (9.38524pt too wide) in paragraph at lines 181--183
+[]\T1/pplj/m/n/10.95 ReqCallingByPhone; A re-quest to re-spond by call-ing thro
+ugh
+ []
+
+[44]
+Overfull \hbox (5.07233pt too wide) in paragraph at lines 208--210
+[]\T1/pplj/m/it/10.95 Cialdini's Prin-ci-ples\T1/pplj/m/n/10.95 : Spec-i-fies w
+hat prin-ci-ple(s) the phish-ing email
+ []
+
+[45] [46] <gfx/pseudo-cialdini-2.jpg, id=1116, 990.70125pt x 1397.22pt>
+File: gfx/pseudo-cialdini-2.jpg Graphic file (type jpg)
+
+<use gfx/pseudo-cialdini-2.jpg>
+Package pdftex.def Info: gfx/pseudo-cialdini-2.jpg used on input line 330.
+(pdftex.def)             Requested size: 396.27348pt x 558.87811pt.
+
+Overfull \hbox (60.27348pt too wide) in paragraph at lines 330--331
+ [][] 
+ []
+
+[47]
+Overfull \hbox (33.38658pt too wide) in paragraph at lines 340--340
+[][]\T1/pplj/m/n/9 Shapes and lines were cre-ated based on http://www.rff.com/h
+ow_to_draw_a_flowchart.htm| 
+ []
+
+
+Overfull \hbox (0.95824pt too wide) in paragraph at lines 346--352
+\T1/pplj/m/n/10.95 method-ol-ogy in con-sid-er-able de-tails. Un-til data clas-
+si-fi-ca-tion, we have
+ []
+
+[48 <./gfx/pseudo-cialdini-2.jpg>] [49]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/9'.
+(microtype)             Ignoring protrusion settings for this character.
+ [50]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+ [51] [52]
+<"gfx/reasons_detailed_17september2014_bar chart1".jpg, id=1153, 628.3475pt x 5
+02.87875pt>
+File: "gfx/reasons_detailed_17september2014_bar chart1".jpg Graphic file (type 
+jpg)
+ <use "gfx/reasons_detailed_17september2014_bar chart1".jpg>
+Package pdftex.def Info: "gfx/reasons_detailed_17september2014_bar chart1".jpg 
+used on input line 631.
+(pdftex.def)             Requested size: 377.0114pt x 301.72957pt.
+
+Overfull \hbox (41.0114pt too wide) in paragraph at lines 631--632
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[53]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 697--717
+[][] 
+ []
+
+[54 <./gfx/reasons_detailed_17september2014_bar chart1.jpg>]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 730--750
+[][] 
+ []
+
+
+Overfull \hbox (1.35065pt too wide) in paragraph at lines 751--764
+[]\T1/pplj/m/n/10.95 Now we look at the as-so-ci-a-tion be-tween fi-nan-cial se
+c-tor and scarcity
+ []
+
+
+Overfull \hbox (2.84724pt too wide) in paragraph at lines 751--764
+\T1/pplj/m/n/10.95 emails which tar-get fi-nan-cial sec-tor have scarcity prin-
+ci-ple while 60.3%
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 765--784
+[][] 
+ []
+
+[55]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 798--818
+[][] 
+ []
+
+[56]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 831--850
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 861--882
+[][] 
+ []
+
+[57]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 900--921
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 935--954
+[][] 
+ []
+
+[58]
+Overfull \hbox (5.62462pt too wide) in alignment at lines 970--986
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 969--988
+[][] 
+ []
+
+
+Overfull \hbox (25.06302pt too wide) in paragraph at lines 993--1002
+\T1/pplj/m/n/10.95 ship be-tween URL pres-ence and re-quest to click URL, $\OML
+/zplm/m/it/10.95 X[]\OT1/zplm/m/n/10.95 (\OT1/pplx/m/n/10.95 1\OT1/zplm/m/n/10.
+95 ) = \OT1/pplx/m/n/10.95 174.079, \OML/zplm/m/it/10.95 p <
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1003--1023
+[][] 
+ []
+
+[59]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1039--1058
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1070--1089
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1104--1124
+[][] 
+ []
+
+[60]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1138--1156
+[][] 
+ []
+
+
+Overfull \hbox (10.29558pt too wide) in alignment at lines 1171--1186
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1170--1188
+[][] 
+ []
+
+[61]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1202--1219
+[][] 
+ []
+
+[62]
+Overfull \hbox (54.34276pt too wide) in alignment at lines 1243--1273
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1242--1278
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1242--1278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1242--1278
+
+ []
+
+
+<"gfx/screenshots phishing email/Financial target and Scarcity".png, id=1222, 1
+395.2125pt x 395.4775pt>
+File: "gfx/screenshots phishing email/Financial target and Scarcity".png Graphi
+c file (type png)
+
+<use "gfx/screenshots phishing email/Financial target and Scarcity".png>
+Package pdftex.def Info: "gfx/screenshots phishing email/Financial target and S
+carcity".png used on input line 1301.
+(pdftex.def)             Requested size: 418.56697pt x 118.64417pt.
+
+Overfull \hbox (82.56697pt too wide) in paragraph at lines 1301--1301
+[][] 
+ []
+
+[63]
+<"gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png, id=1230,
+ 655.44875pt x 720.6925pt>
+File: "gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png Grap
+hic file (type png)
+
+<use "gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png>
+Package pdftex.def Info: "gfx/screenshots phishing email/E-Commerce:Retails and
+ scarcity".png used on input line 1316.
+(pdftex.def)             Requested size: 294.9492pt x 324.30862pt.
+
+<"gfx/screenshots phishing email/Administrator and scarcity".png, id=1231, 773.
+89125pt x 614.295pt>
+File: "gfx/screenshots phishing email/Administrator and scarcity".png Graphic f
+ile (type png)
+
+<use "gfx/screenshots phishing email/Administrator and scarcity".png>
+Package pdftex.def Info: "gfx/screenshots phishing email/Administrator and scar
+city".png used on input line 1322.
+(pdftex.def)             Requested size: 348.24785pt x 276.43019pt.
+
+Overfull \hbox (12.24785pt too wide) in paragraph at lines 1322--1322
+ [][] 
+ []
+
+[64 <./gfx/screenshots phishing email/Financial target and Scarcity.png> <./gfx
+/screenshots phishing email/E-Commerce:Retails and scarcity.png>]
+Overfull \hbox (2.08603pt too wide) in paragraph at lines 1326--1340
+\T1/pplj/m/n/10.95 quired con-sis-tency from the re-cip-i-ent. From [][]Fig-ure
+ 16[][][], the email stated
+ []
+
+
+<"gfx/screenshots phishing email/government and consistency".png, id=1240, 1560
+.83125pt x 471.7625pt>
+File: "gfx/screenshots phishing email/government and consistency".png Graphic f
+ile (type png)
+
+<use "gfx/screenshots phishing email/government and consistency".png>
+Package pdftex.def Info: "gfx/screenshots phishing email/government and consist
+ency".png used on input line 1342.
+(pdftex.def)             Requested size: 702.36758pt x 212.29115pt.
+
+Overfull \hbox (366.36758pt too wide) in paragraph at lines 1342--1343
+[][] 
+ []
+
+[65 <./gfx/screenshots phishing email/Administrator and scarcity.png>]
+<"gfx/screenshots phishing email/government and consistency-2".png, id=1246, 82
+6.08624pt x 405.515pt>
+File: "gfx/screenshots phishing email/government and consistency-2".png Graphic
+ file (type png)
+
+<use "gfx/screenshots phishing email/government and consistency-2".png>
+Package pdftex.def Info: "gfx/screenshots phishing email/government and consist
+ency-2".png used on input line 1353.
+(pdftex.def)             Requested size: 371.73537pt x 182.48006pt.
+
+Overfull \hbox (35.73537pt too wide) in paragraph at lines 1353--1354
+ [][] 
+ []
+
+
+Overfull \hbox (75.98389pt too wide) in alignment at lines 1373--1401
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1372--1430
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1372--1430
+
+ []
+
+[66 <./gfx/screenshots phishing email/government and consistency.png> <./gfx/sc
+reenshots phishing email/government and consistency-2.png>] [67]
+Overfull \hbox (73.78392pt too wide) in alignment at lines 1452--1472
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1451--1484
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1451--1484
+
+ []
+
+
+<"gfx/screenshots phishing email-2/Financial incentive and consistency copy".pn
+g, id=1265, 650.43pt x 555.07375pt>
+File: "gfx/screenshots phishing email-2/Financial incentive and consistency cop
+y".png Graphic file (type png)
+
+<use "gfx/screenshots phishing email-2/Financial incentive and consistency copy
+".png>
+Package pdftex.def Info: "gfx/screenshots phishing email-2/Financial incentive 
+and consistency copy".png used on input line 1496.
+(pdftex.def)             Requested size: 325.2142pt x 277.53618pt.
+ [68]
+<"gfx/screenshots phishing email-2/social reason and likeability-2 copy".png, i
+d=1273, 617.30624pt x 677.53125pt>
+File: "gfx/screenshots phishing email-2/social reason and likeability-2 copy".p
+ng Graphic file (type png)
+
+<use "gfx/screenshots phishing email-2/social reason and likeability-2 copy".pn
+g>
+Package pdftex.def Info: "gfx/screenshots phishing email-2/social reason and li
+keability-2 copy".png used on input line 1525.
+(pdftex.def)             Requested size: 277.78523pt x 304.88625pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[69 <./gfx/screenshots phishing email-2/Financial incentive and consistency cop
+y.png>]
+Overfull \hbox (53.15192pt too wide) in alignment at lines 1538--1556
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1537--1578
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1578
+
+ []
+
+[70 <./gfx/screenshots phishing email-2/social reason and likeability-2 copy.pn
+g>]
+Overfull \hbox (51.96918pt too wide) in alignment at lines 1604--1635
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1602--1643
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1602--1643
+
+ []
+
+[71]) [72]
+\openout2 = `Chapter06.aux'.
+
+ (./Chapter06.tex
+Chapter 5.
+[73
+
+
+
+
+]
+Overfull \hbox (29.55423pt too wide) in paragraph at lines 95--101
+\T1/pplj/m/n/10.95 like-abil-ity prin-ci-ple as both e-commerce/retails and non
+-ecommerce/retails
+ []
+
+[74]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 122--197
+[][] 
+ []
+
+[75] [76] [77] [78]) [79] [80
+
+
+
+]
+\openout2 = `Chapter0A.aux'.
+
+ (./Chapter0A.tex
+Appendix A.
+
+<"gfx/financial_detailed_17september2014_bar chart1".jpg, id=1366, 628.3475pt x
+ 502.87875pt>
+File: "gfx/financial_detailed_17september2014_bar chart1".jpg Graphic file (typ
+e jpg)
+ <use "gfx/financial_detailed_17september2014_bar chart1".jpg>
+Package pdftex.def Info: "gfx/financial_detailed_17september2014_bar chart1".jp
+g used on input line 72.
+(pdftex.def)             Requested size: 408.42104pt x 326.86731pt.
+
+Overfull \hbox (72.42104pt too wide) in paragraph at lines 72--72
+ [][] 
+ []
+
+[81
+
+
+
+]) [82 <./gfx/financial_detailed_17september2014_bar chart1.jpg>]
+\openout2 = `Bibliography.aux'.
+
+
+(./Bibliography.tex
+Appendix B.
+
+Package biblatex Warning: Setting 'defernumbers=true' recommended.
+
+
+Overfull \hbox (1.0451pt too wide) in paragraph at lines 3--3
+\T1/pplj/m/n/10.95 Shambhu Upad-hyaya. ``Phish-ing email de-tec-tion based on s
+truc-
+ []
+
+
+Overfull \hbox (4.45511pt too wide) in paragraph at lines 3--3
+[]\T1/pplj/m/n/10.95 Ronald C Dodge Jr, Cur-tis Carver, and Aaron J Fer-gu-son.
+ ``Phish-
+ []
+
+[83
+
+
+
+
+
+
+]
+Overfull \hbox (5.43117pt too wide) in paragraph at lines 3--3
+[]\T1/pplj/m/n/10.95 Aaron Emigh. ``On-line iden-tity theft: Phish-ing tech-nol
+-ogy, choke-
+ []
+
+
+Overfull \hbox (6.09297pt too wide) in paragraph at lines 3--3
+[]\T1/pplj/m/n/10.95 Markus Jakob-s-son. ``Mod-el-ing and Pre-vent-ing Phish-in
+g At-tacks.''
+ []
+
+
+Overfull \hbox (9.26736pt too wide) in paragraph at lines 3--3
+\T1/pplj/m/n/10.95 In: \T1/pplj/m/it/10.95 Fi-nan-cial Cryp-tog-ra-phy and Data
+ Se-cu-rity\T1/pplj/m/n/10.95 . Springer, 2005, pp. 89^^U
+ []
+
+[84]
+Overfull \hbox (18.08253pt too wide) in paragraph at lines 3--3
+\T1/pplj/m/n/10.95 Ed-u-ca-tion.'' In: \T1/pplj/m/it/10.95 e-Education, e-Busin
+ess, e-Management, and e-Learning,
+ []
+
+
+Overfull \hbox (2.70677pt too wide) in paragraph at lines 3--3
+\T1/pplj/m/it/10.95 fer-ence on Se-cu-rity of In-for-ma-tion and Net-works\T1/p
+plj/m/n/10.95 . ACM. 2013, pp. 28^^U
+ []
+
+
+Overfull \hbox (0.87357pt too wide) in paragraph at lines 3--3
+\T1/pplj/m/n/10.95 eval-u-a-tion of anti-phishing train-ing.'' In: \T1/pplj/m/i
+t/10.95 eCrime Re-searchers Sum-
+ []
+
+
+Overfull \hbox (3.32265pt too wide) in paragraph at lines 3--3
+[]\T1/pplj/m/n/10.95 Ponnurangam Ku-maraguru et al. ``Pro-tect-ing peo-ple from
+ phish-
+ []
+
+
+Overfull \hbox (7.7949pt too wide) in paragraph at lines 3--3
+[]\T1/pplj/m/n/10.95 Anh Le, Athina Markopoulou, and Michalis Falout-sos. ``Phi
+shdef:
+ []
+
+[85] [86]
+Overfull \hbox (24.37947pt too wide) in paragraph at lines 3--3
+[]\T1/pplj/m/n/10.95 Swapan Purkait. ``Phish-ing counter mea-sures and their ef
+fectiveness--
+ []
+
+[87]
+
+Package biblatex Warning: Setting 'defernumbers=true' recommended.
+
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 5.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 5.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (6.10902pt too wide) in paragraph at lines 5--5
+\T1/fvm/m/n/10.95 / / www . scmagazine . com / medical -[] staffers -[] fall -[
+] for -[] phishing -[]
+ []
+
+[88]
+Overfull \hbox (10.36813pt too wide) in paragraph at lines 5--5
+[]\T1/pplj/m/n/10.95 Gregg Tally, Roshan Thomas, and Tom Van Vleck. ``Anti-Phis
+hing:
+ []
+
+
+Overfull \hbox (3.26053pt too wide) in paragraph at lines 5--5
+[]\T1/pplj/m/n/10.95 Wombat se-cu-rity tech-nol-ogy. \T1/pplj/m/it/10.95 PhishG
+uru: As-sess and Mo-ti-vate Your
+ []
+
+
+Overfull \hbox (37.9532pt too wide) in paragraph at lines 5--5
+\T1/pplj/m/n/10.95 line; ac-cessed 16-July-2014]. 2013. \T1/pplj/m/sc/10.95 url
+\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 http : / / inspiredtelemarketing .
+ []
+
+
+Overfull \hbox (6.10797pt too wide) in paragraph at lines 5--5
+[]\T1/pplj/m/n/10.95 Merriam Web-ster. \T1/pplj/m/it/10.95 Phish-ing\T1/pplj/m/
+n/10.95 . Web Page. \T1/pplj/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/
+n/10.95 http : / / www . merriam -[]
+ []
+
+) [89] [90
+
+
+
+]
+\openout2 = `Colophon.aux'.
+
+ (./Colophon.tex) [91
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+ (./NurulAkbar_Thesis.aux (./Titlepage.aux)
+(./Titleback.aux) (./Dedication.aux) (./Abstract.aux) (./Acknowledgments.aux)
+(./Contents.aux) (./Chapter01.aux) (./Chapter02.aux) (./chapter04.aux)
+(./chapter05.aux) (./Chapter06.aux) (./Chapter0A.aux) (./Bibliography.aux)
+(./Colophon.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
+
+
+ *File List*
+scrreprt.cls    2012/07/29 v3.11b KOMA-Script document class (report)
+scrkbase.sty    2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
+ scrbase.sty    2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+scrlfile.sty    2012/06/15 v3.12 KOMA-Script package (loading files)
+tocbasic.sty    2012/04/04 v3.10b KOMA-Script package (handling toc-files)
+scrsize11pt.clo    2012/07/29 v3.11b KOMA-Script font size class option (11pt)
+typearea.sty    2012/07/29 v3.11b KOMA-Script package (type area)
+ fontenc.sty
+   t1enc.def    2005/09/27 v1.99g Standard LaTeX file
+   array.sty    2008/09/09 v2.4c Tabular extension package (FMi)
+verbatim.sty    2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+longtable.sty    2004/02/01 v4.11 Multi-page Table package (DPC)
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+booktabs.sty    2005/04/14 v1.61803 publication quality tables
+     url.sty    2006/04/12  ver 3.3  Verb mode for urls, etc.
+multirow.sty    
+graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2010/04/23 v1.9 graphics configuration of TeX Live
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+setspace.sty    2011/12/19 v6.7a set line spacing
+classicthesis-config.tex
+  ifthen.sty    2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+inputenc.sty    2008/03/30 v1.1d Input encoding file
+  latin9.def    2008/03/30 v1.1d Input encoding file
+   babel.sty    2013/05/16 v3.9f The Babel package
+ english.ldf    2012/08/20 v3.3p English support from the babel system
+ english.ldf    2012/08/20 v3.3p English support from the babel system
+ amsmath.sty    2013/01/14 v2.14 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+ fontenc.sty
+   t1enc.def    2005/09/27 v1.99g Standard LaTeX file
+textcomp.sty    2005/09/27 v1.99g Standard LaTeX package
+  ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+ scrhack.sty    2012/07/29 v3.11b KOMA-Script package (hacking other packages)
+   float.hak    2012/07/29 v3.11b KOMA-Script hacking package float
+  xspace.sty    2009/10/20 v1.13 Space after command names (DPC,MH)
+mparhack.sty    2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
+fixltx2e.sty    2006/09/13 v1.1m fixes to LaTeX
+ acronym.sty    2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
+  suffix.sty    2006/07/15 1.5 Variant command support
+ xstring.sty    2013/2/28  v1.7a  String manipulations (C Tellechea)
+ relsize.sty    2013/03/29 ver 4.1
+tabularx.sty    1999/01/07 v2.07 `tabularx' package (DPC)
+ caption.sty    2013/05/02 v3.3-89 Customizing captions (AR)
+caption3.sty    2013/05/02 v1.6-88 caption3 kernel (AR)
+ltcaption.sty    2013/02/03 v1.3-62 longtable captions (AR)
+  subfig.sty    2005/06/28 ver: 1.3 subfig package
+listings.sty    2007/02/22 1.4 (Carsten Heinz)
+ lstmisc.sty    2007/02/22 1.4 (Carsten Heinz)
+listings.cfg    2007/02/22 1.4 listings configuration
+listings.hak    2012/07/29 v3.11b KOMA-Script hacking package listings
+lstlang1.sty    2004/09/05 1.3 listings language file
+lstlang2.sty    2004/09/05 1.3 listings language file
+lstlang3.sty    2004/09/05 1.3 listings language file
+lstlang1.sty    2004/09/05 1.3 listings language file
+lstlang2.sty    2004/09/05 1.3 listings language file
+lstlang3.sty    2004/09/05 1.3 listings language file
+lstlang1.sty    2004/09/05 1.3 listings language file
+lstlang2.sty    2004/09/05 1.3 listings language file
+lstlang3.sty    2004/09/05 1.3 listings language file
+ lstmisc.sty    2007/02/22 1.4 (Carsten Heinz)
+hyperref.sty    2012/11/06 v6.83m Hypertext links for LaTeX
+hobsub-hyperref.sty    2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2012/05/28 v1.13 Construct package bundles (HO)
+ifluatex.sty    2010/03/01 v1.3 Provides the ifluatex switch (HO)
+  ifvtex.sty    2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+ intcalc.sty    2007/09/27 v1.1 Expandable calculations with integers (HO)
+   ifpdf.sty    2011/01/30 v2.3 Provides the ifpdf switch (HO)
+etexcmds.sty    2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2012/04/25 v1.16 Key value parser (HO)
+kvdefinekeys.sty    2011/04/07 v1.3 Define keys (HO)
+pdftexcmds.sty    2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2012/04/08 v1.3 Expandable calculations on big integers (HO)
+  bitset.sty    2011/01/30 v1.1 Handle bit-vector datatype (HO)
+uniquecounter.sty    2011/01/30 v1.2 Provide unlimited unique counter (HO)
+letltxmacro.sty    2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2012/05/28 v1.2 Wrapper for package hooks (HO)
+xcolor-patch.sty    2011/01/30 xcolor patch
+atveryend.sty    2011/06/30 v1.8 Hooks at the very end of document (HO)
+atbegshi.sty    2011/10/05 v1.16 At begin shipout hook (HO)
+refcount.sty    2011/10/16 v3.4 Data extraction from label references (HO)
+ hycolor.sty    2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+ auxhook.sty    2011/03/04 v1.3 Hooks for auxiliary files (HO)
+kvoptions.sty    2011/06/30 v3.11 Key value format for package options (HO)
+  pd1enc.def    2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+ hpdftex.def    2012/11/06 v6.83m Hyperref driver for pdfTeX
+rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+classicthesis.sty    2012/08/12 v4.1 Typographic style for a classic-looking th
+esis
+  xcolor.sty    2007/01/21 v2.11 LaTeX color extensions (UK)
+   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
+dvipsnam.def    1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+mathpazo.sty    2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+beramono.sty    2004/01/31 (WaS)
+microtype.sty    2013/05/23 v2.5a Micro-typographical refinements (RS)
+microtype-pdftex.def    2013/05/23 v2.5a Definitions specific to pdftex (RS)
+microtype.cfg    2013/05/23 v2.5a microtype main configuration file (RS)
+textcase.sty    2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+scrpage2.sty    2010/04/22 v2.5 LaTeX2e KOMA-Script package
+titlesec.sty    2011/12/15 v2.10.0 Sectioning titles
+ tocloft.sty    2013/05/02 v2.3f parameterised ToC, etc., typesetting
+ scrtime.sty    2012/07/29 v3.11b KOMA-Script package (time of LaTeX run)
+remreset.sty    
+watermark.sty    2004/12/09 v1.1 Watermarks (NCC)
+pdflscape.sty    2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+  lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
+biblatex.sty    2013/05/01 v2.6 programmable bibliographies (PK/JW/AB)
+biblatex2.sty    2013/05/01 v2.6 programmable bibliographies (biber) (PK/JW/AB)
+
+etoolbox.sty    2011/01/03 v2.1 e-TeX tools for LaTeX
+    etex.sty    1998/03/26 v2.0 eTeX basic definition package (PEB)
+  logreq.sty    2010/08/04 v1.0 xml request logger
+  logreq.def    2010/08/04 v1.0 logreq spec v1.0
+  blx-dm.def
+ numeric.dbx
+biblatex-dm.cfg
+blx-compat.def    2013/05/01 v2.6 biblatex compatibility (PK/JW/AB)
+biblatex.def    
+blx-natbib.def    2013/05/01 v2.6 biblatex compatibility (PK/JW/AB)
+standard.bbx    2013/05/01 v2.6 biblatex bibliography style (PK/JW/AB)
+ numeric.bbx    2013/05/01 v2.6 biblatex bibliography style (PK/JW/AB)
+ numeric.cbx    2013/05/01 v2.6 biblatex citation style (PK/JW/AB)
+biblatex.cfg    
+enumitem.sty    2011/09/28 v3.5.2 Customized lists
+ english.lbx    2013/05/01 v2.6 biblatex localization (PK/JW/AB)
+american.lbx    2013/05/01 v2.6 biblatex localization (PK/JW/AB)
+  ts1cmr.fd    1999/05/25 v2.5h Standard LaTeX font definitions
+  t1pplj.fd    2004/09/06 font definitions for T1/pplj.
+supp-pdf.mkii
+epstopdf-base.sty    2010/02/09 v2.5 Base part for package epstopdf
+  grfext.sty    2010/08/19 v1.1 Manage graphics extensions (HO)
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ nameref.sty    2012/10/27 v2.43 Cross-referencing by name of section
+gettitlestring.sty    2010/12/03 v1.4 Cleanup title references (HO)
+NurulAkbar_Thesis.out
+NurulAkbar_Thesis.out
+  mt-ppl.cfg    2005/11/16 v1.6 microtype config. file: Palatino (RS)
+NurulAkbar_Thesis.bbl
+Titlepage.tex
+gfx/UT_Logo_Black_EN.jpg
+Titleback.tex
+ ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
+Dedication.tex
+Abstract.tex
+Acknowledgments.tex
+Contents.tex
+ ot1pplx.fd    2004/09/06 font definitions for OT1/pplx.
+ omlzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+ omszplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+ omxzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+ ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+  t1lmss.fd    2009/10/30 v1.6 Font defs for Latin Modern
+Chapter01.tex
+Chapter02.tex
+"gfx/phishing processes".png
+gfx/ing-phishing.jpg
+gfx/wetzel.png
+gfx/emigh.png
+gfx/info-flow-nolie.png
+"gfx/human factor".png
+gfx/kumaraguru-a.png
+gfx/kumaraguru-b.png
+gfx/kumaraguru-c.png
+"gfx/phishing training".png
+chapter04.tex
+chapter05.tex
+gfx/methodology_diagram.jpg
+gfx/selection.jpg
+gfx/pseudo-cialdini-2.jpg
+"gfx/reasons_detailed_17september2014_bar chart1".jpg
+"gfx/screenshots phishing email/Financial target and Scarcity".png
+"gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png
+"gfx/screenshots phishing email/Administrator and scarcity".png
+"gfx/screenshots phishing email/government and consistency".png
+"gfx/screenshots phishing email/government and consistency-2".png
+"gfx/screenshots phishing email-2/Financial incentive and consistency copy".png
+
+"gfx/screenshots phishing email-2/social reason and likeability-2 copy".png
+Chapter06.tex
+Chapter0A.tex
+"gfx/financial_detailed_17september2014_bar chart1".jpg
+Bibliography.tex
+   t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
+Colophon.tex
+ ***********
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package rerunfilecheck Info: File `NurulAkbar_Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 0F55214F11E231C28FA16C79C4B93C5E;3183.
+Package logreq Info: Writing requests to 'NurulAkbar_Thesis.run.xml'.
+\openout1 = `NurulAkbar_Thesis.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+ ) 
+Here is how much of TeX's memory you used:
+ 21767 strings out of 493315
+ 354317 string characters out of 6137904
+ 888754 words of memory out of 5000000
+ 24304 multiletter control sequences out of 15000+600000
+ 77433 words of font info for 96 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 49i,14n,67p,956b,5459s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2013/texmf-dist/f
+onts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/
+palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatin
+o/uplri8a.pfb>
+Output written on NurulAkbar_Thesis.pdf (103 pages, 2333808 bytes).
+PDF statistics:
+ 1708 PDF objects out of 1728 (max. 8388607)
+ 1521 compressed objects within 16 object streams
+ 370 named destinations out of 1000 (max. 500000)
+ 17388 words of extra memory for PDF output out of 20736 (max. 10000000)
+

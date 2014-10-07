@@ -1,0 +1,16 @@
+# Fdb version 3
+["bibtex additional"] 1410897759 "additional.aux" "additional.bbl" "additional" 1410897760
+  "additional.aux" 1410897759 8 a94a2480d3289e625eea47cd1b285758 ""
+  "additional.bcf" 0 -1 0 ""
+  (generated)
+  "additional.bbl"
+["pdflatex"] 1410897760 "additional.tex" "additional.pdf" "additional" 1410897760
+  "/usr/local/texlive/2013/texmf-dist/web2c/texmf.cnf" 1366045088 31707 0953c15448e216a6585e92ee639d2dc2 ""
+  "/usr/local/texlive/2013/texmf-var/web2c/pdftex/pdflatex.fmt" 1398252925 3827029 91a7ba7b68a7dc890b32c579c8ceab13 ""
+  "/usr/local/texlive/2013/texmf.cnf" 1369923207 577 cbc827f6294276973a1952e86e8ad73a ""
+  "additional.aux" 1410897759 8 a94a2480d3289e625eea47cd1b285758 ""
+  "additional.bbl" 1410897760 0 d41d8cd98f00b204e9800998ecf8427e "bibtex additional"
+  "additional.tex" 1410889464 109 d2778e863d4a8b13fc23b2846f6913d6 ""
+  (generated)
+  "additional.log"
+  "additional.pdf"

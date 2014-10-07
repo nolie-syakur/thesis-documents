@@ -103,7 +103,7 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-RQ1: What are the characteristics of the reported phishing emails?
+RQ1: What are the characteristics of the phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -119,8 +119,8 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-The characteristics of the reported phishing emails determined by the following
- parameters:
+The characteristics of phishing emails in our dataset are determined by
+ the following parameters:
 \end_layout
 
 \begin_layout Itemize
@@ -160,7 +160,7 @@ status open
 
 \begin_layout Plain Layout
 
-sub:Variables-establishment
+sub:variables
 \end_layout
 
 \end_inset
@@ -169,7 +169,7 @@ sub:Variables-establishment
 \end_layout
 
 \begin_layout Standard
-Secondly, we wanted to know to what extent the involvement of persuasive
+Secondly, we wanted to know to what extent the involvement of persuasion
  principles are used in phishing emails and how relevant are they to the
  generic phishing email properties.
  
@@ -192,7 +192,7 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-RQ2: To what extent the persuasive principles are used in phishing emails?
+RQ2: To what extent are the persuasion principles used in phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -209,19 +209,19 @@ height "1pt"
 
 \begin_layout Standard
 We established 16 hypotheses to indicate the relationship between generic
- properties and relevancy of persuasive principle to these properties.
+ properties and relevancy of persuasion principle to these properties.
  H8, H9, H10, H13, H14, H15 will partly answer RQ1 in respect to the relationshi
 p between generic properties and the rest will answer RQ2.
- We synthesize cialdini's principles with our dataset.
- In order to conduct the integration, we established our decision making
- to classify which persuasive elements that are exist in a phishing email.
+ We conduct an analysis of phishing emails based on Cialdini's principles.
+ In order to conduct the analysis, we established our decision making to
+ classify which persuasive elements that exist in a phishing email.
  This process will be explained in 
 \begin_inset Flex CT - auto cross-reference
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-sub:cialdini-decision
+sub:cialdini
 \end_layout
 
 \end_inset
@@ -476,7 +476,8 @@ key "workman:2008"
 
 \end_inset
 
-For example, we tend to comply to a request when a social networking site
+.
+ For example, we tend to comply to a request when a social networking site
  asks us to visit a website or recommends something and mention that others
  have been visiting the website as well.
  Thus, we hypothesize that 
@@ -610,8 +611,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H7: The occurence of likeability in a phish will impact the occurence of
- consistency
+H7: The occurrence of likeability in a phish will impact the occurrence
+ of consistency
 \end_layout
 
 \begin_layout Standard

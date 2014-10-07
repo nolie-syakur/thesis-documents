@@ -1,0 +1,1877 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{barraclough:2013}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=27a377958c2d5bcafe6221477cfb9f20}{Barraclough}{B\bibinitperiod}{PA}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=12819f2539465f83690f1dfa03bfcf87}{Hossain}{H\bibinitperiod}{MA}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9462f53646d0fa368c665f4ea884bcd6}{Tahir}{T\bibinitperiod}{MA}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=af0ea3c4ef295d1e1ce6e79a7a482ad4}{Sexton}{S\bibinitperiod}{Graham}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=b2163c08679edb7f3e27b3702a2eb880}{Aslam}{A\bibinitperiod}{Nauman}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=27a377958c2d5bcafe6221477cfb9f20}{Barraclough}{B\bibinitperiod}{PA}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=12819f2539465f83690f1dfa03bfcf87}{Hossain}{H\bibinitperiod}{MA}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9462f53646d0fa368c665f4ea884bcd6}{Tahir}{T\bibinitperiod}{MA}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=af0ea3c4ef295d1e1ce6e79a7a482ad4}{Sexton}{S\bibinitperiod}{Graham}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=b2163c08679edb7f3e27b3702a2eb880}{Aslam}{A\bibinitperiod}{Nauman}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9ecea3103ff040a1a02a1ae2a4b3f0f6}
+      \strng{fullhash}{8ef4662dd9dd1453557642e23df2c140}
+      \field{sortinit}{B}
+      \field{labeltitle}{Intelligent phishing detection and protection scheme for online transactions}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{number}{11}
+      \field{title}{Intelligent phishing detection and protection scheme for online transactions}
+      \field{volume}{40}
+      \field{year}{2013}
+      \field{pages}{4697\bibrangedash 4706}
+      \keyw{bibliography}
+    \endentry
+    \entry{blythe2011f}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=e61608f8f3c06de77ef8e80cbb8cc654}{Blythe}{B\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b3f52839e2d73a9a02dd0d202befaae8}{Petrie}{P\bibinitperiod}{Helen}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=fe25ec52dc860a5dbd708eb3babe9462}{Clark}{C\bibinitperiod}{John\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e61608f8f3c06de77ef8e80cbb8cc654}{Blythe}{B\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b3f52839e2d73a9a02dd0d202befaae8}{Petrie}{P\bibinitperiod}{Helen}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=fe25ec52dc860a5dbd708eb3babe9462}{Clark}{C\bibinitperiod}{John\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1f35f232e0e6009d08af0a8ef2453e00}
+      \strng{fullhash}{1f35f232e0e6009d08af0a8ef2453e00}
+      \field{sortinit}{B}
+      \field{labeltitle}{F for fake: four studies on how we fall for phish}
+      \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}
+      \field{title}{F for fake: four studies on how we fall for phish}
+      \field{year}{2011}
+      \field{pages}{3469\bibrangedash 3478}
+      \keyw{bibliography}
+    \endentry
+    \entry{ashley:2014}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=e7bf0c620125827ef623fa1b4ac10a19}{Carman}{C\bibinitperiod}{Ashley}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e7bf0c620125827ef623fa1b4ac10a19}{Carman}{C\bibinitperiod}{Ashley}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e7bf0c620125827ef623fa1b4ac10a19}
+      \strng{fullhash}{e7bf0c620125827ef623fa1b4ac10a19}
+      \field{sortinit}{C}
+      \field{labeltitle}{Phishing scam targets Michigan public schools}
+      \field{note}{[Online; accessed 13-May-2014]}
+      \field{title}{Phishing scam targets Michigan public schools}
+      \verb{url}
+      \verb http://www.scmagazine.com/phishing-scam-targets-michigan-public-schools/article/343177/
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{chandrasekaran:2006}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=1b146923b6940815707cb16bff608281}{Chandrasekaran}{C\bibinitperiod}{Madhusudhanan}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=0e3004b1e42a36627f464685ba5efa2f}{Narayanan}{N\bibinitperiod}{Krishnan}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=aa8ae472950d04d2cc8a9f1be8001c88}{Upadhyaya}{U\bibinitperiod}{Shambhu}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=1b146923b6940815707cb16bff608281}{Chandrasekaran}{C\bibinitperiod}{Madhusudhanan}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=0e3004b1e42a36627f464685ba5efa2f}{Narayanan}{N\bibinitperiod}{Krishnan}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=aa8ae472950d04d2cc8a9f1be8001c88}{Upadhyaya}{U\bibinitperiod}{Shambhu}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c89fd5b048a2cfd2adbb5b8ce433e414}
+      \strng{fullhash}{c89fd5b048a2cfd2adbb5b8ce433e414}
+      \field{sortinit}{C}
+      \field{labeltitle}{Phishing email detection based on structural properties}
+      \field{booktitle}{NYS Cyber Security Conference}
+      \field{title}{Phishing email detection based on structural properties}
+      \field{year}{2006}
+      \field{pages}{1\bibrangedash 7}
+      \keyw{bibliography}
+    \endentry
+    \entry{chhabra:2011}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=935a85eb19f368a898555d2edbc2e6d9}{Chhabra}{C\bibinitperiod}{Sidharth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=079807e1cc134f8feabeff72640cad85}{Aggarwal}{A\bibinitperiod}{Anupama}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=3f9e8dcb508e6068bdcd2da28f027b9c}{Benevenuto}{B\bibinitperiod}{Fabricio}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=f03e6d53b7822da60db6d200acb0220e}{Kumaraguru}{K\bibinitperiod}{Ponnurangam}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=935a85eb19f368a898555d2edbc2e6d9}{Chhabra}{C\bibinitperiod}{Sidharth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=079807e1cc134f8feabeff72640cad85}{Aggarwal}{A\bibinitperiod}{Anupama}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=3f9e8dcb508e6068bdcd2da28f027b9c}{Benevenuto}{B\bibinitperiod}{Fabricio}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=f03e6d53b7822da60db6d200acb0220e}{Kumaraguru}{K\bibinitperiod}{Ponnurangam}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{3a852913daaa829b0d4ec7a288fa571d}
+      \strng{fullhash}{90ee2c9b8746f3b3db89af92496b0ec1}
+      \field{sortinit}{C}
+      \field{labeltitle}{Phi. sh/\$ oCiaL: the phishing landscape through short URLs}
+      \field{booktitle}{Proceedings of the 8th Annual Collaboration, Electronic messaging, Anti-Abuse and Spam Conference}
+      \field{title}{Phi. sh/\$ oCiaL: the phishing landscape through short URLs}
+      \field{year}{2011}
+      \field{pages}{92\bibrangedash 101}
+      \keyw{bibliography}
+    \endentry
+    \entry{chia:2012}{inbook}{}
+      \name{labelname}{2}{}{%
+        {{hash=a8def7f19d11b0c8849612af8d3004fa}{Chia}{C\bibinitperiod}{Pern\bibnamedelima Hui}{P\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=dd19805415b39f91c6565e595a5483b2}{Knapskog}{K\bibinitperiod}{Svein\bibnamedelima Johan}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=a8def7f19d11b0c8849612af8d3004fa}{Chia}{C\bibinitperiod}{Pern\bibnamedelima Hui}{P\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=dd19805415b39f91c6565e595a5483b2}{Knapskog}{K\bibinitperiod}{Svein\bibnamedelima Johan}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a6c2bf1fc3467ffcf6cbef0a90550e31}
+      \strng{fullhash}{a6c2bf1fc3467ffcf6cbef0a90550e31}
+      \field{sortinit}{C}
+      \field{labeltitle}{Re-evaluating the wisdom of crowds in assessing web security}
+      \field{booktitle}{Financial Cryptography and Data Security}
+      \field{title}{Re-evaluating the wisdom of crowds in assessing web security}
+      \field{year}{2012}
+      \field{pages}{299\bibrangedash 314}
+      \keyw{bibliography}
+    \endentry
+    \entry{cialdini:2001}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=0ff19d3f6c289fcf3d4c02a4b4dfaca8}{Cialdini}{C\bibinitperiod}{Robert\bibnamedelima B}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=0ff19d3f6c289fcf3d4c02a4b4dfaca8}{Cialdini}{C\bibinitperiod}{Robert\bibnamedelima B}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Editor no identificado}%
+      }
+      \strng{namehash}{0ff19d3f6c289fcf3d4c02a4b4dfaca8}
+      \strng{fullhash}{0ff19d3f6c289fcf3d4c02a4b4dfaca8}
+      \field{sortinit}{C}
+      \field{labeltitle}{the SCIENCE of Persuasion.}
+      \field{journaltitle}{Scientific American}
+      \field{number}{2}
+      \field{title}{the SCIENCE of Persuasion.}
+      \field{volume}{284}
+      \field{year}{2001}
+      \field{pages}{76}
+      \keyw{bibliography}
+    \endentry
+    \entry{clayton:2005}{incollection}{}
+      \name{labelname}{6}{}{%
+        {{hash=4daba34aef0c0a8033abd665906bd8a7}{Clayton}{C\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=ae0f8f7e6599b2e7167ff9952e7c479c}{Dean}{D\bibinitperiod}{Drew}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=16e7baa4ffe4fce265292eb139a29c0b}{Jakobsson}{J\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=46fa8c17f140376735245837830cf253}{Myers}{M\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=81723b92665731c66681c51aa52ddebf}{Stubblebine}{S\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0cc9f517e91c75e18b1474f3a179f8f9}{Szydlo}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=4daba34aef0c0a8033abd665906bd8a7}{Clayton}{C\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=ae0f8f7e6599b2e7167ff9952e7c479c}{Dean}{D\bibinitperiod}{Drew}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=16e7baa4ffe4fce265292eb139a29c0b}{Jakobsson}{J\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=46fa8c17f140376735245837830cf253}{Myers}{M\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=81723b92665731c66681c51aa52ddebf}{Stubblebine}{S\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0cc9f517e91c75e18b1474f3a179f8f9}{Szydlo}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8b3287a58bfdc168fc3e061733cae5d2}
+      \strng{fullhash}{d096329b8c73b6835da93e28c8c1dce1}
+      \field{sortinit}{C}
+      \field{labeltitle}{A Chat at the Old Phishin'Hole}
+      \field{booktitle}{Financial Cryptography and Data Security}
+      \field{title}{A Chat at the Old Phishin'Hole}
+      \field{year}{2005}
+      \field{pages}{88\bibrangedash 88}
+      \keyw{bibliography}
+    \endentry
+    \entry{dhamija2006phishing}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=54ff7143ae3c688e6b5c4fa37cee3429}{Dhamija}{D\bibinitperiod}{Rachna}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9c805ca7a192f12764edff87d67cb9c2}{Tygar}{T\bibinitperiod}{J\bibnamedelima Doug}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=5e7ce2b4ef72492ff0e28a03000fe45e}{Hearst}{H\bibinitperiod}{Marti}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=54ff7143ae3c688e6b5c4fa37cee3429}{Dhamija}{D\bibinitperiod}{Rachna}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9c805ca7a192f12764edff87d67cb9c2}{Tygar}{T\bibinitperiod}{J\bibnamedelima Doug}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=5e7ce2b4ef72492ff0e28a03000fe45e}{Hearst}{H\bibinitperiod}{Marti}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0d851d6f1b480253bf823baab5593720}
+      \strng{fullhash}{0d851d6f1b480253bf823baab5593720}
+      \field{sortinit}{D}
+      \field{labeltitle}{Why phishing works}
+      \field{booktitle}{Proceedings of the SIGCHI conference on Human Factors in computing systems}
+      \field{title}{Why phishing works}
+      \field{year}{2006}
+      \field{pages}{581\bibrangedash 590}
+      \keyw{bibliography}
+    \endentry
+    \entry{oxford}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=a5925bdc0f8f83e5e3fa0b5155d6d8b6}{Dictionaries}{D\bibinitperiod}{Oxford}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a5925bdc0f8f83e5e3fa0b5155d6d8b6}{Dictionaries}{D\bibinitperiod}{Oxford}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{a5925bdc0f8f83e5e3fa0b5155d6d8b6}
+      \strng{fullhash}{a5925bdc0f8f83e5e3fa0b5155d6d8b6}
+      \field{sortinit}{D}
+      \field{labeltitle}{Phishing}
+      \field{number}{April 14}
+      \field{title}{Phishing}
+      \field{type}{Web Page}
+      \field{volume}{2014}
+      \verb{url}
+      \verb http://www.oxforddictionaries.com/definition/english/phishing
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{collins}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=bf650035389b9d63c7afde99566717d9}{Dictionary}{D\bibinitperiod}{Collins\bibnamedelima English}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bf650035389b9d63c7afde99566717d9}{Dictionary}{D\bibinitperiod}{Collins\bibnamedelima English}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bf650035389b9d63c7afde99566717d9}
+      \strng{fullhash}{bf650035389b9d63c7afde99566717d9}
+      \field{sortinit}{D}
+      \field{labeltitle}{Phishing}
+      \field{number}{April 7}
+      \field{title}{Phishing}
+      \field{type}{Web Page}
+      \field{volume}{2014}
+      \verb{url}
+      \verb http://www.collinsdictionary.com/dictionary/american/phishing
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{dodge:2007}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=de42c5f67ea8cf65affad051e291cbf4}{Dodge\bibnamedelima Jr}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{Ronald\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=2c5ced858dd2e4da941f790b1835436f}{Carver}{C\bibinitperiod}{Curtis}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=804ff3697d5b91ba9da49538b507c300}{Ferguson}{F\bibinitperiod}{Aaron\bibnamedelima J}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=de42c5f67ea8cf65affad051e291cbf4}{Dodge\bibnamedelima Jr}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{Ronald\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=2c5ced858dd2e4da941f790b1835436f}{Carver}{C\bibinitperiod}{Curtis}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=804ff3697d5b91ba9da49538b507c300}{Ferguson}{F\bibinitperiod}{Aaron\bibnamedelima J}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{cac146edb2f84f6efd81d76bd619791f}
+      \strng{fullhash}{cac146edb2f84f6efd81d76bd619791f}
+      \field{sortinit}{D}
+      \field{labeltitle}{Phishing for user security awareness}
+      \field{journaltitle}{Computers \& Security}
+      \field{number}{1}
+      \field{title}{Phishing for user security awareness}
+      \field{volume}{26}
+      \field{year}{2007}
+      \field{pages}{73\bibrangedash 80}
+      \keyw{bibliography}
+    \endentry
+    \entry{dotterweich2006practicality}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=aa9841d711840daf47dea594d72db937}{Dotterweich}{D\bibinitperiod}{Douglas\bibnamedelima P}{D\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=407d6ef8fd4cfbfdae84bdc4bda060ae}{Collins}{C\bibinitperiod}{Kimberly\bibnamedelima S}{K\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=aa9841d711840daf47dea594d72db937}{Dotterweich}{D\bibinitperiod}{Douglas\bibnamedelima P}{D\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=407d6ef8fd4cfbfdae84bdc4bda060ae}{Collins}{C\bibinitperiod}{Kimberly\bibnamedelima S}{K\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{21bc933efe9ef94a1d32811e62758020}
+      \strng{fullhash}{21bc933efe9ef94a1d32811e62758020}
+      \field{sortinit}{D}
+      \field{labeltitle}{The practicality of Super Bowl advertising for new products and companies}
+      \field{journaltitle}{Journal of Promotion Management}
+      \field{number}{4}
+      \field{title}{The practicality of Super Bowl advertising for new products and companies}
+      \field{volume}{11}
+      \field{year}{2006}
+      \field{pages}{19\bibrangedash 31}
+      \keyw{bibliography}
+    \endentry
+    \entry{drake2004anatomy}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=1c22d5f9f6df9cf3fa89fae7c2bb2286}{Drake}{D\bibinitperiod}{Christine\bibnamedelima E}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=5563ea6b56be810329d23e705c136666}{Oliver}{O\bibinitperiod}{Jonathan\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=68466ce0dfbe4fdc38291a92e1682ea2}{Koontz}{K\bibinitperiod}{Eugene\bibnamedelima J}{E\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=1c22d5f9f6df9cf3fa89fae7c2bb2286}{Drake}{D\bibinitperiod}{Christine\bibnamedelima E}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=5563ea6b56be810329d23e705c136666}{Oliver}{O\bibinitperiod}{Jonathan\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=68466ce0dfbe4fdc38291a92e1682ea2}{Koontz}{K\bibinitperiod}{Eugene\bibnamedelima J}{E\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f6a461ee3b20de9872fee4ce54762589}
+      \strng{fullhash}{f6a461ee3b20de9872fee4ce54762589}
+      \field{sortinit}{D}
+      \field{labeltitle}{Anatomy of a Phishing Email.}
+      \field{title}{Anatomy of a Phishing Email.}
+      \field{year}{2004}
+      \keyw{bibliography}
+    \endentry
+    \entry{egan:2011}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=19bc16b0ca44b479344596014efeea9d}{Egan}{E\bibinitperiod}{Shaun}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1d24589c022ff0341b8987b615e69222}{Irwin}{I\bibinitperiod}{Barry}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=19bc16b0ca44b479344596014efeea9d}{Egan}{E\bibinitperiod}{Shaun}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1d24589c022ff0341b8987b615e69222}{Irwin}{I\bibinitperiod}{Barry}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{94b80e5ceb9a03b30edb8e10a69ec7f2}
+      \strng{fullhash}{94b80e5ceb9a03b30edb8e10a69ec7f2}
+      \field{sortinit}{E}
+      \field{labeltitle}{An evaluation of lightweight classification methods for identifying malicious URLs}
+      \field{booktitle}{Information Security South Africa (ISSA), 2011}
+      \field{title}{An evaluation of lightweight classification methods for identifying malicious URLs}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 6}
+      \keyw{bibliography}
+    \endentry
+    \entry{emigh:2005}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=18a28aae8e176696cd15c77464ec393d}{Emigh}{E\bibinitperiod}{Aaron}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=18a28aae8e176696cd15c77464ec393d}{Emigh}{E\bibinitperiod}{Aaron}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{18a28aae8e176696cd15c77464ec393d}
+      \strng{fullhash}{18a28aae8e176696cd15c77464ec393d}
+      \field{sortinit}{E}
+      \field{labeltitle}{Online identity theft: Phishing technology, chokepoints and countermeasures}
+      \field{journaltitle}{ITTC Report on Online Identity Theft Technology and Countermeasures}
+      \field{title}{Online identity theft: Phishing technology, chokepoints and countermeasures}
+      \field{type}{Journal Article}
+      \field{volume}{3}
+      \field{year}{2005}
+      \keyw{bibliography}
+    \endentry
+    \entry{fellman:2004}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=cee9da51d9bca2d71068e149cf80e662}{Fellman}{F\bibinitperiod}{Philip\bibnamedelima V}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=e6575bf578aa433680f1de91a786fa5a}{Rodriguez}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=cee9da51d9bca2d71068e149cf80e662}{Fellman}{F\bibinitperiod}{Philip\bibnamedelima V}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=e6575bf578aa433680f1de91a786fa5a}{Rodriguez}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{90b22d62814eb8fd6a5fc040b78210f1}
+      \strng{fullhash}{90b22d62814eb8fd6a5fc040b78210f1}
+      \field{sortinit}{F}
+      \field{labeltitle}{The Dark Side of the Internet}
+      \field{booktitle}{International Federation for Information Processing, International Meeting, "IT Innovation for Adaptability and Competitiveness"}
+      \field{title}{The Dark Side of the Internet}
+      \field{type}{Conference Proceedings}
+      \keyw{bibliography}
+    \endentry
+    \entry{frauenstein:2013}{inbook}{}
+      \name{labelname}{2}{}{%
+        {{hash=b198d04fc014020954f84ac9fc74d525}{Frauenstein}{F\bibinitperiod}{Edwin\bibnamedelima Donald}{E\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=c4050381b7f052cbb144e117e2903856}{Solms}{S\bibinitperiod}{Rossouw}{R\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b198d04fc014020954f84ac9fc74d525}{Frauenstein}{F\bibinitperiod}{Edwin\bibnamedelima Donald}{E\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=c4050381b7f052cbb144e117e2903856}{Solms}{S\bibinitperiod}{Rossouw}{R\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{17b1c2ae66061263fc315e7ddac5198b}
+      \strng{fullhash}{17b1c2ae66061263fc315e7ddac5198b}
+      \field{sortinit}{F}
+      \field{labeltitle}{An Enterprise Anti-phishing Framework}
+      \field{booktitle}{Information Assurance and Security Education and Training}
+      \field{title}{An Enterprise Anti-phishing Framework}
+      \field{year}{2013}
+      \field{pages}{196\bibrangedash 203}
+      \keyw{bibliography}
+    \endentry
+    \entry{Ghorbani20101}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=f50ae257f282a6ca43d0975ce44a86c8}{Ghorbani}{G\bibinitperiod}{A.A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=f87eea10e79f07c5b45b62a212a50f53}{Lu}{L\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=794e9fc8fadec623ab22b29fbd0ae5cf}{Tavallaee}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=f50ae257f282a6ca43d0975ce44a86c8}{Ghorbani}{G\bibinitperiod}{A.A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=f87eea10e79f07c5b45b62a212a50f53}{Lu}{L\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=794e9fc8fadec623ab22b29fbd0ae5cf}{Tavallaee}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3ff21cfe6da502a581ecc430a0ebf41f}
+      \strng{fullhash}{3ff21cfe6da502a581ecc430a0ebf41f}
+      \field{sortinit}{G}
+      \field{labeltitle}{Network attacks}
+      \field{journaltitle}{Advances in Information Security}
+      \field{title}{Network attacks}
+      \field{volume}{47}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 25}
+      \keyw{bibliography}
+    \endentry
+    \entry{adam:2014}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=2f316c06fd9724b621456c13ddbc99ec}{Greenberg}{G\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=2f316c06fd9724b621456c13ddbc99ec}{Greenberg}{G\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2f316c06fd9724b621456c13ddbc99ec}
+      \strng{fullhash}{2f316c06fd9724b621456c13ddbc99ec}
+      \field{sortinit}{G}
+      \field{labeltitle}{Medical staffers fall for phishing emails, data on 8,300 compromised}
+      \field{note}{[Online; accessed 13-May-2014]}
+      \field{title}{Medical staffers fall for phishing emails, data on 8,300 compromised}
+      \verb{url}
+      \verb http://www.scmagazine.com/medical-staffers-fall-for-phishing-emails-data-on-8300-compromised/article/340590/
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{gupta:2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=98d660fa03e69fe0303a4e6a9cb8673a}{Gupta}{G\bibinitperiod}{Gaurav}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=8ec9ed12aa23c390f04539d658377632}{Pieprzyk}{P\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=98d660fa03e69fe0303a4e6a9cb8673a}{Gupta}{G\bibinitperiod}{Gaurav}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=8ec9ed12aa23c390f04539d658377632}{Pieprzyk}{P\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{422252ab410cb96beaf5c1c5e46c3153}
+      \strng{fullhash}{422252ab410cb96beaf5c1c5e46c3153}
+      \field{sortinit}{G}
+      \field{labeltitle}{Socio-technological phishing prevention}
+      \field{journaltitle}{Information Security Technical Report}
+      \field{number}{2}
+      \field{title}{Socio-technological phishing prevention}
+      \field{volume}{16}
+      \field{year}{2011}
+      \field{pages}{67\bibrangedash 73}
+      \keyw{bibliography}
+    \endentry
+    \entry{herley:2009}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=138a45a91746ad040fab227f39318c37}{Herley}{H\bibinitperiod}{Cormac}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=654abcf55a20578e3460c29497c5e75a}{Flor{\^e}ncio}{F\bibinitperiod}{Dinei}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=138a45a91746ad040fab227f39318c37}{Herley}{H\bibinitperiod}{Cormac}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=654abcf55a20578e3460c29497c5e75a}{Flor{\^e}ncio}{F\bibinitperiod}{Dinei}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{da6acb4c3e78c098b836d0c04a8b4078}
+      \strng{fullhash}{da6acb4c3e78c098b836d0c04a8b4078}
+      \field{sortinit}{H}
+      \field{labeltitle}{A profitless endeavor: phishing as tragedy of the commons}
+      \field{booktitle}{Proceedings of the 2008 workshop on New security paradigms}
+      \field{title}{A profitless endeavor: phishing as tragedy of the commons}
+      \field{year}{2009}
+      \field{pages}{59\bibrangedash 70}
+      \keyw{bibliography}
+    \endentry
+    \entry{herzberg2013forcing}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=85f6ae2adaaeb5a5ab3027ffe4578181}{Herzberg}{H\bibinitperiod}{Amir}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=69dae5db4a77f4dafced2f01123f8b59}{Margulies}{M\bibinitperiod}{Ronen}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=85f6ae2adaaeb5a5ab3027ffe4578181}{Herzberg}{H\bibinitperiod}{Amir}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=69dae5db4a77f4dafced2f01123f8b59}{Margulies}{M\bibinitperiod}{Ronen}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IOS Press}%
+      }
+      \strng{namehash}{c443d595d1b470f0db0495c66f9cde30}
+      \strng{fullhash}{c443d595d1b470f0db0495c66f9cde30}
+      \field{sortinit}{H}
+      \field{labeltitle}{Forcing Johnny to login safely}
+      \field{journaltitle}{Journal of Computer Security}
+      \field{number}{3}
+      \field{title}{Forcing Johnny to login safely}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{pages}{393\bibrangedash 424}
+      \keyw{bibliography}
+    \endentry
+    \entry{hong:2012}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0a4da858979600985e15a1565d440b2b}
+      \strng{fullhash}{0a4da858979600985e15a1565d440b2b}
+      \field{sortinit}{H}
+      \field{labeltitle}{The state of phishing attacks}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{1}
+      \field{title}{The state of phishing attacks}
+      \field{volume}{55}
+      \field{year}{2012}
+      \field{pages}{74\bibrangedash 81}
+      \keyw{bibliography}
+    \endentry
+    \entry{huang:2012}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=deaea6a9da40da7a60174415150f7161}{Huang}{H\bibinitperiod}{Huajun}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=6ac675eeac1c5e7bc78e7b3531abd551}{Qian}{Q\bibinitperiod}{Liang}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=3b5ab0fc2b51d53d06e4243311f223ee}{Wang}{W\bibinitperiod}{Yaojun}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=deaea6a9da40da7a60174415150f7161}{Huang}{H\bibinitperiod}{Huajun}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=6ac675eeac1c5e7bc78e7b3531abd551}{Qian}{Q\bibinitperiod}{Liang}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=3b5ab0fc2b51d53d06e4243311f223ee}{Wang}{W\bibinitperiod}{Yaojun}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{dc9126cef44bdf075f1118ebdb8a6723}
+      \strng{fullhash}{dc9126cef44bdf075f1118ebdb8a6723}
+      \field{sortinit}{H}
+      \field{labeltitle}{A SVM-based technique to detect phishing URLs}
+      \field{journaltitle}{Information Technology Journal}
+      \field{number}{7}
+      \field{title}{A SVM-based technique to detect phishing URLs}
+      \field{volume}{11}
+      \field{year}{2012}
+      \field{pages}{921\bibrangedash 925}
+      \keyw{bibliography}
+    \endentry
+    \entry{jagatic2007social}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=480ae2004ed538b09b4b078187bf6152}{Jagatic}{J\bibinitperiod}{Tom\bibnamedelima N}{T\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=ca9736be72866679e19755be1c9696de}{Johnson}{J\bibinitperiod}{Nathaniel\bibnamedelima A}{N\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=16e7baa4ffe4fce265292eb139a29c0b}{Jakobsson}{J\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3e3991fca812b39b0448729fca507968}{Menczer}{M\bibinitperiod}{Filippo}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=480ae2004ed538b09b4b078187bf6152}{Jagatic}{J\bibinitperiod}{Tom\bibnamedelima N}{T\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=ca9736be72866679e19755be1c9696de}{Johnson}{J\bibinitperiod}{Nathaniel\bibnamedelima A}{N\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=16e7baa4ffe4fce265292eb139a29c0b}{Jakobsson}{J\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3e3991fca812b39b0448729fca507968}{Menczer}{M\bibinitperiod}{Filippo}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{716d905e2c88bff92832a311ea04ab01}
+      \strng{fullhash}{7562e5eab68d860b243f1e9584445f62}
+      \field{sortinit}{J}
+      \field{labeltitle}{Social phishing}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{10}
+      \field{title}{Social phishing}
+      \field{volume}{50}
+      \field{year}{2007}
+      \field{pages}{94\bibrangedash 100}
+      \keyw{bibliography}
+    \endentry
+    \entry{jakobsson:2005}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=16e7baa4ffe4fce265292eb139a29c0b}{Jakobsson}{J\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=16e7baa4ffe4fce265292eb139a29c0b}{Jakobsson}{J\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{16e7baa4ffe4fce265292eb139a29c0b}
+      \strng{fullhash}{16e7baa4ffe4fce265292eb139a29c0b}
+      \field{sortinit}{J}
+      \field{labeltitle}{Modeling and Preventing Phishing Attacks}
+      \field{booktitle}{Financial Cryptography and Data Security}
+      \field{title}{Modeling and Preventing Phishing Attacks}
+      \field{year}{2005}
+      \field{pages}{89\bibrangedash 89}
+      \keyw{bibliography}
+    \endentry
+    \entry{jakobsson:2006}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=16e7baa4ffe4fce265292eb139a29c0b}{Jakobsson}{J\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=46fa8c17f140376735245837830cf253}{Myers}{M\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=16e7baa4ffe4fce265292eb139a29c0b}{Jakobsson}{J\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=46fa8c17f140376735245837830cf253}{Myers}{M\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{d603fa0b0f3f97b51a41e4ef1546e40e}
+      \strng{fullhash}{d603fa0b0f3f97b51a41e4ef1546e40e}
+      \field{sortinit}{J}
+      \field{labeltitle}{Phishing and countermeasures: understanding the increasing problem of electronic identity theft}
+      \field{title}{Phishing and countermeasures: understanding the increasing problem of electronic identity theft}
+      \field{year}{2006}
+      \keyw{bibliography}
+    \endentry
+    \entry{james:2005}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=d4523ba835e01df56e3e19e46ee5acef}{James}{J\bibinitperiod}{Lance}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d4523ba835e01df56e3e19e46ee5acef}{James}{J\bibinitperiod}{Lance}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Syngress}%
+      }
+      \strng{namehash}{d4523ba835e01df56e3e19e46ee5acef}
+      \strng{fullhash}{d4523ba835e01df56e3e19e46ee5acef}
+      \field{sortinit}{J}
+      \field{labeltitle}{Phishing exposed}
+      \field{title}{Phishing exposed}
+      \field{year}{2005}
+      \keyw{bibliography}
+    \endentry
+    \entry{jansson:2013}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=4b0bff0f05fa861bdb3d1f68594f5796}{Jansson}{J\bibinitperiod}{K}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=c4050381b7f052cbb144e117e2903856}{Solms}{S\bibinitperiod}{Rossouw}{R\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=4b0bff0f05fa861bdb3d1f68594f5796}{Jansson}{J\bibinitperiod}{K}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=c4050381b7f052cbb144e117e2903856}{Solms}{S\bibinitperiod}{Rossouw}{R\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{0d060bd49371edd1ea1e3d9a683d76e7}
+      \strng{fullhash}{0d060bd49371edd1ea1e3d9a683d76e7}
+      \field{sortinit}{J}
+      \field{labeltitle}{Phishing for phishing awareness}
+      \field{journaltitle}{Behaviour \& Information Technology}
+      \field{number}{6}
+      \field{title}{Phishing for phishing awareness}
+      \field{volume}{32}
+      \field{year}{2013}
+      \field{pages}{584\bibrangedash 593}
+      \keyw{bibliography}
+    \endentry
+    \entry{kaivanto2014effect}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=17103166dadd503d6a3b3ab0a3e4725d}{Kaivanto}{K\bibinitperiod}{Kim}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=17103166dadd503d6a3b3ab0a3e4725d}{Kaivanto}{K\bibinitperiod}{Kim}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{17103166dadd503d6a3b3ab0a3e4725d}
+      \strng{fullhash}{17103166dadd503d6a3b3ab0a3e4725d}
+      \field{sortinit}{K}
+      \field{labeltitle}{The Effect of Decentralized Behavioral Decision Making on System-Level Risk}
+      \field{journaltitle}{Risk Analysis, Forthcoming}
+      \field{title}{The Effect of Decentralized Behavioral Decision Making on System-Level Risk}
+      \field{year}{2014}
+      \keyw{bibliography}
+    \endentry
+    \entry{kawakami2010development}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=0af3ddb9bf0bba1bbddc3d234b86ae44}{Kawakami}{K\bibinitperiod}{Masatoshi}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=06f460081955b925bebc6f21373c8440}{Yasuda}{Y\bibinitperiod}{Hiroshi}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=eec4e0a961675acd1c98d6b7ad3112f9}{Sasaki}{S\bibinitperiod}{Ryoichi}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=0af3ddb9bf0bba1bbddc3d234b86ae44}{Kawakami}{K\bibinitperiod}{Masatoshi}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=06f460081955b925bebc6f21373c8440}{Yasuda}{Y\bibinitperiod}{Hiroshi}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=eec4e0a961675acd1c98d6b7ad3112f9}{Sasaki}{S\bibinitperiod}{Ryoichi}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{dfd93bc8be2bf81afc988065a3637f7c}
+      \strng{fullhash}{dfd93bc8be2bf81afc988065a3637f7c}
+      \field{sortinit}{K}
+      \field{labeltitle}{Development of an E-Learning Content-Making System for Information Security (ELSEC) and Its Application to Anti-Phishing Education}
+      \field{booktitle}{e-Education, e-Business, e-Management, and e-Learning, 2010. IC4E'10. International Conference on}
+      \field{title}{Development of an E-Learning Content-Making System for Information Security (ELSEC) and Its Application to Anti-Phishing Education}
+      \field{year}{2010}
+      \field{pages}{7\bibrangedash 11}
+      \keyw{bibliography}
+    \endentry
+    \entry{kim2013understanding}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=d9a478865b35e10463cc1f61d3b44de2}{Kim}{K\bibinitperiod}{Daejoong}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=d1aa7864e915ea022adc7682e481f28f}{Kim}{K\bibinitperiod}{Jang\bibnamedelima Hyun}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=d9a478865b35e10463cc1f61d3b44de2}{Kim}{K\bibinitperiod}{Daejoong}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=d1aa7864e915ea022adc7682e481f28f}{Kim}{K\bibinitperiod}{Jang\bibnamedelima Hyun}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{2e07ffd5da9347ce3aa66570bd943c11}
+      \strng{fullhash}{2e07ffd5da9347ce3aa66570bd943c11}
+      \field{sortinit}{K}
+      \field{labeltitle}{Understanding persuasive elements in phishing e-mails: A categorical content and semantic network analysis}
+      \field{journaltitle}{Online Information Review}
+      \field{number}{6}
+      \field{title}{Understanding persuasive elements in phishing e-mails: A categorical content and semantic network analysis}
+      \field{volume}{37}
+      \field{year}{2013}
+      \field{pages}{835\bibrangedash 850}
+      \keyw{bibliography}
+    \endentry
+    \entry{kirlappos:2012}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=e01ef0723718a0d3c4ab79d819e41d1c}{Kirlappos}{K\bibinitperiod}{Iacovos}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=a424a125eabf8c38324e8906b0471ea7}{Sasse}{S\bibinitperiod}{Martina\bibnamedelima Angela}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e01ef0723718a0d3c4ab79d819e41d1c}{Kirlappos}{K\bibinitperiod}{Iacovos}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=a424a125eabf8c38324e8906b0471ea7}{Sasse}{S\bibinitperiod}{Martina\bibnamedelima Angela}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{02d3f43a98483f9307fe6ad642a64509}
+      \strng{fullhash}{02d3f43a98483f9307fe6ad642a64509}
+      \field{sortinit}{K}
+      \field{labeltitle}{Security Education against Phishing: A Modest Proposal for a Major Rethink}
+      \field{journaltitle}{IEEE Security and Privacy Magazine}
+      \field{number}{2}
+      \field{title}{Security Education against Phishing: A Modest Proposal for a Major Rethink}
+      \field{type}{Journal Article}
+      \field{volume}{10}
+      \field{year}{2012}
+      \field{pages}{24\bibrangedash 32}
+      \keyw{bibliography}
+    \endentry
+    \entry{krombholz2013social}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=7013c00954646b04183fa1fedcc596be}{Krombholz}{K\bibinitperiod}{Katharina}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=1d9a3f77135fe41de404cef2ac2b693f}{Hobel}{H\bibinitperiod}{Heidelinde}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=113ddb9d27e957989cd4ab713deb3347}{Huber}{H\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=de9f207a84b6996c69f6cba985d58933}{Weippl}{W\bibinitperiod}{Edgar}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=7013c00954646b04183fa1fedcc596be}{Krombholz}{K\bibinitperiod}{Katharina}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=1d9a3f77135fe41de404cef2ac2b693f}{Hobel}{H\bibinitperiod}{Heidelinde}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=113ddb9d27e957989cd4ab713deb3347}{Huber}{H\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=de9f207a84b6996c69f6cba985d58933}{Weippl}{W\bibinitperiod}{Edgar}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{b03210d1f2af653a7753cdf1e3940c4e}
+      \strng{fullhash}{33a987b1851fa8d1961072986aeecf32}
+      \field{sortinit}{K}
+      \field{labeltitle}{Social engineering attacks on the knowledge worker}
+      \field{booktitle}{Proceedings of the 6th International Conference on Security of Information and Networks}
+      \field{title}{Social engineering attacks on the knowledge worker}
+      \field{year}{2013}
+      \field{pages}{28\bibrangedash 35}
+      \keyw{bibliography}
+    \endentry
+    \entry{kumaraguru:2008}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=f03e6d53b7822da60db6d200acb0220e}{Kumaraguru}{K\bibinitperiod}{Ponnurangam}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=99fd278465c8c9dd1b969c8ecd5fe247}{Sheng}{S\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3113842fe5fff13a749c6a7cd553198f}{Acquisti}{A\bibinitperiod}{Alessandro}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8552ef9bb0fc0f0774b990893d100ab6}{Cranor}{C\bibinitperiod}{Lorrie\bibnamedelima Faith}{L\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=f03e6d53b7822da60db6d200acb0220e}{Kumaraguru}{K\bibinitperiod}{Ponnurangam}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=99fd278465c8c9dd1b969c8ecd5fe247}{Sheng}{S\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3113842fe5fff13a749c6a7cd553198f}{Acquisti}{A\bibinitperiod}{Alessandro}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8552ef9bb0fc0f0774b990893d100ab6}{Cranor}{C\bibinitperiod}{Lorrie\bibnamedelima Faith}{L\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{46b1d5409a18d8986303714f239abf37}
+      \strng{fullhash}{fb6a1a88e336240b00bbaa10d05acfda}
+      \field{sortinit}{K}
+      \field{labeltitle}{Lessons from a real world evaluation of anti-phishing training}
+      \field{booktitle}{eCrime Researchers Summit, 2008}
+      \field{title}{Lessons from a real world evaluation of anti-phishing training}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 12}
+      \keyw{bibliography}
+    \endentry
+    \entry{kumaraguru2007protecting}{inproceedings}{}
+      \name{labelname}{6}{}{%
+        {{hash=f03e6d53b7822da60db6d200acb0220e}{Kumaraguru}{K\bibinitperiod}{Ponnurangam}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=32b177ad2c6c569843f0362deaa3ee17}{Rhee}{R\bibinitperiod}{Yong}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=3113842fe5fff13a749c6a7cd553198f}{Acquisti}{A\bibinitperiod}{Alessandro}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8552ef9bb0fc0f0774b990893d100ab6}{Cranor}{C\bibinitperiod}{Lorrie\bibnamedelima Faith}{L\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a54efb27d3578ec1181cd29a9671ab64}{Nunge}{N\bibinitperiod}{Elizabeth}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=f03e6d53b7822da60db6d200acb0220e}{Kumaraguru}{K\bibinitperiod}{Ponnurangam}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=32b177ad2c6c569843f0362deaa3ee17}{Rhee}{R\bibinitperiod}{Yong}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=3113842fe5fff13a749c6a7cd553198f}{Acquisti}{A\bibinitperiod}{Alessandro}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8552ef9bb0fc0f0774b990893d100ab6}{Cranor}{C\bibinitperiod}{Lorrie\bibnamedelima Faith}{L\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a54efb27d3578ec1181cd29a9671ab64}{Nunge}{N\bibinitperiod}{Elizabeth}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{46b1d5409a18d8986303714f239abf37}
+      \strng{fullhash}{dfcfc49e2ffbd51ca467d55da5637045}
+      \field{sortinit}{K}
+      \field{labeltitle}{Protecting people from phishing: the design and evaluation of an embedded training email system}
+      \field{booktitle}{Proceedings of the SIGCHI conference on Human factors in computing systems}
+      \field{title}{Protecting people from phishing: the design and evaluation of an embedded training email system}
+      \field{year}{2007}
+      \field{pages}{905\bibrangedash 914}
+      \keyw{bibliography}
+    \endentry
+    \entry{kumaraguru:2009}{inproceedings}{}
+      \name{labelname}{7}{}{%
+        {{hash=f03e6d53b7822da60db6d200acb0220e}{Kumaraguru}{K\bibinitperiod}{Ponnurangam}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=1d90bd25382b13057065d215f785b089}{Cranshaw}{C\bibinitperiod}{Justin}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3113842fe5fff13a749c6a7cd553198f}{Acquisti}{A\bibinitperiod}{Alessandro}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b878c67bb1adc06c70753b7f1e57129c}{Cranor}{C\bibinitperiod}{Lorrie}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2f2a89f8cc2e97021c590009201b1bf0}{Blair}{B\bibinitperiod}{Mary\bibnamedelima Ann}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f41bb2b2230c46c2f7431cae43ed4ffe}{Pham}{P\bibinitperiod}{Theodore}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=f03e6d53b7822da60db6d200acb0220e}{Kumaraguru}{K\bibinitperiod}{Ponnurangam}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=1d90bd25382b13057065d215f785b089}{Cranshaw}{C\bibinitperiod}{Justin}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3113842fe5fff13a749c6a7cd553198f}{Acquisti}{A\bibinitperiod}{Alessandro}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b878c67bb1adc06c70753b7f1e57129c}{Cranor}{C\bibinitperiod}{Lorrie}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2f2a89f8cc2e97021c590009201b1bf0}{Blair}{B\bibinitperiod}{Mary\bibnamedelima Ann}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f41bb2b2230c46c2f7431cae43ed4ffe}{Pham}{P\bibinitperiod}{Theodore}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{46b1d5409a18d8986303714f239abf37}
+      \strng{fullhash}{d6bbb269e29cdd5ae5ce43ceb5ef62a9}
+      \field{sortinit}{K}
+      \field{labeltitle}{School of phish: a real-world evaluation of anti-phishing training}
+      \field{booktitle}{Proceedings of the 5th Symposium on Usable Privacy and Security}
+      \field{title}{School of phish: a real-world evaluation of anti-phishing training}
+      \field{year}{2009}
+      \field{pages}{3}
+      \keyw{bibliography}
+    \endentry
+    \entry{lai}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=efbda20ca7d5cb88a86f53216f3e1f43}{Lai}{L\bibinitperiod}{Willy}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=efbda20ca7d5cb88a86f53216f3e1f43}{Lai}{L\bibinitperiod}{Willy}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{efbda20ca7d5cb88a86f53216f3e1f43}
+      \strng{fullhash}{efbda20ca7d5cb88a86f53216f3e1f43}
+      \field{sortinit}{L}
+      \field{labeltitle}{Fitting Power Law Distributions to Data}
+      \field{title}{Fitting Power Law Distributions to Data}
+      \keyw{additional}
+    \endentry
+    \entry{lastdrager:2014}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=3e8b621fa391d2ac0bcd0f55b2ad5828}{Lastdrager}{L\bibinitperiod}{Elmer\bibnamedelima EH}{E\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3e8b621fa391d2ac0bcd0f55b2ad5828}{Lastdrager}{L\bibinitperiod}{Elmer\bibnamedelima EH}{E\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3e8b621fa391d2ac0bcd0f55b2ad5828}
+      \strng{fullhash}{3e8b621fa391d2ac0bcd0f55b2ad5828}
+      \field{sortinit}{L}
+      \field{labeltitle}{Achieving a consensual definition of phishing based on a systematic review of the literature}
+      \field{journaltitle}{Crime Science}
+      \field{number}{1}
+      \field{title}{Achieving a consensual definition of phishing based on a systematic review of the literature}
+      \field{volume}{3}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 10}
+      \keyw{bibliography}
+    \endentry
+    \entry{le:2011}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=e69a2c58a945df9c89c8a89b1ea97c90}{Le}{L\bibinitperiod}{Anh}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8ac0491108bfe5f02514edcea5f63b59}{Markopoulou}{M\bibinitperiod}{Athina}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7ad29c6165b6ded11a3af6afe5f35633}{Faloutsos}{F\bibinitperiod}{Michalis}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e69a2c58a945df9c89c8a89b1ea97c90}{Le}{L\bibinitperiod}{Anh}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8ac0491108bfe5f02514edcea5f63b59}{Markopoulou}{M\bibinitperiod}{Athina}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7ad29c6165b6ded11a3af6afe5f35633}{Faloutsos}{F\bibinitperiod}{Michalis}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{23b6c8cfd57d50e1550e6439e7158625}
+      \strng{fullhash}{23b6c8cfd57d50e1550e6439e7158625}
+      \field{sortinit}{L}
+      \field{labeltitle}{Phishdef: Url names say it all}
+      \field{booktitle}{INFOCOM, 2011 Proceedings IEEE}
+      \field{title}{Phishdef: Url names say it all}
+      \field{year}{2011}
+      \field{pages}{191\bibrangedash 195}
+      \keyw{bibliography}
+    \endentry
+    \entry{litan2004phishing}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=d07753260aca5787a4777b605e786cbe}{Litan}{L\bibinitperiod}{Avivah}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d07753260aca5787a4777b605e786cbe}{Litan}{L\bibinitperiod}{Avivah}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d07753260aca5787a4777b605e786cbe}
+      \strng{fullhash}{d07753260aca5787a4777b605e786cbe}
+      \field{sortinit}{L}
+      \field{labeltitle}{Phishing victims likely will suffer identity theft fraud}
+      \field{journaltitle}{Gartner Research Note (May 14, 2004)}
+      \field{title}{Phishing victims likely will suffer identity theft fraud}
+      \field{year}{2004}
+      \keyw{additional}
+    \endentry
+    \entry{liu:2010}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=baca2d4cc45983e734aa75be8b4b653a}{Liu}{L\bibinitperiod}{Gang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=ae9e4bc7dc267efd46fca53b4e05d5cc}{Qiu}{Q\bibinitperiod}{Bite}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=ef6265f94464e7cda072af3352c891cc}{Wenyin}{W\bibinitperiod}{Liu}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=baca2d4cc45983e734aa75be8b4b653a}{Liu}{L\bibinitperiod}{Gang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=ae9e4bc7dc267efd46fca53b4e05d5cc}{Qiu}{Q\bibinitperiod}{Bite}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=ef6265f94464e7cda072af3352c891cc}{Wenyin}{W\bibinitperiod}{Liu}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7572b1c0eeb6d4aab363bfb99091ccdc}
+      \strng{fullhash}{7572b1c0eeb6d4aab363bfb99091ccdc}
+      \field{sortinit}{L}
+      \field{labeltitle}{Automatic detection of phishing target from phishing webpage}
+      \field{booktitle}{Pattern Recognition (ICPR), 2010 20th International Conference on}
+      \field{title}{Automatic detection of phishing target from phishing webpage}
+      \field{year}{2010}
+      \field{pages}{4153\bibrangedash 4156}
+      \keyw{bibliography}
+    \endentry
+    \entry{liu}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=a580d4b27cb901a9aa355d400bd9c16e}{Liu}{L\bibinitperiod}{Haotian}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=b966de5042e872a0149387cb401a72c5}{Pan}{P\bibinitperiod}{Xiang}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=06a4307dbc3258e08f8de3e55c1c5bb0}{Qu}{Q\bibinitperiod}{Zhengyang}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=a580d4b27cb901a9aa355d400bd9c16e}{Liu}{L\bibinitperiod}{Haotian}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=b966de5042e872a0149387cb401a72c5}{Pan}{P\bibinitperiod}{Xiang}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=06a4307dbc3258e08f8de3e55c1c5bb0}{Qu}{Q\bibinitperiod}{Zhengyang}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bcae2b239ec942fa330a6f34ebb3538a}
+      \strng{fullhash}{bcae2b239ec942fa330a6f34ebb3538a}
+      \field{sortinit}{L}
+      \field{labeltitle}{Learning based Malicious Web Sites Detection using Suspicious URLs}
+      \field{title}{Learning based Malicious Web Sites Detection using Suspicious URLs}
+      \field{type}{Journal Article}
+      \keyw{bibliography}
+    \endentry
+    \entry{ma:2009}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=c443d4c28f0cacfebd1b66027cee9098}{Ma}{M\bibinitperiod}{Justin}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5b3b0692ba432de2656e974c244d47e3}{Saul}{S\bibinitperiod}{Lawrence\bibnamedelima K}{L\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=dee88ab507f218ded58a2f13c4801dfc}{Savage}{S\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2e507c8534952cbc00876d7c8fbd5f64}{Voelker}{V\bibinitperiod}{Geoffrey\bibnamedelima M}{G\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=c443d4c28f0cacfebd1b66027cee9098}{Ma}{M\bibinitperiod}{Justin}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5b3b0692ba432de2656e974c244d47e3}{Saul}{S\bibinitperiod}{Lawrence\bibnamedelima K}{L\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=dee88ab507f218ded58a2f13c4801dfc}{Savage}{S\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2e507c8534952cbc00876d7c8fbd5f64}{Voelker}{V\bibinitperiod}{Geoffrey\bibnamedelima M}{G\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{cfd39b188787fe64c53696d7ef549248}
+      \strng{fullhash}{db623faed3e786325635e1403d27fe2c}
+      \field{sortinit}{M}
+      \field{labeltitle}{Beyond blacklists: learning to detect malicious web sites from suspicious URLs}
+      \field{booktitle}{Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining}
+      \field{title}{Beyond blacklists: learning to detect malicious web sites from suspicious URLs}
+      \field{year}{2009}
+      \field{pages}{1245\bibrangedash 1254}
+      \keyw{bibliography}
+    \endentry
+    \entry{ma2:2009}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=c443d4c28f0cacfebd1b66027cee9098}{Ma}{M\bibinitperiod}{Justin}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5b3b0692ba432de2656e974c244d47e3}{Saul}{S\bibinitperiod}{Lawrence\bibnamedelima K}{L\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=dee88ab507f218ded58a2f13c4801dfc}{Savage}{S\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2e507c8534952cbc00876d7c8fbd5f64}{Voelker}{V\bibinitperiod}{Geoffrey\bibnamedelima M}{G\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=c443d4c28f0cacfebd1b66027cee9098}{Ma}{M\bibinitperiod}{Justin}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5b3b0692ba432de2656e974c244d47e3}{Saul}{S\bibinitperiod}{Lawrence\bibnamedelima K}{L\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=dee88ab507f218ded58a2f13c4801dfc}{Savage}{S\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2e507c8534952cbc00876d7c8fbd5f64}{Voelker}{V\bibinitperiod}{Geoffrey\bibnamedelima M}{G\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{cfd39b188787fe64c53696d7ef549248}
+      \strng{fullhash}{db623faed3e786325635e1403d27fe2c}
+      \field{sortinit}{M}
+      \field{labeltitle}{Identifying suspicious URLs: an application of large-scale online learning}
+      \field{booktitle}{Proceedings of the 26th Annual International Conference on Machine Learning}
+      \field{title}{Identifying suspicious URLs: an application of large-scale online learning}
+      \field{year}{2009}
+      \field{pages}{681\bibrangedash 688}
+      \keyw{bibliography}
+    \endentry
+    \entry{ma2009detecting}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=658aa56ec17567c340f45799b9ed606f}{Ma}{M\bibinitperiod}{Liping}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=a36ad4a7053a62bf6e939044449648d7}{Ofoghi}{O\bibinitperiod}{Bahadorrezda}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=c1f321237fbd3d339fdcd866e1d47a56}{Watters}{W\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0653a11aad687a389587e0000e0f4a13}{Brown}{B\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=658aa56ec17567c340f45799b9ed606f}{Ma}{M\bibinitperiod}{Liping}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=a36ad4a7053a62bf6e939044449648d7}{Ofoghi}{O\bibinitperiod}{Bahadorrezda}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=c1f321237fbd3d339fdcd866e1d47a56}{Watters}{W\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0653a11aad687a389587e0000e0f4a13}{Brown}{B\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{31d0a53fbb06f7f4f5c70c78c099b77a}
+      \strng{fullhash}{6988156066b6b024e9c7aac9055e6cd2}
+      \field{sortinit}{M}
+      \field{labeltitle}{Detecting phishing emails using hybrid features}
+      \field{booktitle}{Ubiquitous, Autonomic and Trusted Computing, 2009. UIC-ATC'09. Symposia and Workshops on}
+      \field{title}{Detecting phishing emails using hybrid features}
+      \field{year}{2009}
+      \field{pages}{493\bibrangedash 497}
+      \keyw{bibliography}
+    \endentry
+    \entry{mansfield:2013}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=eeb4981be436cd3154408ddf34a9eb4c}{Mansfield-Devine}{M\bibinithyphendelim D\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=eeb4981be436cd3154408ddf34a9eb4c}{Mansfield-Devine}{M\bibinithyphendelim D\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{eeb4981be436cd3154408ddf34a9eb4c}
+      \strng{fullhash}{eeb4981be436cd3154408ddf34a9eb4c}
+      \field{sortinit}{M}
+      \field{labeltitle}{Interview: Joe Ferrara--fighting phishing}
+      \field{journaltitle}{Computer Fraud \& Security}
+      \field{number}{7}
+      \field{title}{Interview: Joe Ferrara--fighting phishing}
+      \field{volume}{2013}
+      \field{year}{2013}
+      \field{pages}{17\bibrangedash 20}
+      \keyw{bibliography}
+    \endentry
+    \entry{mccall2007gartner}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=47ed4fd991231ddd58bf411ea23e5674}{McCall}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=47ed4fd991231ddd58bf411ea23e5674}{McCall}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{47ed4fd991231ddd58bf411ea23e5674}
+      \strng{fullhash}{47ed4fd991231ddd58bf411ea23e5674}
+      \field{sortinit}{M}
+      \field{labeltitle}{Gartner survey shows phishing attacks escalated in 2007; more than \$3 billion lost to these attacks}
+      \field{journaltitle}{Stephane GALLAND}
+      \field{title}{Gartner survey shows phishing attacks escalated in 2007; more than \$3 billion lost to these attacks}
+      \field{year}{2007}
+      \keyw{additional}
+    \endentry
+    \entry{mccall:2007}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=47ed4fd991231ddd58bf411ea23e5674}{McCall}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=47ed4fd991231ddd58bf411ea23e5674}{McCall}{M\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{47ed4fd991231ddd58bf411ea23e5674}
+      \strng{fullhash}{47ed4fd991231ddd58bf411ea23e5674}
+      \field{sortinit}{M}
+      \field{labeltitle}{Gartner survey shows phishing attacks escalated in 2007; more than \$3 billion lost to these attacks}
+      \field{journaltitle}{Stephane GALLAND}
+      \field{title}{Gartner survey shows phishing attacks escalated in 2007; more than \$3 billion lost to these attacks}
+      \field{type}{Journal Article}
+      \field{year}{2007}
+      \keyw{bibliography}
+    \endentry
+    \entry{mitnik:2001}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=1b6606c3988512ab399fcfda8ed661ce}{Mitnick}{M\bibinitperiod}{Kevin\bibnamedelima D}{K\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=414843b5f409c5962a6c49224a5ee3cf}{Simon}{S\bibinitperiod}{William\bibnamedelima L}{W\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=1b6606c3988512ab399fcfda8ed661ce}{Mitnick}{M\bibinitperiod}{Kevin\bibnamedelima D}{K\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=414843b5f409c5962a6c49224a5ee3cf}{Simon}{S\bibinitperiod}{William\bibnamedelima L}{W\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{09e6289d04c0e410a93b97a8aaebec02}
+      \strng{fullhash}{09e6289d04c0e410a93b97a8aaebec02}
+      \field{sortinit}{M}
+      \field{labeltitle}{The art of deception: Controlling the human element of security}
+      \field{title}{The art of deception: Controlling the human element of security}
+      \field{year}{2001}
+      \keyw{bibliography}
+    \endentry
+    \entry{moore:2007}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=daf5b824fdd1f6eefb27ea1c1743e32c}{Moore}{M\bibinitperiod}{Tyler}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=4daba34aef0c0a8033abd665906bd8a7}{Clayton}{C\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=daf5b824fdd1f6eefb27ea1c1743e32c}{Moore}{M\bibinitperiod}{Tyler}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=4daba34aef0c0a8033abd665906bd8a7}{Clayton}{C\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{3c53cfef7e464c12fe73c0dc7f22c7f4}
+      \strng{fullhash}{3c53cfef7e464c12fe73c0dc7f22c7f4}
+      \field{sortinit}{M}
+      \field{labeltitle}{An Empirical Analysis of the Current State of Phishing Attack and Defence}
+      \field{booktitle}{WEIS}
+      \field{title}{An Empirical Analysis of the Current State of Phishing Attack and Defence}
+      \field{type}{Conference Proceedings}
+      \keyw{bibliography}
+    \endentry
+    \entry{moore:2008}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{hash=daf5b824fdd1f6eefb27ea1c1743e32c}{Moore}{M\bibinitperiod}{Tyler}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=4daba34aef0c0a8033abd665906bd8a7}{Clayton}{C\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=daf5b824fdd1f6eefb27ea1c1743e32c}{Moore}{M\bibinitperiod}{Tyler}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=4daba34aef0c0a8033abd665906bd8a7}{Clayton}{C\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3c53cfef7e464c12fe73c0dc7f22c7f4}
+      \strng{fullhash}{3c53cfef7e464c12fe73c0dc7f22c7f4}
+      \field{sortinit}{M}
+      \field{labeltitle}{Evaluating the wisdom of crowds in assessing phishing websites}
+      \field{booktitle}{Financial Cryptography and Data Security}
+      \field{title}{Evaluating the wisdom of crowds in assessing phishing websites}
+      \field{year}{2008}
+      \field{pages}{16\bibrangedash 30}
+      \keyw{bibliography}
+    \endentry
+    \entry{moura2009scalable}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{hash=da60c4260d0bf21aac43e113977cf176}{Moura}{M\bibinitperiod}{Giovane\bibnamedelima CM}{G\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=f60eb4a9f3abb113820391a125a8883f}{Pras}{P\bibinitperiod}{Aiko}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=da60c4260d0bf21aac43e113977cf176}{Moura}{M\bibinitperiod}{Giovane\bibnamedelima CM}{G\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=f60eb4a9f3abb113820391a125a8883f}{Pras}{P\bibinitperiod}{Aiko}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{66c20b58b2c6d80323688a3d864bb33a}
+      \strng{fullhash}{66c20b58b2c6d80323688a3d864bb33a}
+      \field{sortinit}{M}
+      \field{labeltitle}{Scalable Detection and Isolation of Phishing}
+      \field{booktitle}{Scalability of Networks and Services}
+      \field{title}{Scalable Detection and Isolation of Phishing}
+      \field{year}{2009}
+      \field{pages}{195\bibrangedash 198}
+      \keyw{bibliography}
+    \endentry
+    \entry{nero:2011}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=e55807a769a2b1bd9b284f9603ea4126}{Nero}{N\bibinitperiod}{Philip\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=732244610b362ed6ed900c64d9fe8f4c}{Wardman}{W\bibinitperiod}{Brad}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=a2d922d17a6003f3c358e2db2c36f76f}{Copes}{C\bibinitperiod}{Heith}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=d6897440ab59fa2e36a9b305c01dab32}{Warner}{W\bibinitperiod}{Gary}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=e55807a769a2b1bd9b284f9603ea4126}{Nero}{N\bibinitperiod}{Philip\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=732244610b362ed6ed900c64d9fe8f4c}{Wardman}{W\bibinitperiod}{Brad}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=a2d922d17a6003f3c358e2db2c36f76f}{Copes}{C\bibinitperiod}{Heith}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=d6897440ab59fa2e36a9b305c01dab32}{Warner}{W\bibinitperiod}{Gary}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c488546dda843d30b8eb27831ce55d76}
+      \strng{fullhash}{f392a95c5a4f19ea69ff49e523a28ea2}
+      \field{sortinit}{N}
+      \field{labeltitle}{Phishing: Crime that pays}
+      \field{booktitle}{eCrime Researchers Summit (eCrime), 2011}
+      \field{title}{Phishing: Crime that pays}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 10}
+      \keyw{bibliography}
+    \endentry
+    \entry{npdn:2013}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=f5f59cac90f2d939b856494b6240be5a}{Network}{N\bibinitperiod}{National\bibnamedelimb Plant\bibnamedelima Diagnostic}{N\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f5f59cac90f2d939b856494b6240be5a}{Network}{N\bibinitperiod}{National\bibnamedelimb Plant\bibnamedelima Diagnostic}{N\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f5f59cac90f2d939b856494b6240be5a}
+      \strng{fullhash}{f5f59cac90f2d939b856494b6240be5a}
+      \field{sortinit}{N}
+      \field{labeltitle}{Types of Social Engineering}
+      \field{note}{[Online; accessed 16-July-2014]}
+      \field{title}{Types of Social Engineering}
+      \verb{url}
+      \verb http://www.npdn.org/social_engineering_types
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{organization:2005}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=b87d30a9543b3b8da999d2ef7c6ba543}{Normalizaci\'{o}n}{N\bibinitperiod}{Organizaci\'{o}n\bibnamedelima Internacional}{O\bibinitperiod\bibinitdelim I\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=b87d30a9543b3b8da999d2ef7c6ba543}{Normalizaci\'{o}n}{N\bibinitperiod}{Organizaci\'{o}n\bibnamedelima Internacional}{O\bibinitperiod\bibinitdelim I\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ISO/IEC}%
+      }
+      \strng{namehash}{b87d30a9543b3b8da999d2ef7c6ba543}
+      \strng{fullhash}{b87d30a9543b3b8da999d2ef7c6ba543}
+      \field{sortinit}{N}
+      \field{labeltitle}{ISO/IEC 27002: Information Technology, Security Techniques, Code of Practice for Information Security Management}
+      \field{title}{ISO/IEC 27002: Information Technology, Security Techniques, Code of Practice for Information Security Management}
+      \field{type}{Book}
+      \field{year}{2005}
+      \keyw{bibliography}
+    \endentry
+    \entry{phishtank}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=64865edb79224cd44af093a3f2303640}{OpenDNS}{O\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=64865edb79224cd44af093a3f2303640}{OpenDNS}{O\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{64865edb79224cd44af093a3f2303640}
+      \strng{fullhash}{64865edb79224cd44af093a3f2303640}
+      \field{sortinit}{O}
+      \field{labeltitle}{Phishtank: Out of the Net, into the Tank}
+      \field{note}{[Online; accessed 13-May-2014]}
+      \field{title}{Phishtank: Out of the Net, into the Tank}
+      \verb{url}
+      \verb http://www.phishtank.com/faq.phpk
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{parmar:2014}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=e91f5cd6027399271ca7bb027e33546a}{Parmar}{P\bibinitperiod}{Parth}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=c15c63c1cbcf1892e02c8117378aebc8}{Patel}{P\bibinitperiod}{Kalpesh}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e91f5cd6027399271ca7bb027e33546a}{Parmar}{P\bibinitperiod}{Parth}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=c15c63c1cbcf1892e02c8117378aebc8}{Patel}{P\bibinitperiod}{Kalpesh}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ESRSA Publications}%
+      }
+      \strng{namehash}{b9f43703a28d56e76a8705747937769e}
+      \strng{fullhash}{b9f43703a28d56e76a8705747937769e}
+      \field{sortinit}{P}
+      \field{labeltitle}{Comparison of Phishing Detection Techniques}
+      \field{booktitle}{International Journal of Engineering Research and Technology}
+      \field{number}{3 (March-2014)}
+      \field{title}{Comparison of Phishing Detection Techniques}
+      \field{volume}{3}
+      \field{year}{2014}
+      \keyw{bibliography}
+    \endentry
+    \entry{parno:2006}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=d1c3ff1d03867d809be05c74fdae1593}{Parno}{P\bibinitperiod}{Bryan}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=056cad769d2101dedcf4a4dc12429308}{Kuo}{K\bibinitperiod}{Cynthia}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=7008e0fc312a01ec512c7479e63bf472}{Perrig}{P\bibinitperiod}{Adrian}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=d1c3ff1d03867d809be05c74fdae1593}{Parno}{P\bibinitperiod}{Bryan}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=056cad769d2101dedcf4a4dc12429308}{Kuo}{K\bibinitperiod}{Cynthia}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=7008e0fc312a01ec512c7479e63bf472}{Perrig}{P\bibinitperiod}{Adrian}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e68b146c002d42e63f6a5cd3d1fe1ecd}
+      \strng{fullhash}{e68b146c002d42e63f6a5cd3d1fe1ecd}
+      \field{sortinit}{P}
+      \field{labeltitle}{Phoolproof phishing prevention}
+      \field{title}{Phoolproof phishing prevention}
+      \field{year}{2006}
+      \keyw{bibliography}
+    \endentry
+    \entry{pennebaker1976american}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=338f266fa3f6e7aba7ed6cc745bdb23a}{Pennebaker}{P\bibinitperiod}{James\bibnamedelima W}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=ec189b9cdedfafe1d86d327a377e2f1b}{Sanders}{S\bibinitperiod}{Deborah\bibnamedelima Yates}{D\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=338f266fa3f6e7aba7ed6cc745bdb23a}{Pennebaker}{P\bibinitperiod}{James\bibnamedelima W}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=ec189b9cdedfafe1d86d327a377e2f1b}{Sanders}{S\bibinitperiod}{Deborah\bibnamedelima Yates}{D\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications}%
+      }
+      \strng{namehash}{35d2adccd7947125233efe777e6f5948}
+      \strng{fullhash}{35d2adccd7947125233efe777e6f5948}
+      \field{sortinit}{P}
+      \field{labeltitle}{American graffiti: Effects of authority and reactance arousal}
+      \field{journaltitle}{Personality and Social Psychology Bulletin}
+      \field{number}{3}
+      \field{title}{American graffiti: Effects of authority and reactance arousal}
+      \field{volume}{2}
+      \field{year}{1976}
+      \field{pages}{264\bibrangedash 267}
+      \keyw{bibliography}
+    \endentry
+    \entry{phishorg}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=081ca98439cceb0f91017ccbadf51948}{Phishing.org}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=081ca98439cceb0f91017ccbadf51948}{Phishing.org}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{081ca98439cceb0f91017ccbadf51948}
+      \strng{fullhash}{081ca98439cceb0f91017ccbadf51948}
+      \field{sortinit}{P}
+      \field{labeltitle}{History of Phishing}
+      \field{number}{April 10}
+      \field{title}{History of Phishing}
+      \field{type}{Web Page}
+      \field{volume}{2014}
+      \verb{url}
+      \verb http://www.phishing.org/history-of-phishing/
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{purkait}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=5742e6aa95c6e4d48237c715f0d70a23}{Purkait}{P\bibinitperiod}{Swapan}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5742e6aa95c6e4d48237c715f0d70a23}{Purkait}{P\bibinitperiod}{Swapan}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{5742e6aa95c6e4d48237c715f0d70a23}
+      \strng{fullhash}{5742e6aa95c6e4d48237c715f0d70a23}
+      \field{sortinit}{P}
+      \field{labeltitle}{Phishing counter measures and their effectiveness--literature review}
+      \field{journaltitle}{Information Management \& Computer Security}
+      \field{number}{5}
+      \field{title}{Phishing counter measures and their effectiveness--literature review}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{pages}{382\bibrangedash 420}
+      \keyw{bibliography}
+    \endentry
+    \entry{teri:2014}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=cb4d84749b5e3a2989d380f106098d1e}{Robinson}{R\bibinitperiod}{Teri}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=cb4d84749b5e3a2989d380f106098d1e}{Robinson}{R\bibinitperiod}{Teri}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{cb4d84749b5e3a2989d380f106098d1e}
+      \strng{fullhash}{cb4d84749b5e3a2989d380f106098d1e}
+      \field{sortinit}{R}
+      \field{labeltitle}{Phishing scam aimed at Google Docs, Drive users}
+      \field{note}{[Online; accessed 13-May-2014]}
+      \field{title}{Phishing scam aimed at Google Docs, Drive users}
+      \verb{url}
+      \verb http://www.scmagazine.com/phishing-scam-aimed-at-google-docs-drive-users/article/338369/
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{schechter:2007}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=41b36b41c710056f8992e6c5f1cc370d}{Schechter}{S\bibinitperiod}{Stuart\bibnamedelima E}{S\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=54ff7143ae3c688e6b5c4fa37cee3429}{Dhamija}{D\bibinitperiod}{Rachna}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=fcc99949e2bec90a9ca2edd4d3df8d3e}{Ozment}{O\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=283cecbdc579f4c9098a22907b254877}{Fischer}{F\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=41b36b41c710056f8992e6c5f1cc370d}{Schechter}{S\bibinitperiod}{Stuart\bibnamedelima E}{S\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=54ff7143ae3c688e6b5c4fa37cee3429}{Dhamija}{D\bibinitperiod}{Rachna}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=fcc99949e2bec90a9ca2edd4d3df8d3e}{Ozment}{O\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=283cecbdc579f4c9098a22907b254877}{Fischer}{F\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{edc72c23c808a1146a82ac4171fcbbe6}
+      \strng{fullhash}{2cf870d26c2791731481a1779cd3f951}
+      \field{sortinit}{S}
+      \field{labeltitle}{The emperor's new security indicators}
+      \field{booktitle}{Security and Privacy, 2007. SP'07. IEEE Symposium on}
+      \field{title}{The emperor's new security indicators}
+      \field{year}{2007}
+      \field{pages}{51\bibrangedash 65}
+      \keyw{bibliography}
+    \endentry
+    \entry{sharma2010anatomy}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=35717b460566bc605206c1fcaf8f9a6e}{Sharma}{S\bibinitperiod}{Kunal}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=35717b460566bc605206c1fcaf8f9a6e}{Sharma}{S\bibinitperiod}{Kunal}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{35717b460566bc605206c1fcaf8f9a6e}
+      \strng{fullhash}{35717b460566bc605206c1fcaf8f9a6e}
+      \field{sortinit}{S}
+      \field{labeltitle}{An Anatomy of Phishing Messages as Deceiving Persuasion: A Categorical Content and Semantic Network Study}
+      \field{journaltitle}{EDPACS}
+      \field{number}{6}
+      \field{title}{An Anatomy of Phishing Messages as Deceiving Persuasion: A Categorical Content and Semantic Network Study}
+      \field{volume}{42}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 19}
+      \keyw{bibliography}
+    \endentry
+    \entry{stajano2011understanding}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=19218b41105eb985a5ca495171d12516}{Stajano}{S\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=6b64b7b7d69826da072783c99973005f}{Wilson}{W\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=19218b41105eb985a5ca495171d12516}{Stajano}{S\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=6b64b7b7d69826da072783c99973005f}{Wilson}{W\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9c06f4e6bb66e777aa4b5d0676953cb2}
+      \strng{fullhash}{9c06f4e6bb66e777aa4b5d0676953cb2}
+      \field{sortinit}{S}
+      \field{labeltitle}{Understanding scam victims: seven principles for systems security}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{3}
+      \field{title}{Understanding scam victims: seven principles for systems security}
+      \field{volume}{54}
+      \field{year}{2011}
+      \field{pages}{70\bibrangedash 75}
+      \keyw{bibliography}
+    \endentry
+    \entry{tajfel2004social}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=d234567a16d76986d1a34f0623b6b071}{Tajfel}{T\bibinitperiod}{Henri}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=ac1fd29c925ac1b947bd10462227fdb5}{Turner}{T\bibinitperiod}{John\bibnamedelima C}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=d234567a16d76986d1a34f0623b6b071}{Tajfel}{T\bibinitperiod}{Henri}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=ac1fd29c925ac1b947bd10462227fdb5}{Turner}{T\bibinitperiod}{John\bibnamedelima C}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nelson-Hall}%
+      }
+      \strng{namehash}{0d45201596e711e73787c16c041754d2}
+      \strng{fullhash}{0d45201596e711e73787c16c041754d2}
+      \field{sortinit}{T}
+      \field{labeltitle}{The Social Identity Theory of Intergroup Behavior.}
+      \field{journaltitle}{Psychology of Intergroup Relations}
+      \field{title}{The Social Identity Theory of Intergroup Behavior.}
+      \field{year}{1986}
+      \keyw{bibliography}
+    \endentry
+    \entry{tally:2004}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=59e53d26c76264deddc50f1892a262ed}{Tally}{T\bibinitperiod}{Gregg}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=a044516ba980b5ac0c91243ececb9791}{Thomas}{T\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=add5ff562e756da4ae5a864124fab5c1}{Van\bibnamedelima Vleck}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=59e53d26c76264deddc50f1892a262ed}{Tally}{T\bibinitperiod}{Gregg}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=a044516ba980b5ac0c91243ececb9791}{Thomas}{T\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=add5ff562e756da4ae5a864124fab5c1}{Van\bibnamedelima Vleck}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{63454a61a7cd05b6ce4a840c2a069e96}
+      \strng{fullhash}{63454a61a7cd05b6ce4a840c2a069e96}
+      \field{sortinit}{T}
+      \field{labeltitle}{Anti-Phishing: Best Practices for Institutions and Consumers}
+      \field{journaltitle}{McAfee Research, Mar}
+      \field{title}{Anti-Phishing: Best Practices for Institutions and Consumers}
+      \field{type}{Journal Article}
+      \field{year}{2004}
+      \keyw{additional}
+    \endentry
+    \entry{phishguru}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=af209e50a8b42b0b133c5ecdcccdf58b}{technology}{t\bibinitperiod}{Wombat}{W\bibinitperiod}{security}{s\bibinitperiod}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=af209e50a8b42b0b133c5ecdcccdf58b}{technology}{t\bibinitperiod}{Wombat}{W\bibinitperiod}{security}{s\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{af209e50a8b42b0b133c5ecdcccdf58b}
+      \strng{fullhash}{af209e50a8b42b0b133c5ecdcccdf58b}
+      \field{sortinit}{t}
+      \field{labeltitle}{PhishGuru: Assess and Motivate Your Employees using Simulated Phishing Attacks}
+      \field{note}{[Online; accessed 23-May-2014]}
+      \field{title}{PhishGuru: Assess and Motivate Your Employees using Simulated Phishing Attacks}
+      \verb{url}
+      \verb http://www.wombatsecurity.com/phishguru
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{telemarket:2013}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=51f2a4a9945eead22996cf4dd4e42953}{Telemarketing}{T\bibinitperiod}{Inspired}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=51f2a4a9945eead22996cf4dd4e42953}{Telemarketing}{T\bibinitperiod}{Inspired}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{51f2a4a9945eead22996cf4dd4e42953}
+      \strng{fullhash}{51f2a4a9945eead22996cf4dd4e42953}
+      \field{sortinit}{T}
+      \field{labeltitle}{5 tips for getting past receptionists!}
+      \field{note}{[Online; accessed 16-July-2014]}
+      \field{title}{5 tips for getting past receptionists!}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://inspiredtelemarketing.wordpress.com/2013/09/13/5-tips-for-getting-past-receptionists/
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{vishwanath2011people}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=f47aa363b5e17882add17918d251f072}{Vishwanath}{V\bibinitperiod}{Arun}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ed9beaf862cec7665d5f9c307188e5f3}{Herath}{H\bibinitperiod}{Tejaswini}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=42f6181eb67b9a39e475722f47481a53}{Chen}{C\bibinitperiod}{Rui}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=7ebda8169f84d35156284887a9609a75}{Wang}{W\bibinitperiod}{Jingguo}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=73ac16620e308cfe7356097c53c71865}{Rao}{R\bibinitperiod}{H\bibnamedelima Raghav}{H\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=f47aa363b5e17882add17918d251f072}{Vishwanath}{V\bibinitperiod}{Arun}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ed9beaf862cec7665d5f9c307188e5f3}{Herath}{H\bibinitperiod}{Tejaswini}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=42f6181eb67b9a39e475722f47481a53}{Chen}{C\bibinitperiod}{Rui}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=7ebda8169f84d35156284887a9609a75}{Wang}{W\bibinitperiod}{Jingguo}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=73ac16620e308cfe7356097c53c71865}{Rao}{R\bibinitperiod}{H\bibnamedelima Raghav}{H\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c7adf28ac12e17cc79860d407789845b}
+      \strng{fullhash}{9511f0e6d0c0d43b37745b05318b0a73}
+      \field{sortinit}{V}
+      \field{labeltitle}{Why do people get phished? Testing individual differences in phishing vulnerability within an integrated, information processing model}
+      \field{journaltitle}{Decision Support Systems}
+      \field{number}{3}
+      \field{title}{Why do people get phished? Testing individual differences in phishing vulnerability within an integrated, information processing model}
+      \field{volume}{51}
+      \field{year}{2011}
+      \field{pages}{576\bibrangedash 586}
+      \keyw{bibliography}
+    \endentry
+    \entry{merriam}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=631b82f55dd31800b2d985064f1d80f0}{Webster}{W\bibinitperiod}{Merriam}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=631b82f55dd31800b2d985064f1d80f0}{Webster}{W\bibinitperiod}{Merriam}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{631b82f55dd31800b2d985064f1d80f0}
+      \strng{fullhash}{631b82f55dd31800b2d985064f1d80f0}
+      \field{sortinit}{W}
+      \field{labeltitle}{Phishing}
+      \field{number}{April 7}
+      \field{title}{Phishing}
+      \field{type}{Web Page}
+      \field{volume}{2014}
+      \verb{url}
+      \verb http://www.merriam-webster.com/dictionary/phishing
+      \endverb
+      \keyw{additional}
+    \endentry
+    \entry{wenyin:2010}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=ef6265f94464e7cda072af3352c891cc}{Wenyin}{W\bibinitperiod}{Liu}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=196b0b873e999fc9f4857bb9111fd8a5}{Fang}{F\bibinitperiod}{Ning}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=9d6732f7c20772a440e45cfb524c514d}{Quan}{Q\bibinitperiod}{Xiaojun}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=ae9e4bc7dc267efd46fca53b4e05d5cc}{Qiu}{Q\bibinitperiod}{Bite}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=baca2d4cc45983e734aa75be8b4b653a}{Liu}{L\bibinitperiod}{Gang}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=ef6265f94464e7cda072af3352c891cc}{Wenyin}{W\bibinitperiod}{Liu}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=196b0b873e999fc9f4857bb9111fd8a5}{Fang}{F\bibinitperiod}{Ning}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=9d6732f7c20772a440e45cfb524c514d}{Quan}{Q\bibinitperiod}{Xiaojun}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=ae9e4bc7dc267efd46fca53b4e05d5cc}{Qiu}{Q\bibinitperiod}{Bite}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=baca2d4cc45983e734aa75be8b4b653a}{Liu}{L\bibinitperiod}{Gang}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{e79855aace8bae7037db8fd973ef5d5b}
+      \strng{fullhash}{e6ea3f0d8855859660049744a598a8b9}
+      \field{sortinit}{W}
+      \field{labeltitle}{Discovering phishing target based on semantic link network}
+      \field{journaltitle}{Future Generation Computer Systems}
+      \field{number}{3}
+      \field{title}{Discovering phishing target based on semantic link network}
+      \field{volume}{26}
+      \field{year}{2010}
+      \field{pages}{381\bibrangedash 388}
+      \keyw{bibliography}
+    \endentry
+    \entry{wetzel:2005}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=040a80898c0cf0fe052064b3ee76fca5}{Wetzel}{W\bibinitperiod}{Rebecca}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=040a80898c0cf0fe052064b3ee76fca5}{Wetzel}{W\bibinitperiod}{Rebecca}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{040a80898c0cf0fe052064b3ee76fca5}
+      \strng{fullhash}{040a80898c0cf0fe052064b3ee76fca5}
+      \field{sortinit}{W}
+      \field{labeltitle}{Tackling phishing}
+      \field{journaltitle}{Business Communications Review}
+      \field{number}{2}
+      \field{title}{Tackling phishing}
+      \field{type}{Journal Article}
+      \field{volume}{35}
+      \field{year}{2005}
+      \field{pages}{46\bibrangedash 49}
+      \keyw{additional}
+    \endentry
+    \entry{white:2012}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=87427412282e1ab15156e536872fe592}{White}{W\bibinitperiod}{Joshua\bibnamedelima S}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=63107ab24c2f419bcba6b92668604896}{Matthews}{M\bibinitperiod}{Jeanna\bibnamedelima N}{J\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=e8a47e90d97d00151a790679311fe3d6}{Stacy}{S\bibinitperiod}{John\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=87427412282e1ab15156e536872fe592}{White}{W\bibinitperiod}{Joshua\bibnamedelima S}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=63107ab24c2f419bcba6b92668604896}{Matthews}{M\bibinitperiod}{Jeanna\bibnamedelima N}{J\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=e8a47e90d97d00151a790679311fe3d6}{Stacy}{S\bibinitperiod}{John\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {International Society for Optics}%
+        {Photonics}%
+      }
+      \strng{namehash}{9a088ffa69553f7ec6c536d2c29a85d0}
+      \strng{fullhash}{9a088ffa69553f7ec6c536d2c29a85d0}
+      \field{sortinit}{W}
+      \field{labeltitle}{A method for the automated detection phishing websites through both site characteristics and image analysis}
+      \field{booktitle}{SPIE Defense, Security, and Sensing}
+      \field{title}{A method for the automated detection phishing websites through both site characteristics and image analysis}
+      \field{type}{Conference Proceedings}
+      \field{pages}{pages}
+      \keyw{bibliography}
+    \endentry
+    \entry{workman:2008}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=3a8c56ab0d03c107625dcbdc0e6e4b89}{Workman}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3a8c56ab0d03c107625dcbdc0e6e4b89}{Workman}{W\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{3a8c56ab0d03c107625dcbdc0e6e4b89}
+      \strng{fullhash}{3a8c56ab0d03c107625dcbdc0e6e4b89}
+      \field{sortinit}{W}
+      \field{labeltitle}{Wisecrackers: A theory-grounded investigation of phishing and pretext social engineering threats to information security}
+      \field{journaltitle}{Journal of the American Society for Information Science and Technology}
+      \field{number}{4}
+      \field{title}{Wisecrackers: A theory-grounded investigation of phishing and pretext social engineering threats to information security}
+      \field{volume}{59}
+      \field{year}{2008}
+      \field{pages}{662\bibrangedash 674}
+      \keyw{bibliography}
+    \endentry
+    \entry{wright2014research}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=a8e98919c9e1bcb01a9bc1cbfba8a1e0}{Wright}{W\bibinitperiod}{Ryan\bibnamedelima T}{R\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=c4565cfc6ec576813fceaace81d44063}{Jensen}{J\bibinitperiod}{Matthew\bibnamedelima L}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=14d8c7d7a38a5649600f12f27682a999}{Thatcher}{T\bibinitperiod}{Jason\bibnamedelima Bennett}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=51455bd0e606d89e109f6b0fb4c696f0}{Dinger}{D\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b29a43b15f98206ad5c08ec8122a8feb}{Marett}{M\bibinitperiod}{Kent}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=a8e98919c9e1bcb01a9bc1cbfba8a1e0}{Wright}{W\bibinitperiod}{Ryan\bibnamedelima T}{R\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=c4565cfc6ec576813fceaace81d44063}{Jensen}{J\bibinitperiod}{Matthew\bibnamedelima L}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=14d8c7d7a38a5649600f12f27682a999}{Thatcher}{T\bibinitperiod}{Jason\bibnamedelima Bennett}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=51455bd0e606d89e109f6b0fb4c696f0}{Dinger}{D\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b29a43b15f98206ad5c08ec8122a8feb}{Marett}{M\bibinitperiod}{Kent}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{cb3f5fe1c5e3af1885fd53df585638ce}
+      \strng{fullhash}{64f668a8f43b019db772aaa7ad9fc6f9}
+      \field{sortinit}{W}
+      \field{labeltitle}{Research Note-Influence Techniques in Phishing Attacks: An Examination of Vulnerability and Resistance}
+      \field{journaltitle}{Information Systems Research}
+      \field{number}{2}
+      \field{title}{Research Note-Influence Techniques in Phishing Attacks: An Examination of Vulnerability and Resistance}
+      \field{volume}{25}
+      \field{year}{2014}
+      \field{pages}{385\bibrangedash 400}
+      \keyw{bibliography}
+    \endentry
+    \entry{xiang:2011}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=b703943aa0db266bac50090b7967da71}{Xiang}{X\bibinitperiod}{Guang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=cbfdf48b1dc7487dc7611bde257f5d95}{Rose}{R\bibinitperiod}{Carolyn\bibnamedelima P}{C\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=b878c67bb1adc06c70753b7f1e57129c}{Cranor}{C\bibinitperiod}{Lorrie}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=b703943aa0db266bac50090b7967da71}{Xiang}{X\bibinitperiod}{Guang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=cbfdf48b1dc7487dc7611bde257f5d95}{Rose}{R\bibinitperiod}{Carolyn\bibnamedelima P}{C\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=b878c67bb1adc06c70753b7f1e57129c}{Cranor}{C\bibinitperiod}{Lorrie}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a8e297f52c94cb84ff2c7fcafd565209}
+      \strng{fullhash}{3b1b7dd810c9eaa256cc55dbc9ec4bde}
+      \field{sortinit}{X}
+      \field{labeltitle}{CANTINA+: a feature-rich machine learning framework for detecting phishing web sites}
+      \field{journaltitle}{ACM Transactions on Information and System Security (TISSEC)}
+      \field{number}{2}
+      \field{title}{CANTINA+: a feature-rich machine learning framework for detecting phishing web sites}
+      \field{volume}{14}
+      \field{year}{2011}
+      \field{pages}{21}
+      \keyw{bibliography}
+    \endentry
+    \entry{yao:2013}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=7d72d4e7114f929681fcf471c3fd9201}{Yao}{Y\bibinitperiod}{Huiping}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=1c37b310821668ad7c742a47454d12bc}{Shin}{S\bibinitperiod}{Dongwan}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=7d72d4e7114f929681fcf471c3fd9201}{Yao}{Y\bibinitperiod}{Huiping}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=1c37b310821668ad7c742a47454d12bc}{Shin}{S\bibinitperiod}{Dongwan}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{651e1c4cf912480e597222acc80f8856}
+      \strng{fullhash}{651e1c4cf912480e597222acc80f8856}
+      \field{sortinit}{Y}
+      \field{labeltitle}{Towards preventing qr code based attacks on android phone using security warnings}
+      \field{booktitle}{Proceedings of the 8th ACM SIGSAC symposium on Information, computer and communications security}
+      \field{title}{Towards preventing qr code based attacks on android phone using security warnings}
+      \field{year}{2013}
+      \field{pages}{341\bibrangedash 346}
+      \keyw{bibliography}
+    \endentry
+    \entry{zhang:2007}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b8238061b3c805be2a30dd55bb11fb21}{Zhang}{Z\bibinitperiod}{Yue}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=eabbfda163281eb3d0d01a9bebd0bb8e}{Hong}{H\bibinitperiod}{Jason\bibnamedelima I}{J\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=cf3ea14eb32789e559b885d8cb5a70ef}{Cranor}{C\bibinitperiod}{Lorrie\bibnamedelima F}{L\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b8238061b3c805be2a30dd55bb11fb21}{Zhang}{Z\bibinitperiod}{Yue}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=eabbfda163281eb3d0d01a9bebd0bb8e}{Hong}{H\bibinitperiod}{Jason\bibnamedelima I}{J\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=cf3ea14eb32789e559b885d8cb5a70ef}{Cranor}{C\bibinitperiod}{Lorrie\bibnamedelima F}{L\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{ddb1e519b032ae1c2ef5f18f523b8350}
+      \strng{fullhash}{ddb1e519b032ae1c2ef5f18f523b8350}
+      \field{sortinit}{Z}
+      \field{labeltitle}{Cantina: a content-based approach to detecting phishing web sites}
+      \field{booktitle}{Proceedings of the 16th international conference on World Wide Web}
+      \field{title}{Cantina: a content-based approach to detecting phishing web sites}
+      \field{year}{2007}
+      \field{pages}{639\bibrangedash 648}
+      \keyw{bibliography}
+    \endentry
+    \entry{zhang:2006}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=b8238061b3c805be2a30dd55bb11fb21}{Zhang}{Z\bibinitperiod}{Yue}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=9986e1a6903b4495e02aece21e4bbf0d}{Egelman}{E\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b878c67bb1adc06c70753b7f1e57129c}{Cranor}{C\bibinitperiod}{Lorrie}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=b8238061b3c805be2a30dd55bb11fb21}{Zhang}{Z\bibinitperiod}{Yue}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=9986e1a6903b4495e02aece21e4bbf0d}{Egelman}{E\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b878c67bb1adc06c70753b7f1e57129c}{Cranor}{C\bibinitperiod}{Lorrie}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=0a4da858979600985e15a1565d440b2b}{Hong}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ISOC}%
+      }
+      \strng{namehash}{f255e0a20f7125703df66a2712ec4d02}
+      \strng{fullhash}{6e6a35d46fa0d561e79dd77332155417}
+      \field{sortinit}{Z}
+      \field{labeltitle}{Phinding phish: Evaluating anti-phishing tools}
+      \field{title}{Phinding phish: Evaluating anti-phishing tools}
+      \field{type}{Conference Proceedings}
+      \keyw{bibliography}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -1,0 +1,361 @@
+\selectlanguage{english}%
+
+\chapter{Discussion}
+
+At the beginning of our research, we have stated two research questions
+that need to be answered. In this section, we will shortly discuss
+our findings to answer our research questions.
+
+
+\section{Research questions}
+
+\ 
+
+\textit{What are the characteristics of reported phishing emails?}
+
+\ 
+
+In \autoref{chap:research-questions}, we defined seven parameters
+to characterize the phishing emails in our dataset. Based on our findings,
+we can conclude in the following points:
+\begin{itemize}
+\item Based on \autoref{tab:Attachment(s)-analysis}, when attachment(s)
+are included in a phishing email, it is likely to attach ZIP or HTML
+file.
+\item Requesting to click a URL(s) is the most prevalent instruction in
+phishing emails. \autoref{tab:Methods-analysis} illustrates this
+finding.
+\item As we illustrated in \autoref{tab:Content-analysis}, most of the
+phishing emails are using HTML code and provide URL(s). 
+\item As the \autoref{tab:Target-analysis} shows, the financial sector
+is the most common target.
+\item \autoref{tab:Reason-classification} depicts that most of the phishing
+emails use an account related concerns as a pretext.
+\item Based on our finding from \autoref{tab:Persuasion-principle-analysis},
+the authority principle is the most used persuasion technique in phishing
+emails.
+\item As we illustrated in \autoref{tab:Account-related-reason-1}, a phishing
+email which has an account related concerns as a pretext, is likely
+to include URL(s).
+\item It can be seen from \autoref{tab:URL-presence-and-1} and \autoref{tab:Includes-attachment-and}
+that phishers provide clear instructions on how recipients are meant
+to act; phishing emails which include attachment(s) are likely to
+request to open it and phishing emails which provide URL(s) are likely
+to request to click on it. 
+\item Based on our finding in \autoref{tab:URL-presence-and}, the URL(s)
+in a phishing email are most likely different from the actual destination.
+\item \autoref{tab:Document-related-reason} suggests that a government
+targeted phish is likely to have a document related reason.
+\item As we illustrated in \autoref{tab:Document-related-reason-1}, it
+suggests that phishing emails which have document related reason as
+a pretext, are likely to include attachment(s)
+\end{itemize}
+Moreover, it is worth pointing out that our finding on the detailed
+financial sector in \autoref{fig:Detailed-of-financial} indicates
+many of them are non-Dutch based financial institutions such as Bank
+of America, Barclays Bank, and Llyods Bank. However, we found this
+is not ideal because our dataset is coming from Dutch based organization.
+Perhaps, this is because we conducted the analysis only on 207 unique
+phishing emails in English language which is 2.45\% of the total reported
+emails. We explain why we can only analyze 207 unique phishing emails
+in English language in \autoref{sec:Limitation}. Despite of this
+limitation, we emphasize that our current study portrays as a precursor
+to a larger study of persuasion techniques and phishing emails in
+general. By this reasoning, our method or measure instruments such
+as algorithms, flowcharts, and variables would not be biasing the
+method to what we may find in the reported phishing emails in Dutch
+language.
+
+\ 
+
+\textit{To what extent are the persuasion principles used in phishing
+emails?}
+
+\ 
+
+To answer the second research question, we look at the relationships
+between the persuasion principles and the generic properties. With
+this in mind, we have established 10 hypotheses related to these relationships
+and we look whether the findings are consistent with these hypotheses.
+\autoref{tab:Overview-of-verified} summarizes the overview of verified
+hypotheses. Because almost all phishing emails use authority principle,
+therefore, this implies all phishing email properties related to authority
+principle are resulted in no significant relationship. 
+
+When we look at financial targeted sector and scarcity principle,
+we find that both financial and non financial targeted emails are
+less chance to have scarcity principle. Apart from our hypothesis
+related to financial sector and scarcity principle, if we look deeper,
+administrator targeted emails are likely to have scarcity principle.
+In contrary, non administrator targeted emails are less likely to
+have scarcity principle. However, our finding suggests that the strength
+of association between administrator targeted emails and scarcity
+principle is weak.
+
+The next finding on the relationship between e-commerce/retails targeted
+emails, it indicates that this sector contributes less number of likeability
+principle as both e-commerce/retails and non-ecommerce/retails targeted
+emails have high number of non-likeability principle. Similarly, our
+data suggests that there are no significant association between social
+media targeted emails and social proof principle.
+
+Another observation whether likeability and consistency have a relationship,
+our data suggests that there is a significant association between
+them. Our result signifies that the higher likeability, the lower
+chance to have consistency principle. This support our hypothesis
+which says the occurrence of likeability will impact the occurrence
+of consistency. However, we find the strength of association between
+the variables is weak.
+
+When we look at account related phishing and scarcity, we find that
+there is a highly significant relationship between them. This means
+that if a phishing email uses an account related as a reason, it will
+likely to use scarcity principle as a persuasion technique. Moreover,
+the result suggests that account related reason and scarcity principle
+have a strong relationship. 
+
+Lastly, we find that there is a significant association between the
+use of HTML and likeability principle. This suggests that likeability
+phishing emails tend to use HTML code to persuade unsuspecting victim.
+However, their strength of association is weak.
+
+\begin{minipage}[t]{1\columnwidth}%
+\begin{center}
+\begin{longtable}{cccc}
+\caption{\label{tab:Overview-of-verified}Overview of verified hypotheses}
+\tabularnewline
+\toprule 
+Hypotheses & Category & Accept & Reject\tabularnewline
+\midrule
+\midrule 
+H1 & A & \selectlanguage{american}%
+\selectlanguage{american}%
+ & X\tabularnewline
+\midrule 
+H2 & A & \selectlanguage{american}%
+\selectlanguage{american}%
+ & X\tabularnewline
+\midrule 
+H3 & A & \selectlanguage{american}%
+\selectlanguage{american}%
+ & X\tabularnewline
+\midrule 
+H4 & A & \selectlanguage{american}%
+\selectlanguage{american}%
+ & X\tabularnewline
+\midrule 
+H5 & A & \selectlanguage{american}%
+\selectlanguage{american}%
+ & X\tabularnewline
+\midrule 
+H6 & A & \selectlanguage{american}%
+\selectlanguage{american}%
+ & X\tabularnewline
+\midrule 
+H7 & A & X & \selectlanguage{american}%
+\selectlanguage{american}%
+\tabularnewline
+\midrule 
+H8 & B & X & \selectlanguage{american}%
+\selectlanguage{american}%
+\tabularnewline
+\midrule 
+H9 & B & X & \selectlanguage{american}%
+\selectlanguage{american}%
+\tabularnewline
+\midrule 
+H10 & B & X & \selectlanguage{american}%
+\selectlanguage{american}%
+\tabularnewline
+\midrule 
+H11 & A & \selectlanguage{american}%
+\selectlanguage{american}%
+ & X\tabularnewline
+\midrule 
+H12 & A & X & \selectlanguage{american}%
+\selectlanguage{american}%
+\tabularnewline
+\midrule 
+H13 & B & X & \selectlanguage{american}%
+\selectlanguage{american}%
+\tabularnewline
+\midrule 
+H14 & B & X & \selectlanguage{american}%
+\selectlanguage{american}%
+\tabularnewline
+\midrule 
+H15 & B & X & \selectlanguage{american}%
+\selectlanguage{american}%
+\tabularnewline
+\midrule 
+H16 & A & X & \selectlanguage{american}%
+\selectlanguage{american}%
+\tabularnewline
+\end{longtable}
+\par\end{center}%
+\end{minipage}
+
+{\footnotesize{}A = Related to persuasion principles}{\footnotesize \par}
+
+{\footnotesize{}B = Related to generic structural properties}{\footnotesize \par}
+
+\  
+
+Overall, seven hypotheses in respect of persuasion principles are
+rejected and three of them are accepted. Based on this result and
+supported by our analysis on the relationship between persuasion principles
+and target types in \autoref{sub:Relationship-between-persuasion}
+and the relationship between persuasion principles and reason types
+in \autoref{sub:Relationship-between-persuasion-1}, we can answer
+our second research question by the following underlying perspectives: 
+\begin{itemize}
+\item The extensive use of authority as a persuasion technique in phishing
+emails as opposed to social proof technique. However, our analysis
+suggests that while the percentages are still high, authority principle
+is less likely to be used in individual target type and social reason
+type. (see \autoref{tab:Persuasion-principle-analysis}, \autoref{tab:Persuasion-principles-vs}
+and \autoref{tab:Persuasion-principles-vs-1})
+\item Depending on the target types and the reason types, three persuasion
+principles (scarcity, consistency and likeability) are the next most
+popular principles used in our dataset. (see \autoref{sub:Relationship-between-persuasion}
+and \autoref{sub:Relationship-between-persuasion-1})
+\item Scarcity principle will likely to be used when phishing emails are
+coming from administrator target type and account reason type. (see
+\autoref{tab:Chi-square-persuasion-principles} and \autoref{tab:Chi-square-tests-Persuasion})
+\item Likeability principle affects the usage of HTML-based email and consistency
+principle. (see \autoref{tab:use-HTML-and} and \autoref{tab:Likeability-and-consistency})
+\end{itemize}
+
+\section{Conclusion}
+
+Our research was aimed at understanding how phishing emails use persuasion
+techniques. The analysis consists of finding relationships between
+persuasion techniques and generic properties of phishing emails.
+
+The finding may be influenced by the fact that only one person (the
+author) has coded the emails. Although, we had made a flowchart in
+\autoref{fig:Flowchart-cialdini} to model our decisions in terms
+of data coding, we believe persuasion techniques are personal and
+difficult to find a consensual decision.
+
+Nevertheless, by using parameters and hypotheses in \autoref{chap:research-questions},
+we have been able to find the characteristics of phishing emails based
+on persuasion techniques. Our approach has shown to be useful in identifying
+critical characteristics and relationships between generic properties
+of phishing emails and persuasion techniques. Three important findings
+of our research are that (1) authority is the most popular persuasion
+technique regardless of the target and the reason used, (2) depending
+on the target types and the reason types, the next most popular persuasion
+principles are scarcity, consistency and likeability and (3) scarcity
+principle has a high involvement with administrator target type and
+account related concerns. When we relate between target types and
+the reason used in phishing emails, our suggestions for preventing
+phishing can be described in the following points:
+\begin{itemize}
+\item If we assume that most people are more likely to comply with authority,
+we suggest a legitimate institution such as financial sector should
+never use emails as a medium of communication with its customers.
+Instead, a legitimate institution should have its own secure messaging
+system to communicate with its customers. This may reduce the risk
+of costumers believing that phishing emails are real.
+\item Even if a legitimate institution uses emails, they may use a simple
+email validation system such as Sender Policy Framework (SPF), that
+is designed to verify sender's email server before delivering all
+legitimate email to the intended recipients. This can prevent a spoofed
+email being delivered to the intended victim. 
+\item Legitimate institution such as a bank could use of what its customers
+have, such as phone number registered in the system or a token given
+by the bank to the customers. A secret code in the email sent by the
+bank should match the code delivered to the customer's phone or token.
+This provides two factor authentication and will make more effort
+for the phishers to spoof the email from the bank. 
+\item It might be useful if security experts can create a library that contains
+the most common words or phrases which signify authority and scarcity
+principles, so that incoming email could be filtered using the library.
+Our flowchart can be useful to help the development of the library
+so that the conventional phishing email detection could be improved.
+\item Our finding suggests that account related is the most used reason
+in phishing emails, therefore, we suggest that anti phishing filtering
+system should also focus to detect account related emails to prevent
+them from being delivered to the intended victim.
+\item Persuasion awareness in phishing emails is needed to help the end
+users as the recipients to think before they respond to an email and
+therefore, it could enhance users' ability to identify phishing emails.
+\end{itemize}
+Overall, the reflection from this research is that the phishers are
+not only utilizing a technical strategy to trick the unsuspecting
+victims, but also persuasion principles to obtain positive responses
+from the victims. Our research exhibits an important aspect of phishing
+emails so that future phishing email countermeasures should not only
+be developed from a technical perspective but they should also be
+able to resist from persuasion misuse. Continued research on persuasion
+techniques in phishing emails is required to stay ahead of the phishers,
+our method being a solid starting point in a real world analysis to
+identify the underlying issue in phishing emails.
+
+
+\section{\label{sec:Limitation}Limitation}
+
+Although the research produces conclusive results, our findings need
+to be assimilated in the backdrop of some limitations which arise
+due to the complex nature of our methodology and research environment.
+It is important for us to explain these limitations so that the readers
+can understand the findings of our research in the proper context.
+The first limitation is that we only get the data from one organization.
+Our study is totally dependent on the information documented by this
+organization, in which we do not know whether the sample data represents
+national-wide or represents a certain area or criterion. The second
+limitation is that, sometimes the email does not show the complete
+structures because the reporter forwarded a suspected phishing email
+as an attachment which removes essential element of it such as original
+attachment(s) included in the original email. This causes our study
+to be dependent on the reporter that reports to this organization
+as well. The third limitation is language barrier. Few numbers of
+suspected English-based phishing emails forwarded by the reporter
+along an information in Dutch language. It might be useful to know
+to understand the information provided by the reporter. Without understanding
+of non-English language, we could also analyze the structural properties
+of phishing emails such as whether the email use HTML or whether it
+contain hidden URL. However, since our analysis was aimed to analyze
+persuasion techniques in phishing emails, we need to have the language
+proficiency to know which persuasion techniques were used. The fourth
+limitation is that, our data classification is done by one person.
+It means the coding of the data into associated variables could be
+inaccurate. While the data coding to the generic structural properties
+of phishing email could be justified, however, the data coding into
+the persuasion principles could be an issue in terms of accuracy.
+For example, one person claimed an email is attractive while another
+person claimed it is not. This introduces the greatest limitation
+to our research because it significantly impacts our results. The
+fifth limitation is being unique dataset of the reported phishing
+emails (440 phishing emails reduced to 207 unique phishing emails).
+This resulted in smaller sample size of data and therefore, gives
+a challenging task to find associations using Pearson chi-square method.
+
+
+\section{\label{sec:Future-work}Future work}
+
+Despite our considerable limitations, a recommendation as a follow-up
+study to analyze phishing emails with Dutch language which we did
+not observe, would be extremely desirable in order to test our findings.
+We feel that any future research along this line will find our work
+to be a useful starting point. Furthermore, we also recommend adding
+resilient validation in data classification in terms of persuasion
+principles by involving several people to have an objective decision.
+It is also interesting to identify authority principle in regular
+emails to make an objective perspective and compare with phishing
+emails. By looking at our findings, future study regarding the success
+of authority principle in phishing emails could be useful if we have
+data of phishing emails which already has claimed a victim. Thus,
+the goal for future research would be the success rate of authority
+principle in phishing emails. In conjunction, controlled environment
+to test persuasion awareness could be helpful to see whether it reduces
+phishing victimization through emails or not. Lastly, as we understand
+that persuasion principles in phishing email have some influence in
+user's decisions, therefore, it is interesting if the future research
+can build a simple game in terms of persuasion awareness to grab user's
+attention to make the right decision. For instance, the flowchart
+in \autoref{fig:Flowchart-cialdini}, can be adapted to ``snakes
+and ladders'' game to alert users of the presence of persuasion principles
+in an email they received.\selectlanguage{american}%
+
