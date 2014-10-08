@@ -131,13 +131,13 @@ Abstract
 As the barrier to abuse system vulnerabilities has been raised significantly
  with time, attacking users' psyche has rapidly become a more efficient
  and effective alternative.
- The usage of email as a media electronic of communication has been exploited
+ The usage of email as an electronic means of communication has been exploited
  by phishers to deliver their attacks.
  The success of a phishing attack through distributed emails is determined
  by the response from the unsuspecting victims.
- Although persuasion can be used as a tool for a good reason, they can also
- be used for a malicious reason by the phishers to get a positive response
- from an intended victim in phishing emails.
+ Although persuasion can be used as a tool for a good reason, it can also
+ be used for a malicious reason by phishers to get a positive response from
+ an intended victim in phishing emails.
 \end_layout
 
 \begin_layout Standard
@@ -146,19 +146,19 @@ To protect users from phishing attacks on the email level, system designers
  techniques in phishing emails.
  In this thesis, we present an analysis of persuasion techniques in phishing
  emails.
- Our research is aimed to understand the characteristics of phishing emails
- considering persuasion techniques in the real world analysis which has
- not been done yet.
+ Our research is aimed at understanding the characteristics of phishing
+ emails, by considering persuasion techniques in the real world analysis
+ which has not been done yet.
  
 \end_layout
 
 \begin_layout Standard
-We have conducted a quantitative analysis on our dataset which consists
- of reported phishing emails between August 2013 and December 2013.
+We have conducted a quantitative analysis on our dataset that consists of
+ reported phishing emails between August 2013 and December 2013.
 
 \lang english
- The findings are observed from mainly three different viewpoints; general
- structural properties, persuasion principles characteristics and their
+ The findings are mainly observed from three different viewpoints: general
+ structural properties; persuasion principles characteristics; and their
  relationships
 \lang american
 .
@@ -166,12 +166,12 @@ We have conducted a quantitative analysis on our dataset which consists
  high number of occurrences in our dataset.
  
 \lang english
-Three important findings of our research are that (1) authority is the most
- popular persuasion technique regardless of the target and the reason used,
- (2) depending on the target types and the reason types, the next most popular
- persuasion principles are scarcity, consistency, and likeability and (3)
- scarcity principle has a high involvement with administrator target type
- and account related concerns.
+Three important findings of our research are that: (1) authority is the
+ most popular persuasion technique regardless of the target and the reason
+ used; (2) depending on the target types and the reason types, the next
+ most popular persuasion principles are scarcity, consistency, and likeability;
+ and (3) scarcity principle has a high involvement with administrator target
+ type and account-related concerns.
  
 \end_layout
 
