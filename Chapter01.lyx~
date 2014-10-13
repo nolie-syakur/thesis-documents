@@ -76,31 +76,31 @@ Introduction
 \begin_layout Standard
 
 \lang english
-With the advancement of information technology in modern generation, the
- evolution of digital era has become more mature in the sense of effectiveness
- and easiness for societies.
- They can sell and buy goods, conduct banking activities and even participate
- in political activities such as election through online.
+With the advancement of information technology in the modern generation,
+ the evolution of the digital era has become more mature in the sense of
+ effectiveness and ease for societies.
+ People can sell and buy goods, conduct banking activities and even participate
+ in political activities such as elections online.
  Trusted entities such as financial institutions generally offer their products
  and services to the public through the Internet.
  Furthermore, modern technology has greatly impacted our society in different
  ways, such as the way we communicate with each other.
- Nowadays, we are no longer need to use a computer to send an email, we
- can just use our smart phone, which we carry every day in our pockets,
+ Nowadays, we are no longer need to use a computer to send an email.
+ We can just use our smartphone, which we carry every day in our pockets,
  with internet connectivity to send an email.
- As a result, human society has been utilizing technology means such as
- emails, websites, online payment system, social networks to achieve their
- tasks efficiently, affordable and more relevant.
+ As a result, society has been utilizing technological means such as emails,
+ websites, online payment systems and social networks to achieve their tasks
+ efficiently, affordably and in a more focus way.
  However, the advancement in information and communication technology has
  been a double-edged sword.
- As the internet increasingly become more accessible, people tend to share
+ As the internet increasingly becomes more accessible, people tend to share
  more about themselves and as a consequence, it becomes easier to get personal
  information about someone on the Internet.
  Cyber criminals see this opportunity as a way to manipulate consumers and
  exploit their confidential information such as usernames, passwords, bank
  account information, credit card or social security numbers.
  Personalized information about someone such as email addresses, phone numbers,
- birth dates, relationships or work place might be obtained from the internet.
+ birthdates, relationships or workplaces can be obtained from the Internet.
  Consequently, cyber criminals can compose an attack in a personalized way
  to persuade intended victims to grant their malicious requests.
 \end_layout
@@ -109,11 +109,12 @@ With the advancement of information technology in modern generation, the
 
 \lang english
 One particular type of cyber crimes is called phishing.
- Many possible incentives that drive phishing attacks such as illicit corporate
- espionage, political power, and the most common incentive of phishing attacks
- is financial benefits.
- The attacker generally masquerades legitimate institutions to trick users
- into disclosing personal, financial or computer account information 
+ There are many many possible incentives that drive phishing attacks including
+ illicit corporate espionage, political power, and, most common of all,
+ financial benefits.
+ The attacker generally masquerades as a legitimate institution to trick
+ users into disclosing personal, financial or computer account information
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -140,8 +141,9 @@ key "dhamija2006phishing"
 
 .
  The practice of utilizing emails and websites is indeed useful as communication
- media, however, they can also accommodate deceptive attacks such as phishing
- as a form of social engineering and deception 
+ media.
+ However, they can also accommodate deceptive attacks such as phishing as
+ a form of social engineering and deception 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -178,9 +180,9 @@ key "jagatic2007social"
 
 .
  Social engineering involves the techniques used to deceive people in order
- to get compliance and response by specific actions which will disclose
- their sensitive information, such as replying to a fake email or clicking
- a link within an email 
+ to get compliance and response by specific actions that will disclose their
+ sensitive information, such as replying to a fake email or clicking a link
+ within an email 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "mitnik:2001"
@@ -190,7 +192,7 @@ key "mitnik:2001"
 .
  Moreover, phishers often use persuasion techniques to manipulate potential
  victims to engage in certain emotions such as excitement and fear as well
- as interpersonal relationship, such as trust and commitments to divert
+ as interpersonal relationships, such as trust and commitments, to divert
  users' attention 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -211,11 +213,11 @@ Problem statement
 \begin_layout Standard
 
 \lang english
-Countermeasures against phishing attacks via email can be technical or non
- technical.
- One of technical approaches to detect phishing email is achieved by discriminat
-ing phishing and original email based on its structural properties using
- machine learning 
+Countermeasures against phishing attacks via email can be technical or non-techn
+ical.
+ One of technical approaches to detect phishing email is achieved by distinguish
+ing between phishing and original emails based on their structural properties,
+ using machine learning 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "chandrasekaran:2006"
@@ -223,8 +225,8 @@ key "chandrasekaran:2006"
 \end_inset
 
 .
- One of non technical approaches to defend against phishing attacks is to
- make people aware of the threats.
+ One of the non-technical approaches to defending against phishing attacks
+ is to make people aware of the threats.
  Security awareness concerning phishing attacks might be achieved by embedded
  training methods that teach people about phishing during their normal use
  of email 
@@ -241,7 +243,7 @@ key "kumaraguru2007protecting"
 \begin_layout Standard
 
 \lang english
-Common characteristics of a phishing email include structural properties
+The common characteristics of a phishing email include structural properties
  such as misleading hyperlinks and misleading header information 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -250,13 +252,13 @@ key "zhang:2006,zhang:2007"
 \end_inset
 
 .
- However, to make a phishing email efficient, its content requires the intended
- victim to urgently act upon it, for example, an email that informs about
- account termination if the recipient does not respond or perform an action
- within a limited time.
+ To make a phishing email effective, its content requires the intended victim
+ to urgently act upon it; for example, an email that informs about account
+ termination if the recipient does not respond or perform an action within
+ a limited time.
  In order to obtain compliance from the recipient in a phishing email, persuasio
-n is used as underlying techniques to get a positive response from an intended
- victim 
+n is used as an underlying technique to get a positive response from an
+ intended victim 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "workman:2008"
@@ -276,13 +278,13 @@ The success of a phishing attack through distributed emails is determined
  Phishers often misuse persuasion techniques to get positive responses from
  the recipients.
  Unfortunately, not many studies have included persuasion techniques as
- the important aspects in phishing emails.
+ important aspects in phishing emails.
  Consequently, not many people are aware of the existence of persuasion
  in the emails they are getting.
- Current phishing email countermeasures are greatly relying on the technical
+ Current phishing email countermeasures are greatly rely on the technical
  aspect alone rather than integrating the technical aspect with psychological
- aspect such as persuasion.
- Based on Cialdini's persuasion principle, there are six basic tendencies
+ aspects such as persuasion.
+ Based on Cialdini's persuasion principles, there are six basic tendencies
  of human behavior that can generate a positive response; reciprocation,
  consistency, social proof, likeability, authority and scarcity 
 \begin_inset CommandInset citation
@@ -317,10 +319,10 @@ persuasion
 \begin_inset Quotes erd
 \end_inset
 
- to search based on title, abstract, and keyword fields in Scopus database
- and we also search based on topic in Web of Science database.
- As we will adopt the concept of persuasion based on Cialdini's six principle,
- we search 
+ to search based on title, abstract, and keyword fields in the Scopus database
+ and we also searched based on topic in the Web of Science database.
+ As we adopt the concept of persuasion based on Cialdini's six principles,
+ we also search 
 \begin_inset Quotes eld
 \end_inset
 
@@ -336,10 +338,10 @@ Cialdini
 \begin_inset Quotes erd
 \end_inset
 
- in the References field.
+ in the references field.
  From 
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -348,7 +350,7 @@ tab:Query-searches-in
 
 \end_inset
 
-, we can see that there are two papers that occurred in both databases 
+, we can see that two papers that occur in both databases 
 \begin_inset ERT
 status open
 
@@ -361,7 +363,7 @@ citep{wright2014research,kaivanto2014effect}
 
 \end_inset
 
- and one paper occurred in both queries 
+ and one paper appearing in both queries 
 \begin_inset ERT
 status open
 
@@ -375,8 +377,8 @@ citep{wright2014research}
 \end_inset
 
 .
- However, Sharma's paper is retracted for having non original materials,
- hence, we will not conduct a review on it.
+ However, Sharma's paper is retracted for having non-original materials,
+ so we will not conduct a review of it.
  We will describe what the remaining papers do and how they are different
  from our research in the following points:
 \end_layout
@@ -587,12 +589,12 @@ Query searches in Scopus and Web of Science
 \begin_layout Itemize
 
 \lang english
-As observed by Kavianto, overall security risk in an organization depends
- on its individual’s behavioral decision to respond to security threats
+As observed by Kavianto, the overall security risk in an organization depends
+ on its individuals' behavioral decisions to respond to security threats
  such as phishing attacks.
- Kavianto also found that individual's behavioral decision can be segregated
- into two level; tradeoffs between uncertainties, losses and benefits, and
- their susceptibility to persuasion techniques 
+ Kavianto also found that an individual's behavioral decisions can be separated
+ into two levels: tradeoffs between uncertainties, losses and benefits;
+ and their susceptibility to persuasion techniques 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cialdini:2001"
@@ -613,7 +615,7 @@ citep{kaivanto2014effect}
 \end_inset
 
 .
- Kavianto develops a model of the individual's behavioral decisions in aggregate
+ Kavianto develops a model of an individual's behavioral decisions in aggregate
  levels 
 \begin_inset ERT
 status open
@@ -632,16 +634,16 @@ citep{kaivanto2014effect}
  behavioral biases into the analysis of system level risk (i.e.
  network security risk).
  Although Kavianto identifies that successful deception can be linked with
- how persuasion techniques used by the perpetrator, there is no actual data
- of phishing emails have been analyzed.
+ how persuasion techniques are used by the perpetrator, no actual data of
+ phishing emails is analyzed.
 \end_layout
 
 \begin_layout Itemize
 
 \lang english
-Blythe, et al.
- were conducting four methods to show how people are often susceptible to
- phishing attacks 
+Blythe et al.
+ used four methods to show how people are often susceptible to phishing
+ attacks 
 \begin_inset ERT
 status open
 
@@ -655,8 +657,8 @@ citep{blythe2011f}
 \end_inset
 
 .
- These four methods are; content analysis, online surveys, interview with
- blind email users and literary analysis 
+ These four methods are: content analysis; online surveys; interview with
+ blind email users; and literary analysis 
 \begin_inset ERT
 status open
 
@@ -671,12 +673,12 @@ citep{blythe2011f}
 
 .
  Content analysis suggests that phishing email is advancing with better
- spelling, grammar and supported by the present of visual graphic such as
- logos.
- Online survey shows that while their participants are computer literate,
- the participants did not always successful in detecting phishing, even
- more so with the present of logo.
- Blythe, et al.
+ spelling and grammar and supported by the present of visual graphics such
+ as logos.
+ Online surveys shows that while their participants are computer literate,
+ they are not always successful in detecting phishing, even more so with
+ the presence of logo.
+ Blythe et al.
  found that blind email users are more attentive to the context of the email
  that is presented 
 \begin_inset ERT
@@ -695,8 +697,8 @@ citep{blythe2011f}
  Thus, the detection of phishing by blind email users is higher than non-disable
 d email users.
  As it became clear that careful reading is the core process of identifying
- phishing emails, Blythe, et al.
- then consider a phishing email as a literature 
+ phishing emails, Blythe et al.
+ then consider a phishing email as literature 
 \begin_inset ERT
 status open
 
@@ -711,12 +713,11 @@ citep{blythe2011f}
 
 .
  Literary analysis shows that the phishers who imitate personalized email
- from banking and security services, makes phishing emails remain successful,
- as they take part into people’s anxieties in terms of the content of the
- email itself.
- Although Blythe, et al.
- conducted content analysis and found that literary analysis claimed to
- be 
+ from banking and security services allow phishing emails to remain successful,
+ as they exploit people’s anxieties in terms of the content of the email
+ itself.
+ Although Blythe et al.
+ conducted content analysis and found that literary analysis was 
 \begin_inset Quotes eld
 \end_inset
 
@@ -724,19 +725,18 @@ very
 \begin_inset Quotes erd
 \end_inset
 
- persuasive, but they did not conduct the content analysis based on persuasion
+ persuasive, they did not conduct their content analysis based on persuasion
  techniques.
- Instead, Blythe, et al.
- conducted the content analysis based on the structural properties such
+ Instead, they based the content analysis on structural properties such
  as sender, grammatical error, logos and style.
 \end_layout
 
 \begin_layout Itemize
 
 \lang english
-Ghorbani, et al.
- argued that some general approaches designed by attackers to obtain sensitive
- information to exploit a computer system are using social engineering 
+Ghorbani et al.
+ argue that some general approaches designed by attackers to obtain sensitive
+ information to exploit a computer system using social engineering 
 \begin_inset ERT
 status open
 
@@ -752,10 +752,10 @@ citep{Ghorbani20101}
 .
  Social engineering includes aggressive persuasion and interpersonal skills
  to obtain unauthorized access to a system.
- Moreover, Ghorbani, et al.
+ Moreover, Ghorbani et al.
  discussed network attack taxonomy, probes, privilege escalation attacks,
- Denial of Service (DOS) attacks and Distributed Denial of Services (DDoS)
- attacks, worm and routing attacks 
+ Denial of Service (DOS) attacks, Distributed Denial of Services (DDoS)
+ attacks, and worm and routing attacks 
 \begin_inset ERT
 status open
 
@@ -777,10 +777,10 @@ citep{Ghorbani20101}
 \begin_layout Itemize
 
 \lang english
-Krombholz, et al.
- paper provides a taxonomy of well known social engineering attacks and
- studies the overview of advanced social engineering attacks on knowledge
- worker 
+The paper of Krombholz et al.
+ provides a taxonomy of well-known social engineering attacks and studies
+ the overview of advanced social engineering attacks on knowledge workers
+ 
 \begin_inset ERT
 status open
 
@@ -795,15 +795,16 @@ citep{krombholz2013social}
 
 .
  What they meant by knowledge worker here is the worker that characterized
- knowledge as one's capital.
+ knowledge as their capital.
  The paper used Cialdini's persuasion principles as the background study
  of social engineering.
- The taxonomy was classified based on attack channel (i.e.
- emails, instant messenger, social network, etc.), the operator (i.e.
- human, software), different types of social engineering (i.e.
- phishing, shoulder surfing, dumpster diving, etc.) and specific attack scenarios.
- Krombholz, et al.
- showcase the overview of social engineering attacks by creating a taxonomy
+ The taxonomy was classified based on attack channel (e.g.
+ emails, instant messenger, social network, etc.), the operator (e.g.
+ human, software), different types of social engineering (e.g.
+ phishing, shoulder surfing, dumpster diving, etc.), and specific attack
+ scenarios.
+ Krombholz et al.
+ provide an overview of social engineering attacks by creating a taxonomy
  to support further development of social engineering attack countermeasures
  
 \begin_inset ERT
@@ -825,7 +826,7 @@ citep{krombholz2013social}
 \begin_layout Itemize
 
 \lang english
-Herzberg, et al.
+Herzberg et al.
  tested the effectiveness of different defense mechanisms that use forcing
  and negative training functions 
 \begin_inset ERT
@@ -841,7 +842,7 @@ citep{herzberg2013forcing}
 \end_inset
 
 .
- Their methods was by using an online exercise submission system called
+ Their methods involved using an online exercise submission system called
  
 \begin_inset Quotes eld
 \end_inset
@@ -850,20 +851,20 @@ Submit
 \begin_inset Quotes erd
 \end_inset
 
- to simulate phishing attacks and it involves the population of ~400 students
- and two years of observation.
- Their outcome claimed that forcing and negative training functions are
- very effective in both privation and detection.
+ to simulate phishing attacks.
+ It involved a population of ~400 students and two years of observation.
+ Their outcomes claimed that forcing and negative training functions are
+ very effective in both prevention and detection.
  However, their defense mechanisms do not consider on the persuasion techniques
- at all nor analyzing data from the real phishing emails.
+ at all, or analyze data from real phishing emails.
 \end_layout
 
 \begin_layout Itemize
 
 \lang english
-Vishwanath, et al.
- tested the individual differences in phishing vulnerability within integrated
- information processing model 
+Vishwanath et al.
+ tested the individual differences in phishing vulnerability within the
+ integrated information processing model 
 \begin_inset ERT
 status open
 
@@ -878,22 +879,22 @@ citep{vishwanath2011people}
 
 .
  The model focuses on four contextual factors: the individual level of involveme
-nt, domain specific knowledge, technological efficacy, and email load.
- The method involves the total number of 161 sample.
- The outcome of their study is that to show the model can be used as an
- insight into how individuals get phished.
- However, they do not consider persuasion principles on their contextual
- factors nor analyze the real phishing attacks.
- This suggests that persuasion techniques are not part of the important
- role to determined the success of phishing attacks.
+nt; domain specific knowledge; technological efficacy; and email load.
+ The method involves 161 samples.
+ The conclusion of their study is to show the model can be used as an insight
+ into how individuals get phished.
+ However, they do not consider persuasion principles in terms of their contextua
+l factors, or analyze real phishing attacks.
+ This suggests that persuasion techniques do not play an important role
+ in determining the success of phishing attacks.
 \end_layout
 
 \begin_layout Itemize
 
 \lang english
-Kawakami, et al.
- developed an e-learning system which functions to use animation for information
- security education 
+Kawakami et al.
+ developed an e-learning system that uses animation for information security
+ education 
 \begin_inset ERT
 status open
 
@@ -908,16 +909,16 @@ citep{kawakami2010development}
 
 .
  The paper only mentions the commitment and consistency based on Cialdini's
- principles to be used as influence for people to take their e-learning
- system as a security education.
+ principles to be used to influence people to take their e-learning system
+ as a security education.
 \end_layout
 
 \begin_layout Itemize
 
 \lang english
-An interesting paper from Wright, et al.
- which analyze how people influenced by the Cialdini's six persuasion principles
- in phishing messages 
+An interesting paper from Wright et al.
+ which analyzes how people are influenced by Cialdini's six persuasion principle
+s in phishing messages 
 \begin_inset ERT
 status open
 
@@ -938,9 +939,9 @@ key "cialdini:2001"
 \end_inset
 
 .
- However, the procedures of the study involved with creating phishing messages
- which represent persuasion principles and test them to 2,600 participants
- and see how many would respond 
+ The study involved creating phishing messages that represented persuasion
+ principles and testing them on 2,600 participants to see how many would
+ respond 
 \begin_inset ERT
 status open
 
@@ -954,8 +955,8 @@ citep{wright2014research}
 \end_inset
 
 .
- The outcome of the study is that; liking, social proof, scarcity and reciprocat
-ion do increase the likelihood of recipients will respond to phishing emails
+ The outcome of the study is that liking, social proof, scarcity and reciprocati
+on do increase the likelihood of recipients responding to phishing emails
  
 \begin_inset ERT
 status open
@@ -970,19 +971,18 @@ citep{wright2014research}
 \end_inset
 
 .
- Despite the fact that Wright, et al.
- were using the same persuasion principles as our study 
+ Despite the fact that Wright et al.
+ used the same persuasion principles as our study 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cialdini:2001"
 
 \end_inset
 
-, Wright, et al.
- tried to find the implication of persuasion principles from the users'
+, they tried to find the implication of persuasion principles from the users'
  perspectives.
- Although we find that the direction of their paper is different, it can
- be a complimentary to our study.
+ Although the direction of their paper is different, it can be a complimentary
+ to our study.
 \end_layout
 
 \begin_layout Itemize
@@ -1003,8 +1003,8 @@ citep{workman:2008}
 \end_inset
 
 .
- The model is created to relate basic human factors to respond to persuasion
- techniques based on Cialdini’s six principle 
+ The model relates basic human factors that respond to persuasion techniques
+ based on Cialdini’s six principles 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cialdini:2001"
@@ -1012,10 +1012,10 @@ key "cialdini:2001"
 \end_inset
 
 .
- These factors include; normative commitment, continuance commitment, affective
+ These factors are; normative commitment, continuance commitment, affective
  commitment, trust, fear, and reactance.
  Workman created six hypotheses to investigate whether the participants
- who are prone to these factors, exhibits a higher risk to phishing attacks
+ who are prone to these factors exhibit a higher risk to phishing attacks
  
 \begin_inset ERT
 status open
@@ -1030,12 +1030,12 @@ citep{workman:2008}
 \end_inset
 
 .
- Based on Workman's measurement, six of the hypotheses are accepted.
+ Based on Workman's measurement, all six hypotheses are accepted.
  The data was obtained by a questionnaire and objective observation involving
  850 participants.
- In the end, the total of 612 participant has responded.
- The conclusion is that, the participants who have the tendency of these
- factors, are more vulnerable to phishing attacks 
+ In the end, a total of 612 participants responded.
+ The conclusion is that the participants who have the tendency for these
+ factors are more vulnerable to phishing attacks 
 \begin_inset ERT
 status open
 
@@ -1049,17 +1049,16 @@ citep{workman:2008}
 \end_inset
 
 .
- For instance, one of Workman's hypotheses stated that 
+ For instance, one of Workman's hypotheses stated that: 
 \begin_inset Quotes eld
 \end_inset
 
-People who are more reactance, will succumb to social engineering more frequentl
-y than those who are more resistance
+people who are more reactance, will succumb to social engineering more frequentl
+y than those who are more resistance.
 \begin_inset Quotes erd
 \end_inset
 
-.
- This suggests that Workman have tried to measure the implication of persuasion
+ This suggests that Workman tried to measure the implication of persuasion
  principles from the users' perspectives as well.
  
 \end_layout
@@ -1067,7 +1066,7 @@ y than those who are more resistance
 \begin_layout Itemize
 
 \lang english
-We found only one paper which was similar to our study 
+We found only one paper that was similar to our study 
 \begin_inset ERT
 status open
 
@@ -1081,7 +1080,7 @@ citep{kim2013understanding}
 \end_inset
 
 .
- Apart from different dataset, Kim, et al.
+ Apart from a different dataset, Kim et al.
  conducted a content analysis of phishing emails based on message argument
  quality rather than Cialdini's six persuasion principles 
 \begin_inset ERT
@@ -1104,10 +1103,9 @@ key "cialdini:2001"
 \end_inset
 
 .
- Besides that, Kim, et al.
- did not relate structural phishing properties such as URLs, attachments,
+ They did not relate structural phishing properties such as URLs, attachments,
  usage of HTML, targeted sector and reason used with their persuasion theory.
- The message argument quality includes; rational appeals, emotional appeals,
+ The message argument quality includes: rational appeals, emotional appeals,
  motivational appeals and time pressure 
 \begin_inset ERT
 status open
@@ -1122,13 +1120,12 @@ citep{kim2013understanding}
 \end_inset
 
 .
- The reasoning of rational appeals determined by direct evidence of causality
+ The reasoning of rational appeals is determined by direct evidence of causality
  between events.
  For example, “a few days ago our online banking security team observed
  invalid logins to customer accounts.
  Thus, you are required to re-confirm your online access for account verificatio
-n”.
- This can be mapped as reciprocation based on Cialdini's persuasion principles
+n.” This can be mapped as reciprocation based on Cialdini's persuasion principles
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1137,14 +1134,13 @@ key "cialdini:2001"
 \end_inset
 
 .
- Emotional appeal defined by fear, sadness, guilt, anger, happiness, affection
- and humor.
+ An emotional appeal is defined by fear, sadness, guilt, anger, happiness,
+ affection and humor.
  In our study this can be mapped into authority or likeability.
- Time pressure identified by the limited amount of time the recipient has,
- to respond to a phishing email.
- This also can be mapped into scarcity principle.
- Moreover, one of the factors representing motivational appeals is that
- 
+ Time pressure is identified by the limited amount of time the recipient
+ has to respond to a phishing email.
+ This also can be mapped into the scarcity principle.
+ One of the factors representing motivational appeals is 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1154,10 +1150,10 @@ the need of belongingness
 
  which also can be portrayed as the need of being part of a group to forms
  bond with others.
- Based on our understanding, we can map motivational appeals as social proof
- principle.
+ Based on our understanding, we can map motivational appeals such as the
+ social proof principle.
  However, there is no conception of message argument quality that can be
- mapped to consistency principle.
+ mapped to the consistency principle.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -1178,11 +1174,11 @@ key "cialdini:2001"
 \end_inset
 
 .
- One interesting result from the study is that, the number of time pressure
- emails (42%, n=285), is not as high as they expected.
+ One interesting result from the study is that the number of time pressure
+ emails (42%, n=285) is not as high as they expected.
  The study concludes that phishers indeed incorporate rational, emotional
  and motivational appeals in their dataset.
- However, the conception of persuasion theory adopted by Kim, et al.
+ However, the conception of persuasion theory adopted by Kim et al.
  is different from our study.
  We argue that diversity of persuasion theory needs to be incorporated to
  achieve an objective conclusion.
@@ -1405,7 +1401,7 @@ citep{workman:2008}
 
 \end_inset
 
- and Wright, et al.
+ and Wright et al.
  
 \begin_inset ERT
 status open
@@ -1421,19 +1417,27 @@ citep{wright2014research}
 
  are similar.
  Both of them have tried to find the implication of persuasion principles
- from the users' perspectives, which can be a complementary to our study.
- We have conducted individual investigations on all papers found in both
- databases, the finding shows not only the different of measurement instruments
- and methods but also the foundation of persuasion theory between the current
- studies and our study.
- The low number of results from the query searches also indicate not many
- academic researchers that study persuasion techniques and phishing area.
+ from the users' perspectives, which can be complementary to our study.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+We have conducted individual investigations on all papers found in both
+ databases.
+ The finding shows not only the different measurement instruments and methods
+ but also the foundation of persuasion theory between the current studies
+ and our study.
+ The low number of results from the query searches also indicate that there
+ is little academic research into study persuasion techniques and phishing
+ area.
  Therefore, a real world analysis of phishing emails characterization based
  on persuasion techniques is needed to bridge this gap.
- This characterization can show to what extent the persuasion techniques
- are used in phishing emails.
+ This characterization can show to what extent persuasion techniques are
+ used in phishing emails.
  Our research fills the void as a milestone towards countermeasures against
- phishing attacks with an insight of psychological aspect.
+ phishing attacks with an insight of psychological aspects.
 \end_layout
 
 \begin_layout Section
@@ -1446,18 +1450,18 @@ Research goal
 
 \lang english
 The main goal of this research is to characterize phishing email properties
- considering persuasion principles by finding the association between generic
+ by considering persuasion principles, finding the association between generic
  properties and persuasion principles.
  These generic properties consist of phishing email structural properties
  or features based on the literature survey findings.
- Each of these properties and each of the persuasion principle will be introduce
-d as a variable in our methodology.
- We will look for frequency and relationship involving these variables.
+ Each of these properties and each of the persuasion principles are introduced
+ as variables in our methodology.
+ We look for frequency and relationship involving these variables.
  This relationship can be used to show a different perspective of phishing
  email characteristics considering the persuasive elements within its content.
- The analysis of persuasion principles in phishing emails also can be used
- to generate a new method in an automated way of detecting phishing emails
- as one of the primary delivery techniques of phishing attacks.
+ The analysis of persuasion principles in phishing emails can also be used
+ to generate a new automated method of detecting phishing emails as one
+ of the primary delivery techniques of phishing attacks.
 \end_layout
 
 \begin_layout Section
@@ -1469,8 +1473,7 @@ Research Questions
 \begin_layout Standard
 
 \lang english
-To be able to meet the goal, we formulated two main research questions as
- follows:
+To meet the goal, we formulated two main research questions as follows:
 \end_layout
 
 \begin_layout Itemize
@@ -1487,7 +1490,7 @@ RQ2: To what extent are persuasion principles used in phishing emails?
 
 \begin_layout Standard
 Several aspects of phishing email characteristics and hypotheses related
- to the research questions will be addressed in detail in 
+ to the research questions are addressed in detail in detail in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1516,22 +1519,20 @@ This research project is structured as follows:
 \begin_layout Standard
 
 \lang english
-Chapter 2 describes background and literature reviews about phishing in
+Chapter 2 describes background and literature reviews about phish- ing in
  general.
- The subsections include; a general understanding of what is phishing in
- terms of history and definition, an overview of its damage in terms of
- money, an exploration of its modus operandi based on phishing stages or
- phases, general phishing countermeasures and lastly the human factor in
- phishing.
- 
+ The subsections are: a general understanding of what is phishing in terms
+ of history and definition; an overview of its damage in terms of money;
+ an exploration of its modus operandi based on phishing stages or phases;
+ general phishing countermeasures; and lastly the human factor in phishing.
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-In chapter 3, we present the rationale of our main research questions and
+In Chapter 3, we present the rationale of our main research questions and
  hypotheses.
- It includes what aspect to be considered to answer the characteristics
+ It includes what aspects to be considered to answer the characteristics
  of phishing emails based on persuasion principles in the dataset and the
  motivation of our hypotheses to support our research questions.
 \end_layout
@@ -1539,7 +1540,7 @@ In chapter 3, we present the rationale of our main research questions and
 \begin_layout Standard
 
 \lang english
-In chapter 4, we will discuss our main data analysis and results.
+In Chapter 4, we discuss our main data analysis and results.
  It includes the details of research methodology that we conducted as well
  as the results of our analysis.
 \end_layout
@@ -1547,10 +1548,10 @@ In chapter 4, we will discuss our main data analysis and results.
 \begin_layout Standard
 
 \lang english
-Lastly, in chapter 5 we will present our discussion and conclusion of the
- research project, how the research questions are answered along with the
- recommendations, limitations and how these limitations could become the
- basis of future research.
+Lastly, in Chapter 5 we present our discussion and conclusion of the research
+ project, how the research questions are answered along with the recommendations
+, the limitations, and how these limitations could become the basis of future
+ research.
 \end_layout
 
 \end_body

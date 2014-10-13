@@ -77,12 +77,12 @@ Background & Literature review
 \end_layout
 
 \begin_layout Standard
-In order to meet our goal, necessary knowledge on phishing in general is
- required.
- This chapter introduces general understanding of phishing, an exploration
- of its damage in term of money, the overview of its modus operandi, a brief
- explanation on types of phishing, general phishing countermeasures and
- human factor in phishing attacks.
+In order to meet our research goal, some necessary knowledge on phishing
+ in general is required.
+ This chapter introduces a general understanding of phishing, an exploration
+ of its damage in financial terms, the overview of its modus operandi, a
+ brief explanation of types of phishing, general phishing countermeasures,
+ and human factor in phishing attacks.
 \end_layout
 
 \begin_layout Section
@@ -91,19 +91,15 @@ What is phishing?
 
 \begin_layout Standard
 While the Internet has brought convenience to many people for exchanging
- information, it also provides opportunities to carry malicious behavior
- such as online fraud on massive scale with a little cost to the attackers.
- The attackers can manipulate the Internet users instead of computer system
- (hardware or software) that significantly increase the barriers of technologica
-l crime impact.
- Such human centered attacks could be done by social engineering.
- According to Jakobsson, et al.
- phishing is a form of social engineering that aim
-\size small
-s
-\size default
- to retrieve credential from online users by mimicking trustworthy and legitimat
-e institutions 
+ information, it also provides opportunities for malicious behavior such
+ as online fraud on a massive scale with little cost to the attackers.
+ The attackers can manipulate the Internet users instead of the computer
+ systems (hardware or software) that significantly increase the barriers
+ of technological crime impact.
+ Such human-centered attacks could be done by social engineering.
+ According to Jakobsson et al., phishing is a form of social engineering
+ that aims to gain trust from online users by mimicking trustworthy and
+ legitimate institutions 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -111,14 +107,16 @@ key "jakobsson:2006"
 \end_inset
 
 .
- Phishing has a similar basic principle as ‘fishing’ in the physical world.
- Instead of fish, online users are lured by authentic looking communication
- and hooked by authentic looking websites.
- Not only that, online users also may be lured by respond to a phishing
- email, either replying or clicking a hidden URL within its content.
- There are diverse definitions of phishing in our literature reviews, therefore,
- we would like to discuss about its universal definition in later section.
- However, one of phishing definitions according to Oxford dictionary:
+ Phishing has a similar basic principle to ‘fishing’ in the physical world.
+ Instead of fish, online users are lured by authentic-looking communication
+ and hooked by authentic-looking websites.
+ Not only that, online users also may be lured by responding to a phishing
+ email, either replying to or clicking on a hidden URL within its content.
+ There are diverse definitions of phishing in our literature reviews.
+ Therefore, we would like to discuss about its universal definition in a
+ later section.
+ However, one of the definitions of phishing, according to the Oxford Dictionary
+, is as follows:
 \end_layout
 
 \begin_layout Quote
@@ -179,19 +177,17 @@ key "chandrasekaran:2006"
 Phisher(s
 \emph default
 ).
- After successfully obtained a sensitive information from the victim, phishers
- use this information to access victim’s financial accounts or committing
- credit card frauds.
+ After successfully obtaining sensitive information from the victim, phishers
+ use this information to access victim’s financial accounts or to commit
+ credit card fraud.
  However, to formalize the damage of phishing in term of money is a challenging
  task.
- We will briefly explore the cost of phishing attacks in the later section.
- 
+ We will briefly explore the cost of phishing attacks in a later section.
 \end_layout
 
 \begin_layout Standard
-Furthermore, the technique or modus operandi of phishing may vary, but the
- most common technique of phishing attacks done by using fraudulent emails
- and websites 
+The techniques or modus operandi of phishing may vary, but the most common
+ is using fraudulent emails and websites 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "james:2005"
@@ -201,9 +197,9 @@ key "james:2005"
 .
  A fraudulent website is designed in such a way that it may be identical
  to its legitimate target.
- While it may be true, phishing website also could be completely different
- with its target as there is no level of identicalness.
- In the following subsections, we will introduce how phishing was originally
+ However, a phishing website could also be completely different to its target
+ as there is no level of identicalness.
+ In the following subsections, we introduce how phishing was originally
  came about and how current literatures formally define phishing.
 \end_layout
 
@@ -212,7 +208,7 @@ The History
 \end_layout
 
 \begin_layout Standard
-The first time the term "phishing" was published by the 
+The term "phishing" was first published by the 
 \begin_inset Flex CT - acronym
 status open
 
@@ -223,7 +219,8 @@ AOL
 
 \end_inset
 
- UseNet Newsgroup on January 2, 1996 and was started to expand in 2004 
+ UseNet Newsgroup on January 2, 1996 and its use started to expand in 2004
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "phishorg"
@@ -231,11 +228,9 @@ key "phishorg"
 \end_inset
 
 .
- Since then, we considered phishing development in cyberspace has been flourishi
-ng by phishers to make profit.
- Total losses due to phishing in 2004 reached more than U.S.
- $ 2 billion, it was involving more than 15,000 sites that become victims
- 
+ Since 1996, phishing has flourished.
+ In 2004, total losses due to phishing reached more than U.S.$ 2 billion,
+ and more than 15,000 sites were victims 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "fellman:2004"
@@ -243,9 +238,8 @@ key "fellman:2004"
 \end_inset
 
 .
- We will try to discuss about direct and indirect cost at present days in
- the later section.
- Evidently, Jakobsson, et al.
+ We discuss direct and indirect costs nowadays in a later section.
+ Jakobsson et al.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -253,7 +247,7 @@ key "jakobsson:2006"
 
 \end_inset
 
- mentioned that in the early years of 90’s (according to 
+ mentioned that in the early years of the '90s (according to 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "phishorg"
@@ -264,22 +258,21 @@ key "phishorg"
  automatically generated fraudulent credit card information.
  Their intention to give this fake credit card information was to simply
  pass the validity tests performed by AOL.
- By the time the tests were passed, AOL was thinking that these accounts
- were legitimate and resulted to activate them.
+ By the time the tests were passed, AOL thought that these accounts were
+ legitimate and thus activated them.
  Consequently, these hackers could freely access AOL resources until AOL
  tried to actually bill the credit card.
- AOL realized that these accounts were using invalid billing information,
- thus deactivated the account.
- 
+ AOL realized that these accounts were using invalid billing information
+ and therefore deactivated the accounts.
 \end_layout
 
 \begin_layout Standard
 While creating false AOL user accounts with fake credit card information
- was not exactly phishing attacks, but AOL’s effort to counter against the
- attacks was leading to development of phishing.
- This countermeasure includes directly verifying the legitimacy of credit
+ was not phishing, AOL's effort to counter these attacks led to the development
+ of phishing.
+ AOL's countermeasure including directly verifying the legitimacy of credit
  card information and the associated billing identity, forced hackers to
- pursue alternative way 
+ pursue alternative ways 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -287,9 +280,8 @@ key "jakobsson:2006"
 \end_inset
 
 .
- Hackers were masquerading as AOL’s employees asking to other users for
- credit card information through AOL instant messenger and email system
- 
+ Hackers masqueraded as AOL employees, asking other users for credit card
+ information through AOL's instant messenger and email system 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "phishorg"
@@ -298,7 +290,7 @@ key "phishorg"
 
 .
  Jakobsson et al.
- suggest that phishing attacks were originating from this incident 
+ suggest that phishing attacks originated from this incident 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -306,10 +298,9 @@ key "jakobsson:2006"
 \end_inset
 
 .
- Since such attack has not been done before, many of users have been victimized
- by then.
- Eventually, AOL enforced warning system to the most of its customers to
- be vigilant when it comes to sensitive information 
+ Since such attack had not been done before, many users fell victim to then.
+ Eventually, AOL enforced warning systems to most of its customers to be
+ vigilant when it comes to sensitive information 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "phishorg"
@@ -317,9 +308,9 @@ key "phishorg"
 \end_inset
 
 .
- At the present day, phishing attacks might not only being motivated by
- financial gain but also political reason, and they have been emerging not
- only aim to AOL users, but also any online users.
+ To the present day, phishing attacks might not only be motivated by financial
+ gain but also political reasons, and they emerged not only with AOL users,
+ but also any online users.
  Consequently, large number of legitimate institutions such as PayPal and
  eBay are being spoofed.
 \end_layout
@@ -330,9 +321,9 @@ The universal definition
 
 \begin_layout Standard
 Before we begin to understand deeper about how and why phishing attack works,
- we will briefly explore common phishing definition.
- Currently, there is no consensus definition, since almost in every research
- papers, academic textbook or journals has its own definition of phishing
+ we briefly explore the common definition of phishing.
+ Currently, there is no consensus definition, since almost every research
+ paper, academic textbook or journal has its own definition of phishing
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -343,17 +334,17 @@ key "jakobsson:2006,james:2005,tally:2004,clayton:2005,parno:2006,jakobsson:2005
 .
  Phishing is also constantly evolving, so it might be very challenging to
  define its universal terminology.
- There is not so much study that specifically addresses the standard of
+ There are not so many studies that specifically address the standard of
  phishing definition.
- However, one research conducted by Lastdrager 
+ An exception is a piece of research conducted by Lastdrager 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "lastdrager:2014"
 
 \end_inset
 
- addressed to achieve consensual definition of phishing.
- Before we comply with one consensual phishing terminology, we will take
+, which addressed a consensual definition of phishing.
+ Before we decide upon one consensual phishing terminology, we will take
  a look at various phishing definitions from other sources:
 \end_layout
 
@@ -440,8 +431,8 @@ key "parno:2006"
 \end_layout
 
 \begin_layout Standard
-It is noteworthy that the definition described by James, et al, Tally, et
- al, and Clayton, et al.
+It is noteworthy that the definitions described by James et al., Tally et
+ al., and Clayton et al.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -449,12 +440,12 @@ key "james:2005,tally:2004,clayton:2005"
 
 \end_inset
 
- specifies that the phishers only use email as a communication channel to
+ specify that the phishers only use email as a communication channel to
  trick potential victims.
- While it might be true because using email would greatly cost effective,
- but we believe that phishing is not only characterized by one particular
- technological mean, as phishers can also use any other electronic communication
- to trick potential victims (i.e private message on online social network).
+ While it might be true because using email is greatly cost effective, we
+ believe that phishing is not only characterized by one particular technological
+ mean, as phishers can also use any other electronic com- munication to
+ trick potential victims, such as private messages on online social networks.
  This definition is also similar to dictionary libraries 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -466,29 +457,21 @@ key "oxford,collins,merriam"
 \end_layout
 
 \begin_layout Standard
-We believe that standard definition of phishing should be applicable in
- most of phishing concept that are presently defined.
- Consequently, the high level of abstraction and is required to build common
- definition on phishing.
- We have convinced that the formal definition of phishing should not focus
- on the technology that is being used but rather on the technique how the
- deception is being conducted, the method of an 
-\begin_inset Quotes eld
-\end_inset
-
-act
-\begin_inset Quotes erd
-\end_inset
-
- if you will.
- Therefore, We follow the definition of phishing by Lastdrager 
+We believe that the standard definition of phishing should be applicable
+ to most phishing concepts that are presently defined.
+ Consequently, a high level of abstraction is required to build a common
+ definition of phishing.
+ We are convinced that the formal definition of phishing should not focus
+ on the technology that is being used but rather on the techniques of how
+ the deception is being conducted, the method of an “act” if you will.
+ Therefore, we follow the definition of phishing by Lastdrager 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "lastdrager:2014"
 
 \end_inset
 
- which stated: 
+ which states that:
 \end_layout
 
 \begin_layout Quote
@@ -506,16 +489,16 @@ Phishing is a scalable act of deception whereby impersonation is used to
 \end_layout
 
 \begin_layout Standard
-According to Lastdrager 
+Lastdrager 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "lastdrager:2014"
 
 \end_inset
 
-, to achieve this universal definition, a systematic review of literature
- up to August 2013 was conducted along with manual peer review, which resulted
- in 113 distinct definitions to be analyzed.
+ states that to achieve this universal definition, a systematic review of
+ literature up to August 2013 was conducted along with a manual peer review,
+ which resulted in 113 distinct definitions to be analyzed.
  We thereby agree with Lastdrager 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -524,7 +507,8 @@ key "lastdrager:2014"
 \end_inset
 
  that this definition addresses all the essential elements of phishing and
- we will adopt it as universally accepted terminology throughout our research.
+ we will adopt it as the universally accepted definition throughout our
+ research.
 \end_layout
 
 \begin_layout Section
@@ -538,13 +522,14 @@ The costs of phishing attacks
 \end_layout
 
 \begin_layout Standard
-It is a challenging task to find a real cost from phishing attacks in term
- of money or direct cost.
- This due to financial damage for bank is only known by banks and most instituti
-ons do not share this information with the public.
- Evidently, Jakobsson et al.
- argue that phishing economy is consistent with black market economy and
- does not advertise its successes 
+It is a challenging task to find the real costs from phishing attacks in
+ terms of money or direct costs.
+ This is because the financial damage on banks is only known by the banks
+ themselves and most institutions do not share this information with the
+ public.
+ Jakobsson et al.
+ argue that the phishing economy is consistent with black market economy
+ and does not advertise its successes 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -552,13 +537,13 @@ key "jakobsson:2006"
 \end_inset
 
 .
- On this section, a brief explanation of direct and indirect cost on phishing
- attack will be illustrated based on literature review
+ In this section, a brief explanation of direct and indirect costs of phishing
+ attacks will be illustrated based on a literature review.
 \end_layout
 
 \begin_layout Standard
-According to Jakobsson et al., direct cost is depicted by the value of money
- or goods that are directly stolen through phishing attack 
+According to Jakobsson et al., direct costs are depicted by the value of
+ money or goods that are directly stolen through phishing attacks 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -566,8 +551,8 @@ key "jakobsson:2006"
 \end_inset
 
 .
- While indirect cost is the costs that do not represent the money nor goods
- that are actually stolen, but it is the costs has to be paid by the people
+ Indirect costs are the costs that do not represent the money or goods that
+ are actually stolen, but the costs which have to be paid by the people
  who handle these attacks 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -575,15 +560,16 @@ key "jakobsson:2006"
 
 \end_inset
 
- (i.e.
- time, money and resources spent to reset people password).
+, i.e.
+ time, money and resources spent to reset people's passwords.
 \end_layout
 
 \begin_layout Standard
-As we mentioned earlier, the difficulty of assessing the damage on phishing
- attacks is caused by banks and institutions that keep this information
- themselves and the unwillingness of many users to share to acknowledge
- that they have been victimized by phishing attacks.
+As we mentioned earlier, it is difficult to assess the damage caused by
+ phishing attacks on banks and institutions as they keep this information
+ to themselves.
+ Furthermore, many users are unwilling to acknowledge that they have fallen
+ prey to phishing attacks.
  This happens because of fear of humiliation, financial loses, or legal
  liability 
 \begin_inset CommandInset citation
@@ -593,21 +579,8 @@ key "jakobsson:2006"
 \end_inset
 
 .
- Evidently, studies estimate the damage ranging from $61 million 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "herley:2009"
-
-\end_inset
-
- to $3 billion per year 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "mccall2007gartner"
-
-\end_inset
-
- of direct losses to victims in the US only 
+ Studies estimate the damage of direct losses to victims in the US only
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "hong:2012"
@@ -621,10 +594,23 @@ key "moura2009scalable"
 
 \end_inset
 
+ to range from $61 million 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "herley:2009"
+
+\end_inset
+
+ to $3 billion per year 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mccall2007gartner"
+
+\end_inset
+
 .
- In addition, the Gartner Group claimed to estimate of $1.2 billion direct
- losses of phishing attack to US banks and credit card companies for the
- year 2004 
+ The Gartner Group estimated $1.2 billion direct losses from phishing attacks
+ on US banks and credit card companies for the year 2004 
 \begin_inset ERT
 status open
 
@@ -638,17 +624,17 @@ citep{litan2004phishing}
 \end_inset
 
 .
- By the 2007, it escalated to more than $3 billion loss 
+ By 2007, losses had escalated to more than $3 billion 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "mccall:2007"
+key "mccall2007gartner"
 
 \end_inset
 
 .
- The estimation also performed by TRUSTe and Pontoon Institute that stated
- the cost of phishing attack was up to $500 millions losses in the US for
- the same year 
+ The estimation performed by TRUSTe and Ponemon Institute stated that the
+ cost of phishing attacks was up to $500 million losses in the US for the
+ same year 
 \begin_inset Foot
 status collapsed
 
@@ -662,27 +648,27 @@ http://wow.theregister.co.uk/2004/09/29/phishing_survey/
 \end_layout
 
 \begin_layout Standard
-However, the lack of information such as the detailed of documentation survey
- on how to find these numbers which conducted by Gartner group or Pontoon
- makes these estimations are biased than is generally realized.
- It is interesting to investigate why their estimations are repeated without
- really analyzed when they appeared biased at best.
- One thing come up in our mind that they might have a hidden agenda to make
- societies think that the cost of phishing is high.
- Consequently, people would be obligated to implement anti phishing system
- or engage in phishing awareness in their company which require money.
+The lack of information such as a detailed documentation survey on how these
+ numbers were found by Gartner group or Ponemon makes estimations more biased
+ than is generally realized.
+ It is interesting to investigate why their estimates are quoted without
+ really analyzing their bias.
+ One thing that comes to mind is that they might have a hidden agenda to
+ make societies think that the cost of phishing is high.
+ Consequently, people would be obliged to implement anti-phishing systems
+ or engage in phishing awareness in their company, which requires money.
  With this in mind, we would like to emphasize that our findings on the
- costs of phishing attacks are only estimations without scrutiny from academic
- researchers and it might be an exaggeration.
- Although even if the cost of phishing attack is zero, we believe that phishing
- is still a major problem in terms of trust among users and the misuse of
- email as a means of communication.
+ costs of phishing attacks are only estimates without scrutiny from academic
+ researchers, and they might be an exaggeration.
+ Having said that, even if the cost of phishing attacks is zero, we believe
+ that phishing is still a major problem in terms of trust among users and
+ the misuse of email as a means of communication.
 \end_layout
 
 \begin_layout Standard
-Apart from the cost of phishing attacks, we might ask how phishing attack
- is carried out? is there any stages involved? The next chapter we will
- review its modus operandi in term of phishing stages or phases.
+We now consider how phishing attacks are carried out, and if there are distinct
+ stages involved in the attacks? In the next section we review phishing’s
+ modus operandi in term of phishing stages or phases.
 \end_layout
 
 \begin_layout Section
