@@ -444,8 +444,8 @@ key "james:2005,tally:2004,clayton:2005"
  trick potential victims.
  While it might be true because using email is greatly cost effective, we
  believe that phishing is not only characterized by one particular technological
- mean, as phishers can also use any other electronic com- munication to
- trick potential victims, such as private messages on online social networks.
+ mean, as phishers can also use any other electronic communication to trick
+ potential victims, such as private messages on online social networks.
  This definition is also similar to dictionary libraries 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -667,7 +667,7 @@ The lack of information such as a detailed documentation survey on how these
 
 \begin_layout Standard
 We now consider how phishing attacks are carried out, and if there are distinct
- stages involved in the attacks? In the next section we review phishing’s
+ stages involved in the attacks? In the next section we review phishing's
  modus operandi in term of phishing stages or phases.
 \end_layout
 
@@ -676,21 +676,24 @@ Modus operandi
 \end_layout
 
 \begin_layout Standard
-As we mentioned earlier, Phishing attack is a subset of identity theft.
- The modus operandi might be carried out firstly by creating a fake website
- that spoofs legitimate website such as financial website, either identical
- or not identical as long as the phishers get responds from unsuspected
- victims.
- After that, the phishers will try to trick the potential victim to submit
- important information such as usernames, passwords, PINs, etc.
- through a fake website that they have created or through email reply from
- victims.
+As we mentioned earlier, a phishing attack is a subset of identity theft.
+ One modus operandi is first to create a fake website that spoofs legitimate
+ website such as financial websites.
+ These websites can be either identical or not identical to real websites;
+ the aim is just to get a response from unsuspecting victims.
+ After that, the phishers will try to trick the potential victim into submitting
+ important information such as usernames, passwords and PINs through a fake
+ website that they have created or through email reply from victims.
  With the information obtained, they will try to steal money from their
- victims if target institution is a bank.
- Phishers employ variety of techniques to trick potential victims to access
+ victims, if the target institution is a bank.
+ 
+\end_layout
+
+\begin_layout Standard
+Phishers employ a variety of techniques to trick potential victims to access
  their fraudulent website.
- One of the typical ways is by sending illicit email in a large scale claiming
- to be from legitimate institution.
+ One of the typical ways is by sending illicit emails on a large scale claiming
+ to be from a legitimate institution.
  In the email content, they usually imitate an official-looking logo, using
  good business language style and often also forge the email headers to
  make it look like originating from legitimate institution.
@@ -698,12 +701,9 @@ As we mentioned earlier, Phishing attack is a subset of identity theft.
  is changing its IT infrastructure, and request urgently that the customer
  should update their data with the consequence of loosing their money if
  the action does not take place.
- When the user click the link that was on the email message, they will be
- redirected to a fraudulent website, which will prompt the victim to fill
- in the details of their information.
- While there are various techniques of phishing attack, we will address
- the common phases of phishing that we analyzed by literature survey by
- several studies and also we will address our own phishing phases.
+ While there are various techniques of phishing attack, we address the common
+ phases of phishing that we analyzed in a literature survey of several studies
+ and we also address our own phishing phases.
  These phases are compiled in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -1164,8 +1164,7 @@ key "hong:2012"
 
 \end_inset
 
- argued that there are three major phases.
- while Frauenstein, et al.
+ argued that there are three major phases, while Frauenstein et al.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1173,8 +1172,8 @@ key "frauenstein:2013"
 
 \end_inset
 
- suggested that there are five main processes are used to perform phishing
- attacks based on the perspective of the attacker.
+ suggested that five main processes are used to perform phishing attacks
+ based on the perspective of the attacker.
 \end_layout
 
 \begin_layout Standard
@@ -1236,17 +1235,22 @@ fig:frauenstein
 
 \end_inset
 
-, on the first process is called 
+, the first process is called 
 \shape italic
 Planning
 \shape default
-, a phisher usually would do some reconnaissance on how would the attack
- is executed and what information would be obtained from the victim.
- On the second process, the phisher would think about the design of the
- email.
- This email is desired by the phisher to look as legit as possible to potential
+.
+ In this process a phisher would usually do some reconnaissance on how would
+ the attack is executed and what information would be obtained from the
  victim.
- For this purpose, target institutions logo, trademark, symbol, etc.
+ 
+\end_layout
+
+\begin_layout Standard
+In the second process, the phisher would think about the design of the email.
+ This email is desired by the phisher to look as legitimate as possible
+ to potential victim.
+ For this purpose, target institutions' logos, trademarks, symbols, etc.
  are used to make the content look official to the victim.
  The author called this process as 
 \shape italic
@@ -1265,7 +1269,7 @@ fig:ing
 \end_inset
 
  illustrates the example design of a fake email that impersonates ING bank
- that can trick unsuspecting victims
+ and can trick unsuspecting victims
 \begin_inset Foot
 status collapsed
 
@@ -1278,14 +1282,18 @@ http://wow.martijn-onderwater.nl/wp-content/uploads/2010/03/ing-phishing.jpg
 .
  From the figure, we can spot a fake email by investigating the real sender
  email address by looking at the email header or the URL provided in the
- body, whether it redirects to the official ING website or not.
- On the third process, the phisher 
+ body, seeing whether it redirects to the official ING website or not.
+ 
+\end_layout
+
+\begin_layout Standard
+In the third process, the phisher 
 \shape italic
 fabricates
 \shape default
- a story to make potential victim think that email is important.
- To achieve users attention, phisher might build up a story about system
- upgrade, account hijacked or security enhancement so that the victim would
+ a story to make potential victims think that email is important.
+ To achieve user attention, a phisher might build up a story about system
+ upgrade, account hijacking or security enhancement so that the victim would
  feel obliged to be informed.
  Evidently, this technique corresponds with Cialdini 
 \begin_inset CommandInset citation
@@ -1294,20 +1302,28 @@ key "cialdini:2001"
 
 \end_inset
 
- that suggests there are six principles to persuade people to comply with
+, who suggests there are six principles to persuade people to comply with
  a request.
- On the fourth process, a phisher usually include 
+ 
+\end_layout
+
+\begin_layout Standard
+In the fourth process, a phisher usually includes a 
 \shape italic
 threatening tone
 \shape default
  or explain the urgency and consequences if the potential victim chooses
- not to take action desired by the phisher (for example; account removal,
- account blocked, etc.).
- Consequently, users may fear of their account being deleted.
- The last process involved with fraudulent website that has been created
- by the phisher.
- Users may falsely believe to the message given in the email and may click
- a 
+ not to take action desired by the phisher (e.g.
+ account removal, account blocked).
+ Consequently, users may fear for their account being deleted.
+ 
+\end_layout
+
+\begin_layout Standard
+The last process involves a fraudulent website that has been created by
+ the phisher.
+ Users may falsely believe the message given in the email and may click
+ on a 
 \begin_inset Flex CT - acronym
 status collapsed
 
@@ -1319,15 +1335,15 @@ URL
 \end_inset
 
  that is embedded in the email.
- Subsequently, the URL would redirect users to a 
+ Subsequently, the URL redirects users to a 
 \shape italic
 spoofed website
 \shape default
- which may prompt users’ sensitive information.
+ which may request users' sensitive information.
  Furthermore, the website might be created to be as similar as possible
- to the target institution’s website, so that potential victim may still
+ to the target institution's website, so that potential victim may still
  believe that it is authentic.
- We will explain more on Cialdini’s six basic tendencies of human behavior
+ We will explain more about Cialdini's six basic tendencies of human behavior
  in generating positive response to persuasion 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1401,7 +1417,7 @@ fig:wetzel
 \end_inset
 
 .
- We speculated that Wetzel's taxonomy is not analogous with Frauenstein's
+ We speculate that Wetzel's taxonomy is not analogous with Frauenstein's
  main phishing processes 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1411,8 +1427,8 @@ key "frauenstein:2013"
 
 .
  The difference is that Frauenstein et al.
- only focus in the design of the attack while Wetzel has added several phases
- like 
+ only focused on the design of the attack while Wetzel has added several
+ phases like 
 \shape italic
 Collection
 \shape default
@@ -1424,7 +1440,8 @@ Fraud
 \shape italic
 Post-attack
 \shape default
-, therefore, Wetzel taxonomy is more holistic in term of phishing.
+.
+ Therefore, Wetzel's taxonomy is more holistic in term of phishing.
 \end_layout
 
 \begin_layout Standard
@@ -1491,9 +1508,9 @@ tab:compilation-phases
 \shape italic
 Planning
 \shape default
-: Preparation carried out by the phisher before continue to the next phase.
- Example activities include identifying targets and victims, determine the
- method of the attack, etc.
+: Preparation carried out by the phisher before continuing to the next phase.
+ Example activities include identifying targets and victims and determining
+ the method of the attack.
 \end_layout
 
 \begin_layout Enumerate
@@ -1501,9 +1518,9 @@ Planning
 \shape italic
 Setup
 \shape default
-: After the target, victim and the method are known, the phisher would craft
+: After the target, victim and the method are known, the phisher crafts
  a platform where the victim's information could be transmitted and stored,
- for example: fraudulent website/email.
+ for example a fraudulent web- site/email.
 \end_layout
 
 \begin_layout Enumerate
@@ -1520,7 +1537,7 @@ Attack
 \shape italic
 Collection
 \shape default
-: Phisher collects valuable information via response from the victims
+: Phisher collects valuable information via response from the victims.
 \end_layout
 
 \begin_layout Enumerate
@@ -1528,9 +1545,9 @@ Collection
 \shape italic
 Fraud
 \shape default
-: Phisher abuses victim's information by impersonates the identity of the
+: Phisher abuses victim's information by impersonating the identity of the
  victim to the target.
- For example, A has gained B's personal information to access C so that
+ For example, A has gained B’s personal information to access C so that
  A can pose as B to access C.
 \end_layout
 
@@ -1539,10 +1556,10 @@ Fraud
 \shape italic
 Post-attack
 \shape default
-: After the phisher gained profit from the attack and abuse phases, a phisher
+: After the phisher gained profit from the attack and abuse phases, they
  would not want to be noticed or detected by authority.
- Thus, phisher might need to destroy evidence of the activities that he/she
- previously were executed.
+ Thus, the phisher might need to destroy evidence of the activities that
+ he/she had undertaken.
 \end_layout
 
 \begin_layout Standard
@@ -1557,9 +1574,8 @@ tab:compilation-phases
 
 \end_inset
 
-.
- Tally, et al.
- suggest that there are several phases involved in phishing attack based
+, Tally et al.
+ suggest that there are several phases involved in a phishing attack based
  on the attacker's point of view 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1568,18 +1584,18 @@ key "tally:2004"
 \end_inset
 
 .
- The first phase, it represents the planning, as we understand the attacker
- collects the email address of unsuspecting victims.
+ The first phase represents the planning, where the attacker collects the
+ email address of unsuspecting victims.
  The second phase, considering that it is related to creating a fake email
- that appears legitimate, this phase can be viewed as design phase.
- On the third phase, we consider this as delivery and attack phases as it
- involves the attacker sends the fake email to the unintended victims and
- hide the true source.
+ that appears legitimate, can be viewed as design phase.
+ We consider the third phase as the delivery and attack phases as it involves
+ the attacker sending a fake email to the unintended victims and hiding
+ the true source.
  The fourth phase represents attack phase as it involves with the recipient
- complies with the attacker's request(s).
- Lastly the fifth phase, it represents the fraud phase, as it related to
- haversting and exploiting victim's resources by the attacker.
- Additionally, the phases described by Tally, et al.
+ complying with the attacker’s request(s).
+ Lastly, the fifth phase represents the fraud phase, as it related to the
+ attacker harvesting and exploiting the victim's resources.
+ Additionally, the phases described by Tally et al.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1594,7 +1610,7 @@ key "emigh:2005"
 
 \end_inset
 
- illustrated in 
+ that illustrated in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1617,8 +1633,8 @@ tab:compilation-phases
 \end_inset
 
 .
- Phishing attack steps that executed by the phisher are also being addressed
- by Nero, et al 
+ Phishing attack steps executed by the phisher are also addressed by Nero
+ et al 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "nero:2011"
@@ -1626,8 +1642,8 @@ key "nero:2011"
 \end_inset
 
 .
- In their study, a successful phishing attack involves several phases which
- can bee seen and compare in 
+ In their study, a successful phishing attack involves several phases, which
+ can be seen and compared in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1693,7 +1709,7 @@ key "emigh:2005"
 Based on our analysis by looking at the pattern of other phases from various
  sources, there is a major similarity between them.
  Therefore, we would like to define and design our own phase that are integrated
- with three key components suggested by Jakobsson, et al.
+ with three key components suggested by Jakobsson et al.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1701,8 +1717,7 @@ key "jakobsson:2006"
 
 \end_inset
 
-.
- These key components are include 
+: 
 \shape italic
 the lure
 \shape default
@@ -1715,7 +1730,7 @@ the lure
 the catch
 \shape default
 .
- As we designed in 
+ 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -1726,7 +1741,7 @@ fig:Information-flow-phishing
 
 \end_inset
 
-, we synthesized these three components with our phases based on the attacker
+ synthesizes these three components with our phases based on the attacker's
  point of view as follows:
 \end_layout
 
@@ -1822,8 +1837,8 @@ Information flow phishing attack
 
 \begin_layout Standard
 It is important to know that in the phase 3, there are different scenarios
- such as; victim might be redirected to a spoofed website, victim may comply
- to reply the email, victim may comply to open an attachment(s) or victim
+ such as: victim might be redirected to a spoofed website; victim may comply
+ to reply the email; victim may comply to open an attachment(s); or victim
  may comply to call by phone.
  However, in 
 \begin_inset Flex CT - auto cross-reference
@@ -1836,18 +1851,17 @@ fig:Information-flow-phishing
 
 \end_inset
 
-, we have only illustrated the phases if the bait was using a spoofed website
+ we have only illustrated the phases if the bait was using a spoofed website
  as a method.
  
 \end_layout
 
 \begin_layout Standard
-We have reviewed various phases in phishing attack and from the review,
+We have reviewed various phases in phishing attacks, and from the review
  we have constructed our own phases.
- In the next section, a brief introduction in respect to the types of phishing
- will be described.
- We believe that the general understanding of phishing types will help our
- main analysis to characterize phishing email properties.
+ In the next section a brief introduction of the types of phishing is described.
+ We believe that the general understanding of phishing types helps our main
+ analysis to characterize phishing email properties.
 \end_layout
 
 \begin_layout Section
@@ -1855,8 +1869,8 @@ Types of phishing
 \end_layout
 
 \begin_layout Standard
-In January 2014, 8300 patients data are being compromised in medical company
- in the US 
+In January 2014, the data of 8300 patients was compromised by US medical
+ companies 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "adam:2014"
@@ -1864,12 +1878,11 @@ key "adam:2014"
 \end_inset
 
 .
- The data includes names, addresses, date of birth and phone numbers were
- being stolen.
+ The data includes names, addresses, dates of birth and phone numbers.
  Other than demographic information, clinical information associated with
  this data was also stolen, including social security numbers.
- In the April 2014, phishers have successfully stolen US$163,000 from US
- public school based on Michigan 
+ In April 2014, phishers successfully stole US$163,000 from a US public
+ school based in Michigan 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ashley:2014"
@@ -1877,10 +1890,10 @@ key "ashley:2014"
 \end_inset
 
 .
- It has been said that the email prompted to transfer money is coming from
- the finance director of the school.
- In March 2014, Symantec has discovered phishing attack aimed at Google
- drive users 
+ It is said that the email prompting the transfer of money came from the
+ finance director of the school.
+ In March 2014, Symantec discovered a phishing attack aimed at Google Drive
+ users 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "teri:2014"
@@ -1888,25 +1901,23 @@ key "teri:2014"
 \end_inset
 
 .
- The attack was carried firstly with incoming email asking for opening document
- hosted at Google docs.
- Users that have clicked on the link are taken to fraudulent Google login
- page prompted Google users credentials.
- Interestingly, the URL seems very convincing because it hosted on Google
- secure servers.
- We hypothesized that even more phishing incidents on financial area as
- well, but sometimes the news is kept hidden due to creditability reason.
+ The attack involved firstly an incoming email asking for the opening of
+ document hosted at Google Docs.
+ Users who clicked on the link were taken to a fraudulent Google login page
+ that prompted Google users credentials.
+ Interestingly, the URL seemed very convincing because it was hosted on
+ Google's secure servers.
+ We hypothesize that even more phishing incidents take place in the financial
+ sector, but sometimes the news is kept hidden to maintain creditability.
  With this in mind, we believe fake websites might be hosted in the network
- which has more phishing domain than other networks.
- Subsequently, in the next section, we will discuss the general phishing
- countermeasures.
- 
+ that has more phishing domains than other networks.
+ In the next section, we will discuss the general phishing countermeasures.
 \end_layout
 
 \begin_layout Standard
-One may ask, what type of phishing are these? What are the general types
- of phishing relevant to our research? Evidently, based on the cost of phishing
- attacks in 
+One may ask: what types of phishing are there? What are the general types
+ of phishing relevant to our research? Based on the cost of phishing attacks
+ in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -1917,12 +1928,12 @@ sec:cost-of-phishing
 
 \end_inset
 
-, the threat of phishing attacks is still alarming and might be evolving
- in the future with more sophisticated technique of attacks.
- For this reason, it might be useful to provide a brief insight on popular
+, the threat of such attacks is alarming and might evolve in the future
+ with more sophisticated technique of attacks.
+ For this reason, it might be useful to provide a brief insight into popular
  variants of phishing that currently exist.
- We will briefly explain the types of phishing which are the most relevant
- to our research based on Jakobsson, et al.
+ We will briefly explain the types of phishing that are the most relevant
+ to our research, based on the work of Jakobsson et al.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1931,9 +1942,9 @@ key "jakobsson:2006"
 \end_inset
 
 .
- These types of phishing is strongly related to the phishing definition
- that we used, considering phishing is based on the act of deception by
- the phishers.
+ These types of phishing are strongly related to the phishing definition
+ that we use, considering phishing is based on the act of deception by the
+ phishers.
  
 \end_layout
 
@@ -1944,8 +1955,8 @@ Phishing based on visual similarities
 \begin_layout Standard
 Since all phishing is based on deception and social engineering, there is
  a phishing scenario based on visual similarities.
- Typical scenario of phishing based on visual similarities is to send a
- large amount of illicit emails containing call to action asking recipients
+ The typical scenario of phishing based on visual similarities is to send
+ a large amount of illicit emails containing a call to action asking recipients
  to click embedded links 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1954,33 +1965,47 @@ key "jakobsson:2006"
 \end_inset
 
 .
- These variations include cousin domain attack.
- For example, legitimate PayPal website addressed as wow.paypal.com, this
- cousin domain attacks confuse potential victims to believe that wow.paypal-secur
-ity.com is a subdivision of the legitimate website due to identical looking
- addresses.
+ These variations include cousin domain attacks.
+ For example, there is a legitimate PayPal website addressed as wow.paypal.com.
+ Cousin domain attacks confuse potential victims to believe that wow.paypal-secur
+ity.com is a subdivision of the legitimate website due to similar-looking
+ address.
  Similarly, homograph attacks create a confusion using similar characters
  to its addresses.
- For example, wow.paypal.com and wow.paypa1.com, both addresses look the same
- but on the second link, it uses “1” instead of “l”.
- 
+ For example, with wow.paypal.com and wow.paypa1.com, both addresses look the
+ same but on the second link there is a 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ instead of 
+\begin_inset Quotes eld
+\end_inset
+
+l
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 Moreover, phishers may embed a login page directly to the email content.
  This suggests the elimination of the need of end-users to click on a link
  and phishers do not have to manage an active fraudulent website.
- IP addresses are often used instead of human readable hostname to redirect
- potential victim to phishing website and JavaScript is used to take over
- address bar of a browser to make potential victims believe that they are
- communicating with the legitimate institution.
- 
+ IP addresses are often used instead of human readable host- names to redirect
+ potential victim to phishing websites and JavaScript is used to take over
+ the address bar of a browser to make potential victims believe that they
+ are communicating with the legitimate institution.
 \end_layout
 
 \begin_layout Standard
 Another type of deceptive phishing scheme is rock-phish attacks.
- They held responsible for half a number of reported incidents worldwide
- in 2005 
+ They were held responsible for half of the reported phishing incidents
+ worldwide in 2005
 \begin_inset CommandInset citation
 LatexCommand citep
 key "moore:2007"
@@ -1988,13 +2013,13 @@ key "moore:2007"
 \end_inset
 
 .
- These attacks evade email filters by utilizes random text and GIF images
- which contain the actual message.
- Rock phish attacks also utilize a toolkit that capable to manage several
+ These attacks evade email filters by utilizing random text and GIF images
+ that contain the actual message.
+ Rock phish attacks also utilize a toolkit that is able to manage several
  fraudulent websites in a single domain.
  Sometimes, deceptive phishing schemes lead to installation of malware when
- users visit fraudulent website and we will describe malware based phishing
- scheme in the next section.
+ users visit fraudulent website.
+ We describe malware-based phishing schemes in the next section.
  
 \end_layout
 
@@ -2003,8 +2028,8 @@ Malware-based phishing
 \end_layout
 
 \begin_layout Standard
-Generally, malware based phishing refers to any type of phishing which involves
- installing malicious piece of software onto users' personal computer 
+Generally, malware-based phishing refers to any type of phishing that involves
+ installing malicious software onto users' personal computers 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -2019,8 +2044,8 @@ key "jakobsson:2006"
 \end_layout
 
 \begin_layout Standard
-In the next section, we will study on the general phishing countermeasures
- in term of phishing detection and prevention.
+In the next section, we study general phishing countermeasures in term of
+ phishing detection and prevention.
 \end_layout
 
 \begin_layout Section
@@ -2028,10 +2053,10 @@ Current countermeasures
 \end_layout
 
 \begin_layout Standard
-There are various types of phishing countermeasures that implemented in
- different levels.
- Purkait has conducted an extensive research in reviewing these countermeasures
- which are available up until 2012 and their effectiveness 
+There are various types of phishing countermeasures that are implemented
+ at different levels.
+ Purkait conducted an extensive research reviewing countermeasures available
+ up until 2012 and analyzing their effectiveness 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "purkait"
@@ -2040,14 +2065,7 @@ key "purkait"
 
 .
  He suggests that there is a classification of phishing countermeasures
- in separate groups and according to Purkait 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "purkait"
-
-\end_inset
-
-, these groups are listed as follow:
+ into separate groups, as follows:
 \end_layout
 
 \begin_layout Itemize
@@ -2075,16 +2093,16 @@ Takedown, transaction anomaly detection, log files
 \end_layout
 
 \begin_layout Itemize
-Anti phishing training
+Anti-phishing training
 \end_layout
 
 \begin_layout Itemize
-Legal solution
+Legal solutions
 \end_layout
 
 \begin_layout Standard
-In addition, Parmar, et al.
- suggests that phishing detection can be classified into two types; user
+In addition, Parmar et al.
+ suggest that phishing detection can be classified into two types: user
  training approach and software classification approach 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2093,8 +2111,8 @@ key "parmar:2014"
 \end_inset
 
 .
- He illustrated a diagram and a table that summarizes phishing detection
- as countermeasures in a broad view 
+ They illustrate a diagram and a table that summarizes phishing detection
+ as countermeasures in a broad view
 \begin_inset CommandInset citation
 LatexCommand citep
 key "parmar:2014"
@@ -2102,7 +2120,7 @@ key "parmar:2014"
 \end_inset
 
 .
- They also argued the advantages and disadvantages of each category 
+ They also argue the advantages and disadvantages of each category 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "parmar:2014"
@@ -2110,7 +2128,7 @@ key "parmar:2014"
 \end_inset
 
 .
- However, as our research mainly focuses in an analysis of phishing emails
+ However, as our research mainly focuses on an analysis of phishing emails
  based on Cialdini's six principles of persuasion 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2118,14 +2136,14 @@ key "cialdini:2001"
 
 \end_inset
 
-, we will briefly discuss the most relevant phishing countermeasures such
- as restriction list group (i.e.
- Phishtank), machine learning approach (web-based phishing), properties
- or features in a phishing email, and anti phishing training group (i.e PhishGuru
-).
- In the last section of this chapter, we will explore the human factor in
- phishing attacks, how phishing email is engineered to gain recipient's
- trust in order to get a response from the unsuspecting victims.
+, we briefly discuss the most relevant phishing countermeasures: restriction
+ list group (e.g.
+ Phishtank); machine learning approach (web-based phishing); properties
+ or features in a phishing email; and anti-phishing training group (e.g.
+ PhishGuru).
+ In the last section of this chapter, we explore the human factor in phishing
+ attacks, to see how phishing emails are engineered to gain the recipient's
+ trust in order to get a response.
 \end_layout
 
 \begin_layout Subsection
@@ -2133,9 +2151,9 @@ Phishing detection
 \end_layout
 
 \begin_layout Standard
-In this subsection, we will conduct a literature review which related to
- phishtank as restriction list and machine learning approach to detect spoofed
- website as phishing detection.
+In this subsection, we conduct a literature review related to Phishtank
+ as restriction list, and machine learning approach to detect spoofed websites
+ as phishing detection.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2143,11 +2161,11 @@ Phishtank
 \end_layout
 
 \begin_layout Standard
-One of the common approaches to detect phishing attacks is the implementation
- of restriction list.
- As the name suggest, it prevents users to visit fraudulent websites.
- One of the efforts to achieve restriction list, is to derive phishing URLs
- from Phishtank.
+One of the most common approaches to detect phishing attacks is the implementati
+on of a restriction list.
+ As the name suggest, it prevents users from visiting fraudulent websites.
+ One of the efforts to achieve a restriction list is to derive phishing
+ URLs from Phishtank.
  Phishtank is a blacklisting company specifically for phishing URLs and
  it is a free community web based where users can report, verify and track
  phishing URLs 
@@ -2159,14 +2177,18 @@ key "phishtank"
 
 .
  Phishtank stores phishing URLs in its database and is widely available
- for use by other companies for creating restriction list.
- Some of the big companies that are using Phishtank’s data includes; Yahoo
- Mail, McAfee, APWG, Web Of Trust, Kaspersky, Opera and Avira.
- In this section, we will discuss how the current literatures have to do
- with phish data provided by Phishtank.
- The first step to achieve the list of relevant literatures regarding phishtank
- is by keyword search in Scopus online library.
- By putting 
+ for use by other companies for creating restriction lists.
+ Some of the big companies that use Phishtank's data are: Yahoo Mail, McAfee,
+ APWG, Web Of Trust, Kaspersky, Opera and Avira.
+ 
+\end_layout
+
+\begin_layout Standard
+In this section, we discuss what current literatures deal with phishing
+ data provided by Phishtank.
+ The first step to getting a list of relevant literatures is by a keyword
+ search in the Scopus online library.
+ Putting 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2174,10 +2196,11 @@ Phishtank
 \begin_inset Quotes erd
 \end_inset
 
- as a keyword search, it results in 12 literatures.
- The next step, we read the all the abstracts and conclusions of the resulting
- keyword search and we decided 11 literatures that are relevant to our research.
- Lastly, 
+ as a keyword search results in 12 pieces of literature.
+ The next step is to read all the abstracts and conclusions of the resulting
+ keyword search.
+ We decided that 11 pieces of literatures were relevant to our research.
+ 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -2188,7 +2211,7 @@ tab:phishtank
 
 \end_inset
 
- summarizes the papers selected and its relevancy with Phishtank
+ summarizes the papers selected and their relevance to Phishtank:
 \end_layout
 
 \begin_layout Standard
@@ -2230,7 +2253,7 @@ First author
 
 \series bold
 \size footnotesize
-Relevancy with phishtank
+Relevance to Phishtank
 \end_layout
 
 \end_inset
@@ -2272,7 +2295,7 @@ Tyler Moore
 \begin_layout Plain Layout
 
 \size scriptsize
-Examine the structure and outcomes of user participation in Phishtank.
+Examines the structure and outcomes of user participation in Phishtank.
  The authors find that Phishtank is dominated by the most active users,
  and that participation follows a power law distribution and this makes
  it particularly susceptible to manipulation.
@@ -2317,7 +2340,7 @@ Pern Hui Chia
 \begin_layout Plain Layout
 
 \size scriptsize
-Examine the wisdom of crowds on web of trust that has similarity with Phishtank
+Examines the wisdom of crowds on web of trust that has similarity with Phishtank
  as a user based system.
 \end_layout
 
@@ -2406,8 +2429,8 @@ Joshua S.
 
 \size scriptsize
 Phishtank database is used to perform additional validation of their method.
- They also collect data from twitter using twitter’s API to find malicious
- tweets containing phishing URLs
+ They also collect data from Twitter using Twitter’s API to find malicious
+ tweets containing phishing URLs.
 \end_layout
 
 \end_inset
@@ -2451,10 +2474,10 @@ P.A.
 \begin_layout Plain Layout
 
 \size scriptsize
-Phishtank features is used as one of the input of neuro fuzzy technique
- to detect phishing website.
+Phishtank features are used as one of the inputs of neuro fuzzy technique
+ to detect phishing websites.
  The study suggested 72 features from Phishtank by exploring journal papers
- and 200 phishing website.
+ and 200 phishing websites.
 \end_layout
 
 \end_inset
@@ -2497,8 +2520,8 @@ Huiping Yao
 \begin_layout Plain Layout
 
 \size scriptsize
-Phishtank API is used for lookup whether the given QR containing phishing
- URL in the Phishtank database.
+Phishtank API is used to lookup whether the given QR containing phishing
+ URL was in the Phishtank database.
 \end_layout
 
 \end_inset
@@ -2540,9 +2563,10 @@ Huajun Huang
 \begin_layout Plain Layout
 
 \size scriptsize
-Phishtank database is used as validation resulting 99% accuracy by SVM method,
- plus the top ten brand names in Phishtank archive is used as features in
- SVM method.
+Phishtank database is used as a validation resulting 99% accuracy by SVM
+ method.
+ Furthermore, top ten brand names in the Phishtank archive are used as features
+ in SVM method.
 \end_layout
 
 \end_inset
@@ -2584,8 +2608,8 @@ Gaurav Gupta
 \begin_layout Plain Layout
 
 \size scriptsize
-Analyze the Phishtank verifiers (individual/organization) to be used as
- anti phishing model.
+Analyzes the Phishtank verifiers (individual/organization) to be used as
+ an anti-phishing model.
 \end_layout
 
 \end_inset
@@ -2628,8 +2652,8 @@ Shaun Egan
 \begin_layout Plain Layout
 
 \size scriptsize
-Indicating that lightweight classification methods achieves an accuracy
- of 93% to 96% when trained data from Phishtank.
+Indicates that lightweight classification methods achieve an accuracy of
+ 93% to 96% with trained data from Phishtank.
 \end_layout
 
 \end_inset
@@ -2671,7 +2695,7 @@ Sidharth Chhabra
 \begin_layout Plain Layout
 
 \size scriptsize
-Phishtank database is used to analyze suspected phish that is done through
+Phishtank database is used to analyze suspected phishing that is done through
  short URLs.
 \end_layout
 
@@ -2714,7 +2738,7 @@ Liu Wenyin
 \begin_layout Plain Layout
 
 \size scriptsize
-Phishtank database is used as test dataset to verify their proposed method
+Phishtank database is used as a test dataset to verify their proposed method
  (Semantic Link Network) 
 \end_layout
 
@@ -2772,10 +2796,10 @@ Summary phishtank studies
 \end_layout
 
 \begin_layout Standard
-From our literature survey, we know that Phishtank is crowd-sourced platform
+From our literature survey, we know that Phishtank is a crowd-sourced platform
  to manage phishing URLs.
- For that reason Moore, et al.
- aims to evaluate the wisdom of crowds platform accommodated by Phishtank
+ For that reason Moore et al.
+ aim to evaluate the wisdom of crowd platforms accommodated by Phishtank
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2784,9 +2808,9 @@ key "moore:2008"
 \end_inset
 
 .
- Moore, et al.
+ Moore et al.
  suggest that the user participation is distributed according to power law.
- It uses to model data which frequency of an event varies as a power of
+ It uses model data where the frequency of an event varies as a power of
  some attribute of that event 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2795,8 +2819,7 @@ key "lai"
 \end_inset
 
 .
- Power law also applies to a system when large is rare and small is common
- 
+ Power law also applies to a system when large is rare and small is common.
 \begin_inset Foot
 status collapsed
 
@@ -2806,11 +2829,10 @@ http://kottke.org/03/02/weblogs-and-power-laws
 
 \end_inset
 
-.
- For example, in the case of individual wealth in a country, 80% of the
- all wealth is controlled by 20% of population in a country.
- It makes sense that in Phishtank’s verification system, a single highly
- active user’s action can greatly impact the system’s overall accuracy.
+ For example, in the case of individual wealth in a country, 80% of all
+ wealth is controlled by 20% of the population.
+ It makes sense that in Phishtank's verification system, a single highly
+ active user's action can greatly impact the system's overall accuracy.
  
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -2822,14 +2844,15 @@ tab:Comparison-summary
 
 \end_inset
 
- summarizes the comparison performed by 
+ summarizes the comparison performed by Moore et al.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "moore:2008"
 
 \end_inset
 
- between Phishtank and closed proprietary anti-phishing feeds
+ between Phishtank and closed proprietary anti-phishing feeds.
 \begin_inset Foot
 status collapsed
 
@@ -2839,36 +2862,20 @@ The author conceals the identity of the closed proprietary company
 
 \end_inset
 
-.
- Moreover, there are some ways to disrupt Phishtank verification system;
- submitting invalid reports accusing legitimate website, voting legitimate
- website as phish, and voting illegitimate website as not phish.
+ Moreover, there are some ways to disrupt the Phishtank verification system,
+ such as: submitting invalid reports accusing legitimate websites; voting
+ legitimate websites as phish; and voting illegitimate website as not phish.
  While all the scenarios described are for the phishers' benefit, the last
- scenario is more direct and the first two actions rather subtle intention
- to undermine Phishtank credibility.
-\end_layout
-
-\begin_layout Standard
-To put it briefly, the lesson of crowd sourced anti-phishing technology
- such as Phishtank is that the distribution of user participation matters.
- It means that if a few high value participants do something wrong, it can
- greatly impact overall system 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moore:2008"
-
-\end_inset
-
-.
- Also, there is a high probability that bad users could also extensively
- participate in submitting or verifying URLs in Phishtank.
+ scenario is more direct and the first two actions are a more subtle method,
+ intended to undermine Phishtank's credibility.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -3121,13 +3128,25 @@ key "moore:2008"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+To put it briefly, the lesson of crowd-sourced anti-phishing technology
+ such as Phishtank is that the distribution of user participation matters.
+ It means that if a few high value participants do something wrong, it can
+ greatly impact the overall system 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moore:2008"
+
+\end_inset
+
+.
+ Also, there is a high probability that bad users could extensively participate
+ in submitting or verifying URLs in Phishtank.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3135,49 +3154,45 @@ Machine learning approach in detecting spoofed website
 \end_layout
 
 \begin_layout Standard
-The fundamental of phishing detection system would be to distinguish between
- phishing websites and the legitimate ones.
- As we previously discussed, the aim of phishing attack is to gather confidentia
-l information from potential victims.
+The fundamental task of a phishing detection system is to distinguish between
+ phishing websites and legitimate ones.
+ As we previously discussed, the aim of phishing attacks is to gather confidenti
+al information from potential victims.
  To do this, phishers often prompt for this information through fraudulent
  websites and masquerade as legitimate institutions.
  It does not make sense if phishers created them in a way very distinctive
- with its target.
- It may raise suspicions with result of unsuccessful attack.
- To put it another way, while it might be true, we speculated that most
- of the phishing websites are mostly identical with its legitimate websites
- as target to reduce suspiciousness from potential victim.
- 
+ from its target.
+ It may raise suspicions with the result of unsuccessful attack.
+ To put it another way, we speculate that most phishing websites are mostly
+ identical to legitimate websites to reduce suspicion of potential victims.
 \end_layout
 
 \begin_layout Standard
-In contrast of one of blacklisting technique we saw in Phishtank that heavily
- depend on human verification, researchers make use of machine learning
+In contrast to one of the blacklisting technique we saw in Phishtank that
+ heavily depend on human verification, researchers make use of machine learning
  based technique to automatically distinguish between phishing and legitimate
- either websites or email.
+ websites and email.
  Basically, machine-learning system is a platform that can learn from previous
- data and predict future data with its classification, in this case, phishing
+ data and predict future data with its classification: in this case, phishing
  and legitimate.
  In order for this machine to learn from data, there should be some kind
- of inputs to classify the data, it is called features or characteristics.
- 
+ of inputs to classify the data, which are called features or characteristics.
 \end_layout
 
 \begin_layout Standard
-Furthermore, there are also several learning algorithms to classify the
- data, such as, logistic regression, random forest, neural networks and
- support vector machine.
- However, as this particular topic is out of scope of our research, we will
- not discuss about the learning algorithm that is currently implemented.
- We will only introduce three features that are used in machine learning
- based detection.
- 
+Furthermore, there are several learning algorithms to classify the data,
+ such as logistic regression, random forest, neural networks and support
+ vector machines.
+ As this particular topic is outside the scope of our research, we do not
+ discuss the learning algorithm that is currently implemented.
+ We limit ourselves to introducing three features that are used in machine
+ learning based detection.
 \end_layout
 
 \begin_layout Standard
 There are vast amount of features that can be used in machine learning to
- detect phishing attack.
- Literatures are selected by keyword search such as 
+ detect phishing attacks.
+ Literature was selected by keyword search such as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3186,9 +3201,9 @@ phishing + detection + machine learning
 \end_inset
 
 .
- We analyze three features: lexical feature, host-based feature and site
+ We analyzed three features: lexical feature, host-based feature and site
  popularity feature.
- Each of these features will be introduced briefly as follows.
+ Each of these features are introduced briefly below:
 \end_layout
 
 \begin_layout Itemize
@@ -3196,9 +3211,9 @@ Lexical features
 \end_layout
 
 \begin_layout Standard
-Lexical features (URL based features) are based on the analysis of URL structure
+Lexical features (URL-based features) are based on the analysis of URL structure
  without any external information.
- Ma, et al.
+ Ma et al.
  suggest that the structure URL of phishing may “look” different to experts
  
 \begin_inset CommandInset citation
@@ -3209,12 +3224,14 @@ key "ma:2009"
 
 .
  These features include how many dots exist, the length, how deep the path
- traversal do the URL has or if there any sensitive words present in a URL.
- For example the URLs https://wow.paypal.com and http://wow.paypal.com.example.com/
- or http://login.example.com/ wow.paypal.com/, we can see that the domain paypal.com
- positioned differently, with the first one being the benign URL.
- Le, et al suggests we can extract the features related to the full URL,
- domain name, directory, file name and argument 
+ traversal the URL has, or if there any sensitive words present in a URL.
+ For example, with the URLs https://wow.paypal.com and http://wow.paypal.com.example.c
+om/ or http://login.example.com/ wow.paypal.com/, we can see that the domain
+ paypal.com is positioned differently, with the first one being the benign
+ URL.
+ Le et al.
+ suggest we can extract the features related to the full URL, domain name,
+ directory, file name and argument 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "le:2011"
@@ -3222,12 +3239,11 @@ key "le:2011"
 \end_inset
 
 .
- For example we want to extract features related to the full URL; we can
- define the length of the URL, the number of dots in the URL, and whether
+ For example, if we want to extract features related to the full URL, we
+ can define the length of the URL, the number of dots in the URL, and whether
  the blacklisted word presents in the URL.
  The blacklisted words consist of sensitive words such as confirm, account,
  login or webscr.
- 
 \end_layout
 
 \begin_layout Standard
@@ -3243,9 +3259,9 @@ key "le:2011"
 \end_inset
 
 .
- Egan, et al.
+ Egan et al.
  conducted an evaluation of lightweight classification that includes lexical
- features and host based features in its model 
+ features and host-based features in its model 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "egan:2011"
@@ -3254,7 +3270,7 @@ key "egan:2011"
 
 .
  The study found that the classification based on these features resulted
- in extremely high accuracy and low overhead.
+ in extremely high accuracy and low overheads.
  
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -3275,16 +3291,16 @@ key "xiang:2011,liu"
 \end_inset
 
 .
- However, Xiang, et al.
+ However, Xiang et al.
 \begin_inset CommandInset citation
 LatexCommand citep
 key "xiang:2011"
 
 \end_inset
 
- pointed out that URLs structure could be manipulated with little cost,
- causing the features to fail.
- For example, attackers could simply remove embedded domain and sensitive
+ pointed out that URL structure can be manipulated with little cost, causing
+ the features to fail.
+ For example, attackers could simply remove the embedded domain and sensitive
  words to make their phishing URLs look legitimate.
  Embedded domain feature examines whether a domain or a hostname is present
  in the path segment 
@@ -3295,7 +3311,7 @@ key "xiang:2011"
 \end_inset
 
 , for example, http://wow.example.net/pathto/wow.paypal.com.
- Suspicious URL feature examine whether the URL has 
+ Suspicious URL features examine whether the URL has 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3344,10 +3360,11 @@ key "xiang:2011"
 \end_inset
 
  in their URLs.
+ .
  There are also plenty of legitimate domains presented only with IP address
  and contains more dots.
- Nevertheless, lexical analysis would be suitable features to use for first
- phase analysis in a large data 
+ Nevertheless, lexical analysis would be suitable to use for first phase
+ analysis of large amounts of data 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "egan:2011"
@@ -3571,9 +3588,9 @@ Host based features
 \end_layout
 
 \begin_layout Standard
-Since phishers often hosted phishing websites in less reputable hosting
- services and registrars, host-based features are needed to observe on the
- external sources (WHOIS information, domain information, etc.).
+Since phishers often host phishing websites with less reputable hosting
+ services and registrars, host-based features are needed to observe external
+ sources (WHOIS information, domain information, etc.).
  A study suggests host-based features have the ability to describe where
  phishing websites are hosted, who owns them and how they are managed 
 \begin_inset CommandInset citation
@@ -3798,30 +3815,30 @@ key "ma:2009,ma2:2009,liu,xiang:2011"
 \end_layout
 
 \begin_layout Standard
-Each of these features does matter for phishing detection.
+Each of these features matters for phishing detection.
  However, as our main objective is an analysis of phishing emails based
- on Cialdini's persuasion principles, we will not describe each of these
- features in detail.
- It is noteworthy that some of the features are subset of another feature,
- for instance, autonomous system number (ASN), IP country and number of
+ on Cialdini's persuasion principles, we do not describe each of these fea-
+ tures in detail.
+ It is noteworthy that some of the features are subset of other features.
+ For instance, autonomous system number (ASN), IP country and number of
  registration information are derived from WHOIS information.
- Nevertheless, we will only explain few of them that we assume the most
- crucial.
- 
+ Nevertheless, we only explain the few of them that we consider the most
+ crucial:
 \end_layout
 
 \begin_layout Enumerate
 WHOIS information: Since phishing websites and hacked domains are often
- created at relatively young age, this information could provide the registratio
-n date, update date and expiration date.
+ created at a relatively young age, this information could provide the registrat
+ion date, update date and expiration date.
  Domain ownership would also be included; therefore, a set of malicious
  websites with the same individual could be identified.
  
 \end_layout
 
 \begin_layout Enumerate
-IP address information: Justin Ma, et al.
- used this information for identify whether or not an IP address is in blacklist
+2.
+ IP address information: Justin Ma et al.
+ used this information to identify whether or not an IP address is blacklisted
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4023,14 +4040,14 @@ key "xiang:2011,liu"
 \end_layout
 
 \begin_layout Enumerate
-Page in top search results: this feature originally used by 
+Page in top search results: this feature was originally used by 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "zhang:2007"
 
 \end_inset
 
- to find whether or not a website shows up on the top N search result.
+ to find whether or not a website shows up in the top N search result.
  If it is not the case, the website could be flagged as phishy since phishing
  websites have less chance of being crawled 
 \begin_inset CommandInset citation
@@ -4040,7 +4057,7 @@ key "xiang:2011"
 \end_inset
 
 .
- We believe this feature is similar to Number of external links feature
+ We believe this feature is similar to the Number of external links feature
  since both of them are implying the same technique.
 \end_layout
 
@@ -4054,10 +4071,10 @@ key "xiang:2011"
 
 \end_inset
 
-, the intuitive rationale of this feature is that phishing websites are
- often have very low PageRank due to their ephemeral nature and very low
- incoming links that are redirected to them.
- This feature similar to Real traffic rank feature employed by 
+, the intuitive rationale of this feature is that phishing websites often
+ have very low PageRank due to their ephemeral nature and very low incoming
+ links that are redirected to them.
+ This feature is similar to Real traffic rank feature employed by 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "liu"
@@ -4104,8 +4121,9 @@ Stop phishing at email level
 \begin_layout Standard
 In order to stop phishing at email level, phishing email properties or features
  should be investigated.
- Chandrasekaran, et al.
- and Drake, et al 
+ Chandrasekaran et al.
+ and Drake et al.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "chandrasekaran:2006,drake2004anatomy"
@@ -4117,16 +4135,16 @@ key "chandrasekaran:2006,drake2004anatomy"
 
 \begin_layout Enumerate
 Spoofing of online banks and retailers.
- Impersonation of legitimate institutions may created in the email level.
- Phishers may design a fake email to resemble the reputable company to gain
- users trust.
+ Impersonation of legitimate institutions may occur at the email level.
+ Phishers may design a fake email to resemble the reputable company in order
+ to gain users' trust.
 \end_layout
 
 \begin_layout Enumerate
 Link in the text is different from the destination.
  A link(s) contained in the email message usually appears different than
  the actual link destination.
- This portrays hidden URL and this method used to trick users to believe
+ This portrays hidden URL and this method is used to trick users to believe
  that the email is legitimate.
 \end_layout
 
@@ -4139,9 +4157,8 @@ Using IP addresses instead of URLs.
 \begin_layout Enumerate
 Generalization in addressing recipients.
  As phishing emails are distributed by large number of recipients, the email
- often is not personalized, unlike the legitimate email that address its
- recipient by personalized information such as the last four digits of account
- information.
+ is often not personalized, unlike a legitimate email that address its recipient
+ with personalized information such as the last four digits of their account.
 \end_layout
 
 \begin_layout Enumerate
@@ -4151,12 +4168,12 @@ Usage of well-defined situational contexts to lure victims.
 \end_layout
 
 \begin_layout Standard
-Moreover, Ma, et al.
- experimented with seven properties to consider in a phishing emails consist
- of the total number of links, total numbers of invisible links, whether
- the link that appears in the message is different than the actual destination,
- the existence of forms, whether scripts exist within an email, total appearance
- of blacklisted words in the body and the total appearance of blacklisted
+Ma et al.
+ experimented with seven properties to consider in phishing emails: the
+ total number of links; total numbers of invisible links; whether the link
+ that appears in the message is different than the actual destination; the
+ existence of forms; whether scripts exist within an email; total appearance
+ of blacklisted words in the body; and the total appearance of blacklisted
  words in the subject 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4185,11 +4202,11 @@ Phishing prevention
 \end_layout
 
 \begin_layout Standard
-Phishing attacks aim to by-pass technological countermeasures by manipulating
- users’ trust and can lead to monetary losses.
- Therefore, human factors take a big part on the phishing taxonomy, especially
+Phishing attacks aim to bypass technological countermeasures by manipulating
+ users' trust and can lead to monetary losses.
+ Therefore, human factors play a big part in the phishing taxonomy, especially
  in the organizational environment.
- Human factor in phishing taxonomy comprised of education, training and
+ Human factor in phishing taxonomy is comprised of education, training and
  awareness 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4209,7 +4226,7 @@ fig:holistic
 
 \end_inset
 
- illustrates where human factor takes part on phishing threats 
+ illustrates where human factors play a part in phishing threats 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "frauenstein:2013"
@@ -4217,14 +4234,14 @@ key "frauenstein:2013"
 \end_inset
 
 .
- User’s awareness of phishing has been explored by several studies 
+ User's awareness of phishing has been explored by several studies 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "james:2005,frauenstein:2013,emigh:2005,kumaraguru:2008,jansson:2013,dodge:2007"
 
 \end_inset
 
- as preventive measure against phishing attack.
+ as preventive measures against phishing attacks.
  According to ISO/IEC 27002 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4239,13 +4256,14 @@ key "organization:2005"
 
 \end_inset
 
-, it has been shown that information security awareness is important and
- it has been critical success factors to mitigate security vulnerabilities
- that attack user’s trust.
- One approach to hopefully prevent phishing attack was by implementing anti
- phishing warning/indicator.
- Dhamija, et al suggest that users often ignore security indicators thus
- makes them ineffective 
+, information security awareness is important and it has been a critical
+ success factor in mitigating security vulnerabilities that attack user's
+ trust.
+ One approach to hopefully prevent phishing attacks is to implement an anti-phis
+hing warning/indicator.
+ Dhamija et al.
+ suggest that users often ignore security indicators, thus making them ineffecti
+ve 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "dhamija2006phishing"
@@ -4259,40 +4277,11 @@ key "dhamija2006phishing"
 \end_layout
 
 \begin_layout Standard
-Moreover, the inconsistency of positioning on different browsers makes them
- much difficult to identify phishing 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "kirlappos:2012"
-
-\end_inset
-
-.
- Evidently, Schechter, et al.
- pointed out that 53% of their study participants were still attempting
- to provide their confidential information, even after their task was interrupte
-d by strong security warning 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "schechter:2007"
-
-\end_inset
-
-.
- Therefore, these suggest that an effective phishing education must be added
- as a complementary strategy to complete technical anti-phishing measure
- as a strong remedy to detect phishing websites or emails.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -4327,20 +4316,41 @@ key "frauenstein:2013"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Phishing education for online users often by instructing not to click links
- in an email, ensure that SSL is present and to verify that the domain name
- is correct before giving information, and other similar education.
- This traditional practice evidently has not always effective 
+Moreover, the inconsistency of positioning on different browsers makes it
+ difficult to identify phishing 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kirlappos:2012"
+
+\end_inset
+
+.
+ Schechter et al.
+ pointed out that 53% of their study participants were still attempting
+ to provide confidential information even after their task was interrupted
+ by strong security warning 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "schechter:2007"
+
+\end_inset
+
+.
+ This suggests that an effective phishing education must be added as a complemen
+tary strategy to complete technical anti-phishing measures.
+\end_layout
+
+\begin_layout Standard
+Phishing education for online users often includes instructing people not
+ to click links in an email, ensure that the SSL is present and to verify
+ that the domain name is correct before giving information.
+ This traditional practice evidently has not always been effective 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "emigh:2005"
@@ -4348,9 +4358,10 @@ key "emigh:2005"
 \end_inset
 
 .
- One may ask what makes phishing education effective? A study suggests that
- in order online users to be aware of phishing threats, is to really engage
- them to so that they understand how vulnerable they are 
+ One may ask, therefore, what makes phishing education effective.
+ A study suggests that in order for online users to be aware of phishing
+ threats, they need to be really engaged so that they understand how vulnerable
+ they are 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "mansfield:2013"
@@ -4358,8 +4369,8 @@ key "mansfield:2013"
 \end_inset
 
 .
- To do this, simulated phishing attacks often performed internally in an
- organization.
+ To do this, simulated phishing attacks are often performed internally in
+ an organization.
  
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -4371,7 +4382,7 @@ fig:simulated
 
 \end_inset
 
- shows a simulated phishing email and website carried out by Kumaraguru,
+ shows a simulated phishing email and website carried out by Kumaraguru
  et al.
  from PhishGuru 
 \begin_inset CommandInset citation
@@ -4381,19 +4392,16 @@ key "kumaraguru:2009"
 \end_inset
 
 .
- As a result, this scenario puts them in the ultimate teachable moment if
- they fall for these attacks.
+ This scenario delivers the ultimate teachable moment if they fall for these
+ attacks.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Float figure
@@ -4413,7 +4421,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-simulated phishing email 
+Simulated phishing email 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kumaraguru:2009"
@@ -4441,7 +4449,7 @@ key "kumaraguru:2009"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -4455,7 +4463,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-simulated phishing website 
+Simulated phishing website 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kumaraguru:2009"
@@ -4480,7 +4488,7 @@ key "kumaraguru:2009"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -4494,7 +4502,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-simulated phishing message 
+Simulated phishing message 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kumaraguru:2009"
@@ -4551,8 +4559,8 @@ key "kumaraguru:2009"
 
 \begin_layout Standard
 Phishguru is a security training system operated by Wombat security technology
- that teaches users not to be deceived by phishing attempts by simulation
- of phishing attacks
+ that teaches users not to be deceived by phishing attempts through simulation
+ of phishing attacks 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "phishguru"
@@ -4577,38 +4585,8 @@ fig:em-training
 \end_layout
 
 \begin_layout Standard
-Kumaraguru, et al.
- investigates the effectiveness of embedded training methodology in a real
- world situation 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "kumaraguru:2009"
-
-\end_inset
-
-.
- Evidently, they indicated that even after 28 days after training, users
- trained by PhishGuru were less likely to click the link presented in the
- simulated phishing email than those who were not trained.
- They also find that users who trained twice were less likely to give informatio
-n to simulated fraudulent website than users who were trained once.
- Moreover, they argue that the training does not decrease the users’ willingness
- to click on the links from legitimate emails; it means that less likely
- a trained user did a false positive when he or she requested to give informatio
-n from true legitimate emails 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "kumaraguru:2009"
-
-\end_inset
-
-.
- This suggests that user training strategy as an effective phishing education
- in order to improve phishing awareness especially in organizational environment.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
@@ -4646,13 +4624,41 @@ key "kumaraguru:2009"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Kumaraguru et al.
+ investigated the effectiveness of embedded training methodology in a real
+ world situation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+.
+ They indicated that 28 days after training, users trained by PhishGuru
+ were less likely to click the link presented in the simulated phishing
+ email than those who were not trained.
+ They also find that users who trained twice were less likely to give informatio
+n to simulated fraudulent websites than users who were trained once.
+ Moreover, they argue that the training does not decrease the users' willingness
+ to click on the links from legitimate emails; it is less likely a trained
+ user gave a false positive when he or she was requested to give information
+ by true legitimate emails 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kumaraguru:2009"
+
+\end_inset
+
+.
+ This suggests that a user training strategy or effective phishing education
+ is necessary to improve phishing awareness, especially in organizational
+ settings.
 \end_layout
 
 \begin_layout Section
@@ -4666,19 +4672,19 @@ Human factor and persuasion
 \end_layout
 
 \begin_layout Standard
-Phishing attacks generally aim to manipulate end users to comply phisher's
- request.
+Phishing attacks generally aim to manipulate end users to comply with the
+ phisher's request.
  Such manipulation in phishing attacks is achieved by social engineering.
  This means that human element is tightly involved with phishing.
- But how do phishers compose such deception? How come online users are gullible
+ But how do phishers compose such deception? Why are online users gullible
  to these attacks? 
 \end_layout
 
 \begin_layout Standard
-Kevin Mitnick, who was obtaining millions of dollars by performing social
- engineering technique, is plausibly the best known person who had used
- social engineering technique to carry out his attacks.
- His book that titled 
+Kevin Mitnick, who obtained millions of dollars by performing social engineering
+ techniques, is probably the best known person who had used the social engineeri
+ng technique to carry out attacks.
+ His book entitled 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4693,7 +4699,7 @@ key "mitnik:2001"
 
 \end_inset
 
- has defined social engineering as follows:
+ defined social engineering as follows:
 \end_layout
 
 \begin_layout Quote
@@ -4712,10 +4718,10 @@ Using influence and persuasion to deceive people by convincing them that
 \end_layout
 
 \begin_layout Standard
-From his definition we can learn that people are the main target of the
- attack, specifies some of the important tools used by the attackers, such
- as influence and persuasion.
- 
+From Mitnick's definition we can learn that people are the main target of
+ the attack.
+ He specifies some of the important tools used by the attackers such as
+ influence and persuasion.
 \end_layout
 
 \begin_layout Standard
@@ -4726,16 +4732,16 @@ key "cialdini:2001"
 
 \end_inset
 
-, that is, the technique of making people grant to one's request.
- These principles include;
+; that is, the technique of making people grant to one's request.
+ These principles are:
 \shape italic
  reciprocation, consistency, social proof, likeability, authority and scarcity
 \shape default
 .
- Reciprocation is 
+ Reciprocation is the norm that obligates individuals to repay in kind what
+ they have received, return the favor or adjustment to a smaller request
 \lang english
-the norm that obligates individuals to repay in kind what they have received,
- return the favor or adjustment to smaller request 
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cialdini:2001"
@@ -4743,8 +4749,8 @@ key "cialdini:2001"
 \end_inset
 
 .
- Consistency is a public commitment where people confirmed to commit publicly
- in the decision they have made 
+ Consistency is a public commitment where people commit to the decision
+ they have made 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "workman:2008"
@@ -4768,7 +4774,7 @@ key "workman:2008"
 \end_inset
 
 .
- Stajano, et al.
+ Stajano et al.
  suggest people will let their guard down when everybody around them appears
  to share the same risk 
 \begin_inset CommandInset citation
@@ -4778,18 +4784,19 @@ key "stajano2011understanding"
 \end_inset
 
 .
- Likeability is when people giving their trust to the people they find attractiv
-e or credible 
+ Likeability is when people trust those they find attractive or credible
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "workman:2008,cialdini:2001"
 
 \end_inset
 
-, when trust is achieved, compliance to grant a request may take place.
+.
+ When trust is achieved, compliance to grant a request may take place.
  While it is our human nature not to question authority, it can be used
  to cause fear, where people obey commands to avoid negative consequences
- such as losing a privilege or losing something valuable, fear of punishment,
+ such as: losing a privilege; losing something valuable; and fear of punishment,
  humiliation or condemnation 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4798,9 +4805,10 @@ key "cialdini:2001,workman:2008"
 \end_inset
 
 .
- Stajano, et al suggest that scarcity is related to time principle, that
- is, when we are under time pressure to make important choice, we tend to
- have less reasoning to make decision 
+ Stajano et al.
+ suggest that scarcity is related to the time principle: that is, when we
+ are under time pressure to make an important choice, we tend to have less
+ reasoning in making a decision 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "stajano2011understanding"
@@ -4812,23 +4820,16 @@ key "stajano2011understanding"
 \end_layout
 
 \begin_layout Standard
-Human as the 
-\begin_inset Quotes eld
-\end_inset
-
-weakest link
+The human being as the “weakest link
 \begin_inset Quotes erd
 \end_inset
 
- in computer security has been exists and exploited for ages.
- And yet, security designers blame on users and whine 
+ in computer security has been exploited for a long time.
+ Security designers blame users and complain that: 
 \begin_inset Quotes eld
 \end_inset
 
-the system I designed would be secure, if only users were less gullible
-\begin_inset Quotes erd
-\end_inset
-
+the system I designed would be secure, if only users were less gullible”
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4837,18 +4838,11 @@ key "stajano2011understanding"
 \end_inset
 
 .
- Stajano, et al.
- stated that 
-\begin_inset Quotes eld
-\end_inset
-
-a wise security designer would seek a robust solution which acknowledge
- the existence of these vulnerabilities as unavoidable consequence of human
- nature and actively build countermeasures that prevent this exploitation
-\begin_inset Quotes erd
-\end_inset
-
- 
+ Stajano et al.
+ stated that: “a wise security designer would seek a robust solution which
+ acknowledges the existence of these vulnerabilities as unavoidable consequence
+ of human nature and actively build countermeasures that prevent this exploitati
+on” 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "stajano2011understanding"
@@ -4858,7 +4852,7 @@ key "stajano2011understanding"
 .
  With this in mind, the exploration of persuasion principles is congruent
  with our research goal.
- Cialdini's six persuasion principles will be the foundation in our research.
+ Cialdini's six persuasion principles are the foundation of our research.
 \end_layout
 
 \end_body
