@@ -82,12 +82,12 @@ Data and analysis
 
 \begin_layout Standard
 This chapter explains our research methodology and results in details.
- We begin by explaining the framework of our methods, that consists of several
- steps in order to get our results.
+ We begin by explaining the framework of our methods, which consists of
+ several steps in order to get our results.
  By the end of this chapter, we present the results of our analysis to answer
  the research questions that we explained in 
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -121,9 +121,9 @@ fig:Research-methodology-diagram
 
 \end_inset
 
-, we processed our data into several steps.
- After, we collect the data from a security organization in the form of
- suspected phishing email reports, we performed a data selection that consists
+, we processed our data in several steps.
+ We collected the data from a security organization in the form of suspected
+ phishing email reports, and then performed a data selection that consists
  of selecting 8444 raw emails into 207 unique phishing emails.
  The selection process can be found in 
 \begin_inset Flex CT - auto cross-reference
@@ -149,8 +149,8 @@ sub:variables
 
 \end_inset
 
- so that we could reconstruct into SPSS readable dataset.
- Lastly, we conduct statistical analyses to answer our hypotheses.
+ so that we could reconstruct into an SPSS readable dataset.
+ Finally, we conducted statistical analyses to answer our hypotheses.
 \end_layout
 
 \begin_layout Standard
@@ -200,11 +200,12 @@ Data collection
 \end_layout
 
 \begin_layout Standard
-The data was obtained from an organization based in Netherlands that handles
- reports on online crime and fraud including phishing in the form of phishing
- emails, which were reported between August 2013 and December 2013.
- The data consists of 8444 suspected phishing emails in total that will
- be selected and classified in the following sections.
+The data was obtained from an organization based in the Netherlands that
+ handles reports on online crime and fraud including phishing in the form
+ of phishing emails, which were reported between August 2013 and December
+ 2013.
+ The data consists of 8444 suspected phishing emails in total that are selected
+ and classified in the following sections.
 \end_layout
 
 \begin_layout Subsection
@@ -285,10 +286,10 @@ Non-English exclusion
 \end_layout
 
 \begin_layout Standard
-By manually inspecting each of suspected phishing email, we can separate
- the emails based on the languages.
+By manually inspecting each of suspected phishing emails, we can separate
+ the emails based on languages.
  These languages consist of English, Dutch and other languages.
- The raw data was sorted by the subject to help the separation process easier.
+ The raw data was sorted by the subject to help ease the separation process.
  This process gave the following results:
 \end_layout
 
@@ -301,7 +302,7 @@ By manually inspecting each of suspected phishing email, we can separate
 \end_layout
 
 \begin_layout Itemize
-4 suspected phishing in Other languages
+4 suspected phishing in other languages
 \end_layout
 
 \begin_layout Standard
@@ -339,12 +340,13 @@ Non phishing exclusion
 \end_layout
 
 \begin_layout Standard
-From 684 suspected phishing emails in English group, we exclude the non-phishing
- emails by categorized them into Phishing, Legitimate and Others groups.
+From 684 suspected phishing emails in the English group, we excluded the
+ non-phishing emails by categorizing them into Phishing, Legitimate and
+ Others groups.
  The phishing group consists of the emails that were indeed phishing.
  The legitimate group consists of legitimate emails.
  The others group contains spam emails that represent commercial advertisements
- and the emails that have no content, for instance, when the content has
+ and the emails that have no content -- for instance, when the content has
  been removed before it was forwarded.
  
 \end_layout
@@ -366,7 +368,7 @@ This process gave the following results:
 \end_layout
 
 \begin_layout Standard
-Interestingly, based on the result of the categorization process, we found
+Interestingly, based on the results of the categorization process, we found
  18 legitimate emails that were mistakenly reported as phishes (i.e.
  false positives).
  This suggests that although there are only 18 false positives, misinterpretatio
@@ -378,36 +380,35 @@ Removing duplicated emails
 \end_layout
 
 \begin_layout Standard
-From this point we would only code 440 phishing emails to an excel sheet
- with necessary variables so that we could convert the excel sheet into
- SPSS readable file.
+We coded the 440 phishing emails to an Excel sheet with necessary variables
+ so that we could convert the Excel sheet into an SPSS readable file.
  Our aim was to analyze only the unique phishing emails, so that the dataset
  would not be redundant.
- Duplicated emails in our dataset defined as having exactly the same text
- in the entire body of the emails.
+ Duplicated emails in our dataset were defined as those having exactly the
+ same text in the entire body of the emails.
  To find duplicated phishing emails, we conducted the following steps:
 \end_layout
 
 \begin_layout Enumerate
-Sorting the 440 emails by the subject, to show which email that has the
- same subject.
+Sorting the 440 emails by the subject, to show which emails had the same
+ subject.
 \end_layout
 
 \begin_layout Enumerate
-Manually investigate each email that has other emails with the same subject
+Manually investigating each email with other emails with the same subject
  to make sure all the text in the entire body is exactly the same.
- If not we discriminated it.
+ If it did we excluded it.
 \end_layout
 
 \begin_layout Enumerate
-Sometimes duplicated emails have slightly different subject.
- To find more duplicated emails, we search based on random phrase from the
- body.
+Sometimes duplicated emails have slightly different subjects.
+ To find more duplicated emails, we searched based on random phrase from
+ the body.
 \end_layout
 
 \begin_layout Enumerate
 If other emails found, we manually investigate each email to make sure they
- have exactly the same text in the entire body.
+ had exactly the same text in the entire body.
 \end_layout
 
 \begin_layout Enumerate
@@ -419,7 +420,7 @@ CounterSameContents
 \begin_inset Quotes erd
 \end_inset
 
- variable that we will explain in 
+ variable that we explain in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -442,50 +443,18 @@ Data Classification
 \end_layout
 
 \begin_layout Standard
-We classify our data accordingly into our variables so that we can have
- a usable dataset which can be analyzed.
+We classified our data into our variables to give a usable dataset that
+ could be analyzed.
  We put either 0 or 1 in our variables except Mail ID, Timestamps, CountMessageR
 eporter, Target and Reason variables.
- For example, when a phishing email has a PDF attachment, we put value 
-\begin_inset Quotes eld
-\end_inset
-
-1
-\begin_inset Quotes erd
-\end_inset
-
- in our 
-\begin_inset Quotes eld
-\end_inset
-
-PDFattachment
-\begin_inset Quotes erd
-\end_inset
-
- variable.
- Similarly, if phishing email has a hyperlink in the content, we put value
- 
-\begin_inset Quotes eld
-\end_inset
-
-1
-\begin_inset Quotes erd
-\end_inset
-
- in our 
-\begin_inset Quotes eld
-\end_inset
-
-ContainHyperlink
-\begin_inset Quotes erd
-\end_inset
-
- variable.
- As we want to analyze our dataset based on Cialdini's persuasion principles,
- it is important for us to explain our rationale and conception on Cialdini's
- principles.
- We will explain our variables and persuasion conception in the following
- sections.
+ For example, when a phishing email had a PDF attachment, we put value “1”
+ in our “PDFattachment” variable.
+ Similarly, if the phishing email had a hyperlink in the content, we put
+ value “1” in our “ContainHyperlink” variable.
+ As we want to analyze our dataset based on Cialdini’s persuasion principles,
+ it is important for us to explain our rationale and conception based on
+ Cialdini’s principles.
+ We explain our variables and persuasion conception in the following sections.
 \end_layout
 
 \begin_layout Subsubsection
@@ -499,7 +468,7 @@ Variables and concepts
 \end_layout
 
 \begin_layout Standard
-As we study phishing email properties in 
+As we studied phishing email properties in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -510,10 +479,10 @@ sub:Stop-phishing-at
 
 \end_inset
 
-, variables are need to be established to code our dataset into, so that
- we will be able to conduct the statistical analysis in the SPSS application.
+, variables are needed to code our dataset into, so that we can conduct
+ the statistical analysis in the SPSS application.
  Based on our findings in the literature survey on phishing email properties,
- 23 Variables were created as part of the methodology processes prior our
+ 23 Variables were created as part of the methodology processes prior to
  data classification.
  Generic properties are depicted by the structural properties in phishing
  emails except persuasion principles.
@@ -533,7 +502,7 @@ Mail ID
 \emph on
 Timestamps
 \emph default
-: Implies the date and time when the email is being reported [Scale measurement]
+: Implies the date and time when the email is reported [Scale measurement]
 \end_layout
 
 \begin_layout Enumerate
@@ -541,8 +510,8 @@ Timestamps
 \emph on
 Attachments:
 \emph default
- Indicates whether the phishing email has an attachment(s), if so, what
- kind of attachment
+ Indicates whether the phishing email has an attachment(s), and if so, what
+ kind of attachment:
 \end_layout
 
 \begin_deeper
@@ -564,7 +533,7 @@ HTML [0 = No, 1 = Yes]
 \shape italic
 Instructions
 \shape default
-: Implies the inquiry by the phishers in the contents
+: Implies the inquiry by the phishers in the contents:
 \end_layout
 
 \begin_deeper
@@ -582,8 +551,7 @@ ReqEmailReply; A request to respond by email reply [0 = No, 1 = Yes]
 \end_layout
 
 \begin_layout Enumerate
-ReqCallingByPhone; A request to respond by calling through phone [0 = No,
- 1 = Yes]
+ReqCallingByPhone; A request to respond by phone [0 = No, 1 = Yes]
 \end_layout
 
 \end_deeper
@@ -622,17 +590,10 @@ HiddenURL
 \emph on
 CountMessageReporter
 \emph default
-: A counter where the reporter includes an extra information with the minimum
+: A counter where the reporter includes extra information with the minimum
  value 0.
- For instance, A reporter said 
-\begin_inset Quotes eld
-\end_inset
-
-Geen spam, maar phishing!
-\begin_inset Quotes erd
-\end_inset
-
-, we put a value 1 in this variable [Nominal measurement]
+ For instance, when a reporter said “Geen spam, maar phishing!” (“Not spam,
+ but phishing!”), we put a value 1 in this variable [Nominal measurement]
 \end_layout
 
 \begin_layout Enumerate
@@ -691,8 +652,7 @@ tab:Reason-classification-1
 \emph on
 Cialdini's Principles
 \emph default
-: Specifies what principle(s) the phishing email signifies.
- 
+: Specifies what principle(s) the phishing email signifies:
 \end_layout
 
 \begin_deeper
@@ -730,16 +690,16 @@ CounterSameContents
  The minimum value of this variable is 1, which indicates a unique email.
  For example, value 2 indicates that there is (2-1) duplicated email with
  the same text in the body, value 3 means there are (3-1) duplicated emails.
- The reason to have this variable was for us to make sure we can track back
- from 207 unique phishing emails to 440 phishing emails.
+ The reason for this variable was to make sure we can track back from 207
+ unique phishing emails to 440 phishing emails.
 \end_layout
 
 \begin_layout Standard
-We have established the variables based on the phishing email properties.
+We established the variables based on the phishing email properties.
  We also distinguished generic properties and persuasion properties.
- The generic properties of a phishing email is effected by these variables:
+ The generic properties of a phishing email is affected by these variables:
  attachments, requests, contents, hiddenURL, target and reason.
- On the other hand, the persuasion properties effected by these variables:
+ On the other hand, the persuasion properties are affected by these variables:
  reciprocation, consistency, social proof, likeability, authority and scarcity.
 \end_layout
 
@@ -754,20 +714,20 @@ Cialdini's principles and conception
 \end_layout
 
 \begin_layout Standard
-Part of our analysis, we tried to analyze phishing emails dataset based
- on Cialdini’s principles titled “The science of persuasion”.
- The decision making and the rationale in this process are achieved based
- our perspective of Cialdini’s principles in the following details.
+As part of our analysis, we analyzed the phishing emails dataset based on
+ Cialdini’s principles entitled “The science of persuasion”.
+ The decision-making and the rationale in this process are achieved based
+ on our perspective of Cialdini’s principles in the following details.
+ 
 \end_layout
 
 \begin_layout Standard
 
-\emph on
+\shape italic
 Reciprocation
-\emph default
+\shape default
 : The norm that obligates individuals to repay in kind what they have received.
- Return the favor.
- Adjustment to smaller request 
+ In other words, to return the favor, or adjust to smaller request 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "cialdini:2001"
@@ -775,19 +735,18 @@ key "cialdini:2001"
 \end_inset
 
 .
- When a phisher sends an email containing a message that perceived as a
- request or obligation towards the recipient to “return the favor”.
- It might be natural for an individual to feel “obligated” to return the
- favor for things or information that he/she is given and is deemed to be
- valuable.
- For example in the phishing email context, when PayPal has detected there
+ This occurs when a phisher sends an email containing a message that is
+ perceived as a request or obligation towards the recipient to “return the
+ favor”.
+ It might be natural for an individual to feel “obliged” to return the favor
+ for things or information that he/she is given and deems to be valuable.
+ For example, in the phishing email context, when PayPal has detected there
  are suspicious activities on our account, we sometimes believe that PayPal
  has done a good job in detecting security risk on their system and we feel
- “obligated” to return the favor of that valuable information.
- Another example, if the sender gave the information that they have added
- “extra security” on their system so that we also feel obligated to grant
- their request.
- 
+ “obliged” to return the favor of that valuable information.
+ Another example is that if the sender gave the information that they have
+ added “extra security” on their system we also feel obliged to grant their
+ request.
 \end_layout
 
 \begin_layout Standard
@@ -795,9 +754,8 @@ key "cialdini:2001"
 \emph on
 Consistency
 \emph default
-: Public commitment.
- When people become psychologically become vested in a decision they have
- made 
+: Public commitment occurs when people become psychologically become vested
+ in a decision they have made 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "workman:2008"
@@ -805,17 +763,17 @@ key "workman:2008"
 \end_inset
 
 .
- When a phishing email contains a message that perceived to request recipient’s
- “consistency” on a decision they have made.
+ This happens when a phishing email contains a message that is perceived
+ to request the recipient's “consistency” on a decision they have made.
  For example in the phishing email context, when a hotel agent asks us to
  review the payment details of our reservation that we have previously made,
- we might feel committed or agreed to review the payment details that has
+ we might feel committed or agreed to review the payment details that have
  been given.
- Another example, if Facebook gave a link to change your password that you
- requested previously to change it.
+ Another example is if “Facebook” gives a link to change your password when
+ you previously requested to change it.
  It might be not applicable to those who are not requesting password previously,
- but we believe it will impact to those who are committed to change the
- password previously.
+ but we believe it will impact on those who previously committed to change
+ their password.
  
 \end_layout
 
@@ -824,7 +782,7 @@ key "workman:2008"
 \emph on
 Social proof
 \emph default
-: It occurs when people model the behavior of their peer group, role models,
+: This occurs when people model the behavior of their peer group, role models,
  important others or because it is generally "fashionable" 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -833,11 +791,11 @@ key "workman:2008"
 \end_inset
 
 .
- For example, when someone tells us that there are a hundreds of other people
- who use particular system, so we might want to agree to use it as well
- just because a lot of other people use it as well.
- Another example, when Facebook give information that someone wants to be
- our friend, and we knew who that someone is.
+ For example, when someone tells us that there are hundreds of other people
+ who use a particular system, we might want to agree to use it as well just
+ because a lot of other people use it.
+ Another example is when Facebook gives information that someone wants to
+ be our friend, and we know who that someone is.
  We might tend to follow that request and click the link to accept the request.
  
 \end_layout
@@ -856,9 +814,10 @@ key "workman:2008"
 
 \end_inset
 
-.When a phishing email contains a message that attracts recipient to comply
- the sender’s request based the reference on something or someone that likeable
- for the recipient.
+.
+ In the context of a phishing email, the email contains a message that attracts
+ the recipient to comply with the sender's request, based on reference on
+ something or someone likeable for the recipient.
  Cialdini 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -867,16 +826,16 @@ key "cialdini:2001"
 \end_inset
 
  identified that people usually “trust those they like”.
- For example, if someone is asking us to download and listen to a music
- that Michael Jackson made, we might be attracted to download and listen
- to it just because we happen to love Michael Jackson music.
- It is like someone is asking us to watch a concert and he/she said, “Coldplay
- will be there”, if we are devoted fan of Coldplay, we might find it very
- interesting.
- Another example, when a sender gives compliments to us or committed to
- help us to safeguard our account from the hackers, we tend to think that
- the sender cares about our safety, which is good for us, and consequently
- it might attract us to comply with the sender’s request.
+ For example, if someone is asking us to download and listen to music that
+ Michael Jackson made, we might be attracted to download and listen to it
+ just because we happen to love Michael Jackson's music.
+ It is like someone asks us to watch a concert and they said, “Coldplay
+ will be there”.
+ If we are a devoted fan of Coldplay, we might find it very interesting.
+ Another example is when a sender gives compliments to us or commits to
+ help us safeguard our account from hackers, we tend to think that the sender
+ cares about our safety, which is good for us, and consequently it might
+ attract us to comply with the sender's request.
  
 \end_layout
 
@@ -895,13 +854,13 @@ key "workman:2008"
 \end_inset
 
 .
- When a phishing email contains logo or image or signature or anything that
- looks like legitimate institutions.
+ This happens when a phishing email contains a logo, image, signature or
+ anything that looks like a legitimate institution.
  It can be used to makes it look trustworthy so that the recipient might
- accept and obey the sender’s request.
- For example, when an email is presenting somehow authentic looking signature
+ accept and obey the sender's request.
+ For example, an email may present a somewhat authentic-looking signature
  like “Copyright 2013 PayPal, Inc.
- All rights reserved” or PayPal logo.
+ All rights reserved” or with the PayPal logo.
  Cialdini 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -909,13 +868,11 @@ key "cialdini:2001"
 
 \end_inset
 
- suggests that authoritative persuasion could be achieved by only presenting
+ suggests that authoritative persuasion can be achieved by presenting an
  “aura of legitimacy”.
- Another example, when the content of the email stated that it is from “System
- Administrator” asking for password update.
- It would be not authoritative if only random people asking us to change
- our password.
- 
+ Another example is when the content of the email states that it is from
+ the “System Administrator” asking for password update.
+ It would be not authoritative if random people asked us to change our password.
 \end_layout
 
 \begin_layout Standard
@@ -923,7 +880,7 @@ key "cialdini:2001"
 \emph on
 Scarcity
 \emph default
-: Based on the principle of reactance, where people respond to perceived
+: This is based on the principle of reactance, where people respond to perceived
  shortages by placing greater psychological value on perceived scarce items
  
 \begin_inset CommandInset citation
@@ -933,13 +890,13 @@ key "workman:2008"
 \end_inset
 
 .
- When a phishing email contains a message that tells a recipient to react
- or respond to scarce/turns-into scarce items or things or privileges.
- For example in the phishing email context, if a sender tells us that he/she
- will suspend/deactivate/limit our account if not respond to his/her request,
- we might want to respond to their request because we are worried we will
- not able to access our account again or in other words our account become
- scarce or limited.
+ A phishing email containing such a message tells a recipient to react or
+ respond to scarce/becoming-scarce items, things or privileges.
+ In the phishing email context, if a sender tells us that he/she will suspend/de
+activate/limit our account if we do not respond to his/her request, we might
+ want to respond to their request because we are worried we will not able
+ to access our account again -- in other words, our account becomes scarce
+ or limited.
 \end_layout
 
 \begin_layout Standard
@@ -1015,19 +972,20 @@ Statistical analysis
 \end_layout
 
 \begin_layout Standard
-In the previous section, we have described the framework of our methodology
- in considerable details.
- Until data classification, we have used Microsoft Excel to code our data.
- To perform the analyses, we transform the data into SPSS readable file.
- We initially record our data in 23 variables which could be expanded depending
- on our analyses, such as selecting cases which have all instructions or
+In the previous section, we described the framework of our methodology in
+ considerable detail.
+ Until data classification, we used Microsoft Excel to code our data.
+ To perform the analyses, we transformed the data into an SPSS readable
+ file.
+ We initially recorded our data in 23 variables that could be expanded depending
+ on our analyses, such as selecting cases that have all instructions or
  selecting a specific target sector.
 \end_layout
 
 \begin_layout Standard
-The data has been analyzed by quantitative analysis from mainly three different
- viewpoints; general properties characteristics, persuasion principles character
-istics and their relationships.
+The data was analyzed by quantitative analysis from three different viewpoints:
+ general properties characteristics, persuasion principles characteristics,
+ and their relationships.
  We used frequency analysis to answer questions related to occurrences.
  For instance, we used frequency analysis to answer the most targeted institutio
 n in 
@@ -1043,21 +1001,24 @@ chap:research-questions
 
 .
  Furthermore, we used Pearson chi-square to test our hypotheses to discover
- if there is a significant relationship between two variables.
- If the resulted p-value is less than 0.05, 0.01, or 0.001, we are confident
- 95%, 99% and 99.9% respectively that the two chosen variables are having
- a significant relationship.
- By combining frequency analysis and chi-square test, we will see how they
- can answer our research questions in the next section.
- As our data is not continuous (i.e.
+ if there was a significant relationship between two variables.
+ If the resulted p-value was less than 0.05, 0.01, or 0.001, we are 95%, 99%
+ and 99.9% confident, respectively, that the two chosen variables have a
+ significant relationship.
+ By combining frequency analysis and chi-square test, we see how they can
+ answer our research questions in the next section.
+ 
+\end_layout
+
+\begin_layout Standard
+As our data is not continuous (i.e.
  interval or ratio) but nominal (i.e.
  categorical), we do not analyze our data by Pearson correlation.
- However, to test the strength of association involves nominal variables,
- the appropriate measurements are using phi and Cramer's V.
- Phi is used for 2 by 2 table and Cramer's V can be used for more than 2
- by 2 table.
- Since our data will be analyzed on 2 by 2 table, therefore, Phi measurements
- will be used.
+ However, to test the strength of association involving nominal variables,
+ the appropriate measurements are using phi and Cramer’s V.
+ Phi is used for 2 by 2 tables and Cramer’s V can be used for more than
+ 2 by 2 tables.
+ Since our data is analyzed on a 2 by 2 table, Phi measurements are used.
  Values close to 0 indicate a very weak relationship, and values close to
  -1 or +1 indicate a very strong negative or positive relationship respectively.
 \end_layout
@@ -1067,8 +1028,7 @@ Results
 \end_layout
 
 \begin_layout Standard
-In this section, we elaborate on the results we have obtained through our
- analyses.
+In this section, we elaborate on the results we obtained through our analyses.
  We begin this section by describing the frequency analyses of the general
  structural properties and persuasion principles.
  We then describe the relationship analysis between the general structural
@@ -1079,25 +1039,23 @@ In this section, we elaborate on the results we have obtained through our
 
 \begin_layout Standard
 We find that 36.2% of the total phishing emails have attachment(s) included
- within its content, On the other hand, 63.8% of them do not have attachment.
- In addition, we also look at what types of attachment does one has.
- Of the total emails having attachment, we find that 4% have PDF attachment,
- 78.7% have ZIP attachment, 12% have HTML attachment and 5.3% of them have
- the attachment(s) removed before the emails were forwarded.
- We are not sure what type of attachments they have, but we determined that
- the attachment element is still there if the request to open attachment
- within its content is presence.
- For example, an email dated December 20th 2013 11:29am, it was said in
- the email's body 
-\begin_inset Quotes eld
-\end_inset
+ within their content.
+ 63.8% of them therefore do not have attachments.
+ Of the emails with attachments, 4% have PDF attachments, 78.7% have ZIP
+ attachments, 12% have HTML attachments and 5.3% of them have had the attachments
+ removed before the emails were forwarded.
+ 
+\end_layout
 
-...we have send the attached as a secure electronic file
-\begin_inset Quotes erd
-\end_inset
-
-, however, it did not attach anything.
- Therefore, we suspected that it was removed by antivirus software.
+\begin_layout Standard
+We are not sure what type of attachments they had, but we determined that
+ an attachment element was there if there was a request to open an attachment
+ within the email content.
+ For example, in an email dated December 20th 2013 11:29am, it was said
+ in the email's body: “...we have sent the attached as a secure electronic
+ file”.
+ As nothing was actually attached, we suspect it was removed by antivirus
+ software.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -1109,25 +1067,26 @@ tab:Attachment(s)-analysis
 
 \end_inset
 
- illustrates our finding on attachment variables.
+ illustrates our findings on attachment variables.
  
 \end_layout
 
 \begin_layout Standard
 When we look deeper, we find that there is a significant relationship between
- ZIP file and Attachment variable, a chi-square test resulted in 
+ ZIP file and Attachment variable.
+ A chi-square test resulted in 
 \begin_inset Formula $X^{2}(1)=145.236,p<0.001$
 \end_inset
 
 .
  Similarly, there is a significant association between HTML file and Attachment
- variable with a chi-square test resulted in 
+ variable with a chi-square test resulting in 
 \begin_inset Formula $X^{2}(1)=16.560,p<0.001$
 \end_inset
 
 .
  However when we test the relationship between PDF and attachment, the significa
-ncy level is not as strong as ZIP and HTML, 
+nce level is not as strong as ZIP and HTML, with 
 \begin_inset Formula $X^{2}(1)=5.358,p=0.021$
 \end_inset
 
@@ -1136,6 +1095,7 @@ ncy level is not as strong as ZIP and HTML,
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -1396,36 +1356,34 @@ Attachment analysis
 \end_layout
 
 \begin_layout Standard
-When we look at what are the instructions or requests used in the dataset.
- We find 202 emails or 97.6% of all total reported phishing emails with clear
- instructions; whether it requests to click URL(s), request to open attachment,
- request to reply by email or request to respond by phone calling.
- 2.4% of the total emails do not contain a clear or unclear instructions
- to the recipients, for instance, at 24 November 2013 on 19:59, the email
- only include attachment(s) without asking to open it.
- However, with the subject of 
-\begin_inset Quotes eld
-\end_inset
-
-Payrolls reports
-\begin_inset Quotes erd
-\end_inset
-
- we have the impression that this is a targeted phishing email, which means
- it only aims a small audience as the recipients, usually a certain institution.
- More example, at 15 august 2013 on 17:38, it contains HTML based email
- that suggests a recipient to check the interesting pages on Facebook.
- However, we did not find any instruction to click on URL nor other instructions.
- Apart from the instruction to click URL(s), we find that 37.2% of the total
- phishing emails request to open attachment, 52.7% of them request to click
- URL(s), 16.9% request for email reply and 4.3% request to call by phone.
- Moreover.
- One single email can request multiple requests.
- If we look deeper, we have 8 valid emails or 3.9% of all emails which have
- both request to open attachment and request to click URL.
- However, we do not find any email which request all instructions in the
- content.
+When we look at the instructions or requests used in the dataset, we find
+ 202 emails or (97.6% of total) with clear instructions: requests to click
+ URL(s); requests to open attachments; requests to reply by email; or requests
+ to respond by phone.
+ 2.4% of the total emails do not contain a clear instructions to the recipients.
+ For instance, on 24 November 2013 at 19:59, an email was sent that only
+ include an attachment but no instruction to open it.
+ However, with the subject of “Payrolls reports” we have the impression
+ that this is a targeted phishing email, which means it only aims at a small
+ audience as the recipients, usually a certain institution.
+ Similarly, an email sent 15 August 2013 at 17:38 contains HTML suggesting
+ a recipient to check the interesting pages on Facebook.
+ However, there are no instructions to click on the URL, nor any other instructi
+ons.
  
+\end_layout
+
+\begin_layout Standard
+Apart from the instruction to click URL(s), we find that 37.2% of the total
+ phishing emails request to open attachments, 52.7% of them request to click
+ URLs, 16.9% request for email replies and 4.3% request a phone call.
+ Moreover, one single email can contain multiple requests.
+ If we look deeper, we have 8 valid emails (3.9% of all emails) that have
+ requests to both open attachments and click URLs.
+ However, we do not find any email which has all requests in the content.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1436,14 +1394,15 @@ tab:Methods-analysis
 
 \end_inset
 
- illustrates our findings in respect of requests are used.
- In addition, of all phishing emails which have clear instructions, 54%
- request to click URL(s), 38.1% request to open attachment(s), 17.3% request
- for email reply and 4.5% request to respond by phone calling.
+ illustrates our findings in respect of requests used.
+ Of all phishing emails that have clear instructions, 54% request to click
+ URL(s), 38.1% request to open attachment(s), 17.3% request an email reply
+ and 4.5% request a response by calling on the phone.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -1672,14 +1631,13 @@ Request analysis of all total emails (one email can contain more than one
 \end_layout
 
 \begin_layout Standard
-As we discussed before, we have also analyzed the content of phishing emails
+As we discussed before, we have analyzed the content of phishing emails
  in our corpus.
- We look at whether it has URL(s), using HTML code or includes image(s)
- within its content.
- We find that 60.4% have URL(s) while 39.6% do not have URL.
- 66.2% of the emails use HTML code while 33.8% do not use HTML code within
+ We looked at whether they had URLs, use HTML code or included images within
  its content.
- We find 35.3% of them include image(s) while 64.7% do not include image.
+ We find that 60.4% have URLs, while 39.6% do not.
+ 66.2% of the emails use HTML code while 33.8% do not use.
+ Finally, 35.3% of them include images while 64.7% do not.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -1692,12 +1650,12 @@ tab:Content-analysis
 \end_inset
 
  highlights our findings in respect of content analysis.
- The percentage depicted of all total emails.
- If we look further of all emails which utilized HTML, 120 emails or 87.6%
- of them have provided URL(s) and 73 or 53.3% of them include image(s).
- Furthermore, of all 73 emails that include image, 67 emails or 91.8% of
- them have provided URL(s).
- Based on this result, we know that one variable overlap with other variables.
+ The percentage depicted is of all total emails.
+ If we look further at all emails that utilized HTML, 120 emails (87.6%)
+ provided URLs, and 73 (53.3%) include images.
+ Furthermore, of all 73 emails that include images, 67 emails (91.8%) provided
+ URLs.
+ Based on these result, we know that one variable overlap with other variables.
  Therefore, the total percentage does not sum up to 100%.
 \end_layout
 
@@ -1890,7 +1848,7 @@ Content analysis of all total emails (one email can contain more than one
 \end_layout
 
 \begin_layout Standard
-When we look at target classification table in 
+When we look at the target classification table in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -1903,14 +1861,13 @@ tab:Target-analysis
 
 , we find that financial sector is the most targeted sector and ISP is the
  least common target in our corpus.
- Furthermore, E-Commerce/retails, administrator and government allocated
- in the second, third and fourth respectively as the most targeted sectors.
- When we look deeper at the detailed list of target brand, we find PayPal
- as a financial institution is the highest frequency at 37.2% of the total
- financial targeted emails.
- We find Bank of America contributes 6.4% and American Express 5.1%.
- Furthermore, Visa contributes 5.1% and Western union contributes 3.8%.
- Other financial institutions contributes below 3% of frequency.
+ Furthermore, e-Commerce/retail sector, administrator and government are
+ the second, third and fourth most targeted sectors, respectively.
+ When we look deeper at the detailed list of targeted brands, we find PayPal
+ has the highest frequency (37.2%) of the total financial targeted emails.
+ Bank of America contributes 6.4%, American Express 5.1%, Visa contributes
+ 5.1% and Western Union contributes 3.8%.
+ Other financial institutions contribute to less than 3%.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -1922,13 +1879,13 @@ fig:Detailed-of-financial
 
 \end_inset
 
- illustrates the detailed target brand of financial sector.
+ illustrates the detailed target brands of the financial sector.
 \end_layout
 
 \begin_layout Standard
-As one email does not have more than 1 targeted sector, therefore the total
- sums up to 100%.
- Note that, we initially had 92 targets in our corpus and we had to classify
+As one email does not have more than 1 targeted sector, the total sums up
+ to 100%.
+ Note that we initially had 92 targets in our corpus and we had to classify
  them into 10 target types in our data classification.
 \end_layout
 
@@ -2419,16 +2376,15 @@ tab:Reason-classification
 
 \end_inset
 
-, we find that 48.8% of the total emails are account related, 25% are financial
- reason and 11.1% are document related reason.
- In addition, only 9.7% are product/services reason and only 4.8% are social
- reason.
- When we look further, account related reason consists of security risk
- which contributes 28.7% of account related emails.
- Account related reason also consists of system upgrade, new system requirement
- and account expiration which contribute below 11%.
- This suggests that account related is the most common pretext to manipulate
- recipients in our corpus while social is evidently the least common pretext.
+, we find that 48.8% of the total emails are account related, 25% have a
+ financial reason and 11.1% a document-related reason.
+ Only 9.7% have a product/services reason and only 4.8% a social reason.
+ When we break these down, account-related reasons consists of a security
+ risk that contributes 28.7%, and system upgrade, new system requirement
+ and account expiration that contribute below 11%.
+ This suggests that an account-related reason is the most common pretext
+ to manipulate recipients in our corpus while social is evidently the least
+ common pretext.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -2440,7 +2396,7 @@ fig:Detailed-account-related
 
 \end_inset
 
- illustrates the detailed list of account related reason.
+ illustrates the detailed list of account-related reasons.
 \end_layout
 
 \begin_layout Standard
@@ -2773,19 +2729,20 @@ tab:Persuasion-principle-analysis
 \end_inset
 
 , we find that 96.1% of the total phishing emails are using authority principle,
- which holds the most used technique in our dataset.
- Followed by scarcity principle at 41.1%.
- While 21.7% of the total are using likeability principle, only 17.4% of them
- are using consistency principle.
- We find 9.7% are using reciprocation principle and 5.3% of them are using
- social proof principle.
- Since authority holds the highest persuasion technique in our corpus, it
- is interesting to know why phishers often use authority as the main technique.
- Perhaps, most people do not want to get negative consequences as a result
- of disobedience from authoritative figure.
- Consequently, those people who respond more obediently to authority more
- likely to comply with the email's requests than people who are more skeptical
- to authoritative figure.
+ which is the most used technique in our dataset, followed by the scarcity
+ principle at 41.1%.
+ 21.7% of the total use the likeability principle, while 17.4% use the consistency
+ principle.
+ 9.7% use the reciprocation principle and 5.3% of them use the social proof
+ principle.
+ Since the authority principle is the highest persuasion technique in our
+ corpus, it is interesting to know why phishers often use authority as the
+ main technique.
+ Perhaps, most people do not want negative consequences as a result of disobedie
+nce to authoritative figures.
+ Consequently, those people who respond more obediently to authority are
+ more likely to comply with the emails’ requests than people who are more
+ skeptical about authoritative figures.
  Note that one email can use multiple principles.
  Therefore, the total percentage does not sum up to 100%.
 \end_layout
@@ -3050,15 +3007,16 @@ Persuasion principles analysis
 \end_layout
 
 \begin_layout Standard
-Based on the result of persuasion principles analysis, we know that authority
- principle is the most used principle in our corpus.
+Based on the results of persuasion principles analysis, we know that the
+ authority principle is the most used principle in our corpus.
  Now, we look at the relationship between government and authority principle
  to test hypothesis 1.
- We find that 95.9% of non-government targeted emails have authority principle
- and 4.1% of them do not impersonate government nor having authority principle.
- We find 100% of government targeted emails are having authority principle.
- On the other hand, we find 93% of all authority emails are non government
- targeted email and 7% of them are government targeted emails.
+ We find that 95.9% of non-government targeted emails use the authority principle
+, while 4.1% of them do not impersonate government nor use the authority
+ principle.
+ We find 100% of government-targeted emails have the authority principle.
+ On the other hand, we find 93% of all authority emails are non-government
+ targeted emails and 7% of them are government-targeted emails.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -3070,17 +3028,17 @@ tab:Government-and-authority
 
 \end_inset
 
- depicted the relationship between government targeted email and authority
+ depicts the relationship between government-targeted emails and the authority
  principle.
- Furthermore, of all phishing emails, 6.8% of them which have both authority
- and government targeted sector.
+ Furthermore, of all phishing emails, 6.8% of them both use the authority
+ principle and target the government sector.
  A chi-square test was performed and we find that there is no significant
- association between government sector and authority principle, 
+ association between the government sector and authority principle, as 
 \begin_inset Formula $X^{2}(1)=0.604,p=0.473$
 \end_inset
 
 .
- since p is not less than 0.05, thus we reject hypothesis 1.
+ Since p is not less than 0.05, we reject hypothesis 1.
 \end_layout
 
 \begin_layout Standard
@@ -3397,12 +3355,12 @@ Government sector and authority principle
 \end_layout
 
 \begin_layout Standard
-When we look at the relationship between phishing emails which impersonate
- administrator and authority principle to test hypothesis 2.
- We find that 96.7% of administrator targeted emails have authority principle
- and 96% of non-administrator emails have authority principle.
- On the other hand, 85.4% of all authority emails are non administrator and
- 14.6% of them are administrator targeted emails.
+When we look at the relationship between phishing emails that impersonate
+ administrators and the authority principle to test hypothesis 2, we find
+ that 96.7% of administrator-targeted emails use the authority principle
+ and 96% of non-administrator emails use the authority principle.
+ On the other hand, 85.4% of all authority emails are non-administrator and
+ 14.6% of them are administrator-targeted emails.
  A chi-square test was performed and we find that there is no significant
  relationship between administrator target and authority principle, 
 \family roman
@@ -3421,7 +3379,7 @@ When we look at the relationship between phishing emails which impersonate
 \end_inset
 
 .
- Since p is not less than 0.05, therefore we reject hypothesis 2.
+ Since p is not less than 0.05, we reject hypothesis 2.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -3433,7 +3391,7 @@ tab:Administrator-sector-and
 
 \end_inset
 
- highlights the relationship between administrator sector and authority
+ highlights the relationship between administrator sector and the authority
  principle.
 \end_layout
 
@@ -3753,14 +3711,14 @@ Administrator sector and authority principle
 \begin_layout Standard
 Now we look at the association between financial sector and scarcity principle
  to test hypothesis 3.
- We find that 39.7% of all phishing emails which target financial sector
- have scarcity principle while 60.3% do not have scarcity principle.
- Furthermore, 41.9% of all non financial targeted emails have scarcity principle,
- while 58.1% of them do not have scarcity principle.
- On the other hand, 63.5% of scarcity emails is non financial targeted emails,
- inversely 36.5% of them is financial targeted emails.
- We performed a chi-square test and we find that there is no significant
- association between financial sector and scarcity principle, 
+ We find that 39.7% of all phishing emails that target financial sector use
+ the scarcity principle, while 60.3% do not.
+ Furthermore, 41.9% of all non-financial targeted emails use the scarcity
+ principle, while 58.1% do not.
+ 63.5% of scarcity emails are non-financial targeted emails, while 36.5% of
+ them are financial targeted emails.
+ We performed a chi-square test and we found that there is no significant
+ association between the financial sector and scarcity principle, 
 \family roman
 \series medium
 \shape up
@@ -3772,12 +3730,12 @@ Now we look at the association between financial sector and scarcity principle
 \uwave off
 \noun off
 \color none
-
+with 
 \begin_inset Formula $X^{2}(1)=0.090,p=0.764$
 \end_inset
 
 .
- Since p is not less than 0.05, thus, we reject hypothesis 3.
+ Since p is not less than 0.05, we reject hypothesis 3.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -3789,8 +3747,8 @@ tab:Financial-sector-and
 
 \end_inset
 
- illustrates the relationship between financial targeted emails and scarcity
- principle.
+ illustrates the relationship between financial-targeted emails and the
+ scarcity principle.
 \end_layout
 
 \begin_layout Standard
@@ -4106,17 +4064,18 @@ Financial sector and scarcity principle
 \end_layout
 
 \begin_layout Standard
-We look at the association between phishing emails which are targeting e-commerc
-e/retails and likeability principle to test hypothesis 4.
- We find that 20% of e-commerce/retails targeted emails have likeability
- principle.
- Furthermore, 22.2% of non e-commerce/retails targeted emails have likeability
- principle.
- On the other hand, only 17.8% of all likeability emails are e-commerce/retails
- targeted emails.
- A chi-square test was performed and we find that there is no significant
- association between phishing emails targeting e-commerce/retails and likeabilit
-y principle, 
+Turning our attention to the association between phishing emails that target
+ the e-commerce/retail sector and the likeability principle, we can test
+ hypothesis 4.
+ We find that 20% of e-commerce/retail sector targeted emails use the likeabilit
+y principle.
+ Furthermore, 22.2% of non e-commerce/retail sector targeted emails use the
+ likeability principle.
+ On the other hand, only 17.8% of all likeability emails are e-commerce/retail
+ sector targeted emails.
+ A chi-square test was performed and we found that there is no significant
+ association between phishing emails targeting the e-commerce/retail sector
+ and the likeability principle,
 \family roman
 \series medium
 \shape up
@@ -4128,12 +4087,12 @@ y principle,
 \uwave off
 \noun off
 \color none
-
+ with 
 \begin_inset Formula $X^{2}(1)=0.088,p=0.767$
 \end_inset
 
 .
- Since p is not less than 0.05, therefore we reject hypothesis 4.
+ Since p is not less than 0.05, we reject hypothesis 4.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -4145,8 +4104,8 @@ tab:E-commerce/retails-sector-and
 
 \end_inset
 
- illustrates the relationship between e-commerce/retails targeted sector
- and likeability principle.
+ illustrates the relationship between the e-commerce/retail targeted sector
+ and the likeability principle.
 \end_layout
 
 \begin_layout Standard
@@ -4463,13 +4422,14 @@ E-commerce/retails sector and likeability principle
 
 \begin_layout Standard
 Now we look at the association between phishing emails targeting social
- media and social proof principle to test hypothesis 5.
- We find that 18.2% of social media targeted emails have social proof principle.
- Furthermore, 4.6% of non social media targeted emails have social proof
+ media and the social proof principle to test hypothesis 5.
+ We find that 18.2% of social media targeted emails employ the social proof
  principle.
- On the other hand, 18.2% of all social proof email is social media targeted
- emails and 81.8% of them are not social media targeted emails.
- A chi-square test was performed and we find that there is no significant
+ Furthermore, 4.6% of non-social media targeted emails employ the social
+ proof principle.
+ 18.2% of all social proof emails are social media targeted emails and 81.8%
+ of them are not.
+ A chi-square test was performed and we found that there is no significant
  association between phishing emails targeting social networks and social
  proof principle, 
 \family roman
@@ -4483,7 +4443,7 @@ Now we look at the association between phishing emails targeting social
 \uwave off
 \noun off
 \color none
-
+wih 
 \begin_inset Formula $X^{2}(1)=3.823,p=0.051$
 \end_inset
 
@@ -4500,7 +4460,7 @@ tab:Social-media-sector
 
 \end_inset
 
- depicted the relationship between social media and social proof principle.
+ depicts the relationship between social media and the social proof principle.
 \end_layout
 
 \begin_layout Standard
@@ -4816,8 +4776,8 @@ Social media sector and social proof
 \end_layout
 
 \begin_layout Standard
-Furthermore, we look at the relationship between authority principle and
- scarcity principle to test hypothesis 6.
+Next, we look at the relationship between authority principle and scarcity
+ principle to test hypothesis 6.
  Based on the result in 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -4829,12 +4789,12 @@ tab:Authority-and-scarcity
 
 \end_inset
 
-, we find that 41.7% of authoritative emails have scarcity principle while
- 58.3% do not have scarcity principle.
- However, we find that 97.6% of all scarcity emails have authority principle
- and only 2.4% of them do not have authority principle.
+, we find that 41.7% of authoritative emails use the scarcity principle while
+ 58.3% do not.
+ However, we find that 97.6% of all scarcity emails use the authority principle
+ and only 2.4% of them do not.
  A chi-square test suggests that there is no significant relationship between
- authority principle and scarcity principle, 
+ the authority principle and the scarcity principle, with 
 \family roman
 \series medium
 \shape up
@@ -5165,9 +5125,9 @@ Authority and scarcity
 \end_layout
 
 \begin_layout Standard
-We look at the relationship between likeability principle and consistency
- principle to test hypothesis 7.
- Based on our result in 
+We now consider the relationship between the likeability principle and the
+ consistency principle to test hypothesis 7.
+ Based on our results in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -5178,14 +5138,14 @@ tab:Likeability-and-consistency
 
 \end_inset
 
-, we find that only 6.7% of likeability emails have consistency principle
- while 93.3% of them do not have consistency principle.
- In addition, we find that 20.4% of non likeability emails have consistency
- principle while 79.6% of them do not have likeability principle.
+, we find that only 6.7% of likeability emails have the consistency principle
+ while 93.3% of them do not.
+ In addition, we find that 20.4% of non-likeability emails have the consistency
+ principle while 79.6% of them do not.
  On the other hand, 8.3% of all consistency emails are likeability emails
- while 24.6% of non consistency emails are likeability emails.
+ while 24.6% of non-consistency emails are likeability emails.
  A chi-square test suggests that there is a significant relationship between
- likeability principle and consistency principle 
+ the likeability principle and the consistency principle, with 
 \family roman
 \series medium
 \shape up
@@ -5203,11 +5163,11 @@ tab:Likeability-and-consistency
 
 .
  Phi measurement suggests a very weak negative (inverse) relationship at
- -0.149 that indicate as one variable increases, the other variable decrease.
- This suggests, that higher likeability principle, the less chance of consistenc
-y principle in a phishing email.
- Thus we accept hypothesis 7 that says the occurrence of likeability principle
- will impact the occurrence of consistency.
+ -0.149, indicating that as one variable increases, the other variable decreases.
+ This suggests that the higher the use of the likeability principle in a
+ phishing email, the less chance of the consistency principle being used.
+ Thus we accept hypothesis 7 that says the occurrence of the likeability
+ principle will impact the occurrence of consistency.
 \end_layout
 
 \begin_layout Standard
@@ -5533,8 +5493,8 @@ Likeability and consistency
 
 \begin_layout Standard
 Now we move on to find out the association between URL presence and hidden
- URL in our corpus to test hypothesis 8.
- Based on our result in 
+ URLs in our corpus to test hypothesis 8.
+ Based on our results in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -5545,9 +5505,9 @@ tab:URL-presence-and
 
 \end_inset
 
-, we find 76% of URL(s) are hidden while 24% are not.
+, we find that 76% of URLs are hidden while 24% are not.
  A chi-square test suggests that there is a highly significant association
- between URL presence and hidden URL, 
+ between URL presence and hidden URLs, with 
 \family roman
 \series medium
 \shape up
@@ -5565,8 +5525,8 @@ tab:URL-presence-and
 
 .
  Moreover, Phi measurement suggests a strong positive relationship at 0.746.
- This indicates a strong relationship between them.
- Therefore, we accept hypothesis 8.
+ This indicates a strong relationship between them, so we accept hypothesis
+ 8.
 \end_layout
 
 \begin_layout Standard
@@ -5893,8 +5853,8 @@ URL presence and obfuscated URL
 \end_layout
 
 \begin_layout Standard
-We look at the relationship between URL presence and the emails which request
- to click URL in 
+We now look at the relationship between URL presence and the emails which
+ request to click on URLs in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -5906,10 +5866,10 @@ tab:URL-presence-and-1
 \end_inset
 
  to test hypothesis 9.
- We find 87.2% of phishing emails which have URL also requested to click
- it, while only 12.8% do not request to click.
+ We find 87.2% of phishing emails that have URLs also requested receivers
+ to click on them, while 12.8% did.
  A chi-square test was performed and suggests that there is a highly significant
- relationship between URL presence and request to click URL, 
+ relationship between URL presence and request to click on URLs, 
 \family roman
 \series medium
 \shape up
@@ -6255,11 +6215,11 @@ URL presence and Request to click URL
 \end_layout
 
 \begin_layout Standard
-Similarly, We look at the association between the email that includes attachment
- and the emails which request to open attachment to test hypothesis 10.
- Based on our result in 
+Similarly, we look at the association between the emails that include attachment
+s and the emails which request to open attachments to test hypothesis 10.
+ Based on our results in 
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -6268,8 +6228,8 @@ tab:Includes-attachment-and
 
 \end_inset
 
-, We find 96% of phishing emails which include attachment also requested
- to open it, while only 4% do not request to open the attachment.
+, 96% of phishing emails that include attachments also have a request for
+ the attachments to be opened, while only 4% do not.
  A chi-square test was performed and suggests that there is a significant
  relationship between URL presence and request to click URL, 
 \family roman
@@ -6283,7 +6243,7 @@ tab:Includes-attachment-and
 \uwave off
 \noun off
 \color none
-
+with 
 \begin_inset Formula $X^{2}(1)=174.079,p<0.001$
 \end_inset
 
@@ -6617,9 +6577,9 @@ Includes attachment and request to open attachment
 \end_layout
 
 \begin_layout Standard
-We look at the relationship between authority principle and the emails which
- include an image(s) to test hypothesis 11.
- Based on our result in 
+To test hypothesis 11, we look at the relationship between the authority
+ principle and emails that include images.
+ Based on our results in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -6630,12 +6590,12 @@ tab:Authority-and-image
 
 \end_inset
 
-, we find 35.7% of authoritative emails include image(s), while 25% of non
- authority emails include image(s).
- On the other hand, 97.3% of emails which include image is authority emails
- and 95.5% of emails which do not include image(s) is authority emails.
+, 35.7% of authoritative emails include images, while 25% of non-authority
+ emails include images.
+ 97.3% of emails that include images are authority emails and 95.5% of emails
+ that do not include image(s) are authority emails.
  A chi-square test was performed and suggests that there is no significant
- relationship between authority principle and image presence, 
+ relationship between authority principle and image presence, with 
 \family roman
 \series medium
 \shape up
@@ -6968,9 +6928,9 @@ Authority and image presence
 \end_layout
 
 \begin_layout Standard
-Now we look at the association between account related reason and scarcity
+Now we look at the association between account-related reasons and the scarcity
  principle to test hypothesis 12.
- Based on the result in 
+ Based on the results in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -6981,12 +6941,13 @@ tab:Account-related-reason
 
 \end_inset
 
-, we find 68.3% of account related phishing emails have scarcity principle,
+, 68.3% of account related phishing emails feature the scarcity principle,
  while 31.7% of them do not.
- In addition, we find 81.2% of scarcity emails have account related reason
- while 18.8% of them do not.
+ 81.2% of scarcity emails have account-related reasons while 18.8% of them
+ do not.
  A chi-square test was performed and suggests that there is a significant
- association between account related reason and scarcity principle, 
+ association between account related reason and scarcity principle, with
+ 
 \family roman
 \series medium
 \shape up
@@ -7003,7 +6964,7 @@ tab:Account-related-reason
 \end_inset
 
 .
- Phi measurements suggests that they have a strong positive relationship
+ Phi measurement suggests that they have a strong positive relationship
  at 0.541.
  Therefore, we accept hypothesis 12.
 \end_layout
@@ -7332,9 +7293,9 @@ Account related reason and scarcity
 \end_layout
 
 \begin_layout Standard
-Furthermore, we look at the relationship between account related reason
+Furthermore, we look at the relationship between account-related reasons
  and URL presence to test hypothesis 13.
- Based on the result in 
+ Based on the results in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -7345,11 +7306,11 @@ tab:Account-related-reason-1
 
 \end_inset
 
-, we find 78.2% of account related emails include URL and 63.2% of emails
- which include URL(s) are account related emails.
- Furthermore, 38.2% of total phishes are account related and include URL(s).
+, we find 78.2% of account-related emails include URLs and 63.2% of emails
+ that include URLs are account-related emails.
+ Furthermore, 38.2% of total phishes are account-related and include URLs.
  A chi-square test was performed and suggests that there is a significant
- relationship between these two variables, 
+ relationship between these two variables, with 
 \family roman
 \series medium
 \shape up
@@ -7695,9 +7656,9 @@ Account related reason and URL presence
 \end_layout
 
 \begin_layout Standard
-Now we look at the relationship between document related reason and government
- sector to test hypothesis 14.
- Based on the result in 
+To test hypothesis 14, we now look at the relationship between document-related
+ reasons and the government sector.
+ From 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -7708,10 +7669,10 @@ tab:Document-related-reason
 
 \end_inset
 
-, we find only 21.7% of document related reason phish emails were targeting
- government and inversely 78.3% of them are not targeting government.
- However, A chi-square test suggests that there is a highly significant
- relationship between these variables, 
+, we find only 21.7% of document-related phish emails targeted government
+ while 78.3% of them did not.
+ However, a chi-square test suggests that there is a highly significant
+ relationship between these variables, with 
 \family roman
 \series medium
 \shape up
@@ -8057,9 +8018,9 @@ Document related reason and government sector
 \end_layout
 
 \begin_layout Standard
-Now we look at the relationship between document related reason and attachment
+Now we look at the relationship between document-related reasons and attachment
  variables to test hypothesis 15.
- Based on our result in 
+ Based on our results in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -8070,10 +8031,10 @@ tab:Document-related-reason-1
 
 \end_inset
 
-, we find 78.3% of document related reason phish emails have attachment included,
- while 21.7% of them do not.
+, 78.3% of document-related phish emails have attachments included, while
+ 21.7% of them do not.
  A chi-square test suggests that there is a significant relationship between
- these variables, 
+ these variables, with 
 \family roman
 \series medium
 \shape up
@@ -8419,8 +8380,8 @@ Document related reason and includes attachment
 \end_layout
 
 \begin_layout Standard
-Lastly, we look at the association between HTML usage variable and likeability
- principle to test hypothesis 16.
+Lastly, we look at the association between HTML usage variables and the
+ likeability principle to test hypothesis 16.
  Based on the result in 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -8433,12 +8394,10 @@ tab:use-HTML-and
 \end_inset
 
 , we find 80% of likeability phish emails use HTML, while 20% of them do
- not use HTML code within its content.
- Furthermore, 37.7% of non likeability emails do not use HTML and 62.3% of
- them use HTML.
- On the other hand, 26.3% of emails which use HTML are likeability emails
- and 17.4% of total phishes use HTML and have likeability principle.
- 
+ not..
+ 37.7% of non-likeability emails do not use HTML and 62.3% do.
+ 26.3% of emails that use HTML are likeability emails.
+ 17.4% of total phishes use HTML and the likeability principle.
 \end_layout
 
 \begin_layout Standard
@@ -8766,7 +8725,7 @@ use HTML and likeability
 
 \begin_layout Standard
 A chi-square test suggests that there is a significant relationship between
- these variables, 
+ these variables, with 
 \family roman
 \series medium
 \shape up
@@ -8784,9 +8743,9 @@ A chi-square test suggests that there is a significant relationship between
 
 .
  Phi measurement suggests that have a weak positive relationship at 0.154.
- Although they have a weak relationship, HTML variable and likeability principle
- still have a significant relationship.
- Thus, we still accept hypothesis 16.
+ Although they have a weak relationship, HTML variable and the likeability
+ principle still have a significant relationship.
+ Thus, we accept hypothesis 16.
 \end_layout
 
 \begin_layout Subsection
@@ -9965,22 +9924,20 @@ tab:Persuasion-principles-vs
 
 \end_inset
 
- that authority principle contributes high percentages among all target
- types, whereas social proof principle contributes the least percentages
- in all target types.
- However, the highest percentage of social proof principle is used in government
- target type (21.4%) which is still low compare to consistency and authority
- principles.
- In fact, we do not find social proof principle that is used in administrators,
- social media, postal services, travel agencies, industrials and ISP target
+ that the authority principle contributes high percentages among all target
+ types, whereas social proof principle contributes the least in all target
  types.
- 
+ The highest percentage of social proof principle is used in government
+ target type (21.4%), but this is still low compared to the use of consistency
+ and authority principles.
+ The social proof principle is not used in administrators, social media,
+ postal services, travel agencies, industrials and ISP target types.
 \end_layout
 
 \begin_layout Standard
 Depending on the target types, we can observe the next most popular principle
- for financial (39,7%), e-commerce/retails (60.0%) and administrator (66.7%)
- is scarcity principle.
+ for financial (39,7%), e-commerce/retail sector (60.0%) and administrator
+ (66.7%) targets is the scarcity principle.
  When we look into our dataset and investigate why scarcity is the second
  most used principle, we can notice from 
 \begin_inset Flex CT - auto cross-reference
@@ -10015,11 +9972,11 @@ fig:Administrator-and-scarcity
 
 \end_inset
 
- that these three target types are using something which might be valuable
- that belong to the recipients (i.e.
- accounts).
+ that these three target types use something that might be valuable that
+ belong to the recipients:.
+ accounts.
  By this reasoning, it makes sense if phishers that impersonate financial,
- e-commerce/retails and administrator typically use scarcity principle.
+ e-commerce/retails and administrator typically use the scarcity principle.
 \end_layout
 
 \begin_layout Standard
@@ -10060,7 +10017,6 @@ Financial target and scarcity
 \end_layout
 
 \begin_layout Standard
-As illustrated in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -10071,18 +10027,11 @@ fig:Financial-target-and
 
 \end_inset
 
-, financial targeted email (Visa and MasterCard) stated that 
-\begin_inset Quotes eld
-\end_inset
-
-Your credit card is suspended..
-\begin_inset Quotes erd
-\end_inset
-
-, this implies the recipient's credit card has been suspended.
- In other word, the recipient's belonging will be scarce indefinitely if
- the recipient did not respond to the email within the limited time.
- Similar scenario is illustrated in 
+ shows a financial targeted email (Visa and MasterCard) stating: “Your credit
+ card is suspended,”.
+ In other words, the recipien's belongings will be scarce indefinitely if
+ the recipient does not respond to the email within a limited time.
+ A similar scenario is illustrated in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -10104,8 +10053,8 @@ fig:Administrator-and-scarcity
 
 \end_inset
 
-, both e-commerce/retails and administrator targeted emails have stated
- about account issues with limited period of time to respond.
+ -- e-commerce/retails and administrator targeted emails respectively --
+ which mention account issues with a limited period of time to respond.
 \end_layout
 
 \begin_layout Standard
@@ -10185,8 +10134,8 @@ Administrator and scarcity
 \end_layout
 
 \begin_layout Standard
-We also find that consistency is the next most popular principle (35.7%)
- for government target type.
+Consistency is the next most popular principle (35.7%) for government target
+ type.
  When we look into our dataset and observe two government targeted emails,
  we find that both required consistency from the recipient.
  From 
@@ -10200,17 +10149,10 @@ fig:Government-and-consistency
 
 \end_inset
 
-, the email stated 
-\begin_inset Quotes eld
-\end_inset
-
-This message has been generated in response to the company complaint submitted
- to Companies House WebFilling service
-\begin_inset Quotes erd
-\end_inset
-
-, this implies that the email is sent due to a complaint submitted previously.
- When the recipient who has submitted a complaint, might feel committed
+, the email stated “This message has been generated in response to the company
+ complaint submitted to Companies House WebFilling service”, implying that
+ the email has been sent due to a complaint submitted previously.
+ If the recipient has in reality submitted a complaint they might feel committed
  to respond to this email.
  We can also observe similar scenario from 
 \begin_inset Flex CT - auto cross-reference
@@ -10223,17 +10165,11 @@ fig:Government-and-consistency-1
 
 \end_inset
 
-, the email stated that 
-\begin_inset Quotes eld
-\end_inset
-
-..you have been scheduled to appear for your hearing..
-\begin_inset Quotes erd
-\end_inset
-
-, this implies that the sender required a public commitment from the recipient.
- However, this scenario may not impact to those who do not have involvement
- in the chosen targets by the phishers.
+, with the email stating that “...you have been scheduled to appear for your
+ hearing…,” implying that the sender required a public commitment from the
+ recipient.
+ However, this scenario may not impact those who do not have involvement
+ in the targets chosen by the phishers.
 \end_layout
 
 \begin_layout Standard
@@ -10320,11 +10256,11 @@ Government and consistency (b)
 \end_layout
 
 \begin_layout Standard
-It is interesting that we do not find scarcity principle in social media
+It is interesting that we do not find the scarcity principle in social media
  target type.
  If we put ourselves as potential victims getting an email from social media,
- our account in social media may less important than our account in financial
- sector (i.e.
+ our account in social media may be less important than our account in the
+ financial sector (e.g.
  bank).
  On the other hand, our desire to respond to attractiveness in social media
  targeted emails might be higher.
@@ -11344,32 +11280,34 @@ tab:Chi-square-persuasion-principles
 
 \end_inset
 
-, we do not find a significant relationship between financial sector and
- scarcity principle, instead we find financial sector has a significant
- relationship with reciprocation principle.
- This explains that even if the number of financial sector is low in terms
- of reciprocation (16.7%), reciprocation principle is likely to be used in
- financial sector than the other sectors.
- Moreover, we find that e-commerce/retails and administrators have a significant
- relationship with scarcity principle.
+, we do not find a significant relationship between the financial sector
+ and the scarcity principle.
+ However, we find that the financial sector has a significant relationship
+ with the reciprocation principle.
+ This explains that even if the number of financial sector targeted emails
+ is low in terms of reciprocation (16.7%), the reciprocation principle is
+ more likely to be used in the financial sector than the other sectors.
+ Moreover, we find that the e-commerce/retail sector- and administrator-targeted
+ emails have a significant relationship with the scarcity principle.
  This supports our previous finding that scarcity is the next popular principle
  in both target types.
- However, p-value indicates that administrator target type has more statisticall
-y significant relationship with scarcity principle than the other two sectors.
+ However, the p-value indicates that the administrator target type has a
+ more statistically significant relationship with the scarcity principle
+ than the other two sectors.
  Although we also find a significant relationship between government and
  scarcity, phi measurement indicates they have an inverse relationship (phi
  = -0.186).
- This explains that scarcity principle will likely not to be used in the
- government target.
+ This explains that the scarcity principle is unlikely to be used in government-
+targeted emails.
  This also may supports our finding that consistency is the next most used
  principle in the government target.
  Despite the fact that we find a significant relationship between non-existence/
 individual sector and authority, when we look deeper, we find that they
  have an inverse relationship (phi = -0.465).
- This suggests that authority principle is likely not to be used in Non-existenc
-e/individual target.
+ This suggests that the authority principle is likely not to be used in
+ non-existence/individual targets.
  This explains why the occurrence of authority is lower in non-existence/individ
-ual target (61.5%) than the other target types.
+ual targets (61.5%) than the other target types.
 \end_layout
 
 \begin_layout Subsubsection
@@ -11379,14 +11317,14 @@ name "sub:Finding"
 
 \end_inset
 
-Finding
+Findings
 \end_layout
 
 \begin_layout Standard
 Based on our analysis of the relationship between persuasion principles
  and target types, we learn that depending on the target types, three persuasion
- principles (scarcity, consistency and likeability) are the next most popular
- persuasion principles in our dataset.
+ principles -- scarcity, consistency and likeability -- are the next most
+ popular persuasion principles in our dataset.
 \end_layout
 
 \begin_layout Subsection
@@ -11413,10 +11351,10 @@ tab:Account-related-reason
 
 \end_inset
 
- which implies a strong relationship between account related reason and
- scarcity principle, it is important for us to compare and strengthen our
- finding whether the other reason types and persuasion principles also share
- any kind of relationship.
+ which implies a strong relationship between account-related reasons and
+ the scarcity principle, it is important for us to compare and strengthen
+ our findings by seeing whether the other reason types and persuasion principles
+ have any kind of relationship.
  
 \end_layout
 
@@ -12113,17 +12051,16 @@ tab:Persuasion-principles-vs-1
 , apart from the authority principle, we find less than 50% contributions
  of likeability, consistency, reciprocation and social proof principles
  to all of the reason types.
- Only scarcity principle that often used in account related reason (68.3%).
- We find reciprocation is the least principle that is used in terms of the
- reason types.
+ Only the scarcity principle is often used in account-related reasons (68.3%).
+ We find reciprocation is the least principle used in terms of the reason
+ types.
  We do not find reciprocation principle in document related, product/services
- and social reason.
- 
+ and social reasons.
 \end_layout
 
 \begin_layout Standard
-We also find that the next most popular principle for account related reason
- (68.3%) and product/services reason (20.0%) is scarcity principle.
+We also find that the next most popular principle for account- related reasons
+ (68.3%) and product/services reasons (20.0%) is the scarcity principle.
  The illustrations in 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -12157,11 +12094,11 @@ fig:Administrator-and-scarcity
 
 \end_inset
 
- perhaps might explain why scarcity principle tend to be used in account
- related reason.
- Our reasoning was, as recipients we might value our accounts in a certain
- system more, so that we tend to respond to the email which request to do
- an action that prevents the loss of our valuables within a limited time.
+ perhaps explain why the scarcity principle tends to be used in account-related
+ reasons.
+ Our reasoning is that as recipients we might value our accounts in a certain
+ system more, so that we tend to respond to an email that requests us to
+ act in order to prevents the loss of our valuables within a limited time
 \end_layout
 
 \begin_layout Standard
@@ -12214,9 +12151,9 @@ tab:Persuasion-principles-vs-1
 
 \end_inset
 
-, we also found that the next most popular principle for financial incentive
- (26.4%) and document related reason (34.8%) is consistency.
- As we illustrate in 
+, the next most popular principle for financial incentives (26.4%) and document-r
+elated reasons (34.8%) is consistency.
+ The email illustrated in 
 \begin_inset Flex CT - auto cross-reference
 status open
 
@@ -12227,26 +12164,18 @@ fig:Example-of-financial
 
 \end_inset
 
-, the email stated that 
-\begin_inset Quotes eld
-\end_inset
-
-Thank you for scheduling the following payment...
-\begin_inset Quotes erd
-\end_inset
-
-.
- This indicates financial incentive and request for commitment from the
- recipients that have scheduled payments through PayPal.
+ states: “Thank you for scheduling the following payment...” This indicates
+ a financial incentive and request for commitment from the recipients that
+ have scheduled payments through PayPal.
  It is natural for us that we treat financial as a sensitive matter.
- So we may raise our curiousity about when did we scheduled a payment through
- PayPal, and as a result we click on the link anyway.
+ This may raise our curiosity about when we scheduled a payment through
+ PayPal, and so we click on the link.
  The recipients who have scheduled a payment through PayPal previously will
  have even more incentive to click on the URL provided in the email.
- This explains why consistency is the second most used principle in terms
+ This explains why consistency is the second most-used principle in terms
  of financial incentive.
  Moreover, consistency is also the second most popular principle in terms
- of document related reason.
+ of document-related reasons.
  As we observed in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -12258,29 +12187,14 @@ fig:Government-and-consistency-1
 
 \end_inset
 
-, the phrases 
-\begin_inset Quotes eld
-\end_inset
-
-..you have been scheduled..
-\begin_inset Quotes erd
-\end_inset
-
- and 
-\begin_inset Quotes eld
-\end_inset
-
-..the court notice is attached..
-\begin_inset Quotes erd
-\end_inset
-
-, indicate that the email requests for commitment from the recipient for
- the decision they have previously made and also it portrays document related
+, the phrases “you have been scheduled...” and “the court notice is attached...”
+ indicate that the email requests for commitment from the recipient for
+ a decision they have previously made, and also portrays a document-related
  reason.
- Average recipients who thought document related reason as more formal will
- likely to respond to the email.
+ The average recipients who perceive document-related reason as more formal
+ will likely respond to the email.
  This might explain why consistency is the second most popular principle
- in terms of document related reason.
+ in terms of document-related reasons.
 \end_layout
 
 \begin_layout Standard
@@ -12322,10 +12236,10 @@ Social reason and likeability principle
 
 \begin_layout Standard
 We found that likeability is the second most popular principle in social
- reason email.
+ reason emails.
  This can relate to our previous analysis in 
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -12334,10 +12248,10 @@ sub:Relationship-between-persuasion
 
 \end_inset
 
- regarding social media and likeability principle.
+ regarding social media and the likeability principle.
  As illustrated in 
 \begin_inset Flex CT - auto cross-reference
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -12346,10 +12260,10 @@ fig:Social-reason-and
 
 \end_inset
 
-, by incorporating likeability and social incentive, the recipients might
- want to respond to the email much more than using other principles.
+, by incorporating likeability and social incentives, the recipients might
+ want to respond to the email much more than if other principles were employed.
  This explains why likeability is the second most used principle in social
- reason email.
+ reason emails.
 \end_layout
 
 \begin_layout Standard
@@ -12956,27 +12870,27 @@ tab:Chi-square-tests-Persuasion
 
 \end_inset
 
-, we find that both account related and product/services reasons have significan
-t relationships with scarcity principle.
- This support our previous analysis which finds scarcity is the second most
+, we find that both account-related and product/services reasons have significan
+t relationships with the scarcity principle.
+ This supports our previous analysis that finds scarcity is the second most
  used principle for both reasons.
- We also find both financial incentive and document related reason have
+ We also find both financial incentive and document-related reasons have
  significant relationships with scarcity.
- However, phi-measurements indicate that both have inverse relationships
- (phi = -0.242 for financial incentive and phi = -0.264 for document related
- reason).
- This explains why consistency is the second most used principle for financial
- and document related reason.
- We find a significant relationship between social reason and authority
+ However, phi-measurements indicate that both have inverse relationships:
+ phi = -0.242 for financial incentives and phi = -0.264 for document-related
+ reasons.
+ This explains why consistency is the second most used principle for financial-
+ and document-related reasons.
+ We find a significant relationship between social reasons and the authority
  principle.
- Phi measurement suggests that they also have an inverse relationship (phi
- = -0.188).
+ The phi measurement suggests that they also have an inverse relationship
+ (phi = -0.188).
  It means that authority principle is most likely not to be used in phishing
- emails with social reason.
- We believe it makes sense when social reason type does not project fear
- or negative consequences to persuade potential victim.
+ emails with social reasons.
+ We believe it makes sense if the social reason type does not project fear
+ or negative consequences to persuade potential victims.
  This also explains why likeability is the second most used principle in
- social reason email.
+ social reason emails.
 \end_layout
 
 \begin_layout Subsubsection
@@ -12986,7 +12900,7 @@ name "sub:Finding-1"
 
 \end_inset
 
-Finding
+Findings
 \end_layout
 
 \begin_layout Standard
@@ -13003,30 +12917,14 @@ Target types and reason types
 \begin_layout Standard
 It is important for us to explain that target types do not always use the
  matching reason types.
- For instance, financial sector does not always use financial incentive
- to trick the victims, it can be used an account related reason or document
- related reason.
- Similarly, an administrator targeted email does no always use an account
- related reason.
- To illustrate, a phishing email reported on 24 November 2014 7:59 PM is
- claimed from 
-\begin_inset Quotes eld
-\end_inset
-
-Administrator
-\begin_inset Quotes erd
-\end_inset
-
-, however, it does not mention about account issue, instead, it asked the
- recipient to download an attachment related to 
-\begin_inset Quotes eld
-\end_inset
-
-payroll
-\begin_inset Quotes erd
-\end_inset
-
-.
+ For instance, financial sector targeted emails do not always use financial
+ incentives to trick the victims; they can use an account-related or document-re
+lated reason.
+ Similarly, an administrator targeted email does not always use an account-relat
+ed reason.
+ To illustrate, a phishing email reported on 24 November 2014 7:59 PM claiming
+ to be from an “Administrator” does not mention about an account issue,
+ but instead asks the recipient to download an attachment related to “payroll”.
  
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -13038,7 +12936,8 @@ tab:Frequency-analysis-target
 
 \end_inset
 
- illustrates the frequency analysis on target types vs reason types.
+ illustrates the frequency analysis of target types vs.
+ reason types.
  
 \end_layout
 
@@ -14130,7 +14029,7 @@ Financial - account related = scarcity principle
 \end_layout
 
 \begin_layout Itemize
-E-commerce/retails - account related = scarcity principle
+E-commerce/retail sector - account related = scarcity principle
 \end_layout
 
 \begin_layout Itemize
@@ -14146,7 +14045,7 @@ Social media - social reason = likeability principle
 \end_layout
 
 \begin_layout Standard
-These characteristics support our finding in 
+These characteristics support our findings in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
 
@@ -14168,9 +14067,9 @@ sub:Finding-1
 
 \end_inset
 
- which indicate depending on the target types and reason types, three persuasion
- principles (scarcity, consistency and likeability) are the next most popular
- principles used in our dataset.
+ that indicate that depending on the target types and reason types, three
+ persuasion principles (scarcity, consistency and likeability) are the next
+ most popular principles used in our dataset.
 \end_layout
 
 \end_body

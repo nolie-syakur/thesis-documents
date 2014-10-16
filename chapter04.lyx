@@ -82,8 +82,8 @@ Research Questions and Hypotheses
 \begin_layout Standard
 This chapter addresses the rationale of our main research questions and
  hypotheses to meet our research goal.
- We aim to answer these research questions by the analysis of data collected
- from a security organization based in Netherlands.
+ We aim to answer these research questions with analysis of data collected
+ by a security organization based in Netherlands.
  First off, we wanted to know the characteristics of phishing email based
  on structural properties in our corpus.
 \end_layout
@@ -124,32 +124,32 @@ The characteristics of phishing emails in our dataset are determined by
 \end_layout
 
 \begin_layout Itemize
-How often phishing email include an attachment(s) and what specific attachment
- is the most frequent.
+How often phishing emails include an attachment(s) and what specific attachment
+ is the most frequent;
 \end_layout
 
 \begin_layout Itemize
-Prevalent instructions
+Prevalent instructions;
 \end_layout
 
 \begin_layout Itemize
-Content characteristics
+Content characteristics;
 \end_layout
 
 \begin_layout Itemize
-The most targeted institutions
+The most targeted institutions;
 \end_layout
 
 \begin_layout Itemize
-The reasons that are frequently being used
+The reasons that are frequently being used;
 \end_layout
 
 \begin_layout Itemize
-Persuasion principles characteristics
+Persuasion principles characteristics;
 \end_layout
 
 \begin_layout Itemize
-Relationship between generic properties
+Relationship between generic properties.
 \end_layout
 
 \begin_layout Standard
@@ -170,9 +170,8 @@ sub:variables
 
 \begin_layout Standard
 Secondly, we wanted to know to what extent the involvement of persuasion
- principles are used in phishing emails and how relevant are they to the
+ principles are used in phishing emails and how relevant they are to the
  generic phishing email properties.
- 
 \end_layout
 
 \begin_layout Standard
@@ -192,7 +191,7 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-RQ2: To what extent are the persuasion principles used in phishing emails?
+RQ2: To what extent are persuasion principles used in phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -209,10 +208,10 @@ height "1pt"
 
 \begin_layout Standard
 We established 16 hypotheses to indicate the relationship between generic
- properties and relevancy of persuasion principle to these properties.
- H8, H9, H10, H13, H14, H15 will partly answer RQ1 in respect to the relationshi
-p between generic properties and the rest will answer RQ2.
- We conduct an analysis of phishing emails based on Cialdini's principles.
+ properties and relevance of persuasion principle to these properties.
+ H8, H9, H10, H13, H14, H15 will answer RQ1 in respect to the relationship
+ between generic properties and the rest will answer RQ2.
+ We conducted an analysis of phishing emails based on Cialdini's principles.
  In order to conduct the analysis, we established our decision making to
  classify which persuasive elements that exist in a phishing email.
  This process will be explained in 
@@ -231,37 +230,15 @@ sub:cialdini
 \end_layout
 
 \begin_layout Standard
-In our coding of cialdini's principles and phishing email dataset, we identified
- phishing emails with fake logos and signatures that may mistakenly regard
- them as legitimate by average internet users.
- For example in the context of phishing email, signature such as 
-\begin_inset Quotes eld
-\end_inset
-
-Copyright 2013 PayPal, Inc.
- All rights reserved
-\begin_inset Quotes erd
-\end_inset
-
- or 
-\begin_inset Quotes eld
-\end_inset
-
-Administrator Team
-\begin_inset Quotes erd
-\end_inset
-
- and Amazon logo were used to show the 
-\begin_inset Quotes eld
-\end_inset
-
-aura of legitimacy
-\begin_inset Quotes erd
-\end_inset
-
-.
- In the real world society, telemarketers and seller has been using authoritativ
-e element to increase the chance of potential consumer's compliance 
+In our coding of Cialdini’s principles and phishing email dataset, we identified
+ phishing emails with fake logos and signatures that may mistakenly be regarded
+ as legitimate by average internet users.
+ For example, in the context of phishing email, signatures such as “Copyright
+ 2013 PayPal, Inc.
+ All rights reserved” or “Administrator Team” and the Amazon logo were used
+ to show the “aura of legitimacy”.
+ In the real world, telemarketers and sellers use authoritative element
+ to increase the chance of potential consumers' compliance 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "telemarket:2013"
@@ -269,9 +246,9 @@ key "telemarket:2013"
 \end_inset
 
 .
- It means that they have to provide information in a confident way.
- Consumers will have their doubt if sellers unsure and nervous when they
- offer their product and services to consumers.
+ This means that they have to provide information in a confident way.
+ Consumers will have their doubts if sellers are unsure and nervous when
+ they offer their products and services.
  This principle has been one of the strategies in a social engineering attack
  to acquire action and response from a target 
 \begin_inset CommandInset citation
@@ -284,15 +261,15 @@ key "npdn:2013"
 \end_layout
 
 \begin_layout Standard
-It is makes sense if government has the authority to compose laws and regulation
-s and to control its citizens.
- Government sector includes court and police department also authorize to
- execute penalties if any wrongdoing happens within their jurisdiction.
- However, government may not have to be likeable to enforce their rules
+It makes sense if a government has the authority to compose laws and regulations
+ and to control its citizens.
+ Government sectors including court and police departments are also authorized
+ to execute penalties if any wrongdoing happens within their jurisdiction.
+ However, a government may not have to be likeable to enforce their rules
  and regulation.
- Similarly, an administrator who control his network environment may behave
- in a similar fashion as government.
- Hence, in our dataset we hypothesize that
+ An administrator who controls his/her network environment may behave in
+ a similar fashion to as government.
+ Hence, in our dataset we hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -310,14 +287,14 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H1: There will be a significant association between Government sector and
+H1: There will be a significant association between government sector and
  authority principle
 \end_layout
 
 \begin_layout Standard
 
 \shape italic
-H2: Phishing emails which targeting Administrator will likely to have authority
+H2: Phishing emails which targeting an administrator will likely have authority
  principle 
 \end_layout
 
@@ -334,11 +311,11 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-Similar to authority principle that may trigger reactance, scarce items
+Similar to the authority principle that may trigger compliance, scarce items
  and shortage may produce immediate compliance from people.
- In essence, people will react when their freedom is restricted about valuable
- matter when they think they are capable to make a choice among different
- options 
+ In essence, people will react when their freedom is restricted about a
+ valuable matter when they think they are capable of making a choice among
+ different options 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "pennebaker1976american"
@@ -346,27 +323,20 @@ key "pennebaker1976american"
 \end_inset
 
 .
- For example in phishing email context, an email from Royal Bank inform
- us that we have not been logged into our online banking account for a quite
- some time, as a security measure, they must suspend our online account
- and if we would like to continue to use the online banking facility, we
- have been asked to click the URL provided.
- Potential victim may perceives their online banking account as their valuable
- matter to access facility and information about their savings.
- Consequently, potential vicim may react to the request because of their
- account could be scarce and restricted.
- In the real world example, a hard worker bank customer who perceives money
- is a scarce item may immediately react when his bank inform him that he
- is in danger of losing his savings due to 
-\begin_inset Quotes eld
-\end_inset
-
-security breach
-\begin_inset Quotes erd
-\end_inset
-
-.
- We therefore hypothesize that
+ For example, in the phishing email context, we may get an email from Royal
+ Bank informing us that we have not been logged into our online banking
+ account for quite some time, and as a security measure they must suspend
+ our online account.
+ If we would like to continue to use the online banking facility, we must
+ click the URL provided.
+ The potential victim may perceive their online banking account as their
+ valuable matter to access facility and information about their savings.
+ Consequently, they may react to the request because their account could
+ be scarce and restricted.
+ In a real world example, a hard-working bank customer who perceives money
+ is a scarce item may immediately react when their bank informs them that
+ they are in danger of losing their savings due to a “security breach”.
+ We therefore hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -401,10 +371,10 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-As we describe in our decision making consideration section, people tend
+As we describe in our decision-making consideration section, people tend
  to trust those they like.
  In a context of persuasion, perpetrators may find it more difficult to
- portray physical attractiveness, instead they are relying on emails, websites
+ portray physical attractiveness, as they are relying on emails, websites
  and phone calling 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -415,13 +385,13 @@ key "dotterweich2006practicality"
 .
  To exhibit charm or charisma to the potential victims, perpetrators may
  gain their trust by establishing friendly emails, affectionate websites
- and soothing voice over the phone.
+ and soothing voices over the phone.
  In the phishing email context, Amazon praises our existence in an appealing
  fashion and extremely values our account security so that no one can break
  it.
- Based on this scenario, E-commerce/Retails sector may applied likeability
+ Based on this scenario, the e-commerce/retail sector may apply likeability
  principles to gain potential customers.
- We therefore hypothesize that
+ We therefore hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -439,8 +409,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H4: Phishing emails which targeting E-Commerce/Retails will likely to have
- a significant relationship with likeability principle
+H4: Phishing emails that target e-commerce/retail companies will likely
+ have a significant relationship with likeability principle
 \end_layout
 
 \begin_layout Standard
@@ -456,9 +426,9 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-Tajfel, et al.
- argued that people often form their own perception based on their relationship
- with others in a certain social circles 
+Tajfel et al.
+ argue that people often form their own perception based on their relationship
+ with others in certain social circles 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "tajfel2004social"
@@ -466,7 +436,7 @@ key "tajfel2004social"
 \end_inset
 
 .
- This lead to affection of something when significant others have something
+ This leads to an affection of something when significant others have something
  to do with it.
  Social proof is one of the social engineering attacks based on the behavioral
  modeling and conformance 
@@ -480,7 +450,7 @@ key "workman:2008"
  For example, we tend to comply to a request when a social networking site
  asks us to visit a website or recommends something and mention that others
  have visited the website as well.
- Thus, we hypothesize that 
+ Thus, we hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -498,8 +468,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H5: Phishing emails which targeting Social networks will likely to have
- signification association with social proof principle 
+H5: Phishing emails that target social networks will likely have significant
+ association with social proof principle 
 \end_layout
 
 \begin_layout Standard
@@ -515,36 +485,20 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-As we describe in our decision making consideration section, authority has
- something to do with 
-\begin_inset Quotes eld
-\end_inset
-
-aura of legitimacy
-\begin_inset Quotes erd
-\end_inset
-
-.
+As we describe in our decision-making consideration section, authority has
+ something to do with “aura of legitimacy”.
  This principle may lead to suggest the limitation on something that we
- deemed valuable.
- For example, a perpetrator masquerades as an authority and dressed as police
- officer halted us on the road, the perpetrator may tell us that we did
- something wrong and he will held our driving license if we do not pay him
- the fine.
- In the phishing email context, an email masquerades as 
-\begin_inset Quotes eld
-\end_inset
-
-System Administrator
-\begin_inset Quotes erd
-\end_inset
-
- may tell us that we exceeded our mailbox quota, so the administrator must
- freeze our email account and we could re-activate it by clicking the URL
- provided in the email.
- Based on this scenario, we know that it has authority principle and also
- has scarcity principle.
- Therefore, we hypothesize that
+ deem valuable.
+ For example, if a perpetrator masquerading as an authority and dressed
+ as police officer stops us on the road, the perpetrator may tell us that
+ we did something wrong and that they will take our driving license if we
+ do not pay them the fine.
+ In the phishing email context, an email masquerading as “System Administrator”
+ may tell us that we have exceeded our mailbox quota, so the administrator
+ must freeze our email account, and that we can reactivate it by clicking
+ the URL provided in the email.
+ This scenario uses both the authority principle and scarcity principle.
+ Therefore, we hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -579,21 +533,21 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-We often stumbled a group of people requesting to donate some of our money
- to the unfortunate people.
- Evidently, they would use physical attractiveness and kind words to get
- our commitment to support those people.
- Once they have got our commitment, they start asking for donation and we
- tend to grant their request and give some of our money to show that we
- are committed.
- Phishing email could be similar, for example, Paypal appreciates our membership
- on their system and PayPal kindly notifies us that in the membership term
- of agreement, they would performing annual membership confirmation from
- its customers.
- Based on this scenario, we know that the email has likeability principle
- and also has consistency principle.
+We often stumble upon a group of people requesting us to donate some of
+ our money to more unfortunate people.
+ Of course, they use physical attractiveness and kind words to get our commitmen
+t to support those people.
+ Once they have got our commitment, they start asking for a donation, and
+ we tend to grant their request and give some of our money to show that
+ we are committed.
+ Phishing emails can work in a similar way.
+ For example, an email may say that Paypal appreciates our membership and
+ kindly notifies us that in the membership term of the agreement they must
+ perform an annual membership confirmation of its customers.
+ Based on this scenario, we know that the email has the likeability principle
+ and consistency principle.
  We would like to know if it is the case with phishing email in our dataset.
- Therefore, we hypothesize that
+ Therefore, we hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -628,17 +582,17 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-We think it make sense if a fraudster tries to make his fake product as
- genuine as possible and hide the fabricated element of his product.
- There are also fraudster that did not make his product as identical as
- the legitimate product.
- In the phishing email context, we perceives fake product as URL in the
- email, phishers do not necessarily obfuscates the real URL with something
- else.
- Logically, such phishers do not aim to make a high quality of bogus email,
- rather they aim to take chances in getting potential victims that are very
+We think it make sense if a fraudster tries to make their fake product as
+ genuine as possible and hide the fabricated element of their product.
+ There are also fraudsters that do not make their product identical to the
+ legitimate product.
+ In the phishing email context, we perceive fake products as URLs in an
+ email.
+ Phishers do not necessarily hide the real URL with something else.
+ Logically, such phishers do not aim to make a high quality of bogus email.
+ Rather they aim to take chances in getting potential victims that are very
  careless.
- This leads to our hypothesis that say
+ This leads to our hypothesis that:
 \end_layout
 
 \begin_layout Standard
@@ -656,7 +610,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H8: Phishing emails that include URL will likely to be obfuscated
+H8: Phishing emails that include URLs will likely different than the actual
+ destination
 \end_layout
 
 \begin_layout Standard
@@ -672,17 +627,16 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-It is conspicuous from our knowledge if a sales agent tries to sell us a
- product, it would be followed by the request element to buy the product
- as well.
- However, it will not make sense if he tries to sell his product but he
+We know from experience that if a sales agent tries to sell us a product,
+ it would be followed by the request element to buy the product as well.
+ However, it would not make sense if they try to sell their product but
  requests to buy another company's product.
  In other words, if we have something to sell, we do not just display our
- product without asking people's attention to look at our product.
- For example in phishing email context, phishers may include URL or attachment
- in the body of the email and also they may request unsuspecting victim
+ product without asking for people's attention to look at our product.
+ In the phishing email context, phishers may include a URL or attachment
+ in the body of the email and they may also request the unsuspecting victim
  to click the URL or to open the attachment.
- This leads us to two hypotheses which state
+ This leads us to the following two hypotheses:
 \end_layout
 
 \begin_layout Standard
@@ -700,15 +654,15 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H9: Phishing emails that include URL will likely to request to click the
- URL
+H9: Phishing emails that include URLs will likely request users to click
+ on the URL
 \end_layout
 
 \begin_layout Standard
 
 \shape italic
-H10: Phishing emails that include attachment will likely to request to open
- the attachment
+H10: Phishing emails that include attachment will likely request users to
+ open the attachment
 \end_layout
 
 \begin_layout Standard
@@ -724,20 +678,12 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-We sometimes find it suspicious if a person dressed as police officer that
- does not have a badge carried with him, unless he is a fake police officer.
+We sometimes find it suspicious if a person dressed as a police officer
+ does not have a badge.
  Consequently, a fake police officer may use a fake badge to build up even
- more 
-\begin_inset Quotes eld
-\end_inset
-
-aura of legitimacy
-\begin_inset Quotes erd
-\end_inset
-
-.
- Evidently, Cialdini suggests the increment of passerby who have stop and
- stare at the sky by 350 percent with suit and tie instead of casual dress
+ more “aura of legitimacy”.
+ Cialdini suggests the increment of passers-by who stop and stare at the
+ sky by 350 percent with a person in suit and tie instead of casual dress
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -747,16 +693,12 @@ key "cialdini:2001"
 
 .
  Hence, we correlate that a person who wears police uniform and a fake badge
- in the real world context as authority principle and the presence of image
- in the phishing mail context.
- Another example, an email that masquerades Apple company, may clone Apple
- company logo or trademark to its content to increase the chance of potential
- victim's response or increase the |believability
-\begin_inset Quotes erd
-\end_inset
-
- if you will.
- Thus, we hypothesize that
+ in the real world context as authority principle and the presence of an
+ image in the phishing mail context.
+ Similarly, an email that masquerades as Apple may clone the Apple company
+ logo or trademark to its content to increase the chance of a potential
+ victim's response -- to increase the “believability”.
+ Thus, we hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -774,8 +716,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H11: Phishing emails that have authority principle will likely to include
- an image to its content
+H11: Phishing emails that have the authority principle will likely include
+ an image in its content
 \end_layout
 
 \begin_layout Standard
@@ -792,11 +734,11 @@ height "1pt"
 
 \begin_layout Standard
 Apart from the target analysis, we also investigate the reason why potential
- victim responds to phisher's request.
- Phishing email that implies our account expiration would have scarcity
- principle because the account itself may very valuable for us and is in
- danger to be expired or terminated.
- Therefore, we hypothesize that
+ victims respond to phishers' requests.
+ Phishing emails that imply account expiration incorporate the scarcity
+ principle because the account itself may be very valuable for us and we
+ fear it expiring or being terminated.
+ Therefore, we hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -814,7 +756,7 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H12: There will be a significant association between account related reason
+H12: There will be a significant association between account-related reasons
  and scarcity principle 
 \end_layout
 
@@ -831,16 +773,16 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-Similar from the hypothesis H12, it is sensible if a phishing email which
- contains account related reason such as reset password or security update,
- may tend to have a URL for the potential victim to be redirected towards
- phisher's bogus website or malware.
+Similar to hypothesis H12, it is likely that a phishing email that contains
+ account-related reasons such as reset password or se-curity update will
+ have a URL for the potential victim to be redirected towards the phisher's
+ bogus website or malware.
  Regardless of the target, based on our initial coding of the dataset we
- found that account related reason in a phishing email needs an immediate
- action greater than other reasons.
- Therefore, phishers may likely to include a URL to have immediate response
+ found that account-related reasons in a phishing email requires more immediate
+ action than other reasons.
+ Therefore, phishers may likely to include a URL to have an immediate response
  from the potential victim.
- This leads to our hypothesis that say
+ This leads to our hypothesis that:
 \end_layout
 
 \begin_layout Standard
@@ -858,8 +800,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H13: Phishing emails which have account related reason will likely to have
- URL 
+H13: Phishing emails that have account-related reasons will likely include
+ URL(s) 
 \end_layout
 
 \begin_layout Standard
@@ -875,11 +817,11 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-When a phishing email has document related reason such as review some document
- reports or court notice, it may tend to impersonate government to make
- the email sensible enough to persuade potential victim more than other
- targets.
- We therefore hypothesize that
+When a phishing email has document-related reasons such as reviewing some
+ document reports or court notice, they tend to impersonate a government
+ to make the email realistic enough to persuade the potential victim more
+ than other targets.
+ We therefore hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -897,8 +839,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H14: Phishing emails which targeting government sector will likely to have
- document related reason 
+H14: Phishing emails which targeting government sector will likely have
+ document-related reasons
 \end_layout
 
 \begin_layout Standard
@@ -914,14 +856,10 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-Analogous with the hypothesis 
-\shape italic
-H14
-\shape default
-, it is make sense if a phishing email which has document related reason
- such as reviewing contract agreement or reviewing resolution case, would
- tend to have a file to be attached.
- We therefore hypothesize that
+Analogous with hypothesis H14, it make sense that a phishing email that
+ has a document-related reason such as reviewing contract agreement or reviewing
+ resolution case, would tend to have a file attached.
+ We therefore hypothesize that:
 \end_layout
 
 \begin_layout Standard
@@ -956,12 +894,11 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-We think it is make sense if a phishing email which use HTML to present
- their email design may tend to increase the attractiveness to the potential
- victim.
- Consequently, unsuspected victim may respond to the request just because
- of the email design is attractive.
- Therefore, we hypothesize that
+We think it makes sense if a phishing email that uses HTML to present their
+ email design to be more attractive to the potential victim.
+ Consequently, an unsuspecting victim may respond to the request just because
+ the email design is attractive.
+ Therefore, we hypothesize that:
 \end_layout
 
 \begin_layout Standard
