@@ -895,7 +895,7 @@ height "1pt"
 
 \begin_layout Standard
 We think it makes sense if a phishing email that uses HTML to present their
- email design is more attractive to the potential victim.
+ email design to be more attractive to the potential victim.
  Consequently, an unsuspecting victim may respond to the request just because
  the email design is attractive.
  Therefore, we hypothesize that:

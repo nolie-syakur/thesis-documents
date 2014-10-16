@@ -774,7 +774,7 @@ height "1pt"
 
 \begin_layout Standard
 Similar to hypothesis H12, it is likely that a phishing email that contains
- account-related reasons such as reset password or se-curity update will
+ account-related reasons such as reset password or security update will
  have a URL for the potential victim to be redirected towards the phisher's
  bogus website or malware.
  Regardless of the target, based on our initial coding of the dataset we
