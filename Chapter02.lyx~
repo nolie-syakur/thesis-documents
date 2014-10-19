@@ -229,8 +229,27 @@ key "phishorg"
 
 .
  Since 1996, phishing has flourished.
- In 2004, total losses due to phishing reached more than U.S.$ 2 billion,
- and more than 15,000 sites were victims 
+ In 2004, phishing was recognized as fully industrialized in terms of economy
+ of crime: On the black market off-the-shelf components for ready-made phishing
+ attacks were for sale 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{abad2005economy}
+\end_layout
+
+\end_inset
+
+.
+ Meanwhile, financial institutions have become the prime victims of phishing
+ attacks.
+ In 2008, It is estimated the total losses of direct financial losses due
+ to phishing attacks reached more than U.S.$ 2 billion in the United states
+ of America
 \begin_inset CommandInset citation
 LatexCommand citep
 key "fellman:2004"
@@ -3817,8 +3836,8 @@ key "ma:2009,ma2:2009,liu,xiang:2011"
 \begin_layout Standard
 Each of these features matters for phishing detection.
  However, as our main objective is an analysis of phishing emails based
- on Cialdini's persuasion principles, we do not describe each of these fea-
- tures in detail.
+ on Cialdini's persuasion principles, we do not describe each of these features
+ in detail.
  It is noteworthy that some of the features are subset of other features.
  For instance, autonomous system number (ASN), IP country and number of
  registration information are derived from WHOIS information.

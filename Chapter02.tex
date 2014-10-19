@@ -1,33 +1,33 @@
 
 \chapter{Background \& Literature review}
 
-In order to meet our goal, necessary knowledge on phishing in general
-is required. This chapter introduces general understanding of phishing,
-an exploration of its damage in term of money, the overview of its
-modus operandi, a brief explanation on types of phishing, general
-phishing countermeasures and human factor in phishing attacks.
+In order to meet our research goal, some necessary knowledge on phishing
+in general is required. This chapter introduces a general understanding
+of phishing, an exploration of its damage in financial terms, the
+overview of its modus operandi, a brief explanation of types of phishing,
+general phishing countermeasures, and human factor in phishing attacks.
 
 
 \section{What is phishing?}
 
 While the Internet has brought convenience to many people for exchanging
-information, it also provides opportunities to carry malicious behavior
-such as online fraud on massive scale with a little cost to the attackers.
-The attackers can manipulate the Internet users instead of computer
-system (hardware or software) that significantly increase the barriers
-of technological crime impact. Such human centered attacks could be
-done by social engineering. According to Jakobsson, et al. phishing
-is a form of social engineering that aim{\small{}s} to retrieve credential
-from online users by mimicking trustworthy and legitimate institutions
-\citep{jakobsson:2006}. Phishing has a similar basic principle as
-\textquoteleft fishing\textquoteright{} in the physical world. Instead
-of fish, online users are lured by authentic looking communication
-and hooked by authentic looking websites. Not only that, online users
-also may be lured by respond to a phishing email, either replying
-or clicking a hidden URL within its content. There are diverse definitions
-of phishing in our literature reviews, therefore, we would like to
-discuss about its universal definition in later section. However,
-one of phishing definitions according to Oxford dictionary:
+information, it also provides opportunities for malicious behavior
+such as online fraud on a massive scale with little cost to the attackers.
+The attackers can manipulate the Internet users instead of the computer
+systems (hardware or software) that significantly increase the barriers
+of technological crime impact. Such human-centered attacks could be
+done by social engineering. According to Jakobsson et al., phishing
+is a form of social engineering that aims to gain trust from online
+users by mimicking trustworthy and legitimate institutions \citep{jakobsson:2006}.
+Phishing has a similar basic principle to \textquoteleft fishing\textquoteright{}
+in the physical world. Instead of fish, online users are lured by
+authentic-looking communication and hooked by authentic-looking websites.
+Not only that, online users also may be lured by responding to a phishing
+email, either replying to or clicking on a hidden URL within its content.
+There are diverse definitions of phishing in our literature reviews.
+Therefore, we would like to discuss about its universal definition
+in a later section. However, one of the definitions of phishing, according
+to the Oxford Dictionary, is as follows:
 \begin{quote}
 ``A fraudulent practice of sending emails purporting to be from reputable
 companies in order to induce individuals to reveal personal information,
@@ -37,77 +37,71 @@ such as passwords and credit card numbers, online'' \citep{oxford}.
 Several studies suggest that phishing is a form of online criminal
 activity by using social engineering techniques \citep{jakobsson:2006}\citep{workman:2008}\citep{jagatic2007social}\citep{chandrasekaran:2006}.
 An individual or a group who uses this technique is called \emph{Phisher(s}).
-After successfully obtained a sensitive information from the victim,
+After successfully obtaining sensitive information from the victim,
 phishers use this information to access victim\textquoteright s financial
-accounts or committing credit card frauds. However, to formalize the
+accounts or to commit credit card fraud. However, to formalize the
 damage of phishing in term of money is a challenging task. We will
-briefly explore the cost of phishing attacks in the later section. 
+briefly explore the cost of phishing attacks in a later section.
 \end{onehalfspace}
 
-Furthermore, the technique or modus operandi of phishing may vary,
-but the most common technique of phishing attacks done by using fraudulent
-emails and websites \citep{james:2005}. A fraudulent website is designed
-in such a way that it may be identical to its legitimate target. While
-it may be true, phishing website also could be completely different
-with its target as there is no level of identicalness. In the following
-subsections, we will introduce how phishing was originally came about
-and how current literatures formally define phishing.
+The techniques or modus operandi of phishing may vary, but the most
+common is using fraudulent emails and websites \citep{james:2005}.
+A fraudulent website is designed in such a way that it may be identical
+to its legitimate target. However, a phishing website could also be
+completely different to its target as there is no level of identicalness.
+In the following subsections, we introduce how phishing was originally
+came about and how current literatures formally define phishing.
 
 
 \subsection{The History }
 
-The first time the term \textquotedbl{}phishing\textquotedbl{} was
-published by the \ac{AOL} UseNet Newsgroup on January 2, 1996 and
-was started to expand in 2004 \citep{phishorg}. Since then, we considered
-phishing development in cyberspace has been flourishing by phishers
-to make profit. Total losses due to phishing in 2004 reached more
-than U.S. \$ 2 billion, it was involving more than 15,000 sites that
-become victims \citep{fellman:2004}. We will try to discuss about
-direct and indirect cost at present days in the later section. Evidently,
-Jakobsson, et al. \citep{jakobsson:2006} mentioned that in the early
-years of 90\textquoteright s (according to \citep{phishorg} it was
-around 1995) many hackers would create bogus AOL user accounts with
-automatically generated fraudulent credit card information. Their
-intention to give this fake credit card information was to simply
-pass the validity tests performed by AOL. By the time the tests were
-passed, AOL was thinking that these accounts were legitimate and resulted
-to activate them. Consequently, these hackers could freely access
-AOL resources until AOL tried to actually bill the credit card. AOL
-realized that these accounts were using invalid billing information,
-thus deactivated the account. 
+The term \textquotedbl{}phishing\textquotedbl{} was first published
+by the \ac{AOL} UseNet Newsgroup on January 2, 1996 and its use started
+to expand in 2004 \citep{phishorg}. Since 1996, phishing has flourished.
+In 2004, phishing was recognized as fully industrialized in terms
+of economy of crime: On the black market off-the-shelf components
+for ready-made phishing attacks were for sale \citep{abad2005economy}.
+Jakobsson et al. \citep{jakobsson:2006} mentioned that in the early
+years of the '90s (according to \citep{phishorg} it was around 1995)
+many hackers would create bogus AOL user accounts with automatically
+generated fraudulent credit card information. Their intention to give
+this fake credit card information was to simply pass the validity
+tests performed by AOL. By the time the tests were passed, AOL thought
+that these accounts were legitimate and thus activated them. Consequently,
+these hackers could freely access AOL resources until AOL tried to
+actually bill the credit card. AOL realized that these accounts were
+using invalid billing information and therefore deactivated the accounts.
 
 While creating false AOL user accounts with fake credit card information
-was not exactly phishing attacks, but AOL\textquoteright s effort
-to counter against the attacks was leading to development of phishing.
-This countermeasure includes directly verifying the legitimacy of
-credit card information and the associated billing identity, forced
-hackers to pursue alternative way \citep{jakobsson:2006}. Hackers
-were masquerading as AOL\textquoteright s employees asking to other
-users for credit card information through AOL instant messenger and
-email system \citep{phishorg}. Jakobsson et al. suggest that phishing
-attacks were originating from this incident \citep{jakobsson:2006}.
-Since such attack has not been done before, many of users have been
-victimized by then. Eventually, AOL enforced warning system to the
-most of its customers to be vigilant when it comes to sensitive information
-\citep{phishorg}. At the present day, phishing attacks might not
-only being motivated by financial gain but also political reason,
-and they have been emerging not only aim to AOL users, but also any
-online users. Consequently, large number of legitimate institutions
-such as PayPal and eBay are being spoofed.
+was not phishing, AOL's effort to counter these attacks led to the
+development of phishing. AOL's countermeasure including directly verifying
+the legitimacy of credit card information and the associated billing
+identity, forced hackers to pursue alternative ways \citep{jakobsson:2006}.
+Hackers masqueraded as AOL employees, asking other users for credit
+card information through AOL's instant messenger and email system
+\citep{phishorg}. Jakobsson et al. suggest that phishing attacks
+originated from this incident \citep{jakobsson:2006}. Since such
+attack had not been done before, many users fell victim to then. Eventually,
+AOL enforced warning systems to most of its customers to be vigilant
+when it comes to sensitive information \citep{phishorg}. To the present
+day, phishing attacks might not only be motivated by financial gain
+but also political reasons, and they emerged not only with AOL users,
+but also any online users. Consequently, large number of legitimate
+institutions such as PayPal and eBay are being spoofed.
 
 
 \subsection{The universal definition }
 
 Before we begin to understand deeper about how and why phishing attack
-works, we will briefly explore common phishing definition. Currently,
-there is no consensus definition, since almost in every research papers,
-academic textbook or journals has its own definition of phishing \citep{jakobsson:2006,james:2005,tally:2004,clayton:2005,parno:2006,jakobsson:2005,dhamija2006phishing}.
+works, we briefly explore the common definition of phishing. Currently,
+there is no consensus definition, since almost every research paper,
+academic textbook or journal has its own definition of phishing \citep{jakobsson:2006,james:2005,tally:2004,clayton:2005,parno:2006,jakobsson:2005,dhamija2006phishing}.
 Phishing is also constantly evolving, so it might be very challenging
-to define its universal terminology. There is not so much study that
-specifically addresses the standard of phishing definition. However,
-one research conducted by Lastdrager \citep{lastdrager:2014} addressed
-to achieve consensual definition of phishing. Before we comply with
-one consensual phishing terminology, we will take a look at various
+to define its universal terminology. There are not so many studies
+that specifically address the standard of phishing definition. An
+exception is a piece of research conducted by Lastdrager \citep{lastdrager:2014},
+which addressed a consensual definition of phishing. Before we decide
+upon one consensual phishing terminology, we will take a look at various
 phishing definitions from other sources:
 \begin{quote}
 ``Phishing is the act of sending a forged e-mail (using a bulk mailer)
@@ -129,125 +123,121 @@ use the internet to fraudulently extract sensitive information from
 business and individuals, often by impersonating legitimate websites''
 \citep{parno:2006}
 \end{quote}
-It is noteworthy that the definition described by James, et al, Tally,
-et al, and Clayton, et al. \citep{james:2005,tally:2004,clayton:2005}
-specifies that the phishers only use email as a communication channel
+It is noteworthy that the definitions described by James et al., Tally
+et al., and Clayton et al. \citep{james:2005,tally:2004,clayton:2005}
+specify that the phishers only use email as a communication channel
 to trick potential victims. While it might be true because using email
-would greatly cost effective, but we believe that phishing is not
-only characterized by one particular technological mean, as phishers
-can also use any other electronic communication to trick potential
-victims (i.e private message on online social network). This definition
-is also similar to dictionary libraries \citep{oxford,collins,merriam}
-that mention email as a medium communication between phishers and
-users.
+is greatly cost effective, we believe that phishing is not only characterized
+by one particular technological mean, as phishers can also use any
+other electronic communication to trick potential victims, such as
+private messages on online social networks. This definition is also
+similar to dictionary libraries \citep{oxford,collins,merriam} that
+mention email as a medium communication between phishers and users.
 
-We believe that standard definition of phishing should be applicable
-in most of phishing concept that are presently defined. Consequently,
-the high level of abstraction and is required to build common definition
-on phishing. We have convinced that the formal definition of phishing
+We believe that the standard definition of phishing should be applicable
+to most phishing concepts that are presently defined. Consequently,
+a high level of abstraction is required to build a common definition
+of phishing. We are convinced that the formal definition of phishing
 should not focus on the technology that is being used but rather on
-the technique how the deception is being conducted, the method of
-an ``act'' if you will. Therefore, We follow the definition of phishing
-by Lastdrager \citep{lastdrager:2014} which stated: 
+the techniques of how the deception is being conducted, the method
+of an \textquotedblleft act\textquotedblright{} if you will. Therefore,
+we follow the definition of phishing by Lastdrager \citep{lastdrager:2014}
+which states that:
 \begin{quote}
 \textit{``Phishing is a scalable act of deception whereby impersonation
 is used to obtain information from a target''}
 \end{quote}
-According to Lastdrager \citep{lastdrager:2014}, to achieve this
-universal definition, a systematic review of literature up to August
-2013 was conducted along with manual peer review, which resulted in
-113 distinct definitions to be analyzed. We thereby agree with Lastdrager
-\citep{lastdrager:2014} that this definition addresses all the essential
-elements of phishing and we will adopt it as universally accepted
-terminology throughout our research.
+Lastdrager \citep{lastdrager:2014} states that to achieve this universal
+definition, a systematic review of literature up to August 2013 was
+conducted along with a manual peer review, which resulted in 113 distinct
+definitions to be analyzed. We thereby agree with Lastdrager \citep{lastdrager:2014}
+that this definition addresses all the essential elements of phishing
+and we will adopt it as the universally accepted definition throughout
+our research.
 
 
 \section{\label{sec:cost-of-phishing}The costs of phishing attacks}
 
-It is a challenging task to find a real cost from phishing attacks
-in term of money or direct cost. This due to financial damage for
-bank is only known by banks and most institutions do not share this
-information with the public. Evidently, Jakobsson et al. argue that
-phishing economy is consistent with black market economy and does
-not advertise its successes \citep{jakobsson:2006}. On this section,
-a brief explanation of direct and indirect cost on phishing attack
-will be illustrated based on literature review
+It is a challenging task to find the real costs from phishing attacks
+in terms of money or direct costs. This is because the financial damage
+on banks is only known by the banks themselves and most institutions
+do not share this information with the public. Jakobsson et al. argue
+that the phishing economy is consistent with black market economy
+and does not advertise its successes \citep{jakobsson:2006}. In this
+section, a brief explanation of direct and indirect costs of phishing
+attacks will be illustrated based on a literature review.
 
-According to Jakobsson et al., direct cost is depicted by the value
-of money or goods that are directly stolen through phishing attack
-\citep{jakobsson:2006}. While indirect cost is the costs that do
-not represent the money nor goods that are actually stolen, but it
-is the costs has to be paid by the people who handle these attacks
-\citep{jakobsson:2006} (i.e. time, money and resources spent to reset
-people password).
+According to Jakobsson et al., direct costs are depicted by the value
+of money or goods that are directly stolen through phishing attacks
+\citep{jakobsson:2006}. Indirect costs are the costs that do not
+represent the money or goods that are actually stolen, but the costs
+which have to be paid by the people who handle these attacks \citep{jakobsson:2006},
+i.e. time, money and resources spent to reset people's passwords.
 
-As we mentioned earlier, the difficulty of assessing the damage on
-phishing attacks is caused by banks and institutions that keep this
-information themselves and the unwillingness of many users to share
-to acknowledge that they have been victimized by phishing attacks.
-This happens because of fear of humiliation, financial loses, or legal
-liability \citep{jakobsson:2006}. Evidently, studies estimate the
-damage ranging from \$61 million \citep{herley:2009} to \$3 billion
-per year \citep{mccall2007gartner} of direct losses to victims in
-the US only \citep{hong:2012}\citep{moura2009scalable}. In addition,
-the Gartner Group claimed to estimate of \$1.2 billion direct losses
-of phishing attack to US banks and credit card companies for the year
-2004 \citep{litan2004phishing}. By the 2007, it escalated to more
-than \$3 billion loss \citep{mccall2007gartner}. The estimation also
-performed by TRUSTe and Pontoon Institute that stated the cost of
-phishing attack was up to \$500 millions losses in the US for the
-same year %
+As we mentioned earlier, it is difficult to assess the damage caused
+by phishing attacks on banks and institutions as they keep this information
+to themselves. Furthermore, many users are unwilling to acknowledge
+that they have fallen prey to phishing attacks. This happens because
+of fear of humiliation, financial loses, or legal liability \citep{jakobsson:2006}.
+Studies estimate the damage of direct losses to victims in the US
+only \citep{hong:2012}\citep{moura2009scalable} to range from \$61
+million \citep{herley:2009} to \$3 billion per year \citep{mccall2007gartner}.
+The Gartner Group estimated \$1.2 billion direct losses from phishing
+attacks on US banks and credit card companies for the year 2004 \citep{litan2004phishing}.
+By 2007, losses had escalated to more than \$3 billion \citep{mccall2007gartner}.
+The estimation performed by TRUSTe and Ponemon Institute stated that
+the cost of phishing attacks was up to \$500 million losses in the
+US for the same year %
 \footnote{http://wow.theregister.co.uk/2004/09/29/phishing\_survey/%
 }.
 
-However, the lack of information such as the detailed of documentation
-survey on how to find these numbers which conducted by Gartner group
-or Pontoon makes these estimations are biased than is generally realized.
-It is interesting to investigate why their estimations are repeated
-without really analyzed when they appeared biased at best. One thing
-come up in our mind that they might have a hidden agenda to make societies
-think that the cost of phishing is high. Consequently, people would
-be obligated to implement anti phishing system or engage in phishing
-awareness in their company which require money. With this in mind,
-we would like to emphasize that our findings on the costs of phishing
-attacks are only estimations without scrutiny from academic researchers
-and it might be an exaggeration. Although even if the cost of phishing
-attack is zero, we believe that phishing is still a major problem
-in terms of trust among users and the misuse of email as a means of
-communication.
+The lack of information such as a detailed documentation survey on
+how these numbers were found by Gartner group or Ponemon makes estimations
+more biased than is generally realized. It is interesting to investigate
+why their estimates are quoted without really analyzing their bias.
+One thing that comes to mind is that they might have a hidden agenda
+to make societies think that the cost of phishing is high. Consequently,
+people would be obliged to implement anti-phishing systems or engage
+in phishing awareness in their company, which requires money. With
+this in mind, we would like to emphasize that our findings on the
+costs of phishing attacks are only estimates without scrutiny from
+academic researchers, and they might be an exaggeration. Having said
+that, even if the cost of phishing attacks is zero, we believe that
+phishing is still a major problem in terms of trust among users and
+the misuse of email as a means of communication.
 
-Apart from the cost of phishing attacks, we might ask how phishing
-attack is carried out? is there any stages involved? The next chapter
-we will review its modus operandi in term of phishing stages or phases.
+We now consider how phishing attacks are carried out, and if there
+are distinct stages involved in the attacks? In the next section we
+review phishing's modus operandi in term of phishing stages or phases.
 
 
 \section{Modus operandi}
 
-As we mentioned earlier, Phishing attack is a subset of identity theft.
-The modus operandi might be carried out firstly by creating a fake
-website that spoofs legitimate website such as financial website,
-either identical or not identical as long as the phishers get responds
-from unsuspected victims. After that, the phishers will try to trick
-the potential victim to submit important information such as usernames,
-passwords, PINs, etc. through a fake website that they have created
-or through email reply from victims. With the information obtained,
-they will try to steal money from their victims if target institution
-is a bank. Phishers employ variety of techniques to trick potential
-victims to access their fraudulent website. One of the typical ways
-is by sending illicit email in a large scale claiming to be from legitimate
+As we mentioned earlier, a phishing attack is a subset of identity
+theft. One modus operandi is first to create a fake website that spoofs
+legitimate website such as financial websites. These websites can
+be either identical or not identical to real websites; the aim is
+just to get a response from unsuspecting victims. After that, the
+phishers will try to trick the potential victim into submitting important
+information such as usernames, passwords and PINs through a fake website
+that they have created or through email reply from victims. With the
+information obtained, they will try to steal money from their victims,
+if the target institution is a bank. 
+
+Phishers employ a variety of techniques to trick potential victims
+to access their fraudulent website. One of the typical ways is by
+sending illicit emails on a large scale claiming to be from a legitimate
 institution. In the email content, they usually imitate an official-looking
 logo, using good business language style and often also forge the
 email headers to make it look like originating from legitimate institution.
 For example, the content of the email is to inform the user that the
 bank is changing its IT infrastructure, and request urgently that
 the customer should update their data with the consequence of loosing
-their money if the action does not take place. When the user click
-the link that was on the email message, they will be redirected to
-a fraudulent website, which will prompt the victim to fill in the
-details of their information. While there are various techniques of
-phishing attack, we will address the common phases of phishing that
-we analyzed by literature survey by several studies and also we will
-address our own phishing phases. These phases are compiled in \autoref{tab:compilation-phases}.
+their money if the action does not take place. While there are various
+techniques of phishing attack, we address the common phases of phishing
+that we analyzed in a literature survey of several studies and we
+also address our own phishing phases. These phases are compiled in
+\autoref{tab:compilation-phases}.
 
 \begin{flushleft}
 \begin{longtable}{|>{\raggedright}p{12cm}|}
@@ -348,9 +338,9 @@ Nero et al. \citep{nero:2011}\tabularnewline
 
 Based on the example scenario explained earlier, phishing attacks
 may consist of several phases. J. Hong \citep{hong:2012} argued that
-there are three major phases. while Frauenstein, et al. \citep{frauenstein:2013}
-suggested that there are five main processes are used to perform phishing
-attacks based on the perspective of the attacker.
+there are three major phases, while Frauenstein et al. \citep{frauenstein:2013}
+suggested that five main processes are used to perform phishing attacks
+based on the perspective of the attacker.
 
 \begin{figure}
 \begin{centering}
@@ -361,41 +351,47 @@ attacks based on the perspective of the attacker.
 \end{figure}
 
 
-As we illustrated in \autoref{fig:frauenstein}, on the first process
-is called \textit{Planning}, a phisher usually would do some reconnaissance
-on how would the attack is executed and what information would be
-obtained from the victim. On the second process, the phisher would
-think about the design of the email. This email is desired by the
-phisher to look as legit as possible to potential victim. For this
-purpose, target institutions logo, trademark, symbol, etc. are used
-to make the content look official to the victim. The author called
-this process as \textit{Email Design}. \autoref{fig:ing} illustrates
-the example design of a fake email that impersonates ING bank that
-can trick unsuspecting victims%
+As we illustrated in \autoref{fig:frauenstein}, the first process
+is called \textit{Planning}. In this process a phisher would usually
+do some reconnaissance on how would the attack is executed and what
+information would be obtained from the victim. 
+
+In the second process, the phisher would think about the design of
+the email. This email is desired by the phisher to look as legitimate
+as possible to potential victim. For this purpose, target institutions'
+logos, trademarks, symbols, etc. are used to make the content look
+official to the victim. The author called this process as \textit{Email
+Design}. \autoref{fig:ing} illustrates the example design of a fake
+email that impersonates ING bank and can trick unsuspecting victims%
 \footnote{http://wow.martijn-onderwater.nl/wp-content/uploads/2010/03/ing-phishing.jpg%
 }. From the figure, we can spot a fake email by investigating the real
 sender email address by looking at the email header or the URL provided
-in the body, whether it redirects to the official ING website or not.
-On the third process, the phisher \textit{fabricates} a story to make
-potential victim think that email is important. To achieve users attention,
-phisher might build up a story about system upgrade, account hijacked
+in the body, seeing whether it redirects to the official ING website
+or not. 
+
+In the third process, the phisher \textit{fabricates} a story to make
+potential victims think that email is important. To achieve user attention,
+a phisher might build up a story about system upgrade, account hijacking
 or security enhancement so that the victim would feel obliged to be
-informed. Evidently, this technique corresponds with Cialdini \citep{cialdini:2001}
-that suggests there are six principles to persuade people to comply
-with a request. On the fourth process, a phisher usually include \textit{threatening
+informed. Evidently, this technique corresponds with Cialdini \citep{cialdini:2001},
+who suggests there are six principles to persuade people to comply
+with a request. 
+
+In the fourth process, a phisher usually includes a \textit{threatening
 tone} or explain the urgency and consequences if the potential victim
-chooses not to take action desired by the phisher (for example; account
-removal, account blocked, etc.). Consequently, users may fear of their
-account being deleted. The last process involved with fraudulent website
-that has been created by the phisher. Users may falsely believe to
-the message given in the email and may click a \ac{URL} that is embedded
-in the email. Subsequently, the URL would redirect users to a \textit{spoofed
-website} which may prompt users\textquoteright{} sensitive information.
-Furthermore, the website might be created to be as similar as possible
-to the target institution\textquoteright s website, so that potential
-victim may still believe that it is authentic. We will explain more
-on Cialdini\textquoteright s six basic tendencies of human behavior
-in generating positive response to persuasion \citep{cialdini:2001}
+chooses not to take action desired by the phisher (e.g. account removal,
+account blocked). Consequently, users may fear for their account being
+deleted. 
+
+The last process involves a fraudulent website that has been created
+by the phisher. Users may falsely believe the message given in the
+email and may click on a \ac{URL} that is embedded in the email.
+Subsequently, the URL redirects users to a \textit{spoofed website}
+which may request users' sensitive information. Furthermore, the website
+might be created to be as similar as possible to the target institution's
+website, so that potential victim may still believe that it is authentic.
+We will explain more about Cialdini's six basic tendencies of human
+behavior in generating positive response to persuasion \citep{cialdini:2001}
 in a later section.
 
 \begin{figure}
@@ -411,11 +407,11 @@ Considering that phishing attack is a process, Wetzel \citep{wetzel:2005}
 suggested a taxonomy to make sense of the complex nature of the problem
 by mapping out a common attacks lifecycle, and a possible set of activities
 attackers engage in within each phase. The taxonomy is illustrated
-in \autoref{fig:wetzel}. We speculated that Wetzel's taxonomy is
-not analogous with Frauenstein's main phishing processes \citep{frauenstein:2013}.
-The difference is that Frauenstein et al. only focus in the design
+in \autoref{fig:wetzel}. We speculate that Wetzel's taxonomy is not
+analogous with Frauenstein's main phishing processes \citep{frauenstein:2013}.
+The difference is that Frauenstein et al. only focused on the design
 of the attack while Wetzel has added several phases like \textit{Collection},
-\textit{Fraud} and \textit{Post-attack}, therefore, Wetzel taxonomy
+\textit{Fraud} and \textit{Post-attack}. Therefore, Wetzel's taxonomy
 is more holistic in term of phishing.
 
 \begin{figure}
@@ -426,45 +422,45 @@ is more holistic in term of phishing.
 As we listed Wetzel's taxonomy in \autoref{tab:compilation-phases},
 we explain more of the taxonomy as follows:
 \begin{enumerate}
-\item \textit{Planning}: Preparation carried out by the phisher before continue
+\item \textit{Planning}: Preparation carried out by the phisher before continuing
 to the next phase. Example activities include identifying targets
-and victims, determine the method of the attack, etc.
+and victims and determining the method of the attack.
 \item \textit{Setup}: After the target, victim and the method are known,
-the phisher would craft a platform where the victim's information
-could be transmitted and stored, for example: fraudulent website/email.
+the phisher crafts a platform where the victim's information could
+be transmitted and stored, for example a fraudulent web- site/email.
 \item \textit{Attack}: Phisher distributes their fraudulent platform so
 that it can be delivered to the potential victims with fabricated
 stories.
 \item \textit{Collection}: Phisher collects valuable information via response
-from the victims
-\item \textit{Fraud}: Phisher abuses victim's information by impersonates
+from the victims.
+\item \textit{Fraud}: Phisher abuses victim's information by impersonating
 the identity of the victim to the target. For example, A has gained
-B's personal information to access C so that A can pose as B to access
-C.
+B\textquoteright s personal information to access C so that A can
+pose as B to access C.
 \item \textit{Post-attack}: After the phisher gained profit from the attack
-and abuse phases, a phisher would not want to be noticed or detected
-by authority. Thus, phisher might need to destroy evidence of the
-activities that he/she previously were executed.
+and abuse phases, they would not want to be noticed or detected by
+authority. Thus, the phisher might need to destroy evidence of the
+activities that he/she had undertaken.
 \end{enumerate}
-As shown in \autoref{tab:compilation-phases}. Tally, et al. suggest
-that there are several phases involved in phishing attack based on
-the attacker's point of view \citep{tally:2004}. The first phase,
-it represents the planning, as we understand the attacker collects
-the email address of unsuspecting victims. The second phase, considering
-that it is related to creating a fake email that appears legitimate,
-this phase can be viewed as design phase. On the third phase, we consider
-this as delivery and attack phases as it involves the attacker sends
-the fake email to the unintended victims and hide the true source.
-The fourth phase represents attack phase as it involves with the recipient
-complies with the attacker's request(s). Lastly the fifth phase, it
-represents the fraud phase, as it related to haversting and exploiting
-victim's resources by the attacker. Additionally, the phases described
-by Tally, et al. \citep{tally:2004} are comparable with the information
-flow explained by Emigh\citep{emigh:2005} illustrated in \autoref{fig:emigh}
-and explained in \autoref{tab:compilation-phases}. Phishing attack
-steps that executed by the phisher are also being addressed by Nero,
-et al \citep{nero:2011}. In their study, a successful phishing attack
-involves several phases which can bee seen and compare in \autoref{tab:compilation-phases}.
+As shown in \autoref{tab:compilation-phases}, Tally et al. suggest
+that there are several phases involved in a phishing attack based
+on the attacker's point of view \citep{tally:2004}. The first phase
+represents the planning, where the attacker collects the email address
+of unsuspecting victims. The second phase, considering that it is
+related to creating a fake email that appears legitimate, can be viewed
+as design phase. We consider the third phase as the delivery and attack
+phases as it involves the attacker sending a fake email to the unintended
+victims and hiding the true source. The fourth phase represents attack
+phase as it involves with the recipient complying with the attacker\textquoteright s
+request(s). Lastly, the fifth phase represents the fraud phase, as
+it related to the attacker harvesting and exploiting the victim's
+resources. Additionally, the phases described by Tally et al. \citep{tally:2004}
+are comparable with the information flow explained by Emigh\citep{emigh:2005}
+that illustrated in \autoref{fig:emigh} and explained in \autoref{tab:compilation-phases}.
+Phishing attack steps executed by the phisher are also addressed by
+Nero et al \citep{nero:2011}. In their study, a successful phishing
+attack involves several phases, which can be seen and compared in
+\autoref{tab:compilation-phases}.
 
 \begin{figure}
 \begin{centering}
@@ -478,11 +474,10 @@ involves several phases which can bee seen and compare in \autoref{tab:compilati
 Based on our analysis by looking at the pattern of other phases from
 various sources, there is a major similarity between them. Therefore,
 we would like to define and design our own phase that are integrated
-with three key components suggested by Jakobsson, et al. \citep{jakobsson:2006}.
-These key components are include \textit{the lure},\textit{ the hook}
-and \textit{the catch}. As we designed in \autoref{fig:Information-flow-phishing},
-we synthesized these three components with our phases based on the
-attacker point of view as follows:
+with three key components suggested by Jakobsson et al. \citep{jakobsson:2006}:
+\textit{the lure},\textit{ the hook} and \textit{the catch}. \autoref{fig:Information-flow-phishing}
+synthesizes these three components with our phases based on the attacker's
+point of view as follows:
 
 - The lure 
 
@@ -512,112 +507,108 @@ attacker point of view as follows:
 
 
 It is important to know that in the phase 3, there are different scenarios
-such as; victim might be redirected to a spoofed website, victim may
-comply to reply the email, victim may comply to open an attachment(s)
-or victim may comply to call by phone. However, in \autoref{fig:Information-flow-phishing},
+such as: victim might be redirected to a spoofed website; victim may
+comply to reply the email; victim may comply to open an attachment(s);
+or victim may comply to call by phone. However, in \autoref{fig:Information-flow-phishing}
 we have only illustrated the phases if the bait was using a spoofed
 website as a method. 
 
-We have reviewed various phases in phishing attack and from the review,
-we have constructed our own phases. In the next section, a brief introduction
-in respect to the types of phishing will be described. We believe
-that the general understanding of phishing types will help our main
-analysis to characterize phishing email properties.
+We have reviewed various phases in phishing attacks, and from the
+review we have constructed our own phases. In the next section a brief
+introduction of the types of phishing is described. We believe that
+the general understanding of phishing types helps our main analysis
+to characterize phishing email properties.
 
 
 \section{Types of phishing}
 
-In January 2014, 8300 patients data are being compromised in medical
-company in the US \citep{adam:2014}. The data includes names, addresses,
-date of birth and phone numbers were being stolen. Other than demographic
-information, clinical information associated with this data was also
-stolen, including social security numbers. In the April 2014, phishers
-have successfully stolen US\$163,000 from US public school based on
-Michigan \citep{ashley:2014}. It has been said that the email prompted
-to transfer money is coming from the finance director of the school.
-In March 2014, Symantec has discovered phishing attack aimed at Google
-drive users \citep{teri:2014}. The attack was carried firstly with
-incoming email asking for opening document hosted at Google docs.
-Users that have clicked on the link are taken to fraudulent Google
-login page prompted Google users credentials. Interestingly, the URL
-seems very convincing because it hosted on Google secure servers.
-We hypothesized that even more phishing incidents on financial area
-as well, but sometimes the news is kept hidden due to creditability
-reason. With this in mind, we believe fake websites might be hosted
-in the network which has more phishing domain than other networks.
-Subsequently, in the next section, we will discuss the general phishing
-countermeasures. 
+In January 2014, the data of 8300 patients was compromised by US medical
+companies \citep{adam:2014}. The data includes names, addresses,
+dates of birth and phone numbers. Other than demographic information,
+clinical information associated with this data was also stolen, including
+social security numbers. In April 2014, phishers successfully stole
+US\$163,000 from a US public school based in Michigan \citep{ashley:2014}.
+It is said that the email prompting the transfer of money came from
+the finance director of the school. In March 2014, Symantec discovered
+a phishing attack aimed at Google Drive users \citep{teri:2014}.
+The attack involved firstly an incoming email asking for the opening
+of document hosted at Google Docs. Users who clicked on the link were
+taken to a fraudulent Google login page that prompted Google users
+credentials. Interestingly, the URL seemed very convincing because
+it was hosted on Google's secure servers. We hypothesize that even
+more phishing incidents take place in the financial sector, but sometimes
+the news is kept hidden to maintain creditability. With this in mind,
+we believe fake websites might be hosted in the network that has more
+phishing domains than other networks. In the next section, we will
+discuss the general phishing countermeasures.
 
-One may ask, what type of phishing are these? What are the general
-types of phishing relevant to our research? Evidently, based on the
-cost of phishing attacks in \autoref{sec:cost-of-phishing}, the threat
-of phishing attacks is still alarming and might be evolving in the
-future with more sophisticated technique of attacks. For this reason,
-it might be useful to provide a brief insight on popular variants
-of phishing that currently exist. We will briefly explain the types
-of phishing which are the most relevant to our research based on Jakobsson,
-et al. \citep{jakobsson:2006}. These types of phishing is strongly
-related to the phishing definition that we used, considering phishing
-is based on the act of deception by the phishers. 
+One may ask: what types of phishing are there? What are the general
+types of phishing relevant to our research? Based on the cost of phishing
+attacks in \autoref{sec:cost-of-phishing}, the threat of such attacks
+is alarming and might evolve in the future with more sophisticated
+technique of attacks. For this reason, it might be useful to provide
+a brief insight into popular variants of phishing that currently exist.
+We will briefly explain the types of phishing that are the most relevant
+to our research, based on the work of Jakobsson et al. \citep{jakobsson:2006}.
+These types of phishing are strongly related to the phishing definition
+that we use, considering phishing is based on the act of deception
+by the phishers. 
 
 
 \subsection{Phishing based on visual similarities}
 
 Since all phishing is based on deception and social engineering, there
-is a phishing scenario based on visual similarities. Typical scenario
+is a phishing scenario based on visual similarities. The typical scenario
 of phishing based on visual similarities is to send a large amount
-of illicit emails containing call to action asking recipients to click
-embedded links \citep{jakobsson:2006}. These variations include cousin
-domain attack. For example, legitimate PayPal website addressed as
-wow.paypal.com, this cousin domain attacks confuse potential victims
-to believe that wow.paypal-security.com is a subdivision of the legitimate
-website due to identical looking addresses. Similarly, homograph attacks
-create a confusion using similar characters to its addresses. For
-example, wow.paypal.com and wow.paypa1.com, both addresses look the
-same but on the second link, it uses \textquotedblleft 1\textquotedblright{}
-instead of \textquotedblleft l\textquotedblright . 
+of illicit emails containing a call to action asking recipients to
+click embedded links \citep{jakobsson:2006}. These variations include
+cousin domain attacks. For example, there is a legitimate PayPal website
+addressed as wow.paypal.com. Cousin domain attacks confuse potential
+victims to believe that wow.paypal-security.com is a subdivision of
+the legitimate website due to similar-looking address. Similarly,
+homograph attacks create a confusion using similar characters to its
+addresses. For example, with wow.paypal.com and wow.paypa1.com, both
+addresses look the same but on the second link there is a ``1''
+instead of ``l''.
 
 Moreover, phishers may embed a login page directly to the email content.
 This suggests the elimination of the need of end-users to click on
 a link and phishers do not have to manage an active fraudulent website.
-IP addresses are often used instead of human readable hostname to
-redirect potential victim to phishing website and JavaScript is used
-to take over address bar of a browser to make potential victims believe
-that they are communicating with the legitimate institution. 
+IP addresses are often used instead of human readable host- names
+to redirect potential victim to phishing websites and JavaScript is
+used to take over the address bar of a browser to make potential victims
+believe that they are communicating with the legitimate institution.
 
 Another type of deceptive phishing scheme is rock-phish attacks. They
-held responsible for half a number of reported incidents worldwide
-in 2005 \citep{moore:2007}. These attacks evade email filters by
-utilizes random text and GIF images which contain the actual message.
-Rock phish attacks also utilize a toolkit that capable to manage several
+were held responsible for half of the reported phishing incidents
+worldwide in 2005\citep{moore:2007}. These attacks evade email filters
+by utilizing random text and GIF images that contain the actual message.
+Rock phish attacks also utilize a toolkit that is able to manage several
 fraudulent websites in a single domain. Sometimes, deceptive phishing
 schemes lead to installation of malware when users visit fraudulent
-website and we will describe malware based phishing scheme in the
-next section. 
+website. We describe malware-based phishing schemes in the next section. 
 
 
 \subsection{Malware-based phishing}
 
-Generally, malware based phishing refers to any type of phishing which
-involves installing malicious piece of software onto users' personal
-computer \citep{jakobsson:2006}. Subsequently, this malware is used
-to gather confidential information from victims instead of spoofing
-legitimate websites. This type of phishing incorporates malwares such
-as keyloggers/screenloggers, web Trojans and hosts file poisoning.
+Generally, malware-based phishing refers to any type of phishing that
+involves installing malicious software onto users' personal computers
+\citep{jakobsson:2006}. Subsequently, this malware is used to gather
+confidential information from victims instead of spoofing legitimate
+websites. This type of phishing incorporates malwares such as keyloggers/screenloggers,
+web Trojans and hosts file poisoning.
 
-In the next section, we will study on the general phishing countermeasures
-in term of phishing detection and prevention.
+In the next section, we study general phishing countermeasures in
+term of phishing detection and prevention.
 
 
 \section{Current countermeasures}
 
-There are various types of phishing countermeasures that implemented
-in different levels. Purkait has conducted an extensive research in
-reviewing these countermeasures which are available up until 2012
-and their effectiveness \citep{purkait}. He suggests that there is
-a classification of phishing countermeasures in separate groups and
-according to Purkait \citep{purkait}, these groups are listed as
-follow:
+There are various types of phishing countermeasures that are implemented
+at different levels. Purkait conducted an extensive research reviewing
+countermeasures available up until 2012 and analyzing their effectiveness
+\citep{purkait}. He suggests that there is a classification of phishing
+countermeasures into separate groups, as follows:
 \begin{itemize}
 \item Stop phishing at the email level
 \item Security and password management toolbars
@@ -625,69 +616,69 @@ follow:
 \item Visually differentiate the phishing site
 \item Two factor and multi channel authentication
 \item Takedown, transaction anomaly detection, log files
-\item Anti phishing training
-\item Legal solution
+\item Anti-phishing training
+\item Legal solutions
 \end{itemize}
-In addition, Parmar, et al. suggests that phishing detection can be
-classified into two types; user training approach and software classification
-approach \citep{parmar:2014}. He illustrated a diagram and a table
-that summarizes phishing detection as countermeasures in a broad view
-\citep{parmar:2014}. They also argued the advantages and disadvantages
-of each category \citep{parmar:2014}. However, as our research mainly
-focuses in an analysis of phishing emails based on Cialdini's six
-principles of persuasion \citep{cialdini:2001}, we will briefly discuss
-the most relevant phishing countermeasures such as restriction list
-group (i.e. Phishtank), machine learning approach (web-based phishing),
-properties or features in a phishing email, and anti phishing training
-group (i.e PhishGuru). In the last section of this chapter, we will
-explore the human factor in phishing attacks, how phishing email is
-engineered to gain recipient's trust in order to get a response from
-the unsuspecting victims.
+In addition, Parmar et al. suggest that phishing detection can be
+classified into two types: user training approach and software classification
+approach \citep{parmar:2014}. They illustrate a diagram and a table
+that summarizes phishing detection as countermeasures in a broad view\citep{parmar:2014}.
+They also argue the advantages and disadvantages of each category
+\citep{parmar:2014}. However, as our research mainly focuses on an
+analysis of phishing emails based on Cialdini's six principles of
+persuasion \citep{cialdini:2001}, we briefly discuss the most relevant
+phishing countermeasures: restriction list group (e.g. Phishtank);
+machine learning approach (web-based phishing); properties or features
+in a phishing email; and anti-phishing training group (e.g. PhishGuru).
+In the last section of this chapter, we explore the human factor in
+phishing attacks, to see how phishing emails are engineered to gain
+the recipient's trust in order to get a response.
 
 
 \subsection{Phishing detection}
 
-In this subsection, we will conduct a literature review which related
-to phishtank as restriction list and machine learning approach to
-detect spoofed website as phishing detection.
+In this subsection, we conduct a literature review related to Phishtank
+as restriction list, and machine learning approach to detect spoofed
+websites as phishing detection.
 
 
 \subsubsection{Phishtank}
 
-One of the common approaches to detect phishing attacks is the implementation
-of restriction list. As the name suggest, it prevents users to visit
-fraudulent websites. One of the efforts to achieve restriction list,
-is to derive phishing URLs from Phishtank. Phishtank is a blacklisting
-company specifically for phishing URLs and it is a free community
-web based where users can report, verify and track phishing URLs \citep{phishtank}.
-Phishtank stores phishing URLs in its database and is widely available
-for use by other companies for creating restriction list. Some of
-the big companies that are using Phishtank\textquoteright s data includes;
-Yahoo Mail, McAfee, APWG, Web Of Trust, Kaspersky, Opera and Avira.
-In this section, we will discuss how the current literatures have
-to do with phish data provided by Phishtank. The first step to achieve
-the list of relevant literatures regarding phishtank is by keyword
-search in Scopus online library. By putting ``Phishtank'' as a keyword
-search, it results in 12 literatures. The next step, we read the all
-the abstracts and conclusions of the resulting keyword search and
-we decided 11 literatures that are relevant to our research. Lastly,
-\autoref{tab:phishtank} summarizes the papers selected and its relevancy
-with Phishtank
+One of the most common approaches to detect phishing attacks is the
+implementation of a restriction list. As the name suggest, it prevents
+users from visiting fraudulent websites. One of the efforts to achieve
+a restriction list is to derive phishing URLs from Phishtank. Phishtank
+is a blacklisting company specifically for phishing URLs and it is
+a free community web based where users can report, verify and track
+phishing URLs \citep{phishtank}. Phishtank stores phishing URLs in
+its database and is widely available for use by other companies for
+creating restriction lists. Some of the big companies that use Phishtank's
+data are: Yahoo Mail, McAfee, APWG, Web Of Trust, Kaspersky, Opera
+and Avira. 
+
+In this section, we discuss what current literatures deal with phishing
+data provided by Phishtank. The first step to getting a list of relevant
+literatures is by a keyword search in the Scopus online library. Putting
+``Phishtank'' as a keyword search results in 12 pieces of literature.
+The next step is to read all the abstracts and conclusions of the
+resulting keyword search. We decided that 11 pieces of literatures
+were relevant to our research. \autoref{tab:phishtank} summarizes
+the papers selected and their relevance to Phishtank:
 
 \begin{longtable}{>{\raggedright}p{3cm}>{\raggedright}p{2cm}>{\raggedright}p{5cm}}
 \caption{\label{tab:phishtank}Summary phishtank studies}
 \tabularnewline
 \toprule 
-\textbf{\footnotesize{}Paper title} & \textbf{\footnotesize{}First author} & \textbf{\footnotesize{}Relevancy with phishtank}\tabularnewline
+\textbf{\footnotesize{}Paper title} & \textbf{\footnotesize{}First author} & \textbf{\footnotesize{}Relevance to Phishtank}\tabularnewline
 \midrule 
 {\scriptsize{}Evaluating the wisdom of crowds in assessing phishing
-website \citep{moore:2008}} & {\scriptsize{}Tyler Moore} & {\scriptsize{}Examine the structure and outcomes of user participation
+website \citep{moore:2008}} & {\scriptsize{}Tyler Moore} & {\scriptsize{}Examines the structure and outcomes of user participation
 in Phishtank. The authors find that Phishtank is dominated by the
 most active users, and that participation follows a power law distribution
 and this makes it particularly susceptible to manipulation.}\tabularnewline
 \midrule 
 {\scriptsize{}Re-evaluating the wisdom of crowds in assessing web
-Security \citep{chia:2012}} & {\scriptsize{}Pern Hui Chia} & {\scriptsize{}Examine the wisdom of crowds on web of trust that has
+Security \citep{chia:2012}} & {\scriptsize{}Pern Hui Chia} & {\scriptsize{}Examines the wisdom of crowds on web of trust that has
 similarity with Phishtank as a user based system.}\tabularnewline
 \midrule 
 {\scriptsize{}Automatic detection of phishing target from phishing
@@ -696,71 +687,63 @@ identification accuracy of their method.}\tabularnewline
 \midrule 
 {\scriptsize{}A method for the automated detection of phishing websites
 through both site characteristics and image analysis \citep{white:2012}} & {\scriptsize{}Joshua S. White} & {\scriptsize{}Phishtank database is used to perform additional validation
-of their method. They also collect data from twitter using twitter\textquoteright s
-API to find malicious tweets containing phishing URLs}\tabularnewline
+of their method. They also collect data from Twitter using Twitter\textquoteright s
+API to find malicious tweets containing phishing URLs.}\tabularnewline
 \midrule 
 {\scriptsize{}Intelligent phishing detection and protection scheme
-for online transaction \citep{barraclough:2013}} & {\scriptsize{}P.A. Barraclough} & {\scriptsize{}Phishtank features is used as one of the input of neuro
-fuzzy technique to detect phishing website. The study suggested 72
-features from Phishtank by exploring journal papers and 200 phishing
-website.}\tabularnewline
+for online transaction \citep{barraclough:2013}} & {\scriptsize{}P.A. Barraclough} & {\scriptsize{}Phishtank features are used as one of the inputs of
+neuro fuzzy technique to detect phishing websites. The study suggested
+72 features from Phishtank by exploring journal papers and 200 phishing
+websites.}\tabularnewline
 \midrule 
 {\scriptsize{}Towards preventing QR code based attacks on android
-phone using security warning \citep{yao:2013}} & {\scriptsize{}Huiping Yao} & {\scriptsize{}Phishtank API is used for lookup whether the given QR
-containing phishing URL in the Phishtank database.}\tabularnewline
+phone using security warning \citep{yao:2013}} & {\scriptsize{}Huiping Yao} & {\scriptsize{}Phishtank API is used to lookup whether the given QR
+containing phishing URL was in the Phishtank database.}\tabularnewline
 \midrule 
-{\scriptsize{}A SVM based technique to detect phishing URLs \citep{huang:2012}} & {\scriptsize{}Huajun Huang} & {\scriptsize{}Phishtank database is used as validation resulting 99\%
-accuracy by SVM method, plus the top ten brand names in Phishtank
-archive is used as features in SVM method.}\tabularnewline
+{\scriptsize{}A SVM based technique to detect phishing URLs \citep{huang:2012}} & {\scriptsize{}Huajun Huang} & {\scriptsize{}Phishtank database is used as a validation resulting
+99\% accuracy by SVM method. Furthermore, top ten brand names in the
+Phishtank archive are used as features in SVM method.}\tabularnewline
 \midrule 
-{\scriptsize{}Socio technological phishing prevention \citep{gupta:2011}} & {\scriptsize{}Gaurav Gupta} & {\scriptsize{}Analyze the Phishtank verifiers (individual/organization)
-to be used as anti phishing model.}\tabularnewline
+{\scriptsize{}Socio technological phishing prevention \citep{gupta:2011}} & {\scriptsize{}Gaurav Gupta} & {\scriptsize{}Analyzes the Phishtank verifiers (individual/organization)
+to be used as an anti-phishing model.}\tabularnewline
 \midrule 
 {\scriptsize{}An evaluation of lightweight classification methods
-for identifying malicious URLs \citep{egan:2011}} & {\scriptsize{}Shaun Egan} & {\scriptsize{}Indicating that lightweight classification methods achieves
-an accuracy of 93\% to 96\% when trained data from Phishtank.}\tabularnewline
+for identifying malicious URLs \citep{egan:2011}} & {\scriptsize{}Shaun Egan} & {\scriptsize{}Indicates that lightweight classification methods achieve
+an accuracy of 93\% to 96\% with trained data from Phishtank.}\tabularnewline
 \midrule 
 {\scriptsize{}Phi.sh/\$oCiaL: The phishing landscape through short
-URLs \citep{chhabra:2011}} & {\scriptsize{}Sidharth Chhabra} & {\scriptsize{}Phishtank database is used to analyze suspected phish
+URLs \citep{chhabra:2011}} & {\scriptsize{}Sidharth Chhabra} & {\scriptsize{}Phishtank database is used to analyze suspected phishing
 that is done through short URLs.}\tabularnewline
 \midrule 
 {\scriptsize{}Discovering phishing target based on semantic link network
-\citep{wenyin:2010}} & {\scriptsize{}Liu Wenyin} & {\scriptsize{}Phishtank database is used as test dataset to verify
+\citep{wenyin:2010}} & {\scriptsize{}Liu Wenyin} & {\scriptsize{}Phishtank database is used as a test dataset to verify
 their proposed method (Semantic Link Network) }\tabularnewline
 \end{longtable}
 
-From our literature survey, we know that Phishtank is crowd-sourced
-platform to manage phishing URLs. For that reason Moore, et al. aims
-to evaluate the wisdom of crowds platform accommodated by Phishtank
-\citep{moore:2008}. Moore, et al. suggest that the user participation
-is distributed according to power law. It uses to model data which
+From our literature survey, we know that Phishtank is a crowd-sourced
+platform to manage phishing URLs. For that reason Moore et al. aim
+to evaluate the wisdom of crowd platforms accommodated by Phishtank
+\citep{moore:2008}. Moore et al. suggest that the user participation
+is distributed according to power law. It uses model data where the
 frequency of an event varies as a power of some attribute of that
 event \citep{lai}. Power law also applies to a system when large
-is rare and small is common %
+is rare and small is common.%
 \footnote{http://kottke.org/03/02/weblogs-and-power-laws%
-}. For example, in the case of individual wealth in a country, 80\%
-of the all wealth is controlled by 20\% of population in a country.
-It makes sense that in Phishtank\textquoteright s verification system,
-a single highly active user\textquoteright s action can greatly impact
-the system\textquoteright s overall accuracy. \autoref{tab:Comparison-summary}
-summarizes the comparison performed by \citep{moore:2008} between
-Phishtank and closed proprietary anti-phishing feeds%
+} For example, in the case of individual wealth in a country, 80\%
+of all wealth is controlled by 20\% of the population. It makes sense
+that in Phishtank's verification system, a single highly active user's
+action can greatly impact the system's overall accuracy. \autoref{tab:Comparison-summary}
+summarizes the comparison performed by Moore et al. \citep{moore:2008}
+between Phishtank and closed proprietary anti-phishing feeds.%
 \footnote{The author conceals the identity of the closed proprietary company%
-}. Moreover, there are some ways to disrupt Phishtank verification
-system; submitting invalid reports accusing legitimate website, voting
-legitimate website as phish, and voting illegitimate website as not
-phish. While all the scenarios described are for the phishers' benefit,
-the last scenario is more direct and the first two actions rather
-subtle intention to undermine Phishtank credibility.
+} Moreover, there are some ways to disrupt the Phishtank verification
+system, such as: submitting invalid reports accusing legitimate websites;
+voting legitimate websites as phish; and voting illegitimate website
+as not phish. While all the scenarios described are for the phishers'
+benefit, the last scenario is more direct and the first two actions
+are a more subtle method, intended to undermine Phishtank's credibility.
 
-To put it briefly, the lesson of crowd sourced anti-phishing technology
-such as Phishtank is that the distribution of user participation matters.
-It means that if a few high value participants do something wrong,
-it can greatly impact overall system \citep{moore:2008}. Also, there
-is a high probability that bad users could also extensively participate
-in submitting or verifying URLs in Phishtank.
-
-\begin{table}
+\begin{table}[H]
 \begin{tabular}{|>{\centering}p{4cm}|>{\centering}p{3cm}|}
 \hline 
 \textbf{\scriptsize{}Phishtank} & \textbf{\scriptsize{}Proprietary}\tabularnewline
@@ -786,91 +769,96 @@ feeds while 2585 only appeared in Phishtank}}\tabularnewline
 feed and were not verified for another 12 hours} & \tabularnewline
 \hline 
 \end{tabular}\protect\caption{\label{tab:Comparison-summary}Comparison summary \citep{moore:2008}}
-
-
 \end{table}
 
+
+To put it briefly, the lesson of crowd-sourced anti-phishing technology
+such as Phishtank is that the distribution of user participation matters.
+It means that if a few high value participants do something wrong,
+it can greatly impact the overall system \citep{moore:2008}. Also,
+there is a high probability that bad users could extensively participate
+in submitting or verifying URLs in Phishtank.
 
 
 \subsubsection{Machine learning approach in detecting spoofed website}
 
-The fundamental of phishing detection system would be to distinguish
-between phishing websites and the legitimate ones. As we previously
-discussed, the aim of phishing attack is to gather confidential information
+The fundamental task of a phishing detection system is to distinguish
+between phishing websites and legitimate ones. As we previously discussed,
+the aim of phishing attacks is to gather confidential information
 from potential victims. To do this, phishers often prompt for this
 information through fraudulent websites and masquerade as legitimate
 institutions. It does not make sense if phishers created them in a
-way very distinctive with its target. It may raise suspicions with
-result of unsuccessful attack. To put it another way, while it might
-be true, we speculated that most of the phishing websites are mostly
-identical with its legitimate websites as target to reduce suspiciousness
-from potential victim. 
+way very distinctive from its target. It may raise suspicions with
+the result of unsuccessful attack. To put it another way, we speculate
+that most phishing websites are mostly identical to legitimate websites
+to reduce suspicion of potential victims.
 
-In contrast of one of blacklisting technique we saw in Phishtank that
-heavily depend on human verification, researchers make use of machine
-learning based technique to automatically distinguish between phishing
-and legitimate either websites or email. Basically, machine-learning
+In contrast to one of the blacklisting technique we saw in Phishtank
+that heavily depend on human verification, researchers make use of
+machine learning based technique to automatically distinguish between
+phishing and legitimate websites and email. Basically, machine-learning
 system is a platform that can learn from previous data and predict
-future data with its classification, in this case, phishing and legitimate.
+future data with its classification: in this case, phishing and legitimate.
 In order for this machine to learn from data, there should be some
-kind of inputs to classify the data, it is called features or characteristics. 
+kind of inputs to classify the data, which are called features or
+characteristics.
 
-Furthermore, there are also several learning algorithms to classify
-the data, such as, logistic regression, random forest, neural networks
-and support vector machine. However, as this particular topic is out
-of scope of our research, we will not discuss about the learning algorithm
-that is currently implemented. We will only introduce three features
-that are used in machine learning based detection. 
+Furthermore, there are several learning algorithms to classify the
+data, such as logistic regression, random forest, neural networks
+and support vector machines. As this particular topic is outside the
+scope of our research, we do not discuss the learning algorithm that
+is currently implemented. We limit ourselves to introducing three
+features that are used in machine learning based detection.
 
 There are vast amount of features that can be used in machine learning
-to detect phishing attack. Literatures are selected by keyword search
-such as ``phishing + detection + machine learning''. We analyze
+to detect phishing attacks. Literature was selected by keyword search
+such as ``phishing + detection + machine learning''. We analyzed
 three features: lexical feature, host-based feature and site popularity
-feature. Each of these features will be introduced briefly as follows.
+feature. Each of these features are introduced briefly below:
 \begin{itemize}
 \item Lexical features
 \end{itemize}
-Lexical features (URL based features) are based on the analysis of
-URL structure without any external information. Ma, et al. suggest
+Lexical features (URL-based features) are based on the analysis of
+URL structure without any external information. Ma et al. suggest
 that the structure URL of phishing may \textquotedblleft look\textquotedblright{}
 different to experts \citep{ma:2009}. These features include how
-many dots exist, the length, how deep the path traversal do the URL
-has or if there any sensitive words present in a URL. For example
+many dots exist, the length, how deep the path traversal the URL has,
+or if there any sensitive words present in a URL. For example, with
 the URLs https://wow.paypal.com and http://wow.paypal.com.example.com/
 or http://login.example.com/ wow.paypal.com/, we can see that the
-domain paypal.com positioned differently, with the first one being
-the benign URL. Le, et al suggests we can extract the features related
+domain paypal.com is positioned differently, with the first one being
+the benign URL. Le et al. suggest we can extract the features related
 to the full URL, domain name, directory, file name and argument \citep{le:2011}.
-For example we want to extract features related to the full URL; we
-can define the length of the URL, the number of dots in the URL, and
-whether the blacklisted word presents in the URL. The blacklisted
+For example, if we want to extract features related to the full URL,
+we can define the length of the URL, the number of dots in the URL,
+and whether the blacklisted word presents in the URL. The blacklisted
 words consist of sensitive words such as confirm, account, login or
-webscr. 
+webscr.
 
 Lexical features analysis may have performance advantage and reduces
 overhead in term of processing and latency, since it only tells the
 machine to learn URL structure. 90\% accuracy is achieved when utilizing
 lexical features combined with external features such as WHOIS data
-\citep{le:2011}. Egan, et al. conducted an evaluation of lightweight
-classification that includes lexical features and host based features
+\citep{le:2011}. Egan et al. conducted an evaluation of lightweight
+classification that includes lexical features and host-based features
 in its model \citep{egan:2011}. The study found that the classification
 based on these features resulted in extremely high accuracy and low
-overhead. \autoref{tab:exist-lex} lists the existing lexical features
+overheads. \autoref{tab:exist-lex} lists the existing lexical features
 that are currently implemented by two different studies \citep{xiang:2011,liu}.
-However, Xiang, et al.\citep{xiang:2011} pointed out that URLs structure
-could be manipulated with little cost, causing the features to fail.
-For example, attackers could simply remove embedded domain and sensitive
-words to make their phishing URLs look legitimate. Embedded domain
-feature examines whether a domain or a hostname is present in the
-path segment \citep{xiang:2011}, for example, http://wow.example.net/pathto/wow.paypal.com.
-Suspicious URL feature examine whether the URL has ``@'' or ``-'',
+However, Xiang et al.\citep{xiang:2011} pointed out that URL structure
+can be manipulated with little cost, causing the features to fail.
+For example, attackers could simply remove the embedded domain and
+sensitive words to make their phishing URLs look legitimate. Embedded
+domain feature examines whether a domain or a hostname is present
+in the path segment \citep{xiang:2011}, for example, http://wow.example.net/pathto/wow.paypal.com.
+Suspicious URL features examine whether the URL has ``@'' or ``-'',
 the present of ``@'' is examined in a URL because when the symbol
 ``@'' is used, the string to the left will be discarded. Furthermore,
 according to \citep{xiang:2011}, not many legitimate websites use
-``-'' in their URLs. There are also plenty of legitimate domains
+``-'' in their URLs. . There are also plenty of legitimate domains
 presented only with IP address and contains more dots. Nevertheless,
-lexical analysis would be suitable features to use for first phase
-analysis in a large data \citep{egan:2011}.
+lexical analysis would be suitable to use for first phase analysis
+of large amounts of data \citep{egan:2011}.
 
 \begin{table}
 \centering{}%
@@ -919,14 +907,14 @@ analysis in a large data \citep{egan:2011}.
 \begin{itemize}
 \item Host based features
 \end{itemize}
-Since phishers often hosted phishing websites in less reputable hosting
+Since phishers often host phishing websites with less reputable hosting
 services and registrars, host-based features are needed to observe
-on the external sources (WHOIS information, domain information, etc.).
-A study suggests host-based features have the ability to describe
-where phishing websites are hosted, who owns them and how they are
-managed \citep{ma:2009}. \autoref{tab:host-based} shows the host-based
-features from three studies that are currently used in machine learning
-phishing detection. These studies are selected only for example comparison.
+external sources (WHOIS information, domain information, etc.). A
+study suggests host-based features have the ability to describe where
+phishing websites are hosted, who owns them and how they are managed
+\citep{ma:2009}. \autoref{tab:host-based} shows the host-based features
+from three studies that are currently used in machine learning phishing
+detection. These studies are selected only for example comparison.
 
 \begin{table}
 \centering{}%
@@ -959,22 +947,22 @@ phishing detection. These studies are selected only for example comparison.
 \end{table}
 
 
-Each of these features does matter for phishing detection. However,
-as our main objective is an analysis of phishing emails based on Cialdini's
-persuasion principles, we will not describe each of these features
-in detail. It is noteworthy that some of the features are subset of
-another feature, for instance, autonomous system number (ASN), IP
-country and number of registration information are derived from WHOIS
-information. Nevertheless, we will only explain few of them that we
-assume the most crucial. 
+Each of these features matters for phishing detection. However, as
+our main objective is an analysis of phishing emails based on Cialdini's
+persuasion principles, we do not describe each of these features in
+detail. It is noteworthy that some of the features are subset of other
+features. For instance, autonomous system number (ASN), IP country
+and number of registration information are derived from WHOIS information.
+Nevertheless, we only explain the few of them that we consider the
+most crucial:
 \begin{enumerate}
 \item WHOIS information: Since phishing websites and hacked domains are
-often created at relatively young age, this information could provide
+often created at a relatively young age, this information could provide
 the registration date, update date and expiration date. Domain ownership
 would also be included; therefore, a set of malicious websites with
 the same individual could be identified. 
-\item IP address information: Justin Ma, et al. used this information for
-identify whether or not an IP address is in blacklist \citep{ma2:2009,ma:2009}.
+\item 2. IP address information: Justin Ma et al. used this information
+to identify whether or not an IP address is blacklisted \citep{ma2:2009,ma:2009}.
 Besides the corresponding IP address, it provides records like nameservers
 and mail exchange servers. This allows the classifier to be able to
 flag other IP addresses within the same IP prefix and ASN. 
@@ -1018,20 +1006,19 @@ name and hostname } & {\scriptsize{}- Number of external links}{\scriptsize \par
 \end{table}
 
 \begin{enumerate}
-\item Page in top search results: this feature originally used by \citep{zhang:2007}
-to find whether or not a website shows up on the top N search result.
+\item Page in top search results: this feature was originally used by \citep{zhang:2007}
+to find whether or not a website shows up in the top N search result.
 If it is not the case, the website could be flagged as phishy since
 phishing websites have less chance of being crawled \citep{xiang:2011}.
-We believe this feature is similar to Number of external links feature
-since both of them are implying the same technique.
+We believe this feature is similar to the Number of external links
+feature since both of them are implying the same technique.
 \item PageRank: this technique is originally introduced by Google to map
 which websites are popular and which are not, based on the value from
 0 to 10. According to \citep{xiang:2011}, the intuitive rationale
-of this feature is that phishing websites are often have very low
-PageRank due to their ephemeral nature and very low incoming links
-that are redirected to them. This feature similar to Real traffic
-rank feature employed by \citep{liu} where such feature can be acquired
-from alexa.com.
+of this feature is that phishing websites often have very low PageRank
+due to their ephemeral nature and very low incoming links that are
+redirected to them. This feature is similar to Real traffic rank feature
+employed by \citep{liu} where such feature can be acquired from alexa.com.
 \item Page in top results when searching copyright company name and domain/hostname
 features are complement features of Page in top search results feature
 with just different queries. Moreover, we believe they are also similar
@@ -1044,98 +1031,88 @@ can be obtained from amazon.com \citep{liu}.
 \subsubsection{\label{sub:Stop-phishing-at}Stop phishing at email level}
 
 In order to stop phishing at email level, phishing email properties
-or features should be investigated. Chandrasekaran, et al. and Drake,
-et al \citep{chandrasekaran:2006,drake2004anatomy} specify the structure
+or features should be investigated. Chandrasekaran et al. and Drake
+et al. \citep{chandrasekaran:2006,drake2004anatomy} specify the structure
 of phishing emails properties as follows:
 \begin{enumerate}
 \item Spoofing of online banks and retailers. Impersonation of legitimate
-institutions may created in the email level. Phishers may design a
-fake email to resemble the reputable company to gain users trust.
+institutions may occur at the email level. Phishers may design a fake
+email to resemble the reputable company in order to gain users' trust.
 \item Link in the text is different from the destination. A link(s) contained
 in the email message usually appears different than the actual link
-destination. This portrays hidden URL and this method used to trick
+destination. This portrays hidden URL and this method is used to trick
 users to believe that the email is legitimate.
 \item Using IP addresses instead of URLs. Sometimes phishers may hide the
 link in the message by presenting it as IP address instead of URL.
 \item Generalization in addressing recipients. As phishing emails are distributed
-by large number of recipients, the email often is not personalized,
-unlike the legitimate email that address its recipient by personalized
-information such as the last four digits of account information.
+by large number of recipients, the email is often not personalized,
+unlike a legitimate email that address its recipient with personalized
+information such as the last four digits of their account.
 \item Usage of well-defined situational contexts to lure victims. Situational
 contexts such as false urgency and threat are a common method to influence
 the decision making of the recipients.
 \end{enumerate}
-Moreover, Ma, et al. experimented with seven properties to consider
-in a phishing emails consist of the total number of links, total numbers
-of invisible links, whether the link that appears in the message is
-different than the actual destination, the existence of forms, whether
-scripts exist within an email, total appearance of blacklisted words
-in the body and the total appearance of blacklisted words in the subject
-\citep{ma2009detecting}. Based on this survey, we established phishing
-email properties as variables in order to classify our data in \autoref{sub:variables}.
+Ma et al. experimented with seven properties to consider in phishing
+emails: the total number of links; total numbers of invisible links;
+whether the link that appears in the message is different than the
+actual destination; the existence of forms; whether scripts exist
+within an email; total appearance of blacklisted words in the body;
+and the total appearance of blacklisted words in the subject \citep{ma2009detecting}.
+Based on this survey, we established phishing email properties as
+variables in order to classify our data in \autoref{sub:variables}.
 
 
 \subsection{Phishing prevention}
 
-Phishing attacks aim to by-pass technological countermeasures by manipulating
-users\textquoteright{} trust and can lead to monetary losses. Therefore,
-human factors take a big part on the phishing taxonomy, especially
-in the organizational environment. Human factor in phishing taxonomy
-comprised of education, training and awareness \citep{frauenstein:2013}.
-\autoref{fig:holistic} illustrates where human factor takes part
-on phishing threats \citep{frauenstein:2013}. User\textquoteright s
-awareness of phishing has been explored by several studies \citep{james:2005,frauenstein:2013,emigh:2005,kumaraguru:2008,jansson:2013,dodge:2007}
-as preventive measure against phishing attack. According to ISO/IEC
-27002 \citep{frauenstein:2013}\citep{organization:2005}, it has
-been shown that information security awareness is important and it
-has been critical success factors to mitigate security vulnerabilities
-that attack user\textquoteright s trust. One approach to hopefully
-prevent phishing attack was by implementing anti phishing warning/indicator.
-Dhamija, et al suggest that users often ignore security indicators
-thus makes them ineffective \citep{dhamija2006phishing}. Even if
-users notice the security indicators, they often do not understand
+Phishing attacks aim to bypass technological countermeasures by manipulating
+users' trust and can lead to monetary losses. Therefore, human factors
+play a big part in the phishing taxonomy, especially in the organizational
+environment. Human factor in phishing taxonomy is comprised of education,
+training and awareness \citep{frauenstein:2013}. \autoref{fig:holistic}
+illustrates where human factors play a part in phishing threats \citep{frauenstein:2013}.
+User's awareness of phishing has been explored by several studies
+\citep{james:2005,frauenstein:2013,emigh:2005,kumaraguru:2008,jansson:2013,dodge:2007}
+as preventive measures against phishing attacks. According to ISO/IEC
+27002 \citep{frauenstein:2013}\citep{organization:2005}, information
+security awareness is important and it has been a critical success
+factor in mitigating security vulnerabilities that attack user's trust.
+One approach to hopefully prevent phishing attacks is to implement
+an anti-phishing warning/indicator. Dhamija et al. suggest that users
+often ignore security indicators, thus making them ineffective \citep{dhamija2006phishing}.
+Even if users notice the security indicators, they often do not understand
 what they represent. 
 
-Moreover, the inconsistency of positioning on different browsers makes
-them much difficult to identify phishing \citep{kirlappos:2012}.
-Evidently, Schechter, et al. pointed out that 53\% of their study
-participants were still attempting to provide their confidential information,
-even after their task was interrupted by strong security warning \citep{schechter:2007}.
-Therefore, these suggest that an effective phishing education must
-be added as a complementary strategy to complete technical anti-phishing
-measure as a strong remedy to detect phishing websites or emails.
-
-\begin{figure}
-
-
-\begin{centering}
-\includegraphics[scale=0.6]{\string"gfx/human factor\string".png}\protect\caption{\label{fig:holistic}Holistic anti-phishing framework \citep{frauenstein:2013}}
-
-\par\end{centering}
-
+\begin{figure}[H]
+\centering{}\includegraphics[scale=0.6]{\string"gfx/human factor\string".png}\protect\caption{\label{fig:holistic}Holistic anti-phishing framework \citep{frauenstein:2013}}
 \end{figure}
 
 
-Phishing education for online users often by instructing not to click
-links in an email, ensure that SSL is present and to verify that the
-domain name is correct before giving information, and other similar
-education. This traditional practice evidently has not always effective
-\citep{emigh:2005}. One may ask what makes phishing education effective?
-A study suggests that in order online users to be aware of phishing
-threats, is to really engage them to so that they understand how vulnerable
-they are \citep{mansfield:2013}. To do this, simulated phishing attacks
-often performed internally in an organization. \autoref{fig:simulated}
-shows a simulated phishing email and website carried out by Kumaraguru,
-et al. from PhishGuru \citep{kumaraguru:2009}. As a result, this
-scenario puts them in the ultimate teachable moment if they fall for
-these attacks.
+Moreover, the inconsistency of positioning on different browsers makes
+it difficult to identify phishing \citep{kirlappos:2012}. Schechter
+et al. pointed out that 53\% of their study participants were still
+attempting to provide confidential information even after their task
+was interrupted by strong security warning \citep{schechter:2007}.
+This suggests that an effective phishing education must be added as
+a complementary strategy to complete technical anti-phishing measures.
 
-\begin{figure}
+Phishing education for online users often includes instructing people
+not to click links in an email, ensure that the SSL is present and
+to verify that the domain name is correct before giving information.
+This traditional practice evidently has not always been effective
+\citep{emigh:2005}. One may ask, therefore, what makes phishing education
+effective. A study suggests that in order for online users to be aware
+of phishing threats, they need to be really engaged so that they understand
+how vulnerable they are \citep{mansfield:2013}. To do this, simulated
+phishing attacks are often performed internally in an organization.
+\autoref{fig:simulated} shows a simulated phishing email and website
+carried out by Kumaraguru et al. from PhishGuru \citep{kumaraguru:2009}.
+This scenario delivers the ultimate teachable moment if they fall
+for these attacks.
 
+\begin{figure}[H]
+\subfloat[Simulated phishing email \citep{kumaraguru:2009}]{\centering{}\includegraphics[scale=0.6]{gfx/kumaraguru-a}}
 
-\subfloat[simulated phishing email \citep{kumaraguru:2009}]{\centering{}\includegraphics[scale=0.6]{gfx/kumaraguru-a}}
-
-\quad{}\subfloat[simulated phishing website \citep{kumaraguru:2009}]{\centering{}\includegraphics[scale=0.6]{gfx/kumaraguru-b}}\quad{}\subfloat[simulated phishing message \citep{kumaraguru:2009}]{\begin{centering}
+\quad{}\subfloat[Simulated phishing website \citep{kumaraguru:2009}]{\centering{}\includegraphics[scale=0.6]{gfx/kumaraguru-b}}\quad{}\subfloat[Simulated phishing message \citep{kumaraguru:2009}]{\begin{centering}
 \includegraphics[scale=0.6]{gfx/kumaraguru-c}
 \par\end{centering}
 
@@ -1147,50 +1124,44 @@ these attacks.
 
 Phishguru is a security training system operated by Wombat security
 technology that teaches users not to be deceived by phishing attempts
-by simulation of phishing attacks\citep{phishguru}. They claimed
+through simulation of phishing attacks \citep{phishguru}. They claimed
 Phishguru provides more effective training than traditional training
 as it is designed to be more engaging. \autoref{fig:em-training}
 illustrates how embedded phishing training was presented by PhishGuru.
 
-Kumaraguru, et al. investigates the effectiveness of embedded training
-methodology in a real world situation \citep{kumaraguru:2009}. Evidently,
-they indicated that even after 28 days after training, users trained
-by PhishGuru were less likely to click the link presented in the simulated
-phishing email than those who were not trained. They also find that
-users who trained twice were less likely to give information to simulated
-fraudulent website than users who were trained once. Moreover, they
-argue that the training does not decrease the users\textquoteright{}
-willingness to click on the links from legitimate emails; it means
-that less likely a trained user did a false positive when he or she
-requested to give information from true legitimate emails \citep{kumaraguru:2009}.
-This suggests that user training strategy as an effective phishing
-education in order to improve phishing awareness especially in organizational
-environment.
-
-\begin{figure}
-\begin{centering}
-\includegraphics[scale=0.6]{\string"gfx/phishing training\string".png}\protect\caption{\label{fig:em-training}Embedded phishing training \citep{kumaraguru:2009}}
-
-\par\end{centering}
-
+\begin{figure}[H]
+\centering{}\includegraphics[scale=0.6]{\string"gfx/phishing training\string".png}\protect\caption{\label{fig:em-training}Embedded phishing training \citep{kumaraguru:2009}}
 \end{figure}
 
+
+Kumaraguru et al. investigated the effectiveness of embedded training
+methodology in a real world situation \citep{kumaraguru:2009}. They
+indicated that 28 days after training, users trained by PhishGuru
+were less likely to click the link presented in the simulated phishing
+email than those who were not trained. They also find that users who
+trained twice were less likely to give information to simulated fraudulent
+websites than users who were trained once. Moreover, they argue that
+the training does not decrease the users' willingness to click on
+the links from legitimate emails; it is less likely a trained user
+gave a false positive when he or she was requested to give information
+by true legitimate emails \citep{kumaraguru:2009}. This suggests
+that a user training strategy or effective phishing education is necessary
+to improve phishing awareness, especially in organizational settings.
 
 
 \section{\label{sec:Human-factor-and}Human factor and persuasion}
 
-Phishing attacks generally aim to manipulate end users to comply phisher's
-request. Such manipulation in phishing attacks is achieved by social
-engineering. This means that human element is tightly involved with
-phishing. But how do phishers compose such deception? How come online
-users are gullible to these attacks? 
+Phishing attacks generally aim to manipulate end users to comply with
+the phisher's request. Such manipulation in phishing attacks is achieved
+by social engineering. This means that human element is tightly involved
+with phishing. But how do phishers compose such deception? Why are
+online users gullible to these attacks? 
 
-Kevin Mitnick, who was obtaining millions of dollars by performing
-social engineering technique, is plausibly the best known person who
-had used social engineering technique to carry out his attacks. His
-book that titled ``The art of deception: Controlling the Human Element
-of Security'' \citep{mitnik:2001} has defined social engineering
-as follows:
+Kevin Mitnick, who obtained millions of dollars by performing social
+engineering techniques, is probably the best known person who had
+used the social engineering technique to carry out attacks. His book
+entitled ``The art of deception: Controlling the Human Element of
+Security'' \citep{mitnik:2001} defined social engineering as follows:
 \begin{quote}
 ``Using influence and persuasion to deceive people by convincing
 them that the attacker is someone he is not, or by manipulation. As
@@ -1198,42 +1169,41 @@ a result, the social engineer is able to take advantage of people
 to obtain information, or to persuade them to perform an action item,
 with or without the use of technology.''
 \end{quote}
-From his definition we can learn that people are the main target of
-the attack, specifies some of the important tools used by the attackers,
-such as influence and persuasion. 
+From Mitnick's definition we can learn that people are the main target
+of the attack. He specifies some of the important tools used by the
+attackers such as influence and persuasion.
 
 Cialdini suggests that there are six basic principles of persuasion
-\citep{cialdini:2001}, that is, the technique of making people grant
-to one's request. These principles include;\textit{ reciprocation,
-consistency, social proof, likeability, authority and scarcity}. Reciprocation
-is \foreignlanguage{english}{the norm that obligates individuals to
-repay in kind what they have received, return the favor or adjustment
-to smaller request \citep{cialdini:2001}. Consistency is a public
-commitment where people confirmed to commit publicly in the decision
-they have made \citep{workman:2008}\citep{cialdini:2001}. Social
-proof is when people follow the behavior of their peer group, role
-models or important others because it is generally \textquotedbl{}fashionable\textquotedbl{}
-\citep{workman:2008}. Stajano, et al. suggest people will let their
+\citep{cialdini:2001}; that is, the technique of making people grant
+to one's request. These principles are:\textit{ reciprocation, consistency,
+social proof, likeability, authority and scarcity}. Reciprocation
+is the norm that obligates individuals to repay in kind what they
+have received, return the favor or adjustment to a smaller request\foreignlanguage{english}{
+\citep{cialdini:2001}. Consistency is a public commitment where people
+commit to the decision they have made \citep{workman:2008}\citep{cialdini:2001}.
+Social proof is when people follow the behavior of their peer group,
+role models or important others because it is generally \textquotedbl{}fashionable\textquotedbl{}
+\citep{workman:2008}. Stajano et al. suggest people will let their
 guard down when everybody around them appears to share the same risk
-\citep{stajano2011understanding}. Likeability is when people giving
-their trust to the people they find attractive or credible \citep{workman:2008,cialdini:2001},
-when trust is achieved, compliance to grant a request may take place.
+\citep{stajano2011understanding}. Likeability is when people trust
+those they find attractive or credible \citep{workman:2008,cialdini:2001}.
+When trust is achieved, compliance to grant a request may take place.
 While it is our human nature not to question authority, it can be
 used to cause fear, where people obey commands to avoid negative consequences
-such as losing a privilege or losing something valuable, fear of punishment,
-humiliation or condemnation \citep{cialdini:2001,workman:2008}. Stajano,
-et al suggest that scarcity is related to time principle, that is,
-when we are under time pressure to make important choice, we tend
-to have less reasoning to make decision \citep{stajano2011understanding}. }
+such as: losing a privilege; losing something valuable; and fear of
+punishment, humiliation or condemnation \citep{cialdini:2001,workman:2008}.
+Stajano et al. suggest that scarcity is related to the time principle:
+that is, when we are under time pressure to make an important choice,
+we tend to have less reasoning in making a decision \citep{stajano2011understanding}. }
 
-Human as the ``weakest link'' in computer security has been exists
-and exploited for ages. And yet, security designers blame on users
-and whine ``the system I designed would be secure, if only users
-were less gullible'' \citep{stajano2011understanding}. Stajano,
-et al. stated that ``a wise security designer would seek a robust
-solution which acknowledge the existence of these vulnerabilities
-as unavoidable consequence of human nature and actively build countermeasures
-that prevent this exploitation'' \citep{stajano2011understanding}.
-With this in mind, the exploration of persuasion principles is congruent
-with our research goal. Cialdini's six persuasion principles will
-be the foundation in our research.
+The human being as the \textquotedblleft weakest link'' in computer
+security has been exploited for a long time. Security designers blame
+users and complain that: ``the system I designed would be secure,
+if only users were less gullible\textquotedblright{} \citep{stajano2011understanding}.
+Stajano et al. stated that: \textquotedblleft a wise security designer
+would seek a robust solution which acknowledges the existence of these
+vulnerabilities as unavoidable consequence of human nature and actively
+build countermeasures that prevent this exploitation\textquotedblright{}
+\citep{stajano2011understanding}. With this in mind, the exploration
+of persuasion principles is congruent with our research goal. Cialdini's
+six persuasion principles are the foundation of our research.

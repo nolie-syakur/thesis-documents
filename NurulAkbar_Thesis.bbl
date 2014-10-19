@@ -19,6 +19,24 @@
 
 \refsection{0}
   \sortlist{entry}{nty}
+    \entry{abad2005economy}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=52d138e9a78a50a6a0c054b6db2dc7ba}{Abad}{A\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=52d138e9a78a50a6a0c054b6db2dc7ba}{Abad}{A\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{52d138e9a78a50a6a0c054b6db2dc7ba}
+      \strng{fullhash}{52d138e9a78a50a6a0c054b6db2dc7ba}
+      \field{sortinit}{A}
+      \field{labeltitle}{The economy of phishing: A survey of the operations of the phishing market}
+      \field{journaltitle}{First Monday}
+      \field{number}{9}
+      \field{title}{The economy of phishing: A survey of the operations of the phishing market}
+      \field{volume}{10}
+      \field{year}{2005}
+      \keyw{bibliography}
+    \endentry
     \entry{barraclough:2013}{article}{}
       \name{labelname}{5}{}{%
         {{hash=27a377958c2d5bcafe6221477cfb9f20}{Barraclough}{B\bibinitperiod}{PA}{P\bibinitperiod}{}{}{}{}}%
@@ -387,25 +405,7 @@
       \field{type}{Journal Article}
       \field{volume}{3}
       \field{year}{2005}
-      \keyw{bibliography}
-    \endentry
-    \entry{fellman:2004}{inproceedings}{}
-      \name{labelname}{2}{}{%
-        {{hash=cee9da51d9bca2d71068e149cf80e662}{Fellman}{F\bibinitperiod}{Philip\bibnamedelima V}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-        {{hash=e6575bf578aa433680f1de91a786fa5a}{Rodriguez}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=cee9da51d9bca2d71068e149cf80e662}{Fellman}{F\bibinitperiod}{Philip\bibnamedelima V}{P\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-        {{hash=e6575bf578aa433680f1de91a786fa5a}{Rodriguez}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{90b22d62814eb8fd6a5fc040b78210f1}
-      \strng{fullhash}{90b22d62814eb8fd6a5fc040b78210f1}
-      \field{sortinit}{F}
-      \field{labeltitle}{The Dark Side of the Internet}
-      \field{booktitle}{International Federation for Information Processing, International Meeting,"IT Innovation for Adaptability and Competitiveness"}
-      \field{title}{The Dark Side of the Internet}
-      \field{year}{2004}
-      \keyw{bibliography}
+      \keyw{additional}
     \endentry
     \entry{frauenstein:2013}{inbook}{}
       \name{labelname}{2}{}{%
@@ -650,7 +650,7 @@
       \field{labeltitle}{Phishing and countermeasures: understanding the increasing problem of electronic identity theft}
       \field{title}{Phishing and countermeasures: understanding the increasing problem of electronic identity theft}
       \field{year}{2006}
-      \keyw{bibliography}
+      \keyw{additional}
     \endentry
     \entry{james:2005}{book}{}
       \name{labelname}{1}{}{%
@@ -668,7 +668,7 @@
       \field{labeltitle}{Phishing exposed}
       \field{title}{Phishing exposed}
       \field{year}{2005}
-      \keyw{bibliography}
+      \keyw{additional}
     \endentry
     \entry{jansson:2013}{article}{}
       \name{labelname}{2}{}{%
@@ -728,7 +728,7 @@
       \strng{fullhash}{dfd93bc8be2bf81afc988065a3637f7c}
       \field{sortinit}{K}
       \field{labeltitle}{Development of an E-Learning Content-Making System for Information Security (ELSEC) and Its Application to Anti-Phishing Education}
-      \field{booktitle}{e-Education, e-Business, e-Management, and e-Learning, 2010. IC4E'10. International Conference on}
+      \field{booktitle}{International Conference on e-Education, e-Business, e-Management, and e-Learning, 2010. IC4E'10.}
       \field{title}{Development of an E-Learning Content-Making System for Information Security (ELSEC) and Its Application to Anti-Phishing Education}
       \field{year}{2010}
       \field{pages}{7\bibrangedash 11}
@@ -993,7 +993,7 @@
       \strng{fullhash}{7572b1c0eeb6d4aab363bfb99091ccdc}
       \field{sortinit}{L}
       \field{labeltitle}{Automatic detection of phishing target from phishing webpage}
-      \field{booktitle}{Pattern Recognition (ICPR), 2010 20th International Conference on}
+      \field{booktitle}{Proceedings of International Conference on Pattern Recognition}
       \field{title}{Automatic detection of phishing target from phishing webpage}
       \field{year}{2010}
       \field{pages}{4153\bibrangedash 4156}
@@ -1018,7 +1018,7 @@
       \field{title}{Learning based Malicious Web Sites Detection using Suspicious URLs}
       \field{type}{Journal Article}
       \field{year}{2012}
-      \keyw{bibliography}
+      \keyw{additional}
     \endentry
     \entry{ma:2009}{inproceedings}{}
       \name{labelname}{4}{}{%
@@ -1092,7 +1092,7 @@
       \strng{fullhash}{6988156066b6b024e9c7aac9055e6cd2}
       \field{sortinit}{M}
       \field{labeltitle}{Detecting phishing emails using hybrid features}
-      \field{booktitle}{Ubiquitous, Autonomic and Trusted Computing, 2009. UIC-ATC'09. Symposia and Workshops on}
+      \field{booktitle}{Symposia and Workshops on Ubiquitous, Autonomic and Trusted Computing, 2009. UIC-ATC'09.}
       \field{title}{Detecting phishing emails using hybrid features}
       \field{year}{2009}
       \field{pages}{493\bibrangedash 497}
@@ -1153,7 +1153,7 @@
       \field{labeltitle}{The art of deception: Controlling the human element of security}
       \field{title}{The art of deception: Controlling the human element of security}
       \field{year}{2001}
-      \keyw{bibliography}
+      \keyw{additional}
     \endentry
     \entry{moore:2007}{inproceedings}{}
       \name{labelname}{2}{}{%
@@ -1279,7 +1279,7 @@
       \field{title}{ISO/IEC 27002: Information Technology, Security Techniques, Code of Practice for Information Security Management}
       \field{type}{Book}
       \field{year}{2005}
-      \keyw{bibliography}
+      \keyw{additional}
     \endentry
     \entry{phishtank}{misc}{}
       \name{labelname}{1}{}{%
@@ -1448,7 +1448,7 @@
       \strng{fullhash}{2cf870d26c2791731481a1779cd3f951}
       \field{sortinit}{S}
       \field{labeltitle}{The emperor's new security indicators}
-      \field{booktitle}{Security and Privacy, 2007. SP'07. IEEE Symposium on}
+      \field{booktitle}{IEEE Symposium on Security and Privacy}
       \field{title}{The emperor's new security indicators}
       \field{year}{2007}
       \field{pages}{51\bibrangedash 65}
@@ -1698,10 +1698,9 @@
       \strng{fullhash}{9a088ffa69553f7ec6c536d2c29a85d0}
       \field{sortinit}{W}
       \field{labeltitle}{A method for the automated detection phishing websites through both site characteristics and image analysis}
-      \field{booktitle}{SPIE Defense, Security, and Sensing}
+      \field{booktitle}{Proceedings of SPIE: The International Society for Optical Engineering}
       \field{title}{A method for the automated detection phishing websites through both site characteristics and image analysis}
       \field{year}{2012}
-      \field{pages}{84080B\bibrangedash 84080B}
       \keyw{bibliography}
     \endentry
     \entry{workman:2008}{article}{}

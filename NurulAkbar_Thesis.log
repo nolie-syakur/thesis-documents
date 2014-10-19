@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.23)  7 OCT 2014 16:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.23)  19 OCT 2014 23:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1307,7 +1307,7 @@ Overfull \hbox (12.50914pt too wide) in paragraph at lines 231--231
 
 
 Overfull \hbox (12.01636pt too wide) in paragraph at lines 233--233
- [][] []\T1/pplj/m/n/10.95 Flow of in-for-ma-tion in phish-ing at-tack [[][]16[
+ [][] []\T1/pplj/m/n/10.95 Flow of in-for-ma-tion in phish-ing at-tack [[][]17[
 ][]] []  
  []
 
@@ -1332,7 +1332,7 @@ nce[][][][][][][][][][][][][][][] []
 [10
 
 ]
-Overfull \hbox (12.47624pt too wide) in paragraph at lines 327--327
+Overfull \hbox (12.47624pt too wide) in paragraph at lines 329--329
  [][] []\T1/pplj/m/n/10.95 Government sec-tor and au-thor-ity prin-ci-ple []  
  []
 
@@ -1383,42 +1383,19 @@ Chapter 1.
 
 
 
-]
-Overfull \hbox (1.44926pt too wide) in paragraph at lines 70--78
-[]\T1/pplj/m/n/10.95 Common char-ac-ter-is-tics of a phish-ing email in-clude s
-truc-tural prop-
- []
-
-[2]
-Overfull \hbox (4.26514pt too wide) in paragraph at lines 98--111
-\T1/pplj/m/n/10.95 Ab-stract, Key-words) fields and ``Cial-dini'' in the Ref-er
--ences field. From
- []
-
+] [2]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 117.
-[3]
-Overfull \hbox (3.44395pt too wide) in paragraph at lines 213--222
-[]\T1/pplj/m/n/10.95 Herzberg, et al. tested the ef-fec-tive-ness of dif-fer-en
-t de-fense mech-
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 119.
+ [3]
+Overfull \hbox (0.70569pt too wide) in paragraph at lines 215--224
+[]\T1/pplj/m/n/10.95 Herzberg et al. tested the ef-fec-tive-ness of dif-fer-ent
+ de-fense mech-
  []
 
-[4]
-Overfull \hbox (3.04446pt too wide) in paragraph at lines 233--238
-\T1/pplj/m/n/10.95 The pa-per only men-tions the com-mit-ment and con-sis-tency
- based
- []
-
-[5] [6]
-Overfull \hbox (21.17755pt too wide) in paragraph at lines 355--370
-\T1/pplj/m/n/10.95 con-ducted in-di-vid-ual in-ves-ti-ga-tions on all pa-pers f
-ound in both databases,
- []
-
-
-Overfull \hbox (5.45863pt too wide) in paragraph at lines 355--370
-\T1/pplj/m/n/10.95 study per-sua-sion tech-niques and phish-ing area. There-for
-e, a real world
+[4] [5] [6]
+Overfull \hbox (1.9822pt too wide) in paragraph at lines 377--389
+\T1/pplj/m/n/10.95 phish-ing emails can also be used to gen-er-ate a new au-to-
+mated method
  []
 
 [7]) [8]
@@ -1433,137 +1410,155 @@ Chapter 2.
 
 ]
 Package acronym Info: Label `acro:AOL' newly defined as it shall be overridden
-although it is yet undefined on input line 60.
+although it is yet undefined on input line 59.
  [10] [11] [12]
-Overfull \hbox (18.23305pt too wide) in alignment at lines 253--346
+Overfull \hbox (18.23305pt too wide) in alignment at lines 243--336
  [] 
  []
 
-[13] <"gfx/phishing processes".png, id=666, 327.2225pt x 362.35374pt>
+[13] <"gfx/phishing processes".png, id=665, 327.2225pt x 362.35374pt>
 File: "gfx/phishing processes".png Graphic file (type png)
 
 <use "gfx/phishing processes".png>
-Package pdftex.def Info: "gfx/phishing processes".png used on input line 357.
+Package pdftex.def Info: "gfx/phishing processes".png used on input line 347.
 (pdftex.def)             Requested size: 163.61084pt x 181.17642pt.
+ [14]
+Overfull \hbox (7.1506pt too wide) in paragraph at lines 380--385
+\T1/pplj/m/n/10.95 or ex-plain the ur-gency and con-se-quences if the po-ten-ti
+al vic-tim chooses
+ []
+
 Package acronym Info: Label `acro:URL' newly defined as it shall be overridden
-although it is yet undefined on input line 391.
- [14] [15 <./gfx/phishing processes.png>]
-<gfx/ing-phishing.jpg, id=686, 478.03593pt x 389.95688pt>
+although it is yet undefined on input line 388.
+[15 <./gfx/phishing processes.png>]
+<gfx/ing-phishing.jpg, id=685, 478.03593pt x 389.95688pt>
 File: gfx/ing-phishing.jpg Graphic file (type jpg)
 
 <use gfx/ing-phishing.jpg>
-Package pdftex.def Info: gfx/ing-phishing.jpg used on input line 403.
+Package pdftex.def Info: gfx/ing-phishing.jpg used on input line 399.
 (pdftex.def)             Requested size: 191.21098pt x 155.97998pt.
- <gfx/wetzel.png, id=690, 714.67pt x 647.41875pt>
+ <gfx/wetzel.png, id=689, 714.67pt x 647.41875pt>
 File: gfx/wetzel.png Graphic file (type png)
 
 <use gfx/wetzel.png>
-Package pdftex.def Info: gfx/wetzel.png used on input line 422.
+Package pdftex.def Info: gfx/wetzel.png used on input line 418.
 (pdftex.def)             Requested size: 285.86293pt x 258.9629pt.
  [16 <./gfx/ing-phishing.jpg>]
-<gfx/emigh.png, id=711, 653.44125pt x 315.1775pt>
+<gfx/emigh.png, id=709, 653.44125pt x 315.1775pt>
 File: gfx/emigh.png Graphic file (type png)
  <use gfx/emigh.png>
-Package pdftex.def Info: gfx/emigh.png used on input line 471.
+Package pdftex.def Info: gfx/emigh.png used on input line 467.
 (pdftex.def)             Requested size: 261.37187pt x 126.06876pt.
- [17 <./gfx/wetzel.png>] <gfx/info-flow-nolie.png, id=721, 907.39pt x 886.31125
+ [17 <./gfx/wetzel.png>] <gfx/info-flow-nolie.png, id=720, 907.39pt x 886.31125
 pt>
 File: gfx/info-flow-nolie.png Graphic file (type png)
 
 <use gfx/info-flow-nolie.png>
-Package pdftex.def Info: gfx/info-flow-nolie.png used on input line 510.
+Package pdftex.def Info: gfx/info-flow-nolie.png used on input line 505.
 (pdftex.def)             Requested size: 272.2191pt x 265.89542pt.
  [18 <./gfx/emigh.png>] [19 <./gfx/info-flow-nolie.png>]
-Overfull \hbox (7.04102pt too wide) in paragraph at lines 614--622
-\T1/pplj/m/n/10.95 There are var-i-ous types of phish-ing coun-ter-mea-sures th
-at im-ple-mented
+Overfull \hbox (1.70847pt too wide) in paragraph at lines 560--573
+\T1/pplj/m/n/10.95 nario of phish-ing based on vi-sual sim-i-lar-i-ties is to s
+end a large amount
+ []
+
+
+Overfull \hbox (46.4288pt too wide) in paragraph at lines 560--573
+\T1/pplj/m/n/10.95 For ex-am-ple, there is a le-git-i-mate Pay-Pal web-site ad-
+dressed as wow.paypal.com.
+ []
+
+
+Overfull \hbox (29.5213pt too wide) in paragraph at lines 560--573
+\T1/pplj/m/n/10.95 Cousin do-main at-tacks con-fuse po-ten-tial vic-tims to be-
+lieve that wow.paypal-
+ []
+
+
+Overfull \hbox (19.376pt too wide) in paragraph at lines 560--573
+\T1/pplj/m/n/10.95 ing sim-i-lar char-ac-ters to its ad-dresses. For ex-am-ple,
+ with wow.paypal.com
  []
 
 [20] [21]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 681.
- [22]
-Overfull \hbox (7.18762pt too wide) in paragraph at lines 732--755
-[]\T1/pplj/m/n/10.95 From our lit-er-a-ture sur-vey, we know that Phish-tank is
- crowd-sourced
- []
-
-[23]
-Overfull \hbox (50.53587pt too wide) in paragraph at lines 764--788
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 672.
+ [22] [23]
+Overfull \hbox (50.53587pt too wide) in paragraph at lines 747--771
 [][] 
  []
 
 [24]
-Overfull \hbox (23.91487pt too wide) in paragraph at lines 833--849
+Overfull \hbox (8.66234pt too wide) in paragraph at lines 821--837
+\T1/pplj/m/n/10.95 present in a URL. For ex-am-ple, with the URLs https://wow.p
+aypal.com
+ []
+
+
+Overfull \hbox (23.91487pt too wide) in paragraph at lines 821--837
 \T1/pplj/m/n/10.95 and http://wow.paypal.com.example.com/ or http://login.examp
 le.com/
  []
 
+
+Overfull \hbox (11.33711pt too wide) in paragraph at lines 838--862
+\T1/pplj/m/n/10.95 http://wow.example.net/pathto/wow.paypal.com. Sus-pi-cious U
+RL fea-
+ []
+
 [25] [26] [27]
-Overfull \hbox (3.99706pt too wide) in paragraph at lines 1035--1042
+Overfull \hbox (3.99706pt too wide) in paragraph at lines 1022--1029
 \T1/pplj/m/n/10.95 and do-main/host-name fea-tures are com-ple-ment fea-tures o
 f Page
  []
 
 [28]
-Overfull \hbox (10.58188pt too wide) in paragraph at lines 1054--1058
+Overfull \hbox (10.58188pt too wide) in paragraph at lines 1041--1045
 \T1/pplj/m/n/10.95 ac-tual link des-ti-na-tion. This por-trays hid-den URL and 
 this method
  []
 
-[29]
-Overfull \hbox (14.93044pt too wide) in paragraph at lines 1099--1107
-\T1/pplj/m/n/10.95 makes them much dif-fi-cult to iden-tify phish-ing [[][][]34
-[][]]. Ev-i-dently, Schechter,
- []
-
-<"gfx/human factor".png, id=915, 416.757pt x 332.9238pt>
+<"gfx/human factor".png, id=897, 416.757pt x 332.9238pt>
 File: "gfx/human factor".png Graphic file (type png)
 
 <use "gfx/human factor".png>
-Package pdftex.def Info: "gfx/human factor".png used on input line 1112.
+Package pdftex.def Info: "gfx/human factor".png used on input line 1086.
 (pdftex.def)             Requested size: 250.05612pt x 199.75581pt.
-
-<gfx/kumaraguru-a.png, id=922, 416.757pt x 118.041pt>
+ [29]
+<gfx/kumaraguru-a.png, id=921, 416.757pt x 118.041pt>
 File: gfx/kumaraguru-a.png Graphic file (type png)
 
 <use gfx/kumaraguru-a.png>
-Package pdftex.def Info: gfx/kumaraguru-a.png used on input line 1136.
+Package pdftex.def Info: gfx/kumaraguru-a.png used on input line 1113.
 (pdftex.def)             Requested size: 250.05612pt x 70.82513pt.
 
-<gfx/kumaraguru-b.png, id=925, 416.757pt x 220.6644pt>
+<gfx/kumaraguru-b.png, id=924, 416.757pt x 220.6644pt>
 File: gfx/kumaraguru-b.png Graphic file (type png)
 
 <use gfx/kumaraguru-b.png>
-Package pdftex.def Info: gfx/kumaraguru-b.png used on input line 1138.
+Package pdftex.def Info: gfx/kumaraguru-b.png used on input line 1115.
 (pdftex.def)             Requested size: 250.05612pt x 132.39964pt.
 
-<gfx/kumaraguru-c.png, id=928, 416.757pt x 144.54pt>
+<gfx/kumaraguru-c.png, id=927, 416.757pt x 144.54pt>
 File: gfx/kumaraguru-c.png Graphic file (type png)
 
 <use gfx/kumaraguru-c.png>
-Package pdftex.def Info: gfx/kumaraguru-c.png used on input line 1142.
+Package pdftex.def Info: gfx/kumaraguru-c.png used on input line 1119.
 (pdftex.def)             Requested size: 250.05612pt x 86.72466pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1138--1142
+Underfull \hbox (badness 10000) in paragraph at lines 1115--1119
 [] [][]
  []
 
-
-Overfull \hbox (2.3662pt too wide) in paragraph at lines 1155--1169
-\T1/pplj/m/n/10.95 cated that even af-ter 28 days af-ter train-ing, users train
-ed by PhishGuru
- []
-
-[30 <./gfx/human factor.png>] [31 <./gfx/kumaraguru-a.png> <./gfx/kumaraguru-b.
-png> <./gfx/kumaraguru-c.png>]
-<"gfx/phishing training".png, id=957, 416.757pt x 252.945pt>
+[30 <./gfx/human factor.png>]
+<"gfx/phishing training".png, id=942, 416.757pt x 252.945pt>
 File: "gfx/phishing training".png Graphic file (type png)
 
 <use "gfx/phishing training".png>
-Package pdftex.def Info: "gfx/phishing training".png used on input line 1172.
+Package pdftex.def Info: "gfx/phishing training".png used on input line 1133.
 (pdftex.def)             Requested size: 250.05612pt x 151.76816pt.
- [32 <./gfx/phishing training.png>]) [33]
+ [31 <./gfx/kumaraguru-a.png> <./gfx/kumaraguru-b.png> <./gfx/kumaraguru-c.png>
+ <./gfx/phishing training.png>] [32]) [33]
 \openout2 = `chapter04.aux'.
 
 
@@ -1590,84 +1585,79 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 36--37
  []
 
 
-Overfull \hbox (0.73935pt too wide) in paragraph at lines 39--40
-[]\T1/pplj/m/it/10.95 RQ2: To what ex-tent are the per-sua-sion prin-ci-ples us
-ed in phish-ing emails? 
- []
-
-
 Overfull \hbox (10.88788pt too wide) in paragraph at lines 41--42
 [][] 
  []
 
 
-Overfull \hbox (1.6974pt too wide) in paragraph at lines 43--51
-\T1/pplj/m/n/10.95 generic prop-er-ties and rel-e-vancy of per-sua-sion prin-ci
+Overfull \hbox (0.85426pt too wide) in paragraph at lines 43--51
+\T1/pplj/m/n/10.95 generic prop-er-ties and rel-e-vance of per-sua-sion prin-ci
 -ple to these prop-
  []
 
 [35]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 75--76
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 76--77
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 83--84
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 84--85
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 103--104
+Overfull \hbox (4.95396pt too wide) in paragraph at lines 86--104
+[]\T1/pplj/m/n/10.95 Similar to the au-thor-ity prin-ci-ple that may trig-ger c
+om-pli-ance, scarce
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 105--106
 [][] 
  []
 
 [36]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 108--109
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 110--111
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 122--123
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 127--128
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 129--130
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 139--140
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 141--142
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 144--145
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 146--147
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 159--160
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 162--163
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 164--165
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 167--168
 [][] 
  []
 
 [37]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 179--180
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 183--184
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 184--185
-[][] 
- []
-
-
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 196--197
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 188--189
 [][] 
  []
 
@@ -1677,72 +1667,77 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 200--201
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 213--214
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 205--206
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 221--222
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 218--219
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 226--227
 [][] 
  []
 
 [38]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 237--238
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 241--242
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 242--243
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 246--247
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 250--251
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 254--255
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 255--256
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 259--260
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 267--268
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 271--272
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 272--273
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 276--277
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 279--280
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 283--284
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 284--285
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 288--289
 [][] 
  []
 
 [39]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 291--292
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 295--296
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 296--297
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 300--301
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 304--305
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 308--309
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 309--310
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 313--314
 [][][][][][][] 
  []
 
@@ -1751,7 +1746,7 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 309--310
 
  (./chapter05.tex
 Chapter 4.
-<gfx/methodology_diagram.jpg, id=1035, 157.58875pt x 376.40625pt>
+<gfx/methodology_diagram.jpg, id=1033, 157.58875pt x 376.40625pt>
 File: gfx/methodology_diagram.jpg Graphic file (type jpg)
 
 <use gfx/methodology_diagram.jpg>
@@ -1763,51 +1758,39 @@ Package pdftex.def Info: gfx/methodology_diagram.jpg used on input line 26.
 
 
  <./gfx/methodology_diagram.jpg>]
-<gfx/selection.jpg, id=1040, 452.69125pt x 316.18124pt>
+<gfx/selection.jpg, id=1038, 452.69125pt x 316.18124pt>
 File: gfx/selection.jpg Graphic file (type jpg)
 
 <use gfx/selection.jpg>
-Package pdftex.def Info: gfx/selection.jpg used on input line 53.
+Package pdftex.def Info: gfx/selection.jpg used on input line 54.
 (pdftex.def)             Requested size: 316.88171pt x 221.32535pt.
- [42 <./gfx/selection.jpg>]
-Overfull \hbox (0.5815pt too wide) in paragraph at lines 123--126
-\T1/pplj/m/n/10.95 find more du-pli-cated emails, we search based on ran-dom ph
-rase
- []
-
-[43]
-Overfull \hbox (9.38524pt too wide) in paragraph at lines 181--183
-[]\T1/pplj/m/n/10.95 ReqCallingByPhone; A re-quest to re-spond by call-ing thro
-ugh
- []
-
-[44]
-Overfull \hbox (5.07233pt too wide) in paragraph at lines 208--210
+ [42 <./gfx/selection.jpg>] [43] [44]
+Overfull \hbox (5.07233pt too wide) in paragraph at lines 210--212
 []\T1/pplj/m/it/10.95 Cialdini's Prin-ci-ples\T1/pplj/m/n/10.95 : Spec-i-fies w
 hat prin-ci-ple(s) the phish-ing email
  []
 
-[45] [46] <gfx/pseudo-cialdini-2.jpg, id=1115, 990.70125pt x 1397.22pt>
+[45] [46]
+Overfull \hbox (5.2343pt too wide) in paragraph at lines 322--332
+\T1/pplj/m/n/10.95 such a mes-sage tells a re-cip-i-ent to re-act or re-spond t
+o scarce/becoming-
+ []
+
+<gfx/pseudo-cialdini-2.jpg, id=1112, 990.70125pt x 1397.22pt>
 File: gfx/pseudo-cialdini-2.jpg Graphic file (type jpg)
 
 <use gfx/pseudo-cialdini-2.jpg>
-Package pdftex.def Info: gfx/pseudo-cialdini-2.jpg used on input line 330.
+Package pdftex.def Info: gfx/pseudo-cialdini-2.jpg used on input line 335.
 (pdftex.def)             Requested size: 396.27348pt x 558.87811pt.
 
-Overfull \hbox (60.27348pt too wide) in paragraph at lines 330--331
+Overfull \hbox (60.27348pt too wide) in paragraph at lines 335--336
  [][] 
  []
 
 [47]
-Overfull \hbox (33.38658pt too wide) in paragraph at lines 340--340
+Overfull \hbox (33.38658pt too wide) in paragraph at lines 345--345
 [][]\T1/pplj/m/n/9 Shapes and lines were cre-ated based on http://www.rff.com/h
 ow_to_draw_a_flowchart.htm| 
- []
-
-
-Overfull \hbox (0.95824pt too wide) in paragraph at lines 346--352
-\T1/pplj/m/n/10.95 method-ol-ogy in con-sid-er-able de-tails. Un-til data clas-
-si-fi-ca-tion, we have
  []
 
 [48 <./gfx/pseudo-cialdini-2.jpg>] [49]
@@ -1818,284 +1801,278 @@ Package microtype Info: Character `029' is missing
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
- [51] [52]
-<"gfx/reasons_detailed_17september2014_bar chart1".jpg, id=1152, 628.3475pt x 5
+ [51]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<"gfx/reasons_detailed_17september2014_bar chart1".jpg, id=1146, 628.3475pt x 5
 02.87875pt>
 File: "gfx/reasons_detailed_17september2014_bar chart1".jpg Graphic file (type 
 jpg)
  <use "gfx/reasons_detailed_17september2014_bar chart1".jpg>
 Package pdftex.def Info: "gfx/reasons_detailed_17september2014_bar chart1".jpg 
-used on input line 631.
+used on input line 636.
 (pdftex.def)             Requested size: 377.0114pt x 301.72957pt.
 
-Overfull \hbox (41.0114pt too wide) in paragraph at lines 631--632
+Overfull \hbox (41.0114pt too wide) in paragraph at lines 636--637
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[52]
+Overfull \hbox (2.34802pt too wide) in paragraph at lines 686--702
+\T1/pplj/m/n/10.95 emails. [][]Ta-ble 15[][][] de-picts the re-la-tion-ship be-
+tween government-targeted
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+
+Overfull \hbox (4.01326pt too wide) in paragraph at lines 686--702
+\T1/pplj/m/n/10.95 emails and the au-thor-ity prin-ci-ple. Fur-ther-more, of al
+l phish-ing emails,
+ []
 
 [53]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 697--717
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 703--723
 [][] 
  []
 
 [54 <./gfx/reasons_detailed_17september2014_bar chart1.jpg>]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 730--750
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 736--756
 [][] 
  []
 
 
-Overfull \hbox (1.35065pt too wide) in paragraph at lines 751--764
+Overfull \hbox (1.35065pt too wide) in paragraph at lines 757--769
 []\T1/pplj/m/n/10.95 Now we look at the as-so-ci-a-tion be-tween fi-nan-cial se
 c-tor and scarcity
  []
 
 
-Overfull \hbox (2.84724pt too wide) in paragraph at lines 751--764
-\T1/pplj/m/n/10.95 emails which tar-get fi-nan-cial sec-tor have scarcity prin-
-ci-ple while 60.3%
- []
-
-
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 765--784
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 770--789
 [][] 
  []
 
 [55]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 798--818
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 804--824
 [][] 
  []
 
 [56]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 831--850
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 838--857
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 861--882
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 867--888
 [][] 
  []
 
 [57]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 900--921
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 907--928
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 935--954
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 942--961
 [][] 
  []
 
 [58]
-Overfull \hbox (5.62462pt too wide) in alignment at lines 970--986
+Overfull \hbox (5.62462pt too wide) in alignment at lines 977--993
  [] [] [] [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 969--988
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 976--995
 [][] 
  []
 
 
-Overfull \hbox (25.06302pt too wide) in paragraph at lines 993--1002
-\T1/pplj/m/n/10.95 ship be-tween URL pres-ence and re-quest to click URL, $\OML
-/zplm/m/it/10.95 X[]\OT1/zplm/m/n/10.95 (\OT1/pplx/m/n/10.95 1\OT1/zplm/m/n/10.
-95 ) = \OT1/pplx/m/n/10.95 174.079, \OML/zplm/m/it/10.95 p <
- []
-
-
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1003--1023
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1010--1030
 [][] 
  []
 
 [59]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1039--1058
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1045--1064
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1070--1089
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1076--1095
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1104--1124
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1110--1130
 [][] 
  []
 
 [60]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1138--1156
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1144--1162
 [][] 
  []
 
 
-Overfull \hbox (10.29558pt too wide) in alignment at lines 1171--1186
+Overfull \hbox (10.29558pt too wide) in alignment at lines 1177--1192
  [] [] [] [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1170--1188
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1176--1194
 [][] 
  []
 
 [61]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1202--1219
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1207--1224
 [][] 
  []
 
 [62]
-Overfull \hbox (54.34276pt too wide) in alignment at lines 1243--1273
+Overfull \hbox (54.34276pt too wide) in alignment at lines 1248--1278
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1242--1278
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1247--1283
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1242--1278
+Underfull \hbox (badness 10000) in paragraph at lines 1247--1283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1242--1278
+Underfull \hbox (badness 10000) in paragraph at lines 1247--1283
 
  []
 
 
-<"gfx/screenshots phishing email/Financial target and Scarcity".png, id=1221, 1
+<"gfx/screenshots phishing email/Financial target and Scarcity".png, id=1216, 1
 395.2125pt x 395.4775pt>
 File: "gfx/screenshots phishing email/Financial target and Scarcity".png Graphi
 c file (type png)
 
 <use "gfx/screenshots phishing email/Financial target and Scarcity".png>
 Package pdftex.def Info: "gfx/screenshots phishing email/Financial target and S
-carcity".png used on input line 1301.
+carcity".png used on input line 1306.
 (pdftex.def)             Requested size: 418.56697pt x 118.64417pt.
 
-Overfull \hbox (82.56697pt too wide) in paragraph at lines 1301--1301
+Overfull \hbox (82.56697pt too wide) in paragraph at lines 1306--1306
 [][] 
  []
 
 [63]
-<"gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png, id=1229,
+<"gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png, id=1224,
  655.44875pt x 720.6925pt>
 File: "gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png Grap
 hic file (type png)
 
 <use "gfx/screenshots phishing email/E-Commerce:Retails and scarcity".png>
 Package pdftex.def Info: "gfx/screenshots phishing email/E-Commerce:Retails and
- scarcity".png used on input line 1316.
+ scarcity".png used on input line 1320.
 (pdftex.def)             Requested size: 294.9492pt x 324.30862pt.
 
-<"gfx/screenshots phishing email/Administrator and scarcity".png, id=1230, 773.
+<"gfx/screenshots phishing email/Administrator and scarcity".png, id=1225, 773.
 89125pt x 614.295pt>
 File: "gfx/screenshots phishing email/Administrator and scarcity".png Graphic f
 ile (type png)
 
 <use "gfx/screenshots phishing email/Administrator and scarcity".png>
 Package pdftex.def Info: "gfx/screenshots phishing email/Administrator and scar
-city".png used on input line 1322.
+city".png used on input line 1326.
 (pdftex.def)             Requested size: 348.24785pt x 276.43019pt.
 
-Overfull \hbox (12.24785pt too wide) in paragraph at lines 1322--1322
+Overfull \hbox (12.24785pt too wide) in paragraph at lines 1326--1326
  [][] 
  []
 
 [64 <./gfx/screenshots phishing email/Financial target and Scarcity.png> <./gfx
 /screenshots phishing email/E-Commerce:Retails and scarcity.png>]
-Overfull \hbox (2.08603pt too wide) in paragraph at lines 1326--1340
-\T1/pplj/m/n/10.95 quired con-sis-tency from the re-cip-i-ent. From [][]Fig-ure
- 16[][][], the email stated
- []
-
-
-<"gfx/screenshots phishing email/government and consistency".png, id=1239, 1560
+<"gfx/screenshots phishing email/government and consistency".png, id=1234, 1560
 .83125pt x 471.7625pt>
 File: "gfx/screenshots phishing email/government and consistency".png Graphic f
 ile (type png)
 
 <use "gfx/screenshots phishing email/government and consistency".png>
 Package pdftex.def Info: "gfx/screenshots phishing email/government and consist
-ency".png used on input line 1342.
+ency".png used on input line 1347.
 (pdftex.def)             Requested size: 702.36758pt x 212.29115pt.
 
-Overfull \hbox (366.36758pt too wide) in paragraph at lines 1342--1343
+Overfull \hbox (366.36758pt too wide) in paragraph at lines 1347--1348
 [][] 
  []
 
 [65 <./gfx/screenshots phishing email/Administrator and scarcity.png>]
-<"gfx/screenshots phishing email/government and consistency-2".png, id=1245, 82
+<"gfx/screenshots phishing email/government and consistency-2".png, id=1240, 82
 6.08624pt x 405.515pt>
 File: "gfx/screenshots phishing email/government and consistency-2".png Graphic
  file (type png)
 
 <use "gfx/screenshots phishing email/government and consistency-2".png>
 Package pdftex.def Info: "gfx/screenshots phishing email/government and consist
-ency-2".png used on input line 1353.
+ency-2".png used on input line 1358.
 (pdftex.def)             Requested size: 371.73537pt x 182.48006pt.
 
-Overfull \hbox (35.73537pt too wide) in paragraph at lines 1353--1354
+Overfull \hbox (35.73537pt too wide) in paragraph at lines 1358--1359
  [][] 
  []
 
 
-Overfull \hbox (75.98389pt too wide) in alignment at lines 1373--1401
+Overfull \hbox (75.98389pt too wide) in alignment at lines 1378--1406
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1372--1430
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1377--1437
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1430
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1437
 
  []
 
 [66 <./gfx/screenshots phishing email/government and consistency.png> <./gfx/sc
 reenshots phishing email/government and consistency-2.png>] [67]
-Overfull \hbox (73.78392pt too wide) in alignment at lines 1452--1472
+Overfull \hbox (73.78392pt too wide) in alignment at lines 1459--1479
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1451--1484
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1458--1491
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1451--1484
+Underfull \hbox (badness 10000) in paragraph at lines 1458--1491
 
  []
 
 
 <"gfx/screenshots phishing email-2/Financial incentive and consistency copy".pn
-g, id=1264, 650.43pt x 555.07375pt>
+g, id=1258, 650.43pt x 555.07375pt>
 File: "gfx/screenshots phishing email-2/Financial incentive and consistency cop
 y".png Graphic file (type png)
 
 <use "gfx/screenshots phishing email-2/Financial incentive and consistency copy
 ".png>
 Package pdftex.def Info: "gfx/screenshots phishing email-2/Financial incentive 
-and consistency copy".png used on input line 1496.
+and consistency copy".png used on input line 1503.
 (pdftex.def)             Requested size: 325.2142pt x 277.53618pt.
  [68]
 <"gfx/screenshots phishing email-2/social reason and likeability-2 copy".png, i
-d=1272, 617.30624pt x 677.53125pt>
+d=1268, 617.30624pt x 677.53125pt>
 File: "gfx/screenshots phishing email-2/social reason and likeability-2 copy".p
 ng Graphic file (type png)
 
 <use "gfx/screenshots phishing email-2/social reason and likeability-2 copy".pn
 g>
 Package pdftex.def Info: "gfx/screenshots phishing email-2/social reason and li
-keability-2 copy".png used on input line 1525.
+keability-2 copy".png used on input line 1532.
 (pdftex.def)             Requested size: 277.78523pt x 304.88625pt.
 
 
@@ -2103,33 +2080,33 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [69 <./gfx/screenshots phishing email-2/Financial incentive and consistency cop
 y.png>]
-Overfull \hbox (53.15192pt too wide) in alignment at lines 1538--1556
+Overfull \hbox (53.15192pt too wide) in alignment at lines 1546--1564
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1537--1578
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1545--1586
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1537--1578
+Underfull \hbox (badness 10000) in paragraph at lines 1545--1586
 
  []
 
 [70 <./gfx/screenshots phishing email-2/social reason and likeability-2 copy.pn
 g>]
-Overfull \hbox (51.96918pt too wide) in alignment at lines 1604--1635
+Overfull \hbox (51.96918pt too wide) in alignment at lines 1613--1644
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 1602--1643
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 1611--1652
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1602--1643
+Underfull \hbox (badness 10000) in paragraph at lines 1611--1652
 
  []
 
@@ -2138,23 +2115,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 1602--1643
 
  (./Chapter06.tex
 Chapter 5.
+
+Overfull \hbox (7.68803pt too wide) in paragraph at lines 49--52
+[]\T1/pplj/m/n/10.95 As we il-lus-trated in [][]Ta-ble 29[][][], phish-ing emai
+ls that have document-
+ []
+
 [73
 
 
 
 
 ]
-Overfull \hbox (29.55423pt too wide) in paragraph at lines 95--101
-\T1/pplj/m/n/10.95 like-abil-ity prin-ci-ple as both e-commerce/retails and non
--ecommerce/retails
+Overfull \hbox (6.64763pt too wide) in paragraph at lines 85--93
+\T1/pplj/m/n/10.95 nan-cial sec-tor and scarcity prin-ci-ple, we see that admin
+istrator-targeted
+ []
+
+
+Overfull \hbox (14.51427pt too wide) in paragraph at lines 85--93
+\T1/pplj/m/n/10.95 emails are likely to have scarcity prin-ci-ple. In con-trast
+, non-administrator
+ []
+
+
+Overfull \hbox (6.02266pt too wide) in paragraph at lines 85--93
+\T1/pplj/m/n/10.95 find-ings sug-gest that the strength of as-so-ci-a-tion be-t
+ween administrator-
+ []
+
+
+Overfull \hbox (39.67203pt too wide) in paragraph at lines 94--101
+\T1/pplj/m/n/10.95 abil-ity prin-ci-ple as both e-commerce/retail sec-tor and n
+on- e-commerce/retail
+ []
+
+
+Overfull \hbox (4.17216pt too wide) in paragraph at lines 94--101
+\T1/pplj/m/n/10.95 sec-tor tar-geted emails have a high num-ber fea-tur-ing the
+ non-likeability
  []
 
 [74]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 122--197
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 121--196
 [][] 
  []
 
-[75] [76] [77] [78]) [79] [80
+[75] [76] [77]
+Overfull \hbox (1.14998pt too wide) in paragraph at lines 336--340
+\T1/pplj/m/n/10.95 chal-leng-ing task to find as-so-ci-a-tions us-ing Pear-son 
+chi-square method. 
+ []
+
+[78]) [79] [80
 
 
 
@@ -2164,7 +2177,7 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 122--197
  (./Chapter0A.tex
 Appendix A.
 
-<"gfx/financial_detailed_17september2014_bar chart1".jpg, id=1365, 628.3475pt x
+<"gfx/financial_detailed_17september2014_bar chart1".jpg, id=1363, 628.3475pt x
  502.87875pt>
 File: "gfx/financial_detailed_17september2014_bar chart1".jpg Graphic file (typ
 e jpg)
@@ -2216,12 +2229,6 @@ m-put-ers & Se-cu-rity \T1/pplj/m/n/10.95 26.1 (2007),
 
 
 ]
-Overfull \hbox (5.43117pt too wide) in paragraph at lines 3--3
-[]\T1/pplj/m/n/10.95 Aaron Emigh. ``On-line iden-tity theft: Phish-ing tech-nol
--ogy, choke-
- []
-
-
 Overfull \hbox (6.09297pt too wide) in paragraph at lines 3--3
 []\T1/pplj/m/n/10.95 Markus Jakob-s-son. ``Mod-el-ing and Pre-vent-ing Phish-in
 g At-tacks.''
@@ -2233,19 +2240,13 @@ Overfull \hbox (9.26736pt too wide) in paragraph at lines 3--3
  Se-cu-rity\T1/pplj/m/n/10.95 . Springer, 2005, pp. 89^^U
  []
 
-[84]
+
 Overfull \hbox (13.37848pt too wide) in paragraph at lines 3--3
 \T1/pplj/m/n/10.95 aware-ness.'' \T1/pplj/m/it/10.95 Be-haviour & In-for-ma-tio
 n Tech-nol-ogy \T1/pplj/m/n/10.95 32.6 (2013), pp. 584^^U
  []
 
-
-Overfull \hbox (18.08253pt too wide) in paragraph at lines 3--3
-\T1/pplj/m/n/10.95 Ed-u-ca-tion.'' In: \T1/pplj/m/it/10.95 e-Education, e-Busin
-ess, e-Management, and e-Learning,
- []
-
-
+[84]
 Overfull \hbox (2.70677pt too wide) in paragraph at lines 3--3
 \T1/pplj/m/it/10.95 fer-ence on Se-cu-rity of In-for-ma-tion and Net-works\T1/p
 plj/m/n/10.95 . ACM. 2013, pp. 28^^U
@@ -2269,13 +2270,13 @@ Overfull \hbox (7.7949pt too wide) in paragraph at lines 3--3
 shdef:
  []
 
-[85] [86]
+[85]
 Overfull \hbox (24.37947pt too wide) in paragraph at lines 3--3
 []\T1/pplj/m/n/10.95 Swapan Purkait. ``Phish-ing counter mea-sures and their ef
 fectiveness--
  []
 
-[87]
+[86] [87]
 
 Package biblatex Warning: Setting 'defernumbers=true' recommended.
 
@@ -2289,6 +2290,12 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+Overfull \hbox (5.43117pt too wide) in paragraph at lines 5--5
+[]\T1/pplj/m/n/10.95 Aaron Emigh. ``On-line iden-tity theft: Phish-ing tech-nol
+-ogy, choke-
+ []
+
 
 Overfull \hbox (6.10902pt too wide) in paragraph at lines 5--5
 \T1/fvm/m/n/10.95 / / www . scmagazine . com / medical -[] staffers -[] fall -[
@@ -2550,10 +2557,10 @@ Package logreq Info: Writing requests to 'NurulAkbar_Thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 21764 strings out of 493315
- 354256 string characters out of 6137904
- 888753 words of memory out of 5000000
- 24302 multiletter control sequences out of 15000+600000
+ 21765 strings out of 493315
+ 354280 string characters out of 6137904
+ 888763 words of memory out of 5000000
+ 24303 multiletter control sequences out of 15000+600000
  77433 words of font info for 96 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,67p,977b,5459s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2568,7 +2575,7 @@ onts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
 e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/
 palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb>
-Output written on NurulAkbar_Thesis.pdf (103 pages, 2334181 bytes).
+Output written on NurulAkbar_Thesis.pdf (103 pages, 2332163 bytes).
 PDF statistics:
  1706 PDF objects out of 1728 (max. 8388607)
  1519 compressed objects within 16 object streams

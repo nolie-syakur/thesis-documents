@@ -229,16 +229,22 @@ key "phishorg"
 
 .
  Since 1996, phishing has flourished.
- In 2004, total losses due to phishing reached more than U.S.$ 2 billion,
- and more than 15,000 sites were victims 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "fellman:2004"
+ In 2004, phishing was recognized as fully industrialized in terms of economy
+ of crime: On the black market off-the-shelf components for ready-made phishing
+ attacks were for sale 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{abad2005economy}
+\end_layout
 
 \end_inset
 
 .
- We discuss direct and indirect costs nowadays in a later section.
  Jakobsson et al.
  
 \begin_inset CommandInset citation

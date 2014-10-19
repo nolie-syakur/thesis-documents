@@ -4443,7 +4443,7 @@ Now we look at the association between phishing emails targeting social
 \uwave off
 \noun off
 \color none
-wih 
+with 
 \begin_inset Formula $X^{2}(1)=3.823,p=0.051$
 \end_inset
 
@@ -10029,8 +10029,8 @@ fig:Financial-target-and
 
  shows a financial targeted email (Visa and MasterCard) stating: “Your credit
  card is suspended,”.
- In other words, the recipien's belongings will be scarce indefinitely if
- the recipient does not respond to the email within a limited time.
+ In other words, the recipient's belongings will be scarce indefinitely
+ if the recipient does not respond to the email within a limited time.
  A similar scenario is illustrated in 
 \begin_inset Flex CT - auto cross-reference
 status open
@@ -14019,7 +14019,7 @@ Frequency analysis target types vs reason types
 \end_inset
 
 We find interesting characteristics regarding the second most used principle
- by observing the highest occurence of reason types in terms of the target
+ by observing the highest occurrence of reason types in terms of the target
  types.
  The observation gave the following characteristics:
 \end_layout
