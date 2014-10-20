@@ -725,6 +725,17 @@ tab:compilation-phases
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align left
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="1">
@@ -1569,6 +1580,51 @@ Post-attack
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gfx/emigh.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:emigh"
+
+\end_inset
+
+Flow of information in phishing attack 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "emigh:2005"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 As shown in 
 \begin_inset Flex CT - auto cross-reference
 status collapsed
@@ -1665,15 +1721,17 @@ tab:compilation-phases
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
+ 
 \begin_inset Graphics
-	filename gfx/emigh.png
-	scale 40
+	filename gfx/info-flow-nolie.png
+	scale 30
 
 \end_inset
 
@@ -1683,26 +1741,15 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:emigh"
+name "fig:Information-flow-phishing"
 
 \end_inset
 
-Flow of information in phishing attack 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "emigh:2005"
-
-\end_inset
-
-
+Information flow phishing attack
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1786,7 +1833,7 @@ fig:Information-flow-phishing
 
 \begin_layout Standard
 6.
- Collect stolen information 
+ Collect stolen information
 \end_layout
 
 \begin_layout Standard
@@ -1795,50 +1842,12 @@ fig:Information-flow-phishing
 
 \begin_layout Standard
 7.
- Impersonates victim 
+ Impersonates victim
 \end_layout
 
 \begin_layout Standard
 8.
- Received pay out from the bank 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-Collect stolen information 
-\begin_inset Graphics
-	filename gfx/info-flow-nolie.png
-	scale 30
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Information-flow-phishing"
-
-\end_inset
-
-Information flow phishing attack
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+ Received pay out from the bank
 \end_layout
 
 \begin_layout Standard
@@ -2011,7 +2020,7 @@ Moreover, phishers may embed a login page directly to the email content.
 \begin_layout Standard
 Another type of deceptive phishing scheme is rock-phish attacks.
  They were held responsible for half of the reported phishing incidents
- worldwide in 2005
+ worldwide in 2005 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "moore:2007"
