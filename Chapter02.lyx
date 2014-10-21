@@ -229,22 +229,6 @@ key "phishorg"
 
 .
  Since 1996, phishing has flourished.
- In 2004, phishing was recognized as fully industrialized in terms of economy
- of crime: On the black market off-the-shelf components for ready-made phishing
- attacks were for sale 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{abad2005economy}
-\end_layout
-
-\end_inset
-
-.
  Jakobsson et al.
  
 \begin_inset CommandInset citation
@@ -314,11 +298,35 @@ key "phishorg"
 \end_inset
 
 .
+ In 2004, phishing was recognized as fully industrialized in terms of economy
+ of crime: In the underground market, 
+\begin_inset Quotes eld
+\end_inset
+
+off-the-shelf
+\begin_inset Quotes erd
+\end_inset
+
+ components for ready-made phishing attacks were available for sale 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{abad2005economy}
+\end_layout
+
+\end_inset
+
+.
  To the present day, phishing attacks might not only be motivated by financial
  gain but also political reasons, and they emerged not only with AOL users,
  but also any online users.
  Consequently, large number of legitimate institutions such as PayPal and
  eBay are being spoofed.
+ 
 \end_layout
 
 \begin_layout Subsection

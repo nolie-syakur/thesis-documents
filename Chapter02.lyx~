@@ -229,22 +229,6 @@ key "phishorg"
 
 .
  Since 1996, phishing has flourished.
- In 2004, phishing was recognized as fully industrialized in terms of economy
- of crime: On the black market off-the-shelf components for ready-made phishing
- attacks were for sale 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citep{abad2005economy}
-\end_layout
-
-\end_inset
-
-.
  Jakobsson et al.
  
 \begin_inset CommandInset citation
@@ -319,6 +303,29 @@ key "phishorg"
  but also any online users.
  Consequently, large number of legitimate institutions such as PayPal and
  eBay are being spoofed.
+ In 2004, phishing was recognized as fully industrialized in terms of economy
+ of crime: In the underground market, 
+\begin_inset Quotes eld
+\end_inset
+
+off-the-shelf
+\begin_inset Quotes erd
+\end_inset
+
+ components for ready-made phishing attacks were available for sale 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{abad2005economy}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -2020,7 +2027,7 @@ Moreover, phishers may embed a login page directly to the email content.
 \begin_layout Standard
 Another type of deceptive phishing scheme is rock-phish attacks.
  They were held responsible for half of the reported phishing incidents
- worldwide in 2005
+ worldwide in 2005 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "moore:2007"
